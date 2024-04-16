@@ -342,3 +342,51 @@
 [2024-04-17 00:21:27] INFO root fetch - processPackages [cheroot]: Remove: archive file [/home/abi/fetcher/tmp/cheroot-9.0.0.tar.gz]
 [2024-04-17 00:21:27] INFO root fetch - main [MainThread]: End processing [cheroot]: success
 [2024-04-17 00:21:27] INFO root fetch - main [MainThread]: Store serial: [22795850]
+[2024-04-17 00:23:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795850]
+[2024-04-17 00:23:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 00:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bpm-ai
+[2024-04-17 00:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: athena-intelligence
+[2024-04-17 00:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-cpp-agent
+[2024-04-17 00:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal
+[2024-04-17 00:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal-client
+[2024-04-17 00:23:36] INFO root fetch - processPackages [athena-intelligence]: New version: [0.1.37] Old Version: [0.1.36]
+[2024-04-17 00:23:36] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-17 00:23:36] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-17 00:23:36] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/33/6f/8aa4f8e2ab876cdb838feea268b2264ecfbeddaa247cf91585974ab34429/athena_intelligence-0.1.36.tar.gz
+[2024-04-17 00:23:36] INFO root fetch - processPackages [bpm-ai]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-17 00:23:36] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 00:23:36] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-17 00:23:36] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-17 00:23:36] INFO root fetch - processPackages [bpm-ai]: Downloading https://files.pythonhosted.org/packages/41/16/6f5e11a2a3614fb4cd4b152abc5232eb9ca646807f253b06f21d61715d75/bpm_ai-1.5.0.tar.gz
+[2024-04-17 00:23:36] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/b1/dc/cf0fbb161c3d3c231fcd4737a8f55f4183bbbf8030ccb12b79a20348556e/llama-cpp-agent-0.0.8.tar.gz
+[2024-04-17 00:23:36] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-17 00:23:36] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/9b/6f/aafc0ce2d0cf5675e16abbc8e726239ef91edc98911b33dca3c579a94e5e/athena_intelligence-0.1.37.tar.gz
+[2024-04-17 00:23:36] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-17 00:23:36] INFO root fetch - processPackages [bpm-ai]: Downloading https://files.pythonhosted.org/packages/6e/11/e9d71ab792f708a5f6f7ca8c462be6c4c1a29a51c4e890e0155e105e42e5/bpm_ai-1.6.0.tar.gz
+[2024-04-17 00:23:36] INFO root fetch - processPackages [athena-intelligence]: executing diffoscope
+[2024-04-17 00:23:36] INFO root fetch - processPackages [athena-intelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_intelligence-0.1.36.tar.gz tmp/athena_intelligence-0.1.37.tar.gz --markdown 20240417/a/athena-intelligence/0.1.36-0.1.37/README.md --exclude *.pyd
+[2024-04-17 00:23:36] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-17 00:23:36] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240417/m/modal/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-17 00:23:36] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/72/d2/fe669d324be099dc10673e05fdedaa55577529de265f254f94bf2c1eca23/llama-cpp-agent-0.0.9.tar.gz
+[2024-04-17 00:23:36] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-17 00:23:36] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240417/m/modal-client/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-17 00:23:37] INFO root fetch - processPackages [bpm-ai]: executing diffoscope
+[2024-04-17 00:23:37] INFO root fetch - processPackages [bpm-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai-1.5.0.tar.gz tmp/bpm_ai-1.6.0.tar.gz --markdown 20240417/b/bpm-ai/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-17 00:23:37] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-04-17 00:23:37] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama-cpp-agent-0.0.8.tar.gz tmp/llama-cpp-agent-0.0.9.tar.gz --markdown 20240417/l/llama-cpp-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 00:23:37] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.36.tar.gz]
+[2024-04-17 00:23:37] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.37.tar.gz]
+[2024-04-17 00:23:37] INFO root fetch - main [MainThread]: End processing [athena-intelligence]: success
+[2024-04-17 00:23:37] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-17 00:23:37] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-17 00:23:37] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-17 00:23:37] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.8.tar.gz]
+[2024-04-17 00:23:37] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.9.tar.gz]
+[2024-04-17 00:23:37] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-04-17 00:23:37] INFO root fetch - processPackages [bpm-ai]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai-1.5.0.tar.gz]
+[2024-04-17 00:23:37] INFO root fetch - processPackages [bpm-ai]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai-1.6.0.tar.gz]
+[2024-04-17 00:23:37] INFO root fetch - main [MainThread]: End processing [bpm-ai]: success
+[2024-04-17 00:23:38] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-17 00:23:38] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-17 00:23:38] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-17 00:23:38] INFO root fetch - main [MainThread]: Store serial: [22795863]
