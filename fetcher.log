@@ -1552,3 +1552,24 @@
 [2024-04-17 01:44:54] INFO root fetch - processPackages [armodel]: Remove: archive file [/home/abi/fetcher/tmp/armodel-1.2.0-py3-none-any.whl.zip]
 [2024-04-17 01:44:54] INFO root fetch - main [MainThread]: End processing [armodel]: success
 [2024-04-17 01:44:54] INFO root fetch - main [MainThread]: Store serial: [22796391]
+[2024-04-17 01:46:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796391]
+[2024-04-17 01:47:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 01:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-postgres
+[2024-04-17 01:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mbari-pbp
+[2024-04-17 01:47:03] INFO root fetch - processPackages [mbari-pbp]: New version: [0.3.0b9] Old Version: [0.3.0b8]
+[2024-04-17 01:47:03] INFO root fetch - processPackages [mbari-pbp]: Downloading https://files.pythonhosted.org/packages/cf/29/ff20d8314376f876aa3a6579740fad1181c084a7d4b03a4ac89e27e35ba7/mbari_pbp-0.3.0b8.tar.gz
+[2024-04-17 01:47:03] INFO root fetch - processPackages [dbt-postgres]: New version: [1.8.0b4] Old Version: [1.8.0b2]
+[2024-04-17 01:47:03] INFO root fetch - processPackages [mbari-pbp]: Downloading https://files.pythonhosted.org/packages/b4/9a/e36916a9b680f4d1b9465eadb829fcabefd7cc5f6ec46ae5d8c328600254/mbari_pbp-0.3.0b9.tar.gz
+[2024-04-17 01:47:03] INFO root fetch - processPackages [dbt-postgres]: Downloading https://files.pythonhosted.org/packages/fc/4a/5026d3aceee785a0b03aa3ed176b20e13eae6599db343b450a695ec70fb6/dbt_postgres-1.8.0b2.tar.gz
+[2024-04-17 01:47:03] INFO root fetch - processPackages [mbari-pbp]: executing diffoscope
+[2024-04-17 01:47:03] INFO root fetch - processPackages [mbari-pbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbari_pbp-0.3.0b8.tar.gz tmp/mbari_pbp-0.3.0b9.tar.gz --markdown 20240417/m/mbari-pbp/0.3.0b8-0.3.0b9/README.md --exclude *.pyd
+[2024-04-17 01:47:03] INFO root fetch - processPackages [dbt-postgres]: Downloading https://files.pythonhosted.org/packages/3e/b9/85be38bc08cd3ae0270e07a56edb12b25503bb7e6536f8eed60a293bea3e/dbt_postgres-1.8.0b4.tar.gz
+[2024-04-17 01:47:03] INFO root fetch - processPackages [dbt-postgres]: executing diffoscope
+[2024-04-17 01:47:03] INFO root fetch - processPackages [dbt-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_postgres-1.8.0b2.tar.gz tmp/dbt_postgres-1.8.0b4.tar.gz --markdown 20240417/d/dbt-postgres/1.8.0b2-1.8.0b4/README.md --exclude *.pyd
+[2024-04-17 01:47:04] INFO root fetch - processPackages [mbari-pbp]: Remove: archive file [/home/abi/fetcher/tmp/mbari_pbp-0.3.0b8.tar.gz]
+[2024-04-17 01:47:04] INFO root fetch - processPackages [mbari-pbp]: Remove: archive file [/home/abi/fetcher/tmp/mbari_pbp-0.3.0b9.tar.gz]
+[2024-04-17 01:47:04] INFO root fetch - main [MainThread]: End processing [mbari-pbp]: success
+[2024-04-17 01:47:04] INFO root fetch - processPackages [dbt-postgres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_postgres-1.8.0b2.tar.gz]
+[2024-04-17 01:47:04] INFO root fetch - processPackages [dbt-postgres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_postgres-1.8.0b4.tar.gz]
+[2024-04-17 01:47:04] INFO root fetch - main [MainThread]: End processing [dbt-postgres]: success
+[2024-04-17 01:47:04] INFO root fetch - main [MainThread]: Store serial: [22796397]
