@@ -1065,3 +1065,57 @@
 [2024-04-17 01:12:04] INFO root fetch - processPackages [scalex]: Remove: archive file [/home/abi/fetcher/tmp/scalex-1.0.3.tar.gz]
 [2024-04-17 01:12:04] INFO root fetch - main [MainThread]: End processing [scalex]: success
 [2024-04-17 01:12:04] INFO root fetch - main [MainThread]: Store serial: [22796140]
+[2024-04-17 01:14:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796140]
+[2024-04-17 01:14:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 01:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cssfinder
+[2024-04-17 01:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-anthropic
+[2024-04-17 01:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threadmem
+[2024-04-17 01:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fgutils
+[2024-04-17 01:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sapphire-renderer
+[2024-04-17 01:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polars-ols
+[2024-04-17 01:14:14] INFO root fetch - processPackages [sapphire-renderer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 01:14:14] INFO root fetch - processPackages [fgutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 01:14:14] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/2b/42/94c0538f43a9b8e7cb54f37e97b259fbdd1ec3592931d86660f100f5ce0e/sapphire-renderer-0.0.8.tar.gz
+[2024-04-17 01:14:14] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/80/18/26339678181e627e22509518537c67d0c0d10a3c6840dd8a434b091ea0c0/fgutils-0.0.8.tar.gz
+[2024-04-17 01:14:14] INFO root fetch - processPackages [langchain-anthropic]: New version: [0.1.9] Old Version: [0.1.8rc1]
+[2024-04-17 01:14:14] INFO root fetch - processPackages [threadmem]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 01:14:14] INFO root fetch - processPackages [cssfinder]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-17 01:14:14] INFO root fetch - processPackages [polars-ols]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-17 01:14:14] INFO root fetch - processPackages [langchain-anthropic]: Downloading https://files.pythonhosted.org/packages/a5/fe/44f0c10a3557aca67639610754b8c337c3b0e0a6464e302cf7746d36ac3d/langchain_anthropic-0.1.8rc1.tar.gz
+[2024-04-17 01:14:14] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/d1/30/a9cf7f0975ba0079eb4b0074823ecadf7175a720835daa0dfe3c4994eb7a/threadmem-0.2.8.tar.gz
+[2024-04-17 01:14:14] INFO root fetch - processPackages [cssfinder]: Downloading https://files.pythonhosted.org/packages/71/75/81ada96a86ba3c377965a13181d8610e457ddef5039d770324500eb339f4/cssfinder-0.7.0.tar.gz
+[2024-04-17 01:14:14] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/b2/9e/61ac35415068272bad61fd205b44dd743d9c6e617901b23d6ed576442141/fgutils-0.0.9.tar.gz
+[2024-04-17 01:14:14] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/f8/31/8de4b92c9035b28151912286005bd004a22beea4fc1de98c231b009bd2be/sapphire-renderer-0.0.9.tar.gz
+[2024-04-17 01:14:14] INFO root fetch - processPackages [polars-ols]: Downloading https://files.pythonhosted.org/packages/05/b9/2bf1ac3d1655581fa69bf11dab583858a833af41a1d461b2878dafb7a830/polars_ols-0.2.9.tar.gz
+[2024-04-17 01:14:14] INFO root fetch - processPackages [fgutils]: executing diffoscope
+[2024-04-17 01:14:14] INFO root fetch - processPackages [fgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgutils-0.0.8.tar.gz tmp/fgutils-0.0.9.tar.gz --markdown 20240417/f/fgutils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 01:14:14] INFO root fetch - processPackages [sapphire-renderer]: executing diffoscope
+[2024-04-17 01:14:14] INFO root fetch - processPackages [sapphire-renderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapphire-renderer-0.0.8.tar.gz tmp/sapphire-renderer-0.0.9.tar.gz --markdown 20240417/s/sapphire-renderer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 01:14:14] INFO root fetch - processPackages [langchain-anthropic]: Downloading https://files.pythonhosted.org/packages/75/16/a36a4d4377231070a2258687d8f3a13edf9f0db83f168f148227078ca109/langchain_anthropic-0.1.9.tar.gz
+[2024-04-17 01:14:14] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/87/25/85a9dacfcff4df9fa520c1badc3111f837a0e83a4abc57ead714a4c4b42b/threadmem-0.2.9.tar.gz
+[2024-04-17 01:14:14] INFO root fetch - processPackages [langchain-anthropic]: executing diffoscope
+[2024-04-17 01:14:14] INFO root fetch - processPackages [langchain-anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_anthropic-0.1.8rc1.tar.gz tmp/langchain_anthropic-0.1.9.tar.gz --markdown 20240417/l/langchain-anthropic/0.1.8rc1-0.1.9/README.md --exclude *.pyd
+[2024-04-17 01:14:14] INFO root fetch - processPackages [threadmem]: executing diffoscope
+[2024-04-17 01:14:14] INFO root fetch - processPackages [threadmem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threadmem-0.2.8.tar.gz tmp/threadmem-0.2.9.tar.gz --markdown 20240417/t/threadmem/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 01:14:14] INFO root fetch - processPackages [cssfinder]: Downloading https://files.pythonhosted.org/packages/99/98/ba361e1a51766231fdaa275e92304c464e5094a31fc2362462484fc78f34/cssfinder-0.8.0.tar.gz
+[2024-04-17 01:14:14] INFO root fetch - processPackages [polars-ols]: Downloading https://files.pythonhosted.org/packages/43/9c/5ddecd7cd58f9cbcc5f946346ed8d5e34ae5863ef87d5257933b5dd8256e/polars_ols-0.3.0-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-17 01:14:14] INFO root fetch - processPackages [cssfinder]: executing diffoscope
+[2024-04-17 01:14:14] INFO root fetch - processPackages [cssfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cssfinder-0.7.0.tar.gz tmp/cssfinder-0.8.0.tar.gz --markdown 20240417/c/cssfinder/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-17 01:14:15] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.8.tar.gz]
+[2024-04-17 01:14:15] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.9.tar.gz]
+[2024-04-17 01:14:15] INFO root fetch - main [MainThread]: End processing [fgutils]: success
+[2024-04-17 01:14:15] INFO root fetch - processPackages [langchain-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/langchain_anthropic-0.1.8rc1.tar.gz]
+[2024-04-17 01:14:15] INFO root fetch - processPackages [langchain-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/langchain_anthropic-0.1.9.tar.gz]
+[2024-04-17 01:14:15] INFO root fetch - main [MainThread]: End processing [langchain-anthropic]: success
+[2024-04-17 01:14:15] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.8.tar.gz]
+[2024-04-17 01:14:15] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.9.tar.gz]
+[2024-04-17 01:14:15] INFO root fetch - main [MainThread]: End processing [sapphire-renderer]: success
+[2024-04-17 01:14:15] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.8.tar.gz]
+[2024-04-17 01:14:15] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.9.tar.gz]
+[2024-04-17 01:14:15] INFO root fetch - main [MainThread]: End processing [threadmem]: success
+[2024-04-17 01:14:15] WARNING root fetch - processPackages [polars-ols]: Skipping package: exceeds size limit 11550267>=10485760
+[2024-04-17 01:14:15] INFO root fetch - main [MainThread]: End processing [polars-ols] error
+[2024-04-17 01:14:15] INFO root fetch - processPackages [cssfinder]: Remove: archive file [/home/abi/fetcher/tmp/cssfinder-0.7.0.tar.gz]
+[2024-04-17 01:14:15] INFO root fetch - processPackages [cssfinder]: Remove: archive file [/home/abi/fetcher/tmp/cssfinder-0.8.0.tar.gz]
+[2024-04-17 01:14:15] INFO root fetch - main [MainThread]: End processing [cssfinder]: success
+[2024-04-17 01:14:15] INFO root fetch - main [MainThread]: Store serial: [22796158]
