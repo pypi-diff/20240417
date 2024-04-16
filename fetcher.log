@@ -837,3 +837,15 @@
 [2024-04-17 00:54:25] INFO root fetch - processPackages [iniUts]: Remove: archive file [/home/abi/fetcher/tmp/iniUts-1.1.6.tar.gz]
 [2024-04-17 00:54:25] INFO root fetch - main [MainThread]: End processing [iniUts]: success
 [2024-04-17 00:54:25] INFO root fetch - main [MainThread]: Store serial: [22796054]
+[2024-04-17 00:56:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796054]
+[2024-04-17 00:56:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flyweb-framework
+[2024-04-17 00:56:34] INFO root fetch - processPackages [flyweb-framework]: New version: [0.4.1] Old Version: [0.3.2]
+[2024-04-17 00:56:34] INFO root fetch - processPackages [flyweb-framework]: Downloading https://files.pythonhosted.org/packages/b2/43/d05e3079936e7b9cbf66267838e0e410cd2378bbc56cc083a1d906e2dba9/flyweb_framework-0.3.2.tar.gz
+[2024-04-17 00:56:35] INFO root fetch - processPackages [flyweb-framework]: Downloading https://files.pythonhosted.org/packages/84/3d/3ef7434cdac77fe10920ea78482e2292580b4994142f17e0774a972b7e1e/flyweb_framework-0.4.1.tar.gz
+[2024-04-17 00:56:35] INFO root fetch - processPackages [flyweb-framework]: executing diffoscope
+[2024-04-17 00:56:35] INFO root fetch - processPackages [flyweb-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyweb_framework-0.3.2.tar.gz tmp/flyweb_framework-0.4.1.tar.gz --markdown 20240417/f/flyweb-framework/0.3.2-0.4.1/README.md --exclude *.pyd
+[2024-04-17 00:56:35] INFO root fetch - processPackages [flyweb-framework]: Remove: archive file [/home/abi/fetcher/tmp/flyweb_framework-0.3.2.tar.gz]
+[2024-04-17 00:56:35] INFO root fetch - processPackages [flyweb-framework]: Remove: archive file [/home/abi/fetcher/tmp/flyweb_framework-0.4.1.tar.gz]
+[2024-04-17 00:56:35] INFO root fetch - main [MainThread]: End processing [flyweb-framework]: success
+[2024-04-17 00:56:35] INFO root fetch - main [MainThread]: Store serial: [22796058]
