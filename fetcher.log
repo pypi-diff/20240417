@@ -1140,3 +1140,33 @@
 [2024-04-17 01:16:26] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.9.0rc0.tar.gz]
 [2024-04-17 01:16:26] INFO root fetch - main [MainThread]: End processing [quil]: success
 [2024-04-17 01:16:26] INFO root fetch - main [MainThread]: Store serial: [22796197]
+[2024-04-17 01:18:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796197]
+[2024-04-17 01:18:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 01:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: berremueller
+[2024-04-17 01:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pins
+[2024-04-17 01:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: websocat
+[2024-04-17 01:18:34] INFO root fetch - processPackages [berremueller]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-17 01:18:35] INFO root fetch - processPackages [websocat]: New version: [1.13.0] Old Version: [1.12.0]
+[2024-04-17 01:18:35] INFO root fetch - processPackages [berremueller]: Downloading https://files.pythonhosted.org/packages/87/05/a344fbfdafba547c98282aba9ef455421fe3f899ff1f0cb73c9a92559b6c/berremueller-1.0.0.tar.gz
+[2024-04-17 01:18:35] INFO root fetch - processPackages [pins]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-17 01:18:35] INFO root fetch - processPackages [pins]: Downloading https://files.pythonhosted.org/packages/47/74/29ccb5dfad0ad21b6c5e9d02b1eb502274adfa3cd60b16326c8bf7dc04fc/pins-0.8.4.tar.gz
+[2024-04-17 01:18:35] INFO root fetch - processPackages [websocat]: Downloading https://files.pythonhosted.org/packages/dc/25/b7d2cc41326b686b75fb7c69ad9115ab983b764f5055dcf33d324a6b1857/websocat-1.12.0-py3-none-musllinux_1_2_aarch64.whl
+[2024-04-17 01:18:35] INFO root fetch - processPackages [berremueller]: Downloading https://files.pythonhosted.org/packages/4c/85/cc5d7c071bf5d014b8a94b05c54910f32d3d60f877a6da0eefa031d0010c/berremueller-1.0.1.tar.gz
+[2024-04-17 01:18:35] INFO root fetch - processPackages [berremueller]: executing diffoscope
+[2024-04-17 01:18:35] INFO root fetch - processPackages [berremueller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berremueller-1.0.0.tar.gz tmp/berremueller-1.0.1.tar.gz --markdown 20240417/b/berremueller/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-17 01:18:35] INFO root fetch - processPackages [pins]: Downloading https://files.pythonhosted.org/packages/db/55/0b25cec38963c4b8ec03951c384975781499684e1b188a62a80d018a5f37/pins-0.8.5.tar.gz
+[2024-04-17 01:18:35] INFO root fetch - processPackages [pins]: executing diffoscope
+[2024-04-17 01:18:35] INFO root fetch - processPackages [pins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pins-0.8.4.tar.gz tmp/pins-0.8.5.tar.gz --markdown 20240417/p/pins/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-04-17 01:18:35] INFO root fetch - processPackages [websocat]: Downloading https://files.pythonhosted.org/packages/04/c7/4769c566fb736039c578af5cd669b673c260d871393c38b1100e40395281/websocat-1.13.0-py3-none-musllinux_1_2_x86_64.whl
+[2024-04-17 01:18:36] INFO root fetch - processPackages [berremueller]: Remove: archive file [/home/abi/fetcher/tmp/berremueller-1.0.0.tar.gz]
+[2024-04-17 01:18:36] INFO root fetch - processPackages [berremueller]: Remove: archive file [/home/abi/fetcher/tmp/berremueller-1.0.1.tar.gz]
+[2024-04-17 01:18:36] INFO root fetch - main [MainThread]: End processing [berremueller]: success
+[2024-04-17 01:18:36] INFO root fetch - processPackages [websocat]: executing diffoscope
+[2024-04-17 01:18:36] INFO root fetch - processPackages [websocat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/websocat-1.12.0-py3-none-musllinux_1_2_aarch64.whl.zip tmp/websocat-1.13.0-py3-none-musllinux_1_2_x86_64.whl.zip --markdown 20240417/w/websocat/1.12.0-1.13.0/README.md --exclude *.pyd
+[2024-04-17 01:18:36] INFO root fetch - processPackages [pins]: Remove: archive file [/home/abi/fetcher/tmp/pins-0.8.4.tar.gz]
+[2024-04-17 01:18:36] INFO root fetch - processPackages [pins]: Remove: archive file [/home/abi/fetcher/tmp/pins-0.8.5.tar.gz]
+[2024-04-17 01:18:36] INFO root fetch - main [MainThread]: End processing [pins]: success
+[2024-04-17 01:18:37] INFO root fetch - processPackages [websocat]: Remove: archive file [/home/abi/fetcher/tmp/websocat-1.12.0-py3-none-musllinux_1_2_aarch64.whl.zip]
+[2024-04-17 01:18:37] INFO root fetch - processPackages [websocat]: Remove: archive file [/home/abi/fetcher/tmp/websocat-1.13.0-py3-none-musllinux_1_2_x86_64.whl.zip]
+[2024-04-17 01:18:37] INFO root fetch - main [MainThread]: End processing [websocat]: success
+[2024-04-17 01:18:37] INFO root fetch - main [MainThread]: Store serial: [22796209]
