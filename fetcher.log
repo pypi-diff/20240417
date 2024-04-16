@@ -291,3 +291,42 @@
 [2024-04-17 00:17:03] INFO root fetch - processPackages [meross-iot]: Remove: archive file [/home/abi/fetcher/tmp/meross_iot-0.4.7.0b1.tar.gz]
 [2024-04-17 00:17:03] INFO root fetch - main [MainThread]: End processing [meross-iot]: success
 [2024-04-17 00:17:03] INFO root fetch - main [MainThread]: Store serial: [22795835]
+[2024-04-17 00:19:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795835]
+[2024-04-17 00:19:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 00:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2024-04-17 00:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyGRF
+[2024-04-17 00:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alphai
+[2024-04-17 00:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monacopy
+[2024-04-17 00:19:13] INFO root fetch - processPackages [PyGRF]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-17 00:19:13] INFO root fetch - processPackages [keras-nightly]: New version: [3.2.1.dev2024041603] Old Version: [3.2.1.dev2024041504]
+[2024-04-17 00:19:13] INFO root fetch - processPackages [PyGRF]: Downloading https://files.pythonhosted.org/packages/6e/73/74abf26e16b419f514c408d38f65104f21ac1966d98fd6abfb342b60c191/PyGRF-0.0.3.tar.gz
+[2024-04-17 00:19:13] INFO root fetch - processPackages [monacopy]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-17 00:19:13] INFO root fetch - processPackages [alphai]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-17 00:19:13] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/db/a5/b9701f40772808b578be22171ca77cec51dfbfb79f8ef129372b013fb5b7/keras_nightly-3.2.1.dev2024041504.tar.gz
+[2024-04-17 00:19:13] INFO root fetch - processPackages [alphai]: Downloading https://files.pythonhosted.org/packages/cf/72/380299ccb22e15da06b11b8989ada848d1bfa06c5645b2bda98de2bea6bd/alphai-0.0.6.tar.gz
+[2024-04-17 00:19:13] INFO root fetch - processPackages [monacopy]: Downloading https://files.pythonhosted.org/packages/21/42/993bde70d2d26929a4c53a51aa821f6b767b85e75ed71b3816fa0580c155/monacopy-0.0.0.tar.gz
+[2024-04-17 00:19:13] INFO root fetch - processPackages [PyGRF]: Downloading https://files.pythonhosted.org/packages/97/68/dcee866d6f65b4be9f3a37278098fbe2229280be788d51032bff2dd250fc/PyGRF-0.0.4.tar.gz
+[2024-04-17 00:19:13] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/69/f7/79685e5574f13e3ddd2e81d652a1fdbd92c2ea0bfc5d946087c6e9503481/keras_nightly-3.2.1.dev2024041603.tar.gz
+[2024-04-17 00:19:13] INFO root fetch - processPackages [PyGRF]: executing diffoscope
+[2024-04-17 00:19:13] INFO root fetch - processPackages [PyGRF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGRF-0.0.3.tar.gz tmp/PyGRF-0.0.4.tar.gz --markdown 20240417/P/PyGRF/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-17 00:19:13] INFO root fetch - processPackages [alphai]: Downloading https://files.pythonhosted.org/packages/ef/2e/6e6865fa036bfec1c72e8e2a532c016f17b531469f951c6b1928f75c5809/alphai-0.0.7.tar.gz
+[2024-04-17 00:19:13] INFO root fetch - processPackages [monacopy]: Downloading https://files.pythonhosted.org/packages/c8/a5/df09fbf8a29671df97833c3fe69ee9e8ddf0ff0ce478d0f6096a78cdc4ca/monacopy-0.0.1.tar.gz
+[2024-04-17 00:19:13] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-04-17 00:19:13] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.2.1.dev2024041504.tar.gz tmp/keras_nightly-3.2.1.dev2024041603.tar.gz --markdown 20240417/k/keras-nightly/3.2.1.dev2024041504-3.2.1.dev2024041603/README.md --exclude *.pyd
+[2024-04-17 00:19:13] INFO root fetch - processPackages [alphai]: executing diffoscope
+[2024-04-17 00:19:13] INFO root fetch - processPackages [alphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphai-0.0.6.tar.gz tmp/alphai-0.0.7.tar.gz --markdown 20240417/a/alphai/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-17 00:19:13] INFO root fetch - processPackages [monacopy]: executing diffoscope
+[2024-04-17 00:19:13] INFO root fetch - processPackages [monacopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monacopy-0.0.0.tar.gz tmp/monacopy-0.0.1.tar.gz --markdown 20240417/m/monacopy/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-17 00:19:14] INFO root fetch - processPackages [PyGRF]: Remove: archive file [/home/abi/fetcher/tmp/PyGRF-0.0.3.tar.gz]
+[2024-04-17 00:19:14] INFO root fetch - processPackages [PyGRF]: Remove: archive file [/home/abi/fetcher/tmp/PyGRF-0.0.4.tar.gz]
+[2024-04-17 00:19:14] INFO root fetch - main [MainThread]: End processing [PyGRF]: success
+[2024-04-17 00:19:14] INFO root fetch - processPackages [alphai]: Remove: archive file [/home/abi/fetcher/tmp/alphai-0.0.6.tar.gz]
+[2024-04-17 00:19:14] INFO root fetch - processPackages [alphai]: Remove: archive file [/home/abi/fetcher/tmp/alphai-0.0.7.tar.gz]
+[2024-04-17 00:19:14] INFO root fetch - main [MainThread]: End processing [alphai]: success
+[2024-04-17 00:19:14] INFO root fetch - processPackages [monacopy]: Remove: archive file [/home/abi/fetcher/tmp/monacopy-0.0.0.tar.gz]
+[2024-04-17 00:19:14] INFO root fetch - processPackages [monacopy]: Remove: archive file [/home/abi/fetcher/tmp/monacopy-0.0.1.tar.gz]
+[2024-04-17 00:19:14] INFO root fetch - main [MainThread]: End processing [monacopy]: success
+[2024-04-17 00:19:16] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.2.1.dev2024041504.tar.gz]
+[2024-04-17 00:19:16] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.2.1.dev2024041603.tar.gz]
+[2024-04-17 00:19:16] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-04-17 00:19:16] INFO root fetch - main [MainThread]: Store serial: [22795847]
