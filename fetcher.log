@@ -144,3 +144,42 @@
 [2024-04-17 00:08:20] INFO root fetch - processPackages [dart-tools]: Remove: archive file [/home/abi/fetcher/tmp/dart_tools-0.5.6.tar.gz]
 [2024-04-17 00:08:20] INFO root fetch - main [MainThread]: End processing [dart-tools]: success
 [2024-04-17 00:08:20] INFO root fetch - main [MainThread]: Store serial: [22795785]
+[2024-04-17 00:10:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795785]
+[2024-04-17 00:10:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 00:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: betatester
+[2024-04-17 00:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keypoint-moseq
+[2024-04-17 00:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fireworks-ai
+[2024-04-17 00:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spider-rs
+[2024-04-17 00:10:28] INFO root fetch - processPackages [betatester]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 00:10:28] INFO root fetch - processPackages [keypoint-moseq]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-04-17 00:10:28] INFO root fetch - processPackages [fireworks-ai]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-17 00:10:28] INFO root fetch - processPackages [spider-rs]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 00:10:29] INFO root fetch - processPackages [betatester]: Downloading https://files.pythonhosted.org/packages/1f/91/a32c80260daf2a3f799ac4d6eae49e3da230520788661283c143c06faceb/betatester-0.0.1.tar.gz
+[2024-04-17 00:10:29] INFO root fetch - processPackages [spider-rs]: Downloading https://files.pythonhosted.org/packages/fb/92/d5c8042e037d003050ce1e8d75ea64c112c86ef2ff1f0d2bc03d19514747/spider_rs-0.0.8.tar.gz
+[2024-04-17 00:10:29] INFO root fetch - processPackages [keypoint-moseq]: Downloading https://files.pythonhosted.org/packages/ba/ae/5099e894b924e8d758cbd0e9d32955758b6647829b78325fdbf87d6dae7c/keypoint-moseq-0.4.5.tar.gz
+[2024-04-17 00:10:29] INFO root fetch - processPackages [fireworks-ai]: Downloading https://files.pythonhosted.org/packages/fa/f0/b7be82c127fded2d7e1081ede78a9984a40bde4aa82d6ac833fdcb446a49/fireworks-ai-0.8.1.tar.gz
+[2024-04-17 00:10:29] INFO root fetch - processPackages [betatester]: Downloading https://files.pythonhosted.org/packages/e5/41/80d3ff6ede3973f26d683124a347f4d5c1670f2d41347fbbcb6fdbb1f5d1/betatester-0.0.2.tar.gz
+[2024-04-17 00:10:29] INFO root fetch - processPackages [keypoint-moseq]: Downloading https://files.pythonhosted.org/packages/26/1d/88c06ac8cf8f48787435b4446135cf0ae9cb9e82f25ba4a99b515d7be396/keypoint-moseq-0.4.6.tar.gz
+[2024-04-17 00:10:29] INFO root fetch - processPackages [betatester]: executing diffoscope
+[2024-04-17 00:10:29] INFO root fetch - processPackages [betatester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betatester-0.0.1.tar.gz tmp/betatester-0.0.2.tar.gz --markdown 20240417/b/betatester/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 00:10:29] INFO root fetch - processPackages [spider-rs]: Downloading https://files.pythonhosted.org/packages/ca/88/6f68d26eb32a69cefc821a4acc57d061540231de60945e56636083f6357e/spider_rs-0.0.9.tar.gz
+[2024-04-17 00:10:29] INFO root fetch - processPackages [fireworks-ai]: Downloading https://files.pythonhosted.org/packages/9c/c6/df114a4867c367874fc6f261ff89ee0e340a801996189d7ee5db5f049302/fireworks-ai-0.9.0.tar.gz
+[2024-04-17 00:10:29] INFO root fetch - processPackages [keypoint-moseq]: executing diffoscope
+[2024-04-17 00:10:29] INFO root fetch - processPackages [keypoint-moseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keypoint-moseq-0.4.5.tar.gz tmp/keypoint-moseq-0.4.6.tar.gz --markdown 20240417/k/keypoint-moseq/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-04-17 00:10:29] INFO root fetch - processPackages [spider-rs]: executing diffoscope
+[2024-04-17 00:10:29] INFO root fetch - processPackages [spider-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider_rs-0.0.8.tar.gz tmp/spider_rs-0.0.9.tar.gz --markdown 20240417/s/spider-rs/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 00:10:29] INFO root fetch - processPackages [fireworks-ai]: executing diffoscope
+[2024-04-17 00:10:29] INFO root fetch - processPackages [fireworks-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireworks-ai-0.8.1.tar.gz tmp/fireworks-ai-0.9.0.tar.gz --markdown 20240417/f/fireworks-ai/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-17 00:10:30] INFO root fetch - processPackages [betatester]: Remove: archive file [/home/abi/fetcher/tmp/betatester-0.0.1.tar.gz]
+[2024-04-17 00:10:30] INFO root fetch - processPackages [betatester]: Remove: archive file [/home/abi/fetcher/tmp/betatester-0.0.2.tar.gz]
+[2024-04-17 00:10:30] INFO root fetch - main [MainThread]: End processing [betatester]: success
+[2024-04-17 00:10:30] INFO root fetch - processPackages [keypoint-moseq]: Remove: archive file [/home/abi/fetcher/tmp/keypoint-moseq-0.4.5.tar.gz]
+[2024-04-17 00:10:30] INFO root fetch - processPackages [keypoint-moseq]: Remove: archive file [/home/abi/fetcher/tmp/keypoint-moseq-0.4.6.tar.gz]
+[2024-04-17 00:10:30] INFO root fetch - main [MainThread]: End processing [keypoint-moseq]: success
+[2024-04-17 00:10:30] INFO root fetch - processPackages [spider-rs]: Remove: archive file [/home/abi/fetcher/tmp/spider_rs-0.0.8.tar.gz]
+[2024-04-17 00:10:30] INFO root fetch - processPackages [spider-rs]: Remove: archive file [/home/abi/fetcher/tmp/spider_rs-0.0.9.tar.gz]
+[2024-04-17 00:10:30] INFO root fetch - main [MainThread]: End processing [spider-rs]: success
+[2024-04-17 00:10:30] INFO root fetch - processPackages [fireworks-ai]: Remove: archive file [/home/abi/fetcher/tmp/fireworks-ai-0.8.1.tar.gz]
+[2024-04-17 00:10:30] INFO root fetch - processPackages [fireworks-ai]: Remove: archive file [/home/abi/fetcher/tmp/fireworks-ai-0.9.0.tar.gz]
+[2024-04-17 00:10:30] INFO root fetch - main [MainThread]: End processing [fireworks-ai]: success
+[2024-04-17 00:10:30] INFO root fetch - main [MainThread]: Store serial: [22795796]
