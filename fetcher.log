@@ -537,3 +537,24 @@
 [2024-04-17 00:34:31] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.9b0.tar.gz]
 [2024-04-17 00:34:31] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
 [2024-04-17 00:34:31] INFO root fetch - main [MainThread]: Store serial: [22795943]
+[2024-04-17 00:36:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795943]
+[2024-04-17 00:36:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 00:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tasks-loader
+[2024-04-17 00:36:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: helios-ml
+[2024-04-17 00:36:39] INFO root fetch - processPackages [tasks-loader]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 00:36:39] INFO root fetch - processPackages [helios-ml]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 00:36:39] INFO root fetch - processPackages [tasks-loader]: Downloading https://files.pythonhosted.org/packages/32/98/e9050ddc9e9e2508621c143b7e2422f1652568099fc423a7975744475165/tasks_loader-0.1.0.tar.gz
+[2024-04-17 00:36:39] INFO root fetch - processPackages [helios-ml]: Downloading https://files.pythonhosted.org/packages/95/68/a91470f65a4f41729028ea52d4c264c047758551a9a3113bed5b1f79ce19/helios_ml-0.1.1.tar.gz
+[2024-04-17 00:36:40] INFO root fetch - processPackages [tasks-loader]: Downloading https://files.pythonhosted.org/packages/5f/24/c5d1325d11781c8c86bfec89fc229cec9cc2bd1ee9a75e112bda61f25f4b/tasks_loader-0.1.1.tar.gz
+[2024-04-17 00:36:40] INFO root fetch - processPackages [helios-ml]: Downloading https://files.pythonhosted.org/packages/9d/e1/2ecc7b00164ae7891b2285f8a20fd22f02bb356127e5ac91efb02545fdcb/helios_ml-0.1.2-py3-none-any.whl
+[2024-04-17 00:36:40] INFO root fetch - processPackages [tasks-loader]: executing diffoscope
+[2024-04-17 00:36:40] INFO root fetch - processPackages [tasks-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasks_loader-0.1.0.tar.gz tmp/tasks_loader-0.1.1.tar.gz --markdown 20240417/t/tasks-loader/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 00:36:40] INFO root fetch - processPackages [tasks-loader]: Remove: archive file [/home/abi/fetcher/tmp/tasks_loader-0.1.0.tar.gz]
+[2024-04-17 00:36:40] INFO root fetch - processPackages [tasks-loader]: Remove: archive file [/home/abi/fetcher/tmp/tasks_loader-0.1.1.tar.gz]
+[2024-04-17 00:36:40] INFO root fetch - main [MainThread]: End processing [tasks-loader]: success
+[2024-04-17 00:36:40] INFO root fetch - processPackages [helios-ml]: executing diffoscope
+[2024-04-17 00:36:40] INFO root fetch - processPackages [helios-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios_ml-0.1.1.tar.gz tmp/helios_ml-0.1.2-py3-none-any.whl.zip --markdown 20240417/h/helios-ml/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 00:36:41] INFO root fetch - processPackages [helios-ml]: Remove: archive file [/home/abi/fetcher/tmp/helios_ml-0.1.1.tar.gz]
+[2024-04-17 00:36:41] INFO root fetch - processPackages [helios-ml]: Remove: archive file [/home/abi/fetcher/tmp/helios_ml-0.1.2-py3-none-any.whl.zip]
+[2024-04-17 00:36:41] INFO root fetch - main [MainThread]: End processing [helios-ml]: success
+[2024-04-17 00:36:41] INFO root fetch - main [MainThread]: Store serial: [22795947]
