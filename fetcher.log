@@ -390,3 +390,51 @@
 [2024-04-17 00:23:38] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
 [2024-04-17 00:23:38] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-04-17 00:23:38] INFO root fetch - main [MainThread]: Store serial: [22795863]
+[2024-04-17 00:25:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795863]
+[2024-04-17 00:25:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 00:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modal-client
+[2024-04-17 00:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zimagi
+[2024-04-17 00:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-restricted-fields
+[2024-04-17 00:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ResoluteCNS
+[2024-04-17 00:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prompt-security-fuzzer
+[2024-04-17 00:25:46] INFO root fetch - processPackages [ResoluteCNS]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-17 00:25:46] INFO root fetch - processPackages [prompt-security-fuzzer]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-17 00:25:46] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-17 00:25:46] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/e5/0c/6294fcb975434f598ccc00dce2a855cae29dfcca7e593f5426ec118eeb6f/resolutecns-0.1.7.tar.gz
+[2024-04-17 00:25:46] INFO root fetch - processPackages [django-restricted-fields]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-17 00:25:46] INFO root fetch - processPackages [zimagi]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-17 00:25:47] INFO root fetch - processPackages [prompt-security-fuzzer]: Downloading https://files.pythonhosted.org/packages/60/75/aca09f09d92f0321fb2df1c97d1f99de1b63942fc2c2d53970672f239dd9/prompt_security_fuzzer-0.1.2.tar.gz
+[2024-04-17 00:25:47] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-17 00:25:47] INFO root fetch - processPackages [django-restricted-fields]: Downloading https://files.pythonhosted.org/packages/21/38/14343ddb31efbc365a36ee5c9de9301349f25b0a1ee752f4d0183c939f05/django_restricted_fields-0.3.0.tar.gz
+[2024-04-17 00:25:47] INFO root fetch - processPackages [zimagi]: Downloading https://files.pythonhosted.org/packages/e8/4b/b155e4f0b7606d368c19e3d41df4c6af5d2743ec086d5c519e39a5e8ada7/zimagi-0.9.4.tar.gz
+[2024-04-17 00:25:47] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-17 00:25:47] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-17 00:25:47] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240417/m/modal-client/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-17 00:25:47] INFO root fetch - processPackages [prompt-security-fuzzer]: Downloading https://files.pythonhosted.org/packages/e8/5b/6c913f34d47d2a3b3f2805cbb65f9cf2b28647aea53a045d1236f08a5f33/prompt_security_fuzzer-0.1.3.tar.gz
+[2024-04-17 00:25:47] INFO root fetch - processPackages [django-restricted-fields]: Downloading https://files.pythonhosted.org/packages/33/6e/17726ccc50ae855685d1fe3221f0dc0b2b93d463d19a0c3417e14604cd2e/django_restricted_fields-0.3.1.tar.gz
+[2024-04-17 00:25:47] INFO root fetch - processPackages [ResoluteCNS]: Downloading https://files.pythonhosted.org/packages/12/12/f3a961012a5a86d62958556241d97f0abf77fe13ef0ba83a1d983b64a851/resolutecns-0.1.8.tar.gz
+[2024-04-17 00:25:47] INFO root fetch - processPackages [zimagi]: Downloading https://files.pythonhosted.org/packages/98/d2/7e3715c9f3f31766db54027f7e4db00e400d7de314d70b833776ce02930f/zimagi-0.9.5.tar.gz
+[2024-04-17 00:25:47] INFO root fetch - processPackages [django-restricted-fields]: executing diffoscope
+[2024-04-17 00:25:47] INFO root fetch - processPackages [django-restricted-fields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restricted_fields-0.3.0.tar.gz tmp/django_restricted_fields-0.3.1.tar.gz --markdown 20240417/d/django-restricted-fields/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-17 00:25:47] INFO root fetch - processPackages [prompt-security-fuzzer]: executing diffoscope
+[2024-04-17 00:25:47] INFO root fetch - processPackages [prompt-security-fuzzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_security_fuzzer-0.1.2.tar.gz tmp/prompt_security_fuzzer-0.1.3.tar.gz --markdown 20240417/p/prompt-security-fuzzer/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-17 00:25:47] INFO root fetch - processPackages [zimagi]: executing diffoscope
+[2024-04-17 00:25:47] INFO root fetch - processPackages [zimagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimagi-0.9.4.tar.gz tmp/zimagi-0.9.5.tar.gz --markdown 20240417/z/zimagi/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-17 00:25:47] INFO root fetch - processPackages [ResoluteCNS]: executing diffoscope
+[2024-04-17 00:25:47] INFO root fetch - processPackages [ResoluteCNS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolutecns-0.1.7.tar.gz tmp/resolutecns-0.1.8.tar.gz --markdown 20240417/R/ResoluteCNS/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-17 00:25:48] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-17 00:25:48] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-17 00:25:48] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-17 00:25:48] INFO root fetch - processPackages [django-restricted-fields]: Remove: archive file [/home/abi/fetcher/tmp/django_restricted_fields-0.3.0.tar.gz]
+[2024-04-17 00:25:48] INFO root fetch - processPackages [django-restricted-fields]: Remove: archive file [/home/abi/fetcher/tmp/django_restricted_fields-0.3.1.tar.gz]
+[2024-04-17 00:25:48] INFO root fetch - main [MainThread]: End processing [django-restricted-fields]: success
+[2024-04-17 00:25:48] INFO root fetch - processPackages [zimagi]: Remove: archive file [/home/abi/fetcher/tmp/zimagi-0.9.4.tar.gz]
+[2024-04-17 00:25:48] INFO root fetch - processPackages [zimagi]: Remove: archive file [/home/abi/fetcher/tmp/zimagi-0.9.5.tar.gz]
+[2024-04-17 00:25:48] INFO root fetch - main [MainThread]: End processing [zimagi]: success
+[2024-04-17 00:25:48] INFO root fetch - processPackages [prompt-security-fuzzer]: Remove: archive file [/home/abi/fetcher/tmp/prompt_security_fuzzer-0.1.2.tar.gz]
+[2024-04-17 00:25:48] INFO root fetch - processPackages [prompt-security-fuzzer]: Remove: archive file [/home/abi/fetcher/tmp/prompt_security_fuzzer-0.1.3.tar.gz]
+[2024-04-17 00:25:48] INFO root fetch - main [MainThread]: End processing [prompt-security-fuzzer]: success
+[2024-04-17 00:25:48] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.1.7.tar.gz]
+[2024-04-17 00:25:48] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.1.8.tar.gz]
+[2024-04-17 00:25:48] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
+[2024-04-17 00:25:48] INFO root fetch - main [MainThread]: Store serial: [22795875]
