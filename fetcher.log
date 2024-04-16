@@ -1615,3 +1615,54 @@
 [2024-04-17 01:51:27] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.4.1.dev3.tar.gz]
 [2024-04-17 01:51:27] INFO root fetch - main [MainThread]: End processing [mountaineer]: success
 [2024-04-17 01:51:27] INFO root fetch - main [MainThread]: Store serial: [22796418]
+[2024-04-17 01:53:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796418]
+[2024-04-17 01:53:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 01:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cuid2
+[2024-04-17 01:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spectral-recovery
+[2024-04-17 01:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dj-tenants
+[2024-04-17 01:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vocode-api
+[2024-04-17 01:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IsNumberOdd
+[2024-04-17 01:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: latent-calendar
+[2024-04-17 01:53:36] INFO root fetch - processPackages [dj-tenants]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 01:53:36] INFO root fetch - processPackages [cuid2]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-17 01:53:36] INFO root fetch - processPackages [vocode-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 01:53:36] INFO root fetch - processPackages [dj-tenants]: Downloading https://files.pythonhosted.org/packages/3c/87/af541ade8c7d9c88c7c33084a0aa3615463272f42456c4c68b6efdd43bb9/dj_tenants-0.1.1.tar.gz
+[2024-04-17 01:53:36] WARNING root fetch - processPackages [IsNumberOdd]: Skipping, unable to determine old version
+[2024-04-17 01:53:36] INFO root fetch - processPackages [spectral-recovery]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-04-17 01:53:36] INFO root fetch - main [MainThread]: End processing [IsNumberOdd] error
+[2024-04-17 01:53:36] INFO root fetch - processPackages [latent-calendar]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-17 01:53:36] INFO root fetch - processPackages [vocode-api]: Downloading https://files.pythonhosted.org/packages/82/83/d65b352a3b3ebb0c2558c4ad930630bb0a61b52b8d1591c5c3448e3f2738/vocode_api-0.0.8.tar.gz
+[2024-04-17 01:53:36] INFO root fetch - processPackages [cuid2]: Downloading https://files.pythonhosted.org/packages/49/e2/34a6fefce469a2ca4572961af078680d546fc538a12a438ae21387ab9019/cuid2-2.0.0.tar.gz
+[2024-04-17 01:53:36] INFO root fetch - processPackages [spectral-recovery]: Downloading https://files.pythonhosted.org/packages/0c/2b/e737b919ba296ae5c24576f723740bf0a01a5ecbaf947355264ed3e87fe3/spectral_recovery-0.3.3.tar.gz
+[2024-04-17 01:53:36] INFO root fetch - processPackages [latent-calendar]: Downloading https://files.pythonhosted.org/packages/02/f1/dd3dc9e2af41202f98f0a2bd8e36c30dd535c1889702e0edd0b939f47c73/latent_calendar-1.4.0.tar.gz
+[2024-04-17 01:53:36] INFO root fetch - processPackages [dj-tenants]: Downloading https://files.pythonhosted.org/packages/a5/4a/bea1ffc67f3c935cb693083f458130f61d3baee06bb960819a5f561baac7/dj_tenants-0.1.2.tar.gz
+[2024-04-17 01:53:36] INFO root fetch - processPackages [dj-tenants]: executing diffoscope
+[2024-04-17 01:53:36] INFO root fetch - processPackages [dj-tenants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_tenants-0.1.1.tar.gz tmp/dj_tenants-0.1.2.tar.gz --markdown 20240417/d/dj-tenants/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 01:53:36] INFO root fetch - processPackages [vocode-api]: Downloading https://files.pythonhosted.org/packages/24/a9/e346f0cf1f1c45d2aa79d3a2941dfa9ea1aec93056283831f2c7e74ffb53/vocode_api-0.0.9.tar.gz
+[2024-04-17 01:53:36] INFO root fetch - processPackages [cuid2]: Downloading https://files.pythonhosted.org/packages/db/63/97ffc74f33e5a5f913bf073e8250a5b5a64d52d411b09a9c36c902db2cc4/cuid2-2.0.1.tar.gz
+[2024-04-17 01:53:36] INFO root fetch - processPackages [spectral-recovery]: Downloading https://files.pythonhosted.org/packages/f1/75/f4b9203ba62308746a208ffc6c4e640e55899b1ff5723c6454cbdefc7c7d/spectral_recovery-0.4.0.tar.gz
+[2024-04-17 01:53:36] INFO root fetch - processPackages [latent-calendar]: Downloading https://files.pythonhosted.org/packages/6a/58/bfe87bc1a70a989b452cb9d404e01241595ba57c95e109b78c2dfd5664b0/latent_calendar-1.5.0.tar.gz
+[2024-04-17 01:53:36] INFO root fetch - processPackages [vocode-api]: executing diffoscope
+[2024-04-17 01:53:36] INFO root fetch - processPackages [vocode-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocode_api-0.0.8.tar.gz tmp/vocode_api-0.0.9.tar.gz --markdown 20240417/v/vocode-api/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 01:53:36] INFO root fetch - processPackages [cuid2]: executing diffoscope
+[2024-04-17 01:53:36] INFO root fetch - processPackages [cuid2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuid2-2.0.0.tar.gz tmp/cuid2-2.0.1.tar.gz --markdown 20240417/c/cuid2/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-17 01:53:36] INFO root fetch - processPackages [spectral-recovery]: executing diffoscope
+[2024-04-17 01:53:36] INFO root fetch - processPackages [spectral-recovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectral_recovery-0.3.3.tar.gz tmp/spectral_recovery-0.4.0.tar.gz --markdown 20240417/s/spectral-recovery/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-04-17 01:53:36] INFO root fetch - processPackages [latent-calendar]: executing diffoscope
+[2024-04-17 01:53:36] INFO root fetch - processPackages [latent-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latent_calendar-1.4.0.tar.gz tmp/latent_calendar-1.5.0.tar.gz --markdown 20240417/l/latent-calendar/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-04-17 01:53:37] INFO root fetch - processPackages [dj-tenants]: Remove: archive file [/home/abi/fetcher/tmp/dj_tenants-0.1.1.tar.gz]
+[2024-04-17 01:53:37] INFO root fetch - processPackages [dj-tenants]: Remove: archive file [/home/abi/fetcher/tmp/dj_tenants-0.1.2.tar.gz]
+[2024-04-17 01:53:37] INFO root fetch - main [MainThread]: End processing [dj-tenants]: success
+[2024-04-17 01:53:37] INFO root fetch - processPackages [cuid2]: Remove: archive file [/home/abi/fetcher/tmp/cuid2-2.0.0.tar.gz]
+[2024-04-17 01:53:37] INFO root fetch - processPackages [cuid2]: Remove: archive file [/home/abi/fetcher/tmp/cuid2-2.0.1.tar.gz]
+[2024-04-17 01:53:37] INFO root fetch - main [MainThread]: End processing [cuid2]: success
+[2024-04-17 01:53:37] INFO root fetch - processPackages [spectral-recovery]: Remove: archive file [/home/abi/fetcher/tmp/spectral_recovery-0.3.3.tar.gz]
+[2024-04-17 01:53:37] INFO root fetch - processPackages [spectral-recovery]: Remove: archive file [/home/abi/fetcher/tmp/spectral_recovery-0.4.0.tar.gz]
+[2024-04-17 01:53:37] INFO root fetch - main [MainThread]: End processing [spectral-recovery]: success
+[2024-04-17 01:53:37] INFO root fetch - processPackages [latent-calendar]: Remove: archive file [/home/abi/fetcher/tmp/latent_calendar-1.4.0.tar.gz]
+[2024-04-17 01:53:37] INFO root fetch - processPackages [latent-calendar]: Remove: archive file [/home/abi/fetcher/tmp/latent_calendar-1.5.0.tar.gz]
+[2024-04-17 01:53:37] INFO root fetch - main [MainThread]: End processing [latent-calendar]: success
+[2024-04-17 01:53:37] INFO root fetch - processPackages [vocode-api]: Remove: archive file [/home/abi/fetcher/tmp/vocode_api-0.0.8.tar.gz]
+[2024-04-17 01:53:37] INFO root fetch - processPackages [vocode-api]: Remove: archive file [/home/abi/fetcher/tmp/vocode_api-0.0.9.tar.gz]
+[2024-04-17 01:53:37] INFO root fetch - main [MainThread]: End processing [vocode-api]: success
+[2024-04-17 01:53:37] INFO root fetch - main [MainThread]: Store serial: [22796438]
