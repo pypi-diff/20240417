@@ -1356,3 +1356,42 @@
 [2024-04-17 01:31:46] INFO root fetch - processPackages [gen3-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gen3_tracker-0.0.3rc8.tar.gz]
 [2024-04-17 01:31:46] INFO root fetch - main [MainThread]: End processing [gen3-tracker]: success
 [2024-04-17 01:31:46] INFO root fetch - main [MainThread]: Store serial: [22796287]
+[2024-04-17 01:33:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796287]
+[2024-04-17 01:33:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 01:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phidata
+[2024-04-17 01:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: littlefs-python
+[2024-04-17 01:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: squareup
+[2024-04-17 01:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stackql-deploy
+[2024-04-17 01:33:55] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-17 01:33:55] INFO root fetch - processPackages [squareup]: New version: [9.1.0.20210317] Old Version: [9.0.0.20210226]
+[2024-04-17 01:33:55] INFO root fetch - processPackages [phidata]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-17 01:33:55] INFO root fetch - processPackages [littlefs-python]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-04-17 01:33:55] INFO root fetch - processPackages [squareup]: Downloading https://files.pythonhosted.org/packages/e6/2f/cca82add3da7e47791cc2f8c7f19af93b5d35192b54ac473b3640ef42353/squareup-9.0.0.20210226.tar.gz
+[2024-04-17 01:33:55] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/34/01/116b5da4b3949078da21ef8b0efc1a7a12397cd967b06f2eabdba54ab134/stackql_deploy-1.0.4.tar.gz
+[2024-04-17 01:33:55] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/9a/24/afb3e8585b820976634b1dd732e5ec1f3562093b71b05a47e3bd6a870b75/phidata-2.3.8.tar.gz
+[2024-04-17 01:33:55] INFO root fetch - processPackages [littlefs-python]: Downloading https://files.pythonhosted.org/packages/c8/fe/839b7ec69b0710afbd0dc1cea00baa805fc23699ecfc9759359af6ce0a49/littlefs-python-0.9.1.tar.gz
+[2024-04-17 01:33:55] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/dd/ec/997b356ffaed6b524319a3e17f5c0d85a83224c0aadee3bf347952693244/stackql_deploy-1.0.5.tar.gz
+[2024-04-17 01:33:55] INFO root fetch - processPackages [squareup]: Downloading https://files.pythonhosted.org/packages/d3/94/de99bd102e778d0c3d7f8c8bd1114547b2868e3ac8161eb5f49a2f81055c/squareup-9.1.0.20210317.tar.gz
+[2024-04-17 01:33:55] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/51/63/c5ed33bf592cd65cdcb90c64ded88ab6bc7786db2184c64f6484d61e92d0/phidata-2.3.9.tar.gz
+[2024-04-17 01:33:56] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 01:33:56] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.4.tar.gz tmp/stackql_deploy-1.0.5.tar.gz --markdown 20240417/s/stackql-deploy/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-17 01:33:56] INFO root fetch - processPackages [squareup]: executing diffoscope
+[2024-04-17 01:33:56] INFO root fetch - processPackages [squareup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squareup-9.0.0.20210226.tar.gz tmp/squareup-9.1.0.20210317.tar.gz --markdown 20240417/s/squareup/9.0.0.20210226-9.1.0.20210317/README.md --exclude *.pyd
+[2024-04-17 01:33:56] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-04-17 01:33:56] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.3.8.tar.gz tmp/phidata-2.3.9.tar.gz --markdown 20240417/p/phidata/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-17 01:33:56] INFO root fetch - processPackages [littlefs-python]: Downloading https://files.pythonhosted.org/packages/02/9f/e93079a871a3da651ce7f9156a8948756ab8ce6a1c80dee763668d54fdde/littlefs-python-0.9.3.tar.gz
+[2024-04-17 01:33:56] INFO root fetch - processPackages [littlefs-python]: executing diffoscope
+[2024-04-17 01:33:56] INFO root fetch - processPackages [littlefs-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/littlefs-python-0.9.1.tar.gz tmp/littlefs-python-0.9.3.tar.gz --markdown 20240417/l/littlefs-python/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-04-17 01:33:56] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.4.tar.gz]
+[2024-04-17 01:33:56] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.5.tar.gz]
+[2024-04-17 01:33:56] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 01:33:56] INFO root fetch - processPackages [squareup]: Remove: archive file [/home/abi/fetcher/tmp/squareup-9.0.0.20210226.tar.gz]
+[2024-04-17 01:33:56] INFO root fetch - processPackages [squareup]: Remove: archive file [/home/abi/fetcher/tmp/squareup-9.1.0.20210317.tar.gz]
+[2024-04-17 01:33:56] INFO root fetch - main [MainThread]: End processing [squareup]: success
+[2024-04-17 01:33:57] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.8.tar.gz]
+[2024-04-17 01:33:57] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.9.tar.gz]
+[2024-04-17 01:33:57] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-04-17 01:33:58] INFO root fetch - processPackages [littlefs-python]: Remove: archive file [/home/abi/fetcher/tmp/littlefs-python-0.9.1.tar.gz]
+[2024-04-17 01:33:58] INFO root fetch - processPackages [littlefs-python]: Remove: archive file [/home/abi/fetcher/tmp/littlefs-python-0.9.3.tar.gz]
+[2024-04-17 01:33:58] INFO root fetch - main [MainThread]: End processing [littlefs-python]: success
+[2024-04-17 01:33:58] INFO root fetch - main [MainThread]: Store serial: [22796331]
