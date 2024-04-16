@@ -792,3 +792,27 @@
 [2024-04-17 00:50:02] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.9.0rc0.tar.gz]
 [2024-04-17 00:50:02] INFO root fetch - main [MainThread]: End processing [quil]: success
 [2024-04-17 00:50:02] INFO root fetch - main [MainThread]: Store serial: [22796037]
+[2024-04-17 00:52:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796037]
+[2024-04-17 00:52:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 00:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: backtesting-server
+[2024-04-17 00:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nimbusagent
+[2024-04-17 00:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: impactpy
+[2024-04-17 00:52:12] INFO root fetch - processPackages [impactpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 00:52:12] INFO root fetch - processPackages [impactpy]: Downloading https://files.pythonhosted.org/packages/48/d5/80b96c0c3bf457b4e23cb9d9174f4bd004168915de9d7534efe040f6ae9a/impactpy-0.0.8.tar.gz
+[2024-04-17 00:52:12] WARNING root fetch - processPackages [backtesting-server]: Skipping, unable to determine old version
+[2024-04-17 00:52:12] INFO root fetch - main [MainThread]: End processing [backtesting-server] error
+[2024-04-17 00:52:12] INFO root fetch - processPackages [nimbusagent]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-17 00:52:12] INFO root fetch - processPackages [impactpy]: Downloading https://files.pythonhosted.org/packages/13/b2/51751326438ae406f4babe43fe8201b2da2c3dc508d2407edc99f24786c4/impactpy-0.0.9.tar.gz
+[2024-04-17 00:52:12] INFO root fetch - processPackages [nimbusagent]: Downloading https://files.pythonhosted.org/packages/30/f3/8743f825aaf7dec656fba2d4cc65d814baeea23a0e9a63a86cf27eb64a11/nimbusagent-0.5.0.tar.gz
+[2024-04-17 00:52:12] INFO root fetch - processPackages [impactpy]: executing diffoscope
+[2024-04-17 00:52:12] INFO root fetch - processPackages [impactpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impactpy-0.0.8.tar.gz tmp/impactpy-0.0.9.tar.gz --markdown 20240417/i/impactpy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 00:52:12] INFO root fetch - processPackages [nimbusagent]: Downloading https://files.pythonhosted.org/packages/b5/e7/1b8bd4899534d640f7c3d0476eb549f1ef9389e185c4d91fabe8f1f6651a/nimbusagent-0.5.1.tar.gz
+[2024-04-17 00:52:12] INFO root fetch - processPackages [nimbusagent]: executing diffoscope
+[2024-04-17 00:52:12] INFO root fetch - processPackages [nimbusagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nimbusagent-0.5.0.tar.gz tmp/nimbusagent-0.5.1.tar.gz --markdown 20240417/n/nimbusagent/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-17 00:52:13] INFO root fetch - processPackages [impactpy]: Remove: archive file [/home/abi/fetcher/tmp/impactpy-0.0.8.tar.gz]
+[2024-04-17 00:52:13] INFO root fetch - processPackages [impactpy]: Remove: archive file [/home/abi/fetcher/tmp/impactpy-0.0.9.tar.gz]
+[2024-04-17 00:52:13] INFO root fetch - main [MainThread]: End processing [impactpy]: success
+[2024-04-17 00:52:13] INFO root fetch - processPackages [nimbusagent]: Remove: archive file [/home/abi/fetcher/tmp/nimbusagent-0.5.0.tar.gz]
+[2024-04-17 00:52:13] INFO root fetch - processPackages [nimbusagent]: Remove: archive file [/home/abi/fetcher/tmp/nimbusagent-0.5.1.tar.gz]
+[2024-04-17 00:52:13] INFO root fetch - main [MainThread]: End processing [nimbusagent]: success
+[2024-04-17 00:52:13] INFO root fetch - main [MainThread]: Store serial: [22796047]
