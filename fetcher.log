@@ -1573,3 +1573,33 @@
 [2024-04-17 01:47:04] INFO root fetch - processPackages [dbt-postgres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_postgres-1.8.0b4.tar.gz]
 [2024-04-17 01:47:04] INFO root fetch - main [MainThread]: End processing [dbt-postgres]: success
 [2024-04-17 01:47:04] INFO root fetch - main [MainThread]: Store serial: [22796397]
+[2024-04-17 01:49:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796397]
+[2024-04-17 01:49:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 01:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jedi-language-server
+[2024-04-17 01:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moobius
+[2024-04-17 01:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dj-tenants
+[2024-04-17 01:49:13] INFO root fetch - processPackages [dj-tenants]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 01:49:13] INFO root fetch - processPackages [moobius]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-17 01:49:13] INFO root fetch - processPackages [jedi-language-server]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-17 01:49:13] INFO root fetch - processPackages [dj-tenants]: Downloading https://files.pythonhosted.org/packages/ec/97/284628e647f25fa523f620a4e1f950e23b73b1f6ec98695c5d7ac4cc622f/dj_tenants-0.1.0.tar.gz
+[2024-04-17 01:49:13] INFO root fetch - processPackages [jedi-language-server]: Downloading https://files.pythonhosted.org/packages/51/75/72dee0bfa3c1551e1642b6a7108da64e1f521da6dd79d15eb6b35b832e3a/jedi-language-server-0.8.0.tar.gz
+[2024-04-17 01:49:13] INFO root fetch - processPackages [moobius]: Downloading https://files.pythonhosted.org/packages/d9/47/dae9b1eadc674952fca2854fd3071344d42bf57bfd16b2d01b18e924c6fa/moobius-1.1.7.tar.gz
+[2024-04-17 01:49:13] INFO root fetch - processPackages [dj-tenants]: Downloading https://files.pythonhosted.org/packages/3c/87/af541ade8c7d9c88c7c33084a0aa3615463272f42456c4c68b6efdd43bb9/dj_tenants-0.1.1.tar.gz
+[2024-04-17 01:49:13] INFO root fetch - processPackages [moobius]: Downloading https://files.pythonhosted.org/packages/84/55/06591e0bcb17992f083dfa1d9cc59641524a25c87be475ad77582f552981/moobius-1.1.8.tar.gz
+[2024-04-17 01:49:13] INFO root fetch - processPackages [dj-tenants]: executing diffoscope
+[2024-04-17 01:49:13] INFO root fetch - processPackages [dj-tenants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_tenants-0.1.0.tar.gz tmp/dj_tenants-0.1.1.tar.gz --markdown 20240417/d/dj-tenants/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 01:49:13] INFO root fetch - processPackages [moobius]: executing diffoscope
+[2024-04-17 01:49:13] INFO root fetch - processPackages [moobius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moobius-1.1.7.tar.gz tmp/moobius-1.1.8.tar.gz --markdown 20240417/m/moobius/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-17 01:49:14] INFO root fetch - processPackages [jedi-language-server]: Downloading https://files.pythonhosted.org/packages/d0/c3/d7732af5148e15b9f96dc6fab204de20dbd34f28b9fe97f9209654dcafba/jedi-language-server-0.9.0.tar.gz
+[2024-04-17 01:49:14] INFO root fetch - processPackages [dj-tenants]: Remove: archive file [/home/abi/fetcher/tmp/dj_tenants-0.1.0.tar.gz]
+[2024-04-17 01:49:14] INFO root fetch - processPackages [dj-tenants]: Remove: archive file [/home/abi/fetcher/tmp/dj_tenants-0.1.1.tar.gz]
+[2024-04-17 01:49:14] INFO root fetch - main [MainThread]: End processing [dj-tenants]: success
+[2024-04-17 01:49:14] INFO root fetch - processPackages [moobius]: Remove: archive file [/home/abi/fetcher/tmp/moobius-1.1.7.tar.gz]
+[2024-04-17 01:49:14] INFO root fetch - processPackages [moobius]: Remove: archive file [/home/abi/fetcher/tmp/moobius-1.1.8.tar.gz]
+[2024-04-17 01:49:14] INFO root fetch - main [MainThread]: End processing [moobius]: success
+[2024-04-17 01:49:15] INFO root fetch - processPackages [jedi-language-server]: executing diffoscope
+[2024-04-17 01:49:15] INFO root fetch - processPackages [jedi-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jedi-language-server-0.8.0.tar.gz tmp/jedi-language-server-0.9.0.tar.gz --markdown 20240417/j/jedi-language-server/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-17 01:49:15] INFO root fetch - processPackages [jedi-language-server]: Remove: archive file [/home/abi/fetcher/tmp/jedi-language-server-0.8.0.tar.gz]
+[2024-04-17 01:49:15] INFO root fetch - processPackages [jedi-language-server]: Remove: archive file [/home/abi/fetcher/tmp/jedi-language-server-0.9.0.tar.gz]
+[2024-04-17 01:49:15] INFO root fetch - main [MainThread]: End processing [jedi-language-server]: success
+[2024-04-17 01:49:15] INFO root fetch - main [MainThread]: Store serial: [22796406]
