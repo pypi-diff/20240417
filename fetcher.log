@@ -1416,3 +1416,38 @@
 [2024-04-17 01:36:08] INFO root fetch - processPackages [drumpler-mammoth]: Remove: archive file [/home/abi/fetcher/tmp/drumpler_mammoth-2.0.9.tar.gz]
 [2024-04-17 01:36:08] INFO root fetch - main [MainThread]: End processing [drumpler-mammoth]: success
 [2024-04-17 01:36:08] INFO root fetch - main [MainThread]: Store serial: [22796348]
+[2024-04-17 01:38:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796348]
+[2024-04-17 01:38:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 01:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asleep
+[2024-04-17 01:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dt-extensions-sdk
+[2024-04-17 01:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haliax
+[2024-04-17 01:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zfit
+[2024-04-17 01:38:16] INFO root fetch - processPackages [asleep]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-17 01:38:16] INFO root fetch - processPackages [asleep]: Downloading https://files.pythonhosted.org/packages/d5/6c/eb478eab66a918ed76b3fe436aac46ed3766b82d96d0cca1ef6852943bc7/asleep-0.4.8.tar.gz
+[2024-04-17 01:38:16] INFO root fetch - processPackages [dt-extensions-sdk]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-17 01:38:16] INFO root fetch - processPackages [haliax]: New version: [1.4.dev291] Old Version: [1.4.dev290]
+[2024-04-17 01:38:16] INFO root fetch - processPackages [zfit]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2024-04-17 01:38:16] WARNING root fetch - processPackages [asleep]: Skipping package: exceeds size limit 41162047>=10485760
+[2024-04-17 01:38:16] INFO root fetch - main [MainThread]: End processing [asleep] error
+[2024-04-17 01:38:16] INFO root fetch - processPackages [haliax]: Downloading https://files.pythonhosted.org/packages/5c/a3/a9c68cb552de60272c9c847707dada2277739d5ed93e4424003819f7758a/haliax-1.4.dev290.tar.gz
+[2024-04-17 01:38:16] INFO root fetch - processPackages [dt-extensions-sdk]: Downloading https://files.pythonhosted.org/packages/0e/10/88f712fb8d939e102905206d922adc64d215445dc102c3d5d30f1193f00f/dt_extensions_sdk-1.1.8.tar.gz
+[2024-04-17 01:38:16] INFO root fetch - processPackages [zfit]: Downloading https://files.pythonhosted.org/packages/5f/45/c2a4a280a4669f3d5a473bbbede7e0fb01844f23957157b09b6980486c1f/zfit-0.9.0a2.tar.gz
+[2024-04-17 01:38:17] INFO root fetch - processPackages [dt-extensions-sdk]: Downloading https://files.pythonhosted.org/packages/07/5f/1daa7695f0fbf0df9cd8703b66137d3cab861632d5449627125f40296700/dt_extensions_sdk-1.1.9.tar.gz
+[2024-04-17 01:38:17] INFO root fetch - processPackages [haliax]: Downloading https://files.pythonhosted.org/packages/e9/db/1cdc57749857225dd9f7c766d968cce93661c6b24cc696721662b8837bb7/haliax-1.4.dev291.tar.gz
+[2024-04-17 01:38:17] INFO root fetch - processPackages [zfit]: Downloading https://files.pythonhosted.org/packages/1a/21/15ef2af4e39f9470653ee29ada9b0207d6a2ff7d11654e5d791a0ca1504a/zfit-0.9.0a3.tar.gz
+[2024-04-17 01:38:17] INFO root fetch - processPackages [dt-extensions-sdk]: executing diffoscope
+[2024-04-17 01:38:17] INFO root fetch - processPackages [dt-extensions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt_extensions_sdk-1.1.8.tar.gz tmp/dt_extensions_sdk-1.1.9.tar.gz --markdown 20240417/d/dt-extensions-sdk/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-17 01:38:17] INFO root fetch - processPackages [haliax]: executing diffoscope
+[2024-04-17 01:38:17] INFO root fetch - processPackages [haliax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haliax-1.4.dev290.tar.gz tmp/haliax-1.4.dev291.tar.gz --markdown 20240417/h/haliax/1.4.dev290-1.4.dev291/README.md --exclude *.pyd
+[2024-04-17 01:38:17] INFO root fetch - processPackages [zfit]: executing diffoscope
+[2024-04-17 01:38:17] INFO root fetch - processPackages [zfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfit-0.9.0a2.tar.gz tmp/zfit-0.9.0a3.tar.gz --markdown 20240417/z/zfit/0.9.0a2-0.9.0a3/README.md --exclude *.pyd
+[2024-04-17 01:38:18] INFO root fetch - processPackages [dt-extensions-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_sdk-1.1.8.tar.gz]
+[2024-04-17 01:38:18] INFO root fetch - processPackages [dt-extensions-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_sdk-1.1.9.tar.gz]
+[2024-04-17 01:38:18] INFO root fetch - main [MainThread]: End processing [dt-extensions-sdk]: success
+[2024-04-17 01:38:18] INFO root fetch - processPackages [haliax]: Remove: archive file [/home/abi/fetcher/tmp/haliax-1.4.dev290.tar.gz]
+[2024-04-17 01:38:18] INFO root fetch - processPackages [haliax]: Remove: archive file [/home/abi/fetcher/tmp/haliax-1.4.dev291.tar.gz]
+[2024-04-17 01:38:18] INFO root fetch - main [MainThread]: End processing [haliax]: success
+[2024-04-17 01:38:20] INFO root fetch - processPackages [zfit]: Remove: archive file [/home/abi/fetcher/tmp/zfit-0.9.0a2.tar.gz]
+[2024-04-17 01:38:20] INFO root fetch - processPackages [zfit]: Remove: archive file [/home/abi/fetcher/tmp/zfit-0.9.0a3.tar.gz]
+[2024-04-17 01:38:20] INFO root fetch - main [MainThread]: End processing [zfit]: success
+[2024-04-17 01:38:20] INFO root fetch - main [MainThread]: Store serial: [22796360]
