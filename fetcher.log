@@ -996,3 +996,72 @@
 [2024-04-17 01:09:51] INFO root fetch - processPackages [arm-pyart]: Remove: archive file [/home/abi/fetcher/tmp/arm_pyart-1.9.2.tar.gz]
 [2024-04-17 01:09:51] INFO root fetch - main [MainThread]: End processing [arm-pyart]: success
 [2024-04-17 01:09:51] INFO root fetch - main [MainThread]: Store serial: [22796102]
+[2024-04-17 01:11:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796102]
+[2024-04-17 01:12:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 01:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thepipe-api
+[2024-04-17 01:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-embeddings-octoai
+[2024-04-17 01:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynamic-chunks
+[2024-04-17 01:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sapphire-renderer
+[2024-04-17 01:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scalex
+[2024-04-17 01:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: socktalk
+[2024-04-17 01:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: berremueller
+[2024-04-17 01:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: napalm-fsos-ssh
+[2024-04-17 01:12:01] INFO root fetch - processPackages [thepipe-api]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-04-17 01:12:01] INFO root fetch - processPackages [socktalk]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-17 01:12:01] INFO root fetch - processPackages [sapphire-renderer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 01:12:01] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/c1/ef/b4ee3dc6f0868b1df352aa9cb2f71afe6e0b057a4cf656e4426d885901c9/socktalk-0.1.9.tar.gz
+[2024-04-17 01:12:01] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/f9/95/4c068ed0fc15d5dce30513a5f8e1935adce39b22c6b3792500bbda1ec479/thepipe_api-0.2.0.tar.gz
+[2024-04-17 01:12:01] INFO root fetch - processPackages [dynamic-chunks]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 01:12:01] INFO root fetch - processPackages [scalex]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-17 01:12:01] INFO root fetch - processPackages [napalm-fsos-ssh]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-17 01:12:01] INFO root fetch - processPackages [berremueller]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-17 01:12:01] WARNING root fetch - processPackages [llama-index-embeddings-octoai]: Skipping, unable to determine old version
+[2024-04-17 01:12:01] INFO root fetch - main [MainThread]: End processing [llama-index-embeddings-octoai] error
+[2024-04-17 01:12:01] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/2b/42/94c0538f43a9b8e7cb54f37e97b259fbdd1ec3592931d86660f100f5ce0e/sapphire-renderer-0.0.8.tar.gz
+[2024-04-17 01:12:01] INFO root fetch - processPackages [scalex]: Downloading https://files.pythonhosted.org/packages/6c/a0/e8dee51f4cd461ffddf5514a2db2ca22832c2cf2f4df0d0a1c3b34c5c181/scalex-1.0.2.tar.gz
+[2024-04-17 01:12:01] INFO root fetch - processPackages [dynamic-chunks]: Downloading https://files.pythonhosted.org/packages/67/44/378233f93761e71f17c7a23cdb6ab8671f33f29ae9e38214f26a8fe1fa9c/dynamic_chunks-0.0.2.tar.gz
+[2024-04-17 01:12:01] INFO root fetch - processPackages [napalm-fsos-ssh]: Downloading https://files.pythonhosted.org/packages/0c/d7/8e014a1d7cb37012594a4c5374fccb67c2de945f7eed06874fef8014608d/napalm_fsos_ssh-1.1.0.tar.gz
+[2024-04-17 01:12:01] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/93/6e/631ce8ae388c0b9d964b970a13063841c429c8e1cf580012561018b73a65/socktalk-0.2.0.tar.gz
+[2024-04-17 01:12:01] INFO root fetch - processPackages [berremueller]: Downloading https://files.pythonhosted.org/packages/87/05/a344fbfdafba547c98282aba9ef455421fe3f899ff1f0cb73c9a92559b6c/berremueller-1.0.0.tar.gz
+[2024-04-17 01:12:01] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/f8/31/8de4b92c9035b28151912286005bd004a22beea4fc1de98c231b009bd2be/sapphire-renderer-0.0.9.tar.gz
+[2024-04-17 01:12:02] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/90/2f/86967f245b46986f3caa023552b37b4bc88994cd4a679cb1c1d460d2f741/thepipe_api-0.2.2.tar.gz
+[2024-04-17 01:12:02] INFO root fetch - processPackages [socktalk]: executing diffoscope
+[2024-04-17 01:12:02] INFO root fetch - processPackages [socktalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socktalk-0.1.9.tar.gz tmp/socktalk-0.2.0.tar.gz --markdown 20240417/s/socktalk/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-17 01:12:02] INFO root fetch - processPackages [sapphire-renderer]: executing diffoscope
+[2024-04-17 01:12:02] INFO root fetch - processPackages [sapphire-renderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapphire-renderer-0.0.8.tar.gz tmp/sapphire-renderer-0.0.9.tar.gz --markdown 20240417/s/sapphire-renderer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 01:12:02] INFO root fetch - processPackages [thepipe-api]: executing diffoscope
+[2024-04-17 01:12:02] INFO root fetch - processPackages [thepipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thepipe_api-0.2.0.tar.gz tmp/thepipe_api-0.2.2.tar.gz --markdown 20240417/t/thepipe-api/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-04-17 01:12:02] INFO root fetch - processPackages [napalm-fsos-ssh]: Downloading https://files.pythonhosted.org/packages/30/fe/ec3ac999437876c7e10242db56994a931078e9a5a1aeca57e52704b9a7f7/napalm_fsos_ssh-1.2.0.tar.gz
+[2024-04-17 01:12:02] INFO root fetch - processPackages [dynamic-chunks]: Downloading https://files.pythonhosted.org/packages/52/0e/bc904e2d5f88b382a3ab8d686050d5f805f35323e91e49f9bb2cc1e80463/dynamic_chunks-0.0.3.tar.gz
+[2024-04-17 01:12:02] INFO root fetch - processPackages [berremueller]: Downloading https://files.pythonhosted.org/packages/4c/85/cc5d7c071bf5d014b8a94b05c54910f32d3d60f877a6da0eefa031d0010c/berremueller-1.0.1.tar.gz
+[2024-04-17 01:12:02] INFO root fetch - processPackages [berremueller]: executing diffoscope
+[2024-04-17 01:12:02] INFO root fetch - processPackages [berremueller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berremueller-1.0.0.tar.gz tmp/berremueller-1.0.1.tar.gz --markdown 20240417/b/berremueller/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-17 01:12:02] INFO root fetch - processPackages [napalm-fsos-ssh]: executing diffoscope
+[2024-04-17 01:12:02] INFO root fetch - processPackages [napalm-fsos-ssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_fsos_ssh-1.1.0.tar.gz tmp/napalm_fsos_ssh-1.2.0.tar.gz --markdown 20240417/n/napalm-fsos-ssh/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-17 01:12:02] INFO root fetch - processPackages [dynamic-chunks]: executing diffoscope
+[2024-04-17 01:12:02] INFO root fetch - processPackages [dynamic-chunks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_chunks-0.0.2.tar.gz tmp/dynamic_chunks-0.0.3.tar.gz --markdown 20240417/d/dynamic-chunks/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 01:12:02] INFO root fetch - processPackages [scalex]: Downloading https://files.pythonhosted.org/packages/af/a7/f6fd49af0ec7ec735aaa7141dc18c7dc7cb36983d075986a425f6c3cf366/scalex-1.0.3.tar.gz
+[2024-04-17 01:12:02] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.8.tar.gz]
+[2024-04-17 01:12:02] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.9.tar.gz]
+[2024-04-17 01:12:02] INFO root fetch - main [MainThread]: End processing [sapphire-renderer]: success
+[2024-04-17 01:12:02] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.2.0.tar.gz]
+[2024-04-17 01:12:02] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.2.2.tar.gz]
+[2024-04-17 01:12:02] INFO root fetch - main [MainThread]: End processing [thepipe-api]: success
+[2024-04-17 01:12:02] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.1.9.tar.gz]
+[2024-04-17 01:12:02] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.2.0.tar.gz]
+[2024-04-17 01:12:02] INFO root fetch - main [MainThread]: End processing [socktalk]: success
+[2024-04-17 01:12:03] INFO root fetch - processPackages [dynamic-chunks]: Remove: archive file [/home/abi/fetcher/tmp/dynamic_chunks-0.0.2.tar.gz]
+[2024-04-17 01:12:03] INFO root fetch - processPackages [dynamic-chunks]: Remove: archive file [/home/abi/fetcher/tmp/dynamic_chunks-0.0.3.tar.gz]
+[2024-04-17 01:12:03] INFO root fetch - main [MainThread]: End processing [dynamic-chunks]: success
+[2024-04-17 01:12:03] INFO root fetch - processPackages [scalex]: executing diffoscope
+[2024-04-17 01:12:03] INFO root fetch - processPackages [scalex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalex-1.0.2.tar.gz tmp/scalex-1.0.3.tar.gz --markdown 20240417/s/scalex/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-17 01:12:03] INFO root fetch - processPackages [napalm-fsos-ssh]: Remove: archive file [/home/abi/fetcher/tmp/napalm_fsos_ssh-1.1.0.tar.gz]
+[2024-04-17 01:12:03] INFO root fetch - processPackages [napalm-fsos-ssh]: Remove: archive file [/home/abi/fetcher/tmp/napalm_fsos_ssh-1.2.0.tar.gz]
+[2024-04-17 01:12:03] INFO root fetch - main [MainThread]: End processing [napalm-fsos-ssh]: success
+[2024-04-17 01:12:03] INFO root fetch - processPackages [berremueller]: Remove: archive file [/home/abi/fetcher/tmp/berremueller-1.0.0.tar.gz]
+[2024-04-17 01:12:03] INFO root fetch - processPackages [berremueller]: Remove: archive file [/home/abi/fetcher/tmp/berremueller-1.0.1.tar.gz]
+[2024-04-17 01:12:03] INFO root fetch - main [MainThread]: End processing [berremueller]: success
+[2024-04-17 01:12:04] INFO root fetch - processPackages [scalex]: Remove: archive file [/home/abi/fetcher/tmp/scalex-1.0.2.tar.gz]
+[2024-04-17 01:12:04] INFO root fetch - processPackages [scalex]: Remove: archive file [/home/abi/fetcher/tmp/scalex-1.0.3.tar.gz]
+[2024-04-17 01:12:04] INFO root fetch - main [MainThread]: End processing [scalex]: success
+[2024-04-17 01:12:04] INFO root fetch - main [MainThread]: Store serial: [22796140]
