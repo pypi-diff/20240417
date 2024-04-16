@@ -1170,3 +1170,24 @@
 [2024-04-17 01:18:37] INFO root fetch - processPackages [websocat]: Remove: archive file [/home/abi/fetcher/tmp/websocat-1.13.0-py3-none-musllinux_1_2_x86_64.whl.zip]
 [2024-04-17 01:18:37] INFO root fetch - main [MainThread]: End processing [websocat]: success
 [2024-04-17 01:18:37] INFO root fetch - main [MainThread]: Store serial: [22796209]
+[2024-04-17 01:20:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796209]
+[2024-04-17 01:20:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 01:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskara
+[2024-04-17 01:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: istari
+[2024-04-17 01:20:45] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-17 01:20:45] INFO root fetch - processPackages [istari]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-17 01:20:45] INFO root fetch - processPackages [istari]: Downloading https://files.pythonhosted.org/packages/9b/7e/f3bf19025a437bf63e31957d7dc6bb162b7a08e4fcef3af1cee035e5e2ad/istari-0.1.4.tar.gz
+[2024-04-17 01:20:45] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-04-17 01:20:46] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-04-17 01:20:46] INFO root fetch - processPackages [istari]: Downloading https://files.pythonhosted.org/packages/90/45/a425bcb152bc884b6cf5b949427fbb40a4dc5c693ea8f49ea6eb617aaa95/istari-0.1.5.tar.gz
+[2024-04-17 01:20:46] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-04-17 01:20:46] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240417/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-17 01:20:46] INFO root fetch - processPackages [istari]: executing diffoscope
+[2024-04-17 01:20:46] INFO root fetch - processPackages [istari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/istari-0.1.4.tar.gz tmp/istari-0.1.5.tar.gz --markdown 20240417/i/istari/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-17 01:20:46] INFO root fetch - processPackages [istari]: Remove: archive file [/home/abi/fetcher/tmp/istari-0.1.4.tar.gz]
+[2024-04-17 01:20:46] INFO root fetch - processPackages [istari]: Remove: archive file [/home/abi/fetcher/tmp/istari-0.1.5.tar.gz]
+[2024-04-17 01:20:46] INFO root fetch - main [MainThread]: End processing [istari]: success
+[2024-04-17 01:20:46] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-04-17 01:20:46] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-04-17 01:20:46] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-04-17 01:20:46] INFO root fetch - main [MainThread]: Store serial: [22796215]
