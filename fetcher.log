@@ -1696,3 +1696,27 @@
 [2024-04-17 01:55:48] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.56.tar.gz]
 [2024-04-17 01:55:48] INFO root fetch - main [MainThread]: End processing [affixapi]: success
 [2024-04-17 01:55:48] INFO root fetch - main [MainThread]: Store serial: [22796446]
+[2024-04-17 01:57:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796446]
+[2024-04-17 01:57:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 01:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: silobuster-test
+[2024-04-17 01:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pharmcat-runner
+[2024-04-17 01:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlsauce
+[2024-04-17 01:57:56] INFO root fetch - processPackages [pharmcat-runner]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-17 01:57:56] INFO root fetch - processPackages [pharmcat-runner]: Downloading https://files.pythonhosted.org/packages/f5/f8/c65048769b1a74b37b9550ca7bc94a7ab59a729bccffaeaf97ed2fa186e1/pharmcat_runner-0.0.7.tar.gz
+[2024-04-17 01:57:56] WARNING root fetch - processPackages [silobuster-test]: Skipping, unable to determine old version
+[2024-04-17 01:57:56] INFO root fetch - main [MainThread]: End processing [silobuster-test] error
+[2024-04-17 01:57:56] INFO root fetch - processPackages [mlsauce]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-17 01:57:56] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/09/f7/2b520a477f7710396348e4b9d582826758d5b083fe9b79613abe9c1435dd/mlsauce-0.9.0.tar.gz
+[2024-04-17 01:57:56] INFO root fetch - processPackages [pharmcat-runner]: Downloading https://files.pythonhosted.org/packages/46/60/844014c15c2d8bb4eb5cfeeadfd9332157c9d9d1dae3ae6148e8a25df107/pharmcat_runner-0.0.8.tar.gz
+[2024-04-17 01:57:57] INFO root fetch - processPackages [pharmcat-runner]: executing diffoscope
+[2024-04-17 01:57:57] INFO root fetch - processPackages [pharmcat-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharmcat_runner-0.0.7.tar.gz tmp/pharmcat_runner-0.0.8.tar.gz --markdown 20240417/p/pharmcat-runner/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-17 01:57:57] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/34/94/ecad26410f10cd9ffb719f2bc235ed21c44541226f01a963cd37706f4b37/mlsauce-0.9.1.tar.gz
+[2024-04-17 01:57:57] INFO root fetch - processPackages [mlsauce]: executing diffoscope
+[2024-04-17 01:57:57] INFO root fetch - processPackages [mlsauce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsauce-0.9.0.tar.gz tmp/mlsauce-0.9.1.tar.gz --markdown 20240417/m/mlsauce/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-17 01:57:57] INFO root fetch - processPackages [pharmcat-runner]: Remove: archive file [/home/abi/fetcher/tmp/pharmcat_runner-0.0.7.tar.gz]
+[2024-04-17 01:57:57] INFO root fetch - processPackages [pharmcat-runner]: Remove: archive file [/home/abi/fetcher/tmp/pharmcat_runner-0.0.8.tar.gz]
+[2024-04-17 01:57:57] INFO root fetch - main [MainThread]: End processing [pharmcat-runner]: success
+[2024-04-17 01:57:57] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.0.tar.gz]
+[2024-04-17 01:57:57] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.1.tar.gz]
+[2024-04-17 01:57:57] INFO root fetch - main [MainThread]: End processing [mlsauce]: success
+[2024-04-17 01:57:57] INFO root fetch - main [MainThread]: Store serial: [22796457]
