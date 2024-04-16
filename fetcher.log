@@ -771,3 +771,24 @@
 [2024-04-17 00:47:49] INFO root fetch - processPackages [naluacq]: Remove: archive file [/home/abi/fetcher/tmp/naluacq-0.4.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-17 00:47:49] INFO root fetch - main [MainThread]: End processing [naluacq]: success
 [2024-04-17 00:47:49] INFO root fetch - main [MainThread]: Store serial: [22796032]
+[2024-04-17 00:49:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796032]
+[2024-04-17 00:49:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 00:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: variable-local
+[2024-04-17 00:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quil
+[2024-04-17 00:49:59] INFO root fetch - processPackages [variable-local]: New version: [0.0.90] Old Version: [0.0.9]
+[2024-04-17 00:50:00] INFO root fetch - processPackages [quil]: New version: [0.9.0rc0] Old Version: [0.8.0]
+[2024-04-17 00:50:00] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/e5/f4/e016a8f42b1cc297e98ae2094a036bf46b6f46572d6a1fdf8ec4e6ad57fe/variable_local-0.0.9.tar.gz
+[2024-04-17 00:50:00] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/22/01/0a9457cb3d70276e20374f91d5de209f3ca1f29fe3dcfdbb74ec8ee8d380/quil-0.8.0.tar.gz
+[2024-04-17 00:50:00] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/c9/39/cb95c415f0aa38f46c8afc325eb384e90cda05c77271eb077a7b1bd9b95b/variable_local-0.0.90.tar.gz
+[2024-04-17 00:50:00] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/1d/77/08ffdad805ed8069c0e8a1ebc33c6ede83e6e06449922f29c7d3ab39a1a0/quil-0.9.0rc0.tar.gz
+[2024-04-17 00:50:00] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-04-17 00:50:00] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable_local-0.0.9.tar.gz tmp/variable_local-0.0.90.tar.gz --markdown 20240417/v/variable-local/0.0.9-0.0.90/README.md --exclude *.pyd
+[2024-04-17 00:50:00] INFO root fetch - processPackages [quil]: executing diffoscope
+[2024-04-17 00:50:00] INFO root fetch - processPackages [quil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quil-0.8.0.tar.gz tmp/quil-0.9.0rc0.tar.gz --markdown 20240417/q/quil/0.8.0-0.9.0rc0/README.md --exclude *.pyd
+[2024-04-17 00:50:01] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.9.tar.gz]
+[2024-04-17 00:50:01] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.90.tar.gz]
+[2024-04-17 00:50:01] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-04-17 00:50:02] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.8.0.tar.gz]
+[2024-04-17 00:50:02] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.9.0rc0.tar.gz]
+[2024-04-17 00:50:02] INFO root fetch - main [MainThread]: End processing [quil]: success
+[2024-04-17 00:50:02] INFO root fetch - main [MainThread]: Store serial: [22796037]
