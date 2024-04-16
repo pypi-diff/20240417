@@ -525,3 +525,15 @@
 [2024-04-17 00:32:21] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
 [2024-04-17 00:32:21] INFO root fetch - main [MainThread]: End processing [freegenius]: success
 [2024-04-17 00:32:21] INFO root fetch - main [MainThread]: Store serial: [22795940]
+[2024-04-17 00:34:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795940]
+[2024-04-17 00:34:29] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 00:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hahomematic
+[2024-04-17 00:34:29] INFO root fetch - processPackages [hahomematic]: New version: [2024.4.9b0] Old Version: [2024.4.8]
+[2024-04-17 00:34:29] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/58/91/e03813874aa18ae00ecc64dffa2073f0b67908d208a491a95dd8b9131bbc/hahomematic-2024.4.8.tar.gz
+[2024-04-17 00:34:30] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/29/c4/4cade6654d509e25b526ea3c7d9fbf9043c78df012f970d4482a457b403a/hahomematic-2024.4.9b0.tar.gz
+[2024-04-17 00:34:30] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2024-04-17 00:34:30] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2024.4.8.tar.gz tmp/hahomematic-2024.4.9b0.tar.gz --markdown 20240417/h/hahomematic/2024.4.8-2024.4.9b0/README.md --exclude *.pyd
+[2024-04-17 00:34:31] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.8.tar.gz]
+[2024-04-17 00:34:31] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.9b0.tar.gz]
+[2024-04-17 00:34:31] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2024-04-17 00:34:31] INFO root fetch - main [MainThread]: Store serial: [22795943]
