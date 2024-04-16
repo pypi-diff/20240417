@@ -55,3 +55,44 @@
 [2024-04-17 00:03:58] INFO root fetch - processPackages [minfraud]: Remove: archive file [/home/abi/fetcher/tmp/minfraud-2.9.0.tar.gz]
 [2024-04-17 00:03:58] INFO root fetch - main [MainThread]: End processing [minfraud]: success
 [2024-04-17 00:03:58] INFO root fetch - main [MainThread]: Store serial: [22795752]
+[2024-04-17 00:06:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795752]
+[2024-04-17 00:06:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 00:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recipe-urls
+[2024-04-17 00:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-connect
+[2024-04-17 00:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prompt-security-fuzzer
+[2024-04-17 00:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jax-moseq
+[2024-04-17 00:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ciscoconfparse2
+[2024-04-17 00:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyGRF
+[2024-04-17 00:06:07] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.175] Old Version: [0.1.174]
+[2024-04-17 00:06:07] INFO root fetch - processPackages [PyGRF]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 00:06:07] WARNING root fetch - processPackages [recipe-urls]: Skipping, unable to determine old version
+[2024-04-17 00:06:07] INFO root fetch - main [MainThread]: End processing [recipe-urls] error
+[2024-04-17 00:06:07] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/82/0f/579f15c2e1027936444490c506d19e82ee3858a20339d105bef78201b6d3/ansar_connect-0.1.174.tar.gz
+[2024-04-17 00:06:07] WARNING root fetch - processPackages [prompt-security-fuzzer]: Skipping, unable to determine old version
+[2024-04-17 00:06:07] INFO root fetch - main [MainThread]: End processing [prompt-security-fuzzer] error
+[2024-04-17 00:06:07] INFO root fetch - processPackages [jax-moseq]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-17 00:06:07] INFO root fetch - processPackages [ciscoconfparse2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-17 00:06:07] INFO root fetch - processPackages [PyGRF]: Downloading https://files.pythonhosted.org/packages/ce/47/f875d1e6bca49aee37b3b6da80bae2115ede3088304f3f071a8871934b5e/PyGRF-0.0.2.tar.gz
+[2024-04-17 00:06:07] INFO root fetch - processPackages [jax-moseq]: Downloading https://files.pythonhosted.org/packages/07/c3/bbf3ec8f03b46804f1f67c115210d3fb6b81e6080bd033771a3a04fd02cd/jax-moseq-0.2.1.tar.gz
+[2024-04-17 00:06:07] INFO root fetch - processPackages [ciscoconfparse2]: Downloading https://files.pythonhosted.org/packages/26/c5/d7a1bbb15197a52ec641fb3455b2bad160571ef08bbb87f61c8e83e45163/ciscoconfparse2-0.7.8.tar.gz
+[2024-04-17 00:06:07] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/f8/fd/7092ea623e5c5fc9f12486e47445f93160cf7b7abc104337399376e01e35/ansar_connect-0.1.175.tar.gz
+[2024-04-17 00:06:07] INFO root fetch - processPackages [PyGRF]: Downloading https://files.pythonhosted.org/packages/6e/73/74abf26e16b419f514c408d38f65104f21ac1966d98fd6abfb342b60c191/PyGRF-0.0.3.tar.gz
+[2024-04-17 00:06:07] WARNING root fetch - processPackages [ciscoconfparse2]: Skipping package: exceeds size limit 12946892>=10485760
+[2024-04-17 00:06:07] INFO root fetch - main [MainThread]: End processing [ciscoconfparse2] error
+[2024-04-17 00:06:07] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-17 00:06:07] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.174.tar.gz tmp/ansar_connect-0.1.175.tar.gz --markdown 20240417/a/ansar-connect/0.1.174-0.1.175/README.md --exclude *.pyd
+[2024-04-17 00:06:07] INFO root fetch - processPackages [jax-moseq]: Downloading https://files.pythonhosted.org/packages/ed/05/23846990a52499b0a0e5c88b26892774f8aacd7b7f2d0a4fcbb3f25ed8e1/jax-moseq-0.2.2.tar.gz
+[2024-04-17 00:06:07] INFO root fetch - processPackages [PyGRF]: executing diffoscope
+[2024-04-17 00:06:07] INFO root fetch - processPackages [PyGRF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGRF-0.0.2.tar.gz tmp/PyGRF-0.0.3.tar.gz --markdown 20240417/P/PyGRF/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 00:06:08] INFO root fetch - processPackages [jax-moseq]: executing diffoscope
+[2024-04-17 00:06:08] INFO root fetch - processPackages [jax-moseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-moseq-0.2.1.tar.gz tmp/jax-moseq-0.2.2.tar.gz --markdown 20240417/j/jax-moseq/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-17 00:06:08] INFO root fetch - processPackages [PyGRF]: Remove: archive file [/home/abi/fetcher/tmp/PyGRF-0.0.2.tar.gz]
+[2024-04-17 00:06:08] INFO root fetch - processPackages [PyGRF]: Remove: archive file [/home/abi/fetcher/tmp/PyGRF-0.0.3.tar.gz]
+[2024-04-17 00:06:08] INFO root fetch - main [MainThread]: End processing [PyGRF]: success
+[2024-04-17 00:06:08] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.174.tar.gz]
+[2024-04-17 00:06:08] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.175.tar.gz]
+[2024-04-17 00:06:08] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-17 00:06:08] INFO root fetch - processPackages [jax-moseq]: Remove: archive file [/home/abi/fetcher/tmp/jax-moseq-0.2.1.tar.gz]
+[2024-04-17 00:06:08] INFO root fetch - processPackages [jax-moseq]: Remove: archive file [/home/abi/fetcher/tmp/jax-moseq-0.2.2.tar.gz]
+[2024-04-17 00:06:08] INFO root fetch - main [MainThread]: End processing [jax-moseq]: success
+[2024-04-17 00:06:08] INFO root fetch - main [MainThread]: Store serial: [22795771]
