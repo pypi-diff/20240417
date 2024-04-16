@@ -501,3 +501,27 @@
 [2024-04-17 00:30:10] INFO root fetch - processPackages [sdss-hal]: Remove: archive file [/home/abi/fetcher/tmp/sdss_hal-1.1.6.tar.gz]
 [2024-04-17 00:30:10] INFO root fetch - main [MainThread]: End processing [sdss-hal]: success
 [2024-04-17 00:30:10] INFO root fetch - main [MainThread]: Store serial: [22795931]
+[2024-04-17 00:32:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795931]
+[2024-04-17 00:32:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 00:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: freegenius
+[2024-04-17 00:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-spinning-loader
+[2024-04-17 00:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpg-utils
+[2024-04-17 00:32:18] WARNING root fetch - processPackages [python-spinning-loader]: Skipping, unable to determine old version
+[2024-04-17 00:32:18] INFO root fetch - main [MainThread]: End processing [python-spinning-loader] error
+[2024-04-17 00:32:18] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.88]
+[2024-04-17 00:32:19] INFO root fetch - processPackages [cpg-utils]: New version: [5.0.5] Old Version: [5.0.4]
+[2024-04-17 00:32:19] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/35/d0/a097d92bf0ac4b6b9c0975912ba3690810a5849f62d0b767227490309ab5/freegenius-0.0.88.tar.gz
+[2024-04-17 00:32:19] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/53/9e/ebdc47a40e5bbdade80ba30a1dd0a66380ad360361b40ba19e64dc01d508/cpg-utils-5.0.4.tar.gz
+[2024-04-17 00:32:19] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/b5/d2/5398a5e17b278d110863975d989a8e157d6b523ae56159efa70f8804e2dc/cpg-utils-5.0.5.tar.gz
+[2024-04-17 00:32:19] INFO root fetch - processPackages [cpg-utils]: executing diffoscope
+[2024-04-17 00:32:19] INFO root fetch - processPackages [cpg-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-utils-5.0.4.tar.gz tmp/cpg-utils-5.0.5.tar.gz --markdown 20240417/c/cpg-utils/5.0.4-5.0.5/README.md --exclude *.pyd
+[2024-04-17 00:32:20] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-17 00:32:20] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-17 00:32:20] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.88.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240417/f/freegenius/0.0.88-0.0.9/README.md --exclude *.pyd
+[2024-04-17 00:32:20] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.4.tar.gz]
+[2024-04-17 00:32:20] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.5.tar.gz]
+[2024-04-17 00:32:20] INFO root fetch - main [MainThread]: End processing [cpg-utils]: success
+[2024-04-17 00:32:21] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.88.tar.gz]
+[2024-04-17 00:32:21] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-17 00:32:21] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-17 00:32:21] INFO root fetch - main [MainThread]: Store serial: [22795940]
