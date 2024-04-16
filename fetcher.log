@@ -816,3 +816,24 @@
 [2024-04-17 00:52:13] INFO root fetch - processPackages [nimbusagent]: Remove: archive file [/home/abi/fetcher/tmp/nimbusagent-0.5.1.tar.gz]
 [2024-04-17 00:52:13] INFO root fetch - main [MainThread]: End processing [nimbusagent]: success
 [2024-04-17 00:52:13] INFO root fetch - main [MainThread]: Store serial: [22796047]
+[2024-04-17 00:54:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796047]
+[2024-04-17 00:54:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 00:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iniUts
+[2024-04-17 00:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lucupy
+[2024-04-17 00:54:22] INFO root fetch - processPackages [iniUts]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-17 00:54:22] INFO root fetch - processPackages [iniUts]: Downloading https://files.pythonhosted.org/packages/2a/d8/5941517a5722f5d9caae1c6093dcf8e44e9c1ccf4fa578a223e9bdf74218/iniUts-1.1.5.tar.gz
+[2024-04-17 00:54:22] INFO root fetch - processPackages [lucupy]: New version: [0.1.9] Old Version: [0.1.86]
+[2024-04-17 00:54:22] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/39/62/527fcfe68cbb25d09978ae54e95b1ae4ccdeedc7752646dc3483c0a30ffa/lucupy-0.1.86.tar.gz
+[2024-04-17 00:54:22] INFO root fetch - processPackages [iniUts]: Downloading https://files.pythonhosted.org/packages/59/e1/5365a7bba7bf6cb49064d356ea3951bb2c19acc9f96ddd499b33a93fd1d0/iniUts-1.1.6.tar.gz
+[2024-04-17 00:54:22] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/8e/71/90824741abbd5f41e02cef3f27573135ac7ee3e561efa91dfd0394c03374/lucupy-0.1.9.tar.gz
+[2024-04-17 00:54:22] INFO root fetch - processPackages [lucupy]: executing diffoscope
+[2024-04-17 00:54:22] INFO root fetch - processPackages [lucupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucupy-0.1.86.tar.gz tmp/lucupy-0.1.9.tar.gz --markdown 20240417/l/lucupy/0.1.86-0.1.9/README.md --exclude *.pyd
+[2024-04-17 00:54:22] INFO root fetch - processPackages [iniUts]: executing diffoscope
+[2024-04-17 00:54:22] INFO root fetch - processPackages [iniUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iniUts-1.1.5.tar.gz tmp/iniUts-1.1.6.tar.gz --markdown 20240417/i/iniUts/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-17 00:54:23] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.86.tar.gz]
+[2024-04-17 00:54:23] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.9.tar.gz]
+[2024-04-17 00:54:23] INFO root fetch - main [MainThread]: End processing [lucupy]: success
+[2024-04-17 00:54:25] INFO root fetch - processPackages [iniUts]: Remove: archive file [/home/abi/fetcher/tmp/iniUts-1.1.5.tar.gz]
+[2024-04-17 00:54:25] INFO root fetch - processPackages [iniUts]: Remove: archive file [/home/abi/fetcher/tmp/iniUts-1.1.6.tar.gz]
+[2024-04-17 00:54:25] INFO root fetch - main [MainThread]: End processing [iniUts]: success
+[2024-04-17 00:54:25] INFO root fetch - main [MainThread]: Store serial: [22796054]
