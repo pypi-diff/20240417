@@ -96,3 +96,51 @@
 [2024-04-17 00:06:08] INFO root fetch - processPackages [jax-moseq]: Remove: archive file [/home/abi/fetcher/tmp/jax-moseq-0.2.2.tar.gz]
 [2024-04-17 00:06:08] INFO root fetch - main [MainThread]: End processing [jax-moseq]: success
 [2024-04-17 00:06:08] INFO root fetch - main [MainThread]: Store serial: [22795771]
+[2024-04-17 00:08:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795771]
+[2024-04-17 00:08:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 00:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dart-tools
+[2024-04-17 00:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oteltest
+[2024-04-17 00:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faster-translate
+[2024-04-17 00:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parsee-core
+[2024-04-17 00:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: surfkit
+[2024-04-17 00:08:18] INFO root fetch - processPackages [faster-translate]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 00:08:18] INFO root fetch - processPackages [parsee-core]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-04-17 00:08:18] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 00:08:18] INFO root fetch - processPackages [oteltest]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-17 00:08:18] INFO root fetch - processPackages [dart-tools]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-17 00:08:18] INFO root fetch - processPackages [faster-translate]: Downloading https://files.pythonhosted.org/packages/3b/c8/192be1b2660fbebacaf30ed29bb70480c7cfae9a1acd79e94d34647855f1/faster_translate-0.1.8.tar.gz
+[2024-04-17 00:08:18] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/7a/50/254187550fba83da8e34776ce7e4c5844d1785b705b16a1ee835f8b7f74e/parsee_core-0.1.4.8.tar.gz
+[2024-04-17 00:08:18] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-17 00:08:18] INFO root fetch - processPackages [oteltest]: Downloading https://files.pythonhosted.org/packages/e1/d5/f90e274954aa0311d73b0d2292e7b01f07dfc81416b29e0f3d0fcffd45b4/oteltest-0.7.1.tar.gz
+[2024-04-17 00:08:18] INFO root fetch - processPackages [dart-tools]: Downloading https://files.pythonhosted.org/packages/3f/3f/4ea2abbc451dd80a5e7a1a2ab0ec44ac91156d3c50655dc24c5d657e106c/dart-tools-0.5.5.tar.gz
+[2024-04-17 00:08:18] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-17 00:08:18] INFO root fetch - processPackages [faster-translate]: Downloading https://files.pythonhosted.org/packages/b2/02/c7ff3644642ca742121a2b7b8b5633de81e632eaafd00fd8ad92020eadfa/faster_translate-0.1.9.tar.gz
+[2024-04-17 00:08:18] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/87/4f/31752247b806b1f52883033ecb4efbcec34d8a58a18a3a051c733dd38686/parsee_core-0.1.4.9.tar.gz
+[2024-04-17 00:08:18] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-17 00:08:18] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240417/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 00:08:18] INFO root fetch - processPackages [faster-translate]: executing diffoscope
+[2024-04-17 00:08:18] INFO root fetch - processPackages [faster-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faster_translate-0.1.8.tar.gz tmp/faster_translate-0.1.9.tar.gz --markdown 20240417/f/faster-translate/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 00:08:18] INFO root fetch - processPackages [parsee-core]: executing diffoscope
+[2024-04-17 00:08:18] INFO root fetch - processPackages [parsee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsee_core-0.1.4.8.tar.gz tmp/parsee_core-0.1.4.9.tar.gz --markdown 20240417/p/parsee-core/0.1.4.8-0.1.4.9/README.md --exclude *.pyd
+[2024-04-17 00:08:19] INFO root fetch - processPackages [oteltest]: Downloading https://files.pythonhosted.org/packages/14/06/ac4f38dc7194c8c4783e90bc2866c2a72bb5eb84373a53c50cdea3af6ba2/oteltest-0.8.0.tar.gz
+[2024-04-17 00:08:19] INFO root fetch - processPackages [dart-tools]: Downloading https://files.pythonhosted.org/packages/79/d8/560a1814e6fd9a9e4a0d2d6513184c133631295d18502f4a9ec737a084d9/dart_tools-0.5.6.tar.gz
+[2024-04-17 00:08:19] INFO root fetch - processPackages [oteltest]: executing diffoscope
+[2024-04-17 00:08:19] INFO root fetch - processPackages [oteltest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oteltest-0.7.1.tar.gz tmp/oteltest-0.8.0.tar.gz --markdown 20240417/o/oteltest/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-04-17 00:08:19] INFO root fetch - processPackages [dart-tools]: executing diffoscope
+[2024-04-17 00:08:19] INFO root fetch - processPackages [dart-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dart-tools-0.5.5.tar.gz tmp/dart_tools-0.5.6.tar.gz --markdown 20240417/d/dart-tools/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-04-17 00:08:19] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-17 00:08:19] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-17 00:08:19] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-17 00:08:19] INFO root fetch - processPackages [faster-translate]: Remove: archive file [/home/abi/fetcher/tmp/faster_translate-0.1.8.tar.gz]
+[2024-04-17 00:08:19] INFO root fetch - processPackages [faster-translate]: Remove: archive file [/home/abi/fetcher/tmp/faster_translate-0.1.9.tar.gz]
+[2024-04-17 00:08:19] INFO root fetch - main [MainThread]: End processing [faster-translate]: success
+[2024-04-17 00:08:19] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.8.tar.gz]
+[2024-04-17 00:08:19] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.9.tar.gz]
+[2024-04-17 00:08:19] INFO root fetch - main [MainThread]: End processing [parsee-core]: success
+[2024-04-17 00:08:19] INFO root fetch - processPackages [oteltest]: Remove: archive file [/home/abi/fetcher/tmp/oteltest-0.7.1.tar.gz]
+[2024-04-17 00:08:19] INFO root fetch - processPackages [oteltest]: Remove: archive file [/home/abi/fetcher/tmp/oteltest-0.8.0.tar.gz]
+[2024-04-17 00:08:19] INFO root fetch - main [MainThread]: End processing [oteltest]: success
+[2024-04-17 00:08:20] INFO root fetch - processPackages [dart-tools]: Remove: archive file [/home/abi/fetcher/tmp/dart-tools-0.5.5.tar.gz]
+[2024-04-17 00:08:20] INFO root fetch - processPackages [dart-tools]: Remove: archive file [/home/abi/fetcher/tmp/dart_tools-0.5.6.tar.gz]
+[2024-04-17 00:08:20] INFO root fetch - main [MainThread]: End processing [dart-tools]: success
+[2024-04-17 00:08:20] INFO root fetch - main [MainThread]: Store serial: [22795785]
