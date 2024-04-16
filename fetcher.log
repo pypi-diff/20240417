@@ -252,3 +252,42 @@
 [2024-04-17 00:14:53] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.1.7.tar.gz]
 [2024-04-17 00:14:53] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
 [2024-04-17 00:14:53] INFO root fetch - main [MainThread]: Store serial: [22795823]
+[2024-04-17 00:16:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795823]
+[2024-04-17 00:17:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 00:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gama-config
+[2024-04-17 00:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gama-cli
+[2024-04-17 00:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azol
+[2024-04-17 00:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meross-iot
+[2024-04-17 00:17:01] INFO root fetch - processPackages [gama-config]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-17 00:17:01] INFO root fetch - processPackages [gama-cli]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-17 00:17:01] INFO root fetch - processPackages [azol]: New version: [0.2.2b1] Old Version: [0.2.1b1]
+[2024-04-17 00:17:01] INFO root fetch - processPackages [meross-iot]: New version: [0.4.7.0b1] Old Version: [0.4.6.2]
+[2024-04-17 00:17:01] INFO root fetch - processPackages [gama-cli]: Downloading https://files.pythonhosted.org/packages/d3/f3/37120b719a8806a1578181ca69542dafda7e90b42c5c675633f637994178/gama_cli-2.2.0.tar.gz
+[2024-04-17 00:17:01] INFO root fetch - processPackages [azol]: Downloading https://files.pythonhosted.org/packages/ec/63/bc4465b0882e08a5585e50a923e3c324932ea7ffa4f7010f7f1a7543c384/azol-0.2.1b1.tar.gz
+[2024-04-17 00:17:01] INFO root fetch - processPackages [gama-config]: Downloading https://files.pythonhosted.org/packages/3e/b3/3ef1b762d6ea83645bb95bafbfd133725882ef86cc5b3ea1df9d9424fc69/gama_config-2.2.0.tar.gz
+[2024-04-17 00:17:01] INFO root fetch - processPackages [meross-iot]: Downloading https://files.pythonhosted.org/packages/76/9b/a73eabb32252fafc7d90c5509792b1385ef0fb61f1cae3d5f5c812748865/meross_iot-0.4.6.2.tar.gz
+[2024-04-17 00:17:02] INFO root fetch - processPackages [gama-config]: Downloading https://files.pythonhosted.org/packages/a7/d9/128d0c1ac38b8ab0ce1004e3a9e33a2eded06406c588afc27645d6f3cc1a/gama_config-2.3.0.tar.gz
+[2024-04-17 00:17:02] INFO root fetch - processPackages [gama-cli]: Downloading https://files.pythonhosted.org/packages/51/5f/af0d110aa69641e9bad9402edaba645d078c4950ffbee59962f3484e51b5/gama_cli-2.3.0.tar.gz
+[2024-04-17 00:17:02] INFO root fetch - processPackages [azol]: Downloading https://files.pythonhosted.org/packages/82/bf/80cb65fbd46a14f328cddbccaebb73408ef7f563234d078bc17dfff377c6/azol-0.2.2b1.tar.gz
+[2024-04-17 00:17:02] INFO root fetch - processPackages [gama-config]: executing diffoscope
+[2024-04-17 00:17:02] INFO root fetch - processPackages [gama-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_config-2.2.0.tar.gz tmp/gama_config-2.3.0.tar.gz --markdown 20240417/g/gama-config/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-04-17 00:17:02] INFO root fetch - processPackages [gama-cli]: executing diffoscope
+[2024-04-17 00:17:02] INFO root fetch - processPackages [gama-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_cli-2.2.0.tar.gz tmp/gama_cli-2.3.0.tar.gz --markdown 20240417/g/gama-cli/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-04-17 00:17:02] INFO root fetch - processPackages [meross-iot]: Downloading https://files.pythonhosted.org/packages/72/65/e9b759a1896db3f22d85fb6673df53a8189783d38d62aeccaee048882b2a/meross_iot-0.4.7.0b1.tar.gz
+[2024-04-17 00:17:02] INFO root fetch - processPackages [azol]: executing diffoscope
+[2024-04-17 00:17:02] INFO root fetch - processPackages [azol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azol-0.2.1b1.tar.gz tmp/azol-0.2.2b1.tar.gz --markdown 20240417/a/azol/0.2.1b1-0.2.2b1/README.md --exclude *.pyd
+[2024-04-17 00:17:02] INFO root fetch - processPackages [meross-iot]: executing diffoscope
+[2024-04-17 00:17:02] INFO root fetch - processPackages [meross-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meross_iot-0.4.6.2.tar.gz tmp/meross_iot-0.4.7.0b1.tar.gz --markdown 20240417/m/meross-iot/0.4.6.2-0.4.7.0b1/README.md --exclude *.pyd
+[2024-04-17 00:17:02] INFO root fetch - processPackages [gama-config]: Remove: archive file [/home/abi/fetcher/tmp/gama_config-2.2.0.tar.gz]
+[2024-04-17 00:17:02] INFO root fetch - processPackages [gama-config]: Remove: archive file [/home/abi/fetcher/tmp/gama_config-2.3.0.tar.gz]
+[2024-04-17 00:17:02] INFO root fetch - main [MainThread]: End processing [gama-config]: success
+[2024-04-17 00:17:02] INFO root fetch - processPackages [gama-cli]: Remove: archive file [/home/abi/fetcher/tmp/gama_cli-2.2.0.tar.gz]
+[2024-04-17 00:17:02] INFO root fetch - processPackages [gama-cli]: Remove: archive file [/home/abi/fetcher/tmp/gama_cli-2.3.0.tar.gz]
+[2024-04-17 00:17:02] INFO root fetch - main [MainThread]: End processing [gama-cli]: success
+[2024-04-17 00:17:02] INFO root fetch - processPackages [azol]: Remove: archive file [/home/abi/fetcher/tmp/azol-0.2.1b1.tar.gz]
+[2024-04-17 00:17:02] INFO root fetch - processPackages [azol]: Remove: archive file [/home/abi/fetcher/tmp/azol-0.2.2b1.tar.gz]
+[2024-04-17 00:17:02] INFO root fetch - main [MainThread]: End processing [azol]: success
+[2024-04-17 00:17:03] INFO root fetch - processPackages [meross-iot]: Remove: archive file [/home/abi/fetcher/tmp/meross_iot-0.4.6.2.tar.gz]
+[2024-04-17 00:17:03] INFO root fetch - processPackages [meross-iot]: Remove: archive file [/home/abi/fetcher/tmp/meross_iot-0.4.7.0b1.tar.gz]
+[2024-04-17 00:17:03] INFO root fetch - main [MainThread]: End processing [meross-iot]: success
+[2024-04-17 00:17:03] INFO root fetch - main [MainThread]: Store serial: [22795835]
