@@ -681,3 +681,24 @@
 [2024-04-17 00:41:05] INFO root fetch - processPackages [iniUts]: Remove: archive file [/home/abi/fetcher/tmp/iniUts-1.1.4.tar.gz]
 [2024-04-17 00:41:05] INFO root fetch - main [MainThread]: End processing [iniUts]: success
 [2024-04-17 00:41:05] INFO root fetch - main [MainThread]: Store serial: [22795984]
+[2024-04-17 00:43:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795984]
+[2024-04-17 00:43:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 00:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vplanet
+[2024-04-17 00:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iniUts
+[2024-04-17 00:43:14] INFO root fetch - processPackages [iniUts]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-17 00:43:15] INFO root fetch - processPackages [iniUts]: Downloading https://files.pythonhosted.org/packages/d0/b9/45778a5840870cc64004ecb472fa9cfa7abd86baa34a6010b4a4afd17af5/iniUts-1.1.3.tar.gz
+[2024-04-17 00:43:15] INFO root fetch - processPackages [vplanet]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-04-17 00:43:15] INFO root fetch - processPackages [vplanet]: Downloading https://files.pythonhosted.org/packages/bd/56/60587cc2c5f656ca002f30ce61d91bfda71152cc518cac0a0b03f7fd53c9/vplanet-2.5.3.tar.gz
+[2024-04-17 00:43:15] INFO root fetch - processPackages [iniUts]: Downloading https://files.pythonhosted.org/packages/bf/03/7a7b9902d087e8fbc09758528f8039bdd16df10b871c1e5bc89c1e6f66b0/iniUts-1.1.4.tar.gz
+[2024-04-17 00:43:15] INFO root fetch - processPackages [iniUts]: executing diffoscope
+[2024-04-17 00:43:15] INFO root fetch - processPackages [iniUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iniUts-1.1.3.tar.gz tmp/iniUts-1.1.4.tar.gz --markdown 20240417/i/iniUts/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-17 00:43:15] INFO root fetch - processPackages [vplanet]: Downloading https://files.pythonhosted.org/packages/9b/b3/0df77b0c0acbedcb038137c4a016e00e2af2187b4d3766fbc143030db212/vplanet-2.5.4.tar.gz
+[2024-04-17 00:43:15] INFO root fetch - processPackages [vplanet]: executing diffoscope
+[2024-04-17 00:43:15] INFO root fetch - processPackages [vplanet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vplanet-2.5.3.tar.gz tmp/vplanet-2.5.4.tar.gz --markdown 20240417/v/vplanet/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-04-17 00:43:16] INFO root fetch - processPackages [vplanet]: Remove: archive file [/home/abi/fetcher/tmp/vplanet-2.5.3.tar.gz]
+[2024-04-17 00:43:16] INFO root fetch - processPackages [vplanet]: Remove: archive file [/home/abi/fetcher/tmp/vplanet-2.5.4.tar.gz]
+[2024-04-17 00:43:16] INFO root fetch - main [MainThread]: End processing [vplanet]: success
+[2024-04-17 00:43:19] INFO root fetch - processPackages [iniUts]: Remove: archive file [/home/abi/fetcher/tmp/iniUts-1.1.3.tar.gz]
+[2024-04-17 00:43:19] INFO root fetch - processPackages [iniUts]: Remove: archive file [/home/abi/fetcher/tmp/iniUts-1.1.4.tar.gz]
+[2024-04-17 00:43:19] INFO root fetch - main [MainThread]: End processing [iniUts]: success
+[2024-04-17 00:43:19] INFO root fetch - main [MainThread]: Store serial: [22795996]
