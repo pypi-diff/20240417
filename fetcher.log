@@ -624,3 +624,60 @@
 [2024-04-17 00:38:51] INFO root fetch - processPackages [cyclopts]: Remove: archive file [/home/abi/fetcher/tmp/cyclopts-2.6.1.tar.gz]
 [2024-04-17 00:38:51] INFO root fetch - main [MainThread]: End processing [cyclopts]: success
 [2024-04-17 00:38:51] INFO root fetch - main [MainThread]: Store serial: [22795968]
+[2024-04-17 00:40:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795968]
+[2024-04-17 00:41:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 00:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iniUts
+[2024-04-17 00:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trm-woodburn
+[2024-04-17 00:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azureml-automl-dnn-vision
+[2024-04-17 00:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gloe
+[2024-04-17 00:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygmc
+[2024-04-17 00:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fgutils
+[2024-04-17 00:41:00] INFO root fetch - processPackages [pygmc]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-17 00:41:00] INFO root fetch - processPackages [trm-woodburn]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 00:41:00] INFO root fetch - processPackages [pygmc]: Downloading https://files.pythonhosted.org/packages/95/ab/a08648d47874dec244d3f2007610446c24b55903170dd3eb490bea95f652/pygmc-0.9.0.tar.gz
+[2024-04-17 00:41:00] INFO root fetch - processPackages [gloe]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-17 00:41:00] INFO root fetch - processPackages [fgutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 00:41:00] INFO root fetch - processPackages [azureml-automl-dnn-vision]: New version: [1.55.0.post2] Old Version: [1.55.0.post1]
+[2024-04-17 00:41:00] INFO root fetch - processPackages [iniUts]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-17 00:41:00] INFO root fetch - processPackages [trm-woodburn]: Downloading https://files.pythonhosted.org/packages/a7/90/2e0653208c64b2f000bad1e0bf6dfd8523840e1b44f1bb6c9005715383d0/trm_woodburn-0.0.8.tar.gz
+[2024-04-17 00:41:00] INFO root fetch - processPackages [pygmc]: Downloading https://files.pythonhosted.org/packages/b8/15/ec925be483dd209edb4e1a7294a0d4c7acb9b20b914b0a53316a74fad651/pygmc-0.9.1.tar.gz
+[2024-04-17 00:41:00] INFO root fetch - processPackages [gloe]: Downloading https://files.pythonhosted.org/packages/74/0a/2c83d61f772881dc435be8e5c25f3ee9b71c1fe15c764b1f8c4d1b44ecc4/gloe-0.5.5.tar.gz
+[2024-04-17 00:41:00] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Downloading https://files.pythonhosted.org/packages/75/65/bc8ba2cf3578e16bda22c627d838e205a8b30027725daace38bc74ab4349/azureml_automl_dnn_vision-1.55.0.post1-py3-none-any.whl
+[2024-04-17 00:41:00] INFO root fetch - processPackages [iniUts]: Downloading https://files.pythonhosted.org/packages/d0/b9/45778a5840870cc64004ecb472fa9cfa7abd86baa34a6010b4a4afd17af5/iniUts-1.1.3.tar.gz
+[2024-04-17 00:41:00] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/80/18/26339678181e627e22509518537c67d0c0d10a3c6840dd8a434b091ea0c0/fgutils-0.0.8.tar.gz
+[2024-04-17 00:41:00] INFO root fetch - processPackages [trm-woodburn]: Downloading https://files.pythonhosted.org/packages/9c/52/1dbf0c3743671e8c68ee46e23a9262ac2ffe2769c7d0322d44ea4c05deff/trm_woodburn-0.0.9.tar.gz
+[2024-04-17 00:41:00] INFO root fetch - processPackages [pygmc]: executing diffoscope
+[2024-04-17 00:41:00] INFO root fetch - processPackages [pygmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmc-0.9.0.tar.gz tmp/pygmc-0.9.1.tar.gz --markdown 20240417/p/pygmc/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-17 00:41:00] INFO root fetch - processPackages [trm-woodburn]: executing diffoscope
+[2024-04-17 00:41:00] INFO root fetch - processPackages [trm-woodburn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trm_woodburn-0.0.8.tar.gz tmp/trm_woodburn-0.0.9.tar.gz --markdown 20240417/t/trm-woodburn/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 00:41:00] INFO root fetch - processPackages [gloe]: Downloading https://files.pythonhosted.org/packages/0e/a2/a16240398d47caeedd753571c2e535a74610ab4ffd673e66862d29aebb1a/gloe-0.5.6.tar.gz
+[2024-04-17 00:41:00] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Downloading https://files.pythonhosted.org/packages/2f/e5/dcdff6a64bda8a4d5c54f97f35221798d9b2ed1790b36c5bea98589777e3/azureml_automl_dnn_vision-1.55.0.post2-py3-none-any.whl
+[2024-04-17 00:41:01] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/b2/9e/61ac35415068272bad61fd205b44dd743d9c6e617901b23d6ed576442141/fgutils-0.0.9.tar.gz
+[2024-04-17 00:41:01] INFO root fetch - processPackages [gloe]: executing diffoscope
+[2024-04-17 00:41:01] INFO root fetch - processPackages [gloe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gloe-0.5.5.tar.gz tmp/gloe-0.5.6.tar.gz --markdown 20240417/g/gloe/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-04-17 00:41:01] INFO root fetch - processPackages [fgutils]: executing diffoscope
+[2024-04-17 00:41:01] INFO root fetch - processPackages [fgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgutils-0.0.8.tar.gz tmp/fgutils-0.0.9.tar.gz --markdown 20240417/f/fgutils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 00:41:01] INFO root fetch - processPackages [azureml-automl-dnn-vision]: executing diffoscope
+[2024-04-17 00:41:01] INFO root fetch - processPackages [azureml-automl-dnn-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_automl_dnn_vision-1.55.0.post1-py3-none-any.whl.zip tmp/azureml_automl_dnn_vision-1.55.0.post2-py3-none-any.whl.zip --markdown 20240417/a/azureml-automl-dnn-vision/1.55.0.post1-1.55.0.post2/README.md --exclude *.pyd
+[2024-04-17 00:41:01] INFO root fetch - processPackages [trm-woodburn]: Remove: archive file [/home/abi/fetcher/tmp/trm_woodburn-0.0.8.tar.gz]
+[2024-04-17 00:41:01] INFO root fetch - processPackages [trm-woodburn]: Remove: archive file [/home/abi/fetcher/tmp/trm_woodburn-0.0.9.tar.gz]
+[2024-04-17 00:41:01] INFO root fetch - main [MainThread]: End processing [trm-woodburn]: success
+[2024-04-17 00:41:01] INFO root fetch - processPackages [pygmc]: Remove: archive file [/home/abi/fetcher/tmp/pygmc-0.9.0.tar.gz]
+[2024-04-17 00:41:01] INFO root fetch - processPackages [pygmc]: Remove: archive file [/home/abi/fetcher/tmp/pygmc-0.9.1.tar.gz]
+[2024-04-17 00:41:01] INFO root fetch - main [MainThread]: End processing [pygmc]: success
+[2024-04-17 00:41:01] INFO root fetch - processPackages [iniUts]: Downloading https://files.pythonhosted.org/packages/bf/03/7a7b9902d087e8fbc09758528f8039bdd16df10b871c1e5bc89c1e6f66b0/iniUts-1.1.4.tar.gz
+[2024-04-17 00:41:01] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.8.tar.gz]
+[2024-04-17 00:41:01] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.9.tar.gz]
+[2024-04-17 00:41:01] INFO root fetch - main [MainThread]: End processing [fgutils]: success
+[2024-04-17 00:41:01] INFO root fetch - processPackages [gloe]: Remove: archive file [/home/abi/fetcher/tmp/gloe-0.5.5.tar.gz]
+[2024-04-17 00:41:01] INFO root fetch - processPackages [gloe]: Remove: archive file [/home/abi/fetcher/tmp/gloe-0.5.6.tar.gz]
+[2024-04-17 00:41:01] INFO root fetch - main [MainThread]: End processing [gloe]: success
+[2024-04-17 00:41:02] INFO root fetch - processPackages [iniUts]: executing diffoscope
+[2024-04-17 00:41:02] INFO root fetch - processPackages [iniUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iniUts-1.1.3.tar.gz tmp/iniUts-1.1.4.tar.gz --markdown 20240417/i/iniUts/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-17 00:41:02] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_dnn_vision-1.55.0.post1-py3-none-any.whl.zip]
+[2024-04-17 00:41:02] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_dnn_vision-1.55.0.post2-py3-none-any.whl.zip]
+[2024-04-17 00:41:02] INFO root fetch - main [MainThread]: End processing [azureml-automl-dnn-vision]: success
+[2024-04-17 00:41:05] INFO root fetch - processPackages [iniUts]: Remove: archive file [/home/abi/fetcher/tmp/iniUts-1.1.3.tar.gz]
+[2024-04-17 00:41:05] INFO root fetch - processPackages [iniUts]: Remove: archive file [/home/abi/fetcher/tmp/iniUts-1.1.4.tar.gz]
+[2024-04-17 00:41:05] INFO root fetch - main [MainThread]: End processing [iniUts]: success
+[2024-04-17 00:41:05] INFO root fetch - main [MainThread]: Store serial: [22795984]
