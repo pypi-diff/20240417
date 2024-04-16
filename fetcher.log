@@ -1119,3 +1119,24 @@
 [2024-04-17 01:14:15] INFO root fetch - processPackages [cssfinder]: Remove: archive file [/home/abi/fetcher/tmp/cssfinder-0.8.0.tar.gz]
 [2024-04-17 01:14:15] INFO root fetch - main [MainThread]: End processing [cssfinder]: success
 [2024-04-17 01:14:15] INFO root fetch - main [MainThread]: Store serial: [22796158]
+[2024-04-17 01:16:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796158]
+[2024-04-17 01:16:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 01:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quil
+[2024-04-17 01:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: impactpy
+[2024-04-17 01:16:24] INFO root fetch - processPackages [impactpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 01:16:24] INFO root fetch - processPackages [quil]: New version: [0.9.0rc0] Old Version: [0.8.0]
+[2024-04-17 01:16:24] INFO root fetch - processPackages [impactpy]: Downloading https://files.pythonhosted.org/packages/48/d5/80b96c0c3bf457b4e23cb9d9174f4bd004168915de9d7534efe040f6ae9a/impactpy-0.0.8.tar.gz
+[2024-04-17 01:16:24] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/22/01/0a9457cb3d70276e20374f91d5de209f3ca1f29fe3dcfdbb74ec8ee8d380/quil-0.8.0.tar.gz
+[2024-04-17 01:16:25] INFO root fetch - processPackages [impactpy]: Downloading https://files.pythonhosted.org/packages/13/b2/51751326438ae406f4babe43fe8201b2da2c3dc508d2407edc99f24786c4/impactpy-0.0.9.tar.gz
+[2024-04-17 01:16:25] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/1d/77/08ffdad805ed8069c0e8a1ebc33c6ede83e6e06449922f29c7d3ab39a1a0/quil-0.9.0rc0.tar.gz
+[2024-04-17 01:16:25] INFO root fetch - processPackages [impactpy]: executing diffoscope
+[2024-04-17 01:16:25] INFO root fetch - processPackages [impactpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impactpy-0.0.8.tar.gz tmp/impactpy-0.0.9.tar.gz --markdown 20240417/i/impactpy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 01:16:25] INFO root fetch - processPackages [quil]: executing diffoscope
+[2024-04-17 01:16:25] INFO root fetch - processPackages [quil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quil-0.8.0.tar.gz tmp/quil-0.9.0rc0.tar.gz --markdown 20240417/q/quil/0.8.0-0.9.0rc0/README.md --exclude *.pyd
+[2024-04-17 01:16:25] INFO root fetch - processPackages [impactpy]: Remove: archive file [/home/abi/fetcher/tmp/impactpy-0.0.8.tar.gz]
+[2024-04-17 01:16:25] INFO root fetch - processPackages [impactpy]: Remove: archive file [/home/abi/fetcher/tmp/impactpy-0.0.9.tar.gz]
+[2024-04-17 01:16:25] INFO root fetch - main [MainThread]: End processing [impactpy]: success
+[2024-04-17 01:16:26] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.8.0.tar.gz]
+[2024-04-17 01:16:26] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.9.0rc0.tar.gz]
+[2024-04-17 01:16:26] INFO root fetch - main [MainThread]: End processing [quil]: success
+[2024-04-17 01:16:26] INFO root fetch - main [MainThread]: Store serial: [22796197]
