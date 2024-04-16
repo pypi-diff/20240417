@@ -183,3 +183,30 @@
 [2024-04-17 00:10:30] INFO root fetch - processPackages [fireworks-ai]: Remove: archive file [/home/abi/fetcher/tmp/fireworks-ai-0.9.0.tar.gz]
 [2024-04-17 00:10:30] INFO root fetch - main [MainThread]: End processing [fireworks-ai]: success
 [2024-04-17 00:10:30] INFO root fetch - main [MainThread]: Store serial: [22795796]
+[2024-04-17 00:12:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795796]
+[2024-04-17 00:12:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recipe-urls
+[2024-04-17 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prompt-security-fuzzer
+[2024-04-17 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: battleship-tui
+[2024-04-17 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dj-tenants
+[2024-04-17 00:12:39] WARNING root fetch - processPackages [prompt-security-fuzzer]: Skipping, unable to determine old version
+[2024-04-17 00:12:39] INFO root fetch - main [MainThread]: End processing [prompt-security-fuzzer] error
+[2024-04-17 00:12:39] INFO root fetch - processPackages [battleship-tui]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-17 00:12:39] WARNING root fetch - processPackages [dj-tenants]: Skipping, unable to determine old version
+[2024-04-17 00:12:39] INFO root fetch - main [MainThread]: End processing [dj-tenants] error
+[2024-04-17 00:12:39] INFO root fetch - processPackages [recipe-urls]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 00:12:39] INFO root fetch - processPackages [battleship-tui]: Downloading https://files.pythonhosted.org/packages/b4/26/b06bec4a4520796024bdfa7fbda8628ba0ca9f2ff80f3fee9a83e4be93be/battleship_tui-0.9.0.tar.gz
+[2024-04-17 00:12:40] INFO root fetch - processPackages [recipe-urls]: Downloading https://files.pythonhosted.org/packages/83/4e/15afd17c84442856795a9e10b518aa13038e3aa01d2faa76a3ac80029a41/recipe_urls-0.1.0.tar.gz
+[2024-04-17 00:12:41] INFO root fetch - processPackages [battleship-tui]: Downloading https://files.pythonhosted.org/packages/7a/6f/b15aff96f7cff812b0694c4a531588c97787a0962dfaabb3c6cbd72d8597/battleship_tui-0.9.1.tar.gz
+[2024-04-17 00:12:41] INFO root fetch - processPackages [recipe-urls]: Downloading https://files.pythonhosted.org/packages/fe/6e/4c0da810aea35241b08e236535daefe2bb237e9c7fa0f3576fb53268b23b/recipe_urls-0.1.1.tar.gz
+[2024-04-17 00:12:41] INFO root fetch - processPackages [battleship-tui]: executing diffoscope
+[2024-04-17 00:12:41] INFO root fetch - processPackages [battleship-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/battleship_tui-0.9.0.tar.gz tmp/battleship_tui-0.9.1.tar.gz --markdown 20240417/b/battleship-tui/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-17 00:12:41] INFO root fetch - processPackages [recipe-urls]: executing diffoscope
+[2024-04-17 00:12:41] INFO root fetch - processPackages [recipe-urls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recipe_urls-0.1.0.tar.gz tmp/recipe_urls-0.1.1.tar.gz --markdown 20240417/r/recipe-urls/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 00:12:42] INFO root fetch - processPackages [battleship-tui]: Remove: archive file [/home/abi/fetcher/tmp/battleship_tui-0.9.0.tar.gz]
+[2024-04-17 00:12:42] INFO root fetch - processPackages [battleship-tui]: Remove: archive file [/home/abi/fetcher/tmp/battleship_tui-0.9.1.tar.gz]
+[2024-04-17 00:12:42] INFO root fetch - main [MainThread]: End processing [battleship-tui]: success
+[2024-04-17 00:12:42] INFO root fetch - processPackages [recipe-urls]: Remove: archive file [/home/abi/fetcher/tmp/recipe_urls-0.1.0.tar.gz]
+[2024-04-17 00:12:42] INFO root fetch - processPackages [recipe-urls]: Remove: archive file [/home/abi/fetcher/tmp/recipe_urls-0.1.1.tar.gz]
+[2024-04-17 00:12:42] INFO root fetch - main [MainThread]: End processing [recipe-urls]: success
+[2024-04-17 00:12:42] INFO root fetch - main [MainThread]: Store serial: [22795808]
