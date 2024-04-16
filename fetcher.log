@@ -984,3 +984,15 @@
 [2024-04-17 01:07:34] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240415.tar.gz]
 [2024-04-17 01:07:34] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-04-17 01:07:34] INFO root fetch - main [MainThread]: Store serial: [22796096]
+[2024-04-17 01:09:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796096]
+[2024-04-17 01:09:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 01:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arm-pyart
+[2024-04-17 01:09:43] INFO root fetch - processPackages [arm-pyart]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-17 01:09:43] INFO root fetch - processPackages [arm-pyart]: Downloading https://files.pythonhosted.org/packages/6a/e8/08ec69e677392868fa4c020cf820f99a41a2eed5ae5ba321038ef42ce6fe/arm_pyart-1.9.1.tar.gz
+[2024-04-17 01:09:45] INFO root fetch - processPackages [arm-pyart]: Downloading https://files.pythonhosted.org/packages/f4/92/b81384491c9a7df55c20f98f9d358e9e18341a52ab7bdd0f08dfd99e788f/arm_pyart-1.9.2.tar.gz
+[2024-04-17 01:09:45] INFO root fetch - processPackages [arm-pyart]: executing diffoscope
+[2024-04-17 01:09:45] INFO root fetch - processPackages [arm-pyart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arm_pyart-1.9.1.tar.gz tmp/arm_pyart-1.9.2.tar.gz --markdown 20240417/a/arm-pyart/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-17 01:09:51] INFO root fetch - processPackages [arm-pyart]: Remove: archive file [/home/abi/fetcher/tmp/arm_pyart-1.9.1.tar.gz]
+[2024-04-17 01:09:51] INFO root fetch - processPackages [arm-pyart]: Remove: archive file [/home/abi/fetcher/tmp/arm_pyart-1.9.2.tar.gz]
+[2024-04-17 01:09:51] INFO root fetch - main [MainThread]: End processing [arm-pyart]: success
+[2024-04-17 01:09:51] INFO root fetch - main [MainThread]: Store serial: [22796102]
