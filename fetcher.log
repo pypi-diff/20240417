@@ -558,3 +558,69 @@
 [2024-04-17 00:36:41] INFO root fetch - processPackages [helios-ml]: Remove: archive file [/home/abi/fetcher/tmp/helios_ml-0.1.2-py3-none-any.whl.zip]
 [2024-04-17 00:36:41] INFO root fetch - main [MainThread]: End processing [helios-ml]: success
 [2024-04-17 00:36:41] INFO root fetch - main [MainThread]: Store serial: [22795947]
+[2024-04-17 00:38:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795947]
+[2024-04-17 00:38:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 00:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: helios-ml
+[2024-04-17 00:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qbraid-core
+[2024-04-17 00:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-redshift
+[2024-04-17 00:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monty
+[2024-04-17 00:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsa-course
+[2024-04-17 00:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyclopts
+[2024-04-17 00:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyDatabases
+[2024-04-17 00:38:49] INFO root fetch - processPackages [tsa-course]: New version: [0.1.2] Old Version: [0.0.1]
+[2024-04-17 00:38:49] INFO root fetch - processPackages [helios-ml]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 00:38:49] INFO root fetch - processPackages [qbraid-core]: New version: [0.1.3] Old Version: [0.1.2.dev3]
+[2024-04-17 00:38:49] INFO root fetch - processPackages [helios-ml]: Downloading https://files.pythonhosted.org/packages/95/68/a91470f65a4f41729028ea52d4c264c047758551a9a3113bed5b1f79ce19/helios_ml-0.1.1.tar.gz
+[2024-04-17 00:38:49] INFO root fetch - processPackages [pyDatabases]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-04-17 00:38:49] INFO root fetch - processPackages [cyclopts]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-04-17 00:38:49] INFO root fetch - processPackages [dbt-redshift]: New version: [1.8.0b2] Old Version: [1.8.0b1]
+[2024-04-17 00:38:49] INFO root fetch - processPackages [monty]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-04-17 00:38:50] INFO root fetch - processPackages [tsa-course]: Downloading https://files.pythonhosted.org/packages/1c/6c/c7266f06ae5095d5a013cc3b2461c6b1a638db9588371016d3c74b8fa374/tsa_course-0.0.1.tar.gz
+[2024-04-17 00:38:50] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/d8/b7/31ae02f6c62590712577729e8f90384987eec63a6524e8fce1d4609ff6c2/qbraid-core-0.1.2.dev3.tar.gz
+[2024-04-17 00:38:50] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/ea/3f/a9eb035f14ea9828f41241a9460d0f428569ab231b8b567cbbacc94351dc/dbt-redshift-1.8.0b1.tar.gz
+[2024-04-17 00:38:50] INFO root fetch - processPackages [pyDatabases]: Downloading https://files.pythonhosted.org/packages/83/da/36a4f982aa13e7bb75ad137b8ecb945db1b1c79f1ce7974e7705ec6bfbd2/pyDatabases-0.0.5.tar.gz
+[2024-04-17 00:38:50] INFO root fetch - processPackages [helios-ml]: Downloading https://files.pythonhosted.org/packages/9d/e1/2ecc7b00164ae7891b2285f8a20fd22f02bb356127e5ac91efb02545fdcb/helios_ml-0.1.2-py3-none-any.whl
+[2024-04-17 00:38:50] INFO root fetch - processPackages [monty]: Downloading https://files.pythonhosted.org/packages/8e/e7/07f0704728ab5c67112d6e8a1c074e74a69dbed087ddd51315d6d40e9508/monty-4.0.1.tar.gz
+[2024-04-17 00:38:50] INFO root fetch - processPackages [cyclopts]: Downloading https://files.pythonhosted.org/packages/ca/28/8086eaf6a268b151190d0f471bc03bac42cdef1e2346a4964b498e24eb94/cyclopts-2.6.0.tar.gz
+[2024-04-17 00:38:50] INFO root fetch - processPackages [helios-ml]: executing diffoscope
+[2024-04-17 00:38:50] INFO root fetch - processPackages [helios-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios_ml-0.1.1.tar.gz tmp/helios_ml-0.1.2-py3-none-any.whl.zip --markdown 20240417/h/helios-ml/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 00:38:50] INFO root fetch - processPackages [tsa-course]: Downloading https://files.pythonhosted.org/packages/f9/7f/79354cdde1259066a24bed7eb916c735ebcbb3496c203eeffdf9d3641ace/tsa_course-0.1.2.tar.gz
+[2024-04-17 00:38:50] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/49/c0/cefe2a8573c499fbddc905451fc3c2d369fb82edaf97a141add920451b10/dbt-redshift-1.8.0b2.tar.gz
+[2024-04-17 00:38:50] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/3d/4f/9e29f44a3a98afee03f126b4f95f381844b13a69a8e85244e14c0925f8a3/qbraid_core-0.1.3.tar.gz
+[2024-04-17 00:38:50] INFO root fetch - processPackages [monty]: Downloading https://files.pythonhosted.org/packages/84/60/a1fc171b7d1720bdb370077f32807dc7b87bd5245021f2fefc8c66a2ae9f/monty-4.0.2.tar.gz
+[2024-04-17 00:38:50] INFO root fetch - processPackages [cyclopts]: Downloading https://files.pythonhosted.org/packages/f5/6b/836bda658fd8cf837df67eed2d4159d983691e13c1da99de17362240f587/cyclopts-2.6.1.tar.gz
+[2024-04-17 00:38:50] INFO root fetch - processPackages [tsa-course]: executing diffoscope
+[2024-04-17 00:38:50] INFO root fetch - processPackages [tsa-course]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsa_course-0.0.1.tar.gz tmp/tsa_course-0.1.2.tar.gz --markdown 20240417/t/tsa-course/0.0.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 00:38:50] INFO root fetch - processPackages [pyDatabases]: Downloading https://files.pythonhosted.org/packages/05/87/069ad57784562f1d043e9e9a62d746484c93d6207af1d934c1db58cdb830/pydatabases-0.1.0.tar.gz
+[2024-04-17 00:38:50] INFO root fetch - processPackages [dbt-redshift]: executing diffoscope
+[2024-04-17 00:38:50] INFO root fetch - processPackages [dbt-redshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-redshift-1.8.0b1.tar.gz tmp/dbt-redshift-1.8.0b2.tar.gz --markdown 20240417/d/dbt-redshift/1.8.0b1-1.8.0b2/README.md --exclude *.pyd
+[2024-04-17 00:38:50] INFO root fetch - processPackages [monty]: executing diffoscope
+[2024-04-17 00:38:50] INFO root fetch - processPackages [monty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monty-4.0.1.tar.gz tmp/monty-4.0.2.tar.gz --markdown 20240417/m/monty/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-04-17 00:38:50] INFO root fetch - processPackages [cyclopts]: executing diffoscope
+[2024-04-17 00:38:50] INFO root fetch - processPackages [cyclopts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclopts-2.6.0.tar.gz tmp/cyclopts-2.6.1.tar.gz --markdown 20240417/c/cyclopts/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-04-17 00:38:50] INFO root fetch - processPackages [qbraid-core]: executing diffoscope
+[2024-04-17 00:38:50] INFO root fetch - processPackages [qbraid-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid-core-0.1.2.dev3.tar.gz tmp/qbraid_core-0.1.3.tar.gz --markdown 20240417/q/qbraid-core/0.1.2.dev3-0.1.3/README.md --exclude *.pyd
+[2024-04-17 00:38:50] INFO root fetch - processPackages [pyDatabases]: executing diffoscope
+[2024-04-17 00:38:50] INFO root fetch - processPackages [pyDatabases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDatabases-0.0.5.tar.gz tmp/pydatabases-0.1.0.tar.gz --markdown 20240417/p/pyDatabases/0.0.5-0.1.0/README.md --exclude *.pyd
+[2024-04-17 00:38:50] INFO root fetch - processPackages [helios-ml]: Remove: archive file [/home/abi/fetcher/tmp/helios_ml-0.1.1.tar.gz]
+[2024-04-17 00:38:50] INFO root fetch - processPackages [helios-ml]: Remove: archive file [/home/abi/fetcher/tmp/helios_ml-0.1.2-py3-none-any.whl.zip]
+[2024-04-17 00:38:50] INFO root fetch - main [MainThread]: End processing [helios-ml]: success
+[2024-04-17 00:38:51] INFO root fetch - processPackages [tsa-course]: Remove: archive file [/home/abi/fetcher/tmp/tsa_course-0.0.1.tar.gz]
+[2024-04-17 00:38:51] INFO root fetch - processPackages [tsa-course]: Remove: archive file [/home/abi/fetcher/tmp/tsa_course-0.1.2.tar.gz]
+[2024-04-17 00:38:51] INFO root fetch - main [MainThread]: End processing [tsa-course]: success
+[2024-04-17 00:38:51] INFO root fetch - processPackages [pyDatabases]: Remove: archive file [/home/abi/fetcher/tmp/pyDatabases-0.0.5.tar.gz]
+[2024-04-17 00:38:51] INFO root fetch - processPackages [pyDatabases]: Remove: archive file [/home/abi/fetcher/tmp/pydatabases-0.1.0.tar.gz]
+[2024-04-17 00:38:51] INFO root fetch - main [MainThread]: End processing [pyDatabases]: success
+[2024-04-17 00:38:51] INFO root fetch - processPackages [monty]: Remove: archive file [/home/abi/fetcher/tmp/monty-4.0.1.tar.gz]
+[2024-04-17 00:38:51] INFO root fetch - processPackages [monty]: Remove: archive file [/home/abi/fetcher/tmp/monty-4.0.2.tar.gz]
+[2024-04-17 00:38:51] INFO root fetch - main [MainThread]: End processing [monty]: success
+[2024-04-17 00:38:51] INFO root fetch - processPackages [dbt-redshift]: Remove: archive file [/home/abi/fetcher/tmp/dbt-redshift-1.8.0b1.tar.gz]
+[2024-04-17 00:38:51] INFO root fetch - processPackages [dbt-redshift]: Remove: archive file [/home/abi/fetcher/tmp/dbt-redshift-1.8.0b2.tar.gz]
+[2024-04-17 00:38:51] INFO root fetch - main [MainThread]: End processing [dbt-redshift]: success
+[2024-04-17 00:38:51] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-core-0.1.2.dev3.tar.gz]
+[2024-04-17 00:38:51] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid_core-0.1.3.tar.gz]
+[2024-04-17 00:38:51] INFO root fetch - main [MainThread]: End processing [qbraid-core]: success
+[2024-04-17 00:38:51] INFO root fetch - processPackages [cyclopts]: Remove: archive file [/home/abi/fetcher/tmp/cyclopts-2.6.0.tar.gz]
+[2024-04-17 00:38:51] INFO root fetch - processPackages [cyclopts]: Remove: archive file [/home/abi/fetcher/tmp/cyclopts-2.6.1.tar.gz]
+[2024-04-17 00:38:51] INFO root fetch - main [MainThread]: End processing [cyclopts]: success
+[2024-04-17 00:38:51] INFO root fetch - main [MainThread]: Store serial: [22795968]
