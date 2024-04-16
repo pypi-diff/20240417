@@ -1230,3 +1230,51 @@
 [2024-04-17 01:22:57] INFO root fetch - processPackages [leoid]: Remove: archive file [/home/abi/fetcher/tmp/leoid-1.1.5.tar.gz]
 [2024-04-17 01:22:57] INFO root fetch - main [MainThread]: End processing [leoid]: success
 [2024-04-17 01:22:57] INFO root fetch - main [MainThread]: Store serial: [22796226]
+[2024-04-17 01:25:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796226]
+[2024-04-17 01:25:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 01:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsa-course
+[2024-04-17 01:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspedas
+[2024-04-17 01:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stackql-deploy
+[2024-04-17 01:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-template
+[2024-04-17 01:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: surfkit
+[2024-04-17 01:25:07] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-17 01:25:07] INFO root fetch - processPackages [tsa-course]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-17 01:25:07] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 01:25:07] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/5a/80/76741e9e53b512a4db1960996e3609ca282abd1391295448c2039c916f8c/stackql_deploy-1.0.2.tar.gz
+[2024-04-17 01:25:07] INFO root fetch - processPackages [tsa-course]: Downloading https://files.pythonhosted.org/packages/37/84/b4010c7bf9899140fba060001dce9367bdf0f7f0be66a5e79d0d06b4dead/tsa_course-0.1.3.tar.gz
+[2024-04-17 01:25:07] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-17 01:25:07] INFO root fetch - processPackages [pyspedas]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-17 01:25:07] INFO root fetch - processPackages [azure-template]: New version: [0.1.0b971103] Old Version: [0.1.0b954542]
+[2024-04-17 01:25:07] INFO root fetch - processPackages [pyspedas]: Downloading https://files.pythonhosted.org/packages/f7/71/126b10f68c3b471dee01f3ae6432869af3b7a2b9e04df9fa791cdfe4015a/pyspedas-1.5.8.tar.gz
+[2024-04-17 01:25:07] INFO root fetch - processPackages [azure-template]: Downloading https://files.pythonhosted.org/packages/82/04/b1cf5ee1227ca7899decd531cd1521ea523ed4cbdc8ce0e3d7e58ca8331c/azure-template-0.1.0b954542.zip
+[2024-04-17 01:25:07] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-17 01:25:07] INFO root fetch - processPackages [tsa-course]: Downloading https://files.pythonhosted.org/packages/d6/57/edbef65c6ffa5be81c45e47e2c45428955625b9a5dca6775688c19392285/tsa_course-0.1.4.tar.gz
+[2024-04-17 01:25:07] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-17 01:25:07] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240417/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 01:25:07] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/da/fa/edbbc6f077c032658b5f1cbcade6868ef8f056e9370f6911d3a61195edfd/stackql_deploy-1.0.3.tar.gz
+[2024-04-17 01:25:07] INFO root fetch - processPackages [tsa-course]: executing diffoscope
+[2024-04-17 01:25:07] INFO root fetch - processPackages [tsa-course]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsa_course-0.1.3.tar.gz tmp/tsa_course-0.1.4.tar.gz --markdown 20240417/t/tsa-course/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-17 01:25:07] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 01:25:07] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.2.tar.gz tmp/stackql_deploy-1.0.3.tar.gz --markdown 20240417/s/stackql-deploy/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-17 01:25:07] INFO root fetch - processPackages [azure-template]: Downloading https://files.pythonhosted.org/packages/a3/ab/51e8db029e6b46655758882e5ee630afbf245243726a418c4125d2ae7e4e/azure-template-0.1.0b971103.zip
+[2024-04-17 01:25:07] INFO root fetch - processPackages [pyspedas]: Downloading https://files.pythonhosted.org/packages/a7/c3/f005711a33f6b1f49781d7d10af4e3a10f7113f3a8b2b2e4cca1cae9bf9c/pyspedas-1.5.9.tar.gz
+[2024-04-17 01:25:07] INFO root fetch - processPackages [azure-template]: executing diffoscope
+[2024-04-17 01:25:07] INFO root fetch - processPackages [azure-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-template-0.1.0b954542.zip tmp/azure-template-0.1.0b971103.zip --markdown 20240417/a/azure-template/0.1.0b954542-0.1.0b971103/README.md --exclude *.pyd
+[2024-04-17 01:25:08] INFO root fetch - processPackages [pyspedas]: executing diffoscope
+[2024-04-17 01:25:08] INFO root fetch - processPackages [pyspedas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspedas-1.5.8.tar.gz tmp/pyspedas-1.5.9.tar.gz --markdown 20240417/p/pyspedas/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-17 01:25:08] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-17 01:25:08] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-17 01:25:08] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-17 01:25:08] INFO root fetch - processPackages [tsa-course]: Remove: archive file [/home/abi/fetcher/tmp/tsa_course-0.1.3.tar.gz]
+[2024-04-17 01:25:08] INFO root fetch - processPackages [tsa-course]: Remove: archive file [/home/abi/fetcher/tmp/tsa_course-0.1.4.tar.gz]
+[2024-04-17 01:25:08] INFO root fetch - main [MainThread]: End processing [tsa-course]: success
+[2024-04-17 01:25:08] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.2.tar.gz]
+[2024-04-17 01:25:08] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.3.tar.gz]
+[2024-04-17 01:25:08] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 01:25:08] INFO root fetch - processPackages [azure-template]: Remove: archive file [/home/abi/fetcher/tmp/azure-template-0.1.0b954542.zip]
+[2024-04-17 01:25:08] INFO root fetch - processPackages [azure-template]: Remove: archive file [/home/abi/fetcher/tmp/azure-template-0.1.0b971103.zip]
+[2024-04-17 01:25:08] INFO root fetch - main [MainThread]: End processing [azure-template]: success
+[2024-04-17 01:25:12] INFO root fetch - processPackages [pyspedas]: Remove: archive file [/home/abi/fetcher/tmp/pyspedas-1.5.8.tar.gz]
+[2024-04-17 01:25:12] INFO root fetch - processPackages [pyspedas]: Remove: archive file [/home/abi/fetcher/tmp/pyspedas-1.5.9.tar.gz]
+[2024-04-17 01:25:12] INFO root fetch - main [MainThread]: End processing [pyspedas]: success
+[2024-04-17 01:25:12] INFO root fetch - main [MainThread]: Store serial: [22796242]
