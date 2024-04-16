@@ -1191,3 +1191,42 @@
 [2024-04-17 01:20:46] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
 [2024-04-17 01:20:46] INFO root fetch - main [MainThread]: End processing [taskara]: success
 [2024-04-17 01:20:46] INFO root fetch - main [MainThread]: Store serial: [22796215]
+[2024-04-17 01:22:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796215]
+[2024-04-17 01:22:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 01:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leoid
+[2024-04-17 01:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: littlefs-tools
+[2024-04-17 01:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: impactpy
+[2024-04-17 01:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cilissa
+[2024-04-17 01:22:55] INFO root fetch - processPackages [leoid]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-17 01:22:55] INFO root fetch - processPackages [impactpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 01:22:55] INFO root fetch - processPackages [impactpy]: Downloading https://files.pythonhosted.org/packages/48/d5/80b96c0c3bf457b4e23cb9d9174f4bd004168915de9d7534efe040f6ae9a/impactpy-0.0.8.tar.gz
+[2024-04-17 01:22:55] INFO root fetch - processPackages [leoid]: Downloading https://files.pythonhosted.org/packages/e3/90/2551d2bc5670c415dc62cb6058f55f68e907fd1097d22877c3acbe909069/leoid-1.1.4.tar.gz
+[2024-04-17 01:22:55] INFO root fetch - processPackages [cilissa]: New version: [0.8.0] Old Version: [0.7.2]
+[2024-04-17 01:22:55] INFO root fetch - processPackages [littlefs-tools]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-17 01:22:55] INFO root fetch - processPackages [cilissa]: Downloading https://files.pythonhosted.org/packages/34/70/1b7bd609106d037ac22b4927285956091d16a319d05815355bbeeb59219e/cilissa-0.7.2.tar.gz
+[2024-04-17 01:22:55] INFO root fetch - processPackages [impactpy]: Downloading https://files.pythonhosted.org/packages/13/b2/51751326438ae406f4babe43fe8201b2da2c3dc508d2407edc99f24786c4/impactpy-0.0.9.tar.gz
+[2024-04-17 01:22:55] INFO root fetch - processPackages [littlefs-tools]: Downloading https://files.pythonhosted.org/packages/9c/02/7bbe139dba9f423bb068c813951169249725c2f97c6114d9588af65bf8e2/littlefs_tools-1.1.4.tar.gz
+[2024-04-17 01:22:55] INFO root fetch - processPackages [impactpy]: executing diffoscope
+[2024-04-17 01:22:55] INFO root fetch - processPackages [impactpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impactpy-0.0.8.tar.gz tmp/impactpy-0.0.9.tar.gz --markdown 20240417/i/impactpy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 01:22:55] INFO root fetch - processPackages [leoid]: Downloading https://files.pythonhosted.org/packages/0e/27/4c4139920d699283fffd14826f866375e947ee548c792bcc2256d7946509/leoid-1.1.5.tar.gz
+[2024-04-17 01:22:56] INFO root fetch - processPackages [cilissa]: Downloading https://files.pythonhosted.org/packages/4a/71/e5a66b6ae94ebffc1b1376e0036d8a0cc035ee53a6b15fd62222586301a0/cilissa-0.8.0.tar.gz
+[2024-04-17 01:22:56] INFO root fetch - processPackages [leoid]: executing diffoscope
+[2024-04-17 01:22:56] INFO root fetch - processPackages [leoid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leoid-1.1.4.tar.gz tmp/leoid-1.1.5.tar.gz --markdown 20240417/l/leoid/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-17 01:22:56] INFO root fetch - processPackages [littlefs-tools]: Downloading https://files.pythonhosted.org/packages/0c/6c/6eebb2d8e40a04f2fb361973976100dcdecb60714afeaa56f52fe648fb65/littlefs_tools-1.1.5.tar.gz
+[2024-04-17 01:22:56] INFO root fetch - processPackages [cilissa]: executing diffoscope
+[2024-04-17 01:22:56] INFO root fetch - processPackages [cilissa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cilissa-0.7.2.tar.gz tmp/cilissa-0.8.0.tar.gz --markdown 20240417/c/cilissa/0.7.2-0.8.0/README.md --exclude *.pyd
+[2024-04-17 01:22:56] INFO root fetch - processPackages [littlefs-tools]: executing diffoscope
+[2024-04-17 01:22:56] INFO root fetch - processPackages [littlefs-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/littlefs_tools-1.1.4.tar.gz tmp/littlefs_tools-1.1.5.tar.gz --markdown 20240417/l/littlefs-tools/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-17 01:22:56] INFO root fetch - processPackages [impactpy]: Remove: archive file [/home/abi/fetcher/tmp/impactpy-0.0.8.tar.gz]
+[2024-04-17 01:22:56] INFO root fetch - processPackages [impactpy]: Remove: archive file [/home/abi/fetcher/tmp/impactpy-0.0.9.tar.gz]
+[2024-04-17 01:22:56] INFO root fetch - main [MainThread]: End processing [impactpy]: success
+[2024-04-17 01:22:56] INFO root fetch - processPackages [littlefs-tools]: Remove: archive file [/home/abi/fetcher/tmp/littlefs_tools-1.1.4.tar.gz]
+[2024-04-17 01:22:56] INFO root fetch - processPackages [littlefs-tools]: Remove: archive file [/home/abi/fetcher/tmp/littlefs_tools-1.1.5.tar.gz]
+[2024-04-17 01:22:56] INFO root fetch - main [MainThread]: End processing [littlefs-tools]: success
+[2024-04-17 01:22:56] INFO root fetch - processPackages [cilissa]: Remove: archive file [/home/abi/fetcher/tmp/cilissa-0.7.2.tar.gz]
+[2024-04-17 01:22:56] INFO root fetch - processPackages [cilissa]: Remove: archive file [/home/abi/fetcher/tmp/cilissa-0.8.0.tar.gz]
+[2024-04-17 01:22:56] INFO root fetch - main [MainThread]: End processing [cilissa]: success
+[2024-04-17 01:22:57] INFO root fetch - processPackages [leoid]: Remove: archive file [/home/abi/fetcher/tmp/leoid-1.1.4.tar.gz]
+[2024-04-17 01:22:57] INFO root fetch - processPackages [leoid]: Remove: archive file [/home/abi/fetcher/tmp/leoid-1.1.5.tar.gz]
+[2024-04-17 01:22:57] INFO root fetch - main [MainThread]: End processing [leoid]: success
+[2024-04-17 01:22:57] INFO root fetch - main [MainThread]: Store serial: [22796226]
