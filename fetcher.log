@@ -918,3 +918,15 @@
 [2024-04-17 01:01:04] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.2.6.tar.gz]
 [2024-04-17 01:01:04] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
 [2024-04-17 01:01:04] INFO root fetch - main [MainThread]: Store serial: [22796075]
+[2024-04-17 01:03:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796075]
+[2024-04-17 01:03:12] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 01:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leoid
+[2024-04-17 01:03:12] INFO root fetch - processPackages [leoid]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-17 01:03:12] INFO root fetch - processPackages [leoid]: Downloading https://files.pythonhosted.org/packages/e3/90/2551d2bc5670c415dc62cb6058f55f68e907fd1097d22877c3acbe909069/leoid-1.1.4.tar.gz
+[2024-04-17 01:03:13] INFO root fetch - processPackages [leoid]: Downloading https://files.pythonhosted.org/packages/0e/27/4c4139920d699283fffd14826f866375e947ee548c792bcc2256d7946509/leoid-1.1.5.tar.gz
+[2024-04-17 01:03:13] INFO root fetch - processPackages [leoid]: executing diffoscope
+[2024-04-17 01:03:13] INFO root fetch - processPackages [leoid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leoid-1.1.4.tar.gz tmp/leoid-1.1.5.tar.gz --markdown 20240417/l/leoid/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-17 01:03:14] INFO root fetch - processPackages [leoid]: Remove: archive file [/home/abi/fetcher/tmp/leoid-1.1.4.tar.gz]
+[2024-04-17 01:03:14] INFO root fetch - processPackages [leoid]: Remove: archive file [/home/abi/fetcher/tmp/leoid-1.1.5.tar.gz]
+[2024-04-17 01:03:14] INFO root fetch - main [MainThread]: End processing [leoid]: success
+[2024-04-17 01:03:14] INFO root fetch - main [MainThread]: Store serial: [22796077]
