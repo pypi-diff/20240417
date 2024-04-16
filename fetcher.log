@@ -25,3 +25,33 @@
 [2024-04-17 00:01:48] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.5.0a3.tar.gz]
 [2024-04-17 00:01:48] INFO root fetch - main [MainThread]: End processing [macal]: success
 [2024-04-17 00:01:48] INFO root fetch - main [MainThread]: Store serial: [22795742]
+[2024-04-17 00:03:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795742]
+[2024-04-17 00:03:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 00:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minfraud
+[2024-04-17 00:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lunaticoastro-dragonfly-controller
+[2024-04-17 00:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data2rdf
+[2024-04-17 00:03:57] INFO root fetch - processPackages [data2rdf]: New version: [2.0.0rc4] Old Version: [2.0.0rc3]
+[2024-04-17 00:03:57] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: New version: [0.9.0] Old Version: [0.7.1]
+[2024-04-17 00:03:57] INFO root fetch - processPackages [data2rdf]: Downloading https://files.pythonhosted.org/packages/68/f4/18bff378dadc8f65485ae3d2260f7908468b578fdff0e1ec25a6aaccd407/data2rdf-2.0.0rc3.tar.gz
+[2024-04-17 00:03:57] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Downloading https://files.pythonhosted.org/packages/d2/d2/5cf9929d873d9b9ed43d00cd9199775f245b90b9ea5f6fdb2cac2f8d1bc3/lunaticoastro_dragonfly_controller-0.7.1.tar.gz
+[2024-04-17 00:03:57] INFO root fetch - processPackages [minfraud]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-17 00:03:57] INFO root fetch - processPackages [minfraud]: Downloading https://files.pythonhosted.org/packages/09/84/0897a14d171873c596b24434ef4325e0ae1f153ec18ad59cf6e13dedddaf/minfraud-2.8.0.tar.gz
+[2024-04-17 00:03:57] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Downloading https://files.pythonhosted.org/packages/aa/09/6d28270a32b56809d7e17325945247124759b0543ac337d194c46ce323ff/lunaticoastro_dragonfly_controller-0.9.0.tar.gz
+[2024-04-17 00:03:57] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: executing diffoscope
+[2024-04-17 00:03:57] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunaticoastro_dragonfly_controller-0.7.1.tar.gz tmp/lunaticoastro_dragonfly_controller-0.9.0.tar.gz --markdown 20240417/l/lunaticoastro-dragonfly-controller/0.7.1-0.9.0/README.md --exclude *.pyd
+[2024-04-17 00:03:57] INFO root fetch - processPackages [data2rdf]: Downloading https://files.pythonhosted.org/packages/9a/50/a95754ba0ce9126c577521d39da00cbb4769621679c2c0a3add5b140843b/data2rdf-2.0.0rc4.tar.gz
+[2024-04-17 00:03:57] INFO root fetch - processPackages [data2rdf]: executing diffoscope
+[2024-04-17 00:03:57] INFO root fetch - processPackages [data2rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data2rdf-2.0.0rc3.tar.gz tmp/data2rdf-2.0.0rc4.tar.gz --markdown 20240417/d/data2rdf/2.0.0rc3-2.0.0rc4/README.md --exclude *.pyd
+[2024-04-17 00:03:57] INFO root fetch - processPackages [minfraud]: Downloading https://files.pythonhosted.org/packages/ca/df/39754ade5e5532aa32515ff6f6a09dcd5fb1c0f256df95b2c10180ddc00a/minfraud-2.9.0.tar.gz
+[2024-04-17 00:03:57] INFO root fetch - processPackages [minfraud]: executing diffoscope
+[2024-04-17 00:03:57] INFO root fetch - processPackages [minfraud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minfraud-2.8.0.tar.gz tmp/minfraud-2.9.0.tar.gz --markdown 20240417/m/minfraud/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-17 00:03:58] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Remove: archive file [/home/abi/fetcher/tmp/lunaticoastro_dragonfly_controller-0.7.1.tar.gz]
+[2024-04-17 00:03:58] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Remove: archive file [/home/abi/fetcher/tmp/lunaticoastro_dragonfly_controller-0.9.0.tar.gz]
+[2024-04-17 00:03:58] INFO root fetch - main [MainThread]: End processing [lunaticoastro-dragonfly-controller]: success
+[2024-04-17 00:03:58] INFO root fetch - processPackages [data2rdf]: Remove: archive file [/home/abi/fetcher/tmp/data2rdf-2.0.0rc3.tar.gz]
+[2024-04-17 00:03:58] INFO root fetch - processPackages [data2rdf]: Remove: archive file [/home/abi/fetcher/tmp/data2rdf-2.0.0rc4.tar.gz]
+[2024-04-17 00:03:58] INFO root fetch - main [MainThread]: End processing [data2rdf]: success
+[2024-04-17 00:03:58] INFO root fetch - processPackages [minfraud]: Remove: archive file [/home/abi/fetcher/tmp/minfraud-2.8.0.tar.gz]
+[2024-04-17 00:03:58] INFO root fetch - processPackages [minfraud]: Remove: archive file [/home/abi/fetcher/tmp/minfraud-2.9.0.tar.gz]
+[2024-04-17 00:03:58] INFO root fetch - main [MainThread]: End processing [minfraud]: success
+[2024-04-17 00:03:58] INFO root fetch - main [MainThread]: Store serial: [22795752]
