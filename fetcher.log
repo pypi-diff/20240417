@@ -1603,3 +1603,15 @@
 [2024-04-17 01:49:15] INFO root fetch - processPackages [jedi-language-server]: Remove: archive file [/home/abi/fetcher/tmp/jedi-language-server-0.9.0.tar.gz]
 [2024-04-17 01:49:15] INFO root fetch - main [MainThread]: End processing [jedi-language-server]: success
 [2024-04-17 01:49:15] INFO root fetch - main [MainThread]: Store serial: [22796406]
+[2024-04-17 01:51:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796406]
+[2024-04-17 01:51:24] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 01:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mountaineer
+[2024-04-17 01:51:24] INFO root fetch - processPackages [mountaineer]: New version: [0.4.1.dev3] Old Version: [0.4.1.dev2]
+[2024-04-17 01:51:24] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/82/2d/51c94f1f8895ee588e38069f4be96a7fb003487be2005b70cd79585504f5/mountaineer-0.4.1.dev2.tar.gz
+[2024-04-17 01:51:25] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/ce/b0/187e03ecee56c593fcf8295693acc91bc9ac511f057cf619557981eae236/mountaineer-0.4.1.dev3.tar.gz
+[2024-04-17 01:51:25] INFO root fetch - processPackages [mountaineer]: executing diffoscope
+[2024-04-17 01:51:25] INFO root fetch - processPackages [mountaineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountaineer-0.4.1.dev2.tar.gz tmp/mountaineer-0.4.1.dev3.tar.gz --markdown 20240417/m/mountaineer/0.4.1.dev2-0.4.1.dev3/README.md --exclude *.pyd
+[2024-04-17 01:51:27] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.4.1.dev2.tar.gz]
+[2024-04-17 01:51:27] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.4.1.dev3.tar.gz]
+[2024-04-17 01:51:27] INFO root fetch - main [MainThread]: End processing [mountaineer]: success
+[2024-04-17 01:51:27] INFO root fetch - main [MainThread]: Store serial: [22796418]
