@@ -888,3 +888,33 @@
 [2024-04-17 00:58:48] INFO root fetch - processPackages [iniUts]: Remove: archive file [/home/abi/fetcher/tmp/iniUts-1.1.7.tar.gz]
 [2024-04-17 00:58:48] INFO root fetch - main [MainThread]: End processing [iniUts]: success
 [2024-04-17 00:58:48] INFO root fetch - main [MainThread]: Store serial: [22796069]
+[2024-04-17 01:00:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796069]
+[2024-04-17 01:00:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 01:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ng-data-pipelines-sdk
+[2024-04-17 01:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Sphinx
+[2024-04-17 01:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leoid
+[2024-04-17 01:00:57] INFO root fetch - processPackages [Sphinx]: New version: [7.2.6] Old Version: [7.2.5]
+[2024-04-17 01:00:57] INFO root fetch - processPackages [ng-data-pipelines-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 01:00:57] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/70/aa/7f284cb72eafff634eab41ddf18a9bcf2f335d830fa3879072b877c1d72b/sphinx-7.2.5.tar.gz
+[2024-04-17 01:00:57] INFO root fetch - processPackages [leoid]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-17 01:00:57] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/b1/37/0da6fb200c110e7b1091eefddd4c17e570235f4ac7abdc767489d55ca7b4/ng_data_pipelines_sdk-0.1.1.tar.gz
+[2024-04-17 01:00:57] INFO root fetch - processPackages [leoid]: Downloading https://files.pythonhosted.org/packages/e3/90/2551d2bc5670c415dc62cb6058f55f68e907fd1097d22877c3acbe909069/leoid-1.1.4.tar.gz
+[2024-04-17 01:00:58] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/68/97/8718830eb6b04e4095e8c10b3619dd7aa2f70c5f7794458eb8af8980c284/ng_data_pipelines_sdk-0.1.2.tar.gz
+[2024-04-17 01:00:58] INFO root fetch - processPackages [ng-data-pipelines-sdk]: executing diffoscope
+[2024-04-17 01:00:58] INFO root fetch - processPackages [ng-data-pipelines-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ng_data_pipelines_sdk-0.1.1.tar.gz tmp/ng_data_pipelines_sdk-0.1.2.tar.gz --markdown 20240417/n/ng-data-pipelines-sdk/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 01:00:58] INFO root fetch - processPackages [leoid]: Downloading https://files.pythonhosted.org/packages/0e/27/4c4139920d699283fffd14826f866375e947ee548c792bcc2256d7946509/leoid-1.1.5.tar.gz
+[2024-04-17 01:00:58] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/73/8e/6e51da4b26665b4b92b1944ea18b2d9c825e753e19180cc5bdc818d0ed3b/sphinx-7.2.6.tar.gz
+[2024-04-17 01:00:58] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-0.1.1.tar.gz]
+[2024-04-17 01:00:58] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-0.1.2.tar.gz]
+[2024-04-17 01:00:58] INFO root fetch - main [MainThread]: End processing [ng-data-pipelines-sdk]: success
+[2024-04-17 01:00:58] INFO root fetch - processPackages [Sphinx]: executing diffoscope
+[2024-04-17 01:00:58] INFO root fetch - processPackages [Sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-7.2.5.tar.gz tmp/sphinx-7.2.6.tar.gz --markdown 20240417/S/Sphinx/7.2.5-7.2.6/README.md --exclude *.pyd
+[2024-04-17 01:00:58] INFO root fetch - processPackages [leoid]: executing diffoscope
+[2024-04-17 01:00:58] INFO root fetch - processPackages [leoid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leoid-1.1.4.tar.gz tmp/leoid-1.1.5.tar.gz --markdown 20240417/l/leoid/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-17 01:00:59] INFO root fetch - processPackages [leoid]: Remove: archive file [/home/abi/fetcher/tmp/leoid-1.1.4.tar.gz]
+[2024-04-17 01:00:59] INFO root fetch - processPackages [leoid]: Remove: archive file [/home/abi/fetcher/tmp/leoid-1.1.5.tar.gz]
+[2024-04-17 01:00:59] INFO root fetch - main [MainThread]: End processing [leoid]: success
+[2024-04-17 01:01:03] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.2.5.tar.gz]
+[2024-04-17 01:01:04] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.2.6.tar.gz]
+[2024-04-17 01:01:04] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
+[2024-04-17 01:01:04] INFO root fetch - main [MainThread]: Store serial: [22796075]
