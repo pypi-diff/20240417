@@ -1,0 +1,27 @@
+[2024-04-17 00:01:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795728]
+[2024-04-17 00:01:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 00:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macal
+[2024-04-17 00:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyGRF
+[2024-04-17 00:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-spinning-loader
+[2024-04-17 00:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Velkoz
+[2024-04-17 00:01:47] WARNING root fetch - processPackages [PyGRF]: Skipping, unable to determine old version
+[2024-04-17 00:01:47] INFO root fetch - main [MainThread]: End processing [PyGRF] error
+[2024-04-17 00:01:47] WARNING root fetch - processPackages [python-spinning-loader]: Skipping, unable to determine old version
+[2024-04-17 00:01:47] INFO root fetch - main [MainThread]: End processing [python-spinning-loader] error
+[2024-04-17 00:01:47] INFO root fetch - processPackages [Velkoz]: New version: [0.0.6] Old Version: [0.0.59]
+[2024-04-17 00:01:47] INFO root fetch - processPackages [Velkoz]: Downloading https://files.pythonhosted.org/packages/07/e1/f386a1db29c6d06c04ed269c56dbcbee59b605ed04f7fbc7d9fdbee348e0/Velkoz-0.0.59.tar.gz
+[2024-04-17 00:01:47] INFO root fetch - processPackages [macal]: New version: [5.5.0a3] Old Version: [5.5.0a1]
+[2024-04-17 00:01:47] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/d6/c1/59526c871dcea8a8ae806f7c7298d9bd7f0890ccb42a92628f6ff519bd2b/macal-5.5.0a1.tar.gz
+[2024-04-17 00:01:47] INFO root fetch - processPackages [Velkoz]: Downloading https://files.pythonhosted.org/packages/1b/ed/52e3739c7581cc65600aa5fa4d893642f0f9250ea82f5b62f1747519d482/Velkoz-0.0.6.tar.gz
+[2024-04-17 00:01:47] INFO root fetch - processPackages [Velkoz]: executing diffoscope
+[2024-04-17 00:01:47] INFO root fetch - processPackages [Velkoz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Velkoz-0.0.59.tar.gz tmp/Velkoz-0.0.6.tar.gz --markdown 20240417/V/Velkoz/0.0.59-0.0.6/README.md --exclude *.pyd
+[2024-04-17 00:01:47] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/23/af/8ddc8192c57cc29b9b7d062cd3de65e6a9a326541bc2545760e02249b9e6/macal-5.5.0a3.tar.gz
+[2024-04-17 00:01:47] INFO root fetch - processPackages [macal]: executing diffoscope
+[2024-04-17 00:01:47] INFO root fetch - processPackages [macal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macal-5.5.0a1.tar.gz tmp/macal-5.5.0a3.tar.gz --markdown 20240417/m/macal/5.5.0a1-5.5.0a3/README.md --exclude *.pyd
+[2024-04-17 00:01:48] INFO root fetch - processPackages [Velkoz]: Remove: archive file [/home/abi/fetcher/tmp/Velkoz-0.0.59.tar.gz]
+[2024-04-17 00:01:48] INFO root fetch - processPackages [Velkoz]: Remove: archive file [/home/abi/fetcher/tmp/Velkoz-0.0.6.tar.gz]
+[2024-04-17 00:01:48] INFO root fetch - main [MainThread]: End processing [Velkoz]: success
+[2024-04-17 00:01:48] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.5.0a1.tar.gz]
+[2024-04-17 00:01:48] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.5.0a3.tar.gz]
+[2024-04-17 00:01:48] INFO root fetch - main [MainThread]: End processing [macal]: success
+[2024-04-17 00:01:48] INFO root fetch - main [MainThread]: Store serial: [22795742]
