@@ -1472,3 +1472,62 @@
 [2024-04-17 01:40:30] INFO root fetch - processPackages [graph-validation-tests]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_tests-0.0.3.tar.gz]
 [2024-04-17 01:40:30] INFO root fetch - main [MainThread]: End processing [graph-validation-tests]: success
 [2024-04-17 01:40:30] INFO root fetch - main [MainThread]: Store serial: [22796366]
+[2024-04-17 01:42:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796366]
+[2024-04-17 01:42:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 01:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apoplast
+[2024-04-17 01:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data2rdf
+[2024-04-17 01:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qai-hub-models
+[2024-04-17 01:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apoplast
+[2024-04-17 01:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: watergeo
+[2024-04-17 01:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyMetaheuristic
+[2024-04-17 01:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apoplast
+[2024-04-17 01:42:39] INFO root fetch - processPackages [data2rdf]: New version: [2.0.0rc5] Old Version: [2.0.0rc4]
+[2024-04-17 01:42:39] INFO root fetch - processPackages [apoplast]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-04-17 01:42:39] INFO root fetch - processPackages [qai-hub-models]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-17 01:42:39] INFO root fetch - processPackages [apoplast]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-04-17 01:42:39] INFO root fetch - processPackages [apoplast]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-04-17 01:42:39] INFO root fetch - processPackages [data2rdf]: Downloading https://files.pythonhosted.org/packages/9a/50/a95754ba0ce9126c577521d39da00cbb4769621679c2c0a3add5b140843b/data2rdf-2.0.0rc4.tar.gz
+[2024-04-17 01:42:39] INFO root fetch - processPackages [pyMetaheuristic]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-17 01:42:39] INFO root fetch - processPackages [watergeo]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-17 01:42:39] INFO root fetch - processPackages [qai-hub-models]: Downloading https://files.pythonhosted.org/packages/ef/af/315980e894b73cadcc1d1e0a97174cc742eb664bc742e8fc60843bd7c91e/qai_hub_models-0.4.1-py3-none-any.whl
+[2024-04-17 01:42:39] INFO root fetch - processPackages [watergeo]: Downloading https://files.pythonhosted.org/packages/75/69/cc07fabce7c6f23a8f4bc093abf0c53ca0c86632c3dc453aad48adcf2de1/watergeo-0.0.4.tar.gz
+[2024-04-17 01:42:39] INFO root fetch - processPackages [apoplast]: Downloading https://files.pythonhosted.org/packages/c2/07/23f7b4335ae94171cee1fe3a5c76b07707e6c1318e3407e29857da3cd091/apoplast-3.0.6.tar.gz
+[2024-04-17 01:42:39] INFO root fetch - processPackages [apoplast]: Downloading https://files.pythonhosted.org/packages/c2/07/23f7b4335ae94171cee1fe3a5c76b07707e6c1318e3407e29857da3cd091/apoplast-3.0.6.tar.gz
+[2024-04-17 01:42:39] INFO root fetch - processPackages [apoplast]: Downloading https://files.pythonhosted.org/packages/c2/07/23f7b4335ae94171cee1fe3a5c76b07707e6c1318e3407e29857da3cd091/apoplast-3.0.6.tar.gz
+[2024-04-17 01:42:39] INFO root fetch - processPackages [pyMetaheuristic]: Downloading https://files.pythonhosted.org/packages/8b/e3/b39951fcc90b01eef581d2c2abac12cc4deac24f51c0ccdda20549945efd/pyMetaheuristic-1.9.4.tar.gz
+[2024-04-17 01:42:39] INFO root fetch - processPackages [data2rdf]: Downloading https://files.pythonhosted.org/packages/3c/ef/890cf5dcb3480718f69517d0f50f786875d737d23253800b401cff248805/data2rdf-2.0.0rc5.tar.gz
+[2024-04-17 01:42:40] INFO root fetch - processPackages [data2rdf]: executing diffoscope
+[2024-04-17 01:42:40] INFO root fetch - processPackages [data2rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data2rdf-2.0.0rc4.tar.gz tmp/data2rdf-2.0.0rc5.tar.gz --markdown 20240417/d/data2rdf/2.0.0rc4-2.0.0rc5/README.md --exclude *.pyd
+[2024-04-17 01:42:40] INFO root fetch - processPackages [pyMetaheuristic]: Downloading https://files.pythonhosted.org/packages/e0/d5/d03bbb31a2f876b413008278b50b7ebe9bf373ba32d4bdc511cd4e932b87/pyMetaheuristic-1.9.5.tar.gz
+[2024-04-17 01:42:40] INFO root fetch - processPackages [qai-hub-models]: Downloading https://files.pythonhosted.org/packages/6c/ef/bb5f23491bdb2a804e36c993bc0f0d3b417be9e30d285c995a5ae7728f47/qai_hub_models-0.5.0-py3-none-any.whl
+[2024-04-17 01:42:40] INFO root fetch - processPackages [watergeo]: Downloading https://files.pythonhosted.org/packages/76/27/4cd2bbf5f166d2613892308536917a0a59b2abbf420e80d6a71e5102563e/watergeo-0.0.5.tar.gz
+[2024-04-17 01:42:40] WARNING root fetch - processPackages [watergeo]: Skipping package: exceeds size limit 10823775>=10485760
+[2024-04-17 01:42:40] INFO root fetch - main [MainThread]: End processing [watergeo] error
+[2024-04-17 01:42:40] INFO root fetch - processPackages [pyMetaheuristic]: executing diffoscope
+[2024-04-17 01:42:40] INFO root fetch - processPackages [pyMetaheuristic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyMetaheuristic-1.9.4.tar.gz tmp/pyMetaheuristic-1.9.5.tar.gz --markdown 20240417/p/pyMetaheuristic/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-04-17 01:42:40] INFO root fetch - processPackages [qai-hub-models]: executing diffoscope
+[2024-04-17 01:42:40] INFO root fetch - processPackages [qai-hub-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_hub_models-0.4.1-py3-none-any.whl.zip tmp/qai_hub_models-0.5.0-py3-none-any.whl.zip --markdown 20240417/q/qai-hub-models/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-17 01:42:40] INFO root fetch - processPackages [apoplast]: Downloading https://files.pythonhosted.org/packages/59/aa/7a0ebcf75f5de72fdc471ef410be6c5fd2b5447f2d3e1de703fc7718dc93/apoplast-3.0.7.tar.gz
+[2024-04-17 01:42:40] INFO root fetch - processPackages [apoplast]: Downloading https://files.pythonhosted.org/packages/59/aa/7a0ebcf75f5de72fdc471ef410be6c5fd2b5447f2d3e1de703fc7718dc93/apoplast-3.0.7.tar.gz
+[2024-04-17 01:42:40] INFO root fetch - processPackages [apoplast]: Downloading https://files.pythonhosted.org/packages/59/aa/7a0ebcf75f5de72fdc471ef410be6c5fd2b5447f2d3e1de703fc7718dc93/apoplast-3.0.7.tar.gz
+[2024-04-17 01:42:40] INFO root fetch - processPackages [data2rdf]: Remove: archive file [/home/abi/fetcher/tmp/data2rdf-2.0.0rc4.tar.gz]
+[2024-04-17 01:42:40] INFO root fetch - processPackages [data2rdf]: Remove: archive file [/home/abi/fetcher/tmp/data2rdf-2.0.0rc5.tar.gz]
+[2024-04-17 01:42:40] INFO root fetch - main [MainThread]: End processing [data2rdf]: success
+[2024-04-17 01:42:40] INFO root fetch - processPackages [apoplast]: executing diffoscope
+[2024-04-17 01:42:40] INFO root fetch - processPackages [apoplast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apoplast-3.0.6.tar.gz tmp/apoplast-3.0.7.tar.gz --markdown 20240417/a/apoplast/3.0.6-3.0.7/README.md --exclude *.pyd
+[2024-04-17 01:42:40] INFO root fetch - processPackages [apoplast]: executing diffoscope
+[2024-04-17 01:42:40] INFO root fetch - processPackages [apoplast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apoplast-3.0.6.tar.gz tmp/apoplast-3.0.7.tar.gz --markdown 20240417/a/apoplast/3.0.6-3.0.7/README.md --exclude *.pyd
+[2024-04-17 01:42:40] INFO root fetch - processPackages [apoplast]: executing diffoscope
+[2024-04-17 01:42:40] INFO root fetch - processPackages [apoplast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apoplast-3.0.6.tar.gz tmp/apoplast-3.0.7.tar.gz --markdown 20240417/a/apoplast/3.0.6-3.0.7/README.md --exclude *.pyd
+[2024-04-17 01:42:41] INFO root fetch - processPackages [pyMetaheuristic]: Remove: archive file [/home/abi/fetcher/tmp/pyMetaheuristic-1.9.4.tar.gz]
+[2024-04-17 01:42:41] INFO root fetch - processPackages [pyMetaheuristic]: Remove: archive file [/home/abi/fetcher/tmp/pyMetaheuristic-1.9.5.tar.gz]
+[2024-04-17 01:42:41] INFO root fetch - main [MainThread]: End processing [pyMetaheuristic]: success
+[2024-04-17 01:42:44] INFO root fetch - processPackages [apoplast]: Remove: archive file [/home/abi/fetcher/tmp/apoplast-3.0.6.tar.gz]
+[2024-04-17 01:42:44] INFO root fetch - processPackages [apoplast]: Remove: archive file [/home/abi/fetcher/tmp/apoplast-3.0.7.tar.gz]
+[2024-04-17 01:42:44] INFO root fetch - main [MainThread]: End processing [apoplast]: success
+[2024-04-17 01:42:44] INFO root fetch - main [MainThread]: End processing [apoplast]: success
+[2024-04-17 01:42:44] INFO root fetch - main [MainThread]: End processing [apoplast]: success
+[2024-04-17 01:42:44] INFO root fetch - processPackages [qai-hub-models]: Remove: archive file [/home/abi/fetcher/tmp/qai_hub_models-0.4.1-py3-none-any.whl.zip]
+[2024-04-17 01:42:44] INFO root fetch - processPackages [qai-hub-models]: Remove: archive file [/home/abi/fetcher/tmp/qai_hub_models-0.5.0-py3-none-any.whl.zip]
+[2024-04-17 01:42:44] INFO root fetch - main [MainThread]: End processing [qai-hub-models]: success
+[2024-04-17 01:42:44] INFO root fetch - main [MainThread]: Store serial: [22796387]
