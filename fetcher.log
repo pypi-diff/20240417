@@ -1531,3 +1531,24 @@
 [2024-04-17 01:42:44] INFO root fetch - processPackages [qai-hub-models]: Remove: archive file [/home/abi/fetcher/tmp/qai_hub_models-0.5.0-py3-none-any.whl.zip]
 [2024-04-17 01:42:44] INFO root fetch - main [MainThread]: End processing [qai-hub-models]: success
 [2024-04-17 01:42:44] INFO root fetch - main [MainThread]: Store serial: [22796387]
+[2024-04-17 01:44:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796387]
+[2024-04-17 01:44:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 01:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: armodel
+[2024-04-17 01:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiavatar
+[2024-04-17 01:44:53] INFO root fetch - processPackages [armodel]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-17 01:44:53] INFO root fetch - processPackages [aiavatar]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-17 01:44:53] INFO root fetch - processPackages [armodel]: Downloading https://files.pythonhosted.org/packages/a1/7e/1a8d10d489e2e8cd9cca1eff869c74ffd877ae627c26394e1892b52167b6/armodel-1.1.0-py3-none-any.whl
+[2024-04-17 01:44:53] INFO root fetch - processPackages [aiavatar]: Downloading https://files.pythonhosted.org/packages/e7/48/0a2a9c8270cdf83df75efbbda40bf669243f5f121e620952796904a9040b/aiavatar-0.4.4-py3-none-any.whl
+[2024-04-17 01:44:54] INFO root fetch - processPackages [armodel]: Downloading https://files.pythonhosted.org/packages/3f/d7/0316353ac828eae6d289c8f9e4304acf8c60f843138b721a8f99576288ac/armodel-1.2.0-py3-none-any.whl
+[2024-04-17 01:44:54] INFO root fetch - processPackages [aiavatar]: Downloading https://files.pythonhosted.org/packages/e0/4a/83049b02fef8b69e3510f6913a546981966f6af44098fef5426d89ad4c87/aiavatar-0.4.5-py3-none-any.whl
+[2024-04-17 01:44:54] INFO root fetch - processPackages [armodel]: executing diffoscope
+[2024-04-17 01:44:54] INFO root fetch - processPackages [armodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armodel-1.1.0-py3-none-any.whl.zip tmp/armodel-1.2.0-py3-none-any.whl.zip --markdown 20240417/a/armodel/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-17 01:44:54] INFO root fetch - processPackages [aiavatar]: executing diffoscope
+[2024-04-17 01:44:54] INFO root fetch - processPackages [aiavatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiavatar-0.4.4-py3-none-any.whl.zip tmp/aiavatar-0.4.5-py3-none-any.whl.zip --markdown 20240417/a/aiavatar/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-17 01:44:54] INFO root fetch - processPackages [aiavatar]: Remove: archive file [/home/abi/fetcher/tmp/aiavatar-0.4.4-py3-none-any.whl.zip]
+[2024-04-17 01:44:54] INFO root fetch - processPackages [aiavatar]: Remove: archive file [/home/abi/fetcher/tmp/aiavatar-0.4.5-py3-none-any.whl.zip]
+[2024-04-17 01:44:54] INFO root fetch - main [MainThread]: End processing [aiavatar]: success
+[2024-04-17 01:44:54] INFO root fetch - processPackages [armodel]: Remove: archive file [/home/abi/fetcher/tmp/armodel-1.1.0-py3-none-any.whl.zip]
+[2024-04-17 01:44:54] INFO root fetch - processPackages [armodel]: Remove: archive file [/home/abi/fetcher/tmp/armodel-1.2.0-py3-none-any.whl.zip]
+[2024-04-17 01:44:54] INFO root fetch - main [MainThread]: End processing [armodel]: success
+[2024-04-17 01:44:54] INFO root fetch - main [MainThread]: Store serial: [22796391]
