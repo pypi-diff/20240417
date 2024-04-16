@@ -477,3 +477,27 @@
 [2024-04-17 00:27:58] INFO root fetch - processPackages [shapely]: Remove: archive file [/home/abi/fetcher/tmp/shapely-2.0rc3.tar.gz]
 [2024-04-17 00:27:58] INFO root fetch - main [MainThread]: End processing [shapely]: success
 [2024-04-17 00:27:58] INFO root fetch - main [MainThread]: Store serial: [22795920]
+[2024-04-17 00:30:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795920]
+[2024-04-17 00:30:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 00:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reprompt
+[2024-04-17 00:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syndot
+[2024-04-17 00:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdss-hal
+[2024-04-17 00:30:08] INFO root fetch - processPackages [reprompt]: New version: [0.0.7.3] Old Version: [0.0.7.2]
+[2024-04-17 00:30:08] WARNING root fetch - processPackages [syndot]: Skipping, unable to determine old version
+[2024-04-17 00:30:08] INFO root fetch - main [MainThread]: End processing [syndot] error
+[2024-04-17 00:30:08] INFO root fetch - processPackages [sdss-hal]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-17 00:30:09] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/2b/8f/b41fb7f87c4b628abcb4ddd77ca11cfa7fa20a7559b040c37b708f011dcd/reprompt-0.0.7.2.tar.gz
+[2024-04-17 00:30:09] INFO root fetch - processPackages [sdss-hal]: Downloading https://files.pythonhosted.org/packages/7c/58/fd0d3c1a90631e649cbab5037a988911fcf804a42ae98a1063838f8652d7/sdss_hal-1.1.5.tar.gz
+[2024-04-17 00:30:09] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/f7/84/0a9b308ff108e2f79921dfe4a009b5c59a7b6ac29a2c945eb546ed7a2218/reprompt-0.0.7.3.tar.gz
+[2024-04-17 00:30:09] INFO root fetch - processPackages [reprompt]: executing diffoscope
+[2024-04-17 00:30:09] INFO root fetch - processPackages [reprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprompt-0.0.7.2.tar.gz tmp/reprompt-0.0.7.3.tar.gz --markdown 20240417/r/reprompt/0.0.7.2-0.0.7.3/README.md --exclude *.pyd
+[2024-04-17 00:30:09] INFO root fetch - processPackages [sdss-hal]: Downloading https://files.pythonhosted.org/packages/0a/08/3f5ca9396a1a16222e11b30a7ba124dba8abd18aab0a6d64dfc94a9a7b5c/sdss_hal-1.1.6.tar.gz
+[2024-04-17 00:30:09] INFO root fetch - processPackages [sdss-hal]: executing diffoscope
+[2024-04-17 00:30:09] INFO root fetch - processPackages [sdss-hal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_hal-1.1.5.tar.gz tmp/sdss_hal-1.1.6.tar.gz --markdown 20240417/s/sdss-hal/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-17 00:30:10] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.2.tar.gz]
+[2024-04-17 00:30:10] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.3.tar.gz]
+[2024-04-17 00:30:10] INFO root fetch - main [MainThread]: End processing [reprompt]: success
+[2024-04-17 00:30:10] INFO root fetch - processPackages [sdss-hal]: Remove: archive file [/home/abi/fetcher/tmp/sdss_hal-1.1.5.tar.gz]
+[2024-04-17 00:30:10] INFO root fetch - processPackages [sdss-hal]: Remove: archive file [/home/abi/fetcher/tmp/sdss_hal-1.1.6.tar.gz]
+[2024-04-17 00:30:10] INFO root fetch - main [MainThread]: End processing [sdss-hal]: success
+[2024-04-17 00:30:10] INFO root fetch - main [MainThread]: Store serial: [22795931]
