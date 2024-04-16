@@ -1278,3 +1278,42 @@
 [2024-04-17 01:25:12] INFO root fetch - processPackages [pyspedas]: Remove: archive file [/home/abi/fetcher/tmp/pyspedas-1.5.9.tar.gz]
 [2024-04-17 01:25:12] INFO root fetch - main [MainThread]: End processing [pyspedas]: success
 [2024-04-17 01:25:12] INFO root fetch - main [MainThread]: Store serial: [22796242]
+[2024-04-17 01:27:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796242]
+[2024-04-17 01:27:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 01:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: avocentdpdu
+[2024-04-17 01:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thirdai
+[2024-04-17 01:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mocker-db
+[2024-04-17 01:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipxu
+[2024-04-17 01:27:21] INFO root fetch - processPackages [avocentdpdu]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-17 01:27:22] INFO root fetch - processPackages [avocentdpdu]: Downloading https://files.pythonhosted.org/packages/8e/1c/27e86709d5f9a489cae0b3b8617017ebc1d53ebbfce3f741f8d6ace14fbc/avocentdpdu-1.0.1.tar.gz
+[2024-04-17 01:27:22] INFO root fetch - processPackages [mocker-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 01:27:22] INFO root fetch - processPackages [pipxu]: New version: [1.9] Old Version: [1.8]
+[2024-04-17 01:27:22] INFO root fetch - processPackages [thirdai]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-17 01:27:22] INFO root fetch - processPackages [mocker-db]: Downloading https://files.pythonhosted.org/packages/43/b3/99f3b5b22f030173cc25be7a395e0cf51687f8fc4c5dd20be0d2c718a6ce/mocker_db-0.0.8.tar.gz
+[2024-04-17 01:27:22] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/b1/12/b896a0b4f98dbe96f4ba4bdb06dc51f9422b0d113ed60f040dabf1d8fa3a/thirdai-0.7.8-cp39-cp39-win_amd64.whl
+[2024-04-17 01:27:22] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/cc/eb/3ab46d9459683b712238c934e0771e68d18f501630f0c699727047a9291f/pipxu-1.8.tar.gz
+[2024-04-17 01:27:22] INFO root fetch - processPackages [avocentdpdu]: Downloading https://files.pythonhosted.org/packages/8c/11/51b2a044f3388dcb517bb925c12439da32a67d8da868b4f2186315e7cbb0/avocentdpdu-1.1.0.tar.gz
+[2024-04-17 01:27:22] INFO root fetch - processPackages [avocentdpdu]: executing diffoscope
+[2024-04-17 01:27:22] INFO root fetch - processPackages [avocentdpdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avocentdpdu-1.0.1.tar.gz tmp/avocentdpdu-1.1.0.tar.gz --markdown 20240417/a/avocentdpdu/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-17 01:27:22] INFO root fetch - processPackages [mocker-db]: Downloading https://files.pythonhosted.org/packages/96/81/add75b28ef0af016b2d26d84a95ef7067713780c998b6b0820eb3f402b03/mocker_db-0.0.9.tar.gz
+[2024-04-17 01:27:22] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/8a/eb/90f5309214385256434dc7b634f8eee8a63edf311279c03abb59bc54c556/pipxu-1.9.tar.gz
+[2024-04-17 01:27:22] INFO root fetch - processPackages [mocker-db]: executing diffoscope
+[2024-04-17 01:27:22] INFO root fetch - processPackages [mocker-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocker_db-0.0.8.tar.gz tmp/mocker_db-0.0.9.tar.gz --markdown 20240417/m/mocker-db/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 01:27:22] INFO root fetch - processPackages [pipxu]: executing diffoscope
+[2024-04-17 01:27:22] INFO root fetch - processPackages [pipxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipxu-1.8.tar.gz tmp/pipxu-1.9.tar.gz --markdown 20240417/p/pipxu/1.8-1.9/README.md --exclude *.pyd
+[2024-04-17 01:27:22] INFO root fetch - processPackages [avocentdpdu]: Remove: archive file [/home/abi/fetcher/tmp/avocentdpdu-1.0.1.tar.gz]
+[2024-04-17 01:27:22] INFO root fetch - processPackages [avocentdpdu]: Remove: archive file [/home/abi/fetcher/tmp/avocentdpdu-1.1.0.tar.gz]
+[2024-04-17 01:27:22] INFO root fetch - main [MainThread]: End processing [avocentdpdu]: success
+[2024-04-17 01:27:23] INFO root fetch - processPackages [mocker-db]: Remove: archive file [/home/abi/fetcher/tmp/mocker_db-0.0.8.tar.gz]
+[2024-04-17 01:27:23] INFO root fetch - processPackages [mocker-db]: Remove: archive file [/home/abi/fetcher/tmp/mocker_db-0.0.9.tar.gz]
+[2024-04-17 01:27:23] INFO root fetch - main [MainThread]: End processing [mocker-db]: success
+[2024-04-17 01:27:23] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.8.tar.gz]
+[2024-04-17 01:27:23] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.9.tar.gz]
+[2024-04-17 01:27:23] INFO root fetch - main [MainThread]: End processing [pipxu]: success
+[2024-04-17 01:27:23] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/8b/6d/f4bf727538b7c529fb99b293a68c5d32b9abf781998bb6f3c117f307ab47/thirdai-0.7.9-cp39-cp39-win_amd64.whl
+[2024-04-17 01:27:25] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2024-04-17 01:27:25] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20240417/t/thirdai/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-17 01:27:26] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 01:27:26] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 01:27:26] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2024-04-17 01:27:26] INFO root fetch - main [MainThread]: Store serial: [22796268]
