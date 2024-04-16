@@ -438,3 +438,42 @@
 [2024-04-17 00:25:48] INFO root fetch - processPackages [ResoluteCNS]: Remove: archive file [/home/abi/fetcher/tmp/resolutecns-0.1.8.tar.gz]
 [2024-04-17 00:25:48] INFO root fetch - main [MainThread]: End processing [ResoluteCNS]: success
 [2024-04-17 00:25:48] INFO root fetch - main [MainThread]: Store serial: [22795875]
+[2024-04-17 00:27:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22795875]
+[2024-04-17 00:27:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 00:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompt-security-fuzzer
+[2024-04-17 00:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databento
+[2024-04-17 00:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stackql-deploy
+[2024-04-17 00:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shapely
+[2024-04-17 00:27:56] INFO root fetch - processPackages [prompt-security-fuzzer]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-17 00:27:56] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-17 00:27:56] INFO root fetch - processPackages [shapely]: New version: [2.0rc3] Old Version: [2.0rc2]
+[2024-04-17 00:27:56] INFO root fetch - processPackages [prompt-security-fuzzer]: Downloading https://files.pythonhosted.org/packages/e8/5b/6c913f34d47d2a3b3f2805cbb65f9cf2b28647aea53a045d1236f08a5f33/prompt_security_fuzzer-0.1.3.tar.gz
+[2024-04-17 00:27:56] INFO root fetch - processPackages [databento]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-17 00:27:56] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/f3/a8/a2977dcbe3683e4c1f7f789affda3d38af3f4732099681688d355624c7a2/stackql_deploy-1.0.1.tar.gz
+[2024-04-17 00:27:57] INFO root fetch - processPackages [shapely]: Downloading https://files.pythonhosted.org/packages/7f/df/9598a4a7597488dac6e3ad94a041c6d9a82551617b845faf9866c4b7907b/shapely-2.0rc2.tar.gz
+[2024-04-17 00:27:57] INFO root fetch - processPackages [databento]: Downloading https://files.pythonhosted.org/packages/0d/e4/10790d212df7a4c2dea782ab8b245802a946d6669038f3858c84767ecdda/databento-0.8.1.tar.gz
+[2024-04-17 00:27:57] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/5a/80/76741e9e53b512a4db1960996e3609ca282abd1391295448c2039c916f8c/stackql_deploy-1.0.2.tar.gz
+[2024-04-17 00:27:57] INFO root fetch - processPackages [prompt-security-fuzzer]: Downloading https://files.pythonhosted.org/packages/59/c2/e428059c8fc48737e8ab60c2c90f7ab87798e39176f46d6150611de81280/prompt_security_fuzzer-0.1.4.tar.gz
+[2024-04-17 00:27:57] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 00:27:57] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.1.tar.gz tmp/stackql_deploy-1.0.2.tar.gz --markdown 20240417/s/stackql-deploy/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-17 00:27:57] INFO root fetch - processPackages [prompt-security-fuzzer]: executing diffoscope
+[2024-04-17 00:27:57] INFO root fetch - processPackages [prompt-security-fuzzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_security_fuzzer-0.1.3.tar.gz tmp/prompt_security_fuzzer-0.1.4.tar.gz --markdown 20240417/p/prompt-security-fuzzer/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-17 00:27:57] INFO root fetch - processPackages [databento]: Downloading https://files.pythonhosted.org/packages/ec/da/e98fe04d3df728294a2fa7f56a0f9d17514e08ac81160fe5ff493b02cf31/databento-0.9.0.tar.gz
+[2024-04-17 00:27:57] INFO root fetch - processPackages [shapely]: Downloading https://files.pythonhosted.org/packages/bd/f5/3170732d23852df2d01c0f0bd394ecb2a7103e3cb95c59f7d1dad52a9ea3/shapely-2.0rc3.tar.gz
+[2024-04-17 00:27:57] INFO root fetch - processPackages [databento]: executing diffoscope
+[2024-04-17 00:27:57] INFO root fetch - processPackages [databento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databento-0.8.1.tar.gz tmp/databento-0.9.0.tar.gz --markdown 20240417/d/databento/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-17 00:27:57] INFO root fetch - processPackages [shapely]: executing diffoscope
+[2024-04-17 00:27:57] INFO root fetch - processPackages [shapely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapely-2.0rc2.tar.gz tmp/shapely-2.0rc3.tar.gz --markdown 20240417/s/shapely/2.0rc2-2.0rc3/README.md --exclude *.pyd
+[2024-04-17 00:27:58] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.1.tar.gz]
+[2024-04-17 00:27:58] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.2.tar.gz]
+[2024-04-17 00:27:58] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 00:27:58] INFO root fetch - processPackages [prompt-security-fuzzer]: Remove: archive file [/home/abi/fetcher/tmp/prompt_security_fuzzer-0.1.3.tar.gz]
+[2024-04-17 00:27:58] INFO root fetch - processPackages [prompt-security-fuzzer]: Remove: archive file [/home/abi/fetcher/tmp/prompt_security_fuzzer-0.1.4.tar.gz]
+[2024-04-17 00:27:58] INFO root fetch - main [MainThread]: End processing [prompt-security-fuzzer]: success
+[2024-04-17 00:27:58] INFO root fetch - processPackages [databento]: Remove: archive file [/home/abi/fetcher/tmp/databento-0.8.1.tar.gz]
+[2024-04-17 00:27:58] INFO root fetch - processPackages [databento]: Remove: archive file [/home/abi/fetcher/tmp/databento-0.9.0.tar.gz]
+[2024-04-17 00:27:58] INFO root fetch - main [MainThread]: End processing [databento]: success
+[2024-04-17 00:27:58] INFO root fetch - processPackages [shapely]: Remove: archive file [/home/abi/fetcher/tmp/shapely-2.0rc2.tar.gz]
+[2024-04-17 00:27:58] INFO root fetch - processPackages [shapely]: Remove: archive file [/home/abi/fetcher/tmp/shapely-2.0rc3.tar.gz]
+[2024-04-17 00:27:58] INFO root fetch - main [MainThread]: End processing [shapely]: success
+[2024-04-17 00:27:58] INFO root fetch - main [MainThread]: Store serial: [22795920]
