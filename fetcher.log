@@ -936,3 +936,51 @@
 [2024-04-17 01:05:23] WARNING root fetch - processPackages [pragy-dl]: Skipping, unable to determine old version
 [2024-04-17 01:05:23] INFO root fetch - main [MainThread]: End processing [pragy-dl] error
 [2024-04-17 01:05:23] INFO root fetch - main [MainThread]: Store serial: [22796081]
+[2024-04-17 01:07:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796081]
+[2024-04-17 01:07:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 01:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt
+[2024-04-17 01:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openjsoncanvas
+[2024-04-17 01:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flwr-nightly
+[2024-04-17 01:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sapphire-renderer
+[2024-04-17 01:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bugbug
+[2024-04-17 01:07:32] INFO root fetch - processPackages [sapphire-renderer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 01:07:32] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240415] Old Version: [1.9.0.dev20240414]
+[2024-04-17 01:07:32] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240415] Old Version: [0.7.52b20240414]
+[2024-04-17 01:07:32] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/2b/42/94c0538f43a9b8e7cb54f37e97b259fbdd1ec3592931d86660f100f5ce0e/sapphire-renderer-0.0.8.tar.gz
+[2024-04-17 01:07:32] INFO root fetch - processPackages [bugbug]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-17 01:07:32] INFO root fetch - processPackages [openjsoncanvas]: New version: [3.0.0] Old Version: [2.0.4]
+[2024-04-17 01:07:32] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/d4/50/d5aa191a1d48e70947966a94b65b4cd6d327864f0927a8671897e65087ce/tmnt-0.7.52b20240414.tar.gz
+[2024-04-17 01:07:32] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/dc/3d/b0889985025a310e1259e0550ee1d5c548a7b064a898aa66164bf2ea126d/flwr_nightly-1.9.0.dev20240414.tar.gz
+[2024-04-17 01:07:33] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/f8/31/8de4b92c9035b28151912286005bd004a22beea4fc1de98c231b009bd2be/sapphire-renderer-0.0.9.tar.gz
+[2024-04-17 01:07:33] INFO root fetch - processPackages [openjsoncanvas]: Downloading https://files.pythonhosted.org/packages/d5/a9/5888e45decad641d74396126ff986df551782721b98a0bd52baf1c8af684/openjsoncanvas-2.0.4.tar.gz
+[2024-04-17 01:07:33] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/5b/6a/fc99f3a6e09827c698ee6eab2d88fea1cf94e1c6d0f0d04236a834ba423b/bugbug-0.0.98.tar.gz
+[2024-04-17 01:07:33] INFO root fetch - processPackages [sapphire-renderer]: executing diffoscope
+[2024-04-17 01:07:33] INFO root fetch - processPackages [sapphire-renderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapphire-renderer-0.0.8.tar.gz tmp/sapphire-renderer-0.0.9.tar.gz --markdown 20240417/s/sapphire-renderer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 01:07:33] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/00/b2/92a08e9b8dceb93be32983ba9f61df6a043fabe47582234ebd2f77b40c9d/tmnt-0.7.52b20240415.tar.gz
+[2024-04-17 01:07:33] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/94/fc/070b9c3a7284f8075d03b1cf099f1c03567e314e132ade6ffc90aaca6cad/flwr_nightly-1.9.0.dev20240415.tar.gz
+[2024-04-17 01:07:33] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-17 01:07:33] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240414.tar.gz tmp/tmnt-0.7.52b20240415.tar.gz --markdown 20240417/t/tmnt/0.7.52b20240414-0.7.52b20240415/README.md --exclude *.pyd
+[2024-04-17 01:07:33] INFO root fetch - processPackages [openjsoncanvas]: Downloading https://files.pythonhosted.org/packages/f5/2a/18bb1ae0f4ace3326acc726f04f423c8dfc2ae3b55adf3235c063c121821/openjsoncanvas-3.0.0.tar.gz
+[2024-04-17 01:07:33] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-04-17 01:07:33] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240414.tar.gz tmp/flwr_nightly-1.9.0.dev20240415.tar.gz --markdown 20240417/f/flwr-nightly/1.9.0.dev20240414-1.9.0.dev20240415/README.md --exclude *.pyd
+[2024-04-17 01:07:33] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/1b/68/2d9f5d88a3b137b0acc5c563e30de6711280c6bea1292fb42f4652b41c4b/bugbug-0.0.99.tar.gz
+[2024-04-17 01:07:33] INFO root fetch - processPackages [openjsoncanvas]: executing diffoscope
+[2024-04-17 01:07:33] INFO root fetch - processPackages [openjsoncanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openjsoncanvas-2.0.4.tar.gz tmp/openjsoncanvas-3.0.0.tar.gz --markdown 20240417/o/openjsoncanvas/2.0.4-3.0.0/README.md --exclude *.pyd
+[2024-04-17 01:07:33] INFO root fetch - processPackages [bugbug]: executing diffoscope
+[2024-04-17 01:07:33] INFO root fetch - processPackages [bugbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugbug-0.0.98.tar.gz tmp/bugbug-0.0.99.tar.gz --markdown 20240417/b/bugbug/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-17 01:07:33] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.8.tar.gz]
+[2024-04-17 01:07:33] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.9.tar.gz]
+[2024-04-17 01:07:33] INFO root fetch - main [MainThread]: End processing [sapphire-renderer]: success
+[2024-04-17 01:07:34] INFO root fetch - processPackages [openjsoncanvas]: Remove: archive file [/home/abi/fetcher/tmp/openjsoncanvas-2.0.4.tar.gz]
+[2024-04-17 01:07:34] INFO root fetch - processPackages [openjsoncanvas]: Remove: archive file [/home/abi/fetcher/tmp/openjsoncanvas-3.0.0.tar.gz]
+[2024-04-17 01:07:34] INFO root fetch - main [MainThread]: End processing [openjsoncanvas]: success
+[2024-04-17 01:07:34] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240414.tar.gz]
+[2024-04-17 01:07:34] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240415.tar.gz]
+[2024-04-17 01:07:34] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-17 01:07:34] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.98.tar.gz]
+[2024-04-17 01:07:34] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.99.tar.gz]
+[2024-04-17 01:07:34] INFO root fetch - main [MainThread]: End processing [bugbug]: success
+[2024-04-17 01:07:34] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240414.tar.gz]
+[2024-04-17 01:07:34] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240415.tar.gz]
+[2024-04-17 01:07:34] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-04-17 01:07:34] INFO root fetch - main [MainThread]: Store serial: [22796096]
