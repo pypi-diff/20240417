@@ -7634,3 +7634,24 @@
 [2024-04-17 04:05:07] INFO root fetch - processPackages [OpenModelicaCompiler]: Remove: archive file [/home/abi/fetcher/tmp/openmodelicacompiler-0.3.3.tar.gz]
 [2024-04-17 04:05:07] INFO root fetch - main [MainThread]: End processing [OpenModelicaCompiler]: success
 [2024-04-17 04:05:07] INFO root fetch - main [MainThread]: Store serial: [22798764]
+[2024-04-17 04:07:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798764]
+[2024-04-17 04:07:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 04:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imface
+[2024-04-17 04:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smithed
+[2024-04-17 04:07:17] INFO root fetch - processPackages [imface]: New version: [0.0.0.4.4] Old Version: [0.0.0.4.3]
+[2024-04-17 04:07:17] INFO root fetch - processPackages [smithed]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-17 04:07:17] INFO root fetch - processPackages [imface]: Downloading https://files.pythonhosted.org/packages/26/74/41d75a9856e481518f68a628662ac18b019c8b058e84f2d2385d99811a65/imface-0.0.0.4.3.tar.gz
+[2024-04-17 04:07:17] INFO root fetch - processPackages [smithed]: Downloading https://files.pythonhosted.org/packages/e9/7d/1a5f54cab8468dba20c207ef284467d79177898cba00a36609728dc2f024/smithed-0.9.2.tar.gz
+[2024-04-17 04:07:17] INFO root fetch - processPackages [smithed]: Downloading https://files.pythonhosted.org/packages/6f/e9/2700ac0fe0f36e9a17f9ab5f811bc42783bf3cd588037c2d032e49402455/smithed-0.9.3.tar.gz
+[2024-04-17 04:07:17] INFO root fetch - processPackages [imface]: Downloading https://files.pythonhosted.org/packages/a7/31/5ff22f7a322b36b99aa9270eecaf3e2efac70d328460a3bf500dd84c97ec/imface-0.0.0.4.4.tar.gz
+[2024-04-17 04:07:17] INFO root fetch - processPackages [smithed]: executing diffoscope
+[2024-04-17 04:07:17] INFO root fetch - processPackages [smithed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smithed-0.9.2.tar.gz tmp/smithed-0.9.3.tar.gz --markdown 20240417/s/smithed/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-17 04:07:17] INFO root fetch - processPackages [imface]: executing diffoscope
+[2024-04-17 04:07:17] INFO root fetch - processPackages [imface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imface-0.0.0.4.3.tar.gz tmp/imface-0.0.0.4.4.tar.gz --markdown 20240417/i/imface/0.0.0.4.3-0.0.0.4.4/README.md --exclude *.pyd
+[2024-04-17 04:07:18] INFO root fetch - processPackages [smithed]: Remove: archive file [/home/abi/fetcher/tmp/smithed-0.9.2.tar.gz]
+[2024-04-17 04:07:18] INFO root fetch - processPackages [smithed]: Remove: archive file [/home/abi/fetcher/tmp/smithed-0.9.3.tar.gz]
+[2024-04-17 04:07:18] INFO root fetch - main [MainThread]: End processing [smithed]: success
+[2024-04-17 04:07:18] INFO root fetch - processPackages [imface]: Remove: archive file [/home/abi/fetcher/tmp/imface-0.0.0.4.3.tar.gz]
+[2024-04-17 04:07:18] INFO root fetch - processPackages [imface]: Remove: archive file [/home/abi/fetcher/tmp/imface-0.0.0.4.4.tar.gz]
+[2024-04-17 04:07:18] INFO root fetch - main [MainThread]: End processing [imface]: success
+[2024-04-17 04:07:18] INFO root fetch - main [MainThread]: Store serial: [22798773]
