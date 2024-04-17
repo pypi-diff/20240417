@@ -18090,3 +18090,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:40:28] INFO root fetch - processPackages [TreeTime]: Remove: archive file [/home/abi/fetcher/tmp/TreeTime-2024.1.tar.gz]
 [2024-04-17 11:40:28] INFO root fetch - main [MainThread]: End processing [TreeTime]: success
 [2024-04-17 11:40:28] INFO root fetch - main [MainThread]: Store serial: [22803357]
+[2024-04-17 11:42:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803357]
+[2024-04-17 11:42:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 11:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TreeTime
+[2024-04-17 11:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autodoc-traits
+[2024-04-17 11:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioipfs
+[2024-04-17 11:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typegpt
+[2024-04-17 11:42:38] INFO root fetch - processPackages [TreeTime]: New version: [2024.1] Old Version: [2023.2]
+[2024-04-17 11:42:38] INFO root fetch - processPackages [autodoc-traits]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-17 11:42:38] INFO root fetch - processPackages [aioipfs]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-17 11:42:38] INFO root fetch - processPackages [TreeTime]: Downloading https://files.pythonhosted.org/packages/b6/fa/6a7cbc21f5aff8810036cb07c0b2db59437e14b286e392132ed53fb6c483/TreeTime-2023.2.tar.gz
+[2024-04-17 11:42:38] INFO root fetch - processPackages [typegpt]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-17 11:42:38] INFO root fetch - processPackages [aioipfs]: Downloading https://files.pythonhosted.org/packages/aa/ef/e465f3a785e975687e475ee94144850d33ac42c541dfbaf74e52576df8b9/aioipfs-0.6.8.tar.gz
+[2024-04-17 11:42:38] INFO root fetch - processPackages [autodoc-traits]: Downloading https://files.pythonhosted.org/packages/8d/2e/ffda73cd1ee44ff84af4d9e3ea8e923542c75ba24c50042ea56e18a84b16/autodoc_traits-1.2.1.tar.gz
+[2024-04-17 11:42:38] INFO root fetch - processPackages [typegpt]: Downloading https://files.pythonhosted.org/packages/62/ce/9994c110c4acbabe685ae9f1b19dd05261d3e35649a0b1b44a5c099d6adc/typegpt-0.3.0.tar.gz
+[2024-04-17 11:42:38] INFO root fetch - processPackages [aioipfs]: Downloading https://files.pythonhosted.org/packages/3a/9e/055cadd8d176c0e6733c7277d35ad3fad56c30e67f656805e70406e6df20/aioipfs-0.6.9.tar.gz
+[2024-04-17 11:42:38] INFO root fetch - processPackages [TreeTime]: Downloading https://files.pythonhosted.org/packages/2e/c2/62258ad611ee3a74017bc3e8fb1fe2285ba5bfd08594575b3cf8952b6ddd/TreeTime-2024.1.tar.gz
+[2024-04-17 11:42:38] INFO root fetch - processPackages [autodoc-traits]: Downloading https://files.pythonhosted.org/packages/26/ca/8837edecbfa7ca4640a063249422ca5b1431694d3d7f1b06be8879fce498/autodoc_traits-1.2.2.tar.gz
+[2024-04-17 11:42:38] INFO root fetch - processPackages [typegpt]: Downloading https://files.pythonhosted.org/packages/bc/db/134d843ac7fbe004959d18d6555eaeb959969d7d87a0c329b01963496cba/typegpt-0.3.1.tar.gz
+[2024-04-17 11:42:38] INFO root fetch - processPackages [aioipfs]: executing diffoscope
+[2024-04-17 11:42:38] INFO root fetch - processPackages [aioipfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioipfs-0.6.8.tar.gz tmp/aioipfs-0.6.9.tar.gz --markdown 20240417/a/aioipfs/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-17 11:42:38] INFO root fetch - processPackages [autodoc-traits]: executing diffoscope
+[2024-04-17 11:42:38] INFO root fetch - processPackages [autodoc-traits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodoc_traits-1.2.1.tar.gz tmp/autodoc_traits-1.2.2.tar.gz --markdown 20240417/a/autodoc-traits/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-17 11:42:38] INFO root fetch - processPackages [typegpt]: executing diffoscope
+[2024-04-17 11:42:38] INFO root fetch - processPackages [typegpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typegpt-0.3.0.tar.gz tmp/typegpt-0.3.1.tar.gz --markdown 20240417/t/typegpt/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-17 11:42:39] INFO root fetch - processPackages [TreeTime]: executing diffoscope
+[2024-04-17 11:42:39] INFO root fetch - processPackages [TreeTime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeTime-2023.2.tar.gz tmp/TreeTime-2024.1.tar.gz --markdown 20240417/T/TreeTime/2023.2-2024.1/README.md --exclude *.pyd
+[2024-04-17 11:42:39] INFO root fetch - processPackages [aioipfs]: Remove: archive file [/home/abi/fetcher/tmp/aioipfs-0.6.8.tar.gz]
+[2024-04-17 11:42:39] INFO root fetch - processPackages [aioipfs]: Remove: archive file [/home/abi/fetcher/tmp/aioipfs-0.6.9.tar.gz]
+[2024-04-17 11:42:39] INFO root fetch - main [MainThread]: End processing [aioipfs]: success
+[2024-04-17 11:42:39] INFO root fetch - processPackages [typegpt]: Remove: archive file [/home/abi/fetcher/tmp/typegpt-0.3.0.tar.gz]
+[2024-04-17 11:42:39] INFO root fetch - processPackages [typegpt]: Remove: archive file [/home/abi/fetcher/tmp/typegpt-0.3.1.tar.gz]
+[2024-04-17 11:42:39] INFO root fetch - main [MainThread]: End processing [typegpt]: success
+[2024-04-17 11:42:39] INFO root fetch - processPackages [autodoc-traits]: Remove: archive file [/home/abi/fetcher/tmp/autodoc_traits-1.2.1.tar.gz]
+[2024-04-17 11:42:39] INFO root fetch - processPackages [autodoc-traits]: Remove: archive file [/home/abi/fetcher/tmp/autodoc_traits-1.2.2.tar.gz]
+[2024-04-17 11:42:39] INFO root fetch - main [MainThread]: End processing [autodoc-traits]: success
+[2024-04-17 11:42:42] INFO root fetch - processPackages [TreeTime]: Remove: archive file [/home/abi/fetcher/tmp/TreeTime-2023.2.tar.gz]
+[2024-04-17 11:42:42] INFO root fetch - processPackages [TreeTime]: Remove: archive file [/home/abi/fetcher/tmp/TreeTime-2024.1.tar.gz]
+[2024-04-17 11:42:42] INFO root fetch - main [MainThread]: End processing [TreeTime]: success
+[2024-04-17 11:42:42] INFO root fetch - main [MainThread]: Store serial: [22803371]
