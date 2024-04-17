@@ -19043,3 +19043,29 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:14:19] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713348558!10.3.0.tar.gz]
 [2024-04-17 12:14:19] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
 [2024-04-17 12:14:19] INFO root fetch - main [MainThread]: Store serial: [22803710]
+[2024-04-17 12:16:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803710]
+[2024-04-17 12:16:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 12:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simply-log
+[2024-04-17 12:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygamepal
+[2024-04-17 12:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-juvix-plugin
+[2024-04-17 12:16:28] INFO root fetch - processPackages [simply-log]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-17 12:16:28] INFO root fetch - processPackages [mkdocs-juvix-plugin]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-04-17 12:16:28] INFO root fetch - processPackages [simply-log]: Downloading https://files.pythonhosted.org/packages/cf/e3/ea76b559874dcc4e7da3e36ca7e9ff2fe8b621028e319e52baa6b53d7752/simply-log-0.2.1.tar.gz
+[2024-04-17 12:16:28] INFO root fetch - processPackages [pygamepal]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-17 12:16:28] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Downloading https://files.pythonhosted.org/packages/5f/21/3488201eb76e122310d164f4bf4fc9adb94b34ecf35c0c853b48c1040a7f/mkdocs-juvix-plugin-0.1.4.tar.gz
+[2024-04-17 12:16:28] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Downloading https://files.pythonhosted.org/packages/ff/03/7bb47283261d6c8658f49b3d30dbdd59f165d0320a9f6daa9bd12082e306/mkdocs-juvix-plugin-0.2.0.tar.gz
+[2024-04-17 12:16:28] INFO root fetch - processPackages [pygamepal]: Downloading https://files.pythonhosted.org/packages/1e/86/6eb78d2951309166a425048c391703b69a934cbd618f2159687b85c08afb/pygamepal-0.3.2.tar.gz
+[2024-04-17 12:16:28] INFO root fetch - processPackages [simply-log]: Downloading https://files.pythonhosted.org/packages/94/cf/262fbf06b6e0927a5cea5ddc08c0b58dcc4636526939fa94fe265fb464aa/simply-log-0.2.2.tar.gz
+[2024-04-17 12:16:28] INFO root fetch - processPackages [mkdocs-juvix-plugin]: executing diffoscope
+[2024-04-17 12:16:28] INFO root fetch - processPackages [mkdocs-juvix-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-juvix-plugin-0.1.4.tar.gz tmp/mkdocs-juvix-plugin-0.2.0.tar.gz --markdown 20240417/m/mkdocs-juvix-plugin/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-04-17 12:16:28] WARNING root fetch - processPackages [pygamepal]: Skipping package: exceeds size limit 18525983>=10485760
+[2024-04-17 12:16:28] INFO root fetch - main [MainThread]: End processing [pygamepal] error
+[2024-04-17 12:16:28] INFO root fetch - processPackages [simply-log]: executing diffoscope
+[2024-04-17 12:16:28] INFO root fetch - processPackages [simply-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simply-log-0.2.1.tar.gz tmp/simply-log-0.2.2.tar.gz --markdown 20240417/s/simply-log/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-17 12:16:29] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-juvix-plugin-0.1.4.tar.gz]
+[2024-04-17 12:16:29] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-juvix-plugin-0.2.0.tar.gz]
+[2024-04-17 12:16:29] INFO root fetch - main [MainThread]: End processing [mkdocs-juvix-plugin]: success
+[2024-04-17 12:16:29] INFO root fetch - processPackages [simply-log]: Remove: archive file [/home/abi/fetcher/tmp/simply-log-0.2.1.tar.gz]
+[2024-04-17 12:16:29] INFO root fetch - processPackages [simply-log]: Remove: archive file [/home/abi/fetcher/tmp/simply-log-0.2.2.tar.gz]
+[2024-04-17 12:16:29] INFO root fetch - main [MainThread]: End processing [simply-log]: success
+[2024-04-17 12:16:29] INFO root fetch - main [MainThread]: Store serial: [22803724]
