@@ -17556,3 +17556,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:22:33] INFO root fetch - processPackages [firebolt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/firebolt_sdk-1.4.1.tar.gz]
 [2024-04-17 11:22:33] INFO root fetch - main [MainThread]: End processing [firebolt-sdk]: success
 [2024-04-17 11:22:33] INFO root fetch - main [MainThread]: Store serial: [22803175]
+[2024-04-17 11:24:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803175]
+[2024-04-17 11:24:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 11:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataforgetoolkit
+[2024-04-17 11:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commonutility
+[2024-04-17 11:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iac-init
+[2024-04-17 11:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synch2jira
+[2024-04-17 11:24:42] INFO root fetch - processPackages [iac-init]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-04-17 11:24:42] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-17 11:24:42] INFO root fetch - processPackages [dataforgetoolkit]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-17 11:24:42] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/75/b0/8902943bdacdaa6c0d3245dcdca0567d12b1ccfc5d86763658f9dfc63254/iac_init-0.3.9.tar.gz
+[2024-04-17 11:24:42] INFO root fetch - processPackages [commonutility]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-17 11:24:42] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-17 11:24:42] INFO root fetch - processPackages [dataforgetoolkit]: Downloading https://files.pythonhosted.org/packages/06/79/8f1986ab3f7ddb43d49b08c3d4b5989080a2961aa1b202e2557fb604767a/dataforgetoolkit-1.0.0-py3-none-any.whl
+[2024-04-17 11:24:42] INFO root fetch - processPackages [commonutility]: Downloading https://files.pythonhosted.org/packages/6d/1f/39f2b7434d28541a724f39f37b6225ac993e60c60edaef80f4b745632784/commonutility-0.0.5-py3-none-any.whl
+[2024-04-17 11:24:42] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-17 11:24:42] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/f5/05/35a6b04340df8e80351dd1c7e79d3fa5f9181e51ccd4f560215cef3beb68/iac_init-0.4.0.tar.gz
+[2024-04-17 11:24:42] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-17 11:24:42] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240417/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-17 11:24:42] INFO root fetch - processPackages [dataforgetoolkit]: Downloading https://files.pythonhosted.org/packages/ee/d7/3ab24773e25b1faf4c2ab57ec9c584e7be71a05d38ba9f374cf4baf37736/dataforgetoolkit-1.0.1-py3-none-any.whl
+[2024-04-17 11:24:42] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-17 11:24:42] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.3.9.tar.gz tmp/iac_init-0.4.0.tar.gz --markdown 20240417/i/iac-init/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-04-17 11:24:43] INFO root fetch - processPackages [dataforgetoolkit]: executing diffoscope
+[2024-04-17 11:24:43] INFO root fetch - processPackages [dataforgetoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataforgetoolkit-1.0.0-py3-none-any.whl.zip tmp/dataforgetoolkit-1.0.1-py3-none-any.whl.zip --markdown 20240417/d/dataforgetoolkit/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-17 11:24:43] INFO root fetch - processPackages [commonutility]: Downloading https://files.pythonhosted.org/packages/72/b8/b6de52936b4c739b8c4bd05ff8815cd4962718e64b09d64890c680130bc9/commonutility-0.0.6-py3-none-any.whl
+[2024-04-17 11:24:43] INFO root fetch - processPackages [commonutility]: executing diffoscope
+[2024-04-17 11:24:43] INFO root fetch - processPackages [commonutility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonutility-0.0.5-py3-none-any.whl.zip tmp/commonutility-0.0.6-py3-none-any.whl.zip --markdown 20240417/c/commonutility/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-17 11:24:43] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-17 11:24:43] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-17 11:24:43] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-17 11:24:43] INFO root fetch - processPackages [dataforgetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/dataforgetoolkit-1.0.0-py3-none-any.whl.zip]
+[2024-04-17 11:24:43] INFO root fetch - processPackages [dataforgetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/dataforgetoolkit-1.0.1-py3-none-any.whl.zip]
+[2024-04-17 11:24:43] INFO root fetch - main [MainThread]: End processing [dataforgetoolkit]: success
+[2024-04-17 11:24:43] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.3.9.tar.gz]
+[2024-04-17 11:24:43] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.0.tar.gz]
+[2024-04-17 11:24:43] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-17 11:24:43] INFO root fetch - processPackages [commonutility]: Remove: archive file [/home/abi/fetcher/tmp/commonutility-0.0.5-py3-none-any.whl.zip]
+[2024-04-17 11:24:43] INFO root fetch - processPackages [commonutility]: Remove: archive file [/home/abi/fetcher/tmp/commonutility-0.0.6-py3-none-any.whl.zip]
+[2024-04-17 11:24:43] INFO root fetch - main [MainThread]: End processing [commonutility]: success
+[2024-04-17 11:24:43] INFO root fetch - main [MainThread]: Store serial: [22803188]
