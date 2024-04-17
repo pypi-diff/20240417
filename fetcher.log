@@ -10288,3 +10288,15 @@
 [2024-04-17 06:33:20] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.4.1rc6-py3-none-any.whl.zip]
 [2024-04-17 06:33:20] INFO root fetch - main [MainThread]: End processing [nvflare]: success
 [2024-04-17 06:33:20] INFO root fetch - main [MainThread]: Store serial: [22799840]
+[2024-04-17 06:35:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799840]
+[2024-04-17 06:35:29] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 06:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raga-llm-eval
+[2024-04-17 06:35:29] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.0b9] Old Version: [2.1.0b8]
+[2024-04-17 06:35:29] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/97/4d/2b4ed95a3741b305ca16e9450b6fe38a6e576eb00d86526833e15216f29a/raga_llm_eval-2.1.0b8.tar.gz
+[2024-04-17 06:35:30] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/f3/66/ebaca2cb771c21e70689b9f6b9e46d65ac93a1d837edf9277c498cf607e0/raga_llm_eval-2.1.0b9.tar.gz
+[2024-04-17 06:35:30] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-04-17 06:35:30] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_eval-2.1.0b8.tar.gz tmp/raga_llm_eval-2.1.0b9.tar.gz --markdown 20240417/r/raga-llm-eval/2.1.0b8-2.1.0b9/README.md --exclude *.pyd
+[2024-04-17 06:35:31] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b8.tar.gz]
+[2024-04-17 06:35:31] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b9.tar.gz]
+[2024-04-17 06:35:31] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-04-17 06:35:31] INFO root fetch - main [MainThread]: Store serial: [22799842]
