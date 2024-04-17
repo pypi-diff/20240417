@@ -7925,3 +7925,54 @@
 [2024-04-17 04:18:26] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.0b3.tar.gz]
 [2024-04-17 04:18:26] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2024-04-17 04:18:26] INFO root fetch - main [MainThread]: Store serial: [22798869]
+[2024-04-17 04:20:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798869]
+[2024-04-17 04:20:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 04:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moval
+[2024-04-17 04:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ufc-rest
+[2024-04-17 04:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: juery
+[2024-04-17 04:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iam-actions
+[2024-04-17 04:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: knowledge-engineer
+[2024-04-17 04:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mmrotate-dev
+[2024-04-17 04:20:35] INFO root fetch - processPackages [moval]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 04:20:35] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240416] Old Version: [1.2.20240415]
+[2024-04-17 04:20:35] INFO root fetch - processPackages [juery]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-17 04:20:35] INFO root fetch - processPackages [knowledge-engineer]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-17 04:20:35] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/2f/2a/fce64bfb12450128441844587623d883ace479e64f62685d578d0994f441/moval-0.2.8.tar.gz
+[2024-04-17 04:20:35] WARNING root fetch - processPackages [ufc-rest]: Skipping, unable to determine old version
+[2024-04-17 04:20:35] INFO root fetch - main [MainThread]: End processing [ufc-rest] error
+[2024-04-17 04:20:35] INFO root fetch - processPackages [mmrotate-dev]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-04-17 04:20:35] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/19/7f/107c9af0469f2dcb8579f703febda07f91f96b2f86b1dc9c244246c39ff3/iam_actions-1.2.20240415.tar.gz
+[2024-04-17 04:20:35] INFO root fetch - processPackages [knowledge-engineer]: Downloading https://files.pythonhosted.org/packages/35/b3/e88a93a76c36518b68e4721b846428419de1766467d4603e4e1c5188d8d6/knowledge_engineer-0.2.0.tar.gz
+[2024-04-17 04:20:35] INFO root fetch - processPackages [juery]: Downloading https://files.pythonhosted.org/packages/8e/11/1fa450875ff3aa74bb6d101027c062e800be5bb9c769cdfb10b0419cfff5/juery-0.1.0.tar.gz
+[2024-04-17 04:20:35] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/ad/4e/1ade376222c4151a24bb8a4462afedaa311f1595b592028fb7632f57e1ae/moval-0.2.9.tar.gz
+[2024-04-17 04:20:35] INFO root fetch - processPackages [mmrotate-dev]: Downloading https://files.pythonhosted.org/packages/43/f0/c6e5b03cb813be8c95209d0304174c3eafade60f5b2b4a432688ee159893/mmrotate_dev-1.0.0rc1.tar.gz
+[2024-04-17 04:20:35] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-04-17 04:20:35] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.2.8.tar.gz tmp/moval-0.2.9.tar.gz --markdown 20240417/m/moval/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 04:20:35] INFO root fetch - processPackages [knowledge-engineer]: Downloading https://files.pythonhosted.org/packages/ca/50/82eeff098274dc5131f533287500872f3c523f92c201ecbe6f28a8af7bbd/knowledge_engineer-0.2.1.tar.gz
+[2024-04-17 04:20:35] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/76/8f/da00a64008cac9d8037dfd41d356519519ae9d5d75b5c2ea0571b35309bb/iam_actions-1.2.20240416.tar.gz
+[2024-04-17 04:20:35] INFO root fetch - processPackages [knowledge-engineer]: executing diffoscope
+[2024-04-17 04:20:35] INFO root fetch - processPackages [knowledge-engineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knowledge_engineer-0.2.0.tar.gz tmp/knowledge_engineer-0.2.1.tar.gz --markdown 20240417/k/knowledge-engineer/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-17 04:20:35] INFO root fetch - processPackages [juery]: Downloading https://files.pythonhosted.org/packages/bb/59/2bcdfb07b06c75317b6f8345329a3eb7a158c7eb548bf5596e7c986806a2/juery-0.2.0.tar.gz
+[2024-04-17 04:20:35] INFO root fetch - processPackages [mmrotate-dev]: Downloading https://files.pythonhosted.org/packages/8c/4b/d0e82e05bf13986199fc7428e04c188d1af23bb62404ffaa6b6aeb2dd73a/mmrotate_dev-1.0.0rc2.tar.gz
+[2024-04-17 04:20:35] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-17 04:20:35] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240415.tar.gz tmp/iam_actions-1.2.20240416.tar.gz --markdown 20240417/i/iam-actions/1.2.20240415-1.2.20240416/README.md --exclude *.pyd
+[2024-04-17 04:20:35] INFO root fetch - processPackages [juery]: executing diffoscope
+[2024-04-17 04:20:35] INFO root fetch - processPackages [juery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juery-0.1.0.tar.gz tmp/juery-0.2.0.tar.gz --markdown 20240417/j/juery/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-17 04:20:36] INFO root fetch - processPackages [mmrotate-dev]: executing diffoscope
+[2024-04-17 04:20:36] INFO root fetch - processPackages [mmrotate-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmrotate_dev-1.0.0rc1.tar.gz tmp/mmrotate_dev-1.0.0rc2.tar.gz --markdown 20240417/m/mmrotate-dev/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-04-17 04:20:36] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.8.tar.gz]
+[2024-04-17 04:20:36] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.9.tar.gz]
+[2024-04-17 04:20:36] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-04-17 04:20:36] INFO root fetch - processPackages [knowledge-engineer]: Remove: archive file [/home/abi/fetcher/tmp/knowledge_engineer-0.2.0.tar.gz]
+[2024-04-17 04:20:36] INFO root fetch - processPackages [knowledge-engineer]: Remove: archive file [/home/abi/fetcher/tmp/knowledge_engineer-0.2.1.tar.gz]
+[2024-04-17 04:20:36] INFO root fetch - main [MainThread]: End processing [knowledge-engineer]: success
+[2024-04-17 04:20:36] INFO root fetch - processPackages [juery]: Remove: archive file [/home/abi/fetcher/tmp/juery-0.1.0.tar.gz]
+[2024-04-17 04:20:36] INFO root fetch - processPackages [juery]: Remove: archive file [/home/abi/fetcher/tmp/juery-0.2.0.tar.gz]
+[2024-04-17 04:20:36] INFO root fetch - main [MainThread]: End processing [juery]: success
+[2024-04-17 04:20:37] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240415.tar.gz]
+[2024-04-17 04:20:37] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240416.tar.gz]
+[2024-04-17 04:20:37] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-17 04:20:37] INFO root fetch - processPackages [mmrotate-dev]: Remove: archive file [/home/abi/fetcher/tmp/mmrotate_dev-1.0.0rc1.tar.gz]
+[2024-04-17 04:20:37] INFO root fetch - processPackages [mmrotate-dev]: Remove: archive file [/home/abi/fetcher/tmp/mmrotate_dev-1.0.0rc2.tar.gz]
+[2024-04-17 04:20:37] INFO root fetch - main [MainThread]: End processing [mmrotate-dev]: success
+[2024-04-17 04:20:37] INFO root fetch - main [MainThread]: Store serial: [22798888]
