@@ -16251,3 +16251,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:45:23] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-04-17 10:45:23] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-04-17 10:45:23] INFO root fetch - main [MainThread]: Store serial: [22802428]
+[2024-04-17 10:47:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802428]
+[2024-04-17 10:47:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 10:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu
+[2024-04-17 10:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opperai
+[2024-04-17 10:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: q1pulse
+[2024-04-17 10:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sarus-data-spec-public
+[2024-04-17 10:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lamindb
+[2024-04-17 10:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audio-toolkit
+[2024-04-17 10:47:31] INFO root fetch - processPackages [audio-toolkit]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-17 10:47:32] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/bd/44/fa3dc77bf7230aef4b9405df6c93665e1204bf1e69a7185bcfd33e00c729/audio_toolkit-0.1.0.tar.gz
+[2024-04-17 10:47:32] INFO root fetch - processPackages [opperai]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-17 10:47:32] INFO root fetch - processPackages [q1pulse]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-17 10:47:32] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [4.0.0.dev6] Old Version: [4.0.0.dev5]
+[2024-04-17 10:47:32] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240417] Old Version: [2.17.0.dev20240416]
+[2024-04-17 10:47:32] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2024-04-17 10:47:32] INFO root fetch - processPackages [opperai]: Downloading https://files.pythonhosted.org/packages/10/0b/859affb33d773c337f9ef43be82786dfa37f800826983e97c99565e4119d/opperai-0.3.0.tar.gz
+[2024-04-17 10:47:32] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/9a/73/49f9c05aadef1f88069a55dc8490d2a1a4b9cf842e0ce0c0579169efaae2/tf_nightly_cpu-2.17.0.dev20240416-cp39-cp39-win_amd64.whl
+[2024-04-17 10:47:32] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/a6/c3/baf41fe13cf895e1fd0bbe082601d4757b34d178f1efec36ffee0bbf32ad/sarus_data_spec_public-4.0.0.dev5.tar.gz
+[2024-04-17 10:47:32] INFO root fetch - processPackages [q1pulse]: Downloading https://files.pythonhosted.org/packages/77/34/4a47c2a8b4b95dcf7393a73b364bb82dbec05c3115af36fb6ea162769440/q1pulse-0.9.1.tar.gz
+[2024-04-17 10:47:32] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2024-04-17 10:47:32] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/eb/0d/5aec41bc32cff465878d200731c1c428b27cbd2f22f518b8933f8efa1e1a/audio_toolkit-0.2.0.tar.gz
+[2024-04-17 10:47:32] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-17 10:47:32] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.1.0.tar.gz tmp/audio_toolkit-0.2.0.tar.gz --markdown 20240417/a/audio-toolkit/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-17 10:47:32] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/e9/9c/532ca6b62a4f3e1d2666c2e2b14e21e7ddda70d96d6c44898ace4ba47e9c/tf_nightly_cpu-2.17.0.dev20240417-cp39-cp39-win_amd64.whl
+[2024-04-17 10:47:32] INFO root fetch - processPackages [opperai]: Downloading https://files.pythonhosted.org/packages/8a/98/6cbae047a9baec0184bdcde8b1c6e3aa943a9770db2979dcd59e6a346b38/opperai-0.3.1.tar.gz
+[2024-04-17 10:47:32] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5f/c5/469663f75847a545cd515af0559a48782d2f1aaf82bc3f7247c0bd6bdbf0/sarus_data_spec_public-4.0.0.dev6.tar.gz
+[2024-04-17 10:47:32] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2024-04-17 10:47:32] INFO root fetch - processPackages [q1pulse]: Downloading https://files.pythonhosted.org/packages/c5/d1/ea8ddd64aa2e7824921a045e0ad82b6c03a65b7c31369c5687b096997c2e/q1pulse-0.9.2.tar.gz
+[2024-04-17 10:47:32] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-17 10:47:32] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240416-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240417-cp39-cp39-win_amd64.whl.zip --markdown 20240417/t/tf-nightly-cpu/2.17.0.dev20240416-2.17.0.dev20240417/README.md --exclude *.pyd
+[2024-04-17 10:47:32] INFO root fetch - processPackages [opperai]: executing diffoscope
+[2024-04-17 10:47:32] INFO root fetch - processPackages [opperai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opperai-0.3.0.tar.gz tmp/opperai-0.3.1.tar.gz --markdown 20240417/o/opperai/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-17 10:47:32] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2024-04-17 10:47:32] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-4.0.0.dev5.tar.gz tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz --markdown 20240417/s/sarus-data-spec-public/4.0.0.dev5-4.0.0.dev6/README.md --exclude *.pyd
+[2024-04-17 10:47:32] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2024-04-17 10:47:32] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20240417/l/lamindb/0.9.4-0.9.6/README.md --exclude *.pyd
+[2024-04-17 10:47:32] INFO root fetch - processPackages [q1pulse]: executing diffoscope
+[2024-04-17 10:47:32] INFO root fetch - processPackages [q1pulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q1pulse-0.9.1.tar.gz tmp/q1pulse-0.9.2.tar.gz --markdown 20240417/q/q1pulse/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-17 10:47:33] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.1.0.tar.gz]
+[2024-04-17 10:47:33] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.2.0.tar.gz]
+[2024-04-17 10:47:33] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-17 10:47:33] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240416-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 10:47:33] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240417-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 10:47:33] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-17 10:47:33] INFO root fetch - processPackages [opperai]: Remove: archive file [/home/abi/fetcher/tmp/opperai-0.3.0.tar.gz]
+[2024-04-17 10:47:33] INFO root fetch - processPackages [opperai]: Remove: archive file [/home/abi/fetcher/tmp/opperai-0.3.1.tar.gz]
+[2024-04-17 10:47:33] INFO root fetch - main [MainThread]: End processing [opperai]: success
+[2024-04-17 10:47:33] INFO root fetch - processPackages [q1pulse]: Remove: archive file [/home/abi/fetcher/tmp/q1pulse-0.9.1.tar.gz]
+[2024-04-17 10:47:33] INFO root fetch - processPackages [q1pulse]: Remove: archive file [/home/abi/fetcher/tmp/q1pulse-0.9.2.tar.gz]
+[2024-04-17 10:47:33] INFO root fetch - main [MainThread]: End processing [q1pulse]: success
+[2024-04-17 10:47:33] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2024-04-17 10:47:33] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2024-04-17 10:47:33] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2024-04-17 10:47:34] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev5.tar.gz]
+[2024-04-17 10:47:34] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz]
+[2024-04-17 10:47:34] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2024-04-17 10:47:34] INFO root fetch - main [MainThread]: Store serial: [22802454]
