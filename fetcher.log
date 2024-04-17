@@ -23155,3 +23155,72 @@ EOFError: EOF read where object expected
 [2024-04-17 14:49:44] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-2.0.0a2.tar.gz]
 [2024-04-17 14:49:44] INFO root fetch - main [MainThread]: End processing [neptune]: success
 [2024-04-17 14:49:44] INFO root fetch - main [MainThread]: Store serial: [22805678]
+[2024-04-17 14:51:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805678]
+[2024-04-17 14:51:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 14:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VisionCraftAPI
+[2024-04-17 14:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2024-04-17 14:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: StellarDS
+[2024-04-17 14:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lxml-dataclass
+[2024-04-17 14:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phidata
+[2024-04-17 14:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai-microcore
+[2024-04-17 14:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyperon-das-atomdb
+[2024-04-17 14:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mercuryclient
+[2024-04-17 14:51:53] WARNING root fetch - processPackages [StellarDS]: Skipping, unable to determine old version
+[2024-04-17 14:51:53] INFO root fetch - main [MainThread]: End processing [StellarDS] error
+[2024-04-17 14:51:53] INFO root fetch - processPackages [ai-microcore]: New version: [3.0.0] Old Version: [2.1.1]
+[2024-04-17 14:51:53] INFO root fetch - processPackages [mercuryclient]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-17 14:51:53] INFO root fetch - processPackages [phidata]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-17 14:51:53] INFO root fetch - processPackages [cg]: New version: [60.1.2] Old Version: [60.1.1]
+[2024-04-17 14:51:53] INFO root fetch - processPackages [lxml-dataclass]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-17 14:51:53] INFO root fetch - processPackages [VisionCraftAPI]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-17 14:51:53] INFO root fetch - processPackages [hyperon-das-atomdb]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-17 14:51:53] INFO root fetch - processPackages [ai-microcore]: Downloading https://files.pythonhosted.org/packages/0d/4c/2e84d9509eece742e79f51b6db69bf4e110bf15c78bc36b48829057c4369/ai_microcore-2.1.1.tar.gz
+[2024-04-17 14:51:53] INFO root fetch - processPackages [mercuryclient]: Downloading https://files.pythonhosted.org/packages/77/4b/b676103be9e7f6c83049a6dfb9206a5b1f62da6b3c5df7af5a9db98e40ef/mercuryclient-1.8.1.tar.gz
+[2024-04-17 14:51:53] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/78/fe/66901f8754b5df7544de165568f7ef14525b33189f6f895fa45dd05ba4dd/cg-60.1.1.tar.gz
+[2024-04-17 14:51:53] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/9a/24/afb3e8585b820976634b1dd732e5ec1f3562093b71b05a47e3bd6a870b75/phidata-2.3.8.tar.gz
+[2024-04-17 14:51:53] INFO root fetch - processPackages [VisionCraftAPI]: Downloading https://files.pythonhosted.org/packages/b4/e7/00d0554fa1e94b5436e905cc261b02efb3ec76f03455266abf7cfd151cdd/VisionCraftAPI-1.0.7.tar.gz
+[2024-04-17 14:51:53] INFO root fetch - processPackages [lxml-dataclass]: Downloading https://files.pythonhosted.org/packages/e6/47/3b60b15a9687350e6484dbc1c3572358a0a662f2c73849c030ca205dfa11/lxml-dataclass-1.0.1.tar.gz
+[2024-04-17 14:51:53] INFO root fetch - processPackages [ai-microcore]: Downloading https://files.pythonhosted.org/packages/6d/74/7d78df604fa290894023d6ebfe698b10a48105b5e116d03f7e5098396a03/ai_microcore-3.0.0.tar.gz
+[2024-04-17 14:51:54] INFO root fetch - processPackages [hyperon-das-atomdb]: Downloading https://files.pythonhosted.org/packages/a7/e6/fccd3825b22d184e82a3a70e2c1f019f9326b275fc7f02ab480d1b69a2ba/hyperon_das_atomdb-0.6.4.tar.gz
+[2024-04-17 14:51:54] INFO root fetch - processPackages [mercuryclient]: Downloading https://files.pythonhosted.org/packages/a2/73/6aa0418cd86b78fbb7d37d5f4f5ae947a55dfe0134866a805c5361b3354e/mercuryclient-1.9.0.tar.gz
+[2024-04-17 14:51:54] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/51/63/c5ed33bf592cd65cdcb90c64ded88ab6bc7786db2184c64f6484d61e92d0/phidata-2.3.9.tar.gz
+[2024-04-17 14:51:54] INFO root fetch - processPackages [mercuryclient]: executing diffoscope
+[2024-04-17 14:51:54] INFO root fetch - processPackages [mercuryclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercuryclient-1.8.1.tar.gz tmp/mercuryclient-1.9.0.tar.gz --markdown 20240417/m/mercuryclient/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-17 14:51:54] INFO root fetch - processPackages [ai-microcore]: executing diffoscope
+[2024-04-17 14:51:54] INFO root fetch - processPackages [ai-microcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_microcore-2.1.1.tar.gz tmp/ai_microcore-3.0.0.tar.gz --markdown 20240417/a/ai-microcore/2.1.1-3.0.0/README.md --exclude *.pyd
+[2024-04-17 14:51:54] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-04-17 14:51:54] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.3.8.tar.gz tmp/phidata-2.3.9.tar.gz --markdown 20240417/p/phidata/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-17 14:51:54] INFO root fetch - processPackages [VisionCraftAPI]: Downloading https://files.pythonhosted.org/packages/5f/e8/2f7c170a0292ed9ea1e05d1ee6e0aa2eedef022c6b1b1c377b090570ef3a/visioncraftapi-1.0.8.tar.gz
+[2024-04-17 14:51:54] INFO root fetch - processPackages [lxml-dataclass]: Downloading https://files.pythonhosted.org/packages/68/30/23a2ffc14db098389c824befeb327d432c657b99a68502b0b588b3949e19/lxml_dataclass-1.0.2.tar.gz
+[2024-04-17 14:51:54] INFO root fetch - processPackages [hyperon-das-atomdb]: Downloading https://files.pythonhosted.org/packages/49/3e/43fdb633f13de7d7f32c8da447674d4709771dcd16dc279a2f7c0c552876/hyperon_das_atomdb-0.6.5.tar.gz
+[2024-04-17 14:51:54] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/7d/c0/5daf6c16bd2c1049a0dbba60a2844566f6f7a2d4e6fbf79a8ee863d827ad/cg-60.1.2.tar.gz
+[2024-04-17 14:51:54] INFO root fetch - processPackages [hyperon-das-atomdb]: executing diffoscope
+[2024-04-17 14:51:54] INFO root fetch - processPackages [hyperon-das-atomdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperon_das_atomdb-0.6.4.tar.gz tmp/hyperon_das_atomdb-0.6.5.tar.gz --markdown 20240417/h/hyperon-das-atomdb/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-04-17 14:51:54] INFO root fetch - processPackages [lxml-dataclass]: executing diffoscope
+[2024-04-17 14:51:54] INFO root fetch - processPackages [lxml-dataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxml-dataclass-1.0.1.tar.gz tmp/lxml_dataclass-1.0.2.tar.gz --markdown 20240417/l/lxml-dataclass/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-17 14:51:54] INFO root fetch - processPackages [VisionCraftAPI]: executing diffoscope
+[2024-04-17 14:51:54] INFO root fetch - processPackages [VisionCraftAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionCraftAPI-1.0.7.tar.gz tmp/visioncraftapi-1.0.8.tar.gz --markdown 20240417/V/VisionCraftAPI/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-17 14:51:54] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-17 14:51:54] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.1.1.tar.gz tmp/cg-60.1.2.tar.gz --markdown 20240417/c/cg/60.1.1-60.1.2/README.md --exclude *.pyd
+[2024-04-17 14:51:55] INFO root fetch - processPackages [ai-microcore]: Remove: archive file [/home/abi/fetcher/tmp/ai_microcore-2.1.1.tar.gz]
+[2024-04-17 14:51:55] INFO root fetch - processPackages [ai-microcore]: Remove: archive file [/home/abi/fetcher/tmp/ai_microcore-3.0.0.tar.gz]
+[2024-04-17 14:51:55] INFO root fetch - main [MainThread]: End processing [ai-microcore]: success
+[2024-04-17 14:51:55] INFO root fetch - processPackages [mercuryclient]: Remove: archive file [/home/abi/fetcher/tmp/mercuryclient-1.8.1.tar.gz]
+[2024-04-17 14:51:55] INFO root fetch - processPackages [mercuryclient]: Remove: archive file [/home/abi/fetcher/tmp/mercuryclient-1.9.0.tar.gz]
+[2024-04-17 14:51:55] INFO root fetch - main [MainThread]: End processing [mercuryclient]: success
+[2024-04-17 14:51:55] INFO root fetch - processPackages [hyperon-das-atomdb]: Remove: archive file [/home/abi/fetcher/tmp/hyperon_das_atomdb-0.6.4.tar.gz]
+[2024-04-17 14:51:55] INFO root fetch - processPackages [hyperon-das-atomdb]: Remove: archive file [/home/abi/fetcher/tmp/hyperon_das_atomdb-0.6.5.tar.gz]
+[2024-04-17 14:51:55] INFO root fetch - main [MainThread]: End processing [hyperon-das-atomdb]: success
+[2024-04-17 14:51:55] INFO root fetch - processPackages [lxml-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/lxml-dataclass-1.0.1.tar.gz]
+[2024-04-17 14:51:55] INFO root fetch - processPackages [lxml-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/lxml_dataclass-1.0.2.tar.gz]
+[2024-04-17 14:51:55] INFO root fetch - main [MainThread]: End processing [lxml-dataclass]: success
+[2024-04-17 14:51:55] INFO root fetch - processPackages [VisionCraftAPI]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraftAPI-1.0.7.tar.gz]
+[2024-04-17 14:51:55] INFO root fetch - processPackages [VisionCraftAPI]: Remove: archive file [/home/abi/fetcher/tmp/visioncraftapi-1.0.8.tar.gz]
+[2024-04-17 14:51:55] INFO root fetch - main [MainThread]: End processing [VisionCraftAPI]: success
+[2024-04-17 14:51:55] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.8.tar.gz]
+[2024-04-17 14:51:55] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.9.tar.gz]
+[2024-04-17 14:51:55] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-04-17 14:51:58] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.1.1.tar.gz]
+[2024-04-17 14:51:58] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.1.2.tar.gz]
+[2024-04-17 14:51:58] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-17 14:51:58] INFO root fetch - main [MainThread]: Store serial: [22805700]
