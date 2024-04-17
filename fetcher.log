@@ -9385,3 +9385,42 @@
 [2024-04-17 05:42:53] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.1.tar.gz]
 [2024-04-17 05:42:53] INFO root fetch - main [MainThread]: End processing [ms-swift]: success
 [2024-04-17 05:42:53] INFO root fetch - main [MainThread]: Store serial: [22799513]
+[2024-04-17 05:44:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799513]
+[2024-04-17 05:45:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 05:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywlroots
+[2024-04-17 05:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomic-bomb-engine
+[2024-04-17 05:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: database-common-tools
+[2024-04-17 05:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raga-llm-eval
+[2024-04-17 05:45:02] INFO root fetch - processPackages [database-common-tools]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-17 05:45:02] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.0b9] Old Version: [2.1.0b8]
+[2024-04-17 05:45:02] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/1f/16/fe328a2cd3639c48d4f451337ced80cbeea3e72b12270ac7975220c7535a/database-common-tools-1.0.9.tar.gz
+[2024-04-17 05:45:02] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/97/4d/2b4ed95a3741b305ca16e9450b6fe38a6e576eb00d86526833e15216f29a/raga_llm_eval-2.1.0b8.tar.gz
+[2024-04-17 05:45:02] INFO root fetch - processPackages [pywlroots]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 05:45:02] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-17 05:45:02] INFO root fetch - processPackages [pywlroots]: Downloading https://files.pythonhosted.org/packages/04/2c/2b8e1598804aa4ec0236ed5f3d40015f6ec0a85212d8b0bd36ae7728b017/pywlroots-0.2.8.tar.gz
+[2024-04-17 05:45:02] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/f3/66/ebaca2cb771c21e70689b9f6b9e46d65ac93a1d837edf9277c498cf607e0/raga_llm_eval-2.1.0b9.tar.gz
+[2024-04-17 05:45:02] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-17 05:45:02] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/c2/e8/c4101f2ee2fb5b3b5a0bcf3da1b6f2808a06b8fbe0d8e90c75fb50f6274d/database-common-tools-1.1.0.tar.gz
+[2024-04-17 05:45:02] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-17 05:45:02] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.0.9.tar.gz tmp/database-common-tools-1.1.0.tar.gz --markdown 20240417/d/database-common-tools/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-04-17 05:45:02] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-04-17 05:45:02] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_eval-2.1.0b8.tar.gz tmp/raga_llm_eval-2.1.0b9.tar.gz --markdown 20240417/r/raga-llm-eval/2.1.0b8-2.1.0b9/README.md --exclude *.pyd
+[2024-04-17 05:45:02] INFO root fetch - processPackages [pywlroots]: Downloading https://files.pythonhosted.org/packages/ed/3b/374aff31c2aaf618ea34e82553e535a849c409d10bc7b6a61a595cad01f6/pywlroots-0.2.9.tar.gz
+[2024-04-17 05:45:03] INFO root fetch - processPackages [pywlroots]: executing diffoscope
+[2024-04-17 05:45:03] INFO root fetch - processPackages [pywlroots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywlroots-0.2.8.tar.gz tmp/pywlroots-0.2.9.tar.gz --markdown 20240417/p/pywlroots/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 05:45:03] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-17 05:45:03] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.0.9.tar.gz]
+[2024-04-17 05:45:03] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.0.tar.gz]
+[2024-04-17 05:45:03] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-17 05:45:03] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-17 05:45:03] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240417/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-17 05:45:03] INFO root fetch - processPackages [pywlroots]: Remove: archive file [/home/abi/fetcher/tmp/pywlroots-0.2.8.tar.gz]
+[2024-04-17 05:45:03] INFO root fetch - processPackages [pywlroots]: Remove: archive file [/home/abi/fetcher/tmp/pywlroots-0.2.9.tar.gz]
+[2024-04-17 05:45:03] INFO root fetch - main [MainThread]: End processing [pywlroots]: success
+[2024-04-17 05:45:04] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-17 05:45:04] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-17 05:45:04] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-17 05:45:04] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b8.tar.gz]
+[2024-04-17 05:45:04] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b9.tar.gz]
+[2024-04-17 05:45:04] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-04-17 05:45:04] INFO root fetch - main [MainThread]: Store serial: [22799539]
