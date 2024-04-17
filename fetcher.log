@@ -12763,3 +12763,106 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:42:28] INFO root fetch - processPackages [mlfab]: Remove: archive file [/home/abi/fetcher/tmp/mlfab-0.1.9.tar.gz]
 [2024-04-17 08:42:28] INFO root fetch - main [MainThread]: End processing [mlfab]: success
 [2024-04-17 08:42:28] INFO root fetch - main [MainThread]: Store serial: [22800676]
+[2024-04-17 08:44:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800676]
+[2024-04-17 08:44:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-17 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-plb
+[2024-04-17 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rewire-fastapi
+[2024-04-17 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soma-integ
+[2024-04-17 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-xe
+[2024-04-17 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linktest
+[2024-04-17 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2024-04-17 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cryptopian-infra
+[2024-04-17 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpp-components
+[2024-04-17 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TestPackage-yidas
+[2024-04-17 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: radicalpy
+[2024-04-17 08:44:37] INFO root fetch - processPackages [linktest]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-04-17 08:44:37] INFO root fetch - processPackages [TestPackage-yidas]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 08:44:37] INFO root fetch - processPackages [pih-plb]: New version: [0.16] Old Version: [0.15]
+[2024-04-17 08:44:37] INFO root fetch - processPackages [cryptopian-infra]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-17 08:44:37] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-17 08:44:37] INFO root fetch - processPackages [radicalpy]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-17 08:44:37] INFO root fetch - processPackages [rewire-fastapi]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-17 08:44:37] INFO root fetch - processPackages [soma-integ]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 08:44:37] INFO root fetch - processPackages [gpp-components]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-17 08:44:37] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240416] Old Version: [2.5.0b20240415]
+[2024-04-17 08:44:37] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/3a/05/6c84aaea1b61835a7031b93ff2d0742855d0a76123407a65daee82bbb253/linktest-2.5.3.tar.gz
+[2024-04-17 08:44:37] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/bf/86/ef3fb5df9e3bab5521dc4b00fd5a61a28fbdae16965648e24d4478273721/pih-plb-0.15.tar.gz
+[2024-04-17 08:44:37] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-17 08:44:37] INFO root fetch - processPackages [TestPackage-yidas]: Downloading https://files.pythonhosted.org/packages/e0/ef/9f166eb69d5e5c110220e2f032dc148f9e020cd22753ba706908831176d3/testpackage_yidas-0.0.1.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [cryptopian-infra]: Downloading https://files.pythonhosted.org/packages/22/2f/52b5bc4a10aa479fa9e5f1a6ce82d6983ddb27c78c48861f2ca31adcbf2b/cryptopian_infra-0.1.3.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [soma-integ]: Downloading https://files.pythonhosted.org/packages/f3/c5/9fede3aeb0063fb7363c884ff9eb4cf37feff05e83037a903c91ac81da60/soma_integ-0.0.1.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [rewire-fastapi]: Downloading https://files.pythonhosted.org/packages/bd/da/5a5c58af90d3c223e1220fc3f99a4d3e70fd2baa5f840cc25682126bae0c/rewire_fastapi-0.0.5.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/68/3a/6c09ee693dbd4afd02135765ac85807af7cf6b7d54307a834d98507a0345/bigdl_core_xe-2.5.0b20240415-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-17 08:44:38] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/69/8d/85d3a82aa595ab034b43425f42f0b84418bd057eb8e584fd67dbd8dec071/radicalpy-0.7.0.tar.gz
+[2024-04-17 08:44:38] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105244719>=10485760
+[2024-04-17 08:44:38] INFO root fetch - processPackages [bigdl-core-xe]: Start processing: synch2jira
+[2024-04-17 08:44:38] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-17 08:44:38] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/ee/09/446d9d062a0e145ac804af287f6d2ae96e139bdb98a1b2a64233fffbefbf/pih-plb-0.16.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [gpp-components]: Downloading https://files.pythonhosted.org/packages/c2/64/6e0078ad80c65e4e58da542f9c11c41961d2adca054d218a464a4adb6f27/gpp_components-0.1.2.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-17 08:44:38] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/62/21/66f6c1e058f0b71064db50a1964098912639096e8a77a63915885cc14f20/linktest-2.5.4.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-17 08:44:38] INFO root fetch - processPackages [soma-integ]: Downloading https://files.pythonhosted.org/packages/06/17/bc556c46bd2f101af08c5c7a3831320f61614e6dd300c2577bd568dda3dc/soma_integ-0.0.2.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [pih-plb]: executing diffoscope
+[2024-04-17 08:44:38] INFO root fetch - processPackages [pih-plb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb-0.15.tar.gz tmp/pih-plb-0.16.tar.gz --markdown 20240417/p/pih-plb/0.15-0.16/README.md --exclude *.pyd
+[2024-04-17 08:44:38] INFO root fetch - processPackages [TestPackage-yidas]: Downloading https://files.pythonhosted.org/packages/8f/b4/ccc2c56ac6f9313b9d7bc310ddd4ae37a8970e58aa9a9884fd59ddab18bc/testpackage_yidas-0.0.2.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [cryptopian-infra]: Downloading https://files.pythonhosted.org/packages/83/a2/70dfc64c6891b12670e21fec6c940d91757eb9d11cffae49e0cf05af7bb7/cryptopian_infra-0.1.4.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-17 08:44:38] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.5.3.tar.gz tmp/linktest-2.5.4.tar.gz --markdown 20240417/l/linktest/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-04-17 08:44:38] INFO root fetch - processPackages [soma-integ]: executing diffoscope
+[2024-04-17 08:44:38] INFO root fetch - processPackages [soma-integ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soma_integ-0.0.1.tar.gz tmp/soma_integ-0.0.2.tar.gz --markdown 20240417/s/soma-integ/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 08:44:38] INFO root fetch - processPackages [rewire-fastapi]: Downloading https://files.pythonhosted.org/packages/a8/9c/a1fd7827317eaa822bd9ae9f03b7a4c471f0ff5838be6067fb6cf003b228/rewire_fastapi-0.0.6.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [TestPackage-yidas]: executing diffoscope
+[2024-04-17 08:44:38] INFO root fetch - processPackages [TestPackage-yidas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpackage_yidas-0.0.1.tar.gz tmp/testpackage_yidas-0.0.2.tar.gz --markdown 20240417/T/TestPackage-yidas/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 08:44:38] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/3d/13/a6db2c859136a3092fbd885f34f485ce7f6a84675008541b6bfcd3457070/radicalpy-0.7.1.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-17 08:44:38] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240417/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-17 08:44:38] INFO root fetch - processPackages [cryptopian-infra]: executing diffoscope
+[2024-04-17 08:44:38] INFO root fetch - processPackages [cryptopian-infra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptopian_infra-0.1.3.tar.gz tmp/cryptopian_infra-0.1.4.tar.gz --markdown 20240417/c/cryptopian-infra/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-17 08:44:38] INFO root fetch - processPackages [gpp-components]: Downloading https://files.pythonhosted.org/packages/77/0e/a779ffdcefbfb45f0faff36cd15341328c836424c5dd2aee3ce8ce0bc92e/gpp_components-0.1.3.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [rewire-fastapi]: executing diffoscope
+[2024-04-17 08:44:38] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-17 08:44:38] INFO root fetch - processPackages [rewire-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rewire_fastapi-0.0.5.tar.gz tmp/rewire_fastapi-0.0.6.tar.gz --markdown 20240417/r/rewire-fastapi/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-17 08:44:38] INFO root fetch - processPackages [radicalpy]: executing diffoscope
+[2024-04-17 08:44:38] INFO root fetch - processPackages [radicalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radicalpy-0.7.0.tar.gz tmp/radicalpy-0.7.1.tar.gz --markdown 20240417/r/radicalpy/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-17 08:44:38] INFO root fetch - processPackages [gpp-components]: executing diffoscope
+[2024-04-17 08:44:38] INFO root fetch - processPackages [gpp-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpp_components-0.1.2.tar.gz tmp/gpp_components-0.1.3.tar.gz --markdown 20240417/g/gpp-components/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-17 08:44:38] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-17 08:44:38] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240417/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-17 08:44:39] INFO root fetch - processPackages [soma-integ]: Remove: archive file [/home/abi/fetcher/tmp/soma_integ-0.0.1.tar.gz]
+[2024-04-17 08:44:39] INFO root fetch - processPackages [soma-integ]: Remove: archive file [/home/abi/fetcher/tmp/soma_integ-0.0.2.tar.gz]
+[2024-04-17 08:44:39] INFO root fetch - processPackages [soma-integ]: Start processing: geohash-py
+[2024-04-17 08:44:39] INFO root fetch - main [MainThread]: End processing [soma-integ]: success
+[2024-04-17 08:44:39] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.15.tar.gz]
+[2024-04-17 08:44:39] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.16.tar.gz]
+[2024-04-17 08:44:39] INFO root fetch - main [MainThread]: End processing [pih-plb]: success
+[2024-04-17 08:44:40] INFO root fetch - processPackages [cryptopian-infra]: Remove: archive file [/home/abi/fetcher/tmp/cryptopian_infra-0.1.3.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - processPackages [cryptopian-infra]: Remove: archive file [/home/abi/fetcher/tmp/cryptopian_infra-0.1.4.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - main [MainThread]: End processing [cryptopian-infra]: success
+[2024-04-17 08:44:40] INFO root fetch - processPackages [geohash-py]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-17 08:44:40] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.5.3.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.5.4.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-17 08:44:40] INFO root fetch - processPackages [TestPackage-yidas]: Remove: archive file [/home/abi/fetcher/tmp/testpackage_yidas-0.0.1.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - processPackages [TestPackage-yidas]: Remove: archive file [/home/abi/fetcher/tmp/testpackage_yidas-0.0.2.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - main [MainThread]: End processing [TestPackage-yidas]: success
+[2024-04-17 08:44:40] INFO root fetch - processPackages [rewire-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/rewire_fastapi-0.0.5.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - processPackages [rewire-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/rewire_fastapi-0.0.6.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - main [MainThread]: End processing [rewire-fastapi]: success
+[2024-04-17 08:44:40] INFO root fetch - processPackages [gpp-components]: Remove: archive file [/home/abi/fetcher/tmp/gpp_components-0.1.2.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - processPackages [gpp-components]: Remove: archive file [/home/abi/fetcher/tmp/gpp_components-0.1.3.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - main [MainThread]: End processing [gpp-components]: success
+[2024-04-17 08:44:40] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-17 08:44:40] INFO root fetch - processPackages [geohash-py]: Downloading https://files.pythonhosted.org/packages/de/8f/2d682526a60b51cbf02ccc0ca665e590b38c28c93bc420f3668cc827bbdf/geohash_py-0.1.2.tar.gz
+[2024-04-17 08:44:40] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.7.0.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.7.1.tar.gz]
+[2024-04-17 08:44:40] INFO root fetch - main [MainThread]: End processing [radicalpy]: success
+[2024-04-17 08:44:40] WARNING root fetch - processPackages [geohash-py]: Skipping package: exceeds size limit 17711349>=10485760
+[2024-04-17 08:44:40] INFO root fetch - main [MainThread]: End processing [geohash-py] error
+[2024-04-17 08:44:41] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-17 08:44:41] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-17 08:44:41] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-17 08:44:41] INFO root fetch - main [MainThread]: Store serial: [22800716]
