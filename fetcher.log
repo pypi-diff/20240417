@@ -7514,3 +7514,27 @@
 [2024-04-17 03:54:04] INFO root fetch - processPackages [mwalib]: Remove: archive file [/home/abi/fetcher/tmp/mwalib-1.3.0.tar.gz]
 [2024-04-17 03:54:04] INFO root fetch - main [MainThread]: End processing [mwalib]: success
 [2024-04-17 03:54:04] INFO root fetch - main [MainThread]: Store serial: [22798682]
+[2024-04-17 03:56:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798682]
+[2024-04-17 03:56:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 03:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moval
+[2024-04-17 03:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyodps
+[2024-04-17 03:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: retk
+[2024-04-17 03:56:13] INFO root fetch - processPackages [moval]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 03:56:13] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/2f/2a/fce64bfb12450128441844587623d883ace479e64f62685d578d0994f441/moval-0.2.8.tar.gz
+[2024-04-17 03:56:13] WARNING root fetch - processPackages [retk]: Skipping, unable to determine old version
+[2024-04-17 03:56:13] INFO root fetch - main [MainThread]: End processing [retk] error
+[2024-04-17 03:56:13] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/ad/4e/1ade376222c4151a24bb8a4462afedaa311f1595b592028fb7632f57e1ae/moval-0.2.9.tar.gz
+[2024-04-17 03:56:13] INFO root fetch - processPackages [pyodps]: New version: [0.9.5] Old Version: [0.9.3.2]
+[2024-04-17 03:56:13] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-04-17 03:56:13] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.2.8.tar.gz tmp/moval-0.2.9.tar.gz --markdown 20240417/m/moval/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 03:56:13] INFO root fetch - processPackages [pyodps]: Downloading https://files.pythonhosted.org/packages/96/f8/51d5d1bfca5572462b6c5fcfa59e3e25c338f7822e5fbc5ab8b5b137cf8a/pyodps-0.9.3.2.tar.gz
+[2024-04-17 03:56:14] INFO root fetch - processPackages [pyodps]: Downloading https://files.pythonhosted.org/packages/23/0b/9df9955a5f80cae59a3727e2047c18f5d22f015f258c30564eb666bdcc9f/pyodps-0.9.5.tar.gz
+[2024-04-17 03:56:14] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.8.tar.gz]
+[2024-04-17 03:56:14] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.9.tar.gz]
+[2024-04-17 03:56:14] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-04-17 03:56:14] INFO root fetch - processPackages [pyodps]: executing diffoscope
+[2024-04-17 03:56:14] INFO root fetch - processPackages [pyodps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodps-0.9.3.2.tar.gz tmp/pyodps-0.9.5.tar.gz --markdown 20240417/p/pyodps/0.9.3.2-0.9.5/README.md --exclude *.pyd
+[2024-04-17 03:56:16] INFO root fetch - processPackages [pyodps]: Remove: archive file [/home/abi/fetcher/tmp/pyodps-0.9.3.2.tar.gz]
+[2024-04-17 03:56:16] INFO root fetch - processPackages [pyodps]: Remove: archive file [/home/abi/fetcher/tmp/pyodps-0.9.5.tar.gz]
+[2024-04-17 03:56:16] INFO root fetch - main [MainThread]: End processing [pyodps]: success
+[2024-04-17 03:56:16] INFO root fetch - main [MainThread]: Store serial: [22798692]
