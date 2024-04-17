@@ -10357,3 +10357,33 @@
 [2024-04-17 06:42:03] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-17.0.1.0.0.9-py3-none-any.whl.zip]
 [2024-04-17 06:42:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
 [2024-04-17 06:42:03] INFO root fetch - main [MainThread]: Store serial: [22799863]
+[2024-04-17 06:44:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799863]
+[2024-04-17 06:44:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 06:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: url-remote
+[2024-04-17 06:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flexible-dict
+[2024-04-17 06:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stackql-deploy
+[2024-04-17 06:44:12] INFO root fetch - processPackages [flexible-dict]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-17 06:44:12] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 06:44:12] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/e3/c6/dd7f0a94c18de9b8227c63ab1a303b0dbe656f9961e44226869faa2d6cb0/flexible_dict-1.2.1.tar.gz
+[2024-04-17 06:44:12] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 06:44:12] INFO root fetch - processPackages [url-remote]: New version: [0.0.84] Old Version: [0.0.83]
+[2024-04-17 06:44:12] INFO root fetch - processPackages [url-remote]: Downloading https://files.pythonhosted.org/packages/99/7d/b6a062a598b7550d58268c047a1a1044b10c4e71c292a03f62ee95657127/url-remote-0.0.83.tar.gz
+[2024-04-17 06:44:12] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/17/85/73a4f453ff6b75c2edc357339cc50bd6c4d93cae2ad15d9c4e45945a18ef/flexible_dict-1.2.2.tar.gz
+[2024-04-17 06:44:12] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 06:44:12] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 06:44:12] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 06:44:12] INFO root fetch - processPackages [flexible-dict]: executing diffoscope
+[2024-04-17 06:44:12] INFO root fetch - processPackages [flexible-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_dict-1.2.1.tar.gz tmp/flexible_dict-1.2.2.tar.gz --markdown 20240417/f/flexible-dict/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-17 06:44:12] INFO root fetch - processPackages [url-remote]: Downloading https://files.pythonhosted.org/packages/5e/52/6a80bd47037ed9051a978334899cf0ec5bcc88bd42d050493985e06b11e1/url_remote-0.0.84.tar.gz
+[2024-04-17 06:44:13] INFO root fetch - processPackages [url-remote]: executing diffoscope
+[2024-04-17 06:44:13] INFO root fetch - processPackages [url-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/url-remote-0.0.83.tar.gz tmp/url_remote-0.0.84.tar.gz --markdown 20240417/u/url-remote/0.0.83-0.0.84/README.md --exclude *.pyd
+[2024-04-17 06:44:13] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 06:44:13] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 06:44:13] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 06:44:13] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.2.1.tar.gz]
+[2024-04-17 06:44:13] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.2.2.tar.gz]
+[2024-04-17 06:44:13] INFO root fetch - main [MainThread]: End processing [flexible-dict]: success
+[2024-04-17 06:44:13] INFO root fetch - processPackages [url-remote]: Remove: archive file [/home/abi/fetcher/tmp/url-remote-0.0.83.tar.gz]
+[2024-04-17 06:44:13] INFO root fetch - processPackages [url-remote]: Remove: archive file [/home/abi/fetcher/tmp/url_remote-0.0.84.tar.gz]
+[2024-04-17 06:44:13] INFO root fetch - main [MainThread]: End processing [url-remote]: success
+[2024-04-17 06:44:13] INFO root fetch - main [MainThread]: Store serial: [22799872]
