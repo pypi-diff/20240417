@@ -22638,3 +22638,80 @@ EOFError: EOF read where object expected
 [2024-04-17 14:32:06] INFO root fetch - processPackages [skanym]: Remove: archive file [/home/abi/fetcher/tmp/skanym-0.1.1.tar.gz]
 [2024-04-17 14:32:06] INFO root fetch - main [MainThread]: End processing [skanym]: success
 [2024-04-17 14:32:06] INFO root fetch - main [MainThread]: Store serial: [22805367]
+[2024-04-17 14:34:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805367]
+[2024-04-17 14:34:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 14:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudnetpy
+[2024-04-17 14:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digitalhub-ml
+[2024-04-17 14:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalhub
+[2024-04-17 14:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PKDevTools
+[2024-04-17 14:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: breez-sdk
+[2024-04-17 14:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: digitalhub-core
+[2024-04-17 14:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digitalhub-data
+[2024-04-17 14:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data2rdf
+[2024-04-17 14:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zrb-ollama
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub-data]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub-core]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 14:34:16] INFO root fetch - processPackages [data2rdf]: New version: [2.0.0rc6] Old Version: [2.0.0rc5]
+[2024-04-17 14:34:16] INFO root fetch - processPackages [zrb-ollama]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 14:34:16] INFO root fetch - processPackages [PKDevTools]: New version: [0.13.20240417.89] Old Version: [0.13.20240417.88]
+[2024-04-17 14:34:16] INFO root fetch - processPackages [breez-sdk]: New version: [0.4.0rc5] Old Version: [0.4.0rc2]
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub-ml]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/08/32/d2fb4957c5b7162424aa9e35e981e3baf4cb192d858e2400d1fa789026e0/digitalhub-0.3.1.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/4a/f5/b6ec709626cad2fc8379209c1314182c2b37c4bbb72d48a58557591c2669/digitalhub-data-0.3.1.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/45/f4/6e11fc08ff048f4ca28f411c2a4cff377cde2a1ac16d0e754cd0394b1356/digitalhub-core-0.3.1.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [data2rdf]: Downloading https://files.pythonhosted.org/packages/3c/ef/890cf5dcb3480718f69517d0f50f786875d737d23253800b401cff248805/data2rdf-2.0.0rc5.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/1a/10/8d53babaeb6e0540012645b281b76c27d54fa1a4a3c2ee07f1c05a0aae0d/PKDevTools-0.13.20240417.88.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [zrb-ollama]: Downloading https://files.pythonhosted.org/packages/f4/ae/69059b69235236d7f5ee8e73d5ccae36e84fcab054c8f7e2210ea50def53/zrb_ollama-0.0.8.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/53/b3/5e021529850aef23d81e28228d7aaf46ba615aa2d3cbc42a2cb355bb4a1a/digitalhub-ml-0.3.1.tar.gz
+[2024-04-17 14:34:16] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2024-04-17 14:34:16] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/57/36/b720332b0cabaa2c6dd939f3bdd9cba412b85e5ea7009bce560a271ecd7c/digitalhub_data-0.3.2.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/d3/ef/c22178b16f6fe18e8baaa8c19ff48bbfa9d88c5d0cf2fcde5f85d5293404/digitalhub_core-0.3.2.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/89/f6/2b4a0f782c766cbdde761029aa17b988935411ea7a2b231f2f853bb81268/digitalhub-0.3.2.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [zrb-ollama]: Downloading https://files.pythonhosted.org/packages/69/23/7a6f9fb793122c69b80ff6088f3dfab05f8782dabcf0f861a1f3e8a98a56/zrb_ollama-0.0.9.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [breez-sdk]: Downloading https://files.pythonhosted.org/packages/0c/8f/d3aa4328ab1c09d263e67031470de50bddad229eaed1446b60f516417024/breez_sdk-0.4.0rc2-cp39-cp39-win_amd64.whl
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub-data]: executing diffoscope
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-data-0.3.1.tar.gz tmp/digitalhub_data-0.3.2.tar.gz --markdown 20240417/d/digitalhub-data/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 14:34:16] INFO root fetch - processPackages [data2rdf]: Downloading https://files.pythonhosted.org/packages/7c/6c/68e998d58d9ef6a262c15c645551ee8564cb42e26e1d662b402ace5d9bcb/data2rdf-2.0.0rc6.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub]: executing diffoscope
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-0.3.1.tar.gz tmp/digitalhub-0.3.2.tar.gz --markdown 20240417/d/digitalhub/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub-core]: executing diffoscope
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-core-0.3.1.tar.gz tmp/digitalhub_core-0.3.2.tar.gz --markdown 20240417/d/digitalhub-core/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 14:34:16] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/d7/0a/f7ac52f291d94c9caff7fd531b718dc07dc9b90c9ee5f52fb52884929c12/PKDevTools-0.13.20240417.89.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [zrb-ollama]: executing diffoscope
+[2024-04-17 14:34:16] INFO root fetch - processPackages [zrb-ollama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb_ollama-0.0.8.tar.gz tmp/zrb_ollama-0.0.9.tar.gz --markdown 20240417/z/zrb-ollama/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 14:34:16] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/3e/d5/b89bf65b75250a6bad9f6093890de3618a5991ff22cd9bd2cdcaec7d90b6/digitalhub_ml-0.3.2.tar.gz
+[2024-04-17 14:34:16] INFO root fetch - processPackages [data2rdf]: executing diffoscope
+[2024-04-17 14:34:16] INFO root fetch - processPackages [data2rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data2rdf-2.0.0rc5.tar.gz tmp/data2rdf-2.0.0rc6.tar.gz --markdown 20240417/d/data2rdf/2.0.0rc5-2.0.0rc6/README.md --exclude *.pyd
+[2024-04-17 14:34:17] INFO root fetch - processPackages [PKDevTools]: executing diffoscope
+[2024-04-17 14:34:17] INFO root fetch - processPackages [PKDevTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKDevTools-0.13.20240417.88.tar.gz tmp/PKDevTools-0.13.20240417.89.tar.gz --markdown 20240417/P/PKDevTools/0.13.20240417.88-0.13.20240417.89/README.md --exclude *.pyd
+[2024-04-17 14:34:17] INFO root fetch - processPackages [digitalhub-ml]: executing diffoscope
+[2024-04-17 14:34:17] INFO root fetch - processPackages [digitalhub-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-ml-0.3.1.tar.gz tmp/digitalhub_ml-0.3.2.tar.gz --markdown 20240417/d/digitalhub-ml/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 14:34:17] INFO root fetch - processPackages [breez-sdk]: Downloading https://files.pythonhosted.org/packages/b3/0b/f5c49189bda79e30ec675229b19c1152ce9f7102daea29ea2bc1d4d3708d/breez_sdk-0.4.0rc5-cp39-cp39-manylinux_2_31_x86_64.whl
+[2024-04-17 14:34:17] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-data-0.3.1.tar.gz]
+[2024-04-17 14:34:17] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.3.2.tar.gz]
+[2024-04-17 14:34:17] INFO root fetch - main [MainThread]: End processing [digitalhub-data]: success
+[2024-04-17 14:34:17] INFO root fetch - processPackages [zrb-ollama]: Remove: archive file [/home/abi/fetcher/tmp/zrb_ollama-0.0.8.tar.gz]
+[2024-04-17 14:34:17] INFO root fetch - processPackages [zrb-ollama]: Remove: archive file [/home/abi/fetcher/tmp/zrb_ollama-0.0.9.tar.gz]
+[2024-04-17 14:34:17] INFO root fetch - main [MainThread]: End processing [zrb-ollama]: success
+[2024-04-17 14:34:17] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240417.88.tar.gz]
+[2024-04-17 14:34:17] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240417.89.tar.gz]
+[2024-04-17 14:34:17] INFO root fetch - main [MainThread]: End processing [PKDevTools]: success
+[2024-04-17 14:34:17] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.3.1.tar.gz]
+[2024-04-17 14:34:17] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.3.2.tar.gz]
+[2024-04-17 14:34:17] INFO root fetch - main [MainThread]: End processing [digitalhub]: success
+[2024-04-17 14:34:17] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-core-0.3.1.tar.gz]
+[2024-04-17 14:34:17] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.3.2.tar.gz]
+[2024-04-17 14:34:17] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
+[2024-04-17 14:34:17] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-ml-0.3.1.tar.gz]
+[2024-04-17 14:34:17] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.3.2.tar.gz]
+[2024-04-17 14:34:17] INFO root fetch - main [MainThread]: End processing [digitalhub-ml]: success
+[2024-04-17 14:34:18] INFO root fetch - processPackages [data2rdf]: Remove: archive file [/home/abi/fetcher/tmp/data2rdf-2.0.0rc5.tar.gz]
+[2024-04-17 14:34:18] INFO root fetch - processPackages [data2rdf]: Remove: archive file [/home/abi/fetcher/tmp/data2rdf-2.0.0rc6.tar.gz]
+[2024-04-17 14:34:18] INFO root fetch - main [MainThread]: End processing [data2rdf]: success
+[2024-04-17 14:34:18] WARNING root fetch - processPackages [breez-sdk]: Skipping package: exceeds size limit 12304285>=10485760
+[2024-04-17 14:34:18] INFO root fetch - main [MainThread]: End processing [breez-sdk] error
+[2024-04-17 14:34:18] INFO root fetch - main [MainThread]: Store serial: [22805418]
