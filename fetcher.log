@@ -2518,3 +2518,51 @@
 [2024-04-17 02:35:17] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
 [2024-04-17 02:35:17] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
 [2024-04-17 02:35:17] INFO root fetch - main [MainThread]: Store serial: [22796788]
+[2024-04-17 02:37:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796788]
+[2024-04-17 02:37:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 02:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2024-04-17 02:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flet-easy
+[2024-04-17 02:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pr-pilot
+[2024-04-17 02:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rollercoaster
+[2024-04-17 02:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llmaudit
+[2024-04-17 02:37:26] INFO root fetch - processPackages [llmaudit]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-17 02:37:26] INFO root fetch - processPackages [pr-pilot]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-17 02:37:26] INFO root fetch - processPackages [rollercoaster]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-17 02:37:26] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-17 02:37:26] INFO root fetch - processPackages [flet-easy]: New version: [0.2.0.dev8] Old Version: [0.2.0.dev7]
+[2024-04-17 02:37:26] INFO root fetch - processPackages [llmaudit]: Downloading https://files.pythonhosted.org/packages/7d/97/587e988ec82554b06f3208b45a2364578ed96b220b125a08d998aa6261b1/llmaudit-0.0.3.tar.gz
+[2024-04-17 02:37:26] INFO root fetch - processPackages [pr-pilot]: Downloading https://files.pythonhosted.org/packages/ab/fd/a8d424ee8230f69dca49fa770fbba6b17b321efc8ea591fdf3753ce12732/pr_pilot-1.0.3.tar.gz
+[2024-04-17 02:37:26] INFO root fetch - processPackages [rollercoaster]: Downloading https://files.pythonhosted.org/packages/57/20/877e3c33cf81be5d4b7ed1493572e60887722c63f14a08d0d0df4206828b/rollercoaster-2.1.1.tar.gz
+[2024-04-17 02:37:26] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-17 02:37:26] INFO root fetch - processPackages [flet-easy]: Downloading https://files.pythonhosted.org/packages/b1/52/6f2c5383e84fb58b775256adff0dbd65a01dc4b0e7dcdd60939d623a1cbc/flet_easy-0.2.0.dev7.tar.gz
+[2024-04-17 02:37:26] INFO root fetch - processPackages [pr-pilot]: Downloading https://files.pythonhosted.org/packages/d8/10/33685aa28ace450f4fed6b29db36b3a0c274840560c46a94c63f7922e3c0/pr_pilot-1.0.4.tar.gz
+[2024-04-17 02:37:26] INFO root fetch - processPackages [rollercoaster]: Downloading https://files.pythonhosted.org/packages/48/76/2dcf458ca5e4d6ab2ad510406e26066e7774c8c5fd8df6108b537a929fee/rollercoaster-2.1.2.tar.gz
+[2024-04-17 02:37:26] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-17 02:37:26] INFO root fetch - processPackages [llmaudit]: Downloading https://files.pythonhosted.org/packages/64/2d/7563c63c6ccfd71b99dcfe63b9c00207695def0ecf7e1ccb3218b7b5163a/llmaudit-0.0.4.tar.gz
+[2024-04-17 02:37:26] INFO root fetch - processPackages [pr-pilot]: executing diffoscope
+[2024-04-17 02:37:26] INFO root fetch - processPackages [pr-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot-1.0.3.tar.gz tmp/pr_pilot-1.0.4.tar.gz --markdown 20240417/p/pr-pilot/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-17 02:37:26] INFO root fetch - processPackages [llmaudit]: executing diffoscope
+[2024-04-17 02:37:26] INFO root fetch - processPackages [llmaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmaudit-0.0.3.tar.gz tmp/llmaudit-0.0.4.tar.gz --markdown 20240417/l/llmaudit/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-17 02:37:26] INFO root fetch - processPackages [rollercoaster]: executing diffoscope
+[2024-04-17 02:37:26] INFO root fetch - processPackages [rollercoaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rollercoaster-2.1.1.tar.gz tmp/rollercoaster-2.1.2.tar.gz --markdown 20240417/r/rollercoaster/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-17 02:37:27] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-17 02:37:27] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240417/s/state-machine-semaphore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-17 02:37:27] INFO root fetch - processPackages [flet-easy]: Downloading https://files.pythonhosted.org/packages/f7/db/e2fa1e8b56bc266f02ba2065ce051be8666bb552d0a776944585047a0323/flet_easy-0.2.0.dev8.tar.gz
+[2024-04-17 02:37:27] INFO root fetch - processPackages [flet-easy]: executing diffoscope
+[2024-04-17 02:37:27] INFO root fetch - processPackages [flet-easy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_easy-0.2.0.dev7.tar.gz tmp/flet_easy-0.2.0.dev8.tar.gz --markdown 20240417/f/flet-easy/0.2.0.dev7-0.2.0.dev8/README.md --exclude *.pyd
+[2024-04-17 02:37:27] INFO root fetch - processPackages [llmaudit]: Remove: archive file [/home/abi/fetcher/tmp/llmaudit-0.0.3.tar.gz]
+[2024-04-17 02:37:27] INFO root fetch - processPackages [llmaudit]: Remove: archive file [/home/abi/fetcher/tmp/llmaudit-0.0.4.tar.gz]
+[2024-04-17 02:37:27] INFO root fetch - main [MainThread]: End processing [llmaudit]: success
+[2024-04-17 02:37:27] INFO root fetch - processPackages [pr-pilot]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot-1.0.3.tar.gz]
+[2024-04-17 02:37:27] INFO root fetch - processPackages [pr-pilot]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot-1.0.4.tar.gz]
+[2024-04-17 02:37:27] INFO root fetch - main [MainThread]: End processing [pr-pilot]: success
+[2024-04-17 02:37:27] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-17 02:37:27] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-17 02:37:27] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-17 02:37:27] INFO root fetch - processPackages [rollercoaster]: Remove: archive file [/home/abi/fetcher/tmp/rollercoaster-2.1.1.tar.gz]
+[2024-04-17 02:37:27] INFO root fetch - processPackages [rollercoaster]: Remove: archive file [/home/abi/fetcher/tmp/rollercoaster-2.1.2.tar.gz]
+[2024-04-17 02:37:27] INFO root fetch - main [MainThread]: End processing [rollercoaster]: success
+[2024-04-17 02:37:28] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.0.dev7.tar.gz]
+[2024-04-17 02:37:28] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.0.dev8.tar.gz]
+[2024-04-17 02:37:28] INFO root fetch - main [MainThread]: End processing [flet-easy]: success
+[2024-04-17 02:37:28] INFO root fetch - main [MainThread]: Store serial: [22796803]
