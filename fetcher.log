@@ -21385,3 +21385,167 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:53:22] INFO root fetch - processPackages [glyphsets]: Remove: archive file [/home/abi/fetcher/tmp/glyphsets-0.6.9.tar.gz]
 [2024-04-17 13:53:22] INFO root fetch - main [MainThread]: End processing [glyphsets]: success
 [2024-04-17 13:53:22] INFO root fetch - main [MainThread]: Store serial: [22804821]
+[2024-04-17 13:55:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804821]
+[2024-04-17 13:55:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-17 13:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glyphsets
+[2024-04-17 13:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-command
+[2024-04-17 13:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: julep
+[2024-04-17 13:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: orchestrator-core
+[2024-04-17 13:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: faststream
+[2024-04-17 13:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: supervisely
+[2024-04-17 13:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: u8darts
+[2024-04-17 13:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: darts
+[2024-04-17 13:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modelon-impact-client
+[2024-04-17 13:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: siat
+[2024-04-17 13:55:31] INFO root fetch - processPackages [glyphsets]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-17 13:55:31] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2024-04-17 13:55:31] INFO root fetch - processPackages [darts]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-17 13:55:31] INFO root fetch - processPackages [orchestrator-core]: New version: [2.2.2rc1] Old Version: [2.2.1]
+[2024-04-17 13:55:31] INFO root fetch - processPackages [julep]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 13:55:31] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-04-17 13:55:31] INFO root fetch - processPackages [u8darts]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-17 13:55:31] INFO root fetch - processPackages [faststream]: New version: [0.5.1] Old Version: [0.5.0rc2]
+[2024-04-17 13:55:31] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2024-04-17 13:55:31] INFO root fetch - processPackages [glyphsets]: Downloading https://files.pythonhosted.org/packages/d4/a3/39609e28e2b35f00f708e39f0609c50f87a848624f9771a4e6f8db95fb69/glyphsets-0.6.8.tar.gz
+[2024-04-17 13:55:31] INFO root fetch - processPackages [siat]: New version: [3.0.0] Old Version: [2.9.8]
+[2024-04-17 13:55:31] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-04-17 13:55:31] INFO root fetch - processPackages [darts]: Downloading https://files.pythonhosted.org/packages/d6/a2/c1b9872ad6cd19eab66c555244186070e65169683154e9aa1058968fb149/darts-0.9.0.tar.gz
+[2024-04-17 13:55:31] INFO root fetch - processPackages [faststream]: Downloading https://files.pythonhosted.org/packages/f6/b9/477223b769445b0eda08a1617b47aa3803152db1282a7f40a694534ac86f/faststream-0.5.0rc2.tar.gz
+[2024-04-17 13:55:31] INFO root fetch - processPackages [julep]: Downloading https://files.pythonhosted.org/packages/4a/6f/29979d311395103e1092fc5917032031c7b76878ec5a0dbc2a6aa218e0bc/julep-0.2.8.tar.gz
+[2024-04-17 13:55:31] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/7f/96/c7d09ef620426120aaec1dfdbdadb38914823a12f1a048a586d74f96e701/orchestrator_core-2.2.1.tar.gz
+[2024-04-17 13:55:31] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/e6/38/1b8d34bf587fde7a79d9b937f1fe576d628ffdf0d9ca864081f0f93f7c25/modelon_impact_client-3.8.1.tar.gz
+[2024-04-17 13:55:31] INFO root fetch - processPackages [u8darts]: Downloading https://files.pythonhosted.org/packages/e2/5c/d8a040d8aa80cbbf1a15df45305b100465df0c4f0a3d663834c8f6e04141/u8darts-0.9.0.tar.gz
+[2024-04-17 13:55:32] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/a5/4f/c945ea0a2a1f74d3a24bb87d962507d79d976cd23a885c5291c963af7e46/siat-2.9.8-py3-none-any.whl
+[2024-04-17 13:55:32] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2024-04-17 13:55:32] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2024-04-17 13:55:32] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2024-04-17 13:55:32] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20240417/p/pulumi-command/4.5.0-4.6.0a1662390243/README.md --exclude *.pyd
+[2024-04-17 13:55:32] INFO root fetch - processPackages [glyphsets]: Downloading https://files.pythonhosted.org/packages/2c/f9/121b1b45ccf2e1bd2aee0f75e6f6718ac1b1369c68ac6b26fd4c12397cdf/glyphsets-0.6.9.tar.gz
+[2024-04-17 13:55:32] INFO root fetch - processPackages [julep]: Downloading https://files.pythonhosted.org/packages/ec/1f/ce9dd7c32e006afbf4cf7e7fe31a697a302e889ebc0d1b7a9c0b4ce00008/julep-0.2.9.tar.gz
+[2024-04-17 13:55:32] INFO root fetch - processPackages [faststream]: Downloading https://files.pythonhosted.org/packages/f0/b3/12be1cb0c676ea4277844d43259d5ee43982dfb6ae0cf5e4190d216c5b16/faststream-0.5.1.tar.gz
+[2024-04-17 13:55:32] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/60/b8/7c2424190ed68b6558d409ff3ae458f12114b0e2ff5e4df7d07cc9344fd9/modelon_impact_client-3.9.0.tar.gz
+[2024-04-17 13:55:32] INFO root fetch - processPackages [u8darts]: Downloading https://files.pythonhosted.org/packages/7c/6c/16de4020c6077cc746e12da1a02546b899ac11f9185e0ae358fe291eb44e/u8darts-0.9.1.tar.gz
+[2024-04-17 13:55:32] INFO root fetch - processPackages [julep]: executing diffoscope
+[2024-04-17 13:55:32] INFO root fetch - processPackages [julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julep-0.2.8.tar.gz tmp/julep-0.2.9.tar.gz --markdown 20240417/j/julep/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 13:55:32] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2024-04-17 13:55:32] INFO root fetch - processPackages [faststream]: executing diffoscope
+[2024-04-17 13:55:32] INFO root fetch - processPackages [faststream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faststream-0.5.0rc2.tar.gz tmp/faststream-0.5.1.tar.gz --markdown 20240417/f/faststream/0.5.0rc2-0.5.1/README.md --exclude *.pyd
+[2024-04-17 13:55:32] INFO root fetch - processPackages [glyphsets]: executing diffoscope
+[2024-04-17 13:55:32] INFO root fetch - processPackages [glyphsets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glyphsets-0.6.8.tar.gz tmp/glyphsets-0.6.9.tar.gz --markdown 20240417/g/glyphsets/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-17 13:55:32] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/0d/3c/23581255f8b383b388c3015dfdb3229e0365ade803b99aa84b8d98c0de4c/orchestrator_core-2.2.2rc1.tar.gz
+[2024-04-17 13:55:32] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2024-04-17 13:55:32] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.8.1.tar.gz tmp/modelon_impact_client-3.9.0.tar.gz --markdown 20240417/m/modelon-impact-client/3.8.1-3.9.0/README.md --exclude *.pyd
+[2024-04-17 13:55:32] INFO root fetch - processPackages [darts]: Downloading https://files.pythonhosted.org/packages/5f/9c/f634eef74d4981292949f8f634477d3f4a255d5a51bfc223884dbedde012/darts-0.9.1.tar.gz
+[2024-04-17 13:55:32] INFO root fetch - processPackages [u8darts]: executing diffoscope
+[2024-04-17 13:55:32] INFO root fetch - processPackages [u8darts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/u8darts-0.9.0.tar.gz tmp/u8darts-0.9.1.tar.gz --markdown 20240417/u/u8darts/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-17 13:55:32] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2024-04-17 13:55:32] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20240417/s/supervisely/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-04-17 13:55:32] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2024-04-17 13:55:32] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-2.2.1.tar.gz tmp/orchestrator_core-2.2.2rc1.tar.gz --markdown 20240417/o/orchestrator-core/2.2.1-2.2.2rc1/README.md --exclude *.pyd
+[2024-04-17 13:55:32] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2024-04-17 13:55:32] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2024-04-17 13:55:32] INFO root fetch - processPackages [pulumi-command]: Start processing: so-ml-tools
+[2024-04-17 13:55:32] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2024-04-17 13:55:33] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/a1/dc/7571acde8565a198ccd6c79dca84be6b222adeeb7fd1adbc59c243d919a5/siat-3.0.0-py3-none-any.whl
+[2024-04-17 13:55:33] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-17 13:55:33] INFO root fetch - processPackages [darts]: executing diffoscope
+[2024-04-17 13:55:33] INFO root fetch - processPackages [darts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darts-0.9.0.tar.gz tmp/darts-0.9.1.tar.gz --markdown 20240417/d/darts/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-17 13:55:33] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-17 13:55:33] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-17 13:55:33] INFO root fetch - processPackages [siat]: executing diffoscope
+[2024-04-17 13:55:33] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.9.8-py3-none-any.whl.zip tmp/siat-3.0.0-py3-none-any.whl.zip --markdown 20240417/s/siat/2.9.8-3.0.0/README.md --exclude *.pyd
+[2024-04-17 13:55:33] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-17 13:55:33] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240417/s/so-ml-tools/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-17 13:55:33] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.8.1.tar.gz]
+[2024-04-17 13:55:33] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.9.0.tar.gz]
+[2024-04-17 13:55:33] INFO root fetch - processPackages [modelon-impact-client]: Start processing: MOBiceps
+[2024-04-17 13:55:33] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2024-04-17 13:55:33] INFO root fetch - processPackages [julep]: Remove: archive file [/home/abi/fetcher/tmp/julep-0.2.8.tar.gz]
+[2024-04-17 13:55:33] INFO root fetch - processPackages [julep]: Remove: archive file [/home/abi/fetcher/tmp/julep-0.2.9.tar.gz]
+[2024-04-17 13:55:33] INFO root fetch - main [MainThread]: End processing [julep]: success
+[2024-04-17 13:55:33] WARNING root fetch - processPackages [MOBiceps]: Skipping, unable to determine old version
+[2024-04-17 13:55:33] INFO root fetch - main [MainThread]: End processing [MOBiceps] error
+[2024-04-17 13:55:34] INFO root fetch - processPackages [u8darts]: Remove: archive file [/home/abi/fetcher/tmp/u8darts-0.9.0.tar.gz]
+[2024-04-17 13:55:34] INFO root fetch - processPackages [u8darts]: Remove: archive file [/home/abi/fetcher/tmp/u8darts-0.9.1.tar.gz]
+[2024-04-17 13:55:34] INFO root fetch - main [MainThread]: End processing [u8darts]: success
+[2024-04-17 13:55:34] ERROR root fetch - processPackages [siat]: Diffoscope failed: time="2024-04-17T13:55:33+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+[2024-04-17 13:55:34] INFO root fetch - main [MainThread]: End processing [siat] error
+[2024-04-17 13:55:34] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2024-04-17 13:55:34] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2024-04-17 13:55:34] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2024-04-17 13:55:34] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-17 13:55:34] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-17 13:55:34] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-17 13:55:34] INFO root fetch - processPackages [faststream]: Remove: archive file [/home/abi/fetcher/tmp/faststream-0.5.0rc2.tar.gz]
+[2024-04-17 13:55:34] INFO root fetch - processPackages [faststream]: Remove: archive file [/home/abi/fetcher/tmp/faststream-0.5.1.tar.gz]
+[2024-04-17 13:55:34] INFO root fetch - main [MainThread]: End processing [faststream]: success
+[2024-04-17 13:55:35] INFO root fetch - processPackages [darts]: Remove: archive file [/home/abi/fetcher/tmp/darts-0.9.0.tar.gz]
+[2024-04-17 13:55:35] INFO root fetch - processPackages [darts]: Remove: archive file [/home/abi/fetcher/tmp/darts-0.9.1.tar.gz]
+[2024-04-17 13:55:35] INFO root fetch - main [MainThread]: End processing [darts]: success
+[2024-04-17 13:55:35] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.2.1.tar.gz]
+[2024-04-17 13:55:35] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.2.2rc1.tar.gz]
+[2024-04-17 13:55:35] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2024-04-17 13:55:36] INFO root fetch - processPackages [glyphsets]: Remove: archive file [/home/abi/fetcher/tmp/glyphsets-0.6.8.tar.gz]
+[2024-04-17 13:55:36] INFO root fetch - processPackages [glyphsets]: Remove: archive file [/home/abi/fetcher/tmp/glyphsets-0.6.9.tar.gz]
+[2024-04-17 13:55:36] INFO root fetch - main [MainThread]: End processing [glyphsets]: success
+[2024-04-17 13:55:36] INFO root fetch - main [MainThread]: Store serial: [22804867]
