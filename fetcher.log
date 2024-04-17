@@ -7391,3 +7391,33 @@
 [2024-04-17 03:45:22] INFO root fetch - processPackages [raydar]: Remove: archive file [/home/abi/fetcher/tmp/raydar-0.2.1.tar.gz]
 [2024-04-17 03:45:22] INFO root fetch - main [MainThread]: End processing [raydar]: success
 [2024-04-17 03:45:22] INFO root fetch - main [MainThread]: Store serial: [22798640]
+[2024-04-17 03:47:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798640]
+[2024-04-17 03:47:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 03:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmaudit
+[2024-04-17 03:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moval
+[2024-04-17 03:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vjepa-encoder
+[2024-04-17 03:47:32] INFO root fetch - processPackages [llmaudit]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-17 03:47:32] INFO root fetch - processPackages [moval]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 03:47:32] INFO root fetch - processPackages [llmaudit]: Downloading https://files.pythonhosted.org/packages/88/0f/11973c1133b5993cc21c15e8706bb9dbba02fd2ddc14be369c760bf13582/llmaudit-0.0.9.tar.gz
+[2024-04-17 03:47:32] INFO root fetch - processPackages [vjepa-encoder]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-17 03:47:32] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/2f/2a/fce64bfb12450128441844587623d883ace479e64f62685d578d0994f441/moval-0.2.8.tar.gz
+[2024-04-17 03:47:32] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/ad/4e/1ade376222c4151a24bb8a4462afedaa311f1595b592028fb7632f57e1ae/moval-0.2.9.tar.gz
+[2024-04-17 03:47:32] INFO root fetch - processPackages [vjepa-encoder]: Downloading https://files.pythonhosted.org/packages/d0/e8/900365d1e86224d8d1d53473b0db73f95d9d882b512c339704946b3cdd4f/vjepa_encoder-0.0.3.tar.gz
+[2024-04-17 03:47:32] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-04-17 03:47:32] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.2.8.tar.gz tmp/moval-0.2.9.tar.gz --markdown 20240417/m/moval/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 03:47:32] INFO root fetch - processPackages [llmaudit]: Downloading https://files.pythonhosted.org/packages/0d/d1/efade5238de6c98fea43eea421f462a8a184020f0c6721f0f6de4d60fdce/llmaudit-0.1.0.tar.gz
+[2024-04-17 03:47:33] INFO root fetch - processPackages [llmaudit]: executing diffoscope
+[2024-04-17 03:47:33] INFO root fetch - processPackages [llmaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmaudit-0.0.9.tar.gz tmp/llmaudit-0.1.0.tar.gz --markdown 20240417/l/llmaudit/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-17 03:47:33] INFO root fetch - processPackages [vjepa-encoder]: Downloading https://files.pythonhosted.org/packages/99/98/3c20dea2a273e9fc2b4dd15aa4c85e33e64a6da41063fc6fac84d5360de5/vjepa_encoder-0.0.4.tar.gz
+[2024-04-17 03:47:33] INFO root fetch - processPackages [vjepa-encoder]: executing diffoscope
+[2024-04-17 03:47:33] INFO root fetch - processPackages [vjepa-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vjepa_encoder-0.0.3.tar.gz tmp/vjepa_encoder-0.0.4.tar.gz --markdown 20240417/v/vjepa-encoder/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-17 03:47:33] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.8.tar.gz]
+[2024-04-17 03:47:33] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.9.tar.gz]
+[2024-04-17 03:47:33] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-04-17 03:47:33] INFO root fetch - processPackages [llmaudit]: Remove: archive file [/home/abi/fetcher/tmp/llmaudit-0.0.9.tar.gz]
+[2024-04-17 03:47:33] INFO root fetch - processPackages [llmaudit]: Remove: archive file [/home/abi/fetcher/tmp/llmaudit-0.1.0.tar.gz]
+[2024-04-17 03:47:33] INFO root fetch - main [MainThread]: End processing [llmaudit]: success
+[2024-04-17 03:47:33] INFO root fetch - processPackages [vjepa-encoder]: Remove: archive file [/home/abi/fetcher/tmp/vjepa_encoder-0.0.3.tar.gz]
+[2024-04-17 03:47:33] INFO root fetch - processPackages [vjepa-encoder]: Remove: archive file [/home/abi/fetcher/tmp/vjepa_encoder-0.0.4.tar.gz]
+[2024-04-17 03:47:33] INFO root fetch - main [MainThread]: End processing [vjepa-encoder]: success
+[2024-04-17 03:47:33] INFO root fetch - main [MainThread]: Store serial: [22798648]
