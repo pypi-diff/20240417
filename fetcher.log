@@ -8949,3 +8949,47 @@
 [2024-04-17 05:11:53] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
 [2024-04-17 05:11:53] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
 [2024-04-17 05:11:53] INFO root fetch - main [MainThread]: Store serial: [22799296]
+[2024-04-17 05:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799296]
+[2024-04-17 05:14:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 05:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stackql-deploy
+[2024-04-17 05:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taichi
+[2024-04-17 05:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vessl
+[2024-04-17 05:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-cloudflare
+[2024-04-17 05:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-helm
+[2024-04-17 05:14:01] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 05:14:01] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-17 05:14:01] INFO root fetch - processPackages [taichi]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-17 05:14:01] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 05:14:02] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-17 05:14:02] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: New version: [9.0.2] Old Version: [9.0.1]
+[2024-04-17 05:14:02] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2024-04-17 05:14:02] INFO root fetch - processPackages [taichi]: Downloading https://files.pythonhosted.org/packages/28/72/55f78d4341e35e4e6365ae24e879830ef49ecef77f5689a28d8584341b66/taichi-1.6.0-cp39-cp39-win_amd64.whl
+[2024-04-17 05:14:02] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 05:14:02] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/ef/1d/47980234b22b73ec1a015c99f0266dc8e67a9f9df050d7bc149ca49d2ce8/cdktf-cdktf-provider-cloudflare-9.0.2.tar.gz
+[2024-04-17 05:14:02] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Downloading https://files.pythonhosted.org/packages/f6/89/e4d6cfb389b023b50ec6e45af579a622b04236bde364126a15d27d193418/cdktf-cdktf-provider-helm-9.0.1.tar.gz
+[2024-04-17 05:14:02] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 05:14:02] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 05:14:02] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2024-04-17 05:14:02] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2024-04-17 05:14:02] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20240417/v/vessl/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-17 05:14:02] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Downloading https://files.pythonhosted.org/packages/88/34/9a9d5da3f2238f36ba7779e5558064db13f8c70d3cc7dfd96cce8d4a5f89/cdktf-cdktf-provider-helm-9.0.2.tar.gz
+[2024-04-17 05:14:02] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/a1/76/e6a7ef5b0999691153ea9a178c77941e95bd157fd1c0a4140a6e760e6613/cdktf-cdktf-provider-cloudflare-9.0.3.tar.gz
+[2024-04-17 05:14:02] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 05:14:02] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 05:14:02] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 05:14:02] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: executing diffoscope
+[2024-04-17 05:14:02] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-helm-9.0.1.tar.gz tmp/cdktf-cdktf-provider-helm-9.0.2.tar.gz --markdown 20240417/c/cdktf-cdktf-provider-helm/9.0.1-9.0.2/README.md --exclude *.pyd
+[2024-04-17 05:14:02] WARNING root fetch - processPackages [taichi]: Skipping package: exceeds size limit 50325169>=10485760
+[2024-04-17 05:14:02] INFO root fetch - main [MainThread]: End processing [taichi] error
+[2024-04-17 05:14:03] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: executing diffoscope
+[2024-04-17 05:14:03] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-cloudflare-9.0.2.tar.gz tmp/cdktf-cdktf-provider-cloudflare-9.0.3.tar.gz --markdown 20240417/c/cdktf-cdktf-provider-cloudflare/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-04-17 05:14:03] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-helm-9.0.1.tar.gz]
+[2024-04-17 05:14:03] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-helm-9.0.2.tar.gz]
+[2024-04-17 05:14:03] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-helm]: success
+[2024-04-17 05:14:05] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2024-04-17 05:14:05] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2024-04-17 05:14:05] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2024-04-17 05:14:07] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-9.0.2.tar.gz]
+[2024-04-17 05:14:07] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-9.0.3.tar.gz]
+[2024-04-17 05:14:07] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
+[2024-04-17 05:14:07] INFO root fetch - main [MainThread]: Store serial: [22799331]
