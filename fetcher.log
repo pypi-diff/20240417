@@ -12601,3 +12601,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:33:46] INFO root fetch - processPackages [renault-api]: Remove: archive file [/home/abi/fetcher/tmp/renault_api-0.2.2.tar.gz]
 [2024-04-17 08:33:46] INFO root fetch - main [MainThread]: End processing [renault-api]: success
 [2024-04-17 08:33:46] INFO root fetch - main [MainThread]: Store serial: [22800622]
+[2024-04-17 08:35:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800622]
+[2024-04-17 08:35:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 08:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsk-monster
+[2024-04-17 08:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-libvirt
+[2024-04-17 08:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-docker
+[2024-04-17 08:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-mailgun
+[2024-04-17 08:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sswater
+[2024-04-17 08:35:55] INFO root fetch - processPackages [sswater]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 08:35:55] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 08:35:55] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.4.6a1713332971] Old Version: [0.4.6a1712987373]
+[2024-04-17 08:35:55] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1713332970] Old Version: [3.6.0a1712987592]
+[2024-04-17 08:35:55] INFO root fetch - processPackages [pulumi-docker]: New version: [4.7.0a1705628423] Old Version: [4.7.0a1705607229]
+[2024-04-17 08:35:55] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-17 08:35:55] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/60/4d/20db01394ae207e38e34244a087a77010c3163b5176d5ed60b9e938b94df/pulumi_docker-4.7.0a1705607229.tar.gz
+[2024-04-17 08:35:55] INFO root fetch - processPackages [sswater]: Downloading https://files.pythonhosted.org/packages/c4/a2/99e867c22a0521c5ec1cab8720db55b757a941dcce2574d4b6743c574e38/sswater-0.0.1.tar.gz
+[2024-04-17 08:35:55] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/b0/b7/502b22944cdc67774197661cd8c0f830d955c0e751d76c31ce44dafeaef0/pulumi_libvirt-0.4.6a1712987373.tar.gz
+[2024-04-17 08:35:55] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/c2/53/af2d1c7d464e5df8aa82c91d55b46a630083f9d0ea70fc6281735d96a146/pulumi_mailgun-3.6.0a1712987592.tar.gz
+[2024-04-17 08:35:55] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-17 08:35:55] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-17 08:35:55] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240417/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 08:35:55] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/93/0a/9fe093d0acbea6a8a1e7a802c16d997a4da771ae6b440c7713697369cac9/pulumi_mailgun-3.6.0a1713332970.tar.gz
+[2024-04-17 08:35:55] INFO root fetch - processPackages [sswater]: Downloading https://files.pythonhosted.org/packages/d1/69/5a3008cc9fbd18640377cdd27905e07d994f2d18af12a9ae1a81f8af20d0/sswater-0.0.2.tar.gz
+[2024-04-17 08:35:55] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/d2/62/73e8a6a7652533e57a791962b11666606ca7471431710786708beb60c229/pulumi_libvirt-0.4.6a1713332971.tar.gz
+[2024-04-17 08:35:55] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-04-17 08:35:55] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1712987592.tar.gz tmp/pulumi_mailgun-3.6.0a1713332970.tar.gz --markdown 20240417/p/pulumi-mailgun/3.6.0a1712987592-3.6.0a1713332970/README.md --exclude *.pyd
+[2024-04-17 08:35:56] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-04-17 08:35:56] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.6a1712987373.tar.gz tmp/pulumi_libvirt-0.4.6a1713332971.tar.gz --markdown 20240417/p/pulumi-libvirt/0.4.6a1712987373-0.4.6a1713332971/README.md --exclude *.pyd
+[2024-04-17 08:35:56] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/3a/93/a866b50173039bae813e131505cf7ed97c33cb79c113926b2b63dfd1caf2/pulumi_docker-4.7.0a1705628423.tar.gz
+[2024-04-17 08:35:56] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2024-04-17 08:35:56] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.7.0a1705607229.tar.gz tmp/pulumi_docker-4.7.0a1705628423.tar.gz --markdown 20240417/p/pulumi-docker/4.7.0a1705607229-4.7.0a1705628423/README.md --exclude *.pyd
+[2024-04-17 08:35:56] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-17 08:35:56] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-17 08:35:56] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-17 08:35:56] INFO root fetch - processPackages [sswater]: executing diffoscope
+[2024-04-17 08:35:56] INFO root fetch - processPackages [sswater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sswater-0.0.1.tar.gz tmp/sswater-0.0.2.tar.gz --markdown 20240417/s/sswater/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 08:35:56] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1712987592.tar.gz]
+[2024-04-17 08:35:56] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1713332970.tar.gz]
+[2024-04-17 08:35:56] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-04-17 08:35:56] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.6a1712987373.tar.gz]
+[2024-04-17 08:35:56] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.6a1713332971.tar.gz]
+[2024-04-17 08:35:56] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-04-17 08:35:57] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.7.0a1705607229.tar.gz]
+[2024-04-17 08:35:57] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.7.0a1705628423.tar.gz]
+[2024-04-17 08:35:57] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2024-04-17 08:35:57] INFO root fetch - processPackages [sswater]: Remove: archive file [/home/abi/fetcher/tmp/sswater-0.0.1.tar.gz]
+[2024-04-17 08:35:57] INFO root fetch - processPackages [sswater]: Remove: archive file [/home/abi/fetcher/tmp/sswater-0.0.2.tar.gz]
+[2024-04-17 08:35:57] INFO root fetch - main [MainThread]: End processing [sswater]: success
+[2024-04-17 08:35:57] INFO root fetch - main [MainThread]: Store serial: [22800634]
