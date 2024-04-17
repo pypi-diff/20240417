@@ -20084,3 +20084,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:50:12] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.2.9.9.tar.gz]
 [2024-04-17 12:50:12] INFO root fetch - main [MainThread]: End processing [g4f]: success
 [2024-04-17 12:50:12] INFO root fetch - main [MainThread]: Store serial: [22804124]
+[2024-04-17 12:52:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804124]
+[2024-04-17 12:52:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 12:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycityagent
+[2024-04-17 12:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pcgym
+[2024-04-17 12:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vitya
+[2024-04-17 12:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geodynamic
+[2024-04-17 12:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-aws
+[2024-04-17 12:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kingdon
+[2024-04-17 12:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-lokalise-api
+[2024-04-17 12:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: casa-formats-io
+[2024-04-17 12:52:21] INFO root fetch - processPackages [pycityagent]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-17 12:52:21] INFO root fetch - processPackages [pcgym]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 12:52:21] INFO root fetch - processPackages [casa-formats-io]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-17 12:52:21] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-17 12:52:21] INFO root fetch - processPackages [pycityagent]: Downloading https://files.pythonhosted.org/packages/41/ff/15aa9002068772e3d45e9ed68c258ecd30bac9bdb0863e90e677d1533b96/pycityagent-1.1.8.tar.gz
+[2024-04-17 12:52:21] INFO root fetch - processPackages [geodynamic]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-17 12:52:21] INFO root fetch - processPackages [python-lokalise-api]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-04-17 12:52:21] INFO root fetch - processPackages [pcgym]: Downloading https://files.pythonhosted.org/packages/58/35/8c70b458e331cf0d28b499820a2c3b762796d9c2274dd2a2ce633257e49a/pcgym-0.1.0.tar.gz
+[2024-04-17 12:52:21] INFO root fetch - processPackages [vitya]: New version: [0.20.3] Old Version: [0.20.2]
+[2024-04-17 12:52:21] INFO root fetch - processPackages [kingdon]: New version: [1.0.0] Old Version: [0.3.2]
+[2024-04-17 12:52:21] INFO root fetch - processPackages [casa-formats-io]: Downloading https://files.pythonhosted.org/packages/93/34/a8f7ea7afd8936aef7e2623daea174accaee8785f164bed0a495aa591727/casa-formats-io-0.2.2.tar.gz
+[2024-04-17 12:52:21] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-17 12:52:21] INFO root fetch - processPackages [geodynamic]: Downloading https://files.pythonhosted.org/packages/1c/d5/dd4ad9d8601ccb59d2fd5502a03e782c13325fd4f695f2cfac2fbfa05d46/geodynamic-0.0.5.tar.gz
+[2024-04-17 12:52:21] INFO root fetch - processPackages [vitya]: Downloading https://files.pythonhosted.org/packages/2a/7b/5708187d4e5b79b7bebb22e5e0ae39b5ff9bf7f901bfbe801a93ac6a85ca/vitya-0.20.2.tar.gz
+[2024-04-17 12:52:21] INFO root fetch - processPackages [pycityagent]: Downloading https://files.pythonhosted.org/packages/3e/cb/229561c68d49d6974de1dbd5ec5b8296517932e0e436fbee44b02f9bdd2f/pycityagent-1.1.9.tar.gz
+[2024-04-17 12:52:21] INFO root fetch - processPackages [python-lokalise-api]: Downloading https://files.pythonhosted.org/packages/55/9d/7e1b162e5f696dd758e32f7036ef7e237b345a5db5a4c9f599a46503c618/python_lokalise_api-2.1.2.tar.gz
+[2024-04-17 12:52:21] INFO root fetch - processPackages [kingdon]: Downloading https://files.pythonhosted.org/packages/58/22/b0dacf492f891ec9605a89eea5f051ee2f4be7d2290adb4ca3258b25a4a2/kingdon-0.3.2.tar.gz
+[2024-04-17 12:52:22] INFO root fetch - processPackages [pcgym]: Downloading https://files.pythonhosted.org/packages/0a/65/c4ee85684736964767bee3778a36d5c9188ac806fc25629c3179bd1a7ccd/pcgym-0.1.1.tar.gz
+[2024-04-17 12:52:22] INFO root fetch - processPackages [casa-formats-io]: Downloading https://files.pythonhosted.org/packages/65/75/59b964d068b11faac6727ec6ca5ab26fbb7b12200f743b752333027d53e4/casa_formats_io-0.2.3.tar.gz
+[2024-04-17 12:52:22] INFO root fetch - processPackages [pycityagent]: executing diffoscope
+[2024-04-17 12:52:22] INFO root fetch - processPackages [pycityagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycityagent-1.1.8.tar.gz tmp/pycityagent-1.1.9.tar.gz --markdown 20240417/p/pycityagent/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-17 12:52:22] INFO root fetch - processPackages [pcgym]: executing diffoscope
+[2024-04-17 12:52:22] INFO root fetch - processPackages [pcgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcgym-0.1.0.tar.gz tmp/pcgym-0.1.1.tar.gz --markdown 20240417/p/pcgym/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 12:52:22] INFO root fetch - processPackages [geodynamic]: Downloading https://files.pythonhosted.org/packages/e7/06/dae2b3bdba3dff90186d9fd16bc5b6047b1c8f82a546fdabd2024dfca413/geodynamic-0.0.6.tar.gz
+[2024-04-17 12:52:22] INFO root fetch - processPackages [casa-formats-io]: executing diffoscope
+[2024-04-17 12:52:22] INFO root fetch - processPackages [casa-formats-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casa-formats-io-0.2.2.tar.gz tmp/casa_formats_io-0.2.3.tar.gz --markdown 20240417/c/casa-formats-io/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-17 12:52:22] INFO root fetch - processPackages [vitya]: Downloading https://files.pythonhosted.org/packages/e8/72/3ae6f7c5da8cbf407fbbe1f60d5bf4673e32e00d50b3f5b75ade585c8deb/vitya-0.20.3.tar.gz
+[2024-04-17 12:52:22] INFO root fetch - processPackages [python-lokalise-api]: Downloading https://files.pythonhosted.org/packages/98/a3/bd7df892b968f75d6234464c3901450b1c7c3a626551647827369319a687/python_lokalise_api-2.2.0.tar.gz
+[2024-04-17 12:52:22] INFO root fetch - processPackages [kingdon]: Downloading https://files.pythonhosted.org/packages/e4/53/b0cb9c33e6e19e4181767ce79570e91855b3b68f9c12836fd4ec6b65daaa/kingdon-1.0.0.tar.gz
+[2024-04-17 12:52:22] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-17 12:52:22] INFO root fetch - processPackages [geodynamic]: executing diffoscope
+[2024-04-17 12:52:22] INFO root fetch - processPackages [geodynamic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodynamic-0.0.5.tar.gz tmp/geodynamic-0.0.6.tar.gz --markdown 20240417/g/geodynamic/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-17 12:52:22] INFO root fetch - processPackages [vitya]: executing diffoscope
+[2024-04-17 12:52:22] INFO root fetch - processPackages [vitya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vitya-0.20.2.tar.gz tmp/vitya-0.20.3.tar.gz --markdown 20240417/v/vitya/0.20.2-0.20.3/README.md --exclude *.pyd
+[2024-04-17 12:52:22] INFO root fetch - processPackages [python-lokalise-api]: executing diffoscope
+[2024-04-17 12:52:22] INFO root fetch - processPackages [python-lokalise-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_lokalise_api-2.1.2.tar.gz tmp/python_lokalise_api-2.2.0.tar.gz --markdown 20240417/p/python-lokalise-api/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-04-17 12:52:22] INFO root fetch - processPackages [kingdon]: executing diffoscope
+[2024-04-17 12:52:22] INFO root fetch - processPackages [kingdon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingdon-0.3.2.tar.gz tmp/kingdon-1.0.0.tar.gz --markdown 20240417/k/kingdon/0.3.2-1.0.0/README.md --exclude *.pyd
+[2024-04-17 12:52:22] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-17 12:52:22] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240417/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-04-17 12:52:23] INFO root fetch - processPackages [pcgym]: Remove: archive file [/home/abi/fetcher/tmp/pcgym-0.1.0.tar.gz]
+[2024-04-17 12:52:23] INFO root fetch - processPackages [pcgym]: Remove: archive file [/home/abi/fetcher/tmp/pcgym-0.1.1.tar.gz]
+[2024-04-17 12:52:23] INFO root fetch - main [MainThread]: End processing [pcgym]: success
+[2024-04-17 12:52:23] INFO root fetch - processPackages [pycityagent]: Remove: archive file [/home/abi/fetcher/tmp/pycityagent-1.1.8.tar.gz]
+[2024-04-17 12:52:23] INFO root fetch - processPackages [pycityagent]: Remove: archive file [/home/abi/fetcher/tmp/pycityagent-1.1.9.tar.gz]
+[2024-04-17 12:52:23] INFO root fetch - main [MainThread]: End processing [pycityagent]: success
+[2024-04-17 12:52:23] INFO root fetch - processPackages [geodynamic]: Remove: archive file [/home/abi/fetcher/tmp/geodynamic-0.0.5.tar.gz]
+[2024-04-17 12:52:23] INFO root fetch - processPackages [geodynamic]: Remove: archive file [/home/abi/fetcher/tmp/geodynamic-0.0.6.tar.gz]
+[2024-04-17 12:52:23] INFO root fetch - main [MainThread]: End processing [geodynamic]: success
+[2024-04-17 12:52:23] INFO root fetch - processPackages [python-lokalise-api]: Remove: archive file [/home/abi/fetcher/tmp/python_lokalise_api-2.1.2.tar.gz]
+[2024-04-17 12:52:23] INFO root fetch - processPackages [python-lokalise-api]: Remove: archive file [/home/abi/fetcher/tmp/python_lokalise_api-2.2.0.tar.gz]
+[2024-04-17 12:52:23] INFO root fetch - main [MainThread]: End processing [python-lokalise-api]: success
+[2024-04-17 12:52:23] INFO root fetch - processPackages [vitya]: Remove: archive file [/home/abi/fetcher/tmp/vitya-0.20.2.tar.gz]
+[2024-04-17 12:52:23] INFO root fetch - processPackages [vitya]: Remove: archive file [/home/abi/fetcher/tmp/vitya-0.20.3.tar.gz]
+[2024-04-17 12:52:23] INFO root fetch - main [MainThread]: End processing [vitya]: success
+[2024-04-17 12:52:23] INFO root fetch - processPackages [kingdon]: Remove: archive file [/home/abi/fetcher/tmp/kingdon-0.3.2.tar.gz]
+[2024-04-17 12:52:23] INFO root fetch - processPackages [kingdon]: Remove: archive file [/home/abi/fetcher/tmp/kingdon-1.0.0.tar.gz]
+[2024-04-17 12:52:23] INFO root fetch - main [MainThread]: End processing [kingdon]: success
+[2024-04-17 12:52:24] INFO root fetch - processPackages [casa-formats-io]: Remove: archive file [/home/abi/fetcher/tmp/casa-formats-io-0.2.2.tar.gz]
+[2024-04-17 12:52:24] INFO root fetch - processPackages [casa-formats-io]: Remove: archive file [/home/abi/fetcher/tmp/casa_formats_io-0.2.3.tar.gz]
+[2024-04-17 12:52:24] INFO root fetch - main [MainThread]: End processing [casa-formats-io]: success
+[2024-04-17 12:52:40] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-17 12:52:40] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-17 12:52:40] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-17 12:52:40] INFO root fetch - main [MainThread]: Store serial: [22804156]
