@@ -16948,3 +16948,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:08:51] INFO root fetch - processPackages [scandir-rs]: Remove: archive file [/home/abi/fetcher/tmp/scandir_rs-2.7.0.tar.gz]
 [2024-04-17 11:08:51] INFO root fetch - main [MainThread]: End processing [scandir-rs]: success
 [2024-04-17 11:08:51] INFO root fetch - main [MainThread]: Store serial: [22802765]
+[2024-04-17 11:10:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802765]
+[2024-04-17 11:11:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 11:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyQtUIkit
+[2024-04-17 11:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pispy-client
+[2024-04-17 11:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elphem
+[2024-04-17 11:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moptipy
+[2024-04-17 11:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotframework-async-keyword
+[2024-04-17 11:11:01] INFO root fetch - processPackages [elphem]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-17 11:11:01] INFO root fetch - processPackages [pispy-client]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-17 11:11:01] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.7.0] Old Version: [2.5.1]
+[2024-04-17 11:11:01] INFO root fetch - processPackages [moptipy]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-17 11:11:01] INFO root fetch - processPackages [elphem]: Downloading https://files.pythonhosted.org/packages/1d/09/fee4ece686228eaa9803fd4ff5a270926312e8fd210b29a7e0e045b9b083/elphem-0.1.0.tar.gz
+[2024-04-17 11:11:01] INFO root fetch - processPackages [robotframework-async-keyword]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-17 11:11:01] INFO root fetch - processPackages [pispy-client]: Downloading https://files.pythonhosted.org/packages/d2/8f/63bb4d645010414e21a2e5d0199ebfa6c821daac99d6c2a8ca775c3c132a/pispy-client-0.5.0.tar.gz
+[2024-04-17 11:11:01] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/33/83/dc546bc7a9a9989c913387fd8d0ea0fe339bec1f1c2cb62aced7fad6778b/PyQtUIkit-2.5.1.tar.gz
+[2024-04-17 11:11:01] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/79/ff/c02163781ada2fee4bba702ad69e5a4f2f4c03a9cfd912ff8123846ab35e/moptipy-0.9.98.tar.gz
+[2024-04-17 11:11:01] INFO root fetch - processPackages [robotframework-async-keyword]: Downloading https://files.pythonhosted.org/packages/0f/c5/a14207a372dcd217bad6991a329f2d580a81fdb106c2211968f96cb30dd6/robotframework-async-keyword-1.1.8.tar.gz
+[2024-04-17 11:11:01] INFO root fetch - processPackages [elphem]: Downloading https://files.pythonhosted.org/packages/52/1f/aaa0fae848bbd1fe865e9e34f9801bc1e3b11db48213e54ee4b68da50708/elphem-0.2.0.tar.gz
+[2024-04-17 11:11:01] INFO root fetch - processPackages [pispy-client]: Downloading https://files.pythonhosted.org/packages/3b/70/d6f52012cc0a2225ffeaec4b8e76f76f72ffc4d2539dbc80f608a019e529/pispy_client-0.6.0.tar.gz
+[2024-04-17 11:11:02] INFO root fetch - processPackages [elphem]: executing diffoscope
+[2024-04-17 11:11:02] INFO root fetch - processPackages [elphem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elphem-0.1.0.tar.gz tmp/elphem-0.2.0.tar.gz --markdown 20240417/e/elphem/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-17 11:11:02] INFO root fetch - processPackages [pispy-client]: executing diffoscope
+[2024-04-17 11:11:02] INFO root fetch - processPackages [pispy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pispy-client-0.5.0.tar.gz tmp/pispy_client-0.6.0.tar.gz --markdown 20240417/p/pispy-client/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-17 11:11:02] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/2f/d7/424fcae7afec6ffbe1b93623a512120c3ee395d732f076f08a03188e45cf/PyQtUIkit-2.7.0.tar.gz
+[2024-04-17 11:11:02] INFO root fetch - processPackages [robotframework-async-keyword]: Downloading https://files.pythonhosted.org/packages/73/00/f1a12105766044b7a647e16e866ebd61195a1cf296a0c939bd1f4714f566/robotframework_async_keyword-1.1.9.tar.gz
+[2024-04-17 11:11:02] INFO root fetch - processPackages [robotframework-async-keyword]: executing diffoscope
+[2024-04-17 11:11:02] INFO root fetch - processPackages [robotframework-async-keyword]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-async-keyword-1.1.8.tar.gz tmp/robotframework_async_keyword-1.1.9.tar.gz --markdown 20240417/r/robotframework-async-keyword/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-17 11:11:02] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/2a/cf/498083d5cae469a295d1f70ea131664c0ac6641c8a08698dee5e01d2204b/moptipy-0.9.99.tar.gz
+[2024-04-17 11:11:02] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2024-04-17 11:11:02] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.98.tar.gz tmp/moptipy-0.9.99.tar.gz --markdown 20240417/m/moptipy/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-17 11:11:02] INFO root fetch - processPackages [pispy-client]: Remove: archive file [/home/abi/fetcher/tmp/pispy-client-0.5.0.tar.gz]
+[2024-04-17 11:11:02] INFO root fetch - processPackages [pispy-client]: Remove: archive file [/home/abi/fetcher/tmp/pispy_client-0.6.0.tar.gz]
+[2024-04-17 11:11:02] INFO root fetch - main [MainThread]: End processing [pispy-client]: success
+[2024-04-17 11:11:02] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-17 11:11:02] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.5.1.tar.gz tmp/PyQtUIkit-2.7.0.tar.gz --markdown 20240417/P/PyQtUIkit/2.5.1-2.7.0/README.md --exclude *.pyd
+[2024-04-17 11:11:02] INFO root fetch - processPackages [elphem]: Remove: archive file [/home/abi/fetcher/tmp/elphem-0.1.0.tar.gz]
+[2024-04-17 11:11:02] INFO root fetch - processPackages [elphem]: Remove: archive file [/home/abi/fetcher/tmp/elphem-0.2.0.tar.gz]
+[2024-04-17 11:11:02] INFO root fetch - main [MainThread]: End processing [elphem]: success
+[2024-04-17 11:11:03] INFO root fetch - processPackages [robotframework-async-keyword]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-async-keyword-1.1.8.tar.gz]
+[2024-04-17 11:11:03] INFO root fetch - processPackages [robotframework-async-keyword]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_async_keyword-1.1.9.tar.gz]
+[2024-04-17 11:11:03] INFO root fetch - main [MainThread]: End processing [robotframework-async-keyword]: success
+[2024-04-17 11:11:03] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.5.1.tar.gz]
+[2024-04-17 11:11:03] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.7.0.tar.gz]
+[2024-04-17 11:11:03] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-17 11:11:04] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.98.tar.gz]
+[2024-04-17 11:11:04] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.99.tar.gz]
+[2024-04-17 11:11:04] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2024-04-17 11:11:04] INFO root fetch - main [MainThread]: Store serial: [22802782]
