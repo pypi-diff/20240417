@@ -8709,3 +8709,111 @@
 [2024-04-17 04:58:27] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.1.6.tar.gz]
 [2024-04-17 04:58:27] INFO root fetch - main [MainThread]: End processing [ptcr]: success
 [2024-04-17 04:58:27] INFO root fetch - main [MainThread]: Store serial: [22799172]
+[2024-04-17 05:00:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799172]
+[2024-04-17 05:00:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-17 05:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchmetrics-ext
+[2024-04-17 05:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: outerop
+[2024-04-17 05:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaraco.packaging
+[2024-04-17 05:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai-to-sqlite
+[2024-04-17 05:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geo-inference
+[2024-04-17 05:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adbutils
+[2024-04-17 05:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omop2poll
+[2024-04-17 05:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlflow-oidc-auth
+[2024-04-17 05:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agentrun
+[2024-04-17 05:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: maxwell-utils
+[2024-04-17 05:00:36] INFO root fetch - processPackages [mlflow-oidc-auth]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-17 05:00:36] INFO root fetch - processPackages [agentrun]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-17 05:00:36] WARNING root fetch - processPackages [omop2poll]: Skipping, unable to determine old version
+[2024-04-17 05:00:36] INFO root fetch - processPackages [maxwell-utils]: New version: [0.7.0] Old Version: [0.6.5]
+[2024-04-17 05:00:36] INFO root fetch - processPackages [omop2poll]: Start processing: iac-init
+[2024-04-17 05:00:36] INFO root fetch - main [MainThread]: End processing [omop2poll] error
+[2024-04-17 05:00:36] INFO root fetch - processPackages [openai-to-sqlite]: New version: [0.4.1] Old Version: [0.4]
+[2024-04-17 05:00:36] INFO root fetch - processPackages [jaraco.packaging]: New version: [9.6.0] Old Version: [9.5.0]
+[2024-04-17 05:00:36] INFO root fetch - processPackages [adbutils]: New version: [2.4.0] Old Version: [2.3.1]
+[2024-04-17 05:00:36] WARNING root fetch - processPackages [torchmetrics-ext]: Skipping, unable to determine old version
+[2024-04-17 05:00:36] INFO root fetch - processPackages [torchmetrics-ext]: Start processing: simpleCalculadora
+[2024-04-17 05:00:36] INFO root fetch - main [MainThread]: End processing [torchmetrics-ext] error
+[2024-04-17 05:00:36] INFO root fetch - processPackages [geo-inference]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-17 05:00:36] INFO root fetch - processPackages [outerop]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-17 05:00:36] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/48/d6/56872ff61d2ded5256e80c2a1b0699d23ed0a29500610f233bcec60f1927/mlflow_oidc_auth-1.2.0.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [iac-init]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 05:00:36] INFO root fetch - processPackages [agentrun]: Downloading https://files.pythonhosted.org/packages/a3/ee/1b681ccf4bd1365f0277404017d84f544fea6eb16b8cce5e42c6b03b8f4d/agentrun-0.2.0.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [simpleCalculadora]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 05:00:36] INFO root fetch - processPackages [maxwell-utils]: Downloading https://files.pythonhosted.org/packages/8f/05/f4307445647cd2f55dc4c1f391ab13d6dc7b87037aa8eb395264ed2749ff/maxwell_utils-0.6.5.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [jaraco.packaging]: Downloading https://files.pythonhosted.org/packages/1b/9e/378fb4087b79a8c88233afed17a314757e1437ad26e31db8b8e634505502/jaraco.packaging-9.5.0.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [openai-to-sqlite]: Downloading https://files.pythonhosted.org/packages/e8/03/0069d1f1bb66a32440e3e2a3299d0b09f7060ced41a724a93084ff34f418/openai-to-sqlite-0.4.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/ff/99/8f950e5b7d29796713c3037ff26723eb63420a8fa1e9d2cacef0c5eaf2cd/adbutils-2.3.1.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/31/a5/7752ad5c00c30308168280af3a2da33fe7799fa15968f7380d5e7bfe0c92/iac_init-0.2.8.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [geo-inference]: Downloading https://files.pythonhosted.org/packages/ab/7f/bc7c577eb64386dd62846555259ed4d88bfcad009bee7fac7e160685c9c8/geo_inference-2.0.0.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [outerop]: Downloading https://files.pythonhosted.org/packages/e6/8e/d3f622ece3a838dd4a05abb9a9d992cc43c14da6e244306ec0844e43e773/outerop-0.2.1.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [openai-to-sqlite]: Downloading https://files.pythonhosted.org/packages/3c/2c/682b30de1407bba63c03dce2187910e686537a8a63f8e83500a32ebb4c59/openai_to_sqlite-0.4.1.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [simpleCalculadora]: Downloading https://files.pythonhosted.org/packages/51/86/9540c902dfd9cebfc9819aee3481198b16d28c1ea7ac808ddae15ef7fd27/simpleCalculadora-0.0.1.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/4b/5d/b53df10a92ebcfc0c41a254afd5b6ed981eb9a13674262f76fd420b43530/adbutils-2.4.0.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [jaraco.packaging]: Downloading https://files.pythonhosted.org/packages/57/8b/42b88d243bcb18694542df7965e607c2e8227aefed8ffa077ca96389ba83/jaraco_packaging-9.6.0.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [agentrun]: Downloading https://files.pythonhosted.org/packages/94/78/ff30982f2a66ece96176d9cffc0f1f9ecadce5737b59a46cd75d96a10e2a/agentrun-0.2.1.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [openai-to-sqlite]: executing diffoscope
+[2024-04-17 05:00:36] INFO root fetch - processPackages [openai-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-to-sqlite-0.4.tar.gz tmp/openai_to_sqlite-0.4.1.tar.gz --markdown 20240417/o/openai-to-sqlite/0.4-0.4.1/README.md --exclude *.pyd
+[2024-04-17 05:00:36] INFO root fetch - processPackages [maxwell-utils]: Downloading https://files.pythonhosted.org/packages/1e/e8/53a168645a39a4f923800dd0216760933ff6a76af39dfb85021445d06178/maxwell_utils-0.7.0.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/25/8d/d35e6d463aa60682350fcc76d43a267cf2bb515b8f2f69b503ed087bfb3b/mlflow_oidc_auth-1.3.0.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/40/f6/cddd05feb265d18584a54810aa9f32530f365ba7ff7ca63337ef29a4644d/iac_init-0.2.9.tar.gz
+[2024-04-17 05:00:36] INFO root fetch - processPackages [jaraco.packaging]: executing diffoscope
+[2024-04-17 05:00:36] INFO root fetch - processPackages [jaraco.packaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.packaging-9.5.0.tar.gz tmp/jaraco_packaging-9.6.0.tar.gz --markdown 20240417/j/jaraco.packaging/9.5.0-9.6.0/README.md --exclude *.pyd
+[2024-04-17 05:00:36] INFO root fetch - processPackages [agentrun]: executing diffoscope
+[2024-04-17 05:00:36] INFO root fetch - processPackages [agentrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentrun-0.2.0.tar.gz tmp/agentrun-0.2.1.tar.gz --markdown 20240417/a/agentrun/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-17 05:00:36] INFO root fetch - processPackages [adbutils]: executing diffoscope
+[2024-04-17 05:00:36] INFO root fetch - processPackages [adbutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbutils-2.3.1.tar.gz tmp/adbutils-2.4.0.tar.gz --markdown 20240417/a/adbutils/2.3.1-2.4.0/README.md --exclude *.pyd
+[2024-04-17 05:00:37] INFO root fetch - processPackages [outerop]: Downloading https://files.pythonhosted.org/packages/c3/28/90f0f0980eab7943632fbce7ecf4f9c745b72246101f7faa50863d776167/outerop-0.2.2.tar.gz
+[2024-04-17 05:00:37] INFO root fetch - processPackages [geo-inference]: Downloading https://files.pythonhosted.org/packages/89/f0/935acd265d01ad94ffa588e5e5bac3238bada7412033df40db4b7e0cd222/geo_inference-2.0.1.tar.gz
+[2024-04-17 05:00:37] INFO root fetch - processPackages [maxwell-utils]: executing diffoscope
+[2024-04-17 05:00:37] INFO root fetch - processPackages [maxwell-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxwell_utils-0.6.5.tar.gz tmp/maxwell_utils-0.7.0.tar.gz --markdown 20240417/m/maxwell-utils/0.6.5-0.7.0/README.md --exclude *.pyd
+[2024-04-17 05:00:37] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-17 05:00:37] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.2.8.tar.gz tmp/iac_init-0.2.9.tar.gz --markdown 20240417/i/iac-init/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 05:00:37] INFO root fetch - processPackages [mlflow-oidc-auth]: executing diffoscope
+[2024-04-17 05:00:37] INFO root fetch - processPackages [mlflow-oidc-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_oidc_auth-1.2.0.tar.gz tmp/mlflow_oidc_auth-1.3.0.tar.gz --markdown 20240417/m/mlflow-oidc-auth/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-17 05:00:37] INFO root fetch - processPackages [simpleCalculadora]: Downloading https://files.pythonhosted.org/packages/31/d1/36fc26acfd2073fb75e551393b074de5b2a7b5ca4d46bdf556fea809054d/simpleCalculadora-0.0.2.tar.gz
+[2024-04-17 05:00:37] INFO root fetch - processPackages [outerop]: executing diffoscope
+[2024-04-17 05:00:37] INFO root fetch - processPackages [outerop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerop-0.2.1.tar.gz tmp/outerop-0.2.2.tar.gz --markdown 20240417/o/outerop/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-17 05:00:37] INFO root fetch - processPackages [geo-inference]: executing diffoscope
+[2024-04-17 05:00:37] INFO root fetch - processPackages [geo-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_inference-2.0.0.tar.gz tmp/geo_inference-2.0.1.tar.gz --markdown 20240417/g/geo-inference/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-17 05:00:37] INFO root fetch - processPackages [simpleCalculadora]: executing diffoscope
+[2024-04-17 05:00:37] INFO root fetch - processPackages [simpleCalculadora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleCalculadora-0.0.1.tar.gz tmp/simpleCalculadora-0.0.2.tar.gz --markdown 20240417/s/simpleCalculadora/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 05:00:37] INFO root fetch - processPackages [openai-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/openai-to-sqlite-0.4.tar.gz]
+[2024-04-17 05:00:37] INFO root fetch - processPackages [openai-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/openai_to_sqlite-0.4.1.tar.gz]
+[2024-04-17 05:00:37] INFO root fetch - processPackages [openai-to-sqlite]: Start processing: stackql-deploy
+[2024-04-17 05:00:37] INFO root fetch - main [MainThread]: End processing [openai-to-sqlite]: success
+[2024-04-17 05:00:37] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 05:00:37] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 05:00:37] INFO root fetch - processPackages [jaraco.packaging]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.packaging-9.5.0.tar.gz]
+[2024-04-17 05:00:37] INFO root fetch - processPackages [jaraco.packaging]: Remove: archive file [/home/abi/fetcher/tmp/jaraco_packaging-9.6.0.tar.gz]
+[2024-04-17 05:00:37] INFO root fetch - main [MainThread]: End processing [jaraco.packaging]: success
+[2024-04-17 05:00:37] INFO root fetch - processPackages [maxwell-utils]: Remove: archive file [/home/abi/fetcher/tmp/maxwell_utils-0.6.5.tar.gz]
+[2024-04-17 05:00:37] INFO root fetch - processPackages [maxwell-utils]: Remove: archive file [/home/abi/fetcher/tmp/maxwell_utils-0.7.0.tar.gz]
+[2024-04-17 05:00:37] INFO root fetch - main [MainThread]: End processing [maxwell-utils]: success
+[2024-04-17 05:00:38] INFO root fetch - processPackages [outerop]: Remove: archive file [/home/abi/fetcher/tmp/outerop-0.2.1.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - processPackages [outerop]: Remove: archive file [/home/abi/fetcher/tmp/outerop-0.2.2.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - main [MainThread]: End processing [outerop]: success
+[2024-04-17 05:00:38] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 05:00:38] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.3.1.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.4.0.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - main [MainThread]: End processing [adbutils]: success
+[2024-04-17 05:00:38] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 05:00:38] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 05:00:38] INFO root fetch - processPackages [simpleCalculadora]: Remove: archive file [/home/abi/fetcher/tmp/simpleCalculadora-0.0.1.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - processPackages [agentrun]: Remove: archive file [/home/abi/fetcher/tmp/agentrun-0.2.0.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - processPackages [simpleCalculadora]: Remove: archive file [/home/abi/fetcher/tmp/simpleCalculadora-0.0.2.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - processPackages [agentrun]: Remove: archive file [/home/abi/fetcher/tmp/agentrun-0.2.1.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - main [MainThread]: End processing [simpleCalculadora]: success
+[2024-04-17 05:00:38] INFO root fetch - main [MainThread]: End processing [agentrun]: success
+[2024-04-17 05:00:38] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_oidc_auth-1.2.0.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_oidc_auth-1.3.0.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - main [MainThread]: End processing [mlflow-oidc-auth]: success
+[2024-04-17 05:00:38] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.2.8.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.2.9.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-17 05:00:38] INFO root fetch - processPackages [geo-inference]: Remove: archive file [/home/abi/fetcher/tmp/geo_inference-2.0.0.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - processPackages [geo-inference]: Remove: archive file [/home/abi/fetcher/tmp/geo_inference-2.0.1.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - main [MainThread]: End processing [geo-inference]: success
+[2024-04-17 05:00:38] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 05:00:38] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 05:00:38] INFO root fetch - main [MainThread]: Store serial: [22799217]
