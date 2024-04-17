@@ -7538,3 +7538,33 @@
 [2024-04-17 03:56:16] INFO root fetch - processPackages [pyodps]: Remove: archive file [/home/abi/fetcher/tmp/pyodps-0.9.5.tar.gz]
 [2024-04-17 03:56:16] INFO root fetch - main [MainThread]: End processing [pyodps]: success
 [2024-04-17 03:56:16] INFO root fetch - main [MainThread]: Store serial: [22798692]
+[2024-04-17 03:58:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798692]
+[2024-04-17 03:58:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 03:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-connect
+[2024-04-17 03:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stackql-deploy
+[2024-04-17 03:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dg-face-tracking
+[2024-04-17 03:58:26] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 03:58:26] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.176] Old Version: [0.1.175]
+[2024-04-17 03:58:26] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 03:58:26] INFO root fetch - processPackages [dg-face-tracking]: New version: [0.1.2] Old Version: [0.0.9]
+[2024-04-17 03:58:26] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/f8/fd/7092ea623e5c5fc9f12486e47445f93160cf7b7abc104337399376e01e35/ansar_connect-0.1.175.tar.gz
+[2024-04-17 03:58:26] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 03:58:26] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/79/cd/f31021b923a85c65086f8f5e6fb2fe050b0d48d5ee2576c02a1040f0cc64/dg_face_tracking-0.0.9-py3-none-any.whl
+[2024-04-17 03:58:27] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 03:58:27] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 03:58:27] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/c5/12/786a497753f2833245b658fe4758e8a9e3fce13a7309ae504f7f5b63d74c/ansar_connect-0.1.176.tar.gz
+[2024-04-17 03:58:27] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-17 03:58:27] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.175.tar.gz tmp/ansar_connect-0.1.176.tar.gz --markdown 20240417/a/ansar-connect/0.1.175-0.1.176/README.md --exclude *.pyd
+[2024-04-17 03:58:27] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/00/bc/c047c1ec5e389ec2816c2e673b5c6477e9b4dbd673021982a3b3cdc97b03/dg_face_tracking-0.1.2-py3-none-any.whl
+[2024-04-17 03:58:27] INFO root fetch - processPackages [dg-face-tracking]: executing diffoscope
+[2024-04-17 03:58:27] INFO root fetch - processPackages [dg-face-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg_face_tracking-0.0.9-py3-none-any.whl.zip tmp/dg_face_tracking-0.1.2-py3-none-any.whl.zip --markdown 20240417/d/dg-face-tracking/0.0.9-0.1.2/README.md --exclude *.pyd
+[2024-04-17 03:58:27] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 03:58:27] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 03:58:27] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 03:58:27] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.175.tar.gz]
+[2024-04-17 03:58:27] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.176.tar.gz]
+[2024-04-17 03:58:27] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-17 03:58:28] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.0.9-py3-none-any.whl.zip]
+[2024-04-17 03:58:28] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.1.2-py3-none-any.whl.zip]
+[2024-04-17 03:58:28] INFO root fetch - main [MainThread]: End processing [dg-face-tracking]: success
+[2024-04-17 03:58:28] INFO root fetch - main [MainThread]: Store serial: [22798709]
