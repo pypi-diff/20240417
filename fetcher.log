@@ -11530,3 +11530,15 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 07:43:02] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
 [2024-04-17 07:43:02] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2024-04-17 07:43:02] INFO root fetch - main [MainThread]: Store serial: [22800250]
+[2024-04-17 07:45:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800250]
+[2024-04-17 07:45:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 07:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: C-MTEB
+[2024-04-17 07:45:12] INFO root fetch - processPackages [C-MTEB]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-17 07:45:12] INFO root fetch - processPackages [C-MTEB]: Downloading https://files.pythonhosted.org/packages/88/a6/c421b437f05c52b06b59a194641c483bf58344af7b4230c951fcf57b19aa/C_MTEB-1.1.0.tar.gz
+[2024-04-17 07:45:12] INFO root fetch - processPackages [C-MTEB]: Downloading https://files.pythonhosted.org/packages/37/f8/29f6c8ac48934cfda2bb598fe3e4322f18580f7c5fe24df635c387a0dab4/C_MTEB-1.1.1.tar.gz
+[2024-04-17 07:45:12] INFO root fetch - processPackages [C-MTEB]: executing diffoscope
+[2024-04-17 07:45:12] INFO root fetch - processPackages [C-MTEB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/C_MTEB-1.1.0.tar.gz tmp/C_MTEB-1.1.1.tar.gz --markdown 20240417/C/C-MTEB/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-17 07:45:13] INFO root fetch - processPackages [C-MTEB]: Remove: archive file [/home/abi/fetcher/tmp/C_MTEB-1.1.0.tar.gz]
+[2024-04-17 07:45:13] INFO root fetch - processPackages [C-MTEB]: Remove: archive file [/home/abi/fetcher/tmp/C_MTEB-1.1.1.tar.gz]
+[2024-04-17 07:45:13] INFO root fetch - main [MainThread]: End processing [C-MTEB]: success
+[2024-04-17 07:45:13] INFO root fetch - main [MainThread]: Store serial: [22800252]
