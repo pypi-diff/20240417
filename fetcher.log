@@ -19069,3 +19069,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:16:29] INFO root fetch - processPackages [simply-log]: Remove: archive file [/home/abi/fetcher/tmp/simply-log-0.2.2.tar.gz]
 [2024-04-17 12:16:29] INFO root fetch - main [MainThread]: End processing [simply-log]: success
 [2024-04-17 12:16:29] INFO root fetch - main [MainThread]: Store serial: [22803724]
+[2024-04-17 12:18:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803724]
+[2024-04-17 12:18:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 12:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyetp
+[2024-04-17 12:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhmiscellany
+[2024-04-17 12:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-fhl
+[2024-04-17 12:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: babelfont
+[2024-04-17 12:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-keras-nightly
+[2024-04-17 12:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: algokit-utils
+[2024-04-17 12:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simply-log
+[2024-04-17 12:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dg-itest
+[2024-04-17 12:18:37] INFO root fetch - processPackages [simply-log]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-17 12:18:37] INFO root fetch - processPackages [babelfont]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-04-17 12:18:37] INFO root fetch - processPackages [nonebot-plugin-fhl]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-17 12:18:38] INFO root fetch - processPackages [pyetp]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-17 12:18:38] INFO root fetch - processPackages [algokit-utils]: New version: [2.2.2b2] Old Version: [2.2.2b1]
+[2024-04-17 12:18:38] INFO root fetch - processPackages [simply-log]: Downloading https://files.pythonhosted.org/packages/94/cf/262fbf06b6e0927a5cea5ddc08c0b58dcc4636526939fa94fe265fb464aa/simply-log-0.2.2.tar.gz
+[2024-04-17 12:18:38] INFO root fetch - processPackages [babelfont]: Downloading https://files.pythonhosted.org/packages/33/c9/df977cf5b20192f3bcd48cc6f042f132b3ef0dcb09b17c8ba9f88cf9ea55/babelfont-3.0.2.tar.gz
+[2024-04-17 12:18:38] INFO root fetch - processPackages [dg-itest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 12:18:38] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/a6/8b/ead09a8deace21d44722559b8f297f87c1fbe4e29c3f2225a1db02da3a3a/nonebot_plugin_fhl-0.1.2.tar.gz
+[2024-04-17 12:18:38] INFO root fetch - processPackages [zhmiscellany]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-04-17 12:18:38] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024041709] Old Version: [2.17.0.dev2024041609]
+[2024-04-17 12:18:38] INFO root fetch - processPackages [pyetp]: Downloading https://files.pythonhosted.org/packages/fe/77/22b020f4006f53802d7e1270c9884e0e639c7f33e84daa4e9822e7d0a89b/pyetp-0.0.4.tar.gz
+[2024-04-17 12:18:38] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/f3/8f/491073c1c69bbc80071ec20718704c4d0caf88a063f6015f94ebc8d70b1a/algokit_utils-2.2.2b1-py3-none-any.whl
+[2024-04-17 12:18:38] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/24/46/f752351e8a531d5b66660c97f09267af91208c30a8ac5a9c47d84094956c/zhmiscellany-2.0.6-py3-none-any.whl
+[2024-04-17 12:18:38] INFO root fetch - processPackages [dg-itest]: Downloading https://files.pythonhosted.org/packages/c3/bc/67359d3a583eaae52d3b6acfa02f600d9982aa97155110fa0caffc4922be/dg-itest-0.0.8.tar.gz
+[2024-04-17 12:18:38] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/6d/f8/6ae0b577c6a63dcc3a54ea5d2b5176f618934f259fb2f5888201f085d3b3/tf_keras_nightly-2.17.0.dev2024041609.tar.gz
+[2024-04-17 12:18:38] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/cf/e8/fef10a913995e5e775a5e3f8c77413b6ac56cc4fd7fc54753ff06035d13c/nonebot_plugin_fhl-0.1.3.tar.gz
+[2024-04-17 12:18:38] INFO root fetch - processPackages [simply-log]: Downloading https://files.pythonhosted.org/packages/c1/97/cc8723b4cba7419a776efb033ac14c72322ed5428de3242f278496a2fbb5/simply-log-0.2.3.tar.gz
+[2024-04-17 12:18:38] INFO root fetch - processPackages [babelfont]: Downloading https://files.pythonhosted.org/packages/56/1d/8c5a8ef129a659586fe8ee1feded199272f5b8e4a9805b0bb99559323ce3/babelfont-3.0.3.tar.gz
+[2024-04-17 12:18:38] INFO root fetch - processPackages [nonebot-plugin-fhl]: executing diffoscope
+[2024-04-17 12:18:38] INFO root fetch - processPackages [nonebot-plugin-fhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_fhl-0.1.2.tar.gz tmp/nonebot_plugin_fhl-0.1.3.tar.gz --markdown 20240417/n/nonebot-plugin-fhl/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-17 12:18:38] INFO root fetch - processPackages [simply-log]: executing diffoscope
+[2024-04-17 12:18:38] INFO root fetch - processPackages [simply-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simply-log-0.2.2.tar.gz tmp/simply-log-0.2.3.tar.gz --markdown 20240417/s/simply-log/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-17 12:18:38] INFO root fetch - processPackages [pyetp]: Downloading https://files.pythonhosted.org/packages/f7/88/542993ca7f0166ae73752cecacb1cd492b4df9c074b31c5aa729efe412a6/pyetp-0.0.5.tar.gz
+[2024-04-17 12:18:38] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/1d/d4/5bbe36206bb4dd959a481c01389674bb79917be26baa46ad2221e54db8a3/algokit_utils-2.2.2b2-py3-none-any.whl
+[2024-04-17 12:18:38] INFO root fetch - processPackages [babelfont]: executing diffoscope
+[2024-04-17 12:18:38] INFO root fetch - processPackages [babelfont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babelfont-3.0.2.tar.gz tmp/babelfont-3.0.3.tar.gz --markdown 20240417/b/babelfont/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-04-17 12:18:38] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/b7/74/057d5cb987e213fceef2ad3116fc22c495c244d608ef9e3726829d14cfbc/zhmiscellany-2.0.7-py3-none-any.whl
+[2024-04-17 12:18:38] INFO root fetch - processPackages [pyetp]: executing diffoscope
+[2024-04-17 12:18:38] INFO root fetch - processPackages [pyetp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyetp-0.0.4.tar.gz tmp/pyetp-0.0.5.tar.gz --markdown 20240417/p/pyetp/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-17 12:18:38] INFO root fetch - processPackages [dg-itest]: Downloading https://files.pythonhosted.org/packages/49/3d/20545a273c3ff5068b2cad2c51394773957ec86cd1607d365b25b7773979/dg-itest-0.0.9.tar.gz
+[2024-04-17 12:18:38] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/6c/39/aa71632da4de36f6ca3cf7638c82ded2ae689dfc5bf9f54a1d4829b71aed/tf_keras_nightly-2.17.0.dev2024041709.tar.gz
+[2024-04-17 12:18:38] INFO root fetch - processPackages [dg-itest]: executing diffoscope
+[2024-04-17 12:18:38] INFO root fetch - processPackages [dg-itest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg-itest-0.0.8.tar.gz tmp/dg-itest-0.0.9.tar.gz --markdown 20240417/d/dg-itest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 12:18:38] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2024-04-17 12:18:38] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-2.2.2b1-py3-none-any.whl.zip tmp/algokit_utils-2.2.2b2-py3-none-any.whl.zip --markdown 20240417/a/algokit-utils/2.2.2b1-2.2.2b2/README.md --exclude *.pyd
+[2024-04-17 12:18:38] INFO root fetch - processPackages [zhmiscellany]: executing diffoscope
+[2024-04-17 12:18:38] INFO root fetch - processPackages [zhmiscellany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmiscellany-2.0.6-py3-none-any.whl.zip tmp/zhmiscellany-2.0.7-py3-none-any.whl.zip --markdown 20240417/z/zhmiscellany/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-04-17 12:18:39] INFO root fetch - processPackages [simply-log]: Remove: archive file [/home/abi/fetcher/tmp/simply-log-0.2.2.tar.gz]
+[2024-04-17 12:18:39] INFO root fetch - processPackages [simply-log]: Remove: archive file [/home/abi/fetcher/tmp/simply-log-0.2.3.tar.gz]
+[2024-04-17 12:18:39] INFO root fetch - main [MainThread]: End processing [simply-log]: success
+[2024-04-17 12:18:39] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.2.tar.gz]
+[2024-04-17 12:18:39] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.3.tar.gz]
+[2024-04-17 12:18:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fhl]: success
+[2024-04-17 12:18:39] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-04-17 12:18:39] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024041609.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024041709.tar.gz --markdown 20240417/t/tf-keras-nightly/2.17.0.dev2024041609-2.17.0.dev2024041709/README.md --exclude *.pyd
+[2024-04-17 12:18:39] INFO root fetch - processPackages [dg-itest]: Remove: archive file [/home/abi/fetcher/tmp/dg-itest-0.0.8.tar.gz]
+[2024-04-17 12:18:39] INFO root fetch - processPackages [dg-itest]: Remove: archive file [/home/abi/fetcher/tmp/dg-itest-0.0.9.tar.gz]
+[2024-04-17 12:18:39] INFO root fetch - main [MainThread]: End processing [dg-itest]: success
+[2024-04-17 12:18:39] INFO root fetch - processPackages [pyetp]: Remove: archive file [/home/abi/fetcher/tmp/pyetp-0.0.4.tar.gz]
+[2024-04-17 12:18:39] INFO root fetch - processPackages [pyetp]: Remove: archive file [/home/abi/fetcher/tmp/pyetp-0.0.5.tar.gz]
+[2024-04-17 12:18:39] INFO root fetch - main [MainThread]: End processing [pyetp]: success
+[2024-04-17 12:18:39] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.2.2b1-py3-none-any.whl.zip]
+[2024-04-17 12:18:39] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.2.2b2-py3-none-any.whl.zip]
+[2024-04-17 12:18:39] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2024-04-17 12:18:39] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-2.0.6-py3-none-any.whl.zip]
+[2024-04-17 12:18:39] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-2.0.7-py3-none-any.whl.zip]
+[2024-04-17 12:18:39] INFO root fetch - main [MainThread]: End processing [zhmiscellany]: success
+[2024-04-17 12:18:40] INFO root fetch - processPackages [babelfont]: Remove: archive file [/home/abi/fetcher/tmp/babelfont-3.0.2.tar.gz]
+[2024-04-17 12:18:40] INFO root fetch - processPackages [babelfont]: Remove: archive file [/home/abi/fetcher/tmp/babelfont-3.0.3.tar.gz]
+[2024-04-17 12:18:40] INFO root fetch - main [MainThread]: End processing [babelfont]: success
+[2024-04-17 12:18:41] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024041609.tar.gz]
+[2024-04-17 12:18:41] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024041709.tar.gz]
+[2024-04-17 12:18:41] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-04-17 12:18:41] INFO root fetch - main [MainThread]: Store serial: [22803750]
