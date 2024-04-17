@@ -2707,3 +2707,92 @@
 [2024-04-17 02:46:20] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404160044.tar.gz]
 [2024-04-17 02:46:20] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-17 02:46:20] INFO root fetch - main [MainThread]: Store serial: [22796869]
+[2024-04-17 02:48:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796869]
+[2024-04-17 02:48:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emmet-core
+[2024-04-17 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygubu
+[2024-04-17 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nheri-simcenter
+[2024-04-17 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emmet-builders
+[2024-04-17 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nm-magic-wand-nightly
+[2024-04-17 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: silverback
+[2024-04-17 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygubu-designer
+[2024-04-17 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tsugu
+[2024-04-17 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emmet-api
+[2024-04-17 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-sns-notify
+[2024-04-17 02:48:29] INFO root fetch - processPackages [tsugu]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-17 02:48:29] INFO root fetch - processPackages [pygubu]: New version: [0.9.8.6] Old Version: [0.9.8.5]
+[2024-04-17 02:48:29] INFO root fetch - processPackages [silverback]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 02:48:29] INFO root fetch - processPackages [nheri-simcenter]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-17 02:48:29] INFO root fetch - processPackages [emmet-builders]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-17 02:48:29] INFO root fetch - processPackages [pygubu-designer]: New version: [0.39] Old Version: [0.38]
+[2024-04-17 02:48:29] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240417] Old Version: [0.2.2.20240416]
+[2024-04-17 02:48:29] INFO root fetch - processPackages [emmet-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-17 02:48:29] INFO root fetch - processPackages [emmet-api]: New version: [0.82.2] Old Version: [0.82.1]
+[2024-04-17 02:48:29] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/23/4d/0240ba5af8407f605a5b9dbe662cc853a63e633a12b48160344616c3d787/tsugu-0.4.8.tar.gz
+[2024-04-17 02:48:29] INFO root fetch - processPackages [pygubu]: Downloading https://files.pythonhosted.org/packages/06/4a/cbee79c44123c3c64727d971e6a59bdce059ef46c98df805a45eeb0f4563/pygubu-0.9.8.5.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [nheri-simcenter]: Downloading https://files.pythonhosted.org/packages/c1/31/4081d68d72b1f2addaadd417537c7b493f14e0ba3365c6198bc38298dc43/nheri_simcenter-0.9.8.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [silverback]: Downloading https://files.pythonhosted.org/packages/a7/0f/8a496679b709f70a3df2f6bf078328f2914773a61d32112beaca3c4c433c/silverback-0.3.1.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/79/85/be17b500afc3d15c1ca6b73b0cf8b7564ecc06d89b27d59ca86581efa254/emmet-core-0.9.2.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/bc/ec/a75c0a56f41924e021ac48a4aa01bb9f2c004f8a474d89298281ac1c2268/nm_magic_wand_nightly-0.2.2.20240416-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-17 02:48:30] INFO root fetch - processPackages [pygubu-designer]: Downloading https://files.pythonhosted.org/packages/53/f2/aa962a3856c884b3aaaf462ffdb2920a2946ad0e1b7d7055db9d3d2cc31e/pygubu-designer-0.38.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/b3/9f/ec08c5daefc1dab5587b18b933f8845a69362d5e4f4cd605e3028250efa8/emmet-builders-0.9.2.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-17 02:48:30] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 78349318>=10485760
+[2024-04-17 02:48:30] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-17 02:48:30] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/ec/47/902c1667c08b4d65597c10eeda5865ee8ae4961576f4a58432c526864dd2/emmet-api-0.82.1.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/1a/20/aa11dbd0c43c200302667324b90aba7691c8a534a67ec5f7587067f7e4e6/tsugu-0.4.9.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [pygubu]: Downloading https://files.pythonhosted.org/packages/42/b6/19b3771db930bf94f704ed79a0510adc9c1d734f494699369d953612e863/pygubu-0.9.8.6.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-17 02:48:30] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.4.8.tar.gz tmp/tsugu-0.4.9.tar.gz --markdown 20240417/t/tsugu/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-17 02:48:30] INFO root fetch - processPackages [silverback]: Downloading https://files.pythonhosted.org/packages/e6/23/e3abd2dfe0a5c7c2d6dc9d498e6729e8c7b4401e1525a5a90503e0ad0a67/silverback-0.3.2.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/d3/8a/c73672eb055bc5323b006090ad1112b6027d2d5cbbe46b35eaa33b3924be/emmet-builders-0.9.3.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/39/36/7d00ba06f1378fbec5969f0662af6ef91137732b5e86769a0608d1b4c6b5/emmet-api-0.82.2.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/a8/71/fb3a5816288c941fd4a8039c02a612bdb6b1e002843cb9c029f1a4210aaa/emmet-core-0.9.3.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [pygubu-designer]: Downloading https://files.pythonhosted.org/packages/40/23/9f2ab56d025bc9df386b3f5fe2b8cc4298dcb933b55e68e7b99a0c41d871/pygubu_designer-0.39.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [nheri-simcenter]: Downloading https://files.pythonhosted.org/packages/91/bc/630dd83ffd0b01a538e2d41ecc163b6894ff1759ba3330880d29fa3a1982/nheri_simcenter-0.9.9.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [silverback]: executing diffoscope
+[2024-04-17 02:48:30] INFO root fetch - processPackages [silverback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silverback-0.3.1.tar.gz tmp/silverback-0.3.2.tar.gz --markdown 20240417/s/silverback/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 02:48:30] INFO root fetch - processPackages [pygubu]: executing diffoscope
+[2024-04-17 02:48:30] INFO root fetch - processPackages [pygubu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygubu-0.9.8.5.tar.gz tmp/pygubu-0.9.8.6.tar.gz --markdown 20240417/p/pygubu/0.9.8.5-0.9.8.6/README.md --exclude *.pyd
+[2024-04-17 02:48:30] INFO root fetch - processPackages [emmet-builders]: executing diffoscope
+[2024-04-17 02:48:30] INFO root fetch - processPackages [emmet-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-builders-0.9.2.tar.gz tmp/emmet-builders-0.9.3.tar.gz --markdown 20240417/e/emmet-builders/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-17 02:48:30] INFO root fetch - processPackages [emmet-core]: executing diffoscope
+[2024-04-17 02:48:30] INFO root fetch - processPackages [emmet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-core-0.9.2.tar.gz tmp/emmet-core-0.9.3.tar.gz --markdown 20240417/e/emmet-core/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-17 02:48:30] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-04-17 02:48:30] INFO root fetch - processPackages [emmet-api]: executing diffoscope
+[2024-04-17 02:48:30] INFO root fetch - processPackages [emmet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-api-0.82.1.tar.gz tmp/emmet-api-0.82.2.tar.gz --markdown 20240417/e/emmet-api/0.82.1-0.82.2/README.md --exclude *.pyd
+[2024-04-17 02:48:30] INFO root fetch - processPackages [pygubu-designer]: executing diffoscope
+[2024-04-17 02:48:30] INFO root fetch - processPackages [pygubu-designer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygubu-designer-0.38.tar.gz tmp/pygubu_designer-0.39.tar.gz --markdown 20240417/p/pygubu-designer/0.38-0.39/README.md --exclude *.pyd
+[2024-04-17 02:48:30] INFO root fetch - processPackages [nheri-simcenter]: executing diffoscope
+[2024-04-17 02:48:30] INFO root fetch - processPackages [nheri-simcenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nheri_simcenter-0.9.8.tar.gz tmp/nheri_simcenter-0.9.9.tar.gz --markdown 20240417/n/nheri-simcenter/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-17 02:48:30] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-04-17 02:48:30] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240417/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-17 02:48:31] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.8.tar.gz]
+[2024-04-17 02:48:31] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.9.tar.gz]
+[2024-04-17 02:48:31] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-17 02:48:31] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.2.tar.gz]
+[2024-04-17 02:48:31] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.3.tar.gz]
+[2024-04-17 02:48:31] INFO root fetch - main [MainThread]: End processing [emmet-builders]: success
+[2024-04-17 02:48:31] INFO root fetch - processPackages [nheri-simcenter]: Remove: archive file [/home/abi/fetcher/tmp/nheri_simcenter-0.9.8.tar.gz]
+[2024-04-17 02:48:31] INFO root fetch - processPackages [nheri-simcenter]: Remove: archive file [/home/abi/fetcher/tmp/nheri_simcenter-0.9.9.tar.gz]
+[2024-04-17 02:48:31] INFO root fetch - main [MainThread]: End processing [nheri-simcenter]: success
+[2024-04-17 02:48:31] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-04-17 02:48:31] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-04-17 02:48:31] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-04-17 02:48:31] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.2.tar.gz]
+[2024-04-17 02:48:31] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.3.tar.gz]
+[2024-04-17 02:48:31] INFO root fetch - main [MainThread]: End processing [emmet-core]: success
+[2024-04-17 02:48:31] INFO root fetch - processPackages [silverback]: Remove: archive file [/home/abi/fetcher/tmp/silverback-0.3.1.tar.gz]
+[2024-04-17 02:48:31] INFO root fetch - processPackages [silverback]: Remove: archive file [/home/abi/fetcher/tmp/silverback-0.3.2.tar.gz]
+[2024-04-17 02:48:31] INFO root fetch - main [MainThread]: End processing [silverback]: success
+[2024-04-17 02:48:32] INFO root fetch - processPackages [pygubu]: Remove: archive file [/home/abi/fetcher/tmp/pygubu-0.9.8.5.tar.gz]
+[2024-04-17 02:48:32] INFO root fetch - processPackages [pygubu]: Remove: archive file [/home/abi/fetcher/tmp/pygubu-0.9.8.6.tar.gz]
+[2024-04-17 02:48:32] INFO root fetch - main [MainThread]: End processing [pygubu]: success
+[2024-04-17 02:48:32] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.82.1.tar.gz]
+[2024-04-17 02:48:32] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.82.2.tar.gz]
+[2024-04-17 02:48:32] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
+[2024-04-17 02:48:33] INFO root fetch - processPackages [pygubu-designer]: Remove: archive file [/home/abi/fetcher/tmp/pygubu-designer-0.38.tar.gz]
+[2024-04-17 02:48:33] INFO root fetch - processPackages [pygubu-designer]: Remove: archive file [/home/abi/fetcher/tmp/pygubu_designer-0.39.tar.gz]
+[2024-04-17 02:48:33] INFO root fetch - main [MainThread]: End processing [pygubu-designer]: success
+[2024-04-17 02:48:33] INFO root fetch - main [MainThread]: Store serial: [22796901]
