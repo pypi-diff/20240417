@@ -3006,3 +3006,18 @@
 [2024-04-17 02:57:38] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.1.tar.gz]
 [2024-04-17 02:57:38] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
 [2024-04-17 02:57:38] INFO root fetch - main [MainThread]: Store serial: [22796980]
+[2024-04-17 02:59:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796980]
+[2024-04-17 02:59:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 02:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-inventory
+[2024-04-17 02:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: okahu-observability
+[2024-04-17 02:59:47] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-17 02:59:47] WARNING root fetch - processPackages [okahu-observability]: Skipping, unable to determine old version
+[2024-04-17 02:59:47] INFO root fetch - main [MainThread]: End processing [okahu-observability] error
+[2024-04-17 02:59:47] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-04-17 02:59:47] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-04-17 02:59:47] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-04-17 02:59:47] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240417/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-17 02:59:48] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-04-17 02:59:48] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-04-17 02:59:48] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-04-17 02:59:48] INFO root fetch - main [MainThread]: Store serial: [22796991]
