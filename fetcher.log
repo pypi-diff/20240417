@@ -13736,3 +13736,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:11:28] INFO root fetch - processPackages [eflips-model]: Remove: archive file [/home/abi/fetcher/tmp/eflips_model-3.2.0.tar.gz]
 [2024-04-17 09:11:28] INFO root fetch - main [MainThread]: End processing [eflips-model]: success
 [2024-04-17 09:11:28] INFO root fetch - main [MainThread]: Store serial: [22801139]
+[2024-04-17 09:13:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801139]
+[2024-04-17 09:13:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 09:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reviutils
+[2024-04-17 09:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logicmonitor-sdk
+[2024-04-17 09:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-models-nightly
+[2024-04-17 09:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checkov
+[2024-04-17 09:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: me-toolbox
+[2024-04-17 09:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: savable
+[2024-04-17 09:13:37] INFO root fetch - processPackages [me-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 09:13:37] INFO root fetch - processPackages [reviutils]: New version: [1.4.0b1] Old Version: [1.4.0a7]
+[2024-04-17 09:13:37] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-04-17 09:13:37] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-17 09:13:37] INFO root fetch - processPackages [logicmonitor-sdk]: New version: [3.0.203] Old Version: [3.0.200]
+[2024-04-17 09:13:37] WARNING root fetch - processPackages [savable]: Skipping, unable to determine old version
+[2024-04-17 09:13:37] INFO root fetch - main [MainThread]: End processing [savable] error
+[2024-04-17 09:13:37] INFO root fetch - processPackages [me-toolbox]: Downloading https://files.pythonhosted.org/packages/7a/37/fa39d971e22733456797af998cec41ff2ef3afa5860c477decf4a10db746/me_toolbox-0.0.8.tar.gz
+[2024-04-17 09:13:37] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-04-17 09:13:37] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/b0/f2/04d590367de165de72652aa38318469e0ac8d3787bd623ae904fa5b57665/reviutils-1.4.0a7.tar.gz
+[2024-04-17 09:13:37] INFO root fetch - processPackages [logicmonitor-sdk]: Downloading https://files.pythonhosted.org/packages/68/6e/8897e730ebbe185465156fcbf3a8ce80d2f1b1a1b5d5e2ebdfea52219ca0/logicmonitor-sdk-3.0.200.tar.gz
+[2024-04-17 09:13:37] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-04-17 09:13:37] INFO root fetch - processPackages [me-toolbox]: Downloading https://files.pythonhosted.org/packages/e7/81/09362c69dc8b5600961979131d511f559f386495e23bf36e63d59421dc4d/me_toolbox-0.0.9.tar.gz
+[2024-04-17 09:13:37] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/84/a3/a98b7c85323c57b3dc65e797c405f6f5d78d449ae72f64b855ea04bc3b34/reviutils-1.4.0b1.tar.gz
+[2024-04-17 09:13:38] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-04-17 09:13:38] INFO root fetch - processPackages [me-toolbox]: executing diffoscope
+[2024-04-17 09:13:38] INFO root fetch - processPackages [me-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/me_toolbox-0.0.8.tar.gz tmp/me_toolbox-0.0.9.tar.gz --markdown 20240417/m/me-toolbox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 09:13:38] INFO root fetch - processPackages [reviutils]: executing diffoscope
+[2024-04-17 09:13:38] INFO root fetch - processPackages [reviutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviutils-1.4.0a7.tar.gz tmp/reviutils-1.4.0b1.tar.gz --markdown 20240417/r/reviutils/1.4.0a7-1.4.0b1/README.md --exclude *.pyd
+[2024-04-17 09:13:38] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-04-17 09:13:38] INFO root fetch - processPackages [logicmonitor-sdk]: Downloading https://files.pythonhosted.org/packages/1d/ab/d202859899145f79acfac5e4588036e4e73dd693621f3a66a3dfea9c7931/logicmonitor-sdk-3.0.203.tar.gz
+[2024-04-17 09:13:38] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-04-17 09:13:38] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240417/c/checkov/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-17 09:13:38] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-04-17 09:13:38] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240417/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-04-17 09:13:38] INFO root fetch - processPackages [logicmonitor-sdk]: executing diffoscope
+[2024-04-17 09:13:38] INFO root fetch - processPackages [logicmonitor-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logicmonitor-sdk-3.0.200.tar.gz tmp/logicmonitor-sdk-3.0.203.tar.gz --markdown 20240417/l/logicmonitor-sdk/3.0.200-3.0.203/README.md --exclude *.pyd
+[2024-04-17 09:13:38] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0a7.tar.gz]
+[2024-04-17 09:13:38] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0b1.tar.gz]
+[2024-04-17 09:13:38] INFO root fetch - main [MainThread]: End processing [reviutils]: success
+[2024-04-17 09:13:39] INFO root fetch - processPackages [me-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/me_toolbox-0.0.8.tar.gz]
+[2024-04-17 09:13:39] INFO root fetch - processPackages [me-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/me_toolbox-0.0.9.tar.gz]
+[2024-04-17 09:13:39] INFO root fetch - main [MainThread]: End processing [me-toolbox]: success
+[2024-04-17 09:13:42] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-04-17 09:13:42] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-04-17 09:13:42] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-04-17 09:13:44] INFO root fetch - processPackages [logicmonitor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/logicmonitor-sdk-3.0.200.tar.gz]
+[2024-04-17 09:13:44] INFO root fetch - processPackages [logicmonitor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/logicmonitor-sdk-3.0.203.tar.gz]
+[2024-04-17 09:13:44] INFO root fetch - main [MainThread]: End processing [logicmonitor-sdk]: success
+[2024-04-17 09:13:47] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-04-17 09:13:47] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-04-17 09:13:47] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-04-17 09:13:47] INFO root fetch - main [MainThread]: Store serial: [22801157]
