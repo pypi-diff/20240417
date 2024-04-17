@@ -19787,3 +19787,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:39:01] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240416.tar.gz]
 [2024-04-17 12:39:01] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2024-04-17 12:39:01] INFO root fetch - main [MainThread]: Store serial: [22804005]
+[2024-04-17 12:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804005]
+[2024-04-17 12:41:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 12:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lipad-sdk
+[2024-04-17 12:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymemgpt-nightly
+[2024-04-17 12:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codemagic-cli-tools
+[2024-04-17 12:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-sale-advance-payment
+[2024-04-17 12:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paramount
+[2024-04-17 12:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-sale
+[2024-04-17 12:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-purchase
+[2024-04-17 12:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pcgym
+[2024-04-17 12:41:11] INFO root fetch - processPackages [paramount]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-17 12:41:11] INFO root fetch - processPackages [pcgym]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-17 12:41:11] INFO root fetch - processPackages [trytond-sale-advance-payment]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-17 12:41:11] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-04-17 12:41:11] INFO root fetch - processPackages [lipad-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-17 12:41:11] INFO root fetch - processPackages [pcgym]: Downloading https://files.pythonhosted.org/packages/ec/cf/6402b4eb16800b4ffedcd14c437906495088ac85fee675ba6d0261625291/pcgym-0.0.9.tar.gz
+[2024-04-17 12:41:11] INFO root fetch - processPackages [paramount]: Downloading https://files.pythonhosted.org/packages/18/42/955f5405890a1a84ca20e50a62572aaa53023f2b9e5ed5f3631e52d4596f/paramount-0.3.6.tar.gz
+[2024-04-17 12:41:11] INFO root fetch - processPackages [trytond-sale]: New version: [7.0.3] Old Version: [7.0.2]
+[2024-04-17 12:41:11] INFO root fetch - processPackages [trytond-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/fa/92/48591b2fb909e7072669d3d14aea2fb0dafe13310843495f870c1c78b683/trytond_sale_advance_payment-7.0.1.tar.gz
+[2024-04-17 12:41:11] INFO root fetch - processPackages [codemagic-cli-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-17 12:41:11] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-04-17 12:41:11] INFO root fetch - processPackages [trytond-purchase]: New version: [7.0.3] Old Version: [7.0.2]
+[2024-04-17 12:41:11] INFO root fetch - processPackages [lipad-sdk]: Downloading https://files.pythonhosted.org/packages/cf/55/29c913f0d9520c7c74a147d702ac04de71ae2081bbe60bee6ecc01da2b70/lipad_sdk-1.0.4.tar.gz
+[2024-04-17 12:41:11] INFO root fetch - processPackages [codemagic-cli-tools]: Downloading https://files.pythonhosted.org/packages/93/49/07ea6719177fe4b6226690fe45cf5b5ff9674ea427bcdb30ed25ded88aa7/codemagic-cli-tools-0.9.7.tar.gz
+[2024-04-17 12:41:11] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/8e/a7/8dbdfdfda7adba5827dde26db4fa5f5ce8df3b87a2020793793d2273fc90/trytond_sale-7.0.2.tar.gz
+[2024-04-17 12:41:11] INFO root fetch - processPackages [trytond-purchase]: Downloading https://files.pythonhosted.org/packages/41/a3/415066784aae61387205ec0169d625e83883b0a4be4036811107fe4948ad/trytond_purchase-7.0.2.tar.gz
+[2024-04-17 12:41:11] WARNING root fetch - processPackages [codemagic-cli-tools]: Skipping package: exceeds size limit 22148734>=10485760
+[2024-04-17 12:41:11] INFO root fetch - main [MainThread]: End processing [codemagic-cli-tools] error
+[2024-04-17 12:41:11] INFO root fetch - processPackages [pcgym]: Downloading https://files.pythonhosted.org/packages/58/35/8c70b458e331cf0d28b499820a2c3b762796d9c2274dd2a2ce633257e49a/pcgym-0.1.0.tar.gz
+[2024-04-17 12:41:11] INFO root fetch - processPackages [trytond-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/d9/08/1b2668a72db9dd0ffc708a64fda4672effc8f964caa75bf056ed19866437/trytond_sale_advance_payment-7.0.2.tar.gz
+[2024-04-17 12:41:11] INFO root fetch - processPackages [paramount]: Downloading https://files.pythonhosted.org/packages/5d/dd/aee762dc63dbdb4097f7985373280c74346456bd268369c257f868c62415/paramount-0.3.7.tar.gz
+[2024-04-17 12:41:11] INFO root fetch - processPackages [pcgym]: executing diffoscope
+[2024-04-17 12:41:11] INFO root fetch - processPackages [pcgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcgym-0.0.9.tar.gz tmp/pcgym-0.1.0.tar.gz --markdown 20240417/p/pcgym/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-17 12:41:11] INFO root fetch - processPackages [trytond-sale-advance-payment]: executing diffoscope
+[2024-04-17 12:41:11] INFO root fetch - processPackages [trytond-sale-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_advance_payment-7.0.1.tar.gz tmp/trytond_sale_advance_payment-7.0.2.tar.gz --markdown 20240417/t/trytond-sale-advance-payment/7.0.1-7.0.2/README.md --exclude *.pyd
+[2024-04-17 12:41:11] INFO root fetch - processPackages [lipad-sdk]: Downloading https://files.pythonhosted.org/packages/db/5d/bf9d6688972b78e8534874386bb1ec76b8de0031aa17456a28c497bf8d21/lipad_sdk-1.0.5.tar.gz
+[2024-04-17 12:41:11] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-04-17 12:41:11] INFO root fetch - processPackages [paramount]: executing diffoscope
+[2024-04-17 12:41:11] INFO root fetch - processPackages [paramount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paramount-0.3.6.tar.gz tmp/paramount-0.3.7.tar.gz --markdown 20240417/p/paramount/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-17 12:41:11] INFO root fetch - processPackages [lipad-sdk]: executing diffoscope
+[2024-04-17 12:41:11] INFO root fetch - processPackages [lipad-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lipad_sdk-1.0.4.tar.gz tmp/lipad_sdk-1.0.5.tar.gz --markdown 20240417/l/lipad-sdk/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-17 12:41:12] INFO root fetch - processPackages [trytond-purchase]: Downloading https://files.pythonhosted.org/packages/6d/44/e0c10b3150802e5ea5668151ce9a27691620173137ba8d039011f2e655e2/trytond_purchase-7.0.3.tar.gz
+[2024-04-17 12:41:12] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/0c/f4/302400dae761662980fa64d4e51dfd4e8dcfe4e97a190682fbca706e3d4d/trytond_sale-7.0.3.tar.gz
+[2024-04-17 12:41:12] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-17 12:41:12] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240417/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-04-17 12:41:12] INFO root fetch - processPackages [trytond-sale]: executing diffoscope
+[2024-04-17 12:41:12] INFO root fetch - processPackages [trytond-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale-7.0.2.tar.gz tmp/trytond_sale-7.0.3.tar.gz --markdown 20240417/t/trytond-sale/7.0.2-7.0.3/README.md --exclude *.pyd
+[2024-04-17 12:41:12] INFO root fetch - processPackages [trytond-purchase]: executing diffoscope
+[2024-04-17 12:41:12] INFO root fetch - processPackages [trytond-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase-7.0.2.tar.gz tmp/trytond_purchase-7.0.3.tar.gz --markdown 20240417/t/trytond-purchase/7.0.2-7.0.3/README.md --exclude *.pyd
+[2024-04-17 12:41:12] INFO root fetch - processPackages [lipad-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lipad_sdk-1.0.4.tar.gz]
+[2024-04-17 12:41:12] INFO root fetch - processPackages [pcgym]: Remove: archive file [/home/abi/fetcher/tmp/pcgym-0.0.9.tar.gz]
+[2024-04-17 12:41:12] INFO root fetch - processPackages [lipad-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lipad_sdk-1.0.5.tar.gz]
+[2024-04-17 12:41:12] INFO root fetch - processPackages [pcgym]: Remove: archive file [/home/abi/fetcher/tmp/pcgym-0.1.0.tar.gz]
+[2024-04-17 12:41:12] INFO root fetch - main [MainThread]: End processing [lipad-sdk]: success
+[2024-04-17 12:41:12] INFO root fetch - main [MainThread]: End processing [pcgym]: success
+[2024-04-17 12:41:12] INFO root fetch - processPackages [trytond-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_advance_payment-7.0.1.tar.gz]
+[2024-04-17 12:41:12] INFO root fetch - processPackages [trytond-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_advance_payment-7.0.2.tar.gz]
+[2024-04-17 12:41:12] INFO root fetch - main [MainThread]: End processing [trytond-sale-advance-payment]: success
+[2024-04-17 12:41:13] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-04-17 12:41:13] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-04-17 12:41:13] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-17 12:41:13] INFO root fetch - processPackages [trytond-sale]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale-7.0.2.tar.gz]
+[2024-04-17 12:41:13] INFO root fetch - processPackages [trytond-sale]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale-7.0.3.tar.gz]
+[2024-04-17 12:41:13] INFO root fetch - main [MainThread]: End processing [trytond-sale]: success
+[2024-04-17 12:41:13] INFO root fetch - processPackages [trytond-purchase]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase-7.0.2.tar.gz]
+[2024-04-17 12:41:13] INFO root fetch - processPackages [trytond-purchase]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase-7.0.3.tar.gz]
+[2024-04-17 12:41:13] INFO root fetch - main [MainThread]: End processing [trytond-purchase]: success
+[2024-04-17 12:41:24] INFO root fetch - processPackages [paramount]: Remove: archive file [/home/abi/fetcher/tmp/paramount-0.3.6.tar.gz]
+[2024-04-17 12:41:24] INFO root fetch - processPackages [paramount]: Remove: archive file [/home/abi/fetcher/tmp/paramount-0.3.7.tar.gz]
+[2024-04-17 12:41:24] INFO root fetch - main [MainThread]: End processing [paramount]: success
+[2024-04-17 12:41:24] INFO root fetch - main [MainThread]: Store serial: [22804030]
