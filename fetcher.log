@@ -15103,3 +15103,103 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:07:20] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
 [2024-04-17 10:07:20] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
 [2024-04-17 10:07:20] INFO root fetch - main [MainThread]: Store serial: [22801923]
+[2024-04-17 10:09:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801923]
+[2024-04-17 10:09:29] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-17 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2024-04-17 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowmatic
+[2024-04-17 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-config-sync
+[2024-04-17 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: speasy
+[2024-04-17 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chippy_ai
+[2024-04-17 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite3-to-mysql
+[2024-04-17 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-core
+[2024-04-17 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-langchain
+[2024-04-17 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composio-crewai
+[2024-04-17 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zbx-wxwork-assistant
+[2024-04-17 10:09:29] INFO root fetch - processPackages [chippy_ai]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-17 10:09:29] INFO root fetch - processPackages [simple-config-sync]: New version: [0.1.5] Old Version: [0.1.11]
+[2024-04-17 10:09:29] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-17 10:09:29] INFO root fetch - processPackages [flowmatic]: New version: [0.1.6.1] Old Version: [0.1.6]
+[2024-04-17 10:09:29] INFO root fetch - processPackages [composio-core]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-17 10:09:29] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-17 10:09:29] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240416] Old Version: [0.4.5.dev20240415]
+[2024-04-17 10:09:29] INFO root fetch - processPackages [speasy]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-04-17 10:09:29] ERROR root fetch - processPackages [zbx-wxwork-assistant]: Unable to get metadata: No such project 'zbx-wxwork-assistant'
+[2024-04-17 10:09:29] INFO root fetch - processPackages [zbx-wxwork-assistant]: Start processing: composio-autogen
+[2024-04-17 10:09:29] INFO root fetch - main [MainThread]: End processing [zbx-wxwork-assistant] error
+[2024-04-17 10:09:29] INFO root fetch - processPackages [sqlite3-to-mysql]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-17 10:09:29] INFO root fetch - processPackages [chippy_ai]: Downloading https://files.pythonhosted.org/packages/e9/60/1cccef75cd2caa836780cb28b567996b1dbe334c8fc0943a1e7e0c6b1e14/chippy_ai-0.2.4.tar.gz
+[2024-04-17 10:09:29] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/1a/3d/e5edad3da96accb2c5021c4c66f893f2af700807b00d4ecdaae59f70176d/composio_langchain-0.2.5.tar.gz
+[2024-04-17 10:09:29] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-17 10:09:29] INFO root fetch - processPackages [flowmatic]: Downloading https://files.pythonhosted.org/packages/23/7c/4bc3ef86b3f201b21fec2168c14cda114484941fb39e915d1d07637836d4/flowmatic-0.1.6.tar.gz
+[2024-04-17 10:09:29] ERROR root fetch - processPackages [simple-config-sync]: Unable to fetch info: No such project/version 'simple-config-sync' 0.1.11
+[2024-04-17 10:09:29] INFO root fetch - processPackages [simple-config-sync]: Start processing: composio-lyzr
+[2024-04-17 10:09:29] INFO root fetch - main [MainThread]: End processing [simple-config-sync] error
+[2024-04-17 10:09:29] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/d8/3c/0065a993b53ad9186b5419311bf596b368a7e0a20b1ecb229a4d59044071/composio_crewai-0.2.5.tar.gz
+[2024-04-17 10:09:29] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/23/7e/2c91d5d0a4e6fb8fdca02fdb3695b53d96eb732b2dda096e8fcd765a6ad9/pyglove-0.4.5.dev20240415.tar.gz
+[2024-04-17 10:09:29] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/13/80/8b2f5df63810118569dd70f11c7815519bf65363ed7112011c1a18db5455/composio_core-0.2.5.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/d4/d1/51cc203515a754994a8ec9e504d9276507c9c941725d923795486064410a/composio_autogen-0.2.5.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [speasy]: Downloading https://files.pythonhosted.org/packages/4a/6b/83afffab1c7653f6fd5e0bd8d18f3bdccae3ac0ee3d07624750ca2be0503/speasy-1.2.4.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [sqlite3-to-mysql]: Downloading https://files.pythonhosted.org/packages/92/db/acc811fcb2e03f67b4065ea3b271d75c4e6410182078044024efaaaacce0/sqlite3_to_mysql-2.1.8.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/0c/9c/eeee3a32876b55bef3f2f91e8d2cc21c3940b73d3fb718c67c227671bb67/composio_lyzr-0.2.5.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/de/ee/9f04319b2a3de5559f18432cb0e081a3240b67b14d43270d504325d45adb/composio_langchain-0.2.6.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [flowmatic]: Downloading https://files.pythonhosted.org/packages/6a/db/711c080ef39a7b73c13610784ef7c28a36655c09054b013fde1f27e43af3/flowmatic-0.1.6.1.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [chippy_ai]: Downloading https://files.pythonhosted.org/packages/6c/0e/d8cc58b6ddd3fbfa77cf865d16d29c9246e645f8f54c3c9400a0334a9871/chippy_ai-0.2.5.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.5.tar.gz tmp/composio_langchain-0.2.6.tar.gz --markdown 20240417/c/composio-langchain/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/06/0e/7e9bd4f53d94f3c80b9c3cabfa00c57071863f4f36863331e3e4b49281f5/composio_crewai-0.2.6.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/97/5d/79d5dadf9fa95aa6410a93ac4b8ba15687957fada11d005c2cedee85ad9c/pyglove-0.4.5.dev20240416.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [flowmatic]: executing diffoscope
+[2024-04-17 10:09:30] INFO root fetch - processPackages [flowmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmatic-0.1.6.tar.gz tmp/flowmatic-0.1.6.1.tar.gz --markdown 20240417/f/flowmatic/0.1.6-0.1.6.1/README.md --exclude *.pyd
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/f2/3c/fd753f761857fd062c128e6b2a38b832ea99cf0f29b333b8880e5167b982/composio_core-0.2.6.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [speasy]: Downloading https://files.pythonhosted.org/packages/cf/1a/3d512cd3905787a609ead744a243540b3a62af0128f6e9efcc79563ba3fc/speasy-1.2.5.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/6b/26/afa1b5b5f3ca7a4fa844d5e53d33d2d84af783c26008a01d0ae8a6708f08/composio_autogen-0.2.6.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [sqlite3-to-mysql]: Downloading https://files.pythonhosted.org/packages/68/20/85fd19f442cbd816aa3819f8fe489286f02b723a641532a19be49ab018d7/sqlite3_to_mysql-2.1.9.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/8c/8b/216988ca5e9e07609aea91c58414fa65dc381cb9f2b4ebbf3cb0b54a05dd/composio_lyzr-0.2.6.tar.gz
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.5.tar.gz tmp/composio_crewai-0.2.6.tar.gz --markdown 20240417/c/composio-crewai/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.5.tar.gz tmp/composio_core-0.2.6.tar.gz --markdown 20240417/c/composio-core/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.5.tar.gz tmp/composio_autogen-0.2.6.tar.gz --markdown 20240417/c/composio-autogen/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-17 10:09:30] INFO root fetch - processPackages [speasy]: executing diffoscope
+[2024-04-17 10:09:30] INFO root fetch - processPackages [speasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speasy-1.2.4.tar.gz tmp/speasy-1.2.5.tar.gz --markdown 20240417/s/speasy/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-04-17 10:09:30] INFO root fetch - processPackages [sqlite3-to-mysql]: executing diffoscope
+[2024-04-17 10:09:30] INFO root fetch - processPackages [sqlite3-to-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite3_to_mysql-2.1.8.tar.gz tmp/sqlite3_to_mysql-2.1.9.tar.gz --markdown 20240417/s/sqlite3-to-mysql/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-04-17 10:09:30] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.5.tar.gz tmp/composio_lyzr-0.2.6.tar.gz --markdown 20240417/c/composio-lyzr/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-17 10:09:30] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-17 10:09:30] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240415.tar.gz tmp/pyglove-0.4.5.dev20240416.tar.gz --markdown 20240417/p/pyglove/0.4.5.dev20240415-0.4.5.dev20240416/README.md --exclude *.pyd
+[2024-04-17 10:09:30] INFO root fetch - processPackages [chippy_ai]: executing diffoscope
+[2024-04-17 10:09:30] INFO root fetch - processPackages [chippy_ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chippy_ai-0.2.4.tar.gz tmp/chippy_ai-0.2.5.tar.gz --markdown 20240417/c/chippy_ai/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-17 10:09:31] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.5.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.6.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-17 10:09:31] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.5.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.6.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-17 10:09:31] INFO root fetch - processPackages [flowmatic]: Remove: archive file [/home/abi/fetcher/tmp/flowmatic-0.1.6.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - processPackages [flowmatic]: Remove: archive file [/home/abi/fetcher/tmp/flowmatic-0.1.6.1.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - main [MainThread]: End processing [flowmatic]: success
+[2024-04-17 10:09:31] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.5.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.6.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-17 10:09:31] INFO root fetch - processPackages [sqlite3-to-mysql]: Remove: archive file [/home/abi/fetcher/tmp/sqlite3_to_mysql-2.1.8.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - processPackages [sqlite3-to-mysql]: Remove: archive file [/home/abi/fetcher/tmp/sqlite3_to_mysql-2.1.9.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - main [MainThread]: End processing [sqlite3-to-mysql]: success
+[2024-04-17 10:09:31] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.5.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.6.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-17 10:09:31] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.5.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.6.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-04-17 10:09:31] INFO root fetch - processPackages [chippy_ai]: Remove: archive file [/home/abi/fetcher/tmp/chippy_ai-0.2.4.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - processPackages [chippy_ai]: Remove: archive file [/home/abi/fetcher/tmp/chippy_ai-0.2.5.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - main [MainThread]: End processing [chippy_ai]: success
+[2024-04-17 10:09:31] INFO root fetch - processPackages [speasy]: Remove: archive file [/home/abi/fetcher/tmp/speasy-1.2.4.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - processPackages [speasy]: Remove: archive file [/home/abi/fetcher/tmp/speasy-1.2.5.tar.gz]
+[2024-04-17 10:09:31] INFO root fetch - main [MainThread]: End processing [speasy]: success
+[2024-04-17 10:09:32] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240415.tar.gz]
+[2024-04-17 10:09:32] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240416.tar.gz]
+[2024-04-17 10:09:32] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-17 10:09:32] INFO root fetch - main [MainThread]: Store serial: [22801962]
