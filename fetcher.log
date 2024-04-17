@@ -16659,3 +16659,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:58:42] INFO root fetch - processPackages [simfempy]: Remove: archive file [/home/abi/fetcher/tmp/simfempy-2.2.8.tar.gz]
 [2024-04-17 10:58:42] INFO root fetch - main [MainThread]: End processing [simfempy]: success
 [2024-04-17 10:58:42] INFO root fetch - main [MainThread]: Store serial: [22802636]
+[2024-04-17 11:00:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802636]
+[2024-04-17 11:00:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 11:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-riskplus
+[2024-04-17 11:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coolML
+[2024-04-17 11:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-node-binding
+[2024-04-17 11:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sodata
+[2024-04-17 11:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: insight-git
+[2024-04-17 11:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DNBC4dev
+[2024-04-17 11:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: symbl
+[2024-04-17 11:00:51] INFO root fetch - processPackages [sodata]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-17 11:00:51] INFO root fetch - processPackages [coolML]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 11:00:51] INFO root fetch - processPackages [insight-git]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 11:00:51] INFO root fetch - processPackages [DNBC4dev]: New version: [2.3.0] Old Version: [2.2.8]
+[2024-04-17 11:00:51] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1156] Old Version: [3.0.2.post1151]
+[2024-04-17 11:00:51] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/3a/46/d489c68835ad2a384c21fc9e10b90ee23c695af50c29daf07981723f4609/sodata-0.0.6.tar.gz
+[2024-04-17 11:00:51] INFO root fetch - processPackages [antchain-riskplus]: New version: [1.9.5] Old Version: [1.9.3]
+[2024-04-17 11:00:51] INFO root fetch - processPackages [insight-git]: Downloading https://files.pythonhosted.org/packages/a6/99/f56707134c87bb190c1d6dfe8cffc181ccb6601b2fed05463da545410c6a/insight-git-0.1.1.tar.gz
+[2024-04-17 11:00:51] INFO root fetch - processPackages [DNBC4dev]: Downloading https://files.pythonhosted.org/packages/b4/ae/a66a7acc786c630ad7fb00e319464ffb9ccd411022a010b67412c8f18235/DNBC4dev-2.2.8.tar.gz
+[2024-04-17 11:00:51] INFO root fetch - processPackages [symbl]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-17 11:00:51] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/17/cb/339b55c875b43b004c5991195045098ca23dac2bd9c89a4c5b7a2d4ee863/nucliadb_node_binding-3.0.2.post1151.tar.gz
+[2024-04-17 11:00:51] WARNING root fetch - processPackages [DNBC4dev]: Skipping package: exceeds size limit 38038021>=10485760
+[2024-04-17 11:00:51] INFO root fetch - main [MainThread]: End processing [DNBC4dev] error
+[2024-04-17 11:00:51] INFO root fetch - processPackages [coolML]: Downloading https://files.pythonhosted.org/packages/8c/eb/038a697ac3369ace2b2ba2ede9488c75c114ed7c2b17cdd01ad358b50478/coolML-0.0.2.tar.gz
+[2024-04-17 11:00:51] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/bf/c1/dbe03c2d25af3fa0175660a07bf2ec833509da27dea50cc2c6116d0311e4/antchain_riskplus-1.9.3.tar.gz
+[2024-04-17 11:00:51] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/92/c0/068e9d613eb663c69828e03e1fda0aba24f0776e0b9a6ecd7dc62e8b2430/sodata-0.0.9.tar.gz
+[2024-04-17 11:00:51] INFO root fetch - processPackages [insight-git]: Downloading https://files.pythonhosted.org/packages/7a/9d/152863cf8056a39bf687c00bd707978b173ad49a15016157e18f2d1fe5fc/insight_git-0.1.2.tar.gz
+[2024-04-17 11:00:51] INFO root fetch - processPackages [symbl]: Downloading https://files.pythonhosted.org/packages/c5/0a/5c64c22c1cee6ef1a8e190bda38db8d6a07d43f7ae2255b6f6fd49ae9496/symbl-2.0.0.tar.gz
+[2024-04-17 11:00:51] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/4b/17/fc77386438a909764ec3589f04ce0df0e09ab9d188d78810b6ddc735bb63/nucliadb_node_binding-3.0.3.post1156.tar.gz
+[2024-04-17 11:00:51] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-17 11:00:51] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.6.tar.gz tmp/sodata-0.0.9.tar.gz --markdown 20240417/s/sodata/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-17 11:00:51] INFO root fetch - processPackages [insight-git]: executing diffoscope
+[2024-04-17 11:00:51] INFO root fetch - processPackages [insight-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insight-git-0.1.1.tar.gz tmp/insight_git-0.1.2.tar.gz --markdown 20240417/i/insight-git/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 11:00:51] INFO root fetch - processPackages [coolML]: Downloading https://files.pythonhosted.org/packages/54/cd/c184983366eba62e878cbffde650b8627231acfd53cb08cd220628053d77/coolML-0.0.3.tar.gz
+[2024-04-17 11:00:51] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-04-17 11:00:51] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.2.post1151.tar.gz tmp/nucliadb_node_binding-3.0.3.post1156.tar.gz --markdown 20240417/n/nucliadb-node-binding/3.0.2.post1151-3.0.3.post1156/README.md --exclude *.pyd
+[2024-04-17 11:00:52] INFO root fetch - processPackages [coolML]: executing diffoscope
+[2024-04-17 11:00:52] INFO root fetch - processPackages [coolML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolML-0.0.2.tar.gz tmp/coolML-0.0.3.tar.gz --markdown 20240417/c/coolML/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 11:00:52] INFO root fetch - processPackages [symbl]: Downloading https://files.pythonhosted.org/packages/13/07/8e91bbf63763f1762680dbe97f7b16302235b758371a26de98186334e426/symbl-2.0.1.tar.gz
+[2024-04-17 11:00:52] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/12/c2/d3710d50579d01a29713d277bd95ab4c8f88ed9d297a3ffb73afbd01cb30/antchain_riskplus-1.9.5.tar.gz
+[2024-04-17 11:00:52] INFO root fetch - processPackages [symbl]: executing diffoscope
+[2024-04-17 11:00:52] INFO root fetch - processPackages [symbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbl-2.0.0.tar.gz tmp/symbl-2.0.1.tar.gz --markdown 20240417/s/symbl/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-17 11:00:52] INFO root fetch - processPackages [antchain-riskplus]: executing diffoscope
+[2024-04-17 11:00:52] INFO root fetch - processPackages [antchain-riskplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_riskplus-1.9.3.tar.gz tmp/antchain_riskplus-1.9.5.tar.gz --markdown 20240417/a/antchain-riskplus/1.9.3-1.9.5/README.md --exclude *.pyd
+[2024-04-17 11:00:52] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.6.tar.gz]
+[2024-04-17 11:00:52] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.9.tar.gz]
+[2024-04-17 11:00:53] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-17 11:00:53] INFO root fetch - processPackages [insight-git]: Remove: archive file [/home/abi/fetcher/tmp/insight-git-0.1.1.tar.gz]
+[2024-04-17 11:00:53] INFO root fetch - processPackages [insight-git]: Remove: archive file [/home/abi/fetcher/tmp/insight_git-0.1.2.tar.gz]
+[2024-04-17 11:00:53] INFO root fetch - main [MainThread]: End processing [insight-git]: success
+[2024-04-17 11:00:53] INFO root fetch - processPackages [coolML]: Remove: archive file [/home/abi/fetcher/tmp/coolML-0.0.2.tar.gz]
+[2024-04-17 11:00:53] INFO root fetch - processPackages [coolML]: Remove: archive file [/home/abi/fetcher/tmp/coolML-0.0.3.tar.gz]
+[2024-04-17 11:00:53] INFO root fetch - main [MainThread]: End processing [coolML]: success
+[2024-04-17 11:00:53] INFO root fetch - processPackages [symbl]: Remove: archive file [/home/abi/fetcher/tmp/symbl-2.0.0.tar.gz]
+[2024-04-17 11:00:53] INFO root fetch - processPackages [symbl]: Remove: archive file [/home/abi/fetcher/tmp/symbl-2.0.1.tar.gz]
+[2024-04-17 11:00:53] INFO root fetch - main [MainThread]: End processing [symbl]: success
+[2024-04-17 11:00:53] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.3.tar.gz]
+[2024-04-17 11:00:53] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.5.tar.gz]
+[2024-04-17 11:00:53] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
+[2024-04-17 11:00:54] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.2.post1151.tar.gz]
+[2024-04-17 11:00:54] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1156.tar.gz]
+[2024-04-17 11:00:54] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-04-17 11:00:54] INFO root fetch - main [MainThread]: Store serial: [22802669]
