@@ -8610,3 +8610,57 @@
 [2024-04-17 04:51:52] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
 [2024-04-17 04:51:52] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
 [2024-04-17 04:51:52] INFO root fetch - main [MainThread]: Store serial: [22799132]
+[2024-04-17 04:53:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799132]
+[2024-04-17 04:54:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 04:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: os4dude
+[2024-04-17 04:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zlutils
+[2024-04-17 04:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaraco.packaging
+[2024-04-17 04:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai-to-sqlite
+[2024-04-17 04:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-linkedmall20230930-py2
+[2024-04-17 04:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ptcr
+[2024-04-17 04:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simpleCalculadora
+[2024-04-17 04:54:03] INFO root fetch - processPackages [ptcr]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-17 04:54:03] INFO root fetch - processPackages [openai-to-sqlite]: New version: [0.4.1] Old Version: [0.4]
+[2024-04-17 04:54:03] WARNING root fetch - processPackages [simpleCalculadora]: Skipping, unable to determine old version
+[2024-04-17 04:54:03] INFO root fetch - main [MainThread]: End processing [simpleCalculadora] error
+[2024-04-17 04:54:03] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/2e/c0/5447c443d688e4dd1dac09c70f0afc8a071ddef82d5c4f35be7d629b032d/ptcr-0.1.4.tar.gz
+[2024-04-17 04:54:03] WARNING root fetch - processPackages [os4dude]: Skipping, unable to determine old version
+[2024-04-17 04:54:03] INFO root fetch - main [MainThread]: End processing [os4dude] error
+[2024-04-17 04:54:03] INFO root fetch - processPackages [jaraco.packaging]: New version: [9.6.0] Old Version: [9.5.0]
+[2024-04-17 04:54:03] INFO root fetch - processPackages [zlutils]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-04-17 04:54:03] INFO root fetch - processPackages [alibabacloud-linkedmall20230930-py2]: New version: [2.2.0] Old Version: [2.1.4]
+[2024-04-17 04:54:03] INFO root fetch - processPackages [openai-to-sqlite]: Downloading https://files.pythonhosted.org/packages/e8/03/0069d1f1bb66a32440e3e2a3299d0b09f7060ced41a724a93084ff34f418/openai-to-sqlite-0.4.tar.gz
+[2024-04-17 04:54:03] INFO root fetch - processPackages [zlutils]: Downloading https://files.pythonhosted.org/packages/ad/38/e16c32a2b957d6a1883935a0f3f77de946dd037d2f84fe2269eb73c858ea/zlutils-0.1.6.tar.gz
+[2024-04-17 04:54:03] INFO root fetch - processPackages [jaraco.packaging]: Downloading https://files.pythonhosted.org/packages/1b/9e/378fb4087b79a8c88233afed17a314757e1437ad26e31db8b8e634505502/jaraco.packaging-9.5.0.tar.gz
+[2024-04-17 04:54:03] INFO root fetch - processPackages [alibabacloud-linkedmall20230930-py2]: Downloading https://files.pythonhosted.org/packages/7f/07/5e8653501e803da8480717ea97e484f16e5b3c22c1098a86a36aff242d70/alibabacloud_linkedmall20230930_py2-2.1.4.tar.gz
+[2024-04-17 04:54:03] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/a7/cc/4386cbac6a0a2e5eb30f51ea089b1fa2f432a1cff5788d2b5900595ab5e7/ptcr-0.1.5.tar.gz
+[2024-04-17 04:54:03] INFO root fetch - processPackages [ptcr]: executing diffoscope
+[2024-04-17 04:54:03] INFO root fetch - processPackages [ptcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptcr-0.1.4.tar.gz tmp/ptcr-0.1.5.tar.gz --markdown 20240417/p/ptcr/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-17 04:54:03] INFO root fetch - processPackages [zlutils]: Downloading https://files.pythonhosted.org/packages/a7/9f/d49f91d5e995be3048b24df0618c92188fa66e09681d421df8d4f66fd015/zlutils-0.2.0.tar.gz
+[2024-04-17 04:54:03] INFO root fetch - processPackages [jaraco.packaging]: Downloading https://files.pythonhosted.org/packages/57/8b/42b88d243bcb18694542df7965e607c2e8227aefed8ffa077ca96389ba83/jaraco_packaging-9.6.0.tar.gz
+[2024-04-17 04:54:04] INFO root fetch - processPackages [alibabacloud-linkedmall20230930-py2]: Downloading https://files.pythonhosted.org/packages/82/29/5e8c14774178e10c41400cd6459a214e51a24d500bcab35215f366c29a9a/alibabacloud_linkedmall20230930_py2-2.2.0.tar.gz
+[2024-04-17 04:54:04] INFO root fetch - processPackages [openai-to-sqlite]: Downloading https://files.pythonhosted.org/packages/3c/2c/682b30de1407bba63c03dce2187910e686537a8a63f8e83500a32ebb4c59/openai_to_sqlite-0.4.1.tar.gz
+[2024-04-17 04:54:04] INFO root fetch - processPackages [zlutils]: executing diffoscope
+[2024-04-17 04:54:04] INFO root fetch - processPackages [zlutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlutils-0.1.6.tar.gz tmp/zlutils-0.2.0.tar.gz --markdown 20240417/z/zlutils/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-04-17 04:54:04] INFO root fetch - processPackages [jaraco.packaging]: executing diffoscope
+[2024-04-17 04:54:04] INFO root fetch - processPackages [jaraco.packaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.packaging-9.5.0.tar.gz tmp/jaraco_packaging-9.6.0.tar.gz --markdown 20240417/j/jaraco.packaging/9.5.0-9.6.0/README.md --exclude *.pyd
+[2024-04-17 04:54:04] INFO root fetch - processPackages [openai-to-sqlite]: executing diffoscope
+[2024-04-17 04:54:04] INFO root fetch - processPackages [openai-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-to-sqlite-0.4.tar.gz tmp/openai_to_sqlite-0.4.1.tar.gz --markdown 20240417/o/openai-to-sqlite/0.4-0.4.1/README.md --exclude *.pyd
+[2024-04-17 04:54:04] INFO root fetch - processPackages [alibabacloud-linkedmall20230930-py2]: executing diffoscope
+[2024-04-17 04:54:04] INFO root fetch - processPackages [alibabacloud-linkedmall20230930-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_linkedmall20230930_py2-2.1.4.tar.gz tmp/alibabacloud_linkedmall20230930_py2-2.2.0.tar.gz --markdown 20240417/a/alibabacloud-linkedmall20230930-py2/2.1.4-2.2.0/README.md --exclude *.pyd
+[2024-04-17 04:54:04] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.1.4.tar.gz]
+[2024-04-17 04:54:04] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.1.5.tar.gz]
+[2024-04-17 04:54:04] INFO root fetch - main [MainThread]: End processing [ptcr]: success
+[2024-04-17 04:54:04] INFO root fetch - processPackages [zlutils]: Remove: archive file [/home/abi/fetcher/tmp/zlutils-0.1.6.tar.gz]
+[2024-04-17 04:54:04] INFO root fetch - processPackages [zlutils]: Remove: archive file [/home/abi/fetcher/tmp/zlutils-0.2.0.tar.gz]
+[2024-04-17 04:54:04] INFO root fetch - main [MainThread]: End processing [zlutils]: success
+[2024-04-17 04:54:04] INFO root fetch - processPackages [openai-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/openai-to-sqlite-0.4.tar.gz]
+[2024-04-17 04:54:04] INFO root fetch - processPackages [openai-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/openai_to_sqlite-0.4.1.tar.gz]
+[2024-04-17 04:54:04] INFO root fetch - main [MainThread]: End processing [openai-to-sqlite]: success
+[2024-04-17 04:54:04] INFO root fetch - processPackages [alibabacloud-linkedmall20230930-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkedmall20230930_py2-2.1.4.tar.gz]
+[2024-04-17 04:54:04] INFO root fetch - processPackages [alibabacloud-linkedmall20230930-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkedmall20230930_py2-2.2.0.tar.gz]
+[2024-04-17 04:54:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkedmall20230930-py2]: success
+[2024-04-17 04:54:04] INFO root fetch - processPackages [jaraco.packaging]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.packaging-9.5.0.tar.gz]
+[2024-04-17 04:54:04] INFO root fetch - processPackages [jaraco.packaging]: Remove: archive file [/home/abi/fetcher/tmp/jaraco_packaging-9.6.0.tar.gz]
+[2024-04-17 04:54:04] INFO root fetch - main [MainThread]: End processing [jaraco.packaging]: success
+[2024-04-17 04:54:04] INFO root fetch - main [MainThread]: Store serial: [22799156]
