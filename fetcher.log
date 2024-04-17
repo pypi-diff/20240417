@@ -8993,3 +8993,45 @@
 [2024-04-17 05:14:07] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-9.0.3.tar.gz]
 [2024-04-17 05:14:07] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
 [2024-04-17 05:14:07] INFO root fetch - main [MainThread]: Store serial: [22799331]
+[2024-04-17 05:16:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799331]
+[2024-04-17 05:16:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 05:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-pagerduty
+[2024-04-17 05:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maxwell-client
+[2024-04-17 05:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: database-common-tools
+[2024-04-17 05:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ids-generalization
+[2024-04-17 05:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dokuwiki-https-nbiancolin
+[2024-04-17 05:16:16] INFO root fetch - processPackages [database-common-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 05:16:17] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/48/3c/fcc5701bfa665db4484c0015e9b403f47243a6a3a77c7e2298fb3943539b/database-common-tools-1.0.8.tar.gz
+[2024-04-17 05:16:17] INFO root fetch - processPackages [ids-generalization]: New version: [20240416] Old Version: [20240414]
+[2024-04-17 05:16:17] INFO root fetch - processPackages [maxwell-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-17 05:16:17] WARNING root fetch - processPackages [dokuwiki-https-nbiancolin]: Skipping, unable to determine old version
+[2024-04-17 05:16:17] INFO root fetch - main [MainThread]: End processing [dokuwiki-https-nbiancolin] error
+[2024-04-17 05:16:17] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-17 05:16:17] INFO root fetch - processPackages [ids-generalization]: Downloading https://files.pythonhosted.org/packages/3e/c3/08689a4f4fc94e7454570f0a4f942142244f99431caf9a4f5bc7ebb9cb10/ids_generalization-20240414-py3-none-any.whl
+[2024-04-17 05:16:17] INFO root fetch - processPackages [maxwell-client]: Downloading https://files.pythonhosted.org/packages/88/4e/2f13cb4f67651a6e3afd73107258ac54485fd808f681fd11f768f69eef5b/maxwell_client-0.8.0.tar.gz
+[2024-04-17 05:16:17] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/4c/e5/8b7f0d082a46e17d4eedf3d3f444f81c6f7e91d578b29c24936a3a90a4c4/cdktf-cdktf-provider-pagerduty-9.0.2.tar.gz
+[2024-04-17 05:16:17] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/1f/16/fe328a2cd3639c48d4f451337ced80cbeea3e72b12270ac7975220c7535a/database-common-tools-1.0.9.tar.gz
+[2024-04-17 05:16:17] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-17 05:16:17] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.0.8.tar.gz tmp/database-common-tools-1.0.9.tar.gz --markdown 20240417/d/database-common-tools/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 05:16:17] INFO root fetch - processPackages [ids-generalization]: Downloading https://files.pythonhosted.org/packages/d1/1b/15f3cf62c789b15054b57c5f846a0f2012574e4fb01f6e96c0031a11aa36/ids_generalization-20240416-py3-none-any.whl
+[2024-04-17 05:16:17] INFO root fetch - processPackages [maxwell-client]: Downloading https://files.pythonhosted.org/packages/fb/9f/ed09f329fef15ed90b0e6700955aa742cd193e3268f34a042099348e60fd/maxwell_client-0.9.0.tar.gz
+[2024-04-17 05:16:17] INFO root fetch - processPackages [ids-generalization]: executing diffoscope
+[2024-04-17 05:16:17] INFO root fetch - processPackages [ids-generalization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ids_generalization-20240414-py3-none-any.whl.zip tmp/ids_generalization-20240416-py3-none-any.whl.zip --markdown 20240417/i/ids-generalization/20240414-20240416/README.md --exclude *.pyd
+[2024-04-17 05:16:17] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/95/46/968f71be0a17bdfa82dc9a050fb2e6b2954d37c5d625ae2e68fece911353/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz
+[2024-04-17 05:16:18] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.0.8.tar.gz]
+[2024-04-17 05:16:18] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.0.9.tar.gz]
+[2024-04-17 05:16:18] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-17 05:16:18] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: executing diffoscope
+[2024-04-17 05:16:18] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-pagerduty-9.0.2.tar.gz tmp/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz --markdown 20240417/c/cdktf-cdktf-provider-pagerduty/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-04-17 05:16:18] INFO root fetch - processPackages [ids-generalization]: Remove: archive file [/home/abi/fetcher/tmp/ids_generalization-20240414-py3-none-any.whl.zip]
+[2024-04-17 05:16:18] INFO root fetch - processPackages [ids-generalization]: Remove: archive file [/home/abi/fetcher/tmp/ids_generalization-20240416-py3-none-any.whl.zip]
+[2024-04-17 05:16:18] INFO root fetch - main [MainThread]: End processing [ids-generalization]: success
+[2024-04-17 05:16:18] INFO root fetch - processPackages [maxwell-client]: executing diffoscope
+[2024-04-17 05:16:18] INFO root fetch - processPackages [maxwell-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxwell_client-0.8.0.tar.gz tmp/maxwell_client-0.9.0.tar.gz --markdown 20240417/m/maxwell-client/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-17 05:16:19] INFO root fetch - processPackages [maxwell-client]: Remove: archive file [/home/abi/fetcher/tmp/maxwell_client-0.8.0.tar.gz]
+[2024-04-17 05:16:19] INFO root fetch - processPackages [maxwell-client]: Remove: archive file [/home/abi/fetcher/tmp/maxwell_client-0.9.0.tar.gz]
+[2024-04-17 05:16:19] INFO root fetch - main [MainThread]: End processing [maxwell-client]: success
+[2024-04-17 05:16:20] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-9.0.2.tar.gz]
+[2024-04-17 05:16:20] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz]
+[2024-04-17 05:16:20] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
+[2024-04-17 05:16:20] INFO root fetch - main [MainThread]: Store serial: [22799367]
