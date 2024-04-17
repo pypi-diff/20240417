@@ -19487,3 +19487,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:29:47] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.0.9.tar.gz]
 [2024-04-17 12:29:47] INFO root fetch - main [MainThread]: End processing [tryton]: success
 [2024-04-17 12:29:47] INFO root fetch - main [MainThread]: Store serial: [22803880]
+[2024-04-17 12:31:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803880]
+[2024-04-17 12:31:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 12:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grateful-logging
+[2024-04-17 12:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tryton
+[2024-04-17 12:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geo-skeletons
+[2024-04-17 12:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tryton
+[2024-04-17 12:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mecord-cli
+[2024-04-17 12:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kiwi
+[2024-04-17 12:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grateful-logging
+[2024-04-17 12:31:56] INFO root fetch - processPackages [grateful-logging]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 12:31:56] INFO root fetch - processPackages [geo-skeletons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-17 12:31:56] INFO root fetch - processPackages [grateful-logging]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 12:31:56] INFO root fetch - processPackages [tryton]: New version: [7.0.9] Old Version: [7.0.8]
+[2024-04-17 12:31:56] INFO root fetch - processPackages [tryton]: New version: [7.0.9] Old Version: [7.0.8]
+[2024-04-17 12:31:56] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-17 12:31:56] INFO root fetch - processPackages [kiwi]: New version: [9.8.0] Old Version: [9.7.4]
+[2024-04-17 12:31:56] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/93/de/3be5fd478d55d5fc5641d977fa23d33eb666d65887e1134663a47baa89ce/tryton-7.0.8.tar.gz
+[2024-04-17 12:31:56] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-04-17 12:31:56] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/09/31/525e3806b5e500dbe99583c1cbe287c1de17c9c4ed7617f25cff69d57f1e/grateful_logging-0.0.8.tar.gz
+[2024-04-17 12:31:56] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/ad/5b/464b09e20e64009ddb6226456859999ec5304ea0f62e9312887c08abf5c2/geo_skeletons-0.9.8.tar.gz
+[2024-04-17 12:31:56] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/09/31/525e3806b5e500dbe99583c1cbe287c1de17c9c4ed7617f25cff69d57f1e/grateful_logging-0.0.8.tar.gz
+[2024-04-17 12:31:56] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/93/de/3be5fd478d55d5fc5641d977fa23d33eb666d65887e1134663a47baa89ce/tryton-7.0.8.tar.gz
+[2024-04-17 12:31:56] INFO root fetch - processPackages [kiwi]: Downloading https://files.pythonhosted.org/packages/fc/f2/14aa92d902e928c95adddf778710948ec0ac3c182c9165580259aa18eaa8/kiwi-9.7.4.tar.gz
+[2024-04-17 12:31:56] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/ec/73/e3c663b38805bc4579afeac51c396d49b34468f983ca03d4fb24a77e12c8/grateful_logging-0.0.9.tar.gz
+[2024-04-17 12:31:56] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/02/dd/f4e4da2a9415c9afa1a30e8c8ea1544602f290844958881dd060377e164d/tryton-7.0.9.tar.gz
+[2024-04-17 12:31:56] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-04-17 12:31:56] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/ec/73/e3c663b38805bc4579afeac51c396d49b34468f983ca03d4fb24a77e12c8/grateful_logging-0.0.9.tar.gz
+[2024-04-17 12:31:56] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/55/ff/33fdd2d486474894b7e573b7ff7e1c2c8a6cfe7bbc874b599da533e0acc2/geo_skeletons-0.9.9.tar.gz
+[2024-04-17 12:31:56] INFO root fetch - processPackages [grateful-logging]: executing diffoscope
+[2024-04-17 12:31:56] INFO root fetch - processPackages [grateful-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grateful_logging-0.0.8.tar.gz tmp/grateful_logging-0.0.9.tar.gz --markdown 20240417/g/grateful-logging/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 12:31:56] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/02/dd/f4e4da2a9415c9afa1a30e8c8ea1544602f290844958881dd060377e164d/tryton-7.0.9.tar.gz
+[2024-04-17 12:31:56] INFO root fetch - processPackages [grateful-logging]: executing diffoscope
+[2024-04-17 12:31:56] INFO root fetch - processPackages [grateful-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grateful_logging-0.0.8.tar.gz tmp/grateful_logging-0.0.9.tar.gz --markdown 20240417/g/grateful-logging/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 12:31:56] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-04-17 12:31:56] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240417/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-17 12:31:56] INFO root fetch - processPackages [geo-skeletons]: executing diffoscope
+[2024-04-17 12:31:56] INFO root fetch - processPackages [geo-skeletons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_skeletons-0.9.8.tar.gz tmp/geo_skeletons-0.9.9.tar.gz --markdown 20240417/g/geo-skeletons/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-17 12:31:56] INFO root fetch - processPackages [tryton]: executing diffoscope
+[2024-04-17 12:31:56] INFO root fetch - processPackages [tryton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryton-7.0.8.tar.gz tmp/tryton-7.0.9.tar.gz --markdown 20240417/t/tryton/7.0.8-7.0.9/README.md --exclude *.pyd
+[2024-04-17 12:31:57] INFO root fetch - processPackages [tryton]: executing diffoscope
+[2024-04-17 12:31:57] INFO root fetch - processPackages [tryton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryton-7.0.8.tar.gz tmp/tryton-7.0.9.tar.gz --markdown 20240417/t/tryton/7.0.8-7.0.9/README.md --exclude *.pyd
+[2024-04-17 12:31:57] INFO root fetch - processPackages [kiwi]: Downloading https://files.pythonhosted.org/packages/a0/15/c757f7f6d32bf5ebe742d435008e609b0683336a29bc81aaae006c577d96/kiwi-9.8.0.tar.gz
+[2024-04-17 12:31:57] INFO root fetch - processPackages [grateful-logging]: Remove: archive file [/home/abi/fetcher/tmp/grateful_logging-0.0.8.tar.gz]
+[2024-04-17 12:31:57] INFO root fetch - processPackages [grateful-logging]: Remove: archive file [/home/abi/fetcher/tmp/grateful_logging-0.0.9.tar.gz]
+[2024-04-17 12:31:57] INFO root fetch - main [MainThread]: End processing [grateful-logging]: success
+[2024-04-17 12:31:57] INFO root fetch - main [MainThread]: End processing [grateful-logging]: success
+[2024-04-17 12:31:57] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-04-17 12:31:57] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-04-17 12:31:57] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-04-17 12:31:57] INFO root fetch - processPackages [kiwi]: executing diffoscope
+[2024-04-17 12:31:57] INFO root fetch - processPackages [kiwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi-9.7.4.tar.gz tmp/kiwi-9.8.0.tar.gz --markdown 20240417/k/kiwi/9.7.4-9.8.0/README.md --exclude *.pyd
+[2024-04-17 12:31:57] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.8.tar.gz]
+[2024-04-17 12:31:57] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
+[2024-04-17 12:31:57] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
+[2024-04-17 12:31:58] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.0.8.tar.gz]
+[2024-04-17 12:31:58] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.0.9.tar.gz]
+[2024-04-17 12:31:58] INFO root fetch - main [MainThread]: End processing [tryton]: success
+[2024-04-17 12:31:58] INFO root fetch - main [MainThread]: End processing [tryton]: success
+[2024-04-17 12:34:28] INFO root fetch - processPackages [kiwi]: Remove: archive file [/home/abi/fetcher/tmp/kiwi-9.7.4.tar.gz]
+[2024-04-17 12:34:28] INFO root fetch - processPackages [kiwi]: Remove: archive file [/home/abi/fetcher/tmp/kiwi-9.8.0.tar.gz]
+[2024-04-17 12:34:28] INFO root fetch - main [MainThread]: End processing [kiwi]: success
+[2024-04-17 12:34:28] INFO root fetch - main [MainThread]: Store serial: [22803902]
