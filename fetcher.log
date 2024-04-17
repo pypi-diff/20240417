@@ -15498,3 +15498,80 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:18:17] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531_py2-6.5.0.tar.gz]
 [2024-04-17 10:18:17] INFO root fetch - main [MainThread]: End processing [alibabacloud-mse20190531-py2]: success
 [2024-04-17 10:18:17] INFO root fetch - main [MainThread]: Store serial: [22802074]
+[2024-04-17 10:20:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802074]
+[2024-04-17 10:20:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 10:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-rest-aggregation
+[2024-04-17 10:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zbx-wxwork-assistant
+[2024-04-17 10:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chippy_ai
+[2024-04-17 10:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RsCmwWlanSig
+[2024-04-17 10:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mobio-license-sdk
+[2024-04-17 10:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-tools
+[2024-04-17 10:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-admin-assets
+[2024-04-17 10:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pasqal-cloud
+[2024-04-17 10:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbis-relational-model
+[2024-04-17 10:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bow-client
+[2024-04-17 10:20:32] INFO root fetch - processPackages [chippy_ai]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-17 10:20:32] INFO root fetch - processPackages [langchain-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-17 10:20:32] INFO root fetch - processPackages [chippy_ai]: Downloading https://files.pythonhosted.org/packages/6c/0e/d8cc58b6ddd3fbfa77cf865d16d29c9246e645f8f54c3c9400a0334a9871/chippy_ai-0.2.5.tar.gz
+[2024-04-17 10:20:32] INFO root fetch - processPackages [RsCmwWlanSig]: New version: [4.0.110] Old Version: [3.8.20.40]
+[2024-04-17 10:20:32] WARNING root fetch - processPackages [django-rest-aggregation]: Skipping, unable to determine old version
+[2024-04-17 10:20:32] INFO root fetch - main [MainThread]: End processing [django-rest-aggregation] error
+[2024-04-17 10:20:32] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/6b/00/163bdee32da39c08882b88ee6983de813905743f23581dbfb76b13a9fe9a/langchain-tools-0.1.5.tar.gz
+[2024-04-17 10:20:32] INFO root fetch - processPackages [mobio-license-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 10:20:32] WARNING root fetch - processPackages [zbx-wxwork-assistant]: Skipping, unable to determine old version
+[2024-04-17 10:20:32] INFO root fetch - main [MainThread]: End processing [zbx-wxwork-assistant] error
+[2024-04-17 10:20:32] INFO root fetch - processPackages [dbis-relational-model]: New version: [1.0.1] Old Version: [0.0.9]
+[2024-04-17 10:20:32] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1493] Old Version: [1.0.0.post1492]
+[2024-04-17 10:20:32] INFO root fetch - processPackages [bow-client]: New version: [4.0.2.2112] Old Version: [4.0.2.2083]
+[2024-04-17 10:20:32] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/cd/b4/963f0a46023d014fc4ac1184545da7f5376c3f12a4e8e0fecd3716554af0/nucliadb_admin_assets-1.0.0.post1492-py3-none-any.whl
+[2024-04-17 10:20:32] INFO root fetch - processPackages [pasqal-cloud]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-17 10:20:32] INFO root fetch - processPackages [RsCmwWlanSig]: Downloading https://files.pythonhosted.org/packages/c7/cd/598f4b40f5964abc99a8a82cf20f10e306d3469659a96ddaa4a6e6365056/RsCmwWlanSig-3.8.20.40.tar.gz
+[2024-04-17 10:20:32] INFO root fetch - processPackages [mobio-license-sdk]: Downloading https://files.pythonhosted.org/packages/b4/5e/845db165aac3073a3b782969b3156d75c30623c0a1172467572242ac3d9f/mobio-license-sdk-1.0.8.tar.gz
+[2024-04-17 10:20:32] INFO root fetch - processPackages [dbis-relational-model]: Downloading https://files.pythonhosted.org/packages/2c/de/66b332fccff5bbdb5da61d0df9223580723fefc1293048344d818c27aa5b/dbis-relational-model-0.0.9.tar.gz
+[2024-04-17 10:20:33] INFO root fetch - processPackages [bow-client]: Downloading https://files.pythonhosted.org/packages/bd/d4/681989e887b629b6e39b987255bb30acd976a78df4b7b06af67df81a7826/bow_client-4.0.2.2083-cp39-none-win_amd64.whl
+[2024-04-17 10:20:33] WARNING root fetch - processPackages [bow-client]: Skipping package: exceeds size limit 16137068>=10485760
+[2024-04-17 10:20:33] INFO root fetch - main [MainThread]: End processing [bow-client] error
+[2024-04-17 10:20:33] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/cf/25/9d47cc2c84391ec2938a90838e49ede3e160adac5120144d8052428e063a/langchain-tools-0.1.6.tar.gz
+[2024-04-17 10:20:33] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/d0/23/3985d86912c61deedee6c46806072b5f273997819bdb35f43bad397c1699/pasqal-cloud-0.7.0.tar.gz
+[2024-04-17 10:20:33] INFO root fetch - processPackages [chippy_ai]: Downloading https://files.pythonhosted.org/packages/91/4e/a46c1be4e20355e0ae0fc4ab0a9dc0a59df790a801faa67de7552705f13d/chippy_ai-0.2.6.tar.gz
+[2024-04-17 10:20:33] INFO root fetch - processPackages [langchain-tools]: executing diffoscope
+[2024-04-17 10:20:33] INFO root fetch - processPackages [langchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-tools-0.1.5.tar.gz tmp/langchain-tools-0.1.6.tar.gz --markdown 20240417/l/langchain-tools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-17 10:20:33] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/0a/af/d1c3a63b39beb3318a4a3413a2be999a3368aad74ed98b0b901e5979054c/nucliadb_admin_assets-1.0.0.post1493-py3-none-any.whl
+[2024-04-17 10:20:33] INFO root fetch - processPackages [mobio-license-sdk]: Downloading https://files.pythonhosted.org/packages/e7/66/a0f1182b9242855d39994d5ef59e10ef151bb8ca842b431a51f5f1a73acf/mobio-license-sdk-1.0.9.tar.gz
+[2024-04-17 10:20:33] INFO root fetch - processPackages [RsCmwWlanSig]: Downloading https://files.pythonhosted.org/packages/9a/b5/d93a0cf4f37406a816ee3176d86e489bc49b64c1f317765e1dee9f0675ae/RsCmwWlanSig-4.0.110.tar.gz
+[2024-04-17 10:20:33] INFO root fetch - processPackages [dbis-relational-model]: Downloading https://files.pythonhosted.org/packages/9c/43/4e971f6a13308fe23de43bf4d199013cefa1cc932cf2eaf437b076125c50/dbis_relational_model-1.0.1.tar.gz
+[2024-04-17 10:20:33] INFO root fetch - processPackages [chippy_ai]: executing diffoscope
+[2024-04-17 10:20:33] INFO root fetch - processPackages [chippy_ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chippy_ai-0.2.5.tar.gz tmp/chippy_ai-0.2.6.tar.gz --markdown 20240417/c/chippy_ai/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-17 10:20:33] INFO root fetch - processPackages [dbis-relational-model]: executing diffoscope
+[2024-04-17 10:20:33] INFO root fetch - processPackages [dbis-relational-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbis-relational-model-0.0.9.tar.gz tmp/dbis_relational_model-1.0.1.tar.gz --markdown 20240417/d/dbis-relational-model/0.0.9-1.0.1/README.md --exclude *.pyd
+[2024-04-17 10:20:33] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-17 10:20:33] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1492-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1493-py3-none-any.whl.zip --markdown 20240417/n/nucliadb-admin-assets/1.0.0.post1492-1.0.0.post1493/README.md --exclude *.pyd
+[2024-04-17 10:20:33] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/11/d6/275d306e22ae68a0d90abe5fbfc1fc1604a1d9a4708c3a40ec8402256039/pasqal_cloud-0.7.1.tar.gz
+[2024-04-17 10:20:33] INFO root fetch - processPackages [RsCmwWlanSig]: executing diffoscope
+[2024-04-17 10:20:33] INFO root fetch - processPackages [RsCmwWlanSig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCmwWlanSig-3.8.20.40.tar.gz tmp/RsCmwWlanSig-4.0.110.tar.gz --markdown 20240417/R/RsCmwWlanSig/3.8.20.40-4.0.110/README.md --exclude *.pyd
+[2024-04-17 10:20:33] INFO root fetch - processPackages [mobio-license-sdk]: executing diffoscope
+[2024-04-17 10:20:33] INFO root fetch - processPackages [mobio-license-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-license-sdk-1.0.8.tar.gz tmp/mobio-license-sdk-1.0.9.tar.gz --markdown 20240417/m/mobio-license-sdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 10:20:33] INFO root fetch - processPackages [pasqal-cloud]: executing diffoscope
+[2024-04-17 10:20:33] INFO root fetch - processPackages [pasqal-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasqal-cloud-0.7.0.tar.gz tmp/pasqal_cloud-0.7.1.tar.gz --markdown 20240417/p/pasqal-cloud/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-17 10:20:33] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.5.tar.gz]
+[2024-04-17 10:20:33] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.6.tar.gz]
+[2024-04-17 10:20:33] INFO root fetch - main [MainThread]: End processing [langchain-tools]: success
+[2024-04-17 10:20:34] INFO root fetch - processPackages [dbis-relational-model]: Remove: archive file [/home/abi/fetcher/tmp/dbis-relational-model-0.0.9.tar.gz]
+[2024-04-17 10:20:34] INFO root fetch - processPackages [dbis-relational-model]: Remove: archive file [/home/abi/fetcher/tmp/dbis_relational_model-1.0.1.tar.gz]
+[2024-04-17 10:20:34] INFO root fetch - main [MainThread]: End processing [dbis-relational-model]: success
+[2024-04-17 10:20:34] INFO root fetch - processPackages [chippy_ai]: Remove: archive file [/home/abi/fetcher/tmp/chippy_ai-0.2.5.tar.gz]
+[2024-04-17 10:20:34] INFO root fetch - processPackages [chippy_ai]: Remove: archive file [/home/abi/fetcher/tmp/chippy_ai-0.2.6.tar.gz]
+[2024-04-17 10:20:34] INFO root fetch - main [MainThread]: End processing [chippy_ai]: success
+[2024-04-17 10:20:34] INFO root fetch - processPackages [mobio-license-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-license-sdk-1.0.8.tar.gz]
+[2024-04-17 10:20:34] INFO root fetch - processPackages [mobio-license-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-license-sdk-1.0.9.tar.gz]
+[2024-04-17 10:20:34] INFO root fetch - main [MainThread]: End processing [mobio-license-sdk]: success
+[2024-04-17 10:20:34] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal-cloud-0.7.0.tar.gz]
+[2024-04-17 10:20:34] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal_cloud-0.7.1.tar.gz]
+[2024-04-17 10:20:34] INFO root fetch - main [MainThread]: End processing [pasqal-cloud]: success
+[2024-04-17 10:20:35] INFO root fetch - processPackages [RsCmwWlanSig]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwWlanSig-3.8.20.40.tar.gz]
+[2024-04-17 10:20:35] INFO root fetch - processPackages [RsCmwWlanSig]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwWlanSig-4.0.110.tar.gz]
+[2024-04-17 10:20:35] INFO root fetch - main [MainThread]: End processing [RsCmwWlanSig]: success
+[2024-04-17 10:20:47] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1492-py3-none-any.whl.zip]
+[2024-04-17 10:20:47] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1493-py3-none-any.whl.zip]
+[2024-04-17 10:20:47] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-17 10:20:47] INFO root fetch - main [MainThread]: Store serial: [22802122]
