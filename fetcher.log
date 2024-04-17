@@ -20586,3 +20586,20 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:17:18] INFO root fetch - processPackages [desbordante]: Remove: archive file [/home/abi/fetcher/tmp/desbordante-2.0.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-17 13:17:18] INFO root fetch - main [MainThread]: End processing [desbordante]: success
 [2024-04-17 13:17:18] INFO root fetch - main [MainThread]: Store serial: [22804390]
+[2024-04-17 13:19:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804390]
+[2024-04-17 13:19:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 13:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: servicelayer
+[2024-04-17 13:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-pdk
+[2024-04-17 13:19:32] INFO root fetch - processPackages [servicelayer]: New version: [1.9.9] Old Version: [1.9.7]
+[2024-04-17 13:19:32] INFO root fetch - processPackages [aws-pdk]: New version: [0.23.9] Old Version: [0.23.8]
+[2024-04-17 13:19:32] INFO root fetch - processPackages [aws-pdk]: Downloading https://files.pythonhosted.org/packages/5d/b0/7ec23c8fbfb3411ad6ea5d191c68ce62b3e49ac7172e49cc9cc2ab9489f2/aws_pdk-0.23.8.tar.gz
+[2024-04-17 13:19:32] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/ee/db/1796fab38fcee1f8829f20fd361bcf31f85f757974dd2b15ccd78d6367bd/servicelayer-1.9.7.tar.gz
+[2024-04-17 13:19:32] WARNING root fetch - processPackages [aws-pdk]: Skipping package: exceeds size limit 23534896>=10485760
+[2024-04-17 13:19:32] INFO root fetch - main [MainThread]: End processing [aws-pdk] error
+[2024-04-17 13:19:32] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/97/a6/7dd98e9095ddcfd768ec511ffba0fade37609396a850259086dac16c4924/servicelayer-1.9.9.tar.gz
+[2024-04-17 13:19:32] INFO root fetch - processPackages [servicelayer]: executing diffoscope
+[2024-04-17 13:19:32] INFO root fetch - processPackages [servicelayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicelayer-1.9.7.tar.gz tmp/servicelayer-1.9.9.tar.gz --markdown 20240417/s/servicelayer/1.9.7-1.9.9/README.md --exclude *.pyd
+[2024-04-17 13:19:33] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.7.tar.gz]
+[2024-04-17 13:19:33] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.9.tar.gz]
+[2024-04-17 13:19:33] INFO root fetch - main [MainThread]: End processing [servicelayer]: success
+[2024-04-17 13:19:33] INFO root fetch - main [MainThread]: Store serial: [22804397]
