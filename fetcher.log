@@ -9577,3 +9577,24 @@
 [2024-04-17 05:55:56] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-1.0.5.tar.gz]
 [2024-04-17 05:55:56] INFO root fetch - main [MainThread]: End processing [pybaseutils]: success
 [2024-04-17 05:55:56] INFO root fetch - main [MainThread]: Store serial: [22799577]
+[2024-04-17 05:58:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799577]
+[2024-04-17 05:58:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 05:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spirems
+[2024-04-17 05:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsplus
+[2024-04-17 05:58:04] INFO root fetch - processPackages [spirems]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-04-17 05:58:05] INFO root fetch - processPackages [spirems]: Downloading https://files.pythonhosted.org/packages/42/ae/a870b244cdfc892a2244b6235262c959189d9d9e317e0bb6bcdeef6a0c92/spirems-0.1.5-py3-none-any.whl
+[2024-04-17 05:58:05] INFO root fetch - processPackages [dsplus]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-17 05:58:05] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/59/0e/46f1d3a53921d739ea0d5a9522a6e9b3e08c74017a54625bcea1a86a416a/dsplus-0.4.1.tar.gz
+[2024-04-17 05:58:05] INFO root fetch - processPackages [spirems]: Downloading https://files.pythonhosted.org/packages/9e/73/8453d5064614c3a6b9d48fc22446ef85142ad6b6d0d2653fb48977033dc2/spirems-0.1.7-py3-none-any.whl
+[2024-04-17 05:58:05] INFO root fetch - processPackages [spirems]: executing diffoscope
+[2024-04-17 05:58:05] INFO root fetch - processPackages [spirems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spirems-0.1.5-py3-none-any.whl.zip tmp/spirems-0.1.7-py3-none-any.whl.zip --markdown 20240417/s/spirems/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-04-17 05:58:05] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/6b/1a/d31ceb8db5653c05b9b05df17aa0a0d5be827c97d3ba36df9a6152d2fa5b/dsplus-0.4.2.tar.gz
+[2024-04-17 05:58:05] INFO root fetch - processPackages [dsplus]: executing diffoscope
+[2024-04-17 05:58:05] INFO root fetch - processPackages [dsplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsplus-0.4.1.tar.gz tmp/dsplus-0.4.2.tar.gz --markdown 20240417/d/dsplus/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-17 05:58:06] INFO root fetch - processPackages [spirems]: Remove: archive file [/home/abi/fetcher/tmp/spirems-0.1.5-py3-none-any.whl.zip]
+[2024-04-17 05:58:06] INFO root fetch - processPackages [spirems]: Remove: archive file [/home/abi/fetcher/tmp/spirems-0.1.7-py3-none-any.whl.zip]
+[2024-04-17 05:58:06] INFO root fetch - main [MainThread]: End processing [spirems]: success
+[2024-04-17 05:58:06] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.4.1.tar.gz]
+[2024-04-17 05:58:06] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.4.2.tar.gz]
+[2024-04-17 05:58:06] INFO root fetch - main [MainThread]: End processing [dsplus]: success
+[2024-04-17 05:58:06] INFO root fetch - main [MainThread]: Store serial: [22799582]
