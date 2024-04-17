@@ -19186,3 +19186,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:20:53] INFO root fetch - processPackages [awsibox]: Remove: archive file [/home/abi/fetcher/tmp/awsibox-0.9.1.tar.gz]
 [2024-04-17 12:20:53] INFO root fetch - main [MainThread]: End processing [awsibox]: success
 [2024-04-17 12:20:53] INFO root fetch - main [MainThread]: Store serial: [22803763]
+[2024-04-17 12:22:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803763]
+[2024-04-17 12:23:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 12:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talisman-dm
+[2024-04-17 12:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lxfcode
+[2024-04-17 12:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qitip
+[2024-04-17 12:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rippling-flux-sdk
+[2024-04-17 12:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pcgym
+[2024-04-17 12:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: e2enetworks
+[2024-04-17 12:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mariqt-widgets
+[2024-04-17 12:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agentUniverse
+[2024-04-17 12:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simply-log
+[2024-04-17 12:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zohocrmsdk5-0
+[2024-04-17 12:23:02] WARNING root fetch - processPackages [qitip]: Skipping, unable to determine old version
+[2024-04-17 12:23:02] INFO root fetch - main [MainThread]: End processing [qitip] error
+[2024-04-17 12:23:02] INFO root fetch - processPackages [simply-log]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-17 12:23:02] INFO root fetch - processPackages [talisman-dm]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-04-17 12:23:02] INFO root fetch - processPackages [e2enetworks]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-17 12:23:02] INFO root fetch - processPackages [simply-log]: Downloading https://files.pythonhosted.org/packages/c1/97/cc8723b4cba7419a776efb033ac14c72322ed5428de3242f278496a2fbb5/simply-log-0.2.3.tar.gz
+[2024-04-17 12:23:02] INFO root fetch - processPackages [lxfcode]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-17 12:23:02] INFO root fetch - processPackages [agentUniverse]: New version: [0.0.2b1] Old Version: [0.0.1b1]
+[2024-04-17 12:23:02] INFO root fetch - processPackages [pcgym]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-17 12:23:02] INFO root fetch - processPackages [mariqt-widgets]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-04-17 12:23:02] INFO root fetch - processPackages [rippling-flux-sdk]: New version: [0.9.27] Old Version: [0.9.26]
+[2024-04-17 12:23:02] INFO root fetch - processPackages [zohocrmsdk5-0]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-04-17 12:23:02] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/ed/7b/c63dab386460cedecb16ca1a9f5dbb275583d9abb2f9852eac02dc8f1139/talisman-dm-1.0.0a8.tar.gz
+[2024-04-17 12:23:02] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/37/fa/5179eba1c7c689db988a8a2cc45d3349fb9c9b9a7e93e2c356a3f3b7df97/e2enetworks-1.2.1.tar.gz
+[2024-04-17 12:23:02] INFO root fetch - processPackages [agentUniverse]: Downloading https://files.pythonhosted.org/packages/74/79/77a023fa90a6776a32860ad794db1622a6a81d4c42cd25e0c56e312eb68c/agentUniverse-0.0.1b1.tar.gz
+[2024-04-17 12:23:03] INFO root fetch - processPackages [pcgym]: Downloading https://files.pythonhosted.org/packages/ec/cf/6402b4eb16800b4ffedcd14c437906495088ac85fee675ba6d0261625291/pcgym-0.0.9.tar.gz
+[2024-04-17 12:23:03] INFO root fetch - processPackages [mariqt-widgets]: Downloading https://files.pythonhosted.org/packages/03/98/acedd60908d210f3c803f41197e29baba23ded81f6a3e646d1628906164f/mariqt_widgets-0.3.7-py2.py3-none-any.whl
+[2024-04-17 12:23:03] INFO root fetch - processPackages [lxfcode]: Downloading https://files.pythonhosted.org/packages/5c/30/3a6d7be4af6aaad9afea2566469f767e6a9337b7cd348ab125e9e01a6603/lxfcode-0.2.7-py2.py3-none-any.whl
+[2024-04-17 12:23:03] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/0f/9d/f4cd2d2adeaab6fdd684b7eaf8d691c14ca1bef27a4a2790c5e7e06cfff6/rippling_flux_sdk-0.9.26.tar.gz
+[2024-04-17 12:23:03] INFO root fetch - processPackages [zohocrmsdk5-0]: Downloading https://files.pythonhosted.org/packages/e7/c9/26ccbc3f956d8b60032ba8a37ea7544b6c2c169d60e01a668a9cf7f55371/zohocrmsdk5_0-1.0.0.tar.gz
+[2024-04-17 12:23:03] INFO root fetch - processPackages [simply-log]: Downloading https://files.pythonhosted.org/packages/81/de/c96ae37b2f2598459ed9db2a4e307e2e6afbebae88e78b0c8f9c267d1bdf/simply-log-0.2.4.tar.gz
+[2024-04-17 12:23:03] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/bd/ef/0d2809d6ed2c72eee47f846077380162aecf867d99c7289e3fbcb3a223f9/talisman-dm-1.0.0a9.tar.gz
+[2024-04-17 12:23:03] INFO root fetch - processPackages [simply-log]: executing diffoscope
+[2024-04-17 12:23:03] INFO root fetch - processPackages [simply-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simply-log-0.2.3.tar.gz tmp/simply-log-0.2.4.tar.gz --markdown 20240417/s/simply-log/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-17 12:23:03] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/1a/0f/5a40e784a13aa1f107065ef4c5ab150a4c9f9049081661dbfa32e7d1f3b3/e2enetworks-1.2.2.tar.gz
+[2024-04-17 12:23:03] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/94/03/093a310cfb4ff2c4b673f26d4895395ebf647cc4efa7d58bf63c31013fed/rippling_flux_sdk-0.9.27.tar.gz
+[2024-04-17 12:23:03] INFO root fetch - processPackages [mariqt-widgets]: Downloading https://files.pythonhosted.org/packages/b6/78/5e0e40a919a064dba67beb908601ded463558b46201ac72d272b0c5772d6/mariqt_widgets-0.3.8-py2.py3-none-any.whl
+[2024-04-17 12:23:03] INFO root fetch - processPackages [lxfcode]: Downloading https://files.pythonhosted.org/packages/a0/28/1b95191a07382e3d55633f7f2ad906bcd70d0dd5a7f8c3006ffe60d5b450/lxfcode-0.2.8-py2.py3-none-any.whl
+[2024-04-17 12:23:03] INFO root fetch - processPackages [agentUniverse]: Downloading https://files.pythonhosted.org/packages/84/e2/587f43ad5273a617ca1145c8aa2eba478723f7bf15b6afd2d82357a71f21/agentuniverse-0.0.2b1.tar.gz
+[2024-04-17 12:23:03] INFO root fetch - processPackages [pcgym]: Downloading https://files.pythonhosted.org/packages/58/35/8c70b458e331cf0d28b499820a2c3b762796d9c2274dd2a2ce633257e49a/pcgym-0.1.0.tar.gz
+[2024-04-17 12:23:03] INFO root fetch - processPackages [talisman-dm]: executing diffoscope
+[2024-04-17 12:23:03] INFO root fetch - processPackages [talisman-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talisman-dm-1.0.0a8.tar.gz tmp/talisman-dm-1.0.0a9.tar.gz --markdown 20240417/t/talisman-dm/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-04-17 12:23:03] INFO root fetch - processPackages [zohocrmsdk5-0]: Downloading https://files.pythonhosted.org/packages/8f/50/9a1a72aa584398498c370d2a715b550c345fc84961fc2eef81e26fc2624c/zohocrmsdk5_0-2.0.0.tar.gz
+[2024-04-17 12:23:03] INFO root fetch - processPackages [rippling-flux-sdk]: executing diffoscope
+[2024-04-17 12:23:03] INFO root fetch - processPackages [rippling-flux-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rippling_flux_sdk-0.9.26.tar.gz tmp/rippling_flux_sdk-0.9.27.tar.gz --markdown 20240417/r/rippling-flux-sdk/0.9.26-0.9.27/README.md --exclude *.pyd
+[2024-04-17 12:23:03] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2024-04-17 12:23:03] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-1.2.1.tar.gz tmp/e2enetworks-1.2.2.tar.gz --markdown 20240417/e/e2enetworks/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-17 12:23:03] INFO root fetch - processPackages [mariqt-widgets]: executing diffoscope
+[2024-04-17 12:23:03] INFO root fetch - processPackages [mariqt-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariqt_widgets-0.3.7-py2.py3-none-any.whl.zip tmp/mariqt_widgets-0.3.8-py2.py3-none-any.whl.zip --markdown 20240417/m/mariqt-widgets/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-04-17 12:23:03] INFO root fetch - processPackages [lxfcode]: executing diffoscope
+[2024-04-17 12:23:03] INFO root fetch - processPackages [lxfcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxfcode-0.2.7-py2.py3-none-any.whl.zip tmp/lxfcode-0.2.8-py2.py3-none-any.whl.zip --markdown 20240417/l/lxfcode/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-17 12:23:03] INFO root fetch - processPackages [agentUniverse]: executing diffoscope
+[2024-04-17 12:23:03] INFO root fetch - processPackages [agentUniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentUniverse-0.0.1b1.tar.gz tmp/agentuniverse-0.0.2b1.tar.gz --markdown 20240417/a/agentUniverse/0.0.1b1-0.0.2b1/README.md --exclude *.pyd
+[2024-04-17 12:23:03] INFO root fetch - processPackages [pcgym]: executing diffoscope
+[2024-04-17 12:23:03] INFO root fetch - processPackages [pcgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcgym-0.0.9.tar.gz tmp/pcgym-0.1.0.tar.gz --markdown 20240417/p/pcgym/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-17 12:23:04] INFO root fetch - processPackages [zohocrmsdk5-0]: executing diffoscope
+[2024-04-17 12:23:04] INFO root fetch - processPackages [zohocrmsdk5-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zohocrmsdk5_0-1.0.0.tar.gz tmp/zohocrmsdk5_0-2.0.0.tar.gz --markdown 20240417/z/zohocrmsdk5-0/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-04-17 12:23:04] INFO root fetch - processPackages [simply-log]: Remove: archive file [/home/abi/fetcher/tmp/simply-log-0.2.3.tar.gz]
+[2024-04-17 12:23:04] INFO root fetch - processPackages [simply-log]: Remove: archive file [/home/abi/fetcher/tmp/simply-log-0.2.4.tar.gz]
+[2024-04-17 12:23:04] INFO root fetch - main [MainThread]: End processing [simply-log]: success
+[2024-04-17 12:23:04] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.26.tar.gz]
+[2024-04-17 12:23:04] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.27.tar.gz]
+[2024-04-17 12:23:04] INFO root fetch - main [MainThread]: End processing [rippling-flux-sdk]: success
+[2024-04-17 12:23:04] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.2.1.tar.gz]
+[2024-04-17 12:23:04] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.2.2.tar.gz]
+[2024-04-17 12:23:04] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2024-04-17 12:23:04] INFO root fetch - processPackages [mariqt-widgets]: Remove: archive file [/home/abi/fetcher/tmp/mariqt_widgets-0.3.7-py2.py3-none-any.whl.zip]
+[2024-04-17 12:23:04] INFO root fetch - processPackages [mariqt-widgets]: Remove: archive file [/home/abi/fetcher/tmp/mariqt_widgets-0.3.8-py2.py3-none-any.whl.zip]
+[2024-04-17 12:23:04] INFO root fetch - main [MainThread]: End processing [mariqt-widgets]: success
+[2024-04-17 12:23:04] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a8.tar.gz]
+[2024-04-17 12:23:04] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a9.tar.gz]
+[2024-04-17 12:23:04] INFO root fetch - main [MainThread]: End processing [talisman-dm]: success
+[2024-04-17 12:23:04] INFO root fetch - processPackages [pcgym]: Remove: archive file [/home/abi/fetcher/tmp/pcgym-0.0.9.tar.gz]
+[2024-04-17 12:23:04] INFO root fetch - processPackages [pcgym]: Remove: archive file [/home/abi/fetcher/tmp/pcgym-0.1.0.tar.gz]
+[2024-04-17 12:23:04] INFO root fetch - main [MainThread]: End processing [pcgym]: success
+[2024-04-17 12:23:04] INFO root fetch - processPackages [lxfcode]: Remove: archive file [/home/abi/fetcher/tmp/lxfcode-0.2.7-py2.py3-none-any.whl.zip]
+[2024-04-17 12:23:04] INFO root fetch - processPackages [lxfcode]: Remove: archive file [/home/abi/fetcher/tmp/lxfcode-0.2.8-py2.py3-none-any.whl.zip]
+[2024-04-17 12:23:04] INFO root fetch - main [MainThread]: End processing [lxfcode]: success
+[2024-04-17 12:23:04] INFO root fetch - processPackages [agentUniverse]: Remove: archive file [/home/abi/fetcher/tmp/agentUniverse-0.0.1b1.tar.gz]
+[2024-04-17 12:23:04] INFO root fetch - processPackages [agentUniverse]: Remove: archive file [/home/abi/fetcher/tmp/agentuniverse-0.0.2b1.tar.gz]
+[2024-04-17 12:23:04] INFO root fetch - main [MainThread]: End processing [agentUniverse]: success
+[2024-04-17 12:23:09] INFO root fetch - processPackages [zohocrmsdk5-0]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk5_0-1.0.0.tar.gz]
+[2024-04-17 12:23:09] INFO root fetch - processPackages [zohocrmsdk5-0]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk5_0-2.0.0.tar.gz]
+[2024-04-17 12:23:09] INFO root fetch - main [MainThread]: End processing [zohocrmsdk5-0]: success
+[2024-04-17 12:23:09] INFO root fetch - main [MainThread]: Store serial: [22803803]
