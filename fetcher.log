@@ -22226,3 +22226,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-17 14:18:14] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-04-17 14:18:14] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-04-17 14:18:14] INFO root fetch - main [MainThread]: Store serial: [22805207]
+[2024-04-17 14:20:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805207]
+[2024-04-17 14:20:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-mig
+[2024-04-17 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-sign
+[2024-04-17 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MOBiceps
+[2024-04-17 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fgutils
+[2024-04-17 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lexifuzz-ner
+[2024-04-17 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pasta-eln
+[2024-04-17 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: colorfullog
+[2024-04-17 14:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qaoa
+[2024-04-17 14:20:24] WARNING root fetch - processPackages [MOBiceps]: Skipping, unable to determine old version
+[2024-04-17 14:20:24] INFO root fetch - main [MainThread]: End processing [MOBiceps] error
+[2024-04-17 14:20:24] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 14:20:24] WARNING root fetch - processPackages [colorfullog]: Skipping, unable to determine old version
+[2024-04-17 14:20:24] INFO root fetch - main [MainThread]: End processing [colorfullog] error
+[2024-04-17 14:20:24] INFO root fetch - processPackages [fgutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 14:20:24] INFO root fetch - processPackages [lexifuzz-ner]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-17 14:20:24] WARNING root fetch - processPackages [simple-sign]: Skipping, unable to determine old version
+[2024-04-17 14:20:24] INFO root fetch - main [MainThread]: End processing [simple-sign] error
+[2024-04-17 14:20:24] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-17 14:20:24] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/80/18/26339678181e627e22509518537c67d0c0d10a3c6840dd8a434b091ea0c0/fgutils-0.0.8.tar.gz
+[2024-04-17 14:20:24] INFO root fetch - processPackages [pasta-eln]: New version: [2.5.2b2] Old Version: [2.5.2b1]
+[2024-04-17 14:20:24] INFO root fetch - processPackages [lexifuzz-ner]: Downloading https://files.pythonhosted.org/packages/90/58/1e049a64604052bde287f57220ba464780591f590d49068cbeee42da393b/lexifuzz_ner-0.0.5.tar.gz
+[2024-04-17 14:20:24] INFO root fetch - processPackages [qaoa]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-17 14:20:24] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/b2/9e/61ac35415068272bad61fd205b44dd743d9c6e617901b23d6ed576442141/fgutils-0.0.9.tar.gz
+[2024-04-17 14:20:24] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-17 14:20:24] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/52/00/d1066793095368d6b784a1bb347a2a945467ff7bc04993c2f1248bb54557/pasta_eln-2.5.2b1.tar.gz
+[2024-04-17 14:20:24] INFO root fetch - processPackages [qaoa]: Downloading https://files.pythonhosted.org/packages/df/13/5f3892cee9bcf613141762bb989d30266497ddbacd13c663672b823ad80f/qaoa-1.0.2.tar.gz
+[2024-04-17 14:20:24] INFO root fetch - processPackages [fgutils]: executing diffoscope
+[2024-04-17 14:20:24] INFO root fetch - processPackages [fgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgutils-0.0.8.tar.gz tmp/fgutils-0.0.9.tar.gz --markdown 20240417/f/fgutils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 14:20:24] INFO root fetch - processPackages [lexifuzz-ner]: Downloading https://files.pythonhosted.org/packages/1b/8a/a002d1c39dcf6a8d8561dd2cfce6034f8fdf1ca5f8e48c7e799a64ae4fa1/lexifuzz_ner-0.0.6.tar.gz
+[2024-04-17 14:20:24] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-17 14:20:24] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240417/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 14:20:24] INFO root fetch - processPackages [lexifuzz-ner]: executing diffoscope
+[2024-04-17 14:20:24] INFO root fetch - processPackages [lexifuzz-ner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexifuzz_ner-0.0.5.tar.gz tmp/lexifuzz_ner-0.0.6.tar.gz --markdown 20240417/l/lexifuzz-ner/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-17 14:20:24] INFO root fetch - processPackages [qaoa]: Downloading https://files.pythonhosted.org/packages/dc/04/34bc4812ec99eb1b3b14866a69d322fd7939cd80882608090f205545a6b0/qaoa-1.0.3.tar.gz
+[2024-04-17 14:20:24] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/db/fc/0a1645d2e26ebf8d7a60c55481f2683ffc30d8e03188f3beef60c64f35bc/pasta_eln-2.5.2b2.tar.gz
+[2024-04-17 14:20:25] INFO root fetch - processPackages [qaoa]: executing diffoscope
+[2024-04-17 14:20:25] INFO root fetch - processPackages [qaoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qaoa-1.0.2.tar.gz tmp/qaoa-1.0.3.tar.gz --markdown 20240417/q/qaoa/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-17 14:20:25] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.8.tar.gz]
+[2024-04-17 14:20:25] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.9.tar.gz]
+[2024-04-17 14:20:25] INFO root fetch - main [MainThread]: End processing [fgutils]: success
+[2024-04-17 14:20:25] INFO root fetch - processPackages [lexifuzz-ner]: Remove: archive file [/home/abi/fetcher/tmp/lexifuzz_ner-0.0.5.tar.gz]
+[2024-04-17 14:20:25] INFO root fetch - processPackages [lexifuzz-ner]: Remove: archive file [/home/abi/fetcher/tmp/lexifuzz_ner-0.0.6.tar.gz]
+[2024-04-17 14:20:25] INFO root fetch - main [MainThread]: End processing [lexifuzz-ner]: success
+[2024-04-17 14:20:25] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-17 14:20:25] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-17 14:20:25] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-17 14:20:25] INFO root fetch - processPackages [qaoa]: Remove: archive file [/home/abi/fetcher/tmp/qaoa-1.0.2.tar.gz]
+[2024-04-17 14:20:25] INFO root fetch - processPackages [qaoa]: Remove: archive file [/home/abi/fetcher/tmp/qaoa-1.0.3.tar.gz]
+[2024-04-17 14:20:25] INFO root fetch - main [MainThread]: End processing [qaoa]: success
+[2024-04-17 14:20:26] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2024-04-17 14:20:26] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.5.2b1.tar.gz tmp/pasta_eln-2.5.2b2.tar.gz --markdown 20240417/p/pasta-eln/2.5.2b1-2.5.2b2/README.md --exclude *.pyd
+[2024-04-17 14:20:27] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.5.2b1.tar.gz]
+[2024-04-17 14:20:27] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.5.2b2.tar.gz]
+[2024-04-17 14:20:27] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2024-04-17 14:20:27] INFO root fetch - main [MainThread]: Store serial: [22805235]
