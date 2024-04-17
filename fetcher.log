@@ -19144,3 +19144,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:18:41] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024041709.tar.gz]
 [2024-04-17 12:18:41] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-04-17 12:18:41] INFO root fetch - main [MainThread]: Store serial: [22803750]
+[2024-04-17 12:20:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803750]
+[2024-04-17 12:20:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 12:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ortoolpy
+[2024-04-17 12:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: awsibox
+[2024-04-17 12:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bambooai
+[2024-04-17 12:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zbx-wxwork-assistant
+[2024-04-17 12:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-inventory
+[2024-04-17 12:20:50] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-17 12:20:50] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-17 12:20:50] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-04-17 12:20:50] INFO root fetch - processPackages [awsibox]: New version: [0.9.1] Old Version: [0.8.9]
+[2024-04-17 12:20:50] INFO root fetch - processPackages [ortoolpy]: New version: [0.7.0] Old Version: [0.6.4]
+[2024-04-17 12:20:50] WARNING root fetch - processPackages [zbx-wxwork-assistant]: Skipping, unable to determine old version
+[2024-04-17 12:20:50] INFO root fetch - main [MainThread]: End processing [zbx-wxwork-assistant] error
+[2024-04-17 12:20:51] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/bd/41/97f426218bf37f05ecec2fcd910d40231970b88407cceb6112511b0f75c1/awsibox-0.8.9.tar.gz
+[2024-04-17 12:20:51] INFO root fetch - processPackages [ortoolpy]: Downloading https://files.pythonhosted.org/packages/68/a1/a7433cfc483e2425ba1b7304dab739bd268e4567f08c67e5b5cf76e908db/ortoolpy-0.6.4-py3-none-any.whl
+[2024-04-17 12:20:51] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-04-17 12:20:51] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-04-17 12:20:51] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-04-17 12:20:51] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240417/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-17 12:20:51] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/d3/57/e42d847d1c97585458ce4032c6e2d5f83c61b8e577801df2a7319863637f/awsibox-0.9.1.tar.gz
+[2024-04-17 12:20:51] INFO root fetch - processPackages [ortoolpy]: Downloading https://files.pythonhosted.org/packages/be/09/40987d839581342dfaeaeb012bbea3c3af41791df6f8d758a402c345aed1/ortoolpy-0.7.0-py3-none-any.whl
+[2024-04-17 12:20:51] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-04-17 12:20:51] INFO root fetch - processPackages [ortoolpy]: executing diffoscope
+[2024-04-17 12:20:51] INFO root fetch - processPackages [ortoolpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ortoolpy-0.6.4-py3-none-any.whl.zip tmp/ortoolpy-0.7.0-py3-none-any.whl.zip --markdown 20240417/o/ortoolpy/0.6.4-0.7.0/README.md --exclude *.pyd
+[2024-04-17 12:20:51] INFO root fetch - processPackages [awsibox]: executing diffoscope
+[2024-04-17 12:20:51] INFO root fetch - processPackages [awsibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsibox-0.8.9.tar.gz tmp/awsibox-0.9.1.tar.gz --markdown 20240417/a/awsibox/0.8.9-0.9.1/README.md --exclude *.pyd
+[2024-04-17 12:20:51] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-04-17 12:20:51] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240417/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-17 12:20:52] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-04-17 12:20:52] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-04-17 12:20:52] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-04-17 12:20:52] INFO root fetch - processPackages [ortoolpy]: Remove: archive file [/home/abi/fetcher/tmp/ortoolpy-0.6.4-py3-none-any.whl.zip]
+[2024-04-17 12:20:52] INFO root fetch - processPackages [ortoolpy]: Remove: archive file [/home/abi/fetcher/tmp/ortoolpy-0.7.0-py3-none-any.whl.zip]
+[2024-04-17 12:20:52] INFO root fetch - main [MainThread]: End processing [ortoolpy]: success
+[2024-04-17 12:20:52] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-04-17 12:20:52] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-04-17 12:20:52] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-04-17 12:20:53] INFO root fetch - processPackages [awsibox]: Remove: archive file [/home/abi/fetcher/tmp/awsibox-0.8.9.tar.gz]
+[2024-04-17 12:20:53] INFO root fetch - processPackages [awsibox]: Remove: archive file [/home/abi/fetcher/tmp/awsibox-0.9.1.tar.gz]
+[2024-04-17 12:20:53] INFO root fetch - main [MainThread]: End processing [awsibox]: success
+[2024-04-17 12:20:53] INFO root fetch - main [MainThread]: Store serial: [22803763]
