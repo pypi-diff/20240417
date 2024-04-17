@@ -2301,3 +2301,80 @@
 [2024-04-17 02:24:19] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.1.8.tar.gz]
 [2024-04-17 02:24:19] INFO root fetch - main [MainThread]: End processing [gamdl]: success
 [2024-04-17 02:24:19] INFO root fetch - main [MainThread]: Store serial: [22796681]
+[2024-04-17 02:26:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796681]
+[2024-04-17 02:26:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 02:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-certbot-dns-route53
+[2024-04-17 02:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-serverless-clamscan
+[2024-04-17 02:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iscp
+[2024-04-17 02:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmaudit
+[2024-04-17 02:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: virtualenv
+[2024-04-17 02:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-ecs-service-extensions
+[2024-04-17 02:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenGeode-core
+[2024-04-17 02:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moval
+[2024-04-17 02:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: legal-citation-parser
+[2024-04-17 02:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zro2
+[2024-04-17 02:26:27] WARNING root fetch - processPackages [llmaudit]: Skipping, unable to determine old version
+[2024-04-17 02:26:27] INFO root fetch - main [MainThread]: End processing [llmaudit] error
+[2024-04-17 02:26:27] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-17 02:26:27] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-04-17 02:26:27] ERROR root fetch - processPackages [zro2]: Unable to get metadata: No such project 'zro2'
+[2024-04-17 02:26:27] INFO root fetch - main [MainThread]: End processing [zro2] error
+[2024-04-17 02:26:27] INFO root fetch - processPackages [iscp]: New version: [1.0.0] Old Version: [0.9.1]
+[2024-04-17 02:26:27] INFO root fetch - processPackages [moval]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 02:26:27] INFO root fetch - processPackages [virtualenv]: New version: [20.9.0] Old Version: [20.8.1]
+[2024-04-17 02:26:27] INFO root fetch - processPackages [legal-citation-parser]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-17 02:26:27] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-04-17 02:26:27] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.19.0rc1]
+[2024-04-17 02:26:27] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-17 02:26:28] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-04-17 02:26:28] INFO root fetch - processPackages [iscp]: Downloading https://files.pythonhosted.org/packages/e1/06/c7537c884e046bfd5c4ae7a2f671b852216876814d3de25b010ac31c4e66/iscp-0.9.1-py3-none-any.whl
+[2024-04-17 02:26:28] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-04-17 02:26:28] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/2f/2a/fce64bfb12450128441844587623d883ace479e64f62685d578d0994f441/moval-0.2.8.tar.gz
+[2024-04-17 02:26:28] INFO root fetch - processPackages [virtualenv]: Downloading https://files.pythonhosted.org/packages/dd/40/9bc1b32521f78c293c1f8ca423c725737dfa9d09640dbeec61cebca7c5f2/virtualenv-20.8.1.tar.gz
+[2024-04-17 02:26:28] INFO root fetch - processPackages [legal-citation-parser]: Downloading https://files.pythonhosted.org/packages/65/83/dd4dc9f28de67a6e39ecc03c79a3e59969290ee778d76bf0702701193efd/legal_citation_parser-0.2.1.tar.gz
+[2024-04-17 02:26:28] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/3d/af/c97dd1ab5645622b1a4d2340b2fd5d395cbe9a041e527d95bbb1f07565ff/OpenGeode_core-14.19.0rc1-cp39-cp39-win_amd64.whl
+[2024-04-17 02:26:28] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 11735456>=10485760
+[2024-04-17 02:26:28] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-04-17 02:26:28] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-04-17 02:26:28] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-17 02:26:28] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-04-17 02:26:28] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-17 02:26:28] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240417/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-17 02:26:28] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-04-17 02:26:28] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240417/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-04-17 02:26:28] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-04-17 02:26:28] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240417/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-04-17 02:26:28] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/ad/4e/1ade376222c4151a24bb8a4462afedaa311f1595b592028fb7632f57e1ae/moval-0.2.9.tar.gz
+[2024-04-17 02:26:28] INFO root fetch - processPackages [legal-citation-parser]: Downloading https://files.pythonhosted.org/packages/14/ef/0559a7276b8509032c9ea508c85d1d0d389c079df9824db755abc699550c/legal_citation_parser-0.3.0-py3-none-any.whl
+[2024-04-17 02:26:28] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-04-17 02:26:28] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.2.8.tar.gz tmp/moval-0.2.9.tar.gz --markdown 20240417/m/moval/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 02:26:28] INFO root fetch - processPackages [legal-citation-parser]: executing diffoscope
+[2024-04-17 02:26:28] INFO root fetch - processPackages [legal-citation-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/legal_citation_parser-0.2.1.tar.gz tmp/legal_citation_parser-0.3.0-py3-none-any.whl.zip --markdown 20240417/l/legal-citation-parser/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-17 02:26:28] INFO root fetch - processPackages [iscp]: Downloading https://files.pythonhosted.org/packages/82/47/1e580b0d7b0da659a1461392339fa1224f936c538f15ef151532d2500dd6/iscp-1.0.0-py3-none-any.whl
+[2024-04-17 02:26:28] INFO root fetch - processPackages [iscp]: executing diffoscope
+[2024-04-17 02:26:29] INFO root fetch - processPackages [iscp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iscp-0.9.1-py3-none-any.whl.zip tmp/iscp-1.0.0-py3-none-any.whl.zip --markdown 20240417/i/iscp/0.9.1-1.0.0/README.md --exclude *.pyd
+[2024-04-17 02:26:29] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-04-17 02:26:29] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-04-17 02:26:29] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-04-17 02:26:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-17 02:26:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-17 02:26:29] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-17 02:26:29] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-04-17 02:26:29] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-04-17 02:26:29] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-04-17 02:26:29] INFO root fetch - processPackages [virtualenv]: Downloading https://files.pythonhosted.org/packages/8b/67/67e5dd2d1676c3fa8a67c707114325d713feadb7824d9aaf2396be5401d3/virtualenv-20.9.0.tar.gz
+[2024-04-17 02:26:29] INFO root fetch - processPackages [legal-citation-parser]: Remove: archive file [/home/abi/fetcher/tmp/legal_citation_parser-0.2.1.tar.gz]
+[2024-04-17 02:26:29] INFO root fetch - processPackages [legal-citation-parser]: Remove: archive file [/home/abi/fetcher/tmp/legal_citation_parser-0.3.0-py3-none-any.whl.zip]
+[2024-04-17 02:26:29] INFO root fetch - main [MainThread]: End processing [legal-citation-parser]: success
+[2024-04-17 02:26:29] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.8.tar.gz]
+[2024-04-17 02:26:29] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.9.tar.gz]
+[2024-04-17 02:26:29] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-04-17 02:26:29] INFO root fetch - processPackages [virtualenv]: executing diffoscope
+[2024-04-17 02:26:29] INFO root fetch - processPackages [virtualenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtualenv-20.8.1.tar.gz tmp/virtualenv-20.9.0.tar.gz --markdown 20240417/v/virtualenv/20.8.1-20.9.0/README.md --exclude *.pyd
+[2024-04-17 02:26:30] INFO root fetch - processPackages [iscp]: Remove: archive file [/home/abi/fetcher/tmp/iscp-0.9.1-py3-none-any.whl.zip]
+[2024-04-17 02:26:30] INFO root fetch - processPackages [iscp]: Remove: archive file [/home/abi/fetcher/tmp/iscp-1.0.0-py3-none-any.whl.zip]
+[2024-04-17 02:26:30] INFO root fetch - main [MainThread]: End processing [iscp]: success
+[2024-04-17 02:26:34] INFO root fetch - processPackages [virtualenv]: Remove: archive file [/home/abi/fetcher/tmp/virtualenv-20.8.1.tar.gz]
+[2024-04-17 02:26:34] INFO root fetch - processPackages [virtualenv]: Remove: archive file [/home/abi/fetcher/tmp/virtualenv-20.9.0.tar.gz]
+[2024-04-17 02:26:34] INFO root fetch - main [MainThread]: End processing [virtualenv]: success
+[2024-04-17 02:26:34] INFO root fetch - main [MainThread]: Store serial: [22796715]
