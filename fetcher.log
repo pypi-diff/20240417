@@ -8904,3 +8904,15 @@
 [2024-04-17 05:07:30] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
 [2024-04-17 05:07:30] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2024-04-17 05:07:30] INFO root fetch - main [MainThread]: Store serial: [22799272]
+[2024-04-17 05:09:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799272]
+[2024-04-17 05:09:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 05:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fixpoint-sdk
+[2024-04-17 05:09:40] INFO root fetch - processPackages [fixpoint-sdk]: New version: [0.8.1] Old Version: [0.8.0rc0]
+[2024-04-17 05:09:40] INFO root fetch - processPackages [fixpoint-sdk]: Downloading https://files.pythonhosted.org/packages/ae/97/49c9bd58b186f23b7edd9e9715ef50755681825c63062e46f6e0d7dc0143/fixpoint_sdk-0.8.0rc0.tar.gz
+[2024-04-17 05:09:40] INFO root fetch - processPackages [fixpoint-sdk]: Downloading https://files.pythonhosted.org/packages/17/9a/abd33ad4fb6c52ae3d158e3142179b4634d88c70b717e9abda394588847e/fixpoint_sdk-0.8.1.tar.gz
+[2024-04-17 05:09:40] INFO root fetch - processPackages [fixpoint-sdk]: executing diffoscope
+[2024-04-17 05:09:40] INFO root fetch - processPackages [fixpoint-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixpoint_sdk-0.8.0rc0.tar.gz tmp/fixpoint_sdk-0.8.1.tar.gz --markdown 20240417/f/fixpoint-sdk/0.8.0rc0-0.8.1/README.md --exclude *.pyd
+[2024-04-17 05:09:41] INFO root fetch - processPackages [fixpoint-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fixpoint_sdk-0.8.0rc0.tar.gz]
+[2024-04-17 05:09:41] INFO root fetch - processPackages [fixpoint-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fixpoint_sdk-0.8.1.tar.gz]
+[2024-04-17 05:09:41] INFO root fetch - main [MainThread]: End processing [fixpoint-sdk]: success
+[2024-04-17 05:09:41] INFO root fetch - main [MainThread]: Store serial: [22799278]
