@@ -1776,3 +1776,42 @@
 [2024-04-17 02:04:26] INFO root fetch - processPackages [pyspedas]: Remove: archive file [/home/abi/fetcher/tmp/pyspedas-1.5.9.tar.gz]
 [2024-04-17 02:04:26] INFO root fetch - main [MainThread]: End processing [pyspedas]: success
 [2024-04-17 02:04:26] INFO root fetch - main [MainThread]: Store serial: [22796479]
+[2024-04-17 02:06:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796479]
+[2024-04-17 02:06:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 02:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvidia-modulus.sym
+[2024-04-17 02:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pcdsdevices
+[2024-04-17 02:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxkern-nightly
+[2024-04-17 02:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avocentdpdu
+[2024-04-17 02:06:35] INFO root fetch - processPackages [nvidia-modulus.sym]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-17 02:06:35] INFO root fetch - processPackages [avocentdpdu]: New version: [2.0.0] Old Version: [1.1.0]
+[2024-04-17 02:06:35] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-04-17 02:06:35] INFO root fetch - processPackages [pcdsdevices]: New version: [8.4.0] Old Version: [8.3.0]
+[2024-04-17 02:06:35] INFO root fetch - processPackages [nvidia-modulus.sym]: Downloading https://files.pythonhosted.org/packages/07/59/9cae522e2368dd3112f6f6df4d278fa40f0bcd5d0d013b1b7e01858edc57/nvidia_modulus.sym-1.4.0-py3-none-any.whl
+[2024-04-17 02:06:35] INFO root fetch - processPackages [avocentdpdu]: Downloading https://files.pythonhosted.org/packages/8c/11/51b2a044f3388dcb517bb925c12439da32a67d8da868b4f2186315e7cbb0/avocentdpdu-1.1.0.tar.gz
+[2024-04-17 02:06:35] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-04-17 02:06:35] INFO root fetch - processPackages [pcdsdevices]: Downloading https://files.pythonhosted.org/packages/71/bb/1e6d3a0563647987f8a7be13df5a4db18d6cff28f7350250b26e04b3a890/pcdsdevices-8.3.0.tar.gz
+[2024-04-17 02:06:35] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-04-17 02:06:35] INFO root fetch - processPackages [nvidia-modulus.sym]: Downloading https://files.pythonhosted.org/packages/9f/40/170ad63ff3ee27f6e29f9e04bec7da7aeadcc9b178cab0712cf457e5d82e/nvidia_modulus.sym-1.5.0-py3-none-any.whl
+[2024-04-17 02:06:36] INFO root fetch - processPackages [avocentdpdu]: Downloading https://files.pythonhosted.org/packages/1e/4d/be3009116602828a9a8b9dfe9c276a96b762ba73aced65981a440f561c77/avocentdpdu-2.0.0.tar.gz
+[2024-04-17 02:06:36] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-04-17 02:06:36] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240417/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-04-17 02:06:36] INFO root fetch - processPackages [nvidia-modulus.sym]: executing diffoscope
+[2024-04-17 02:06:36] INFO root fetch - processPackages [nvidia-modulus.sym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_modulus.sym-1.4.0-py3-none-any.whl.zip tmp/nvidia_modulus.sym-1.5.0-py3-none-any.whl.zip --markdown 20240417/n/nvidia-modulus.sym/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-04-17 02:06:36] INFO root fetch - processPackages [avocentdpdu]: executing diffoscope
+[2024-04-17 02:06:36] INFO root fetch - processPackages [avocentdpdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avocentdpdu-1.1.0.tar.gz tmp/avocentdpdu-2.0.0.tar.gz --markdown 20240417/a/avocentdpdu/1.1.0-2.0.0/README.md --exclude *.pyd
+[2024-04-17 02:06:36] INFO root fetch - processPackages [pcdsdevices]: Downloading https://files.pythonhosted.org/packages/c3/1c/081118f9005c874604dcffabde0a90ea5806d3283d136e4c67201dab5836/pcdsdevices-8.4.0.tar.gz
+[2024-04-17 02:06:36] INFO root fetch - processPackages [pcdsdevices]: executing diffoscope
+[2024-04-17 02:06:36] INFO root fetch - processPackages [pcdsdevices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcdsdevices-8.3.0.tar.gz tmp/pcdsdevices-8.4.0.tar.gz --markdown 20240417/p/pcdsdevices/8.3.0-8.4.0/README.md --exclude *.pyd
+[2024-04-17 02:06:36] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-04-17 02:06:36] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-04-17 02:06:36] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-04-17 02:06:36] INFO root fetch - processPackages [avocentdpdu]: Remove: archive file [/home/abi/fetcher/tmp/avocentdpdu-1.1.0.tar.gz]
+[2024-04-17 02:06:36] INFO root fetch - processPackages [avocentdpdu]: Remove: archive file [/home/abi/fetcher/tmp/avocentdpdu-2.0.0.tar.gz]
+[2024-04-17 02:06:36] INFO root fetch - main [MainThread]: End processing [avocentdpdu]: success
+[2024-04-17 02:06:37] INFO root fetch - processPackages [nvidia-modulus.sym]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_modulus.sym-1.4.0-py3-none-any.whl.zip]
+[2024-04-17 02:06:37] INFO root fetch - processPackages [nvidia-modulus.sym]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_modulus.sym-1.5.0-py3-none-any.whl.zip]
+[2024-04-17 02:06:37] INFO root fetch - main [MainThread]: End processing [nvidia-modulus.sym]: success
+[2024-04-17 02:06:38] INFO root fetch - processPackages [pcdsdevices]: Remove: archive file [/home/abi/fetcher/tmp/pcdsdevices-8.3.0.tar.gz]
+[2024-04-17 02:06:38] INFO root fetch - processPackages [pcdsdevices]: Remove: archive file [/home/abi/fetcher/tmp/pcdsdevices-8.4.0.tar.gz]
+[2024-04-17 02:06:38] INFO root fetch - main [MainThread]: End processing [pcdsdevices]: success
+[2024-04-17 02:06:38] INFO root fetch - main [MainThread]: Store serial: [22796494]
