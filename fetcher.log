@@ -23532,3 +23532,81 @@ EOFError: EOF read where object expected
 [2024-04-17 15:05:57] INFO root fetch - processPackages [RsCmwLteMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwLteMeas-4.0.110.tar.gz]
 [2024-04-17 15:05:57] INFO root fetch - main [MainThread]: End processing [RsCmwLteMeas]: success
 [2024-04-17 15:05:57] INFO root fetch - main [MainThread]: Store serial: [22805868]
+[2024-04-17 15:08:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805868]
+[2024-04-17 15:08:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 15:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coix
+[2024-04-17 15:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantagonia-api-client
+[2024-04-17 15:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codedepot-git-ai
+[2024-04-17 15:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: altscore
+[2024-04-17 15:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mattlib
+[2024-04-17 15:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jgb08191
+[2024-04-17 15:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: giza-datasets
+[2024-04-17 15:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fairness-datasets
+[2024-04-17 15:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spidermon
+[2024-04-17 15:08:07] INFO root fetch - processPackages [codedepot-git-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 15:08:07] INFO root fetch - processPackages [fairness-datasets]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-17 15:08:07] INFO root fetch - processPackages [spidermon]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-17 15:08:07] INFO root fetch - processPackages [coix]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-17 15:08:07] INFO root fetch - processPackages [mattlib]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-17 15:08:07] INFO root fetch - processPackages [giza-datasets]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-17 15:08:07] WARNING root fetch - processPackages [jgb08191]: Skipping, unable to determine old version
+[2024-04-17 15:08:07] INFO root fetch - processPackages [altscore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-17 15:08:07] INFO root fetch - main [MainThread]: End processing [jgb08191] error
+[2024-04-17 15:08:07] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/75/a0/d0e8b138cccd8f61da86fd40d4a8266353af6b5bfed4b3be48a89b58d840/codedepot_git_ai-0.0.8.tar.gz
+[2024-04-17 15:08:07] INFO root fetch - processPackages [quantagonia-api-client]: New version: [0.9] Old Version: [0.82]
+[2024-04-17 15:08:07] INFO root fetch - processPackages [fairness-datasets]: Downloading https://files.pythonhosted.org/packages/20/09/1e38fb4297874e147962c2d9547739ef26d6f4dc5407dab035a7d093e38f/fairness_datasets-0.1.0.tar.gz
+[2024-04-17 15:08:07] INFO root fetch - processPackages [coix]: Downloading https://files.pythonhosted.org/packages/a0/f5/1d861d1c9dd66c42c5ad4e56568bed5f187520fbd5622941ff13576d28ee/coix-0.0.1.tar.gz
+[2024-04-17 15:08:07] INFO root fetch - processPackages [spidermon]: Downloading https://files.pythonhosted.org/packages/6b/a3/9a1dbb65c7f332ad9a87aa4337a80ccf41da4653c59fadc8400dfe5f748f/spidermon-1.8.0.tar.gz
+[2024-04-17 15:08:07] INFO root fetch - processPackages [quantagonia-api-client]: Downloading https://files.pythonhosted.org/packages/c1/cf/45ae468c447993a8f1efcbef72ccbba982b3301697d529090e5e4c07f4c7/quantagonia_api_client-0.82-py3-none-any.whl
+[2024-04-17 15:08:07] INFO root fetch - processPackages [mattlib]: Downloading https://files.pythonhosted.org/packages/dd/f8/0231fde5a38096150c135241d1ec4d10876557e2ea7a3d18674769af106e/mattlib-1.3.2.tar.gz
+[2024-04-17 15:08:07] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/5f/a6/fb416592a06e3f048aaf0891b596bd989dcd5841cb33ab09db5bb52d0970/altscore-0.1.98.tar.gz
+[2024-04-17 15:08:07] INFO root fetch - processPackages [giza-datasets]: Downloading https://files.pythonhosted.org/packages/cc/07/8e17c29bee1edffc36be0578ca057dd59c9f1934e96bdb39f5adeb697518/giza_datasets-0.2.0.tar.gz
+[2024-04-17 15:08:07] INFO root fetch - processPackages [fairness-datasets]: Downloading https://files.pythonhosted.org/packages/8b/eb/f8c767958e9b23b79936d5fc3274f8f6436ac2e185f9c02fab699b583869/fairness_datasets-0.2.0.tar.gz
+[2024-04-17 15:08:07] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/1f/fb/3fcdaf99d6434aada4ea578dd2a3d046376dcc888a968c197445c5dd195b/codedepot_git_ai-0.0.9.tar.gz
+[2024-04-17 15:08:08] INFO root fetch - processPackages [fairness-datasets]: executing diffoscope
+[2024-04-17 15:08:08] INFO root fetch - processPackages [fairness-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairness_datasets-0.1.0.tar.gz tmp/fairness_datasets-0.2.0.tar.gz --markdown 20240417/f/fairness-datasets/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-17 15:08:08] INFO root fetch - processPackages [codedepot-git-ai]: executing diffoscope
+[2024-04-17 15:08:08] INFO root fetch - processPackages [codedepot-git-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_git_ai-0.0.8.tar.gz tmp/codedepot_git_ai-0.0.9.tar.gz --markdown 20240417/c/codedepot-git-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 15:08:08] INFO root fetch - processPackages [coix]: Downloading https://files.pythonhosted.org/packages/1b/9b/4e1c05745af80f8a1586903aa308eda4e59e57c5b75b70e1b65a078707f7/coix-0.1.0.tar.gz
+[2024-04-17 15:08:08] INFO root fetch - processPackages [quantagonia-api-client]: Downloading https://files.pythonhosted.org/packages/c0/8a/99d6b2080083bf41294ba1392115da6aeb883b82e42ce645a09a7a8a9152/quantagonia_api_client-0.9-py3-none-any.whl
+[2024-04-17 15:08:08] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/e3/b6/865ff08cbdee5b1522cc15ce8760f46380d0a77722135623bdfa5b3ab9f5/altscore-0.1.99.tar.gz
+[2024-04-17 15:08:08] INFO root fetch - processPackages [mattlib]: Downloading https://files.pythonhosted.org/packages/42/75/516339c776c36c1d369cb81e4dccf74e9d87d2f13e07c64481a1e3bedfdd/mattlib-1.3.3.tar.gz
+[2024-04-17 15:08:08] INFO root fetch - processPackages [giza-datasets]: Downloading https://files.pythonhosted.org/packages/c8/10/39e79b887c9d9defc90a339adde7059a647ef486ba9d1f5d0b8fbc907850/giza_datasets-0.2.1.tar.gz
+[2024-04-17 15:08:08] INFO root fetch - processPackages [coix]: executing diffoscope
+[2024-04-17 15:08:08] INFO root fetch - processPackages [coix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coix-0.0.1.tar.gz tmp/coix-0.1.0.tar.gz --markdown 20240417/c/coix/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-17 15:08:08] INFO root fetch - processPackages [altscore]: executing diffoscope
+[2024-04-17 15:08:08] INFO root fetch - processPackages [altscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altscore-0.1.98.tar.gz tmp/altscore-0.1.99.tar.gz --markdown 20240417/a/altscore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-17 15:08:08] INFO root fetch - processPackages [spidermon]: Downloading https://files.pythonhosted.org/packages/a4/31/03bbee1e8b7316f5f953707bdbb7cf1d226b9fee3e2763f15ca80f19ee28/spidermon-1.9.0.tar.gz
+[2024-04-17 15:08:08] INFO root fetch - processPackages [mattlib]: executing diffoscope
+[2024-04-17 15:08:08] INFO root fetch - processPackages [mattlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mattlib-1.3.2.tar.gz tmp/mattlib-1.3.3.tar.gz --markdown 20240417/m/mattlib/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-04-17 15:08:08] INFO root fetch - processPackages [giza-datasets]: executing diffoscope
+[2024-04-17 15:08:08] INFO root fetch - processPackages [giza-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giza_datasets-0.2.0.tar.gz tmp/giza_datasets-0.2.1.tar.gz --markdown 20240417/g/giza-datasets/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-17 15:08:08] INFO root fetch - processPackages [quantagonia-api-client]: executing diffoscope
+[2024-04-17 15:08:08] INFO root fetch - processPackages [quantagonia-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantagonia_api_client-0.82-py3-none-any.whl.zip tmp/quantagonia_api_client-0.9-py3-none-any.whl.zip --markdown 20240417/q/quantagonia-api-client/0.82-0.9/README.md --exclude *.pyd
+[2024-04-17 15:08:08] INFO root fetch - processPackages [spidermon]: executing diffoscope
+[2024-04-17 15:08:08] INFO root fetch - processPackages [spidermon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spidermon-1.8.0.tar.gz tmp/spidermon-1.9.0.tar.gz --markdown 20240417/s/spidermon/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-17 15:08:08] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.8.tar.gz]
+[2024-04-17 15:08:08] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.9.tar.gz]
+[2024-04-17 15:08:08] INFO root fetch - main [MainThread]: End processing [codedepot-git-ai]: success
+[2024-04-17 15:08:09] INFO root fetch - processPackages [fairness-datasets]: Remove: archive file [/home/abi/fetcher/tmp/fairness_datasets-0.1.0.tar.gz]
+[2024-04-17 15:08:09] INFO root fetch - processPackages [fairness-datasets]: Remove: archive file [/home/abi/fetcher/tmp/fairness_datasets-0.2.0.tar.gz]
+[2024-04-17 15:08:09] INFO root fetch - main [MainThread]: End processing [fairness-datasets]: success
+[2024-04-17 15:08:09] INFO root fetch - processPackages [coix]: Remove: archive file [/home/abi/fetcher/tmp/coix-0.0.1.tar.gz]
+[2024-04-17 15:08:09] INFO root fetch - processPackages [coix]: Remove: archive file [/home/abi/fetcher/tmp/coix-0.1.0.tar.gz]
+[2024-04-17 15:08:09] INFO root fetch - main [MainThread]: End processing [coix]: success
+[2024-04-17 15:08:09] INFO root fetch - processPackages [giza-datasets]: Remove: archive file [/home/abi/fetcher/tmp/giza_datasets-0.2.0.tar.gz]
+[2024-04-17 15:08:09] INFO root fetch - processPackages [giza-datasets]: Remove: archive file [/home/abi/fetcher/tmp/giza_datasets-0.2.1.tar.gz]
+[2024-04-17 15:08:09] INFO root fetch - main [MainThread]: End processing [giza-datasets]: success
+[2024-04-17 15:08:09] INFO root fetch - processPackages [mattlib]: Remove: archive file [/home/abi/fetcher/tmp/mattlib-1.3.2.tar.gz]
+[2024-04-17 15:08:09] INFO root fetch - processPackages [mattlib]: Remove: archive file [/home/abi/fetcher/tmp/mattlib-1.3.3.tar.gz]
+[2024-04-17 15:08:09] INFO root fetch - main [MainThread]: End processing [mattlib]: success
+[2024-04-17 15:08:09] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.98.tar.gz]
+[2024-04-17 15:08:09] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.99.tar.gz]
+[2024-04-17 15:08:09] INFO root fetch - main [MainThread]: End processing [altscore]: success
+[2024-04-17 15:08:09] INFO root fetch - processPackages [quantagonia-api-client]: Remove: archive file [/home/abi/fetcher/tmp/quantagonia_api_client-0.82-py3-none-any.whl.zip]
+[2024-04-17 15:08:09] INFO root fetch - processPackages [quantagonia-api-client]: Remove: archive file [/home/abi/fetcher/tmp/quantagonia_api_client-0.9-py3-none-any.whl.zip]
+[2024-04-17 15:08:09] INFO root fetch - main [MainThread]: End processing [quantagonia-api-client]: success
+[2024-04-17 15:08:09] INFO root fetch - processPackages [spidermon]: Remove: archive file [/home/abi/fetcher/tmp/spidermon-1.8.0.tar.gz]
+[2024-04-17 15:08:09] INFO root fetch - processPackages [spidermon]: Remove: archive file [/home/abi/fetcher/tmp/spidermon-1.9.0.tar.gz]
+[2024-04-17 15:08:09] INFO root fetch - main [MainThread]: End processing [spidermon]: success
+[2024-04-17 15:08:09] INFO root fetch - main [MainThread]: Store serial: [22805912]
