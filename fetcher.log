@@ -11676,3 +11676,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 07:54:01] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.9.tar.gz]
 [2024-04-17 07:54:01] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
 [2024-04-17 07:54:01] INFO root fetch - main [MainThread]: Store serial: [22800292]
+[2024-04-17 07:56:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800292]
+[2024-04-17 07:56:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 07:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jxa-builder
+[2024-04-17 07:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synctl
+[2024-04-17 07:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: that-depends
+[2024-04-17 07:56:10] INFO root fetch - processPackages [that-depends]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-17 07:56:10] INFO root fetch - processPackages [that-depends]: Downloading https://files.pythonhosted.org/packages/4b/ee/98ccffcd648d287fcecd7e0fb87715d13c183aa06c7f43084d464fa9a98d/that_depends-1.5.1.tar.gz
+[2024-04-17 07:56:10] INFO root fetch - processPackages [synctl]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-17 07:56:10] WARNING root fetch - processPackages [jxa-builder]: Skipping, unable to determine old version
+[2024-04-17 07:56:10] INFO root fetch - main [MainThread]: End processing [jxa-builder] error
+[2024-04-17 07:56:10] INFO root fetch - processPackages [synctl]: Downloading https://files.pythonhosted.org/packages/36/81/2b410408eb308611bcd168ba17468b284d09bae2dab8e916051ef2d96ab4/synctl-1.1.7.tar.gz
+[2024-04-17 07:56:10] INFO root fetch - processPackages [that-depends]: Downloading https://files.pythonhosted.org/packages/3a/ef/006da167bb6349f87f9c637b83a073ca9db622dbd7f6ec679d40f0842f72/that_depends-1.5.2.tar.gz
+[2024-04-17 07:56:10] INFO root fetch - processPackages [that-depends]: executing diffoscope
+[2024-04-17 07:56:10] INFO root fetch - processPackages [that-depends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/that_depends-1.5.1.tar.gz tmp/that_depends-1.5.2.tar.gz --markdown 20240417/t/that-depends/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-04-17 07:56:10] INFO root fetch - processPackages [synctl]: Downloading https://files.pythonhosted.org/packages/c6/2e/4663ec4803dd454fa179acb3cb9a5cf1abe739f86e9ca10e50b7b07b5a83/synctl-1.1.8.tar.gz
+[2024-04-17 07:56:10] INFO root fetch - processPackages [synctl]: executing diffoscope
+[2024-04-17 07:56:10] INFO root fetch - processPackages [synctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synctl-1.1.7.tar.gz tmp/synctl-1.1.8.tar.gz --markdown 20240417/s/synctl/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-17 07:56:11] INFO root fetch - processPackages [that-depends]: Remove: archive file [/home/abi/fetcher/tmp/that_depends-1.5.1.tar.gz]
+[2024-04-17 07:56:11] INFO root fetch - processPackages [that-depends]: Remove: archive file [/home/abi/fetcher/tmp/that_depends-1.5.2.tar.gz]
+[2024-04-17 07:56:11] INFO root fetch - main [MainThread]: End processing [that-depends]: success
+[2024-04-17 07:56:11] INFO root fetch - processPackages [synctl]: Remove: archive file [/home/abi/fetcher/tmp/synctl-1.1.7.tar.gz]
+[2024-04-17 07:56:11] INFO root fetch - processPackages [synctl]: Remove: archive file [/home/abi/fetcher/tmp/synctl-1.1.8.tar.gz]
+[2024-04-17 07:56:11] INFO root fetch - main [MainThread]: End processing [synctl]: success
+[2024-04-17 07:56:11] INFO root fetch - main [MainThread]: Store serial: [22800304]
