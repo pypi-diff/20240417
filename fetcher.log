@@ -2426,3 +2426,54 @@
 [2024-04-17 02:28:44] INFO root fetch - processPackages [llmaudit]: Remove: archive file [/home/abi/fetcher/tmp/llmaudit-0.0.2.tar.gz]
 [2024-04-17 02:28:44] INFO root fetch - main [MainThread]: End processing [llmaudit]: success
 [2024-04-17 02:28:44] INFO root fetch - main [MainThread]: Store serial: [22796736]
+[2024-04-17 02:30:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796736]
+[2024-04-17 02:30:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 02:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stackql-deploy
+[2024-04-17 02:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-claudebot-plugin
+[2024-04-17 02:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeppl-nightly
+[2024-04-17 02:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmaudit
+[2024-04-17 02:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mns-common
+[2024-04-17 02:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zonevu
+[2024-04-17 02:30:54] INFO root fetch - processPackages [llmaudit]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 02:30:54] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-17 02:30:54] WARNING root fetch - processPackages [mkdocs-claudebot-plugin]: Skipping, unable to determine old version
+[2024-04-17 02:30:54] INFO root fetch - main [MainThread]: End processing [mkdocs-claudebot-plugin] error
+[2024-04-17 02:30:54] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240416] Old Version: [0.1.5.dev20240415]
+[2024-04-17 02:30:54] INFO root fetch - processPackages [zonevu]: New version: [1.1.18] Old Version: [1.1.17]
+[2024-04-17 02:30:54] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/ad/69/73ddae6320dda1cf4ddf23f44f2fa5b82d7166355d09cc18efec2b8379cd/aeppl_nightly-0.1.5.dev20240415.tar.gz
+[2024-04-17 02:30:54] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/dd/ec/997b356ffaed6b524319a3e17f5c0d85a83224c0aadee3bf347952693244/stackql_deploy-1.0.5.tar.gz
+[2024-04-17 02:30:54] INFO root fetch - processPackages [mns-common]: New version: [1.0.7.4.8] Old Version: [1.0.7.4.7]
+[2024-04-17 02:30:54] INFO root fetch - processPackages [llmaudit]: Downloading https://files.pythonhosted.org/packages/54/4e/d289dc27dc82e1f6231f833afd8b71c410273bd5a8cff84ae36e28718acb/llmaudit-0.0.2.tar.gz
+[2024-04-17 02:30:54] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/67/11/3127e76d23391da5fb63d6f9120ac4d01f01c6011f257d719b222b1f9ccf/mns_common-1.0.7.4.7.tar.gz
+[2024-04-17 02:30:54] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/73/a3/9cc68d0e091ae67c5719152299cc5b338bd9dc6327a2f50588cb69dc7596/zonevu-1.1.17-py3-none-any.whl
+[2024-04-17 02:30:54] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/77/50/6993bed2f10acfac68b1c420f7c0fbfb419830974499b1fd0263668203da/stackql_deploy-1.0.6.tar.gz
+[2024-04-17 02:30:54] INFO root fetch - processPackages [llmaudit]: Downloading https://files.pythonhosted.org/packages/7d/97/587e988ec82554b06f3208b45a2364578ed96b220b125a08d998aa6261b1/llmaudit-0.0.3.tar.gz
+[2024-04-17 02:30:54] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/73/3e/e7788c6bc0a341962bb85e6f06c9cd4883d8d4ad74ec0bc7db8f4ee11089/aeppl_nightly-0.1.5.dev20240416.tar.gz
+[2024-04-17 02:30:54] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/ae/f9/7c79b63f42ea178c7d5a714dac6b118b31ef8d45c7b64446b6034ada2445/mns_common-1.0.7.4.8.tar.gz
+[2024-04-17 02:30:54] INFO root fetch - processPackages [llmaudit]: executing diffoscope
+[2024-04-17 02:30:54] INFO root fetch - processPackages [llmaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmaudit-0.0.2.tar.gz tmp/llmaudit-0.0.3.tar.gz --markdown 20240417/l/llmaudit/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 02:30:54] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 02:30:54] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.5.tar.gz tmp/stackql_deploy-1.0.6.tar.gz --markdown 20240417/s/stackql-deploy/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-17 02:30:54] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/b4/35/8ed7b2044e32e88add7553f7bfb43deafc8dbf6e5a6111dba19a2c78265a/zonevu-1.1.18-py3-none-any.whl
+[2024-04-17 02:30:54] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-17 02:30:54] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240415.tar.gz tmp/aeppl_nightly-0.1.5.dev20240416.tar.gz --markdown 20240417/a/aeppl-nightly/0.1.5.dev20240415-0.1.5.dev20240416/README.md --exclude *.pyd
+[2024-04-17 02:30:55] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-04-17 02:30:55] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.4.7.tar.gz tmp/mns_common-1.0.7.4.8.tar.gz --markdown 20240417/m/mns-common/1.0.7.4.7-1.0.7.4.8/README.md --exclude *.pyd
+[2024-04-17 02:30:55] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-17 02:30:55] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.17-py3-none-any.whl.zip tmp/zonevu-1.1.18-py3-none-any.whl.zip --markdown 20240417/z/zonevu/1.1.17-1.1.18/README.md --exclude *.pyd
+[2024-04-17 02:30:55] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.5.tar.gz]
+[2024-04-17 02:30:55] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.6.tar.gz]
+[2024-04-17 02:30:55] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 02:30:55] INFO root fetch - processPackages [llmaudit]: Remove: archive file [/home/abi/fetcher/tmp/llmaudit-0.0.2.tar.gz]
+[2024-04-17 02:30:55] INFO root fetch - processPackages [llmaudit]: Remove: archive file [/home/abi/fetcher/tmp/llmaudit-0.0.3.tar.gz]
+[2024-04-17 02:30:55] INFO root fetch - main [MainThread]: End processing [llmaudit]: success
+[2024-04-17 02:30:55] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.4.7.tar.gz]
+[2024-04-17 02:30:55] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.4.8.tar.gz]
+[2024-04-17 02:30:55] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-04-17 02:30:55] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240415.tar.gz]
+[2024-04-17 02:30:55] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240416.tar.gz]
+[2024-04-17 02:30:55] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-17 02:30:56] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.17-py3-none-any.whl.zip]
+[2024-04-17 02:30:56] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.18-py3-none-any.whl.zip]
+[2024-04-17 02:30:56] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-17 02:30:56] INFO root fetch - main [MainThread]: Store serial: [22796757]
