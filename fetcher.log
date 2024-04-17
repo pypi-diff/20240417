@@ -14918,3 +14918,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:00:44] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
 [2024-04-17 10:00:44] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2024-04-17 10:00:44] INFO root fetch - main [MainThread]: Store serial: [22801804]
+[2024-04-17 10:02:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801804]
+[2024-04-17 10:02:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 10:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-signalfx
+[2024-04-17 10:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-variable-manager
+[2024-04-17 10:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2024-04-17 10:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataforgetoolkit
+[2024-04-17 10:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localcosmos-app-kit
+[2024-04-17 10:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-hx-yinying
+[2024-04-17 10:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lamin_cli
+[2024-04-17 10:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flowmatic
+[2024-04-17 10:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: localcosmos-app-kit-taxonomy
+[2024-04-17 10:02:53] WARNING root fetch - processPackages [nonebot-plugin-hx-yinying]: Skipping, unable to determine old version
+[2024-04-17 10:02:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hx-yinying] error
+[2024-04-17 10:02:53] INFO root fetch - processPackages [flowmatic]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-17 10:02:53] WARNING root fetch - processPackages [dataforgetoolkit]: Skipping, unable to determine old version
+[2024-04-17 10:02:53] INFO root fetch - main [MainThread]: End processing [dataforgetoolkit] error
+[2024-04-17 10:02:53] INFO root fetch - processPackages [flowmatic]: Downloading https://files.pythonhosted.org/packages/82/4a/e60f577acacbcb33272d98aaed10dcc5d27b64b1099da3b646582d859ba2/flowmatic-0.1.5.tar.gz
+[2024-04-17 10:02:53] WARNING root fetch - processPackages [localcosmos-app-kit]: Skipping, unable to determine old version
+[2024-04-17 10:02:53] INFO root fetch - main [MainThread]: End processing [localcosmos-app-kit] error
+[2024-04-17 10:02:53] INFO root fetch - processPackages [lamin_cli]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-17 10:02:53] INFO root fetch - processPackages [flask-variable-manager]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-17 10:02:53] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1713338133] Old Version: [7.2.0a1712990286]
+[2024-04-17 10:02:53] WARNING root fetch - processPackages [localcosmos-app-kit-taxonomy]: Skipping, unable to determine old version
+[2024-04-17 10:02:53] INFO root fetch - main [MainThread]: End processing [localcosmos-app-kit-taxonomy] error
+[2024-04-17 10:02:53] INFO root fetch - processPackages [kcli]: New version: [99.0.202404170800] Old Version: [99.0.202404131020]
+[2024-04-17 10:02:54] INFO root fetch - processPackages [flask-variable-manager]: Downloading https://files.pythonhosted.org/packages/c2/ec/d5f992e60d18ce9761e3b820f1d3284a1c925786addd5d1693c3a66f86c5/flask-variable-manager-0.3.1.tar.gz
+[2024-04-17 10:02:54] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/f5/39/fbe98b5f347a31df8c114465e7263dcb9c5e403f743f60aa63486ea4064b/pulumi_signalfx-7.2.0a1712990286.tar.gz
+[2024-04-17 10:02:54] INFO root fetch - processPackages [flowmatic]: Downloading https://files.pythonhosted.org/packages/23/7c/4bc3ef86b3f201b21fec2168c14cda114484941fb39e915d1d07637836d4/flowmatic-0.1.6.tar.gz
+[2024-04-17 10:02:54] INFO root fetch - processPackages [lamin_cli]: Downloading https://files.pythonhosted.org/packages/b3/65/762e5649503edc943685937f291c7f0fdd23096ee0329017dfbc98bfce33/lamin_cli-0.9.2.tar.gz
+[2024-04-17 10:02:54] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c7/3a/0e3178ae90a16238d6edf28ae2690916c2d5c9321f13b8135d333e6046f2/kcli-99.0.202404131020.tar.gz
+[2024-04-17 10:02:54] INFO root fetch - processPackages [flowmatic]: executing diffoscope
+[2024-04-17 10:02:54] INFO root fetch - processPackages [flowmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmatic-0.1.5.tar.gz tmp/flowmatic-0.1.6.tar.gz --markdown 20240417/f/flowmatic/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-17 10:02:54] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/77/ad/b8be0cd9a39dea6cfe32fdc6d2a5d419bc542dccf1d7cf170243ae29561f/pulumi_signalfx-7.2.0a1713338133.tar.gz
+[2024-04-17 10:02:54] INFO root fetch - processPackages [lamin_cli]: Downloading https://files.pythonhosted.org/packages/d4/e4/7fd525f4a6ed45d5e207ecf462531ba3953864b668bf8d386d1c744212ed/lamin_cli-0.9.3.tar.gz
+[2024-04-17 10:02:54] INFO root fetch - processPackages [flask-variable-manager]: Downloading https://files.pythonhosted.org/packages/bb/a8/e2a34c90fd08fee7f55b31f53ead374018c46b53c0bbd088f57b6c0922de/flask_variable_manager-0.4.0.tar.gz
+[2024-04-17 10:02:54] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-04-17 10:02:54] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1712990286.tar.gz tmp/pulumi_signalfx-7.2.0a1713338133.tar.gz --markdown 20240417/p/pulumi-signalfx/7.2.0a1712990286-7.2.0a1713338133/README.md --exclude *.pyd
+[2024-04-17 10:02:54] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/0d/2b/69d4979e2b3081225c18c5164234d85b7a1ae4bce3949d31df3d75b0a9dd/kcli-99.0.202404170800.tar.gz
+[2024-04-17 10:02:54] INFO root fetch - processPackages [lamin_cli]: executing diffoscope
+[2024-04-17 10:02:54] INFO root fetch - processPackages [lamin_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamin_cli-0.9.2.tar.gz tmp/lamin_cli-0.9.3.tar.gz --markdown 20240417/l/lamin_cli/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-17 10:02:54] INFO root fetch - processPackages [flask-variable-manager]: executing diffoscope
+[2024-04-17 10:02:54] INFO root fetch - processPackages [flask-variable-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-variable-manager-0.3.1.tar.gz tmp/flask_variable_manager-0.4.0.tar.gz --markdown 20240417/f/flask-variable-manager/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-04-17 10:02:54] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-17 10:02:54] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404131020.tar.gz tmp/kcli-99.0.202404170800.tar.gz --markdown 20240417/k/kcli/99.0.202404131020-99.0.202404170800/README.md --exclude *.pyd
+[2024-04-17 10:02:55] INFO root fetch - processPackages [flowmatic]: Remove: archive file [/home/abi/fetcher/tmp/flowmatic-0.1.5.tar.gz]
+[2024-04-17 10:02:55] INFO root fetch - processPackages [flowmatic]: Remove: archive file [/home/abi/fetcher/tmp/flowmatic-0.1.6.tar.gz]
+[2024-04-17 10:02:55] INFO root fetch - main [MainThread]: End processing [flowmatic]: success
+[2024-04-17 10:02:55] INFO root fetch - processPackages [lamin_cli]: Remove: archive file [/home/abi/fetcher/tmp/lamin_cli-0.9.2.tar.gz]
+[2024-04-17 10:02:55] INFO root fetch - processPackages [lamin_cli]: Remove: archive file [/home/abi/fetcher/tmp/lamin_cli-0.9.3.tar.gz]
+[2024-04-17 10:02:55] INFO root fetch - main [MainThread]: End processing [lamin_cli]: success
+[2024-04-17 10:02:55] INFO root fetch - processPackages [flask-variable-manager]: Remove: archive file [/home/abi/fetcher/tmp/flask-variable-manager-0.3.1.tar.gz]
+[2024-04-17 10:02:55] INFO root fetch - processPackages [flask-variable-manager]: Remove: archive file [/home/abi/fetcher/tmp/flask_variable_manager-0.4.0.tar.gz]
+[2024-04-17 10:02:55] INFO root fetch - main [MainThread]: End processing [flask-variable-manager]: success
+[2024-04-17 10:02:55] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1712990286.tar.gz]
+[2024-04-17 10:02:55] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1713338133.tar.gz]
+[2024-04-17 10:02:55] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-04-17 10:02:57] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404131020.tar.gz]
+[2024-04-17 10:02:57] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404170800.tar.gz]
+[2024-04-17 10:02:57] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-17 10:02:57] INFO root fetch - main [MainThread]: Store serial: [22801871]
