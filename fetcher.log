@@ -18965,3 +18965,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:12:07] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
 [2024-04-17 12:12:07] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
 [2024-04-17 12:12:07] INFO root fetch - main [MainThread]: Store serial: [22803677]
+[2024-04-17 12:14:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803677]
+[2024-04-17 12:14:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 12:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openlane
+[2024-04-17 12:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iac-init
+[2024-04-17 12:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyam-iamc
+[2024-04-17 12:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-grn
+[2024-04-17 12:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qitip
+[2024-04-17 12:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grafana-foundation-sdk
+[2024-04-17 12:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dataforgetoolkit
+[2024-04-17 12:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: superlinked
+[2024-04-17 12:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-fhl
+[2024-04-17 12:14:16] INFO root fetch - processPackages [openlane]: New version: [2.0.0rc3] Old Version: [2.0.0rc2]
+[2024-04-17 12:14:16] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-17 12:14:16] INFO root fetch - processPackages [iac-init]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-17 12:14:16] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1713348558!10.3.0] Old Version: [1713348465!10.2.0]
+[2024-04-17 12:14:16] INFO root fetch - processPackages [dataforgetoolkit]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-17 12:14:16] INFO root fetch - processPackages [nonebot-plugin-fhl]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 12:14:16] INFO root fetch - processPackages [odoo-addon-stock-grn]: New version: [16.0.1.0.3] Old Version: [16.0.1.0.2]
+[2024-04-17 12:14:16] WARNING root fetch - processPackages [qitip]: Skipping, unable to determine old version
+[2024-04-17 12:14:16] INFO root fetch - main [MainThread]: End processing [qitip] error
+[2024-04-17 12:14:16] INFO root fetch - processPackages [pyam-iamc]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-17 12:14:17] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/2f/69/d5ca48e06d9886d2cca15003a3f8d5a628ab626fd9401a4890d5a4530fa9/openlane-2.0.0rc2.tar.gz
+[2024-04-17 12:14:17] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-04-17 12:14:17] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/f5/05/35a6b04340df8e80351dd1c7e79d3fa5f9181e51ccd4f560215cef3beb68/iac_init-0.4.0.tar.gz
+[2024-04-17 12:14:17] INFO root fetch - processPackages [dataforgetoolkit]: Downloading https://files.pythonhosted.org/packages/ee/d7/3ab24773e25b1faf4c2ab57ec9c584e7be71a05d38ba9f374cf4baf37736/dataforgetoolkit-1.0.1-py3-none-any.whl
+[2024-04-17 12:14:17] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/fc/27/0fe691bdc2ac2b336de92e7b06b86fa68a6c00e8588b23637009698a9678/grafana_foundation_sdk-1713348465!10.2.0.tar.gz
+[2024-04-17 12:14:17] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/4c/6d/0efed4714df18a9a1bd2cdf4e0c0f32260ec82916a657b0f6b073bd558bb/nonebot_plugin_fhl-0.1.1.tar.gz
+[2024-04-17 12:14:17] INFO root fetch - processPackages [pyam-iamc]: Downloading https://files.pythonhosted.org/packages/67/96/75c5e67bee02740cc241a1fd9022e054042a8b5ff8b040d780b74e8de23c/pyam_iamc-2.2.0.tar.gz
+[2024-04-17 12:14:17] INFO root fetch - processPackages [odoo-addon-stock-grn]: Downloading https://files.pythonhosted.org/packages/b9/6b/42eec918cb877d38ff4cc431e6cdeefeabed288c9cf6c42e68510cfc6bc1/odoo_addon_stock_grn-16.0.1.0.2-py3-none-any.whl
+[2024-04-17 12:14:17] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/d8/b5/ecb6cbf55895566c4df92c9e21d20e6f6f8741b778842c71feca9177bc7b/openlane-2.0.0rc3-py3-none-any.whl
+[2024-04-17 12:14:17] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-04-17 12:14:17] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/54/48/bdc88d6dd3c741918b15f7ac73c78436fe5be437c5a55d80369db1da9830/iac_init-0.4.1.tar.gz
+[2024-04-17 12:14:17] INFO root fetch - processPackages [dataforgetoolkit]: Downloading https://files.pythonhosted.org/packages/e4/6b/79ad65852855e568d685417a664aa03f09a3e601d1989ccbf76d4d554aef/dataforgetoolkit-1.0.2-py3-none-any.whl
+[2024-04-17 12:14:17] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/38/b5/049be995e840d24a3f46c8b10286648d57fd947b659378c88460d751fbf8/grafana_foundation_sdk-1713348558!10.3.0.tar.gz
+[2024-04-17 12:14:17] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2024-04-17 12:14:17] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0rc2.tar.gz tmp/openlane-2.0.0rc3-py3-none-any.whl.zip --markdown 20240417/o/openlane/2.0.0rc2-2.0.0rc3/README.md --exclude *.pyd
+[2024-04-17 12:14:17] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-04-17 12:14:17] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240417/s/superlinked/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-17 12:14:17] INFO root fetch - processPackages [pyam-iamc]: Downloading https://files.pythonhosted.org/packages/42/9e/bf979008ad021e0e35ba12952d880c68a6351d11a7f6b0063ea88b470e4f/pyam_iamc-2.2.1.tar.gz
+[2024-04-17 12:14:17] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/a6/8b/ead09a8deace21d44722559b8f297f87c1fbe4e29c3f2225a1db02da3a3a/nonebot_plugin_fhl-0.1.2.tar.gz
+[2024-04-17 12:14:17] INFO root fetch - processPackages [odoo-addon-stock-grn]: Downloading https://files.pythonhosted.org/packages/6a/a8/4a0574f1b5a199b67c230b91182405afd572830bf6c98fff43b5bd70ddef/odoo_addon_stock_grn-16.0.1.0.3-py3-none-any.whl
+[2024-04-17 12:14:17] INFO root fetch - processPackages [dataforgetoolkit]: executing diffoscope
+[2024-04-17 12:14:17] INFO root fetch - processPackages [dataforgetoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataforgetoolkit-1.0.1-py3-none-any.whl.zip tmp/dataforgetoolkit-1.0.2-py3-none-any.whl.zip --markdown 20240417/d/dataforgetoolkit/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-17 12:14:17] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-17 12:14:17] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.4.0.tar.gz tmp/iac_init-0.4.1.tar.gz --markdown 20240417/i/iac-init/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-17 12:14:17] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-04-17 12:14:17] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1713348465!10.2.0.tar.gz tmp/grafana_foundation_sdk-1713348558!10.3.0.tar.gz --markdown 20240417/g/grafana-foundation-sdk/1713348465!10.2.0-1713348558!10.3.0/README.md --exclude *.pyd
+[2024-04-17 12:14:17] INFO root fetch - processPackages [nonebot-plugin-fhl]: executing diffoscope
+[2024-04-17 12:14:17] INFO root fetch - processPackages [nonebot-plugin-fhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_fhl-0.1.1.tar.gz tmp/nonebot_plugin_fhl-0.1.2.tar.gz --markdown 20240417/n/nonebot-plugin-fhl/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 12:14:17] INFO root fetch - processPackages [odoo-addon-stock-grn]: executing diffoscope
+[2024-04-17 12:14:17] INFO root fetch - processPackages [odoo-addon-stock-grn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_grn-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_grn-16.0.1.0.3-py3-none-any.whl.zip --markdown 20240417/o/odoo-addon-stock-grn/16.0.1.0.2-16.0.1.0.3/README.md --exclude *.pyd
+[2024-04-17 12:14:17] INFO root fetch - processPackages [pyam-iamc]: executing diffoscope
+[2024-04-17 12:14:17] INFO root fetch - processPackages [pyam-iamc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyam_iamc-2.2.0.tar.gz tmp/pyam_iamc-2.2.1.tar.gz --markdown 20240417/p/pyam-iamc/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-04-17 12:14:18] INFO root fetch - processPackages [dataforgetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/dataforgetoolkit-1.0.1-py3-none-any.whl.zip]
+[2024-04-17 12:14:18] INFO root fetch - processPackages [dataforgetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/dataforgetoolkit-1.0.2-py3-none-any.whl.zip]
+[2024-04-17 12:14:18] INFO root fetch - main [MainThread]: End processing [dataforgetoolkit]: success
+[2024-04-17 12:14:18] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.1.tar.gz]
+[2024-04-17 12:14:18] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.2.tar.gz]
+[2024-04-17 12:14:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fhl]: success
+[2024-04-17 12:14:18] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.0.tar.gz]
+[2024-04-17 12:14:18] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.1.tar.gz]
+[2024-04-17 12:14:18] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-17 12:14:18] INFO root fetch - processPackages [pyam-iamc]: Remove: archive file [/home/abi/fetcher/tmp/pyam_iamc-2.2.0.tar.gz]
+[2024-04-17 12:14:18] INFO root fetch - processPackages [pyam-iamc]: Remove: archive file [/home/abi/fetcher/tmp/pyam_iamc-2.2.1.tar.gz]
+[2024-04-17 12:14:18] INFO root fetch - main [MainThread]: End processing [pyam-iamc]: success
+[2024-04-17 12:14:18] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0rc2.tar.gz]
+[2024-04-17 12:14:18] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0rc3-py3-none-any.whl.zip]
+[2024-04-17 12:14:18] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2024-04-17 12:14:18] INFO root fetch - processPackages [odoo-addon-stock-grn]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_grn-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-04-17 12:14:18] INFO root fetch - processPackages [odoo-addon-stock-grn]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_grn-16.0.1.0.3-py3-none-any.whl.zip]
+[2024-04-17 12:14:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-grn]: success
+[2024-04-17 12:14:18] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-04-17 12:14:18] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-04-17 12:14:18] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-04-17 12:14:19] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713348465!10.2.0.tar.gz]
+[2024-04-17 12:14:19] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713348558!10.3.0.tar.gz]
+[2024-04-17 12:14:19] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-04-17 12:14:19] INFO root fetch - main [MainThread]: Store serial: [22803710]
