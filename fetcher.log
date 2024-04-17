@@ -15746,3 +15746,80 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:27:36] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-04-17 10:27:36] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-04-17 10:27:36] INFO root fetch - main [MainThread]: Store serial: [22802209]
+[2024-04-17 10:29:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802209]
+[2024-04-17 10:29:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zbx-wxwork-assistant
+[2024-04-17 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funcnodes_images
+[2024-04-17 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudnetpy
+[2024-04-17 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: research-roc-utils
+[2024-04-17 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datewise
+[2024-04-17 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-node-binding
+[2024-04-17 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-vault
+[2024-04-17 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-venafi
+[2024-04-17 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-sumologic
+[2024-04-17 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spell4checker
+[2024-04-17 10:29:45] INFO root fetch - processPackages [funcnodes_images]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 10:29:45] INFO root fetch - processPackages [datewise]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-04-17 10:29:45] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.9.0a1713292049] Old Version: [1.9.0a1712991486]
+[2024-04-17 10:29:45] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-17 10:29:45] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1712991499] Old Version: [6.2.0a1712731873]
+[2024-04-17 10:29:45] WARNING root fetch - processPackages [zbx-wxwork-assistant]: Skipping, unable to determine old version
+[2024-04-17 10:29:45] INFO root fetch - main [MainThread]: End processing [zbx-wxwork-assistant] error
+[2024-04-17 10:29:45] WARNING root fetch - processPackages [spell4checker]: Skipping, unable to determine old version
+[2024-04-17 10:29:45] INFO root fetch - main [MainThread]: End processing [spell4checker] error
+[2024-04-17 10:29:45] INFO root fetch - processPackages [research-roc-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 10:29:45] INFO root fetch - processPackages [funcnodes_images]: Downloading https://files.pythonhosted.org/packages/d2/34/63bd540dfc854881840c7bda569e8064fda542f94fa838d3ec5dfc8837b3/funcnodes_images-0.1.0.tar.gz
+[2024-04-17 10:29:45] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-04-17 10:29:45] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2024-04-17 10:29:45] INFO root fetch - processPackages [datewise]: Downloading https://files.pythonhosted.org/packages/98/0c/e8c991342d840e5291c89649edc9c27b195538f4e077107df4d50ee58622/datewise-0.1.6.tar.gz
+[2024-04-17 10:29:46] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2024-04-17 10:29:46] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2024-04-17 10:29:46] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/d4/ba/b7bda1ab1fe8291faacca84d278acd6abaf9f99bfd9ed88965e8fcc7d6af/pulumi_venafi-1.9.0a1712991486.tar.gz
+[2024-04-17 10:29:46] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/ca/e3/b47f0e32f48ec8ae06263fa29a73b1c8988dbea09c3325833c38bba378bb/pulumi_vault-6.2.0a1712731873.tar.gz
+[2024-04-17 10:29:46] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/41/e4/5364ce9b5e9491bc236bfb1c63bf1c219f3999db42f6653e675e3b2f413b/research_roc_utils-0.0.8.tar.gz
+[2024-04-17 10:29:46] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-04-17 10:29:46] INFO root fetch - processPackages [funcnodes_images]: Downloading https://files.pythonhosted.org/packages/f9/95/17ad9bb2f4ec781d51d9db4cea5891f93aec892208d201f1276bb21bd28c/funcnodes_images-0.1.1.tar.gz
+[2024-04-17 10:29:46] INFO root fetch - processPackages [datewise]: Downloading https://files.pythonhosted.org/packages/02/07/d54730bf9bb2c44b1d49364839ef971041d9ead7fde756dff5ae62ffaf87/datewise-0.2.0.tar.gz
+[2024-04-17 10:29:46] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/db/01/dcb11920f0787807e87c2c697ce7f79b7068f63cdc9de29171958916432b/pulumi_venafi-1.9.0a1713292049.tar.gz
+[2024-04-17 10:29:46] INFO root fetch - processPackages [funcnodes_images]: executing diffoscope
+[2024-04-17 10:29:46] INFO root fetch - processPackages [funcnodes_images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_images-0.1.0.tar.gz tmp/funcnodes_images-0.1.1.tar.gz --markdown 20240417/f/funcnodes_images/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 10:29:46] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1156] Old Version: [3.0.2.post1151]
+[2024-04-17 10:29:46] INFO root fetch - processPackages [datewise]: executing diffoscope
+[2024-04-17 10:29:46] INFO root fetch - processPackages [datewise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datewise-0.1.6.tar.gz tmp/datewise-0.2.0.tar.gz --markdown 20240417/d/datewise/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-04-17 10:29:46] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/03/b7/c1332f1e60425ef742ad8b4071ba37775b8c65cc6badba7cb9b7899bc80e/research_roc_utils-0.0.9.tar.gz
+[2024-04-17 10:29:46] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-04-17 10:29:46] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.9.0a1712991486.tar.gz tmp/pulumi_venafi-1.9.0a1713292049.tar.gz --markdown 20240417/p/pulumi-venafi/1.9.0a1712991486-1.9.0a1713292049/README.md --exclude *.pyd
+[2024-04-17 10:29:46] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/9d/ae/4b05cf517dedf6cf3ae2db5b423371b568da3193c957603f9c0411354702/pulumi_vault-6.2.0a1712991499.tar.gz
+[2024-04-17 10:29:46] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-04-17 10:29:46] INFO root fetch - processPackages [research-roc-utils]: executing diffoscope
+[2024-04-17 10:29:46] INFO root fetch - processPackages [research-roc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/research_roc_utils-0.0.8.tar.gz tmp/research_roc_utils-0.0.9.tar.gz --markdown 20240417/r/research-roc-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 10:29:46] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/17/cb/339b55c875b43b004c5991195045098ca23dac2bd9c89a4c5b7a2d4ee863/nucliadb_node_binding-3.0.2.post1151.tar.gz
+[2024-04-17 10:29:46] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-04-17 10:29:46] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240417/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-04-17 10:29:46] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-04-17 10:29:46] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1712731873.tar.gz tmp/pulumi_vault-6.2.0a1712991499.tar.gz --markdown 20240417/p/pulumi-vault/6.2.0a1712731873-6.2.0a1712991499/README.md --exclude *.pyd
+[2024-04-17 10:29:46] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/4b/17/fc77386438a909764ec3589f04ce0df0e09ab9d188d78810b6ddc735bb63/nucliadb_node_binding-3.0.3.post1156.tar.gz
+[2024-04-17 10:29:47] INFO root fetch - processPackages [funcnodes_images]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_images-0.1.0.tar.gz]
+[2024-04-17 10:29:47] INFO root fetch - processPackages [funcnodes_images]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_images-0.1.1.tar.gz]
+[2024-04-17 10:29:47] INFO root fetch - main [MainThread]: End processing [funcnodes_images]: success
+[2024-04-17 10:29:47] INFO root fetch - processPackages [datewise]: Remove: archive file [/home/abi/fetcher/tmp/datewise-0.1.6.tar.gz]
+[2024-04-17 10:29:47] INFO root fetch - processPackages [datewise]: Remove: archive file [/home/abi/fetcher/tmp/datewise-0.2.0.tar.gz]
+[2024-04-17 10:29:47] INFO root fetch - main [MainThread]: End processing [datewise]: success
+[2024-04-17 10:29:47] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-04-17 10:29:47] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.2.post1151.tar.gz tmp/nucliadb_node_binding-3.0.3.post1156.tar.gz --markdown 20240417/n/nucliadb-node-binding/3.0.2.post1151-3.0.3.post1156/README.md --exclude *.pyd
+[2024-04-17 10:29:47] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.8.tar.gz]
+[2024-04-17 10:29:47] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.9.tar.gz]
+[2024-04-17 10:29:47] INFO root fetch - main [MainThread]: End processing [research-roc-utils]: success
+[2024-04-17 10:29:47] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1712991486.tar.gz]
+[2024-04-17 10:29:47] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
+[2024-04-17 10:29:47] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-04-17 10:29:47] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-04-17 10:29:47] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-04-17 10:29:47] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-04-17 10:29:48] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1712731873.tar.gz]
+[2024-04-17 10:29:48] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1712991499.tar.gz]
+[2024-04-17 10:29:48] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-04-17 10:29:49] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.2.post1151.tar.gz]
+[2024-04-17 10:29:49] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1156.tar.gz]
+[2024-04-17 10:29:49] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-04-17 10:29:49] INFO root fetch - main [MainThread]: Store serial: [22802257]
