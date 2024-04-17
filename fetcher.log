@@ -14771,3 +14771,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:53:39] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_schema_parser-0.1.5.tar.gz]
 [2024-04-17 09:53:39] INFO root fetch - main [MainThread]: End processing [ccdexplorer-schema-parser]: success
 [2024-04-17 09:53:39] INFO root fetch - main [MainThread]: Store serial: [22801673]
+[2024-04-17 09:55:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801673]
+[2024-04-17 09:55:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 09:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-connect
+[2024-04-17 09:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-tools
+[2024-04-17 09:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linktest
+[2024-04-17 09:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imagenorm
+[2024-04-17 09:55:48] INFO root fetch - processPackages [linktest]: New version: [2.5.5] Old Version: [2.5.4]
+[2024-04-17 09:55:48] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.184] Old Version: [0.1.183]
+[2024-04-17 09:55:48] INFO root fetch - processPackages [langchain-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-17 09:55:48] ERROR root fetch - processPackages [imagenorm]: Unable to get metadata: No such project 'imagenorm'
+[2024-04-17 09:55:48] INFO root fetch - main [MainThread]: End processing [imagenorm] error
+[2024-04-17 09:55:48] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/62/21/66f6c1e058f0b71064db50a1964098912639096e8a77a63915885cc14f20/linktest-2.5.4.tar.gz
+[2024-04-17 09:55:48] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/9b/24/906c69aa408dee9206804d49f07061da56556107cab14b01ca3cdf22c855/ansar_connect-0.1.183.tar.gz
+[2024-04-17 09:55:48] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/6b/00/163bdee32da39c08882b88ee6983de813905743f23581dbfb76b13a9fe9a/langchain-tools-0.1.5.tar.gz
+[2024-04-17 09:55:48] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/cf/25/9d47cc2c84391ec2938a90838e49ede3e160adac5120144d8052428e063a/langchain-tools-0.1.6.tar.gz
+[2024-04-17 09:55:48] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/40/11/e0345c04697eab656eb8875b6787116d0ac730fdb877db2a3c9c9084b717/linktest-2.5.5.tar.gz
+[2024-04-17 09:55:48] INFO root fetch - processPackages [langchain-tools]: executing diffoscope
+[2024-04-17 09:55:48] INFO root fetch - processPackages [langchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-tools-0.1.5.tar.gz tmp/langchain-tools-0.1.6.tar.gz --markdown 20240417/l/langchain-tools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-17 09:55:48] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/37/68/4244f23fb404800dca439329019dc859c7ec511c4e967877aca7de08de19/ansar_connect-0.1.184.tar.gz
+[2024-04-17 09:55:49] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-17 09:55:49] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.5.4.tar.gz tmp/linktest-2.5.5.tar.gz --markdown 20240417/l/linktest/2.5.4-2.5.5/README.md --exclude *.pyd
+[2024-04-17 09:55:49] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-17 09:55:49] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.183.tar.gz tmp/ansar_connect-0.1.184.tar.gz --markdown 20240417/a/ansar-connect/0.1.183-0.1.184/README.md --exclude *.pyd
+[2024-04-17 09:55:49] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.5.tar.gz]
+[2024-04-17 09:55:49] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.6.tar.gz]
+[2024-04-17 09:55:49] INFO root fetch - main [MainThread]: End processing [langchain-tools]: success
+[2024-04-17 09:55:49] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.5.4.tar.gz]
+[2024-04-17 09:55:49] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.5.5.tar.gz]
+[2024-04-17 09:55:49] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-17 09:55:49] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.183.tar.gz]
+[2024-04-17 09:55:49] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.184.tar.gz]
+[2024-04-17 09:55:49] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-17 09:55:49] INFO root fetch - main [MainThread]: Store serial: [22801703]
