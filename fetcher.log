@@ -8523,3 +8523,90 @@
 [2024-04-17 04:49:40] INFO root fetch - processPackages [mavsdk]: Remove: archive file [/home/abi/fetcher/tmp/mavsdk-2.4.1-py3-none-win_amd64.whl.zip]
 [2024-04-17 04:49:40] INFO root fetch - main [MainThread]: End processing [mavsdk]: success
 [2024-04-17 04:49:40] INFO root fetch - main [MainThread]: Store serial: [22799103]
+[2024-04-17 04:51:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799103]
+[2024-04-17 04:51:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 04:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhijiang
+[2024-04-17 04:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raga-llm-eval
+[2024-04-17 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: donetools
+[2024-04-17 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zq-tools
+[2024-04-17 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mashlib
+[2024-04-17 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eirStru
+[2024-04-17 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iac-init
+[2024-04-17 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openstudio-lib
+[2024-04-17 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ptcr
+[2024-04-17 04:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stackql-deploy
+[2024-04-17 04:51:49] INFO root fetch - processPackages [donetools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 04:51:49] INFO root fetch - processPackages [zq-tools]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-17 04:51:49] INFO root fetch - processPackages [ptcr]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-17 04:51:49] INFO root fetch - processPackages [iac-init]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-17 04:51:49] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.0b9] Old Version: [2.1.0b8]
+[2024-04-17 04:51:49] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 04:51:49] WARNING root fetch - processPackages [openstudio-lib]: Skipping, unable to determine old version
+[2024-04-17 04:51:49] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-17 04:51:49] INFO root fetch - main [MainThread]: End processing [openstudio-lib] error
+[2024-04-17 04:51:49] INFO root fetch - processPackages [mashlib]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-17 04:51:49] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/e7/16ef7ef33b09a9634459bb56e910fc56d348769263fd89f5074d35a6aa31/donetools-0.0.8.tar.gz
+[2024-04-17 04:51:49] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-17 04:51:49] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/a7/f3/8a6aa3b5a031cb7badbca3a96520ac225de739794addcb2b0a4b40686518/ptcr-0.1.3.tar.gz
+[2024-04-17 04:51:49] INFO root fetch - processPackages [zq-tools]: Downloading https://files.pythonhosted.org/packages/99/9f/03115136228ed0776f52f05086ac516e8fca9b6457da065a42ce99d05d08/zq-tools-1.0.2.tar.gz
+[2024-04-17 04:51:49] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 04:51:49] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/ef/63/567da38c21f87a44bd2d603509b98b23153146162b18699b9ad08a19aedc/iac_init-0.2.7.tar.gz
+[2024-04-17 04:51:49] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/97/4d/2b4ed95a3741b305ca16e9450b6fe38a6e576eb00d86526833e15216f29a/raga_llm_eval-2.1.0b8.tar.gz
+[2024-04-17 04:51:49] INFO root fetch - processPackages [mashlib]: Downloading https://files.pythonhosted.org/packages/23/59/565efe5ab0139d045dd3559119fcecf374f76b5e60b0c5df28db0baf0fb2/mashlib-0.1.5.tar.gz
+[2024-04-17 04:51:49] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-17 04:51:49] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/bc/28/cc26a1e320fe8c7340f7a8a47ad56f46fe697a88680abb956588b9650e76/donetools-0.0.9.tar.gz
+[2024-04-17 04:51:49] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-17 04:51:49] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 04:51:49] INFO root fetch - processPackages [zq-tools]: Downloading https://files.pythonhosted.org/packages/d8/32/28cf190d48dcb278ce6f2d1d16c7511a8cbdbee7e93d595ae5b64183e20d/zq-tools-1.0.3.tar.gz
+[2024-04-17 04:51:49] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/2e/c0/5447c443d688e4dd1dac09c70f0afc8a071ddef82d5c4f35be7d629b032d/ptcr-0.1.4.tar.gz
+[2024-04-17 04:51:49] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-17 04:51:49] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.8.tar.gz tmp/donetools-0.0.9.tar.gz --markdown 20240417/d/donetools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 04:51:49] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 04:51:49] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 04:51:49] INFO root fetch - processPackages [zq-tools]: executing diffoscope
+[2024-04-17 04:51:49] INFO root fetch - processPackages [zq-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zq-tools-1.0.2.tar.gz tmp/zq-tools-1.0.3.tar.gz --markdown 20240417/z/zq-tools/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-17 04:51:49] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/31/a5/7752ad5c00c30308168280af3a2da33fe7799fa15968f7380d5e7bfe0c92/iac_init-0.2.8.tar.gz
+[2024-04-17 04:51:49] INFO root fetch - processPackages [ptcr]: executing diffoscope
+[2024-04-17 04:51:49] INFO root fetch - processPackages [ptcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptcr-0.1.3.tar.gz tmp/ptcr-0.1.4.tar.gz --markdown 20240417/p/ptcr/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-17 04:51:49] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/f3/66/ebaca2cb771c21e70689b9f6b9e46d65ac93a1d837edf9277c498cf607e0/raga_llm_eval-2.1.0b9.tar.gz
+[2024-04-17 04:51:50] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-17 04:51:50] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.2.7.tar.gz tmp/iac_init-0.2.8.tar.gz --markdown 20240417/i/iac-init/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-17 04:51:50] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-17 04:51:50] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-04-17 04:51:50] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_eval-2.1.0b8.tar.gz tmp/raga_llm_eval-2.1.0b9.tar.gz --markdown 20240417/r/raga-llm-eval/2.1.0b8-2.1.0b9/README.md --exclude *.pyd
+[2024-04-17 04:51:50] INFO root fetch - processPackages [mashlib]: Downloading https://files.pythonhosted.org/packages/af/e9/fc9a15a2888e56cccd436fc61be56524ae4626d3eb9aef464482ae2cc815/mashlib-0.1.6.tar.gz
+[2024-04-17 04:51:50] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-17 04:51:50] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-17 04:51:50] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240417/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-17 04:51:50] INFO root fetch - processPackages [mashlib]: executing diffoscope
+[2024-04-17 04:51:50] INFO root fetch - processPackages [mashlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mashlib-0.1.5.tar.gz tmp/mashlib-0.1.6.tar.gz --markdown 20240417/m/mashlib/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-17 04:51:50] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.8.tar.gz]
+[2024-04-17 04:51:50] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
+[2024-04-17 04:51:50] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-17 04:51:50] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 04:51:50] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 04:51:50] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 04:51:50] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.1.3.tar.gz]
+[2024-04-17 04:51:50] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.1.4.tar.gz]
+[2024-04-17 04:51:50] INFO root fetch - main [MainThread]: End processing [ptcr]: success
+[2024-04-17 04:51:50] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.2.7.tar.gz]
+[2024-04-17 04:51:50] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.2.8.tar.gz]
+[2024-04-17 04:51:50] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-17 04:51:50] INFO root fetch - processPackages [zq-tools]: Remove: archive file [/home/abi/fetcher/tmp/zq-tools-1.0.2.tar.gz]
+[2024-04-17 04:51:50] INFO root fetch - processPackages [zq-tools]: Remove: archive file [/home/abi/fetcher/tmp/zq-tools-1.0.3.tar.gz]
+[2024-04-17 04:51:50] INFO root fetch - main [MainThread]: End processing [zq-tools]: success
+[2024-04-17 04:51:50] INFO root fetch - processPackages [mashlib]: Remove: archive file [/home/abi/fetcher/tmp/mashlib-0.1.5.tar.gz]
+[2024-04-17 04:51:50] INFO root fetch - processPackages [mashlib]: Remove: archive file [/home/abi/fetcher/tmp/mashlib-0.1.6.tar.gz]
+[2024-04-17 04:51:50] INFO root fetch - main [MainThread]: End processing [mashlib]: success
+[2024-04-17 04:51:51] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-17 04:51:51] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-17 04:51:51] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-17 04:51:51] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-17 04:51:51] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240417/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-17 04:51:51] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b8.tar.gz]
+[2024-04-17 04:51:51] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b9.tar.gz]
+[2024-04-17 04:51:51] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-04-17 04:51:52] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-17 04:51:52] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-17 04:51:52] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-17 04:51:52] INFO root fetch - main [MainThread]: Store serial: [22799132]
