@@ -14978,3 +14978,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:02:57] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404170800.tar.gz]
 [2024-04-17 10:02:57] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-04-17 10:02:57] INFO root fetch - main [MainThread]: Store serial: [22801871]
+[2024-04-17 10:05:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801871]
+[2024-04-17 10:05:06] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-17 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dalsa
+[2024-04-17 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dashinfer
+[2024-04-17 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mteb
+[2024-04-17 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anthropic
+[2024-04-17 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langfun
+[2024-04-17 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypesto
+[2024-04-17 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfish
+[2024-04-17 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sswater
+[2024-04-17 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-rancher2
+[2024-04-17 10:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-random
+[2024-04-17 10:05:07] WARNING root fetch - processPackages [dalsa]: Skipping, unable to determine old version
+[2024-04-17 10:05:07] INFO root fetch - processPackages [dalsa]: Start processing: iac-init
+[2024-04-17 10:05:07] INFO root fetch - main [MainThread]: End processing [dalsa] error
+[2024-04-17 10:05:07] INFO root fetch - processPackages [pypesto]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-17 10:05:07] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-17 10:05:07] INFO root fetch - processPackages [iac-init]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-04-17 10:05:07] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240416] Old Version: [0.0.2.dev20240415]
+[2024-04-17 10:05:07] INFO root fetch - processPackages [dashinfer]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-17 10:05:07] INFO root fetch - processPackages [sswater]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 10:05:07] INFO root fetch - processPackages [anthropic]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-17 10:05:07] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1713337589] Old Version: [6.2.0a1712989929]
+[2024-04-17 10:05:07] INFO root fetch - processPackages [pypesto]: Downloading https://files.pythonhosted.org/packages/19/85/a35130e4fcca1966e388e6bc6a89634e245b8a28239632368878559511cf/pypesto-0.4.2.tar.gz
+[2024-04-17 10:05:07] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2024-04-17 10:05:07] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-17 10:05:07] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/b0/4c/9787b2fc4f6a21b94dbdfa30ebb03ec47e6204056696e3a62ecc68fa266f/iac_init-0.3.7.tar.gz
+[2024-04-17 10:05:07] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/8f/5c/30fc071ee7d0b27d9874844cbab04a89641fb04098f86d4901919b6fdeab/langfun-0.0.2.dev20240415.tar.gz
+[2024-04-17 10:05:07] INFO root fetch - processPackages [kfish]: New version: [99.0.202404170804] Old Version: [99.0.202404131023]
+[2024-04-17 10:05:07] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/b7/41/dcf60daedd5b67efd47c8798679c797fe6150fea55287dc207c8d59c19b2/anthropic-0.8.1.tar.gz
+[2024-04-17 10:05:07] INFO root fetch - processPackages [dashinfer]: Downloading https://files.pythonhosted.org/packages/76/14/5637ae4deb9e676224aa571927810481f765e42e51c414676f5ba6e8c870/dashinfer-1.0.1-cp39-cp39-manylinux_2_27_aarch64.whl
+[2024-04-17 10:05:07] INFO root fetch - processPackages [sswater]: Downloading https://files.pythonhosted.org/packages/d1/69/5a3008cc9fbd18640377cdd27905e07d994f2d18af12a9ae1a81f8af20d0/sswater-0.0.2.tar.gz
+[2024-04-17 10:05:07] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/a9/dd/31a39c8725963cebc7d043972002f9cd7b392b0ee364c9657107246d4a3a/pulumi_rancher2-6.2.0a1712989929.tar.gz
+[2024-04-17 10:05:07] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2024-04-17 10:05:07] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-17 10:05:07] INFO root fetch - processPackages [pypesto]: Downloading https://files.pythonhosted.org/packages/56/dd/6d496264288ee0df8579bd1881154b5976643d05f72b2c2937e0ae56135a/pypesto-0.5.0.tar.gz
+[2024-04-17 10:05:07] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/89/3a/72f0952d5addc646d5fbb3722495331bbea33ddac29ad382e7b4315bdc7d/kfish-99.0.202404131023-py3-none-any.whl
+[2024-04-17 10:05:07] WARNING root fetch - processPackages [dashinfer]: Skipping package: exceeds size limit 19150146>=10485760
+[2024-04-17 10:05:07] INFO root fetch - main [MainThread]: End processing [dashinfer] error
+[2024-04-17 10:05:07] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/1f/16/9f9fdef8c6bd89961fbd2ba99dc1ed57b2b4663263a5ac31b05db0a954f8/iac_init-0.3.8.tar.gz
+[2024-04-17 10:05:07] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/85/02/298c0beb85a4909486971f353041fa22006d9c931c44b8e771d268f55b6a/langfun-0.0.2.dev20240416.tar.gz
+[2024-04-17 10:05:07] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-17 10:05:07] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240417/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-17 10:05:07] INFO root fetch - processPackages [pypesto]: executing diffoscope
+[2024-04-17 10:05:07] INFO root fetch - processPackages [pypesto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypesto-0.4.2.tar.gz tmp/pypesto-0.5.0.tar.gz --markdown 20240417/p/pypesto/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-04-17 10:05:07] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-17 10:05:07] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.3.7.tar.gz tmp/iac_init-0.3.8.tar.gz --markdown 20240417/i/iac-init/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-04-17 10:05:07] INFO root fetch - processPackages [sswater]: Downloading https://files.pythonhosted.org/packages/67/5c/fa0c3a3f7cca4ed16e166055f0b35fa1c96c2be07f40e598aeca85ea1259/sswater-0.0.3.tar.gz
+[2024-04-17 10:05:07] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-17 10:05:07] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240415.tar.gz tmp/langfun-0.0.2.dev20240416.tar.gz --markdown 20240417/l/langfun/0.0.2.dev20240415-0.0.2.dev20240416/README.md --exclude *.pyd
+[2024-04-17 10:05:07] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/37/0c/6ba13370574695627e19dc1fb8670baeb1674b8351d9b0682a22395404ca/pulumi_rancher2-6.2.0a1713337589.tar.gz
+[2024-04-17 10:05:08] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/16/70/62bc0c2288fdcd1e089f5742e3989fd3ebf3d41dd8190a6e352e02e5d599/kfish-99.0.202404170804-py3-none-any.whl
+[2024-04-17 10:05:08] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2024-04-17 10:05:08] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/25/20/cfba3d21f5057796d49ebf34e8046705348996a464bdd06b9c3678d9ae70/anthropic-0.9.0.tar.gz
+[2024-04-17 10:05:08] INFO root fetch - processPackages [sswater]: executing diffoscope
+[2024-04-17 10:05:08] INFO root fetch - processPackages [sswater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sswater-0.0.2.tar.gz tmp/sswater-0.0.3.tar.gz --markdown 20240417/s/sswater/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 10:05:08] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2024-04-17 10:05:08] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20240417/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/README.md --exclude *.pyd
+[2024-04-17 10:05:08] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-17 10:05:08] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404131023-py3-none-any.whl.zip tmp/kfish-99.0.202404170804-py3-none-any.whl.zip --markdown 20240417/k/kfish/99.0.202404131023-99.0.202404170804/README.md --exclude *.pyd
+[2024-04-17 10:05:08] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-04-17 10:05:08] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1712989929.tar.gz tmp/pulumi_rancher2-6.2.0a1713337589.tar.gz --markdown 20240417/p/pulumi-rancher2/6.2.0a1712989929-6.2.0a1713337589/README.md --exclude *.pyd
+[2024-04-17 10:05:08] INFO root fetch - processPackages [anthropic]: executing diffoscope
+[2024-04-17 10:05:08] INFO root fetch - processPackages [anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anthropic-0.8.1.tar.gz tmp/anthropic-0.9.0.tar.gz --markdown 20240417/a/anthropic/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-17 10:05:08] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.3.7.tar.gz]
+[2024-04-17 10:05:08] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.3.8.tar.gz]
+[2024-04-17 10:05:08] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-17 10:05:08] INFO root fetch - processPackages [sswater]: Remove: archive file [/home/abi/fetcher/tmp/sswater-0.0.2.tar.gz]
+[2024-04-17 10:05:08] INFO root fetch - processPackages [sswater]: Remove: archive file [/home/abi/fetcher/tmp/sswater-0.0.3.tar.gz]
+[2024-04-17 10:05:08] INFO root fetch - main [MainThread]: End processing [sswater]: success
+[2024-04-17 10:05:09] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404131023-py3-none-any.whl.zip]
+[2024-04-17 10:05:09] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404170804-py3-none-any.whl.zip]
+[2024-04-17 10:05:09] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-17 10:05:09] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240415.tar.gz]
+[2024-04-17 10:05:09] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240416.tar.gz]
+[2024-04-17 10:05:09] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-17 10:05:09] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2024-04-17 10:05:09] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2024-04-17 10:05:09] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2024-04-17 10:05:09] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.8.1.tar.gz]
+[2024-04-17 10:05:09] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.9.0.tar.gz]
+[2024-04-17 10:05:09] INFO root fetch - main [MainThread]: End processing [anthropic]: success
+[2024-04-17 10:05:09] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1712989929.tar.gz]
+[2024-04-17 10:05:09] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1713337589.tar.gz]
+[2024-04-17 10:05:09] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-04-17 10:05:10] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-17 10:05:10] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-17 10:05:10] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-17 10:05:10] INFO root fetch - processPackages [pypesto]: Remove: archive file [/home/abi/fetcher/tmp/pypesto-0.4.2.tar.gz]
+[2024-04-17 10:05:10] INFO root fetch - processPackages [pypesto]: Remove: archive file [/home/abi/fetcher/tmp/pypesto-0.5.0.tar.gz]
+[2024-04-17 10:05:10] INFO root fetch - main [MainThread]: End processing [pypesto]: success
+[2024-04-17 10:05:10] INFO root fetch - main [MainThread]: Store serial: [22801906]
