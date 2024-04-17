@@ -17189,3 +17189,299 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:17:43] INFO root fetch - processPackages [mastapy]: Remove: archive file [/home/abi/fetcher/tmp/mastapy-13.0a2.tar.gz]
 [2024-04-17 11:17:43] INFO root fetch - main [MainThread]: End processing [mastapy]: success
 [2024-04-17 11:17:43] INFO root fetch - main [MainThread]: Store serial: [22802874]
+[2024-04-17 11:19:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802874]
+[2024-04-17 11:19:56] INFO root fetch - main [MainThread]: Found 41 changed packages
+[2024-04-17 11:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: furthrmind
+[2024-04-17 11:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gamspy-scip
+[2024-04-17 11:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waylay-ml-adapter-base
+[2024-04-17 11:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waylay-ml-adapter-sdk
+[2024-04-17 11:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client
+[2024-04-17 11:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gamspy-ipopt
+[2024-04-17 11:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: privacyIDEA
+[2024-04-17 11:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: waylay-ml-adapter-numpy
+[2024-04-17 11:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: waylay-ml-adapter-sklearn
+[2024-04-17 11:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gamspy-ipopth
+[2024-04-17 11:19:57] INFO root fetch - processPackages [furthrmind]: New version: [0.1b6] Old Version: [0.1b5]
+[2024-04-17 11:19:57] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-17 11:19:57] WARNING root fetch - processPackages [waylay-ml-adapter-sdk]: Skipping, unable to determine old version
+[2024-04-17 11:19:57] INFO root fetch - processPackages [waylay-ml-adapter-sdk]: Start processing: tilebox-grpc
+[2024-04-17 11:19:57] INFO root fetch - main [MainThread]: End processing [waylay-ml-adapter-sdk] error
+[2024-04-17 11:19:57] INFO root fetch - processPackages [furthrmind]: Downloading https://files.pythonhosted.org/packages/6a/1a/7b4c8ee310606732f4deccc622d41bb4dc88ba1b564afd36cfb97a825878/furthrmind-0.1b5.tar.gz
+[2024-04-17 11:19:57] INFO root fetch - processPackages [gamspy-ipopt]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:19:57] WARNING root fetch - processPackages [waylay-ml-adapter-base]: Skipping, unable to determine old version
+[2024-04-17 11:19:57] INFO root fetch - processPackages [waylay-ml-adapter-base]: Start processing: eirStru
+[2024-04-17 11:19:57] INFO root fetch - main [MainThread]: End processing [waylay-ml-adapter-base] error
+[2024-04-17 11:19:57] INFO root fetch - processPackages [gamspy-scip]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:19:57] INFO root fetch - processPackages [gamspy-ipopth]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:19:57] WARNING root fetch - processPackages [waylay-ml-adapter-numpy]: Skipping, unable to determine old version
+[2024-04-17 11:19:57] INFO root fetch - processPackages [waylay-ml-adapter-numpy]: Start processing: train-model-image-package
+[2024-04-17 11:19:57] INFO root fetch - main [MainThread]: End processing [waylay-ml-adapter-numpy] error
+[2024-04-17 11:19:57] WARNING root fetch - processPackages [waylay-ml-adapter-sklearn]: Skipping, unable to determine old version
+[2024-04-17 11:19:57] INFO root fetch - processPackages [waylay-ml-adapter-sklearn]: Start processing: stigg-api-client-v2
+[2024-04-17 11:19:57] INFO root fetch - main [MainThread]: End processing [waylay-ml-adapter-sklearn] error
+[2024-04-17 11:19:57] INFO root fetch - processPackages [privacyIDEA]: New version: [3.9.3] Old Version: [3.9.2]
+[2024-04-17 11:19:57] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-04-17 11:19:57] INFO root fetch - processPackages [tilebox-grpc]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-17 11:19:57] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-17 11:19:57] WARNING root fetch - processPackages [train-model-image-package]: Skipping, unable to determine old version
+[2024-04-17 11:19:57] INFO root fetch - processPackages [train-model-image-package]: Start processing: x32dbg
+[2024-04-17 11:19:57] INFO root fetch - main [MainThread]: End processing [train-model-image-package] error
+[2024-04-17 11:19:57] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-17 11:19:57] WARNING root fetch - processPackages [x32dbg]: Skipping, unable to determine old version
+[2024-04-17 11:19:57] INFO root fetch - processPackages [x32dbg]: Start processing: airbyte-source-shopify
+[2024-04-17 11:19:57] INFO root fetch - main [MainThread]: End processing [x32dbg] error
+[2024-04-17 11:19:57] INFO root fetch - processPackages [gamspy-ipopt]: Downloading https://files.pythonhosted.org/packages/89/d7/53307752a84f7d1ac82e300eb6410af9ab25717d1763939e43341501b2c4/gamspy_ipopt-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:19:57] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-17 11:19:57] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-04-17 11:19:57] WARNING root fetch - processPackages [gamspy-ipopt]: Skipping package: exceeds size limit 38550571>=10485760
+[2024-04-17 11:19:57] INFO root fetch - processPackages [gamspy-ipopt]: Start processing: waylay-ml-adapter-torch
+[2024-04-17 11:19:57] INFO root fetch - main [MainThread]: End processing [gamspy-ipopt] error
+[2024-04-17 11:19:57] INFO root fetch - processPackages [gamspy-scip]: Downloading https://files.pythonhosted.org/packages/19/fc/771bf2a825136d4065671b79909ae005ed665c4df784cdceef2cd4a367d5/gamspy_scip-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:19:57] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-04-17 11:19:57] INFO root fetch - processPackages [gamspy-ipopth]: Downloading https://files.pythonhosted.org/packages/5b/a1/aeea4e6a8727e8331eae06f188c2734dd0203e3f82ab5684441c13787b39/gamspy_ipopth-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:19:57] INFO root fetch - processPackages [airbyte-source-shopify]: New version: [2.0.5.dev202404151522] Old Version: [2.0.5.dev202404151411]
+[2024-04-17 11:19:57] INFO root fetch - processPackages [tilebox-grpc]: Downloading https://files.pythonhosted.org/packages/89/1d/b97965aa46b1cdfca9d35e7ce68762c61dfc5ca1c0a1f369c5a9c418475e/tilebox_grpc-0.9.0.tar.gz
+[2024-04-17 11:19:57] INFO root fetch - processPackages [privacyIDEA]: Downloading https://files.pythonhosted.org/packages/77/12/6105f1e915868d083e901f191ec2762a00f235ba6ed1bf473e21ec23ed21/privacyIDEA-3.9.2.tar.gz
+[2024-04-17 11:19:57] INFO root fetch - processPackages [furthrmind]: Downloading https://files.pythonhosted.org/packages/10/14/31a3cedff382b6929ca310e337ac33bc9798f9aecb06df70c702c8aa0f7b/furthrmind-0.1b6.tar.gz
+[2024-04-17 11:19:57] WARNING root fetch - processPackages [gamspy-scip]: Skipping package: exceeds size limit 82912049>=10485760
+[2024-04-17 11:19:57] INFO root fetch - processPackages [gamspy-scip]: Start processing: gamspy-minos
+[2024-04-17 11:19:57] INFO root fetch - main [MainThread]: End processing [gamspy-scip] error
+[2024-04-17 11:19:57] WARNING root fetch - processPackages [gamspy-ipopth]: Skipping package: exceeds size limit 38550586>=10485760
+[2024-04-17 11:19:57] INFO root fetch - processPackages [gamspy-ipopth]: Start processing: gamspy-xpress
+[2024-04-17 11:19:57] INFO root fetch - main [MainThread]: End processing [gamspy-ipopth] error
+[2024-04-17 11:19:57] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-04-17 11:19:57] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240417/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-17 11:19:57] WARNING root fetch - processPackages [waylay-ml-adapter-torch]: Skipping, unable to determine old version
+[2024-04-17 11:19:57] INFO root fetch - processPackages [waylay-ml-adapter-torch]: Start processing: djangoldp-energiepartagee
+[2024-04-17 11:19:57] INFO root fetch - main [MainThread]: End processing [waylay-ml-adapter-torch] error
+[2024-04-17 11:19:57] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-17 11:19:57] INFO root fetch - processPackages [gamspy-minos]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:19:57] INFO root fetch - processPackages [furthrmind]: executing diffoscope
+[2024-04-17 11:19:57] INFO root fetch - processPackages [furthrmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furthrmind-0.1b5.tar.gz tmp/furthrmind-0.1b6.tar.gz --markdown 20240417/f/furthrmind/0.1b5-0.1b6/README.md --exclude *.pyd
+[2024-04-17 11:19:57] INFO root fetch - processPackages [gamspy-xpress]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:19:57] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/4a/6a/b9cf53abab42a9a80129dff107980d2e789581e9c83c6f02a4c2515c427f/airbyte_source_shopify-2.0.5.dev202404151411.tar.gz
+[2024-04-17 11:19:57] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-04-17 11:19:57] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-17 11:19:57] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240417/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-17 11:19:57] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-17 11:19:58] INFO root fetch - processPackages [tilebox-grpc]: Downloading https://files.pythonhosted.org/packages/b1/d0/864fe0b77fbd5a9a7dbe4505ccfbcdb396b9171e321ad4031d9af99643e1/tilebox_grpc-0.9.1.tar.gz
+[2024-04-17 11:19:58] INFO root fetch - processPackages [gamspy-minos]: Downloading https://files.pythonhosted.org/packages/14/6c/752a658eabffd9fc6a4365eb85c3d809a53401800782b2c7b8ec3d73f4be/gamspy_minos-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:19:58] INFO root fetch - processPackages [gamspy-xpress]: Downloading https://files.pythonhosted.org/packages/03/21/33d0621dde1535d85cdb5164056b3ff15412235d886d82ad438b61eda96b/gamspy_xpress-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:19:58] WARNING root fetch - processPackages [gamspy-xpress]: Skipping package: exceeds size limit 17355979>=10485760
+[2024-04-17 11:19:58] INFO root fetch - processPackages [gamspy-xpress]: Start processing: gamspy-snopt
+[2024-04-17 11:19:58] INFO root fetch - main [MainThread]: End processing [gamspy-xpress] error
+[2024-04-17 11:19:58] INFO root fetch - processPackages [tilebox-grpc]: executing diffoscope
+[2024-04-17 11:19:58] INFO root fetch - processPackages [tilebox-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tilebox_grpc-0.9.0.tar.gz tmp/tilebox_grpc-0.9.1.tar.gz --markdown 20240417/t/tilebox-grpc/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-17 11:19:58] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/2a/b5/6b5ed1cb3d4c7d9a6cdbb4236193bdce4e56c4f072a5e5a28fdfd2dc4a36/djangoldp_energiepartagee-2.0.1.tar.gz
+[2024-04-17 11:19:58] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/79/54/2960b5ed5f45cc2dad520094c6ce7dd27ab9fc29316b49ad4ba33222fb71/airbyte_source_shopify-2.0.5.dev202404151522.tar.gz
+[2024-04-17 11:19:58] INFO root fetch - processPackages [gamspy-snopt]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:19:58] INFO root fetch - processPackages [privacyIDEA]: Downloading https://files.pythonhosted.org/packages/f4/73/87f9938ceb2753fb4d6950e2209aba6ca3a589e797d31fb903c88bff56bc/privacyIDEA-3.9.3.tar.gz
+[2024-04-17 11:19:58] INFO root fetch - processPackages [airbyte-source-shopify]: executing diffoscope
+[2024-04-17 11:19:58] INFO root fetch - processPackages [airbyte-source-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_shopify-2.0.5.dev202404151411.tar.gz tmp/airbyte_source_shopify-2.0.5.dev202404151522.tar.gz --markdown 20240417/a/airbyte-source-shopify/2.0.5.dev202404151411-2.0.5.dev202404151522/README.md --exclude *.pyd
+[2024-04-17 11:19:58] INFO root fetch - processPackages [gamspy-minos]: Downloading https://files.pythonhosted.org/packages/71/e1/462c0b61578d2e568230495cdf77c4b67d6d64718eafe2827c3c74b5d087/gamspy_minos-46.4.1-py3-none-win_amd64.whl
+[2024-04-17 11:19:58] INFO root fetch - processPackages [gamspy-snopt]: Downloading https://files.pythonhosted.org/packages/89/ad/6ad7bd5e439628e4583fade928c610f8054cd961c7818c0ee394bb510352/gamspy_snopt-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:19:58] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/26/dd/fb8b25cb18aace90d5fbb4a0fe6957928f1c4d7f7eb8dc51556a6e9d2a48/djangoldp_energiepartagee-2.0.2.tar.gz
+[2024-04-17 11:19:58] INFO root fetch - processPackages [furthrmind]: Remove: archive file [/home/abi/fetcher/tmp/furthrmind-0.1b5.tar.gz]
+[2024-04-17 11:19:58] INFO root fetch - processPackages [furthrmind]: Remove: archive file [/home/abi/fetcher/tmp/furthrmind-0.1b6.tar.gz]
+[2024-04-17 11:19:58] INFO root fetch - processPackages [furthrmind]: Start processing: dblcsgen
+[2024-04-17 11:19:58] INFO root fetch - main [MainThread]: End processing [furthrmind]: success
+[2024-04-17 11:19:58] INFO root fetch - processPackages [privacyIDEA]: executing diffoscope
+[2024-04-17 11:19:58] INFO root fetch - processPackages [privacyIDEA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/privacyIDEA-3.9.2.tar.gz tmp/privacyIDEA-3.9.3.tar.gz --markdown 20240417/p/privacyIDEA/3.9.2-3.9.3/README.md --exclude *.pyd
+[2024-04-17 11:19:58] INFO root fetch - processPackages [gamspy-minos]: executing diffoscope
+[2024-04-17 11:19:58] INFO root fetch - processPackages [gamspy-minos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_minos-46.4.0-py3-none-win_amd64.whl.zip tmp/gamspy_minos-46.4.1-py3-none-win_amd64.whl.zip --markdown 20240417/g/gamspy-minos/46.4.0-46.4.1/README.md --exclude *.pyd
+[2024-04-17 11:19:58] INFO root fetch - processPackages [dblcsgen]: New version: [0.2.2.dev0] Old Version: [0.2.1]
+[2024-04-17 11:19:58] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/9e/72/9fbbe5678daea5431391139db8fbc6d5534e7f05e0c5c7e8d2ad65508717/dblcsgen-0.2.1.tar.gz
+[2024-04-17 11:19:58] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-17 11:19:58] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-17 11:19:58] INFO root fetch - processPackages [eirStru]: Start processing: gamspy-gurobi
+[2024-04-17 11:19:58] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-17 11:19:58] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-04-17 11:19:58] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.1.tar.gz tmp/djangoldp_energiepartagee-2.0.2.tar.gz --markdown 20240417/d/djangoldp-energiepartagee/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-17 11:19:58] INFO root fetch - processPackages [gamspy-snopt]: Downloading https://files.pythonhosted.org/packages/f6/d5/0a710f325f4acd7b1cacfa076e1c246c913b90483a6c4827874c49417893/gamspy_snopt-46.4.1-py3-none-win_amd64.whl
+[2024-04-17 11:19:58] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-04-17 11:19:58] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-04-17 11:19:58] INFO root fetch - processPackages [stigg-api-client]: Start processing: mteb
+[2024-04-17 11:19:58] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-04-17 11:19:59] INFO root fetch - processPackages [gamspy-gurobi]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:19:59] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-17 11:19:59] INFO root fetch - processPackages [tilebox-grpc]: Remove: archive file [/home/abi/fetcher/tmp/tilebox_grpc-0.9.0.tar.gz]
+[2024-04-17 11:19:59] INFO root fetch - processPackages [tilebox-grpc]: Remove: archive file [/home/abi/fetcher/tmp/tilebox_grpc-0.9.1.tar.gz]
+[2024-04-17 11:19:59] INFO root fetch - processPackages [tilebox-grpc]: Start processing: tbp-nightly
+[2024-04-17 11:19:59] INFO root fetch - main [MainThread]: End processing [tilebox-grpc]: success
+[2024-04-17 11:19:59] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-17 11:19:59] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-04-17 11:19:59] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/6e/3f/e79492e6564589ac85d84ca2eb4a2d0b756a07f893a04ac3322cf53298ae/dblcsgen-0.2.2.dev0.tar.gz
+[2024-04-17 11:19:59] INFO root fetch - processPackages [gamspy-gurobi]: Downloading https://files.pythonhosted.org/packages/bd/1e/c1922c65323d3fba29200daa2a76dd8540402bed9c0371c6e462ccc9a78a/gamspy_gurobi-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:19:59] INFO root fetch - processPackages [gamspy-snopt]: executing diffoscope
+[2024-04-17 11:19:59] INFO root fetch - processPackages [gamspy-snopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_snopt-46.4.0-py3-none-win_amd64.whl.zip tmp/gamspy_snopt-46.4.1-py3-none-win_amd64.whl.zip --markdown 20240417/g/gamspy-snopt/46.4.0-46.4.1/README.md --exclude *.pyd
+[2024-04-17 11:19:59] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-04-17 11:19:59] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-04-17 11:19:59] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240417/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-17 11:19:59] INFO root fetch - processPackages [dblcsgen]: executing diffoscope
+[2024-04-17 11:19:59] INFO root fetch - processPackages [dblcsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dblcsgen-0.2.1.tar.gz tmp/dblcsgen-0.2.2.dev0.tar.gz --markdown 20240417/d/dblcsgen/0.2.1-0.2.2.dev0/README.md --exclude *.pyd
+[2024-04-17 11:19:59] WARNING root fetch - processPackages [gamspy-gurobi]: Skipping package: exceeds size limit 20433586>=10485760
+[2024-04-17 11:19:59] INFO root fetch - processPackages [gamspy-gurobi]: Start processing: drex
+[2024-04-17 11:19:59] INFO root fetch - main [MainThread]: End processing [gamspy-gurobi] error
+[2024-04-17 11:19:59] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-17 11:19:59] INFO root fetch - processPackages [drex]: New version: [0.0.243] Old Version: [0.0.242]
+[2024-04-17 11:19:59] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-17 11:19:59] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240417/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-17 11:19:59] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/1e/31/30e54efd7cbcdbdf07fecd849e1997a6053521aecdbe7f047e49966add7d/drex-0.0.242.tar.gz
+[2024-04-17 11:19:59] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.0.5.dev202404151411.tar.gz]
+[2024-04-17 11:19:59] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.0.5.dev202404151522.tar.gz]
+[2024-04-17 11:19:59] INFO root fetch - processPackages [airbyte-source-shopify]: Start processing: bert4keras3
+[2024-04-17 11:19:59] INFO root fetch - main [MainThread]: End processing [airbyte-source-shopify]: success
+[2024-04-17 11:19:59] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-04-17 11:20:00] INFO root fetch - processPackages [bert4keras3]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-04-17 11:20:00] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/aa/83/3a61f8e0ef82791a687c65d9ef3b18558cfdaaf263f9b921e88f97b9fa90/drex-0.0.243.tar.gz
+[2024-04-17 11:20:00] INFO root fetch - processPackages [drex]: executing diffoscope
+[2024-04-17 11:20:00] INFO root fetch - processPackages [drex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drex-0.0.242.tar.gz tmp/drex-0.0.243.tar.gz --markdown 20240417/d/drex/0.0.242-0.0.243/README.md --exclude *.pyd
+[2024-04-17 11:20:00] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-04-17 11:20:00] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240417/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-04-17 11:20:00] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/ba/1b/b987a7efdf99809ac3447476d121b5e56615f926076a3af2db356bfc736c/bert4keras3-1.2.7-py3-none-any.whl
+[2024-04-17 11:20:00] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.1.tar.gz]
+[2024-04-17 11:20:00] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.2.dev0.tar.gz]
+[2024-04-17 11:20:00] INFO root fetch - processPackages [dblcsgen]: Start processing: TkEasyGUI
+[2024-04-17 11:20:00] INFO root fetch - main [MainThread]: End processing [dblcsgen]: success
+[2024-04-17 11:20:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.1.tar.gz]
+[2024-04-17 11:20:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.2.tar.gz]
+[2024-04-17 11:20:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: Start processing: gamspy-mpsge
+[2024-04-17 11:20:00] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-04-17 11:20:00] INFO root fetch - processPackages [TkEasyGUI]: New version: [0.2.46] Old Version: [0.2.45]
+[2024-04-17 11:20:00] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/2b/9c/707c7ac73f7efe55c472cde382996862dc8d0ff43b09ed46299a10bc2359/bert4keras3-1.2.8-py2.py3-none-any.whl
+[2024-04-17 11:20:01] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/8f/98/e5fa44e3e4ab602a4f29f41f467467f360eef54d91a8e4113927c72e835a/tkeasygui-0.2.45.tar.gz
+[2024-04-17 11:20:01] INFO root fetch - processPackages [gamspy-mpsge]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:20:01] INFO root fetch - processPackages [bert4keras3]: executing diffoscope
+[2024-04-17 11:20:01] INFO root fetch - processPackages [bert4keras3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert4keras3-1.2.7-py3-none-any.whl.zip tmp/bert4keras3-1.2.8-py2.py3-none-any.whl.zip --markdown 20240417/b/bert4keras3/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-04-17 11:20:01] INFO root fetch - processPackages [gamspy-mpsge]: Downloading https://files.pythonhosted.org/packages/28/bd/04855289100566529328f615360de8cb81d64af0bd2b0565f07617245f87/gamspy_mpsge-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:20:01] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-04-17 11:20:01] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-04-17 11:20:01] INFO root fetch - processPackages [stigg-api-client-v2]: Start processing: zencad
+[2024-04-17 11:20:01] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-04-17 11:20:01] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/92/7b/f5fa6dc67919488f044813b7d57253a5c550d5362f0002ff7a0c48650b9a/tkeasygui-0.2.46.tar.gz
+[2024-04-17 11:20:01] INFO root fetch - processPackages [zencad]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-17 11:20:01] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.242.tar.gz]
+[2024-04-17 11:20:01] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.243.tar.gz]
+[2024-04-17 11:20:01] INFO root fetch - processPackages [drex]: Start processing: gamspy-mosek
+[2024-04-17 11:20:01] INFO root fetch - main [MainThread]: End processing [drex]: success
+[2024-04-17 11:20:01] INFO root fetch - processPackages [TkEasyGUI]: executing diffoscope
+[2024-04-17 11:20:01] INFO root fetch - processPackages [TkEasyGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkeasygui-0.2.45.tar.gz tmp/tkeasygui-0.2.46.tar.gz --markdown 20240417/T/TkEasyGUI/0.2.45-0.2.46/README.md --exclude *.pyd
+[2024-04-17 11:20:01] INFO root fetch - processPackages [gamspy-mpsge]: Downloading https://files.pythonhosted.org/packages/77/e6/6bf6217868874f55a2b3018d16880b2ed0c3fb87ea0ad921ae1c3df9f3be/gamspy_mpsge-46.4.1-py3-none-win_amd64.whl
+[2024-04-17 11:20:01] INFO root fetch - processPackages [zencad]: Downloading https://files.pythonhosted.org/packages/47/f3/24ea9ad4cf92994c161546794edd15aeec11d9f81b5902e0caa901a96de1/zencad-1.3.1.tar.gz
+[2024-04-17 11:20:01] INFO root fetch - processPackages [gamspy-mosek]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:20:02] INFO root fetch - processPackages [gamspy-mpsge]: executing diffoscope
+[2024-04-17 11:20:02] INFO root fetch - processPackages [gamspy-mpsge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_mpsge-46.4.0-py3-none-win_amd64.whl.zip tmp/gamspy_mpsge-46.4.1-py3-none-win_amd64.whl.zip --markdown 20240417/g/gamspy-mpsge/46.4.0-46.4.1/README.md --exclude *.pyd
+[2024-04-17 11:20:02] INFO root fetch - processPackages [gamspy-mosek]: Downloading https://files.pythonhosted.org/packages/b2/76/7577a8cfc79c939d9f8b4525ee32089f89be9a20dbe6aa31ca8be534f734/gamspy_mosek-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:20:02] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.2.7-py3-none-any.whl.zip]
+[2024-04-17 11:20:02] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.2.8-py2.py3-none-any.whl.zip]
+[2024-04-17 11:20:02] INFO root fetch - processPackages [bert4keras3]: Start processing: NEWNEWS
+[2024-04-17 11:20:02] INFO root fetch - main [MainThread]: End processing [bert4keras3]: success
+[2024-04-17 11:20:02] INFO root fetch - processPackages [zencad]: Downloading https://files.pythonhosted.org/packages/08/04/bd04207c7613feae07962f73fe51178f68da1446f4a5734d3dccf0374680/zencad-1.3.2.tar.gz
+[2024-04-17 11:20:02] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-17 11:20:02] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-17 11:20:02] INFO root fetch - processPackages [mteb]: Start processing: gamspy-shot
+[2024-04-17 11:20:02] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-17 11:20:02] WARNING root fetch - processPackages [NEWNEWS]: Skipping, unable to determine old version
+[2024-04-17 11:20:02] INFO root fetch - processPackages [NEWNEWS]: Start processing: sodata
+[2024-04-17 11:20:02] INFO root fetch - main [MainThread]: End processing [NEWNEWS] error
+[2024-04-17 11:20:02] INFO root fetch - processPackages [sodata]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-17 11:20:02] INFO root fetch - processPackages [gamspy-minos]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_minos-46.4.0-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:02] INFO root fetch - processPackages [gamspy-minos]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_minos-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:02] INFO root fetch - processPackages [gamspy-minos]: Start processing: gamspy-conopt3
+[2024-04-17 11:20:02] INFO root fetch - main [MainThread]: End processing [gamspy-minos]: success
+[2024-04-17 11:20:02] INFO root fetch - processPackages [gamspy-shot]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:20:02] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/3a/46/d489c68835ad2a384c21fc9e10b90ee23c695af50c29daf07981723f4609/sodata-0.0.6.tar.gz
+[2024-04-17 11:20:02] INFO root fetch - processPackages [zencad]: executing diffoscope
+[2024-04-17 11:20:02] INFO root fetch - processPackages [zencad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zencad-1.3.1.tar.gz tmp/zencad-1.3.2.tar.gz --markdown 20240417/z/zencad/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-17 11:20:02] INFO root fetch - processPackages [gamspy-conopt3]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:20:02] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/tkeasygui-0.2.45.tar.gz]
+[2024-04-17 11:20:02] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/tkeasygui-0.2.46.tar.gz]
+[2024-04-17 11:20:02] INFO root fetch - processPackages [TkEasyGUI]: Start processing: gamspy-highs
+[2024-04-17 11:20:02] INFO root fetch - main [MainThread]: End processing [TkEasyGUI]: success
+[2024-04-17 11:20:02] INFO root fetch - processPackages [gamspy-shot]: Downloading https://files.pythonhosted.org/packages/b9/22/744ae143cb366d55450f3d8a81beb4473ee273a977b5b8bf5d2486f616f9/gamspy_shot-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:20:02] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/92/c0/068e9d613eb663c69828e03e1fda0aba24f0776e0b9a6ecd7dc62e8b2430/sodata-0.0.9.tar.gz
+[2024-04-17 11:20:02] WARNING root fetch - processPackages [gamspy-shot]: Skipping package: exceeds size limit 53567759>=10485760
+[2024-04-17 11:20:02] INFO root fetch - processPackages [gamspy-shot]: Start processing: gamspy-cbc
+[2024-04-17 11:20:02] INFO root fetch - main [MainThread]: End processing [gamspy-shot] error
+[2024-04-17 11:20:02] INFO root fetch - processPackages [gamspy-highs]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:20:02] INFO root fetch - processPackages [gamspy-mosek]: Downloading https://files.pythonhosted.org/packages/26/ed/923f4f78d93e397e7e1267df4700b3eeef4ceb01963ebedead5b9c688cc6/gamspy_mosek-46.4.1-py3-none-win_amd64.whl
+[2024-04-17 11:20:02] INFO root fetch - processPackages [gamspy-conopt3]: Downloading https://files.pythonhosted.org/packages/47/6d/cb908545c925c34f0a5115014a80bedb50d7b3292518001d691106360d70/gamspy_conopt3-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:20:03] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-17 11:20:03] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.6.tar.gz tmp/sodata-0.0.9.tar.gz --markdown 20240417/s/sodata/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-17 11:20:03] INFO root fetch - processPackages [gamspy-cbc]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:20:03] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-04-17 11:20:03] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-04-17 11:20:03] INFO root fetch - processPackages [tbp-nightly]: Start processing: qtlink
+[2024-04-17 11:20:03] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-04-17 11:20:03] INFO root fetch - processPackages [gamspy-highs]: Downloading https://files.pythonhosted.org/packages/d5/d9/0ee6854899ff7d6ce2f059e00a928f383c303966a0f4dc25c5ed4bca70d0/gamspy_highs-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:20:03] INFO root fetch - processPackages [gamspy-cbc]: Downloading https://files.pythonhosted.org/packages/f4/20/8d7b5fba56c77c21368114d1fb66b5d92371e90c1a40edadb86bfa4c845c/gamspy_cbc-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:20:03] INFO root fetch - processPackages [qtlink]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-17 11:20:03] INFO root fetch - processPackages [gamspy-conopt3]: Downloading https://files.pythonhosted.org/packages/c2/2c/6d681d60cf0736db1bbbb80ab1366c45d4b63b5b096cd26cc1e9b6f26715/gamspy_conopt3-46.4.1-py3-none-win_amd64.whl
+[2024-04-17 11:20:03] WARNING root fetch - processPackages [gamspy-cbc]: Skipping package: exceeds size limit 39479501>=10485760
+[2024-04-17 11:20:03] INFO root fetch - processPackages [gamspy-cbc]: Start processing: redsession
+[2024-04-17 11:20:03] INFO root fetch - main [MainThread]: End processing [gamspy-cbc] error
+[2024-04-17 11:20:03] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/dc/26/9c01cf59732b46c2da8b4bc8aca365a45e70c3b5cdc67de08f4e4735f23c/qtlink-1.2.1.tar.gz
+[2024-04-17 11:20:03] INFO root fetch - processPackages [redsession]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-17 11:20:03] INFO root fetch - processPackages [gamspy-highs]: Downloading https://files.pythonhosted.org/packages/8c/9c/b020379984f21b9057d4eded08d11a74499dba4a645bcf490746ea07ac7c/gamspy_highs-46.4.1-py3-none-win_amd64.whl
+[2024-04-17 11:20:03] INFO root fetch - processPackages [gamspy-conopt3]: executing diffoscope
+[2024-04-17 11:20:03] INFO root fetch - processPackages [gamspy-conopt3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_conopt3-46.4.0-py3-none-win_amd64.whl.zip tmp/gamspy_conopt3-46.4.1-py3-none-win_amd64.whl.zip --markdown 20240417/g/gamspy-conopt3/46.4.0-46.4.1/README.md --exclude *.pyd
+[2024-04-17 11:20:03] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.6.tar.gz]
+[2024-04-17 11:20:03] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.9.tar.gz]
+[2024-04-17 11:20:03] INFO root fetch - processPackages [sodata]: Start processing: gamspy-dicopt
+[2024-04-17 11:20:03] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-17 11:20:03] INFO root fetch - processPackages [redsession]: Downloading https://files.pythonhosted.org/packages/e8/ff/05921a2e2caa578dd0f7b31a43e0e9420f941e6a727ab9eafa42f073b781/redsession-1.3.1.tar.gz
+[2024-04-17 11:20:04] INFO root fetch - processPackages [gamspy-dicopt]: New version: [46.4.1] Old Version: [46.4.0]
+[2024-04-17 11:20:04] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/b6/ee/e79c0f32d9245d41a4d288850329efe6d2553a6fac495184583a4d12d7f9/qtlink-1.2.2.tar.gz
+[2024-04-17 11:20:04] INFO root fetch - processPackages [zencad]: Remove: archive file [/home/abi/fetcher/tmp/zencad-1.3.1.tar.gz]
+[2024-04-17 11:20:04] INFO root fetch - processPackages [zencad]: Remove: archive file [/home/abi/fetcher/tmp/zencad-1.3.2.tar.gz]
+[2024-04-17 11:20:04] INFO root fetch - processPackages [zencad]: Start processing: symbl
+[2024-04-17 11:20:04] INFO root fetch - main [MainThread]: End processing [zencad]: success
+[2024-04-17 11:20:04] INFO root fetch - processPackages [gamspy-snopt]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_snopt-46.4.0-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:04] INFO root fetch - processPackages [gamspy-snopt]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_snopt-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:04] INFO root fetch - main [MainThread]: End processing [gamspy-snopt]: success
+[2024-04-17 11:20:04] INFO root fetch - processPackages [symbl]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-17 11:20:04] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-04-17 11:20:04] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.2.1.tar.gz tmp/qtlink-1.2.2.tar.gz --markdown 20240417/q/qtlink/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-17 11:20:04] INFO root fetch - processPackages [gamspy-mosek]: executing diffoscope
+[2024-04-17 11:20:04] INFO root fetch - processPackages [gamspy-mosek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_mosek-46.4.0-py3-none-win_amd64.whl.zip tmp/gamspy_mosek-46.4.1-py3-none-win_amd64.whl.zip --markdown 20240417/g/gamspy-mosek/46.4.0-46.4.1/README.md --exclude *.pyd
+[2024-04-17 11:20:04] INFO root fetch - processPackages [symbl]: Downloading https://files.pythonhosted.org/packages/c5/0a/5c64c22c1cee6ef1a8e190bda38db8d6a07d43f7ae2255b6f6fd49ae9496/symbl-2.0.0.tar.gz
+[2024-04-17 11:20:04] INFO root fetch - processPackages [gamspy-dicopt]: Downloading https://files.pythonhosted.org/packages/ea/e1/8932f7df1650984f34f352a8d19203d9b8939997fc46e4dbfa1c3f465e2f/gamspy_dicopt-46.4.0-py3-none-win_amd64.whl
+[2024-04-17 11:20:04] INFO root fetch - processPackages [gamspy-highs]: executing diffoscope
+[2024-04-17 11:20:04] INFO root fetch - processPackages [gamspy-highs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_highs-46.4.0-py3-none-win_amd64.whl.zip tmp/gamspy_highs-46.4.1-py3-none-win_amd64.whl.zip --markdown 20240417/g/gamspy-highs/46.4.0-46.4.1/README.md --exclude *.pyd
+[2024-04-17 11:20:04] INFO root fetch - processPackages [redsession]: Downloading https://files.pythonhosted.org/packages/e7/c0/b559412e67362c53e8c9344ef429fb385258bf71b869275ba4adf0ebe91d/redsession-1.4.0.tar.gz
+[2024-04-17 11:20:04] INFO root fetch - processPackages [symbl]: Downloading https://files.pythonhosted.org/packages/13/07/8e91bbf63763f1762680dbe97f7b16302235b758371a26de98186334e426/symbl-2.0.1.tar.gz
+[2024-04-17 11:20:04] INFO root fetch - processPackages [redsession]: executing diffoscope
+[2024-04-17 11:20:04] INFO root fetch - processPackages [redsession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redsession-1.3.1.tar.gz tmp/redsession-1.4.0.tar.gz --markdown 20240417/r/redsession/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-17 11:20:04] INFO root fetch - processPackages [gamspy-dicopt]: Downloading https://files.pythonhosted.org/packages/33/b7/dd1d81f08d27f79299a2935abacd3532c1ddba07e50762e9f5916c071d8a/gamspy_dicopt-46.4.1-py3-none-win_amd64.whl
+[2024-04-17 11:20:04] INFO root fetch - processPackages [symbl]: executing diffoscope
+[2024-04-17 11:20:04] INFO root fetch - processPackages [symbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbl-2.0.0.tar.gz tmp/symbl-2.0.1.tar.gz --markdown 20240417/s/symbl/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-17 11:20:05] INFO root fetch - processPackages [gamspy-dicopt]: executing diffoscope
+[2024-04-17 11:20:05] INFO root fetch - processPackages [gamspy-dicopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_dicopt-46.4.0-py3-none-win_amd64.whl.zip tmp/gamspy_dicopt-46.4.1-py3-none-win_amd64.whl.zip --markdown 20240417/g/gamspy-dicopt/46.4.0-46.4.1/README.md --exclude *.pyd
+[2024-04-17 11:20:05] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.1.tar.gz]
+[2024-04-17 11:20:05] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.2.tar.gz]
+[2024-04-17 11:20:05] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-04-17 11:20:05] INFO root fetch - processPackages [redsession]: Remove: archive file [/home/abi/fetcher/tmp/redsession-1.3.1.tar.gz]
+[2024-04-17 11:20:05] INFO root fetch - processPackages [redsession]: Remove: archive file [/home/abi/fetcher/tmp/redsession-1.4.0.tar.gz]
+[2024-04-17 11:20:05] INFO root fetch - main [MainThread]: End processing [redsession]: success
+[2024-04-17 11:20:05] INFO root fetch - processPackages [symbl]: Remove: archive file [/home/abi/fetcher/tmp/symbl-2.0.0.tar.gz]
+[2024-04-17 11:20:05] INFO root fetch - processPackages [symbl]: Remove: archive file [/home/abi/fetcher/tmp/symbl-2.0.1.tar.gz]
+[2024-04-17 11:20:05] INFO root fetch - main [MainThread]: End processing [symbl]: success
+[2024-04-17 11:20:06] INFO root fetch - processPackages [privacyIDEA]: Remove: archive file [/home/abi/fetcher/tmp/privacyIDEA-3.9.2.tar.gz]
+[2024-04-17 11:20:06] INFO root fetch - processPackages [privacyIDEA]: Remove: archive file [/home/abi/fetcher/tmp/privacyIDEA-3.9.3.tar.gz]
+[2024-04-17 11:20:06] INFO root fetch - main [MainThread]: End processing [privacyIDEA]: success
+[2024-04-17 11:20:06] INFO root fetch - processPackages [gamspy-mpsge]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_mpsge-46.4.0-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:06] INFO root fetch - processPackages [gamspy-mpsge]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_mpsge-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:06] INFO root fetch - main [MainThread]: End processing [gamspy-mpsge]: success
+[2024-04-17 11:20:06] INFO root fetch - processPackages [gamspy-mosek]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_mosek-46.4.0-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:06] INFO root fetch - processPackages [gamspy-mosek]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_mosek-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:06] INFO root fetch - main [MainThread]: End processing [gamspy-mosek]: success
+[2024-04-17 11:20:07] INFO root fetch - processPackages [gamspy-dicopt]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_dicopt-46.4.0-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:07] INFO root fetch - processPackages [gamspy-dicopt]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_dicopt-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:07] INFO root fetch - main [MainThread]: End processing [gamspy-dicopt]: success
+[2024-04-17 11:20:10] INFO root fetch - processPackages [gamspy-conopt3]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_conopt3-46.4.0-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:10] INFO root fetch - processPackages [gamspy-conopt3]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_conopt3-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:10] INFO root fetch - main [MainThread]: End processing [gamspy-conopt3]: success
+[2024-04-17 11:20:21] INFO root fetch - processPackages [gamspy-highs]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_highs-46.4.0-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:21] INFO root fetch - processPackages [gamspy-highs]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_highs-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-04-17 11:20:21] INFO root fetch - main [MainThread]: End processing [gamspy-highs]: success
+[2024-04-17 11:20:21] INFO root fetch - main [MainThread]: Store serial: [22803142]
