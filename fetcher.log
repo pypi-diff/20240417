@@ -17670,3 +17670,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:26:54] INFO root fetch - processPackages [bst-plugins-experimental]: Remove: archive file [/home/abi/fetcher/tmp/bst_plugins_experimental-1.99.0.tar.gz]
 [2024-04-17 11:26:54] INFO root fetch - main [MainThread]: End processing [bst-plugins-experimental]: success
 [2024-04-17 11:26:54] INFO root fetch - main [MainThread]: Store serial: [22803213]
+[2024-04-17 11:28:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803213]
+[2024-04-17 11:29:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 11:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: olas-operate-middleware
+[2024-04-17 11:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edu-rdm-integration
+[2024-04-17 11:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eirStru
+[2024-04-17 11:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: selfpkg
+[2024-04-17 11:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaikosdk
+[2024-04-17 11:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dalsa
+[2024-04-17 11:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: superlinked
+[2024-04-17 11:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightly
+[2024-04-17 11:29:04] INFO root fetch - processPackages [selfpkg]: New version: [0.0.1b4] Old Version: [0.0.1b3]
+[2024-04-17 11:29:04] INFO root fetch - processPackages [dalsa]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-17 11:29:04] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-17 11:29:04] INFO root fetch - processPackages [kaikosdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-17 11:29:04] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/b5/c5/0e95a9201aa394d71a19d46c2ef5caba41307d84b5e8623d72417da5a3e9/selfpkg-0.0.1b3.tar.gz
+[2024-04-17 11:29:04] INFO root fetch - processPackages [dalsa]: Downloading https://files.pythonhosted.org/packages/b2/c5/caced411d624598f5801aec9c0308ef0b3fc147e2ee938f37f924123e0d6/dalsa-0.0.3.tar.gz
+[2024-04-17 11:29:04] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc5] Old Version: [0.1.0rc4]
+[2024-04-17 11:29:04] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-17 11:29:04] INFO root fetch - processPackages [edu-rdm-integration]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-04-17 11:29:04] INFO root fetch - processPackages [lightly]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-04-17 11:29:04] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-17 11:29:04] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/6a/10/17f481c967a0bbb1d78138df116e6555c8309523909487cc6475b1c09411/selfpkg-0.0.1b4.tar.gz
+[2024-04-17 11:29:04] INFO root fetch - processPackages [kaikosdk]: Downloading https://files.pythonhosted.org/packages/12/03/10b3af4ed7c6d6045313197b51090fea63bfc02a842bf67a301ff0d403e6/kaikosdk-1.8.0.tar.gz
+[2024-04-17 11:29:04] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-04-17 11:29:04] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/a4/77/8842770bbaafb964a1dc916df3ca7d31c2d0410af8a3ec602171c3106595/edu-rdm-integration-3.0.3.tar.gz
+[2024-04-17 11:29:04] INFO root fetch - processPackages [dalsa]: Downloading https://files.pythonhosted.org/packages/83/bb/8e0867893c70cdbfede81ab8a0a77432e597574210c665d661faaf673a3f/dalsa-0.0.4.tar.gz
+[2024-04-17 11:29:04] INFO root fetch - processPackages [selfpkg]: executing diffoscope
+[2024-04-17 11:29:04] INFO root fetch - processPackages [selfpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfpkg-0.0.1b3.tar.gz tmp/selfpkg-0.0.1b4.tar.gz --markdown 20240417/s/selfpkg/0.0.1b3-0.0.1b4/README.md --exclude *.pyd
+[2024-04-17 11:29:04] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/07/bd/3ea5f00c41e8468631f7578d30609cf485714b027729d72c41e470718aa9/olas_operate_middleware-0.1.0rc4.tar.gz
+[2024-04-17 11:29:04] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/37/5d/44d1d602aa8ddab23a52bc086087b5bf30f9f827451d4dd1256ebcb43856/lightly-1.5.2.tar.gz
+[2024-04-17 11:29:04] INFO root fetch - processPackages [dalsa]: executing diffoscope
+[2024-04-17 11:29:04] INFO root fetch - processPackages [dalsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalsa-0.0.3.tar.gz tmp/dalsa-0.0.4.tar.gz --markdown 20240417/d/dalsa/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-17 11:29:04] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-17 11:29:04] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-17 11:29:04] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240417/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-17 11:29:05] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/b3/f7/f33986b7015f57a69891cfbff8f6b8f19a4cb9102609bcdf9635850aff68/edu-rdm-integration-3.0.4.tar.gz
+[2024-04-17 11:29:05] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-04-17 11:29:05] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/9c/5b/7f40d53e3ea379438da5ee9df7bb99c648b47a82fbf4c47ed78eebcf8b27/olas_operate_middleware-0.1.0rc5.tar.gz
+[2024-04-17 11:29:05] INFO root fetch - processPackages [kaikosdk]: Downloading https://files.pythonhosted.org/packages/fc/da/332d78277e3d5377287735b92a4a001cc63b74dd40b10d827b5318f9115e/kaikosdk-1.9.0.tar.gz
+[2024-04-17 11:29:05] INFO root fetch - processPackages [edu-rdm-integration]: executing diffoscope
+[2024-04-17 11:29:05] INFO root fetch - processPackages [edu-rdm-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu-rdm-integration-3.0.3.tar.gz tmp/edu-rdm-integration-3.0.4.tar.gz --markdown 20240417/e/edu-rdm-integration/3.0.3-3.0.4/README.md --exclude *.pyd
+[2024-04-17 11:29:05] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/cc/79/2327a1c4fdf1207dad0971af42ca6666462aeb5e695c05e1c35d2f9362b8/lightly-1.5.3-py3-none-any.whl
+[2024-04-17 11:29:05] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-04-17 11:29:05] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240417/s/superlinked/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-17 11:29:05] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-04-17 11:29:05] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc4.tar.gz tmp/olas_operate_middleware-0.1.0rc5.tar.gz --markdown 20240417/o/olas-operate-middleware/0.1.0rc4-0.1.0rc5/README.md --exclude *.pyd
+[2024-04-17 11:29:05] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.1b3.tar.gz]
+[2024-04-17 11:29:05] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.1b4.tar.gz]
+[2024-04-17 11:29:05] INFO root fetch - main [MainThread]: End processing [selfpkg]: success
+[2024-04-17 11:29:05] INFO root fetch - processPackages [dalsa]: Remove: archive file [/home/abi/fetcher/tmp/dalsa-0.0.3.tar.gz]
+[2024-04-17 11:29:05] INFO root fetch - processPackages [dalsa]: Remove: archive file [/home/abi/fetcher/tmp/dalsa-0.0.4.tar.gz]
+[2024-04-17 11:29:05] INFO root fetch - main [MainThread]: End processing [dalsa]: success
+[2024-04-17 11:29:05] INFO root fetch - processPackages [kaikosdk]: executing diffoscope
+[2024-04-17 11:29:05] INFO root fetch - processPackages [kaikosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaikosdk-1.8.0.tar.gz tmp/kaikosdk-1.9.0.tar.gz --markdown 20240417/k/kaikosdk/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-17 11:29:05] INFO root fetch - processPackages [lightly]: executing diffoscope
+[2024-04-17 11:29:05] INFO root fetch - processPackages [lightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightly-1.5.2.tar.gz tmp/lightly-1.5.3-py3-none-any.whl.zip --markdown 20240417/l/lightly/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-04-17 11:29:05] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-17 11:29:05] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-17 11:29:05] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-17 11:29:06] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc4.tar.gz]
+[2024-04-17 11:29:06] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc5.tar.gz]
+[2024-04-17 11:29:06] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-04-17 11:29:06] INFO root fetch - processPackages [kaikosdk]: Remove: archive file [/home/abi/fetcher/tmp/kaikosdk-1.8.0.tar.gz]
+[2024-04-17 11:29:06] INFO root fetch - processPackages [kaikosdk]: Remove: archive file [/home/abi/fetcher/tmp/kaikosdk-1.9.0.tar.gz]
+[2024-04-17 11:29:06] INFO root fetch - main [MainThread]: End processing [kaikosdk]: success
+[2024-04-17 11:29:06] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-3.0.3.tar.gz]
+[2024-04-17 11:29:06] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-3.0.4.tar.gz]
+[2024-04-17 11:29:06] INFO root fetch - main [MainThread]: End processing [edu-rdm-integration]: success
+[2024-04-17 11:29:06] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-04-17 11:29:06] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-04-17 11:29:06] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-04-17 11:29:06] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.5.2.tar.gz]
+[2024-04-17 11:29:06] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.5.3-py3-none-any.whl.zip]
+[2024-04-17 11:29:06] INFO root fetch - main [MainThread]: End processing [lightly]: success
+[2024-04-17 11:29:06] INFO root fetch - main [MainThread]: Store serial: [22803232]
