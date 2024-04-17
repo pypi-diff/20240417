@@ -7175,3 +7175,27 @@
 [2024-04-17 03:34:19] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.2.tar.gz]
 [2024-04-17 03:34:19] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
 [2024-04-17 03:34:19] INFO root fetch - main [MainThread]: Store serial: [22798533]
+[2024-04-17 03:36:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798533]
+[2024-04-17 03:36:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 03:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asciicards
+[2024-04-17 03:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prosperity2bt
+[2024-04-17 03:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pssr
+[2024-04-17 03:36:29] INFO root fetch - processPackages [prosperity2bt]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-17 03:36:29] WARNING root fetch - processPackages [pssr]: Skipping, unable to determine old version
+[2024-04-17 03:36:29] INFO root fetch - main [MainThread]: End processing [pssr] error
+[2024-04-17 03:36:29] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/bf/f3/a4bce36dc990e62f42b89a6b6f6f5a032b8b0e2e5f5f3a7fb8cf00b8bb53/prosperity2bt-0.5.1.tar.gz
+[2024-04-17 03:36:29] INFO root fetch - processPackages [asciicards]: New version: [0.0.8.0] Old Version: [0.0.7.2]
+[2024-04-17 03:36:29] INFO root fetch - processPackages [asciicards]: Downloading https://files.pythonhosted.org/packages/a4/6c/034d9033b4d7af216e0ae750218d1588f47c4c8cbcd11a473cf4b185ea9a/asciicards-0.0.7.2.tar.gz
+[2024-04-17 03:36:29] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/c6/95/556070d4b175c02c55f3238fa6d3479786ab2f76bcfb385375cda408d5c6/prosperity2bt-0.5.2.tar.gz
+[2024-04-17 03:36:29] INFO root fetch - processPackages [asciicards]: Downloading https://files.pythonhosted.org/packages/2b/aa/e12fbbc4b15643b85443860acb85889e694c29344b5d8ee9f29d66655b71/asciicards-0.0.8.0.tar.gz
+[2024-04-17 03:36:30] INFO root fetch - processPackages [asciicards]: executing diffoscope
+[2024-04-17 03:36:30] INFO root fetch - processPackages [asciicards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asciicards-0.0.7.2.tar.gz tmp/asciicards-0.0.8.0.tar.gz --markdown 20240417/a/asciicards/0.0.7.2-0.0.8.0/README.md --exclude *.pyd
+[2024-04-17 03:36:30] INFO root fetch - processPackages [prosperity2bt]: executing diffoscope
+[2024-04-17 03:36:30] INFO root fetch - processPackages [prosperity2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosperity2bt-0.5.1.tar.gz tmp/prosperity2bt-0.5.2.tar.gz --markdown 20240417/p/prosperity2bt/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-17 03:36:30] INFO root fetch - processPackages [asciicards]: Remove: archive file [/home/abi/fetcher/tmp/asciicards-0.0.7.2.tar.gz]
+[2024-04-17 03:36:30] INFO root fetch - processPackages [asciicards]: Remove: archive file [/home/abi/fetcher/tmp/asciicards-0.0.8.0.tar.gz]
+[2024-04-17 03:36:30] INFO root fetch - main [MainThread]: End processing [asciicards]: success
+[2024-04-17 03:36:31] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.5.1.tar.gz]
+[2024-04-17 03:36:31] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.5.2.tar.gz]
+[2024-04-17 03:36:31] INFO root fetch - main [MainThread]: End processing [prosperity2bt]: success
+[2024-04-17 03:36:31] INFO root fetch - main [MainThread]: Store serial: [22798544]
