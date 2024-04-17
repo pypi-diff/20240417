@@ -9466,3 +9466,51 @@
 [2024-04-17 05:49:24] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.9.tar.gz]
 [2024-04-17 05:49:24] INFO root fetch - main [MainThread]: End processing [sodata]: success
 [2024-04-17 05:49:24] INFO root fetch - main [MainThread]: Store serial: [22799549]
+[2024-04-17 05:51:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799549]
+[2024-04-17 05:51:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 05:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meeteval
+[2024-04-17 05:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sodata
+[2024-04-17 05:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-comprehend
+[2024-04-17 05:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-fieldservice
+[2024-04-17 05:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-field-service
+[2024-04-17 05:51:33] INFO root fetch - processPackages [sodata]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-17 05:51:33] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [17.0.1.1.0.5] Old Version: [17.0.1.1.0.4]
+[2024-04-17 05:51:33] INFO root fetch - processPackages [meeteval]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-17 05:51:33] INFO root fetch - processPackages [aws-comprehend]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 05:51:33] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/3a/46/d489c68835ad2a384c21fc9e10b90ee23c695af50c29daf07981723f4609/sodata-0.0.6.tar.gz
+[2024-04-17 05:51:33] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/be/12/3c1016e523c877aef225fdfb7c17b3a98a0d93d852a588c869fac27876b6/odoo_addon_fieldservice-17.0.1.1.0.4-py3-none-any.whl
+[2024-04-17 05:51:33] INFO root fetch - processPackages [odoo-addons-oca-field-service]: New version: [16.0.20240416.0] Old Version: [16.0.20240404.0]
+[2024-04-17 05:51:33] INFO root fetch - processPackages [meeteval]: Downloading https://files.pythonhosted.org/packages/72/e5/0e4cb862d62362bbb2325105466c6f08ddd6176321e70cba5071dba9ec40/meeteval-0.2.1.tar.gz
+[2024-04-17 05:51:33] INFO root fetch - processPackages [aws-comprehend]: Downloading https://files.pythonhosted.org/packages/d2/c0/ffa2b0668c3896cc9df4f47a694b1f3dd39956e936f291137b913dd0d33f/aws_comprehend-0.1.1.tar.gz
+[2024-04-17 05:51:33] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/92/c0/068e9d613eb663c69828e03e1fda0aba24f0776e0b9a6ecd7dc62e8b2430/sodata-0.0.9.tar.gz
+[2024-04-17 05:51:33] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/1b/63/8bf124344e7e8fa89b7145d71dafb11bd2ac12a8c5d02845390e54965aaa/odoo_addons_oca_field_service-16.0.20240404.0-py3-none-any.whl
+[2024-04-17 05:51:33] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/15/bf/ba4b96242d579d7a225515a46a2a207e6d26e55ef4acaf9c056ac5d3dc9b/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl
+[2024-04-17 05:51:33] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-17 05:51:33] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.6.tar.gz tmp/sodata-0.0.9.tar.gz --markdown 20240417/s/sodata/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-17 05:51:33] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2024-04-17 05:51:33] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-17.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl.zip --markdown 20240417/o/odoo-addon-fieldservice/17.0.1.1.0.4-17.0.1.1.0.5/README.md --exclude *.pyd
+[2024-04-17 05:51:33] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/35/13/a734531adea6d108b642382c2be8c803d644ba58a87da4de50257f290e39/odoo_addons_oca_field_service-16.0.20240416.0-py3-none-any.whl
+[2024-04-17 05:51:33] INFO root fetch - processPackages [meeteval]: Downloading https://files.pythonhosted.org/packages/0f/99/3d363391e386e562ffbcf7614c6ceee61c4136cbabaebedbe6f684d2248a/meeteval-0.3.0.tar.gz
+[2024-04-17 05:51:33] INFO root fetch - processPackages [aws-comprehend]: Downloading https://files.pythonhosted.org/packages/72/06/271cd89a0a7fa592f9283002b0ac8210f68b43985b3fe08293327a0bccc9/aws_comprehend-0.1.2.tar.gz
+[2024-04-17 05:51:34] INFO root fetch - processPackages [aws-comprehend]: executing diffoscope
+[2024-04-17 05:51:34] INFO root fetch - processPackages [aws-comprehend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_comprehend-0.1.1.tar.gz tmp/aws_comprehend-0.1.2.tar.gz --markdown 20240417/a/aws-comprehend/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 05:51:34] INFO root fetch - processPackages [meeteval]: executing diffoscope
+[2024-04-17 05:51:34] INFO root fetch - processPackages [meeteval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meeteval-0.2.1.tar.gz tmp/meeteval-0.3.0.tar.gz --markdown 20240417/m/meeteval/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-17 05:51:34] INFO root fetch - processPackages [odoo-addons-oca-field-service]: executing diffoscope
+[2024-04-17 05:51:34] INFO root fetch - processPackages [odoo-addons-oca-field-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_field_service-16.0.20240404.0-py3-none-any.whl.zip tmp/odoo_addons_oca_field_service-16.0.20240416.0-py3-none-any.whl.zip --markdown 20240417/o/odoo-addons-oca-field-service/16.0.20240404.0-16.0.20240416.0/README.md --exclude *.pyd
+[2024-04-17 05:51:34] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.6.tar.gz]
+[2024-04-17 05:51:34] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.9.tar.gz]
+[2024-04-17 05:51:34] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-17 05:51:34] INFO root fetch - processPackages [aws-comprehend]: Remove: archive file [/home/abi/fetcher/tmp/aws_comprehend-0.1.1.tar.gz]
+[2024-04-17 05:51:34] INFO root fetch - processPackages [aws-comprehend]: Remove: archive file [/home/abi/fetcher/tmp/aws_comprehend-0.1.2.tar.gz]
+[2024-04-17 05:51:34] INFO root fetch - main [MainThread]: End processing [aws-comprehend]: success
+[2024-04-17 05:51:34] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20240404.0-py3-none-any.whl.zip]
+[2024-04-17 05:51:34] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20240416.0-py3-none-any.whl.zip]
+[2024-04-17 05:51:34] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-field-service]: success
+[2024-04-17 05:51:34] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-04-17 05:51:34] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl.zip]
+[2024-04-17 05:51:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2024-04-17 05:51:35] INFO root fetch - processPackages [meeteval]: Remove: archive file [/home/abi/fetcher/tmp/meeteval-0.2.1.tar.gz]
+[2024-04-17 05:51:35] INFO root fetch - processPackages [meeteval]: Remove: archive file [/home/abi/fetcher/tmp/meeteval-0.3.0.tar.gz]
+[2024-04-17 05:51:35] INFO root fetch - main [MainThread]: End processing [meeteval]: success
+[2024-04-17 05:51:35] INFO root fetch - main [MainThread]: Store serial: [22799560]
