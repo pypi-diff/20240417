@@ -21118,3 +21118,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:42:25] INFO root fetch - processPackages [mitmproxy]: Remove: archive file [/home/abi/fetcher/tmp/mitmproxy-9.0.1-py3-none-any.whl.zip]
 [2024-04-17 13:42:25] INFO root fetch - main [MainThread]: End processing [mitmproxy]: success
 [2024-04-17 13:42:25] INFO root fetch - main [MainThread]: Store serial: [22804674]
+[2024-04-17 13:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804674]
+[2024-04-17 13:44:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 13:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: so-ml-tools
+[2024-04-17 13:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: noisy-graph-states
+[2024-04-17 13:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bacore
+[2024-04-17 13:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mteb
+[2024-04-17 13:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lunar-interceptor
+[2024-04-17 13:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snakemake-storage-plugin-fs
+[2024-04-17 13:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsk-monster
+[2024-04-17 13:44:34] WARNING root fetch - processPackages [noisy-graph-states]: Skipping, unable to determine old version
+[2024-04-17 13:44:34] INFO root fetch - main [MainThread]: End processing [noisy-graph-states] error
+[2024-04-17 13:44:34] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 13:44:34] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-17 13:44:34] INFO root fetch - processPackages [bacore]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 13:44:34] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-17 13:44:34] INFO root fetch - processPackages [lunar-interceptor]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-17 13:44:34] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-17 13:44:34] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-17 13:44:34] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-17 13:44:34] INFO root fetch - processPackages [bacore]: Downloading https://files.pythonhosted.org/packages/fa/ee/27f5dfaf9ada68468281c54b1f6065a0d06b214b5f0f5ffa04b705c586bc/bacore-0.0.8.tar.gz
+[2024-04-17 13:44:34] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-17 13:44:34] INFO root fetch - processPackages [lunar-interceptor]: Downloading https://files.pythonhosted.org/packages/76/4c/405aac88860ec63bccc6791b8f74235c2588982d6ac330eb63f2ed6d6744/lunar-interceptor-0.3.2.tar.gz
+[2024-04-17 13:44:34] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-17 13:44:34] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-17 13:44:34] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: Downloading https://files.pythonhosted.org/packages/a2/77/7facb55b17d3b1dcc4187f30cd99e3997dcc591c979738414727003241b0/snakemake_storage_plugin_fs-1.0.2.tar.gz
+[2024-04-17 13:44:34] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-17 13:44:34] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240417/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 13:44:35] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-17 13:44:35] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240417/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-17 13:44:35] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-17 13:44:35] INFO root fetch - processPackages [bacore]: Downloading https://files.pythonhosted.org/packages/7d/7b/feec0d5f955edc4d01b34bd9405f272693c5e9666752be67db3f2dd8770a/bacore-0.0.9.tar.gz
+[2024-04-17 13:44:35] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: Downloading https://files.pythonhosted.org/packages/6b/36/56a14aeac127e6c4b3ea99bc3ccb1e1b842b5b9037006eb30225c1762284/snakemake_storage_plugin_fs-1.0.3.tar.gz
+[2024-04-17 13:44:35] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-17 13:44:35] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240417/s/so-ml-tools/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-17 13:44:35] INFO root fetch - processPackages [lunar-interceptor]: Downloading https://files.pythonhosted.org/packages/36/b7/4e73683e9d192d47da685231cf9243c9b300030dcb84e93c6a67147c7945/lunar_interceptor-0.3.3.tar.gz
+[2024-04-17 13:44:35] INFO root fetch - processPackages [bacore]: executing diffoscope
+[2024-04-17 13:44:35] INFO root fetch - processPackages [bacore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacore-0.0.8.tar.gz tmp/bacore-0.0.9.tar.gz --markdown 20240417/b/bacore/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 13:44:35] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: executing diffoscope
+[2024-04-17 13:44:35] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_storage_plugin_fs-1.0.2.tar.gz tmp/snakemake_storage_plugin_fs-1.0.3.tar.gz --markdown 20240417/s/snakemake-storage-plugin-fs/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-17 13:44:35] INFO root fetch - processPackages [lunar-interceptor]: executing diffoscope
+[2024-04-17 13:44:35] INFO root fetch - processPackages [lunar-interceptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunar-interceptor-0.3.2.tar.gz tmp/lunar_interceptor-0.3.3.tar.gz --markdown 20240417/l/lunar-interceptor/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-17 13:44:35] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-17 13:44:35] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-17 13:44:35] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-17 13:44:35] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_storage_plugin_fs-1.0.2.tar.gz]
+[2024-04-17 13:44:35] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_storage_plugin_fs-1.0.3.tar.gz]
+[2024-04-17 13:44:35] INFO root fetch - main [MainThread]: End processing [snakemake-storage-plugin-fs]: success
+[2024-04-17 13:44:36] INFO root fetch - processPackages [lunar-interceptor]: Remove: archive file [/home/abi/fetcher/tmp/lunar-interceptor-0.3.2.tar.gz]
+[2024-04-17 13:44:36] INFO root fetch - processPackages [lunar-interceptor]: Remove: archive file [/home/abi/fetcher/tmp/lunar_interceptor-0.3.3.tar.gz]
+[2024-04-17 13:44:36] INFO root fetch - main [MainThread]: End processing [lunar-interceptor]: success
+[2024-04-17 13:44:36] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-17 13:44:36] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-17 13:44:36] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-17 13:44:36] INFO root fetch - processPackages [bacore]: Remove: archive file [/home/abi/fetcher/tmp/bacore-0.0.8.tar.gz]
+[2024-04-17 13:44:36] INFO root fetch - processPackages [bacore]: Remove: archive file [/home/abi/fetcher/tmp/bacore-0.0.9.tar.gz]
+[2024-04-17 13:44:36] INFO root fetch - main [MainThread]: End processing [bacore]: success
+[2024-04-17 13:44:36] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-17 13:44:36] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-17 13:44:36] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-17 13:44:36] INFO root fetch - main [MainThread]: Store serial: [22804700]
