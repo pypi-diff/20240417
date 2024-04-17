@@ -2644,3 +2644,39 @@
 [2024-04-17 02:41:51] INFO root fetch - processPackages [js-code]: Remove: archive file [/home/abi/fetcher/tmp/js_code-1.2.0.tar.gz]
 [2024-04-17 02:41:51] INFO root fetch - main [MainThread]: End processing [js-code]: success
 [2024-04-17 02:41:51] INFO root fetch - main [MainThread]: Store serial: [22796834]
+[2024-04-17 02:43:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796834]
+[2024-04-17 02:43:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 02:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pelicun
+[2024-04-17 02:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twitter-openapi-python
+[2024-04-17 02:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CSTTX
+[2024-04-17 02:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pr-pilot
+[2024-04-17 02:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-claudebot-plugin
+[2024-04-17 02:43:59] WARNING root fetch - processPackages [mkdocs-claudebot-plugin]: Skipping, unable to determine old version
+[2024-04-17 02:43:59] INFO root fetch - main [MainThread]: End processing [mkdocs-claudebot-plugin] error
+[2024-04-17 02:43:59] INFO root fetch - processPackages [pr-pilot]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-04-17 02:43:59] INFO root fetch - processPackages [pr-pilot]: Downloading https://files.pythonhosted.org/packages/d8/10/33685aa28ace450f4fed6b29db36b3a0c274840560c46a94c63f7922e3c0/pr_pilot-1.0.4.tar.gz
+[2024-04-17 02:43:59] WARNING root fetch - processPackages [CSTTX]: Skipping, unable to determine old version
+[2024-04-17 02:43:59] INFO root fetch - main [MainThread]: End processing [CSTTX] error
+[2024-04-17 02:43:59] INFO root fetch - processPackages [twitter-openapi-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 02:43:59] INFO root fetch - processPackages [pelicun]: New version: [3.3.1] Old Version: [3.3]
+[2024-04-17 02:44:00] INFO root fetch - processPackages [pelicun]: Downloading https://files.pythonhosted.org/packages/22/ff/0c363986e18b4f669f83ce83620e8eaa29e22c876bc937f078288c439900/pelicun-3.3.tar.gz
+[2024-04-17 02:44:00] INFO root fetch - processPackages [pr-pilot]: Downloading https://files.pythonhosted.org/packages/5e/81/367ef8c564dc30f86a03f306495decd8f5c09fe0d492ba5e4fd19fb682e3/pr_pilot-1.1.0.tar.gz
+[2024-04-17 02:44:00] INFO root fetch - processPackages [twitter-openapi-python]: Downloading https://files.pythonhosted.org/packages/f4/24/b50f32cb8671908872de694441eea8b982da33216d56729862df5fecbd91/twitter_openapi_python-0.0.8.tar.gz
+[2024-04-17 02:44:00] INFO root fetch - processPackages [pr-pilot]: executing diffoscope
+[2024-04-17 02:44:00] INFO root fetch - processPackages [pr-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot-1.0.4.tar.gz tmp/pr_pilot-1.1.0.tar.gz --markdown 20240417/p/pr-pilot/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-04-17 02:44:00] INFO root fetch - processPackages [twitter-openapi-python]: Downloading https://files.pythonhosted.org/packages/bf/8b/4a29be4cfdeab4cd7c380b105399db4b77f427cca7c4b1afc212619ddcc1/twitter_openapi_python-0.0.9.tar.gz
+[2024-04-17 02:44:00] INFO root fetch - processPackages [pelicun]: Downloading https://files.pythonhosted.org/packages/ac/f2/57785a2f237da73a2ecbfc8fd549a1b1db0874a5f1dacb74f4b365689a3c/pelicun-3.3.1.tar.gz
+[2024-04-17 02:44:00] INFO root fetch - processPackages [twitter-openapi-python]: executing diffoscope
+[2024-04-17 02:44:00] INFO root fetch - processPackages [twitter-openapi-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_openapi_python-0.0.8.tar.gz tmp/twitter_openapi_python-0.0.9.tar.gz --markdown 20240417/t/twitter-openapi-python/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 02:44:00] INFO root fetch - processPackages [pelicun]: executing diffoscope
+[2024-04-17 02:44:00] INFO root fetch - processPackages [pelicun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelicun-3.3.tar.gz tmp/pelicun-3.3.1.tar.gz --markdown 20240417/p/pelicun/3.3-3.3.1/README.md --exclude *.pyd
+[2024-04-17 02:44:01] INFO root fetch - processPackages [pr-pilot]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot-1.0.4.tar.gz]
+[2024-04-17 02:44:01] INFO root fetch - processPackages [pr-pilot]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot-1.1.0.tar.gz]
+[2024-04-17 02:44:01] INFO root fetch - main [MainThread]: End processing [pr-pilot]: success
+[2024-04-17 02:44:01] INFO root fetch - processPackages [twitter-openapi-python]: Remove: archive file [/home/abi/fetcher/tmp/twitter_openapi_python-0.0.8.tar.gz]
+[2024-04-17 02:44:01] INFO root fetch - processPackages [twitter-openapi-python]: Remove: archive file [/home/abi/fetcher/tmp/twitter_openapi_python-0.0.9.tar.gz]
+[2024-04-17 02:44:01] INFO root fetch - main [MainThread]: End processing [twitter-openapi-python]: success
+[2024-04-17 02:44:02] INFO root fetch - processPackages [pelicun]: Remove: archive file [/home/abi/fetcher/tmp/pelicun-3.3.tar.gz]
+[2024-04-17 02:44:02] INFO root fetch - processPackages [pelicun]: Remove: archive file [/home/abi/fetcher/tmp/pelicun-3.3.1.tar.gz]
+[2024-04-17 02:44:02] INFO root fetch - main [MainThread]: End processing [pelicun]: success
+[2024-04-17 02:44:02] INFO root fetch - main [MainThread]: Store serial: [22796857]
