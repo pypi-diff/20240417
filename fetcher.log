@@ -18901,3 +18901,67 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:09:55] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713348357!10.1.0.tar.gz]
 [2024-04-17 12:09:55] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
 [2024-04-17 12:09:55] INFO root fetch - main [MainThread]: Store serial: [22803656]
+[2024-04-17 12:12:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803656]
+[2024-04-17 12:12:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 12:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grafana-foundation-sdk
+[2024-04-17 12:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: payla-utils
+[2024-04-17 12:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyWinBox
+[2024-04-17 12:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: badbyte
+[2024-04-17 12:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyMonCtl
+[2024-04-17 12:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grafana-foundation-sdk
+[2024-04-17 12:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openlane
+[2024-04-17 12:12:05] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1713348357!10.1.0] Old Version: [1712659373!10.4.0]
+[2024-04-17 12:12:05] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1713348357!10.1.0] Old Version: [1712659373!10.4.0]
+[2024-04-17 12:12:05] INFO root fetch - processPackages [badbyte]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-17 12:12:05] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/df/3f/18ca9ebd12bbc5bbc20c3b02681dfa91ef82c543f2e0b6cdc1fb2fa824fc/grafana_foundation_sdk-1712659373!10.4.0.tar.gz
+[2024-04-17 12:12:05] INFO root fetch - processPackages [PyWinBox]: New version: [0.7] Old Version: [0.6]
+[2024-04-17 12:12:05] INFO root fetch - processPackages [PyMonCtl]: New version: [0.8] Old Version: [0.7]
+[2024-04-17 12:12:05] INFO root fetch - processPackages [badbyte]: Downloading https://files.pythonhosted.org/packages/28/e1/ae944a199c38c45dce7a077132669ceb2e75e0578d53d828c3c635efb789/badbyte-0.1.5.tar.gz
+[2024-04-17 12:12:05] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/df/3f/18ca9ebd12bbc5bbc20c3b02681dfa91ef82c543f2e0b6cdc1fb2fa824fc/grafana_foundation_sdk-1712659373!10.4.0.tar.gz
+[2024-04-17 12:12:05] INFO root fetch - processPackages [payla-utils]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 12:12:05] INFO root fetch - processPackages [openlane]: New version: [2.0.0rc3] Old Version: [2.0.0rc2]
+[2024-04-17 12:12:05] INFO root fetch - processPackages [PyWinBox]: Downloading https://files.pythonhosted.org/packages/fd/1f/1c00eceb32048d9c0ac171aee8b062be99f85c7a4a672f7d4478dd290406/PyWinBox-0.6-py3-none-any.whl
+[2024-04-17 12:12:05] INFO root fetch - processPackages [PyMonCtl]: Downloading https://files.pythonhosted.org/packages/a7/e1/e42776f68f200ce358e8de0e9be6edb189ae867286a71db7470b12931b9f/PyMonCtl-0.7-py3-none-any.whl
+[2024-04-17 12:12:05] INFO root fetch - processPackages [payla-utils]: Downloading https://files.pythonhosted.org/packages/1d/26/d774894046931c6c3bd668cc0184b03a8f5aca3f16f987d7aa464da6bc0b/payla_utils-0.3.1.tar.gz
+[2024-04-17 12:12:05] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/62/78/14f38eb3aa95c4aa0aa277ba47bfbdbe9cfbe2ea0d0dd77339e3e3dd3939/grafana_foundation_sdk-1713348357!10.1.0.tar.gz
+[2024-04-17 12:12:05] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/2f/69/d5ca48e06d9886d2cca15003a3f8d5a628ab626fd9401a4890d5a4530fa9/openlane-2.0.0rc2.tar.gz
+[2024-04-17 12:12:05] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/62/78/14f38eb3aa95c4aa0aa277ba47bfbdbe9cfbe2ea0d0dd77339e3e3dd3939/grafana_foundation_sdk-1713348357!10.1.0.tar.gz
+[2024-04-17 12:12:05] INFO root fetch - processPackages [badbyte]: Downloading https://files.pythonhosted.org/packages/7a/53/b5d2006ca1e570b77dce67cb761b3965a3235c1f9d1d37f22beccf436fc7/badbyte-0.1.6.tar.gz
+[2024-04-17 12:12:06] INFO root fetch - processPackages [badbyte]: executing diffoscope
+[2024-04-17 12:12:06] INFO root fetch - processPackages [badbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badbyte-0.1.5.tar.gz tmp/badbyte-0.1.6.tar.gz --markdown 20240417/b/badbyte/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-17 12:12:06] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-04-17 12:12:06] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1712659373!10.4.0.tar.gz tmp/grafana_foundation_sdk-1713348357!10.1.0.tar.gz --markdown 20240417/g/grafana-foundation-sdk/1712659373!10.4.0-1713348357!10.1.0/README.md --exclude *.pyd
+[2024-04-17 12:12:06] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-04-17 12:12:06] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1712659373!10.4.0.tar.gz tmp/grafana_foundation_sdk-1713348357!10.1.0.tar.gz --markdown 20240417/g/grafana-foundation-sdk/1712659373!10.4.0-1713348357!10.1.0/README.md --exclude *.pyd
+[2024-04-17 12:12:06] INFO root fetch - processPackages [PyWinBox]: Downloading https://files.pythonhosted.org/packages/b1/37/d59397221e15d2a7f38afaa4e8e6b8c244d818044f7daa0bdc5988df0a69/PyWinBox-0.7-py3-none-any.whl
+[2024-04-17 12:12:06] INFO root fetch - processPackages [payla-utils]: Downloading https://files.pythonhosted.org/packages/05/84/6edd44cc12f5b4a9b41611a2470fafeee5fffa4fc08f5755b3d9c6f630d2/payla_utils-0.3.2.tar.gz
+[2024-04-17 12:12:06] INFO root fetch - processPackages [PyMonCtl]: Downloading https://files.pythonhosted.org/packages/6f/e8/9a7fe85faaf889603120c920a181b7cd4bac56060fb92eb88cab6e307693/PyMonCtl-0.8-py3-none-any.whl
+[2024-04-17 12:12:06] INFO root fetch - processPackages [PyMonCtl]: executing diffoscope
+[2024-04-17 12:12:06] INFO root fetch - processPackages [PyMonCtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMonCtl-0.7-py3-none-any.whl.zip tmp/PyMonCtl-0.8-py3-none-any.whl.zip --markdown 20240417/P/PyMonCtl/0.7-0.8/README.md --exclude *.pyd
+[2024-04-17 12:12:06] INFO root fetch - processPackages [PyWinBox]: executing diffoscope
+[2024-04-17 12:12:06] INFO root fetch - processPackages [PyWinBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWinBox-0.6-py3-none-any.whl.zip tmp/PyWinBox-0.7-py3-none-any.whl.zip --markdown 20240417/P/PyWinBox/0.6-0.7/README.md --exclude *.pyd
+[2024-04-17 12:12:06] INFO root fetch - processPackages [payla-utils]: executing diffoscope
+[2024-04-17 12:12:06] INFO root fetch - processPackages [payla-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payla_utils-0.3.1.tar.gz tmp/payla_utils-0.3.2.tar.gz --markdown 20240417/p/payla-utils/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 12:12:06] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/d8/b5/ecb6cbf55895566c4df92c9e21d20e6f6f8741b778842c71feca9177bc7b/openlane-2.0.0rc3-py3-none-any.whl
+[2024-04-17 12:12:06] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2024-04-17 12:12:06] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0rc2.tar.gz tmp/openlane-2.0.0rc3-py3-none-any.whl.zip --markdown 20240417/o/openlane/2.0.0rc2-2.0.0rc3/README.md --exclude *.pyd
+[2024-04-17 12:12:06] INFO root fetch - processPackages [badbyte]: Remove: archive file [/home/abi/fetcher/tmp/badbyte-0.1.5.tar.gz]
+[2024-04-17 12:12:06] INFO root fetch - processPackages [badbyte]: Remove: archive file [/home/abi/fetcher/tmp/badbyte-0.1.6.tar.gz]
+[2024-04-17 12:12:06] INFO root fetch - main [MainThread]: End processing [badbyte]: success
+[2024-04-17 12:12:07] INFO root fetch - processPackages [PyWinBox]: Remove: archive file [/home/abi/fetcher/tmp/PyWinBox-0.6-py3-none-any.whl.zip]
+[2024-04-17 12:12:07] INFO root fetch - processPackages [PyWinBox]: Remove: archive file [/home/abi/fetcher/tmp/PyWinBox-0.7-py3-none-any.whl.zip]
+[2024-04-17 12:12:07] INFO root fetch - main [MainThread]: End processing [PyWinBox]: success
+[2024-04-17 12:12:07] INFO root fetch - processPackages [PyMonCtl]: Remove: archive file [/home/abi/fetcher/tmp/PyMonCtl-0.7-py3-none-any.whl.zip]
+[2024-04-17 12:12:07] INFO root fetch - processPackages [PyMonCtl]: Remove: archive file [/home/abi/fetcher/tmp/PyMonCtl-0.8-py3-none-any.whl.zip]
+[2024-04-17 12:12:07] INFO root fetch - main [MainThread]: End processing [PyMonCtl]: success
+[2024-04-17 12:12:07] INFO root fetch - processPackages [payla-utils]: Remove: archive file [/home/abi/fetcher/tmp/payla_utils-0.3.1.tar.gz]
+[2024-04-17 12:12:07] INFO root fetch - processPackages [payla-utils]: Remove: archive file [/home/abi/fetcher/tmp/payla_utils-0.3.2.tar.gz]
+[2024-04-17 12:12:07] INFO root fetch - main [MainThread]: End processing [payla-utils]: success
+[2024-04-17 12:12:07] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0rc2.tar.gz]
+[2024-04-17 12:12:07] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0rc3-py3-none-any.whl.zip]
+[2024-04-17 12:12:07] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2024-04-17 12:12:07] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1712659373!10.4.0.tar.gz]
+[2024-04-17 12:12:07] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713348357!10.1.0.tar.gz]
+[2024-04-17 12:12:07] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-04-17 12:12:07] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-04-17 12:12:07] INFO root fetch - main [MainThread]: Store serial: [22803677]
