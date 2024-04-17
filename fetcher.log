@@ -23655,3 +23655,75 @@ EOFError: EOF read where object expected
 [2024-04-17 15:10:21] INFO root fetch - processPackages [dfindexeddb]: Remove: archive file [/home/abi/fetcher/tmp/dfindexeddb-20240417.tar.gz]
 [2024-04-17 15:10:21] INFO root fetch - main [MainThread]: End processing [dfindexeddb]: success
 [2024-04-17 15:10:21] INFO root fetch - main [MainThread]: Store serial: [22805932]
+[2024-04-17 15:12:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805932]
+[2024-04-17 15:12:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 15:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-utils
+[2024-04-17 15:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assemblyline-client
+[2024-04-17 15:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbally
+[2024-04-17 15:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-client
+[2024-04-17 15:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycups
+[2024-04-17 15:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-test-utils
+[2024-04-17 15:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aidge-core
+[2024-04-17 15:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codedepot-git-ai
+[2024-04-17 15:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudnetpy
+[2024-04-17 15:12:30] INFO root fetch - processPackages [edc-utils]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-17 15:12:30] INFO root fetch - processPackages [pycups]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-17 15:12:30] INFO root fetch - processPackages [codedepot-git-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 15:12:30] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-17 15:12:30] INFO root fetch - processPackages [edc-utils]: Downloading https://files.pythonhosted.org/packages/cb/66/e90e415e8707c8f9f9ecf4a54ed26779d1e117fff293baccdc450ea803b8/edc-utils-0.3.8.tar.gz
+[2024-04-17 15:12:30] INFO root fetch - processPackages [assemblyline-client]: New version: [4.8.3.dev0] Old Version: [4.8.2]
+[2024-04-17 15:12:30] INFO root fetch - processPackages [assemblyline-client]: New version: [4.8.3.dev0] Old Version: [4.8.2]
+[2024-04-17 15:12:30] INFO root fetch - processPackages [dbally]: New version: [0.0.2] Old Version: [0.0.1.dev0]
+[2024-04-17 15:12:30] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/75/a0/d0e8b138cccd8f61da86fd40d4a8266353af6b5bfed4b3be48a89b58d840/codedepot_git_ai-0.0.8.tar.gz
+[2024-04-17 15:12:30] WARNING root fetch - processPackages [aidge-core]: Skipping, unable to determine old version
+[2024-04-17 15:12:30] INFO root fetch - main [MainThread]: End processing [aidge-core] error
+[2024-04-17 15:12:30] INFO root fetch - processPackages [edc-test-utils]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-17 15:12:30] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2024-04-17 15:12:30] INFO root fetch - processPackages [pycups]: Downloading https://files.pythonhosted.org/packages/90/a5/4b66bca34942de47bb93aa16c90dfca1089bd32f1593f92bccbee4c1e563/pycups-2.0.0.tar.gz
+[2024-04-17 15:12:30] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2024-04-17 15:12:30] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2024-04-17 15:12:30] INFO root fetch - processPackages [assemblyline-client]: Downloading https://files.pythonhosted.org/packages/11/88/cc2929930fac342898ae6fe8830add53d11a0a535a8a8acc28c938553a49/assemblyline_client-4.8.2-py2.py3-none-any.whl
+[2024-04-17 15:12:30] INFO root fetch - processPackages [assemblyline-client]: Downloading https://files.pythonhosted.org/packages/11/88/cc2929930fac342898ae6fe8830add53d11a0a535a8a8acc28c938553a49/assemblyline_client-4.8.2-py2.py3-none-any.whl
+[2024-04-17 15:12:30] INFO root fetch - processPackages [dbally]: Downloading https://files.pythonhosted.org/packages/a4/9c/212b62ddd470bf1673fe40c8c1bbb35a606a8249e212ef294f3490b5c24d/dbally-0.0.1.dev0.tar.gz
+[2024-04-17 15:12:30] INFO root fetch - processPackages [edc-test-utils]: Downloading https://files.pythonhosted.org/packages/88/77/6830dd4f3853661a4058f77baf647d89588609ed3a08c34e32d75f9dbc47/edc_test_utils-0.3.8-py3-none-any.whl
+[2024-04-17 15:12:30] INFO root fetch - processPackages [edc-utils]: Downloading https://files.pythonhosted.org/packages/38/72/edd21a261064b267d6be6d3bc34c287f2b6c399f749cb1826a2873c4553f/edc-utils-0.3.9.tar.gz
+[2024-04-17 15:12:30] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/1f/fb/3fcdaf99d6434aada4ea578dd2a3d046376dcc888a968c197445c5dd195b/codedepot_git_ai-0.0.9.tar.gz
+[2024-04-17 15:12:30] INFO root fetch - processPackages [edc-utils]: executing diffoscope
+[2024-04-17 15:12:30] INFO root fetch - processPackages [edc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-utils-0.3.8.tar.gz tmp/edc-utils-0.3.9.tar.gz --markdown 20240417/e/edc-utils/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-17 15:12:30] INFO root fetch - processPackages [codedepot-git-ai]: executing diffoscope
+[2024-04-17 15:12:30] INFO root fetch - processPackages [codedepot-git-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_git_ai-0.0.8.tar.gz tmp/codedepot_git_ai-0.0.9.tar.gz --markdown 20240417/c/codedepot-git-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 15:12:30] INFO root fetch - processPackages [pycups]: Downloading https://files.pythonhosted.org/packages/0c/bb/82546806a86dc16f5eeb76f62ffdc42cce3d43aacd4e25a8b5300eec0263/pycups-2.0.1.tar.gz
+[2024-04-17 15:12:31] INFO root fetch - processPackages [assemblyline-client]: Downloading https://files.pythonhosted.org/packages/c9/ca/916c0c0a85c0028f1752977be37868a4c716b78d0dc5eb79d760504fe77a/assemblyline_client-4.8.3.dev0-py2.py3-none-any.whl
+[2024-04-17 15:12:31] INFO root fetch - processPackages [assemblyline-client]: Downloading https://files.pythonhosted.org/packages/c9/ca/916c0c0a85c0028f1752977be37868a4c716b78d0dc5eb79d760504fe77a/assemblyline_client-4.8.3.dev0-py2.py3-none-any.whl
+[2024-04-17 15:12:31] INFO root fetch - processPackages [dbally]: Downloading https://files.pythonhosted.org/packages/0b/9a/ee4b04050b6cdf4ade336564c8bcad9fc921964f7e8373a447b261090f4e/dbally-0.0.2.tar.gz
+[2024-04-17 15:12:31] INFO root fetch - processPackages [pycups]: executing diffoscope
+[2024-04-17 15:12:31] INFO root fetch - processPackages [pycups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycups-2.0.0.tar.gz tmp/pycups-2.0.1.tar.gz --markdown 20240417/p/pycups/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-17 15:12:31] INFO root fetch - processPackages [assemblyline-client]: executing diffoscope
+[2024-04-17 15:12:31] INFO root fetch - processPackages [assemblyline-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_client-4.8.2-py2.py3-none-any.whl.zip tmp/assemblyline_client-4.8.3.dev0-py2.py3-none-any.whl.zip --markdown 20240417/a/assemblyline-client/4.8.2-4.8.3.dev0/README.md --exclude *.pyd
+[2024-04-17 15:12:31] INFO root fetch - processPackages [edc-test-utils]: Downloading https://files.pythonhosted.org/packages/85/4d/0b5aa585370e88312de5b4663f06fab953d5798e3516907e3eccc76abae6/edc_test_utils-0.3.9-py3-none-any.whl
+[2024-04-17 15:12:31] INFO root fetch - processPackages [assemblyline-client]: executing diffoscope
+[2024-04-17 15:12:31] INFO root fetch - processPackages [assemblyline-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_client-4.8.2-py2.py3-none-any.whl.zip tmp/assemblyline_client-4.8.3.dev0-py2.py3-none-any.whl.zip --markdown 20240417/a/assemblyline-client/4.8.2-4.8.3.dev0/README.md --exclude *.pyd
+[2024-04-17 15:12:31] INFO root fetch - processPackages [dbally]: executing diffoscope
+[2024-04-17 15:12:31] INFO root fetch - processPackages [dbally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbally-0.0.1.dev0.tar.gz tmp/dbally-0.0.2.tar.gz --markdown 20240417/d/dbally/0.0.1.dev0-0.0.2/README.md --exclude *.pyd
+[2024-04-17 15:12:31] INFO root fetch - processPackages [edc-test-utils]: executing diffoscope
+[2024-04-17 15:12:31] INFO root fetch - processPackages [edc-test-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_test_utils-0.3.8-py3-none-any.whl.zip tmp/edc_test_utils-0.3.9-py3-none-any.whl.zip --markdown 20240417/e/edc-test-utils/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-17 15:12:31] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.8.tar.gz]
+[2024-04-17 15:12:31] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.9.tar.gz]
+[2024-04-17 15:12:31] INFO root fetch - main [MainThread]: End processing [codedepot-git-ai]: success
+[2024-04-17 15:12:31] INFO root fetch - processPackages [edc-utils]: Remove: archive file [/home/abi/fetcher/tmp/edc-utils-0.3.8.tar.gz]
+[2024-04-17 15:12:31] INFO root fetch - processPackages [edc-utils]: Remove: archive file [/home/abi/fetcher/tmp/edc-utils-0.3.9.tar.gz]
+[2024-04-17 15:12:31] INFO root fetch - main [MainThread]: End processing [edc-utils]: success
+[2024-04-17 15:12:31] INFO root fetch - processPackages [pycups]: Remove: archive file [/home/abi/fetcher/tmp/pycups-2.0.0.tar.gz]
+[2024-04-17 15:12:31] INFO root fetch - processPackages [pycups]: Remove: archive file [/home/abi/fetcher/tmp/pycups-2.0.1.tar.gz]
+[2024-04-17 15:12:31] INFO root fetch - main [MainThread]: End processing [pycups]: success
+[2024-04-17 15:12:32] INFO root fetch - processPackages [assemblyline-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_client-4.8.2-py2.py3-none-any.whl.zip]
+[2024-04-17 15:12:32] INFO root fetch - processPackages [assemblyline-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_client-4.8.3.dev0-py2.py3-none-any.whl.zip]
+[2024-04-17 15:12:32] INFO root fetch - main [MainThread]: End processing [assemblyline-client]: success
+[2024-04-17 15:12:32] INFO root fetch - main [MainThread]: End processing [assemblyline-client]: success
+[2024-04-17 15:12:32] INFO root fetch - processPackages [dbally]: Remove: archive file [/home/abi/fetcher/tmp/dbally-0.0.1.dev0.tar.gz]
+[2024-04-17 15:12:32] INFO root fetch - processPackages [dbally]: Remove: archive file [/home/abi/fetcher/tmp/dbally-0.0.2.tar.gz]
+[2024-04-17 15:12:32] INFO root fetch - main [MainThread]: End processing [dbally]: success
+[2024-04-17 15:12:32] INFO root fetch - processPackages [edc-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/edc_test_utils-0.3.8-py3-none-any.whl.zip]
+[2024-04-17 15:12:32] INFO root fetch - processPackages [edc-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/edc_test_utils-0.3.9-py3-none-any.whl.zip]
+[2024-04-17 15:12:32] INFO root fetch - main [MainThread]: End processing [edc-test-utils]: success
+[2024-04-17 15:12:32] INFO root fetch - main [MainThread]: Store serial: [22805955]
