@@ -10916,3 +10916,86 @@
 [2024-04-17 07:25:27] INFO root fetch - processPackages [sila2]: Remove: archive file [/home/abi/fetcher/tmp/sila2-0.9.2.tar.gz]
 [2024-04-17 07:25:27] INFO root fetch - main [MainThread]: End processing [sila2]: success
 [2024-04-17 07:25:27] INFO root fetch - main [MainThread]: Store serial: [22800065]
+[2024-04-17 07:27:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800065]
+[2024-04-17 07:27:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 07:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: donetools
+[2024-04-17 07:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: READ-NEWS-TITLES
+[2024-04-17 07:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2024-04-17 07:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: backend.ai-accelerator-cuda-open
+[2024-04-17 07:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: backend.ai-accelerator-mock
+[2024-04-17 07:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: backend.ai-agent
+[2024-04-17 07:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: backend.ai-cli
+[2024-04-17 07:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: backend.ai-client
+[2024-04-17 07:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: backend.ai-common
+[2024-04-17 07:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: backend.ai-install
+[2024-04-17 07:27:36] INFO root fetch - processPackages [donetools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-accelerator-mock]: New version: [24.3.2rc1] Old Version: [24.3.1rc1]
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-install]: New version: [24.3.2rc1] Old Version: [24.3.1rc1]
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: New version: [24.3.2rc1] Old Version: [24.3.1rc1]
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-common]: New version: [24.3.2rc1] Old Version: [24.3.1rc1]
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-cli]: New version: [24.3.2rc1] Old Version: [24.3.1rc1]
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-client]: New version: [24.3.2rc1] Old Version: [24.3.1rc1]
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-agent]: New version: [24.3.2rc1] Old Version: [24.3.1rc1]
+[2024-04-17 07:27:36] WARNING root fetch - processPackages [READ-NEWS-TITLES]: Skipping, unable to determine old version
+[2024-04-17 07:27:36] INFO root fetch - main [MainThread]: End processing [READ-NEWS-TITLES] error
+[2024-04-17 07:27:36] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240416161955] Old Version: [3.3.1.dev20240416145038]
+[2024-04-17 07:27:36] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/e7/16ef7ef33b09a9634459bb56e910fc56d348769263fd89f5074d35a6aa31/donetools-0.0.8.tar.gz
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-cli]: Downloading https://files.pythonhosted.org/packages/a2/b1/07f8e7822d28a1a240bf618de6d059807ed1b640e488a22bc00822f74cf2/backend.ai-cli-24.3.1rc1.tar.gz
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Downloading https://files.pythonhosted.org/packages/d5/e2/509f97cfe65dd8c976dd5583abdd0d0bcabe05e6ce01d0ecfee2d0b90ce5/backend.ai-accelerator-mock-24.3.1rc1.tar.gz
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-install]: Downloading https://files.pythonhosted.org/packages/33/19/0b6d96b413814c53d88d3f270e44d490e4adb8cf466a605fe21ce12f29d0/backend.ai-install-24.3.1rc1.tar.gz
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Downloading https://files.pythonhosted.org/packages/0b/b1/b493a8b865553429a828a280ce25101ee23b283b2d9696baab275a1b9c14/backend.ai-accelerator-cuda-open-24.3.1rc1.tar.gz
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-client]: Downloading https://files.pythonhosted.org/packages/7b/a5/579b42154ef0e886f263524cd230653e1398fa1784273e6b29440ae278ad/backend.ai-client-24.3.1rc1.tar.gz
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-common]: Downloading https://files.pythonhosted.org/packages/2a/5a/3b13391ab4b0e0adacbc5f29c8635d215ffc2f588bb1dda3f6909ec9cf44/backend.ai-common-24.3.1rc1.tar.gz
+[2024-04-17 07:27:36] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/07/90/0907e542cb151bfac88f56f5f334e25d06d225c6e560ce5bbd44a0ad95f0/localstack_core-3.3.1.dev20240416145038.tar.gz
+[2024-04-17 07:27:36] INFO root fetch - processPackages [backend.ai-agent]: Downloading https://files.pythonhosted.org/packages/41/2e/a79db6d19d63d6999345833d6736c49cb45c417fc541cbb95d196a030799/backend.ai-agent-24.3.1rc1.tar.gz
+[2024-04-17 07:27:37] WARNING root fetch - processPackages [backend.ai-agent]: Skipping package: exceeds size limit 17984874>=10485760
+[2024-04-17 07:27:37] INFO root fetch - main [MainThread]: End processing [backend.ai-agent] error
+[2024-04-17 07:27:38] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/bc/28/cc26a1e320fe8c7340f7a8a47ad56f46fe697a88680abb956588b9650e76/donetools-0.0.9.tar.gz
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Downloading https://files.pythonhosted.org/packages/3c/40/ca29d57672f38db0fc3dd72924361a8386f1bd8cad9f22491c5621fc9d61/backend.ai-accelerator-mock-24.3.2rc1.tar.gz
+[2024-04-17 07:27:38] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-17 07:27:38] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.8.tar.gz tmp/donetools-0.0.9.tar.gz --markdown 20240417/d/donetools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-cli]: Downloading https://files.pythonhosted.org/packages/71/1f/b8463d1d33950f7d856a1aeadb3aa3047163cd30c6e7a9201f1bf20e4bbb/backend.ai-cli-24.3.2rc1.tar.gz
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Downloading https://files.pythonhosted.org/packages/7e/34/b108745a7046044c59816e89bebbfc8f815af1221ec3fd8fdcbbce96119e/backend.ai-accelerator-cuda-open-24.3.2rc1.tar.gz
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-install]: Downloading https://files.pythonhosted.org/packages/c1/77/bdd2dc953a1138a43e2409e9626885a9c58a2c5be77e452ab6a6f06744ad/backend.ai-install-24.3.2rc1.tar.gz
+[2024-04-17 07:27:38] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c6/be/e623f5dbb0b0cdbaa34ad11cae911a860f5368afa7c7a81df506d65478cc/localstack_core-3.3.1.dev20240416161955.tar.gz
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-client]: Downloading https://files.pythonhosted.org/packages/ac/f4/9d1d1db445a5011a915bbf394522a7204341a8d4f9f982a315ff58152ed8/backend.ai-client-24.3.2rc1.tar.gz
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-accelerator-mock]: executing diffoscope
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-accelerator-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-accelerator-mock-24.3.1rc1.tar.gz tmp/backend.ai-accelerator-mock-24.3.2rc1.tar.gz --markdown 20240417/b/backend.ai-accelerator-mock/24.3.1rc1-24.3.2rc1/README.md --exclude *.pyd
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-common]: Downloading https://files.pythonhosted.org/packages/ef/3d/7b69308fc6d65870c9e40511b9f0ba31cc6d4ccb4d465110687dcb6d368f/backend.ai-common-24.3.2rc1.tar.gz
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: executing diffoscope
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-accelerator-cuda-open-24.3.1rc1.tar.gz tmp/backend.ai-accelerator-cuda-open-24.3.2rc1.tar.gz --markdown 20240417/b/backend.ai-accelerator-cuda-open/24.3.1rc1-24.3.2rc1/README.md --exclude *.pyd
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-cli]: executing diffoscope
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-cli-24.3.1rc1.tar.gz tmp/backend.ai-cli-24.3.2rc1.tar.gz --markdown 20240417/b/backend.ai-cli/24.3.1rc1-24.3.2rc1/README.md --exclude *.pyd
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-install]: executing diffoscope
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-install-24.3.1rc1.tar.gz tmp/backend.ai-install-24.3.2rc1.tar.gz --markdown 20240417/b/backend.ai-install/24.3.1rc1-24.3.2rc1/README.md --exclude *.pyd
+[2024-04-17 07:27:38] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-17 07:27:38] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.3.1.dev20240416145038.tar.gz tmp/localstack_core-3.3.1.dev20240416161955.tar.gz --markdown 20240417/l/localstack-core/3.3.1.dev20240416145038-3.3.1.dev20240416161955/README.md --exclude *.pyd
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-client]: executing diffoscope
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-client-24.3.1rc1.tar.gz tmp/backend.ai-client-24.3.2rc1.tar.gz --markdown 20240417/b/backend.ai-client/24.3.1rc1-24.3.2rc1/README.md --exclude *.pyd
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-common]: executing diffoscope
+[2024-04-17 07:27:38] INFO root fetch - processPackages [backend.ai-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-common-24.3.1rc1.tar.gz tmp/backend.ai-common-24.3.2rc1.tar.gz --markdown 20240417/b/backend.ai-common/24.3.1rc1-24.3.2rc1/README.md --exclude *.pyd
+[2024-04-17 07:27:38] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.8.tar.gz]
+[2024-04-17 07:27:38] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
+[2024-04-17 07:27:38] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-17 07:27:39] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-mock-24.3.1rc1.tar.gz]
+[2024-04-17 07:27:39] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-mock-24.3.2rc1.tar.gz]
+[2024-04-17 07:27:39] INFO root fetch - main [MainThread]: End processing [backend.ai-accelerator-mock]: success
+[2024-04-17 07:27:39] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-cuda-open-24.3.1rc1.tar.gz]
+[2024-04-17 07:27:39] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-cuda-open-24.3.2rc1.tar.gz]
+[2024-04-17 07:27:39] INFO root fetch - main [MainThread]: End processing [backend.ai-accelerator-cuda-open]: success
+[2024-04-17 07:27:39] INFO root fetch - processPackages [backend.ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-cli-24.3.1rc1.tar.gz]
+[2024-04-17 07:27:39] INFO root fetch - processPackages [backend.ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-cli-24.3.2rc1.tar.gz]
+[2024-04-17 07:27:39] INFO root fetch - main [MainThread]: End processing [backend.ai-cli]: success
+[2024-04-17 07:27:39] INFO root fetch - processPackages [backend.ai-install]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-install-24.3.1rc1.tar.gz]
+[2024-04-17 07:27:39] INFO root fetch - processPackages [backend.ai-install]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-install-24.3.2rc1.tar.gz]
+[2024-04-17 07:27:39] INFO root fetch - main [MainThread]: End processing [backend.ai-install]: success
+[2024-04-17 07:27:39] INFO root fetch - processPackages [backend.ai-common]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-common-24.3.1rc1.tar.gz]
+[2024-04-17 07:27:39] INFO root fetch - processPackages [backend.ai-common]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-common-24.3.2rc1.tar.gz]
+[2024-04-17 07:27:39] INFO root fetch - main [MainThread]: End processing [backend.ai-common]: success
+[2024-04-17 07:27:39] INFO root fetch - processPackages [backend.ai-client]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-client-24.3.1rc1.tar.gz]
+[2024-04-17 07:27:39] INFO root fetch - processPackages [backend.ai-client]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-client-24.3.2rc1.tar.gz]
+[2024-04-17 07:27:39] INFO root fetch - main [MainThread]: End processing [backend.ai-client]: success
+[2024-04-17 07:27:42] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240416145038.tar.gz]
+[2024-04-17 07:27:42] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240416161955.tar.gz]
+[2024-04-17 07:27:42] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-17 07:27:42] INFO root fetch - main [MainThread]: Store serial: [22800087]
