@@ -7058,3 +7058,36 @@
 [2024-04-17 03:27:43] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
 [2024-04-17 03:27:43] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
 [2024-04-17 03:27:43] INFO root fetch - main [MainThread]: Store serial: [22798297]
+[2024-04-17 03:29:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798297]
+[2024-04-17 03:29:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 03:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-04-17 03:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stackql-deploy
+[2024-04-17 03:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moltx
+[2024-04-17 03:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-hx-yinying
+[2024-04-17 03:29:52] WARNING root fetch - processPackages [moltx]: Skipping, unable to determine old version
+[2024-04-17 03:29:52] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 03:29:52] INFO root fetch - main [MainThread]: End processing [moltx] error
+[2024-04-17 03:29:52] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 03:29:52] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-17 03:29:52] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 03:29:52] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: New version: [0.4] Old Version: [0.3]
+[2024-04-17 03:29:52] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/35/a9/a17ff7cf8a552bbccdd90d90d92ee06e0795182e0a8ba662897358ba4472/nonebot-plugin-hx-yinying-0.3.tar.gz
+[2024-04-17 03:29:52] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-17 03:29:52] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-17 03:29:52] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240417/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 03:29:52] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 03:29:52] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/1d/c9/7ee9174ddd10426cccb3c1298e95ebd76f13aca23734ee0f47bbe7191a0c/nonebot-plugin-hx-yinying-0.4.tar.gz
+[2024-04-17 03:29:52] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 03:29:52] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 03:29:52] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: executing diffoscope
+[2024-04-17 03:29:52] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-hx-yinying-0.3.tar.gz tmp/nonebot-plugin-hx-yinying-0.4.tar.gz --markdown 20240417/n/nonebot-plugin-hx-yinying/0.3-0.4/README.md --exclude *.pyd
+[2024-04-17 03:29:53] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 03:29:53] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 03:29:53] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 03:29:53] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-0.3.tar.gz]
+[2024-04-17 03:29:53] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-0.4.tar.gz]
+[2024-04-17 03:29:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hx-yinying]: success
+[2024-04-17 03:29:53] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-17 03:29:53] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-17 03:29:53] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-17 03:29:53] INFO root fetch - main [MainThread]: Store serial: [22798399]
