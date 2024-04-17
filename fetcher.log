@@ -10510,3 +10510,45 @@
 [2024-04-17 06:55:03] INFO root fetch - processPackages [cinp]: Remove: archive file [/home/abi/fetcher/tmp/cinp-1.3.3.tar.gz]
 [2024-04-17 06:55:03] INFO root fetch - main [MainThread]: End processing [cinp]: success
 [2024-04-17 06:55:03] INFO root fetch - main [MainThread]: Store serial: [22799911]
+[2024-04-17 06:57:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799911]
+[2024-04-17 06:57:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 06:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vllm-nccl-cu11
+[2024-04-17 06:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vllm-nccl-cu12
+[2024-04-17 06:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skipy
+[2024-04-17 06:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arguments-parser
+[2024-04-17 06:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ng-data-pipelines-sdk
+[2024-04-17 06:57:12] INFO root fetch - processPackages [ng-data-pipelines-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-17 06:57:12] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/68/97/8718830eb6b04e4095e8c10b3619dd7aa2f70c5f7794458eb8af8980c284/ng_data_pipelines_sdk-0.1.2.tar.gz
+[2024-04-17 06:57:12] WARNING root fetch - processPackages [arguments-parser]: Skipping, unable to determine old version
+[2024-04-17 06:57:12] INFO root fetch - main [MainThread]: End processing [arguments-parser] error
+[2024-04-17 06:57:12] INFO root fetch - processPackages [skipy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-17 06:57:12] INFO root fetch - processPackages [vllm-nccl-cu11]: New version: [2.18.1.0.3.0] Old Version: [2.18.1.0.2.0]
+[2024-04-17 06:57:12] INFO root fetch - processPackages [vllm-nccl-cu12]: New version: [2.18.1.0.3.0] Old Version: [2.18.1.0.2.0]
+[2024-04-17 06:57:12] INFO root fetch - processPackages [skipy]: Downloading https://files.pythonhosted.org/packages/6b/c5/0e3936de2d687af0ffc3bd163d1f9c5f1d5b0917bd2de44d896f4686c96b/skipy-0.1.2.tar.gz
+[2024-04-17 06:57:12] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/7d/5e/43e0462fb49d103f6d155a533cd8eb7df00aabef667b43937c655acce121/ng_data_pipelines_sdk-0.1.3.tar.gz
+[2024-04-17 06:57:12] INFO root fetch - processPackages [vllm-nccl-cu11]: Downloading https://files.pythonhosted.org/packages/d1/8c/018b1030eccbbe3bdf630efe62a37c5fbe5bcbd02154a6624a6349b7e192/vllm_nccl_cu11-2.18.1.0.2.0.tar.gz
+[2024-04-17 06:57:12] INFO root fetch - processPackages [vllm-nccl-cu12]: Downloading https://files.pythonhosted.org/packages/a0/0f/e4681edeb1cfb1e0a207c5c7603c1af5c62d633844f6119a4c9c348f8234/vllm_nccl_cu12-2.18.1.0.2.0.tar.gz
+[2024-04-17 06:57:12] INFO root fetch - processPackages [ng-data-pipelines-sdk]: executing diffoscope
+[2024-04-17 06:57:12] INFO root fetch - processPackages [ng-data-pipelines-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ng_data_pipelines_sdk-0.1.2.tar.gz tmp/ng_data_pipelines_sdk-0.1.3.tar.gz --markdown 20240417/n/ng-data-pipelines-sdk/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-17 06:57:12] INFO root fetch - processPackages [skipy]: Downloading https://files.pythonhosted.org/packages/f2/b8/3601c33dd8be16c77ab3abc1aa3d637d224960689d2f7cac7ca9b9ee8913/skipy-0.1.3.tar.gz
+[2024-04-17 06:57:12] INFO root fetch - processPackages [vllm-nccl-cu12]: Downloading https://files.pythonhosted.org/packages/77/a8/719a2749cf66bb25a294b61dd9512457127a171b29414a8f671390badb38/vllm_nccl_cu12-2.18.1.0.3.0.tar.gz
+[2024-04-17 06:57:12] INFO root fetch - processPackages [vllm-nccl-cu11]: Downloading https://files.pythonhosted.org/packages/b5/cf/b424f651e3621a9cee7783bfebbb84417f3a8392be15ea564c5a5f0b5d4c/vllm_nccl_cu11-2.18.1.0.3.0.tar.gz
+[2024-04-17 06:57:12] INFO root fetch - processPackages [vllm-nccl-cu12]: executing diffoscope
+[2024-04-17 06:57:12] INFO root fetch - processPackages [vllm-nccl-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vllm_nccl_cu12-2.18.1.0.2.0.tar.gz tmp/vllm_nccl_cu12-2.18.1.0.3.0.tar.gz --markdown 20240417/v/vllm-nccl-cu12/2.18.1.0.2.0-2.18.1.0.3.0/README.md --exclude *.pyd
+[2024-04-17 06:57:12] INFO root fetch - processPackages [vllm-nccl-cu11]: executing diffoscope
+[2024-04-17 06:57:12] INFO root fetch - processPackages [vllm-nccl-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vllm_nccl_cu11-2.18.1.0.2.0.tar.gz tmp/vllm_nccl_cu11-2.18.1.0.3.0.tar.gz --markdown 20240417/v/vllm-nccl-cu11/2.18.1.0.2.0-2.18.1.0.3.0/README.md --exclude *.pyd
+[2024-04-17 06:57:12] INFO root fetch - processPackages [skipy]: executing diffoscope
+[2024-04-17 06:57:12] INFO root fetch - processPackages [skipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skipy-0.1.2.tar.gz tmp/skipy-0.1.3.tar.gz --markdown 20240417/s/skipy/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-17 06:57:13] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-0.1.2.tar.gz]
+[2024-04-17 06:57:13] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-0.1.3.tar.gz]
+[2024-04-17 06:57:13] INFO root fetch - main [MainThread]: End processing [ng-data-pipelines-sdk]: success
+[2024-04-17 06:57:13] INFO root fetch - processPackages [vllm-nccl-cu12]: Remove: archive file [/home/abi/fetcher/tmp/vllm_nccl_cu12-2.18.1.0.2.0.tar.gz]
+[2024-04-17 06:57:13] INFO root fetch - processPackages [vllm-nccl-cu12]: Remove: archive file [/home/abi/fetcher/tmp/vllm_nccl_cu12-2.18.1.0.3.0.tar.gz]
+[2024-04-17 06:57:13] INFO root fetch - main [MainThread]: End processing [vllm-nccl-cu12]: success
+[2024-04-17 06:57:13] INFO root fetch - processPackages [skipy]: Remove: archive file [/home/abi/fetcher/tmp/skipy-0.1.2.tar.gz]
+[2024-04-17 06:57:13] INFO root fetch - processPackages [skipy]: Remove: archive file [/home/abi/fetcher/tmp/skipy-0.1.3.tar.gz]
+[2024-04-17 06:57:13] INFO root fetch - main [MainThread]: End processing [skipy]: success
+[2024-04-17 06:57:13] INFO root fetch - processPackages [vllm-nccl-cu11]: Remove: archive file [/home/abi/fetcher/tmp/vllm_nccl_cu11-2.18.1.0.2.0.tar.gz]
+[2024-04-17 06:57:13] INFO root fetch - processPackages [vllm-nccl-cu11]: Remove: archive file [/home/abi/fetcher/tmp/vllm_nccl_cu11-2.18.1.0.3.0.tar.gz]
+[2024-04-17 06:57:13] INFO root fetch - main [MainThread]: End processing [vllm-nccl-cu11]: success
+[2024-04-17 06:57:13] INFO root fetch - main [MainThread]: Store serial: [22799927]
