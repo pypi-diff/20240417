@@ -7142,3 +7142,36 @@
 [2024-04-17 03:32:04] INFO root fetch - processPackages [lennoxs30api]: Remove: archive file [/home/abi/fetcher/tmp/lennoxs30api-0.2.9.tar.gz]
 [2024-04-17 03:32:04] INFO root fetch - main [MainThread]: End processing [lennoxs30api]: success
 [2024-04-17 03:32:04] INFO root fetch - main [MainThread]: Store serial: [22798479]
+[2024-04-17 03:34:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798479]
+[2024-04-17 03:34:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 03:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lvc
+[2024-04-17 03:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: java1
+[2024-04-17 03:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Sphinx
+[2024-04-17 03:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anyscale
+[2024-04-17 03:34:12] WARNING root fetch - processPackages [java1]: Skipping, unable to determine old version
+[2024-04-17 03:34:12] INFO root fetch - main [MainThread]: End processing [java1] error
+[2024-04-17 03:34:12] INFO root fetch - processPackages [lvc]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-17 03:34:12] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-17 03:34:12] INFO root fetch - processPackages [Sphinx]: New version: [7.3.2] Old Version: [7.3.1]
+[2024-04-17 03:34:12] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/df/8d/6caed45a985cf0a285124e66418b77095158ed4a1a8d1bb93c385db8f4fd/sphinx-7.3.1.tar.gz
+[2024-04-17 03:34:12] INFO root fetch - processPackages [lvc]: Downloading https://files.pythonhosted.org/packages/16/b5/79e63099b24b2a34e62c70b61cd76b5270c0b7e007a51a88178523773c5d/lvc-1.0.tar.gz
+[2024-04-17 03:34:12] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2024-04-17 03:34:13] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2024-04-17 03:34:13] INFO root fetch - processPackages [lvc]: Downloading https://files.pythonhosted.org/packages/f8/ee/1750067d818b9f7fc82ad8cbc334ea1d0e78bedf5ea9215445fe2a93991e/lvc-1.0.1.tar.gz
+[2024-04-17 03:34:13] INFO root fetch - processPackages [lvc]: executing diffoscope
+[2024-04-17 03:34:13] INFO root fetch - processPackages [lvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lvc-1.0.tar.gz tmp/lvc-1.0.1.tar.gz --markdown 20240417/l/lvc/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-17 03:34:13] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2024-04-17 03:34:13] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20240417/a/anyscale/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-04-17 03:34:13] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/9e/8a/c0798d89b1493a7e0ecdb0286f68077feae1d11c233bbed4de5628c61ad8/sphinx-7.3.2.tar.gz
+[2024-04-17 03:34:13] INFO root fetch - processPackages [Sphinx]: executing diffoscope
+[2024-04-17 03:34:13] INFO root fetch - processPackages [Sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-7.3.1.tar.gz tmp/sphinx-7.3.2.tar.gz --markdown 20240417/S/Sphinx/7.3.1-7.3.2/README.md --exclude *.pyd
+[2024-04-17 03:34:13] INFO root fetch - processPackages [lvc]: Remove: archive file [/home/abi/fetcher/tmp/lvc-1.0.tar.gz]
+[2024-04-17 03:34:13] INFO root fetch - processPackages [lvc]: Remove: archive file [/home/abi/fetcher/tmp/lvc-1.0.1.tar.gz]
+[2024-04-17 03:34:13] INFO root fetch - main [MainThread]: End processing [lvc]: success
+[2024-04-17 03:34:16] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.98.tar.gz]
+[2024-04-17 03:34:16] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
+[2024-04-17 03:34:16] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2024-04-17 03:34:19] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.1.tar.gz]
+[2024-04-17 03:34:19] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.2.tar.gz]
+[2024-04-17 03:34:19] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
+[2024-04-17 03:34:19] INFO root fetch - main [MainThread]: Store serial: [22798533]
