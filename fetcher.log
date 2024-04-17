@@ -13709,3 +13709,30 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:09:18] INFO root fetch - processPackages [ibm-aigov-facts-client]: Remove: archive file [/home/abi/fetcher/tmp/ibm_aigov_facts_client-1.0.70-py3-none-any.whl.zip]
 [2024-04-17 09:09:18] INFO root fetch - main [MainThread]: End processing [ibm-aigov-facts-client]: success
 [2024-04-17 09:09:18] INFO root fetch - main [MainThread]: Store serial: [22801122]
+[2024-04-17 09:11:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801122]
+[2024-04-17 09:11:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 09:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mt-pykafka
+[2024-04-17 09:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mastercard-api-client
+[2024-04-17 09:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyworxcloud
+[2024-04-17 09:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eflips-model
+[2024-04-17 09:11:27] INFO root fetch - processPackages [pyworxcloud]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-04-17 09:11:27] INFO root fetch - processPackages [eflips-model]: New version: [3.2.0] Old Version: [3.1.1]
+[2024-04-17 09:11:27] WARNING root fetch - processPackages [mt-pykafka]: Skipping, unable to determine old version
+[2024-04-17 09:11:27] INFO root fetch - main [MainThread]: End processing [mt-pykafka] error
+[2024-04-17 09:11:27] WARNING root fetch - processPackages [mastercard-api-client]: Skipping, unable to determine old version
+[2024-04-17 09:11:27] INFO root fetch - main [MainThread]: End processing [mastercard-api-client] error
+[2024-04-17 09:11:27] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/a4/c0/0059322e7b2c1ad481301b528d5d2aeff7bd4818b7d90510f1402d6e1c68/pyworxcloud-4.1.8.tar.gz
+[2024-04-17 09:11:27] INFO root fetch - processPackages [eflips-model]: Downloading https://files.pythonhosted.org/packages/85/13/057c3633df2cd341f5a2a5e7e534440dfa9393b4eea9e531ca7c8ffef1b2/eflips_model-3.1.1.tar.gz
+[2024-04-17 09:11:27] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/12/4d/2b2447a08954ec87133970966f929613b5b41156b26ecefdd26695183e9a/pyworxcloud-4.1.9.tar.gz
+[2024-04-17 09:11:27] INFO root fetch - processPackages [pyworxcloud]: executing diffoscope
+[2024-04-17 09:11:27] INFO root fetch - processPackages [pyworxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworxcloud-4.1.8.tar.gz tmp/pyworxcloud-4.1.9.tar.gz --markdown 20240417/p/pyworxcloud/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-04-17 09:11:27] INFO root fetch - processPackages [eflips-model]: Downloading https://files.pythonhosted.org/packages/fa/89/e2ff062904d92eb101c29d1577e56bda72760fe39b447b89890340c18dbb/eflips_model-3.2.0.tar.gz
+[2024-04-17 09:11:28] INFO root fetch - processPackages [eflips-model]: executing diffoscope
+[2024-04-17 09:11:28] INFO root fetch - processPackages [eflips-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eflips_model-3.1.1.tar.gz tmp/eflips_model-3.2.0.tar.gz --markdown 20240417/e/eflips-model/3.1.1-3.2.0/README.md --exclude *.pyd
+[2024-04-17 09:11:28] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-4.1.8.tar.gz]
+[2024-04-17 09:11:28] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-4.1.9.tar.gz]
+[2024-04-17 09:11:28] INFO root fetch - main [MainThread]: End processing [pyworxcloud]: success
+[2024-04-17 09:11:28] INFO root fetch - processPackages [eflips-model]: Remove: archive file [/home/abi/fetcher/tmp/eflips_model-3.1.1.tar.gz]
+[2024-04-17 09:11:28] INFO root fetch - processPackages [eflips-model]: Remove: archive file [/home/abi/fetcher/tmp/eflips_model-3.2.0.tar.gz]
+[2024-04-17 09:11:28] INFO root fetch - main [MainThread]: End processing [eflips-model]: success
+[2024-04-17 09:11:28] INFO root fetch - main [MainThread]: Store serial: [22801139]
