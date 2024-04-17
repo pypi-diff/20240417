@@ -13992,3 +13992,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:22:36] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
 [2024-04-17 09:22:36] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-04-17 09:22:36] INFO root fetch - main [MainThread]: Store serial: [22801251]
+[2024-04-17 09:24:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801251]
+[2024-04-17 09:24:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 09:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeca
+[2024-04-17 09:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zalando-cli-bundle
+[2024-04-17 09:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unitxt
+[2024-04-17 09:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragons96-tools
+[2024-04-17 09:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fab-react-toolkit
+[2024-04-17 09:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sodata
+[2024-04-17 09:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atomicshop
+[2024-04-17 09:24:45] INFO root fetch - processPackages [sodata]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-17 09:24:45] INFO root fetch - processPackages [zalando-cli-bundle]: New version: [24.7.0] Old Version: [24.6.0]
+[2024-04-17 09:24:45] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/3a/46/d489c68835ad2a384c21fc9e10b90ee23c695af50c29daf07981723f4609/sodata-0.0.6.tar.gz
+[2024-04-17 09:24:45] INFO root fetch - processPackages [zalando-cli-bundle]: Downloading https://files.pythonhosted.org/packages/68/a2/d1210f2ca787e6658786068e5ebad9f4bd6120fa87c05b92ee4f529706ee/zalando_cli_bundle-24.6.0.tar.gz
+[2024-04-17 09:24:45] INFO root fetch - processPackages [aeca]: New version: [1.0.0.dev1] Old Version: [0.1.15.dev2]
+[2024-04-17 09:24:45] INFO root fetch - processPackages [dragons96-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 09:24:45] INFO root fetch - processPackages [unitxt]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-04-17 09:24:45] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-17 09:24:45] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-17 09:24:45] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/90/1e/3f74898b62a14653356249afd28d9f77ca33e08c29cc719c75b5d854afc6/fab_react_toolkit-0.4.2.tar.gz
+[2024-04-17 09:24:45] INFO root fetch - processPackages [aeca]: Downloading https://files.pythonhosted.org/packages/4a/8f/4cb96f031e3d10f7925781c192c7f6269f68e3a1070e953657e5fe4cf644/aeca-0.1.15.dev2.tar.gz
+[2024-04-17 09:24:45] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/92/c0/068e9d613eb663c69828e03e1fda0aba24f0776e0b9a6ecd7dc62e8b2430/sodata-0.0.9.tar.gz
+[2024-04-17 09:24:45] INFO root fetch - processPackages [zalando-cli-bundle]: Downloading https://files.pythonhosted.org/packages/1f/12/71b8c4a9bbf23072a44674e9ceb99038b8346ca01843799d6b599154a0ab/zalando_cli_bundle-24.7.0.tar.gz
+[2024-04-17 09:24:45] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/8e/cc/ca7a3f531f42997e7b57f60f863813242b20f75fedcf3680098b0564f7f0/unitxt-1.7.6.tar.gz
+[2024-04-17 09:24:45] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/a3/35/4f02f0f12780bf7b791989ab642ec21f06b9fd66e4025906bb9c6a5af6a4/dragons96_tools-0.0.8.tar.gz
+[2024-04-17 09:24:45] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-17 09:24:45] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-17 09:24:45] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.6.tar.gz tmp/sodata-0.0.9.tar.gz --markdown 20240417/s/sodata/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-17 09:24:45] INFO root fetch - processPackages [zalando-cli-bundle]: executing diffoscope
+[2024-04-17 09:24:45] INFO root fetch - processPackages [zalando-cli-bundle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando_cli_bundle-24.6.0.tar.gz tmp/zalando_cli_bundle-24.7.0.tar.gz --markdown 20240417/z/zalando-cli-bundle/24.6.0-24.7.0/README.md --exclude *.pyd
+[2024-04-17 09:24:45] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/a9/e2/be6c568615dc4aa1d01379a26c627a51e76c2c667d82d6e072a6e1a8ee85/fab_react_toolkit-0.4.3.tar.gz
+[2024-04-17 09:24:45] INFO root fetch - processPackages [aeca]: Downloading https://files.pythonhosted.org/packages/be/19/b8ac2dbd90833487f8c7fcbd3cd2945c8dd928639a58c5d5ba1da80cc41b/aeca-1.0.0.dev1.tar.gz
+[2024-04-17 09:24:45] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/11/90/50793b6f9dcde0a23dcf8de3e1d051835f23c76b66918248e21964456570/unitxt-1.7.7.tar.gz
+[2024-04-17 09:24:45] INFO root fetch - processPackages [aeca]: executing diffoscope
+[2024-04-17 09:24:45] INFO root fetch - processPackages [aeca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeca-0.1.15.dev2.tar.gz tmp/aeca-1.0.0.dev1.tar.gz --markdown 20240417/a/aeca/0.1.15.dev2-1.0.0.dev1/README.md --exclude *.pyd
+[2024-04-17 09:24:45] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/ac/7c/813105da4cb1a3a4e0403b37ea632347837dd95f4dabad1c6224360f1284/dragons96_tools-0.0.9.tar.gz
+[2024-04-17 09:24:45] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-04-17 09:24:45] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab_react_toolkit-0.4.2.tar.gz tmp/fab_react_toolkit-0.4.3.tar.gz --markdown 20240417/f/fab-react-toolkit/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-17 09:24:46] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2024-04-17 09:24:46] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.7.6.tar.gz tmp/unitxt-1.7.7.tar.gz --markdown 20240417/u/unitxt/1.7.6-1.7.7/README.md --exclude *.pyd
+[2024-04-17 09:24:46] INFO root fetch - processPackages [dragons96-tools]: executing diffoscope
+[2024-04-17 09:24:46] INFO root fetch - processPackages [dragons96-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragons96_tools-0.0.8.tar.gz tmp/dragons96_tools-0.0.9.tar.gz --markdown 20240417/d/dragons96-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 09:24:46] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-17 09:24:46] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-17 09:24:46] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240417/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-17 09:24:46] INFO root fetch - processPackages [zalando-cli-bundle]: Remove: archive file [/home/abi/fetcher/tmp/zalando_cli_bundle-24.6.0.tar.gz]
+[2024-04-17 09:24:46] INFO root fetch - processPackages [zalando-cli-bundle]: Remove: archive file [/home/abi/fetcher/tmp/zalando_cli_bundle-24.7.0.tar.gz]
+[2024-04-17 09:24:46] INFO root fetch - main [MainThread]: End processing [zalando-cli-bundle]: success
+[2024-04-17 09:24:46] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.6.tar.gz]
+[2024-04-17 09:24:46] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.9.tar.gz]
+[2024-04-17 09:24:46] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-17 09:24:46] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.2.tar.gz]
+[2024-04-17 09:24:46] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.3.tar.gz]
+[2024-04-17 09:24:46] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-04-17 09:24:46] INFO root fetch - processPackages [aeca]: Remove: archive file [/home/abi/fetcher/tmp/aeca-0.1.15.dev2.tar.gz]
+[2024-04-17 09:24:46] INFO root fetch - processPackages [aeca]: Remove: archive file [/home/abi/fetcher/tmp/aeca-1.0.0.dev1.tar.gz]
+[2024-04-17 09:24:46] INFO root fetch - main [MainThread]: End processing [aeca]: success
+[2024-04-17 09:24:47] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.8.tar.gz]
+[2024-04-17 09:24:47] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.9.tar.gz]
+[2024-04-17 09:24:47] INFO root fetch - main [MainThread]: End processing [dragons96-tools]: success
+[2024-04-17 09:24:47] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-17 09:24:47] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-17 09:24:47] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-17 09:24:48] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.7.6.tar.gz]
+[2024-04-17 09:24:48] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.7.7.tar.gz]
+[2024-04-17 09:24:48] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2024-04-17 09:24:48] INFO root fetch - main [MainThread]: Store serial: [22801271]
