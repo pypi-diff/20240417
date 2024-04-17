@@ -22715,3 +22715,101 @@ EOFError: EOF read where object expected
 [2024-04-17 14:34:18] WARNING root fetch - processPackages [breez-sdk]: Skipping package: exceeds size limit 12304285>=10485760
 [2024-04-17 14:34:18] INFO root fetch - main [MainThread]: End processing [breez-sdk] error
 [2024-04-17 14:34:18] INFO root fetch - main [MainThread]: Store serial: [22805418]
+[2024-04-17 14:36:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805418]
+[2024-04-17 14:36:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-17 14:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zrb-ollama
+[2024-04-17 14:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digitalhub-ml
+[2024-04-17 14:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: causalchamber
+[2024-04-17 14:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pgeof
+[2024-04-17 14:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: juice-phs
+[2024-04-17 14:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyastroweatherio
+[2024-04-17 14:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lvm-read-comma
+[2024-04-17 14:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decryptpdf
+[2024-04-17 14:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rapidpro-dash
+[2024-04-17 14:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hansken
+[2024-04-17 14:36:27] INFO root fetch - processPackages [zrb-ollama]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 14:36:27] INFO root fetch - processPackages [lvm-read-comma]: New version: [1.31] Old Version: [1.30]
+[2024-04-17 14:36:27] INFO root fetch - processPackages [digitalhub-ml]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 14:36:27] INFO root fetch - processPackages [causalchamber]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-04-17 14:36:27] INFO root fetch - processPackages [pgeof]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-17 14:36:27] INFO root fetch - processPackages [zrb-ollama]: Downloading https://files.pythonhosted.org/packages/f4/ae/69059b69235236d7f5ee8e73d5ccae36e84fcab054c8f7e2210ea50def53/zrb_ollama-0.0.8.tar.gz
+[2024-04-17 14:36:27] INFO root fetch - processPackages [juice-phs]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-04-17 14:36:27] INFO root fetch - processPackages [decryptpdf]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 14:36:27] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.43.1.dev4] Old Version: [0.43.1.dev3]
+[2024-04-17 14:36:27] INFO root fetch - processPackages [hansken]: New version: [2024.4.17] Old Version: [2024.3.29]
+[2024-04-17 14:36:27] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/53/b3/5e021529850aef23d81e28228d7aaf46ba615aa2d3cbc42a2cb355bb4a1a/digitalhub-ml-0.3.1.tar.gz
+[2024-04-17 14:36:27] INFO root fetch - processPackages [rapidpro-dash]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-04-17 14:36:27] INFO root fetch - processPackages [lvm-read-comma]: Downloading https://files.pythonhosted.org/packages/9c/1c/49a7f494087e6499543afb9a9ebdd4fa04374bfd7168dcd460520b3751c9/lvm_read_comma-1.30.tar.gz
+[2024-04-17 14:36:27] INFO root fetch - processPackages [causalchamber]: Downloading https://files.pythonhosted.org/packages/c3/05/1cfbe8c2ef299649de4c0aded365951ac4a8940cb4c9e542fd206d6f7b72/causalchamber-0.0.4.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [pgeof]: Downloading https://files.pythonhosted.org/packages/ff/04/587a352960a65e526ebebc9347cd38fff14f56332850c93ebe9c6225d36a/pgeof-0.1.0.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [juice-phs]: Downloading https://files.pythonhosted.org/packages/aa/bc/2780cc32c8595853043897a27a9c29374898b400d0365668dfd3d23a457a/juice_phs-0.4.3-py3-none-any.whl
+[2024-04-17 14:36:28] INFO root fetch - processPackages [zrb-ollama]: Downloading https://files.pythonhosted.org/packages/69/23/7a6f9fb793122c69b80ff6088f3dfab05f8782dabcf0f861a1f3e8a98a56/zrb_ollama-0.0.9.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [decryptpdf]: Downloading https://files.pythonhosted.org/packages/84/38/bbf4cbc069acbb4a04419917a8cbb5ab3c9665bc2a0840a3a993fc1356c3/decryptpdf-0.1.8.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/f9/f4/a6cde3b0287b616af60f31e3580b2f47eb6d6e144a6effe29c41d9e64ec7/pyastroweatherio-0.43.1.dev3.tar.gz
+[2024-04-17 14:36:28] WARNING root fetch - processPackages [pgeof]: Skipping package: exceeds size limit 69035525>=10485760
+[2024-04-17 14:36:28] INFO root fetch - processPackages [pgeof]: Start processing: nonebot-plugin-fhl
+[2024-04-17 14:36:28] INFO root fetch - main [MainThread]: End processing [pgeof] error
+[2024-04-17 14:36:28] INFO root fetch - processPackages [rapidpro-dash]: Downloading https://files.pythonhosted.org/packages/08/38/485fd7c63daba8cfaf1fb186f5bc1eccfa3c38a894f663de66808384b3f2/rapidpro-dash-1.9.2.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/3e/d5/b89bf65b75250a6bad9f6093890de3618a5991ff22cd9bd2cdcaec7d90b6/digitalhub_ml-0.3.2.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [hansken]: Downloading https://files.pythonhosted.org/packages/21/bf/003480c851da15b465c0e9cc5943b9384f392ef1749cdcc5c2108a16eed1/hansken-2024.3.29.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [nonebot-plugin-fhl]: New version: [0.2.1] Old Version: [0.1.9]
+[2024-04-17 14:36:28] INFO root fetch - processPackages [zrb-ollama]: executing diffoscope
+[2024-04-17 14:36:28] INFO root fetch - processPackages [zrb-ollama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb_ollama-0.0.8.tar.gz tmp/zrb_ollama-0.0.9.tar.gz --markdown 20240417/z/zrb-ollama/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 14:36:28] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/7f/f5/e2f5bf48c970a87b72e19e81fc8655799aa2a5d8e6893a6e430ef49ffd47/nonebot_plugin_fhl-0.1.9.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [causalchamber]: Downloading https://files.pythonhosted.org/packages/d1/33/9b595468504481bf3caa1fcdf01deb36b8a959a1da89bf8c1c1bb1df4321/causalchamber-0.1.0.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [digitalhub-ml]: executing diffoscope
+[2024-04-17 14:36:28] INFO root fetch - processPackages [digitalhub-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-ml-0.3.1.tar.gz tmp/digitalhub_ml-0.3.2.tar.gz --markdown 20240417/d/digitalhub-ml/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 14:36:28] INFO root fetch - processPackages [lvm-read-comma]: Downloading https://files.pythonhosted.org/packages/f8/1f/6178ed7da802038b52366d35e325403d2d2b46dc4864b8e8086f934e2239/lvm_read_comma-1.31.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [juice-phs]: Downloading https://files.pythonhosted.org/packages/98/d7/de05777375984a26352418e5da503ad38deb6322bb00ae8721491457fb7b/juice_phs-0.5.0-py3-none-any.whl
+[2024-04-17 14:36:28] INFO root fetch - processPackages [lvm-read-comma]: executing diffoscope
+[2024-04-17 14:36:28] INFO root fetch - processPackages [lvm-read-comma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lvm_read_comma-1.30.tar.gz tmp/lvm_read_comma-1.31.tar.gz --markdown 20240417/l/lvm-read-comma/1.30-1.31/README.md --exclude *.pyd
+[2024-04-17 14:36:28] INFO root fetch - processPackages [hansken]: Downloading https://files.pythonhosted.org/packages/e2/97/688094afddac91f6ae04482aa1fb295a731b11d9c525e9e16fe1929477ae/hansken-2024.4.17-py3-none-any.whl
+[2024-04-17 14:36:28] INFO root fetch - processPackages [decryptpdf]: Downloading https://files.pythonhosted.org/packages/e1/64/9ec7bee55029577fe0e93f1ecc9181ee8f5f18a9dd0332eb9d10d6ecb602/decryptpdf-0.1.9.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [causalchamber]: executing diffoscope
+[2024-04-17 14:36:28] INFO root fetch - processPackages [causalchamber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causalchamber-0.0.4.tar.gz tmp/causalchamber-0.1.0.tar.gz --markdown 20240417/c/causalchamber/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-04-17 14:36:28] INFO root fetch - processPackages [juice-phs]: executing diffoscope
+[2024-04-17 14:36:28] INFO root fetch - processPackages [juice-phs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juice_phs-0.4.3-py3-none-any.whl.zip tmp/juice_phs-0.5.0-py3-none-any.whl.zip --markdown 20240417/j/juice-phs/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-04-17 14:36:28] INFO root fetch - processPackages [rapidpro-dash]: Downloading https://files.pythonhosted.org/packages/fb/0e/24c9ff9aeb5de4bdba447f2be83c8b05beecbf976cf428913f5275904198/rapidpro-dash-1.9.3.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/be/75/232fad8210a735d36b8df9665c65b5ffa1c05afbc8f01de368dfb524f8a9/pyastroweatherio-0.43.1.dev4.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/18/8e/428a6f02a1cf6704c83cedace7f10ae8cf640fbf22a5a3d7006baefac19c/nonebot_plugin_fhl-0.2.1.tar.gz
+[2024-04-17 14:36:28] INFO root fetch - processPackages [decryptpdf]: executing diffoscope
+[2024-04-17 14:36:28] INFO root fetch - processPackages [decryptpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decryptpdf-0.1.8.tar.gz tmp/decryptpdf-0.1.9.tar.gz --markdown 20240417/d/decryptpdf/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 14:36:28] INFO root fetch - processPackages [hansken]: executing diffoscope
+[2024-04-17 14:36:28] INFO root fetch - processPackages [hansken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hansken-2024.3.29.tar.gz tmp/hansken-2024.4.17-py3-none-any.whl.zip --markdown 20240417/h/hansken/2024.3.29-2024.4.17/README.md --exclude *.pyd
+[2024-04-17 14:36:28] INFO root fetch - processPackages [nonebot-plugin-fhl]: executing diffoscope
+[2024-04-17 14:36:28] INFO root fetch - processPackages [nonebot-plugin-fhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_fhl-0.1.9.tar.gz tmp/nonebot_plugin_fhl-0.2.1.tar.gz --markdown 20240417/n/nonebot-plugin-fhl/0.1.9-0.2.1/README.md --exclude *.pyd
+[2024-04-17 14:36:28] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-04-17 14:36:28] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.43.1.dev3.tar.gz tmp/pyastroweatherio-0.43.1.dev4.tar.gz --markdown 20240417/p/pyastroweatherio/0.43.1.dev3-0.43.1.dev4/README.md --exclude *.pyd
+[2024-04-17 14:36:28] INFO root fetch - processPackages [rapidpro-dash]: executing diffoscope
+[2024-04-17 14:36:28] INFO root fetch - processPackages [rapidpro-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpro-dash-1.9.2.tar.gz tmp/rapidpro-dash-1.9.3.tar.gz --markdown 20240417/r/rapidpro-dash/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-04-17 14:36:28] INFO root fetch - processPackages [zrb-ollama]: Remove: archive file [/home/abi/fetcher/tmp/zrb_ollama-0.0.8.tar.gz]
+[2024-04-17 14:36:28] INFO root fetch - processPackages [zrb-ollama]: Remove: archive file [/home/abi/fetcher/tmp/zrb_ollama-0.0.9.tar.gz]
+[2024-04-17 14:36:28] INFO root fetch - main [MainThread]: End processing [zrb-ollama]: success
+[2024-04-17 14:36:29] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-ml-0.3.1.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.3.2.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - main [MainThread]: End processing [digitalhub-ml]: success
+[2024-04-17 14:36:29] INFO root fetch - processPackages [lvm-read-comma]: Remove: archive file [/home/abi/fetcher/tmp/lvm_read_comma-1.30.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - processPackages [lvm-read-comma]: Remove: archive file [/home/abi/fetcher/tmp/lvm_read_comma-1.31.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - main [MainThread]: End processing [lvm-read-comma]: success
+[2024-04-17 14:36:29] INFO root fetch - processPackages [juice-phs]: Remove: archive file [/home/abi/fetcher/tmp/juice_phs-0.4.3-py3-none-any.whl.zip]
+[2024-04-17 14:36:29] INFO root fetch - processPackages [juice-phs]: Remove: archive file [/home/abi/fetcher/tmp/juice_phs-0.5.0-py3-none-any.whl.zip]
+[2024-04-17 14:36:29] INFO root fetch - main [MainThread]: End processing [juice-phs]: success
+[2024-04-17 14:36:29] INFO root fetch - processPackages [hansken]: Remove: archive file [/home/abi/fetcher/tmp/hansken-2024.3.29.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - processPackages [hansken]: Remove: archive file [/home/abi/fetcher/tmp/hansken-2024.4.17-py3-none-any.whl.zip]
+[2024-04-17 14:36:29] INFO root fetch - main [MainThread]: End processing [hansken]: success
+[2024-04-17 14:36:29] INFO root fetch - processPackages [causalchamber]: Remove: archive file [/home/abi/fetcher/tmp/causalchamber-0.0.4.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - processPackages [causalchamber]: Remove: archive file [/home/abi/fetcher/tmp/causalchamber-0.1.0.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - main [MainThread]: End processing [causalchamber]: success
+[2024-04-17 14:36:29] INFO root fetch - processPackages [decryptpdf]: Remove: archive file [/home/abi/fetcher/tmp/decryptpdf-0.1.8.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - processPackages [decryptpdf]: Remove: archive file [/home/abi/fetcher/tmp/decryptpdf-0.1.9.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - main [MainThread]: End processing [decryptpdf]: success
+[2024-04-17 14:36:29] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.9.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.2.1.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fhl]: success
+[2024-04-17 14:36:29] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev3.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev4.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-04-17 14:36:29] INFO root fetch - processPackages [rapidpro-dash]: Remove: archive file [/home/abi/fetcher/tmp/rapidpro-dash-1.9.2.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - processPackages [rapidpro-dash]: Remove: archive file [/home/abi/fetcher/tmp/rapidpro-dash-1.9.3.tar.gz]
+[2024-04-17 14:36:29] INFO root fetch - main [MainThread]: End processing [rapidpro-dash]: success
+[2024-04-17 14:36:29] INFO root fetch - main [MainThread]: Store serial: [22805473]
