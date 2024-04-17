@@ -13895,3 +13895,40 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:18:13] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.85.0.tar.gz]
 [2024-04-17 09:18:13] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
 [2024-04-17 09:18:13] INFO root fetch - main [MainThread]: Store serial: [22801197]
+[2024-04-17 09:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801197]
+[2024-04-17 09:20:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: istr-python
+[2024-04-17 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: istr-python
+[2024-04-17 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tyjuliacall
+[2024-04-17 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bgtask4django
+[2024-04-17 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-hx-yinying
+[2024-04-17 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jx3api
+[2024-04-17 09:20:21] WARNING root fetch - processPackages [bgtask4django]: Skipping, unable to determine old version
+[2024-04-17 09:20:21] INFO root fetch - main [MainThread]: End processing [bgtask4django] error
+[2024-04-17 09:20:21] INFO root fetch - processPackages [tyjuliacall]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-17 09:20:21] INFO root fetch - processPackages [istr-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 09:20:21] INFO root fetch - processPackages [istr-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 09:20:21] WARNING root fetch - processPackages [jx3api]: Skipping, unable to determine old version
+[2024-04-17 09:20:21] INFO root fetch - main [MainThread]: End processing [jx3api] error
+[2024-04-17 09:20:21] WARNING root fetch - processPackages [nonebot-plugin-hx-yinying]: Skipping, unable to determine old version
+[2024-04-17 09:20:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hx-yinying] error
+[2024-04-17 09:20:21] INFO root fetch - processPackages [tyjuliacall]: Downloading https://files.pythonhosted.org/packages/d3/4d/2d76b50b5f0304dde39de03ef46baf7c85787986a3185161fd3afca4dd69/tyjuliacall-0.7.3.tar.gz
+[2024-04-17 09:20:21] INFO root fetch - processPackages [istr-python]: Downloading https://files.pythonhosted.org/packages/a3/25/b3884c98fe1936bfd84b62db30ef1a6c7782b2aa09e420974708968b34fa/istr_python-0.0.2.tar.gz
+[2024-04-17 09:20:21] INFO root fetch - processPackages [istr-python]: Downloading https://files.pythonhosted.org/packages/a3/25/b3884c98fe1936bfd84b62db30ef1a6c7782b2aa09e420974708968b34fa/istr_python-0.0.2.tar.gz
+[2024-04-17 09:20:22] INFO root fetch - processPackages [tyjuliacall]: Downloading https://files.pythonhosted.org/packages/25/42/63e7a4bab4cc622d28a6897375126c838ab1e2e5cb867c13478c63834187/tyjuliacall-0.7.4.tar.gz
+[2024-04-17 09:20:22] INFO root fetch - processPackages [istr-python]: Downloading https://files.pythonhosted.org/packages/c1/cc/95d21deddd245293a8f3e4b4a3db1342fa6e07dee574c2e3bdac094c1e09/istr_python-0.0.3.tar.gz
+[2024-04-17 09:20:22] INFO root fetch - processPackages [istr-python]: Downloading https://files.pythonhosted.org/packages/c1/cc/95d21deddd245293a8f3e4b4a3db1342fa6e07dee574c2e3bdac094c1e09/istr_python-0.0.3.tar.gz
+[2024-04-17 09:20:22] INFO root fetch - processPackages [tyjuliacall]: executing diffoscope
+[2024-04-17 09:20:22] INFO root fetch - processPackages [tyjuliacall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tyjuliacall-0.7.3.tar.gz tmp/tyjuliacall-0.7.4.tar.gz --markdown 20240417/t/tyjuliacall/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-04-17 09:20:22] INFO root fetch - processPackages [istr-python]: executing diffoscope
+[2024-04-17 09:20:22] INFO root fetch - processPackages [istr-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/istr_python-0.0.2.tar.gz tmp/istr_python-0.0.3.tar.gz --markdown 20240417/i/istr-python/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 09:20:22] INFO root fetch - processPackages [istr-python]: executing diffoscope
+[2024-04-17 09:20:22] INFO root fetch - processPackages [istr-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/istr_python-0.0.2.tar.gz tmp/istr_python-0.0.3.tar.gz --markdown 20240417/i/istr-python/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 09:20:23] INFO root fetch - processPackages [istr-python]: Remove: archive file [/home/abi/fetcher/tmp/istr_python-0.0.2.tar.gz]
+[2024-04-17 09:20:23] INFO root fetch - processPackages [istr-python]: Remove: archive file [/home/abi/fetcher/tmp/istr_python-0.0.3.tar.gz]
+[2024-04-17 09:20:23] INFO root fetch - main [MainThread]: End processing [istr-python]: success
+[2024-04-17 09:20:23] INFO root fetch - processPackages [tyjuliacall]: Remove: archive file [/home/abi/fetcher/tmp/tyjuliacall-0.7.3.tar.gz]
+[2024-04-17 09:20:23] INFO root fetch - processPackages [tyjuliacall]: Remove: archive file [/home/abi/fetcher/tmp/tyjuliacall-0.7.4.tar.gz]
+[2024-04-17 09:20:23] INFO root fetch - main [MainThread]: End processing [tyjuliacall]: success
+[2024-04-17 09:20:23] INFO root fetch - main [MainThread]: End processing [istr-python]: success
+[2024-04-17 09:20:23] INFO root fetch - main [MainThread]: Store serial: [22801228]
