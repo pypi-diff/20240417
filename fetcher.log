@@ -14673,3 +14673,35 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:47:08] INFO root fetch - processPackages [RsCmwWlanMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwWlanMeas-4.0.140.tar.gz]
 [2024-04-17 09:47:08] INFO root fetch - main [MainThread]: End processing [RsCmwWlanMeas]: success
 [2024-04-17 09:47:08] INFO root fetch - main [MainThread]: Store serial: [22801599]
+[2024-04-17 09:49:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801599]
+[2024-04-17 09:49:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 09:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymobiledevice3
+[2024-04-17 09:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: research-roc-utils
+[2024-04-17 09:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: etos-client
+[2024-04-17 09:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-id
+[2024-04-17 09:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-project-task-name-with-id
+[2024-04-17 09:49:18] INFO root fetch - processPackages [research-roc-utils]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-17 09:49:18] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-04-17 09:49:18] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/aa/64/28d9b3cceab256456f983d6ff6ea84d65eebaf8eb6e02a1ea2fa137e62f0/research_roc_utils-0.0.6.tar.gz
+[2024-04-17 09:49:18] INFO root fetch - processPackages [etos-client]: New version: [6.3.0] Old Version: [6.2.0]
+[2024-04-17 09:49:18] WARNING root fetch - processPackages [easy-id]: Skipping, unable to determine old version
+[2024-04-17 09:49:18] INFO root fetch - main [MainThread]: End processing [easy-id] error
+[2024-04-17 09:49:18] WARNING root fetch - processPackages [odoo-addon-project-task-name-with-id]: Skipping, unable to determine old version
+[2024-04-17 09:49:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-task-name-with-id] error
+[2024-04-17 09:49:18] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/7a/39/b0dc63af8685d222f2efb8e755565b8adb8bcbe74d48defb811429b24aa1/pymobiledevice3-4.1.0.tar.gz
+[2024-04-17 09:49:18] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31542529>=10485760
+[2024-04-17 09:49:18] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-04-17 09:49:18] INFO root fetch - processPackages [etos-client]: Downloading https://files.pythonhosted.org/packages/d1/4f/3ce2cab64be9c3a253f505d4b4534b38c20c1a5dc8c0c0d34fa0fdfd69c2/etos_client-6.2.0.tar.gz
+[2024-04-17 09:49:18] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/ad/34/862d6bbd525dde5e4a9d38d7e729a1bf8d099f33ddd1fd3b5cd620cbd428/research_roc_utils-0.0.7.tar.gz
+[2024-04-17 09:49:18] INFO root fetch - processPackages [research-roc-utils]: executing diffoscope
+[2024-04-17 09:49:18] INFO root fetch - processPackages [research-roc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/research_roc_utils-0.0.6.tar.gz tmp/research_roc_utils-0.0.7.tar.gz --markdown 20240417/r/research-roc-utils/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-17 09:49:18] INFO root fetch - processPackages [etos-client]: Downloading https://files.pythonhosted.org/packages/58/b2/431c628622bdfdacb41dff135e18848fb0e5b8ea9213181c7da13c8df119/etos_client-6.3.0.tar.gz
+[2024-04-17 09:49:18] INFO root fetch - processPackages [etos-client]: executing diffoscope
+[2024-04-17 09:49:18] INFO root fetch - processPackages [etos-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etos_client-6.2.0.tar.gz tmp/etos_client-6.3.0.tar.gz --markdown 20240417/e/etos-client/6.2.0-6.3.0/README.md --exclude *.pyd
+[2024-04-17 09:49:19] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.6.tar.gz]
+[2024-04-17 09:49:19] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.7.tar.gz]
+[2024-04-17 09:49:19] INFO root fetch - main [MainThread]: End processing [research-roc-utils]: success
+[2024-04-17 09:49:19] INFO root fetch - processPackages [etos-client]: Remove: archive file [/home/abi/fetcher/tmp/etos_client-6.2.0.tar.gz]
+[2024-04-17 09:49:19] INFO root fetch - processPackages [etos-client]: Remove: archive file [/home/abi/fetcher/tmp/etos_client-6.3.0.tar.gz]
+[2024-04-17 09:49:19] INFO root fetch - main [MainThread]: End processing [etos-client]: success
+[2024-04-17 09:49:19] INFO root fetch - main [MainThread]: Store serial: [22801620]
