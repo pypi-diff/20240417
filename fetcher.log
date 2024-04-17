@@ -10312,3 +10312,18 @@
 [2024-04-17 06:37:40] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.7.tar.gz]
 [2024-04-17 06:37:40] INFO root fetch - main [MainThread]: End processing [dxsp]: success
 [2024-04-17 06:37:40] INFO root fetch - main [MainThread]: Store serial: [22799846]
+[2024-04-17 06:39:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799846]
+[2024-04-17 06:39:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 06:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtnkk-tools
+[2024-04-17 06:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultralytics
+[2024-04-17 06:39:49] WARNING root fetch - processPackages [xtnkk-tools]: Skipping, unable to determine old version
+[2024-04-17 06:39:49] INFO root fetch - main [MainThread]: End processing [xtnkk-tools] error
+[2024-04-17 06:39:49] INFO root fetch - processPackages [ultralytics]: New version: [8.2.0] Old Version: [8.1.9]
+[2024-04-17 06:39:50] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/70/2c/d7de774dece06044c0162dcf39caf5794871e45144cda9998425196f776f/ultralytics-8.1.9.tar.gz
+[2024-04-17 06:39:50] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/c5/a5/b9c4f0a2d261126d89802f810166206b43cb9529d24f4c58d27ebe8b33de/ultralytics-8.2.0.tar.gz
+[2024-04-17 06:39:50] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-04-17 06:39:50] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.1.9.tar.gz tmp/ultralytics-8.2.0.tar.gz --markdown 20240417/u/ultralytics/8.1.9-8.2.0/README.md --exclude *.pyd
+[2024-04-17 06:39:52] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.1.9.tar.gz]
+[2024-04-17 06:39:52] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.0.tar.gz]
+[2024-04-17 06:39:52] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-04-17 06:39:52] INFO root fetch - main [MainThread]: Store serial: [22799854]
