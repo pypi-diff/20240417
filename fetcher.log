@@ -14058,3 +14058,56 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:24:48] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.7.7.tar.gz]
 [2024-04-17 09:24:48] INFO root fetch - main [MainThread]: End processing [unitxt]: success
 [2024-04-17 09:24:48] INFO root fetch - main [MainThread]: Store serial: [22801271]
+[2024-04-17 09:26:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801271]
+[2024-04-17 09:26:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 09:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataforgetoolkit
+[2024-04-17 09:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-pagerduty
+[2024-04-17 09:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: async-signals
+[2024-04-17 09:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taichi-splatting
+[2024-04-17 09:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DNBC4dev
+[2024-04-17 09:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: splat-trainer
+[2024-04-17 09:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trio-bybit
+[2024-04-17 09:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inigrep
+[2024-04-17 09:26:57] WARNING root fetch - processPackages [trio-bybit]: Skipping, unable to determine old version
+[2024-04-17 09:26:57] INFO root fetch - main [MainThread]: End processing [trio-bybit] error
+[2024-04-17 09:26:57] WARNING root fetch - processPackages [dataforgetoolkit]: Skipping, unable to determine old version
+[2024-04-17 09:26:57] INFO root fetch - main [MainThread]: End processing [dataforgetoolkit] error
+[2024-04-17 09:26:57] INFO root fetch - processPackages [async-signals]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-17 09:26:57] WARNING root fetch - processPackages [splat-trainer]: Skipping, unable to determine old version
+[2024-04-17 09:26:57] INFO root fetch - main [MainThread]: End processing [splat-trainer] error
+[2024-04-17 09:26:57] INFO root fetch - processPackages [DNBC4dev]: New version: [2.3.0] Old Version: [2.2.8]
+[2024-04-17 09:26:57] INFO root fetch - processPackages [taichi-splatting]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-17 09:26:57] INFO root fetch - processPackages [inigrep]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-17 09:26:57] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-04-17 09:26:57] INFO root fetch - processPackages [async-signals]: Downloading https://files.pythonhosted.org/packages/01/bb/5a02f47e727ed0f5bebef93e3d5dccd2c338afeae7c8a84e4a3b66ec8317/async_signals-0.1.7.tar.gz
+[2024-04-17 09:26:57] INFO root fetch - processPackages [inigrep]: Downloading https://files.pythonhosted.org/packages/ef/a6/ce1739b24467e0e7f9e4e9b8204977a94e9f280c04a00ad2d6f6c9d8f641/inigrep-0.5.2.tar.gz
+[2024-04-17 09:26:57] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-04-17 09:26:57] INFO root fetch - processPackages [DNBC4dev]: Downloading https://files.pythonhosted.org/packages/b4/ae/a66a7acc786c630ad7fb00e319464ffb9ccd411022a010b67412c8f18235/DNBC4dev-2.2.8.tar.gz
+[2024-04-17 09:26:57] INFO root fetch - processPackages [taichi-splatting]: Downloading https://files.pythonhosted.org/packages/26/58/af4038a730dc019b9001be367aae7f034e351ae03f513372007b7e9f98c0/taichi-splatting-0.8.0.tar.gz
+[2024-04-17 09:26:57] INFO root fetch - processPackages [async-signals]: Downloading https://files.pythonhosted.org/packages/ad/b8/65fe90b362bb3ba92dc7db9b6ddd51c4c1c7973c8702f841cb2818ffd4ee/async_signals-0.1.8.tar.gz
+[2024-04-17 09:26:57] WARNING root fetch - processPackages [DNBC4dev]: Skipping package: exceeds size limit 38038021>=10485760
+[2024-04-17 09:26:57] INFO root fetch - main [MainThread]: End processing [DNBC4dev] error
+[2024-04-17 09:26:57] INFO root fetch - processPackages [async-signals]: executing diffoscope
+[2024-04-17 09:26:57] INFO root fetch - processPackages [async-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_signals-0.1.7.tar.gz tmp/async_signals-0.1.8.tar.gz --markdown 20240417/a/async-signals/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-17 09:26:57] INFO root fetch - processPackages [inigrep]: Downloading https://files.pythonhosted.org/packages/b1/c5/ffafc980103e82d8dfaa0991231a528bc824cdf586a13d6270c7dd70af8f/inigrep-0.5.3.tar.gz
+[2024-04-17 09:26:57] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-04-17 09:26:57] INFO root fetch - processPackages [inigrep]: executing diffoscope
+[2024-04-17 09:26:57] INFO root fetch - processPackages [inigrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inigrep-0.5.2.tar.gz tmp/inigrep-0.5.3.tar.gz --markdown 20240417/i/inigrep/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-17 09:26:58] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-04-17 09:26:58] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240417/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-04-17 09:26:58] INFO root fetch - processPackages [taichi-splatting]: Downloading https://files.pythonhosted.org/packages/be/ab/b68b93ef7ea727c976ed8e13fc6422209bde83f93eccb0a7938c5f003021/taichi-splatting-0.9.0.tar.gz
+[2024-04-17 09:26:58] INFO root fetch - processPackages [async-signals]: Remove: archive file [/home/abi/fetcher/tmp/async_signals-0.1.7.tar.gz]
+[2024-04-17 09:26:58] INFO root fetch - processPackages [async-signals]: Remove: archive file [/home/abi/fetcher/tmp/async_signals-0.1.8.tar.gz]
+[2024-04-17 09:26:58] INFO root fetch - main [MainThread]: End processing [async-signals]: success
+[2024-04-17 09:26:58] INFO root fetch - processPackages [inigrep]: Remove: archive file [/home/abi/fetcher/tmp/inigrep-0.5.2.tar.gz]
+[2024-04-17 09:26:58] INFO root fetch - processPackages [inigrep]: Remove: archive file [/home/abi/fetcher/tmp/inigrep-0.5.3.tar.gz]
+[2024-04-17 09:26:58] INFO root fetch - main [MainThread]: End processing [inigrep]: success
+[2024-04-17 09:26:59] INFO root fetch - processPackages [taichi-splatting]: executing diffoscope
+[2024-04-17 09:26:59] INFO root fetch - processPackages [taichi-splatting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichi-splatting-0.8.0.tar.gz tmp/taichi-splatting-0.9.0.tar.gz --markdown 20240417/t/taichi-splatting/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-17 09:26:59] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-04-17 09:26:59] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-04-17 09:26:59] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-04-17 09:27:00] INFO root fetch - processPackages [taichi-splatting]: Remove: archive file [/home/abi/fetcher/tmp/taichi-splatting-0.8.0.tar.gz]
+[2024-04-17 09:27:00] INFO root fetch - processPackages [taichi-splatting]: Remove: archive file [/home/abi/fetcher/tmp/taichi-splatting-0.9.0.tar.gz]
+[2024-04-17 09:27:00] INFO root fetch - main [MainThread]: End processing [taichi-splatting]: success
+[2024-04-17 09:27:00] INFO root fetch - main [MainThread]: Store serial: [22801299]
