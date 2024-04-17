@@ -12569,3 +12569,35 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:31:36] INFO root fetch - processPackages [pyrasp]: Remove: archive file [/home/abi/fetcher/tmp/pyrasp-0.6.1rc1.tar.gz]
 [2024-04-17 08:31:36] INFO root fetch - main [MainThread]: End processing [pyrasp]: success
 [2024-04-17 08:31:36] INFO root fetch - main [MainThread]: Store serial: [22800605]
+[2024-04-17 08:33:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800605]
+[2024-04-17 08:33:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 08:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vespacli
+[2024-04-17 08:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: profiles-rudderstack
+[2024-04-17 08:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotifyunlock
+[2024-04-17 08:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: renault-api
+[2024-04-17 08:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trio-bybit
+[2024-04-17 08:33:45] INFO root fetch - processPackages [profiles-rudderstack]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-17 08:33:45] WARNING root fetch - processPackages [spotifyunlock]: Skipping, unable to determine old version
+[2024-04-17 08:33:45] INFO root fetch - main [MainThread]: End processing [spotifyunlock] error
+[2024-04-17 08:33:45] INFO root fetch - processPackages [vespacli]: New version: [8.329.17] Old Version: [8.323.45]
+[2024-04-17 08:33:45] WARNING root fetch - processPackages [trio-bybit]: Skipping, unable to determine old version
+[2024-04-17 08:33:45] INFO root fetch - main [MainThread]: End processing [trio-bybit] error
+[2024-04-17 08:33:45] INFO root fetch - processPackages [profiles-rudderstack]: Downloading https://files.pythonhosted.org/packages/95/97/64761d67cfe8069c67b7539134b24dcf170efd4dd29941c63fcf812e485c/profiles_rudderstack-0.9.3-py3-none-win_amd64.whl
+[2024-04-17 08:33:45] INFO root fetch - processPackages [renault-api]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-17 08:33:45] INFO root fetch - processPackages [vespacli]: Downloading https://files.pythonhosted.org/packages/96/45/c8463232e07d01c771f66a4a6365d1c49be8697c19d709da88f022157408/vespacli-8.323.45.tar.gz
+[2024-04-17 08:33:45] INFO root fetch - processPackages [renault-api]: Downloading https://files.pythonhosted.org/packages/1f/48/1b2e29d0a6978ca3fddf2ec79b3f349fec6db04149fc545f128b480db869/renault_api-0.2.1.tar.gz
+[2024-04-17 08:33:45] INFO root fetch - processPackages [profiles-rudderstack]: Downloading https://files.pythonhosted.org/packages/39/b7/6e7ce9481e261a834d0c894750e013daf1a82db51bb1d6162613963ab427/profiles_rudderstack-0.9.4-py3-none-win_amd64.whl
+[2024-04-17 08:33:45] WARNING root fetch - processPackages [vespacli]: Skipping package: exceeds size limit 49090877>=10485760
+[2024-04-17 08:33:45] INFO root fetch - main [MainThread]: End processing [vespacli] error
+[2024-04-17 08:33:45] INFO root fetch - processPackages [profiles-rudderstack]: executing diffoscope
+[2024-04-17 08:33:45] INFO root fetch - processPackages [profiles-rudderstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profiles_rudderstack-0.9.3-py3-none-win_amd64.whl.zip tmp/profiles_rudderstack-0.9.4-py3-none-win_amd64.whl.zip --markdown 20240417/p/profiles-rudderstack/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-17 08:33:45] INFO root fetch - processPackages [renault-api]: Downloading https://files.pythonhosted.org/packages/37/31/12ebf672664967fb2ecc1e05e8090a3a0bc4f436737be84fc67bfe883b72/renault_api-0.2.2.tar.gz
+[2024-04-17 08:33:45] INFO root fetch - processPackages [renault-api]: executing diffoscope
+[2024-04-17 08:33:45] INFO root fetch - processPackages [renault-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renault_api-0.2.1.tar.gz tmp/renault_api-0.2.2.tar.gz --markdown 20240417/r/renault-api/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-17 08:33:46] INFO root fetch - processPackages [profiles-rudderstack]: Remove: archive file [/home/abi/fetcher/tmp/profiles_rudderstack-0.9.3-py3-none-win_amd64.whl.zip]
+[2024-04-17 08:33:46] INFO root fetch - processPackages [profiles-rudderstack]: Remove: archive file [/home/abi/fetcher/tmp/profiles_rudderstack-0.9.4-py3-none-win_amd64.whl.zip]
+[2024-04-17 08:33:46] INFO root fetch - main [MainThread]: End processing [profiles-rudderstack]: success
+[2024-04-17 08:33:46] INFO root fetch - processPackages [renault-api]: Remove: archive file [/home/abi/fetcher/tmp/renault_api-0.2.1.tar.gz]
+[2024-04-17 08:33:46] INFO root fetch - processPackages [renault-api]: Remove: archive file [/home/abi/fetcher/tmp/renault_api-0.2.2.tar.gz]
+[2024-04-17 08:33:46] INFO root fetch - main [MainThread]: End processing [renault-api]: success
+[2024-04-17 08:33:46] INFO root fetch - main [MainThread]: Store serial: [22800622]
