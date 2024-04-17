@@ -11581,3 +11581,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 07:47:24] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
 [2024-04-17 07:47:24] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
 [2024-04-17 07:47:24] INFO root fetch - main [MainThread]: Store serial: [22800264]
+[2024-04-17 07:49:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800264]
+[2024-04-17 07:49:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 07:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PicImageSearch
+[2024-04-17 07:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-ch-framework
+[2024-04-17 07:49:33] INFO root fetch - processPackages [pytest-ch-framework]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-17 07:49:33] INFO root fetch - processPackages [PicImageSearch]: New version: [3.9.7] Old Version: [3.9.6]
+[2024-04-17 07:49:33] INFO root fetch - processPackages [PicImageSearch]: Downloading https://files.pythonhosted.org/packages/2f/8b/efbe359e1bcce780aa1d72a28b13e90a4f84f35f10026b5c2a2ac9686ec3/picimagesearch-3.9.6.tar.gz
+[2024-04-17 07:49:33] INFO root fetch - processPackages [pytest-ch-framework]: Downloading https://files.pythonhosted.org/packages/1f/2a/192157abd3268abc4d7c4e404f9ab92a20bf98d703070a2aa8462438009f/pytest_ch_framework-1.0.0.tar.gz
+[2024-04-17 07:49:33] INFO root fetch - processPackages [PicImageSearch]: Downloading https://files.pythonhosted.org/packages/24/de/a4a806db624033d994ed41d6f614d0304ec2a357e69bc30034a8b2c62da8/picimagesearch-3.9.7.tar.gz
+[2024-04-17 07:49:33] INFO root fetch - processPackages [pytest-ch-framework]: Downloading https://files.pythonhosted.org/packages/c9/ee/5c319b06a18ede5d6b44293b86ef6f9731e775364761864d1d4887ccd276/pytest_ch_framework-1.0.1.tar.gz
+[2024-04-17 07:49:33] INFO root fetch - processPackages [PicImageSearch]: executing diffoscope
+[2024-04-17 07:49:33] INFO root fetch - processPackages [PicImageSearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picimagesearch-3.9.6.tar.gz tmp/picimagesearch-3.9.7.tar.gz --markdown 20240417/P/PicImageSearch/3.9.6-3.9.7/README.md --exclude *.pyd
+[2024-04-17 07:49:34] INFO root fetch - processPackages [pytest-ch-framework]: executing diffoscope
+[2024-04-17 07:49:34] INFO root fetch - processPackages [pytest-ch-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_ch_framework-1.0.0.tar.gz tmp/pytest_ch_framework-1.0.1.tar.gz --markdown 20240417/p/pytest-ch-framework/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-17 07:49:34] INFO root fetch - processPackages [PicImageSearch]: Remove: archive file [/home/abi/fetcher/tmp/picimagesearch-3.9.6.tar.gz]
+[2024-04-17 07:49:34] INFO root fetch - processPackages [PicImageSearch]: Remove: archive file [/home/abi/fetcher/tmp/picimagesearch-3.9.7.tar.gz]
+[2024-04-17 07:49:34] INFO root fetch - main [MainThread]: End processing [PicImageSearch]: success
+[2024-04-17 07:49:34] INFO root fetch - processPackages [pytest-ch-framework]: Remove: archive file [/home/abi/fetcher/tmp/pytest_ch_framework-1.0.0.tar.gz]
+[2024-04-17 07:49:34] INFO root fetch - processPackages [pytest-ch-framework]: Remove: archive file [/home/abi/fetcher/tmp/pytest_ch_framework-1.0.1.tar.gz]
+[2024-04-17 07:49:34] INFO root fetch - main [MainThread]: End processing [pytest-ch-framework]: success
+[2024-04-17 07:49:34] INFO root fetch - main [MainThread]: Store serial: [22800270]
