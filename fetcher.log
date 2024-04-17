@@ -22813,3 +22813,48 @@ EOFError: EOF read where object expected
 [2024-04-17 14:36:29] INFO root fetch - processPackages [rapidpro-dash]: Remove: archive file [/home/abi/fetcher/tmp/rapidpro-dash-1.9.3.tar.gz]
 [2024-04-17 14:36:29] INFO root fetch - main [MainThread]: End processing [rapidpro-dash]: success
 [2024-04-17 14:36:29] INFO root fetch - main [MainThread]: Store serial: [22805473]
+[2024-04-17 14:38:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805473]
+[2024-04-17 14:38:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 14:38:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qlasskit
+[2024-04-17 14:38:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-random
+[2024-04-17 14:38:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brynq-sdk-functions
+[2024-04-17 14:38:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: windmill-compute
+[2024-04-17 14:38:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cs2-battle-bot-client
+[2024-04-17 14:38:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qtealeaves
+[2024-04-17 14:38:39] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2024-04-17 14:38:39] WARNING root fetch - processPackages [brynq-sdk-functions]: Skipping, unable to determine old version
+[2024-04-17 14:38:39] INFO root fetch - main [MainThread]: End processing [brynq-sdk-functions] error
+[2024-04-17 14:38:39] WARNING root fetch - processPackages [cs2-battle-bot-client]: Skipping, unable to determine old version
+[2024-04-17 14:38:39] INFO root fetch - main [MainThread]: End processing [cs2-battle-bot-client] error
+[2024-04-17 14:38:39] INFO root fetch - processPackages [windmill-compute]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2024-04-17 14:38:39] INFO root fetch - processPackages [qtealeaves]: New version: [0.5.14] Old Version: [0.5.13]
+[2024-04-17 14:38:39] INFO root fetch - processPackages [qlasskit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 14:38:39] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2024-04-17 14:38:39] INFO root fetch - processPackages [windmill-compute]: Downloading https://files.pythonhosted.org/packages/76/b6/09c2787827e1028527ec67acbbe72fc7fe94c8b4ce656c552bdb9fdde004/windmill_compute-1.0.0.8-py3-none-any.whl
+[2024-04-17 14:38:39] INFO root fetch - processPackages [qlasskit]: Downloading https://files.pythonhosted.org/packages/ad/eb/ba177d3631fb0f69e6e93a991a342d8609825ab390ed5d9f49f4ee1ad830/qlasskit-0.1.8.tar.gz
+[2024-04-17 14:38:39] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2024-04-17 14:38:39] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/47/4f/788ac5be3b9cd117dc7a9400b9476ee4642de8cd9ee1a0af34cadb77936f/qtealeaves-0.5.13.tar.gz
+[2024-04-17 14:38:39] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2024-04-17 14:38:39] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20240417/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/README.md --exclude *.pyd
+[2024-04-17 14:38:39] INFO root fetch - processPackages [windmill-compute]: Downloading https://files.pythonhosted.org/packages/0a/b6/b5f71e46da82212b3949eae777009a22fca7be9a56673681207f56466a52/windmill_compute-1.0.0.9-py3-none-any.whl
+[2024-04-17 14:38:40] INFO root fetch - processPackages [qlasskit]: Downloading https://files.pythonhosted.org/packages/b1/ae/db6bb45274d1e66963351e0642917310836cbd8c278592694708a0aa3897/qlasskit-0.1.9.tar.gz
+[2024-04-17 14:38:40] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/ff/94/07691a7eea700b315b9fd3858c4a1f0d8606c9ca70050440e1a79904adf7/qtealeaves-0.5.14.tar.gz
+[2024-04-17 14:38:40] INFO root fetch - processPackages [windmill-compute]: executing diffoscope
+[2024-04-17 14:38:40] INFO root fetch - processPackages [windmill-compute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_compute-1.0.0.8-py3-none-any.whl.zip tmp/windmill_compute-1.0.0.9-py3-none-any.whl.zip --markdown 20240417/w/windmill-compute/1.0.0.8-1.0.0.9/README.md --exclude *.pyd
+[2024-04-17 14:38:40] INFO root fetch - processPackages [qlasskit]: executing diffoscope
+[2024-04-17 14:38:40] INFO root fetch - processPackages [qlasskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlasskit-0.1.8.tar.gz tmp/qlasskit-0.1.9.tar.gz --markdown 20240417/q/qlasskit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 14:38:40] INFO root fetch - processPackages [qtealeaves]: executing diffoscope
+[2024-04-17 14:38:40] INFO root fetch - processPackages [qtealeaves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtealeaves-0.5.13.tar.gz tmp/qtealeaves-0.5.14.tar.gz --markdown 20240417/q/qtealeaves/0.5.13-0.5.14/README.md --exclude *.pyd
+[2024-04-17 14:38:40] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2024-04-17 14:38:40] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2024-04-17 14:38:40] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2024-04-17 14:38:40] INFO root fetch - processPackages [windmill-compute]: Remove: archive file [/home/abi/fetcher/tmp/windmill_compute-1.0.0.8-py3-none-any.whl.zip]
+[2024-04-17 14:38:40] INFO root fetch - processPackages [windmill-compute]: Remove: archive file [/home/abi/fetcher/tmp/windmill_compute-1.0.0.9-py3-none-any.whl.zip]
+[2024-04-17 14:38:40] INFO root fetch - main [MainThread]: End processing [windmill-compute]: success
+[2024-04-17 14:38:40] INFO root fetch - processPackages [qlasskit]: Remove: archive file [/home/abi/fetcher/tmp/qlasskit-0.1.8.tar.gz]
+[2024-04-17 14:38:40] INFO root fetch - processPackages [qlasskit]: Remove: archive file [/home/abi/fetcher/tmp/qlasskit-0.1.9.tar.gz]
+[2024-04-17 14:38:40] INFO root fetch - main [MainThread]: End processing [qlasskit]: success
+[2024-04-17 14:38:40] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-0.5.13.tar.gz]
+[2024-04-17 14:38:40] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-0.5.14.tar.gz]
+[2024-04-17 14:38:40] INFO root fetch - main [MainThread]: End processing [qtealeaves]: success
+[2024-04-17 14:38:40] INFO root fetch - main [MainThread]: Store serial: [22805491]
