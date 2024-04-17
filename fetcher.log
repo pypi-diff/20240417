@@ -16129,3 +16129,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:40:46] INFO root fetch - processPackages [dataverk-airflow]: Remove: archive file [/home/abi/fetcher/tmp/dataverk_airflow-1.6.3.tar.gz]
 [2024-04-17 10:40:46] INFO root fetch - main [MainThread]: End processing [dataverk-airflow]: success
 [2024-04-17 10:40:46] INFO root fetch - main [MainThread]: Store serial: [22802348]
+[2024-04-17 10:42:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802348]
+[2024-04-17 10:42:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 10:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataverk-airflow
+[2024-04-17 10:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-governance
+[2024-04-17 10:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: x32dbg
+[2024-04-17 10:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xtnkk-tools
+[2024-04-17 10:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-wavefront
+[2024-04-17 10:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sbcli-mig
+[2024-04-17 10:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kuzu
+[2024-04-17 10:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: statsmodels
+[2024-04-17 10:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PKDevTools
+[2024-04-17 10:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-azure
+[2024-04-17 10:42:55] INFO root fetch - processPackages [xtnkk-tools]: New version: [1.0.0.6] Old Version: [1.0.0.5]
+[2024-04-17 10:42:55] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 10:42:55] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev36] Old Version: [0.3.3.dev35]
+[2024-04-17 10:42:55] INFO root fetch - processPackages [PKDevTools]: New version: [0.13.20240417.88] Old Version: [0.13.20240416.87]
+[2024-04-17 10:42:55] INFO root fetch - processPackages [dataverk-airflow]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-17 10:42:55] INFO root fetch - processPackages [statsmodels]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2024-04-17 10:42:55] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-17 10:42:55] WARNING root fetch - processPackages [x32dbg]: Skipping, unable to determine old version
+[2024-04-17 10:42:55] INFO root fetch - main [MainThread]: End processing [x32dbg] error
+[2024-04-17 10:42:55] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/4b/77/1b7713eee98be72edf56c2899cf68ca83aecc98aa1b070af2747cf4b0432/xtnkk-tools-1.0.0.5.tar.gz
+[2024-04-17 10:42:55] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/5d/91/299508d9e56c5a69893273adf2cecbdd1a0f129d70e65578adf7601e31a7/kuzu-0.3.3.dev35.tar.gz
+[2024-04-17 10:42:55] INFO root fetch - processPackages [pulumi-wavefront]: New version: [3.2.0a1713340678] Old Version: [3.2.0a1712991666]
+[2024-04-17 10:42:55] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/83/58/f12974315315bdce280b4fe375b171c298d4453d67243bff396bc425e55e/PKDevTools-0.13.20240416.87.tar.gz
+[2024-04-17 10:42:55] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-04-17 10:42:55] INFO root fetch - processPackages [dataverk-airflow]: Downloading https://files.pythonhosted.org/packages/e3/4d/eadeccaeb81be45f94791f733d31571b7e546ce8e57d4738ad615b819e55/dataverk_airflow-1.6.2.tar.gz
+[2024-04-17 10:42:55] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-04-17 10:42:55] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-17 10:42:56] INFO root fetch - processPackages [statsmodels]: Downloading https://files.pythonhosted.org/packages/67/68/eb3ec6ab61f97216c257edddb853cc174cd76ea44b365cf4adaedcd44482/statsmodels-0.9.0.tar.gz
+[2024-04-17 10:42:56] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/71/be/1e37640cb1e74013b047829f917296d14864a1e497376e24aae8044a9dc0/pulumi_wavefront-3.2.0a1712991666.tar.gz
+[2024-04-17 10:42:56] WARNING root fetch - processPackages [statsmodels]: Skipping package: exceeds size limit 12658359>=10485760
+[2024-04-17 10:42:56] INFO root fetch - main [MainThread]: End processing [statsmodels] error
+[2024-04-17 10:42:56] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-04-17 10:42:56] INFO root fetch - processPackages [dataverk-airflow]: Downloading https://files.pythonhosted.org/packages/11/54/c044ae8c12a8eee36e02ebc56740313ea092deff6bbd3aac25cb243df5d4/dataverk_airflow-1.6.3.tar.gz
+[2024-04-17 10:42:56] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-17 10:42:56] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-04-17 10:42:56] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/3e/d8/0ddd3d67b1fbf21c470f807cdb2a6c2f603a3636ee73c9169063c4e89724/xtnkk-tools-1.0.0.6.tar.gz
+[2024-04-17 10:42:56] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/1a/10/8d53babaeb6e0540012645b281b76c27d54fa1a4a3c2ee07f1c05a0aae0d/PKDevTools-0.13.20240417.88.tar.gz
+[2024-04-17 10:42:56] INFO root fetch - processPackages [dataverk-airflow]: executing diffoscope
+[2024-04-17 10:42:56] INFO root fetch - processPackages [dataverk-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverk_airflow-1.6.2.tar.gz tmp/dataverk_airflow-1.6.3.tar.gz --markdown 20240417/d/dataverk-airflow/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-04-17 10:42:56] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-17 10:42:56] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240417/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 10:42:56] INFO root fetch - processPackages [xtnkk-tools]: executing diffoscope
+[2024-04-17 10:42:56] INFO root fetch - processPackages [xtnkk-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtnkk-tools-1.0.0.5.tar.gz tmp/xtnkk-tools-1.0.0.6.tar.gz --markdown 20240417/x/xtnkk-tools/1.0.0.5-1.0.0.6/README.md --exclude *.pyd
+[2024-04-17 10:42:56] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-04-17 10:42:56] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240417/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-17 10:42:56] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/86/d7/084411e6f2ab2008ec984ae45065f7d1f5054a7d1ed1f1fa525b9874131f/kuzu-0.3.3.dev36.tar.gz
+[2024-04-17 10:42:56] INFO root fetch - processPackages [PKDevTools]: executing diffoscope
+[2024-04-17 10:42:56] INFO root fetch - processPackages [PKDevTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKDevTools-0.13.20240416.87.tar.gz tmp/PKDevTools-0.13.20240417.88.tar.gz --markdown 20240417/P/PKDevTools/0.13.20240416.87-0.13.20240417.88/README.md --exclude *.pyd
+[2024-04-17 10:42:56] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/74/cf/63c5ea99c3ba1f93df37f957fcefc0bfd4c5b0d08d08ee0e78722dd2199f/pulumi_wavefront-3.2.0a1713340678.tar.gz
+[2024-04-17 10:42:56] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2024-04-17 10:42:56] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-3.2.0a1712991666.tar.gz tmp/pulumi_wavefront-3.2.0a1713340678.tar.gz --markdown 20240417/p/pulumi-wavefront/3.2.0a1712991666-3.2.0a1713340678/README.md --exclude *.pyd
+[2024-04-17 10:42:56] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-04-17 10:42:56] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-17 10:42:56] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev35.tar.gz tmp/kuzu-0.3.3.dev36.tar.gz --markdown 20240417/k/kuzu/0.3.3.dev35-0.3.3.dev36/README.md --exclude *.pyd
+[2024-04-17 10:42:57] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-04-17 10:42:57] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240417/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-04-17 10:42:57] INFO root fetch - processPackages [dataverk-airflow]: Remove: archive file [/home/abi/fetcher/tmp/dataverk_airflow-1.6.2.tar.gz]
+[2024-04-17 10:42:57] INFO root fetch - processPackages [dataverk-airflow]: Remove: archive file [/home/abi/fetcher/tmp/dataverk_airflow-1.6.3.tar.gz]
+[2024-04-17 10:42:57] INFO root fetch - main [MainThread]: End processing [dataverk-airflow]: success
+[2024-04-17 10:42:57] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.0.5.tar.gz]
+[2024-04-17 10:42:57] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.0.6.tar.gz]
+[2024-04-17 10:42:57] INFO root fetch - main [MainThread]: End processing [xtnkk-tools]: success
+[2024-04-17 10:42:57] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240416.87.tar.gz]
+[2024-04-17 10:42:57] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240417.88.tar.gz]
+[2024-04-17 10:42:57] INFO root fetch - main [MainThread]: End processing [PKDevTools]: success
+[2024-04-17 10:42:57] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-04-17 10:42:57] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-04-17 10:42:57] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-04-17 10:42:57] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1712991666.tar.gz]
+[2024-04-17 10:42:57] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1713340678.tar.gz]
+[2024-04-17 10:42:57] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2024-04-17 10:42:58] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-17 10:42:58] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-17 10:42:58] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-17 10:43:05] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev35.tar.gz]
+[2024-04-17 10:43:05] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev36.tar.gz]
+[2024-04-17 10:43:05] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-17 10:43:08] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-04-17 10:43:08] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-04-17 10:43:08] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-04-17 10:43:08] INFO root fetch - main [MainThread]: Store serial: [22802408]
