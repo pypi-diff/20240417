@@ -16308,3 +16308,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:47:34] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz]
 [2024-04-17 10:47:34] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
 [2024-04-17 10:47:34] INFO root fetch - main [MainThread]: Store serial: [22802454]
+[2024-04-17 10:49:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802454]
+[2024-04-17 10:49:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chippy_ai
+[2024-04-17 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spirems
+[2024-04-17 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-apps
+[2024-04-17 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audio-toolkit
+[2024-04-17 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rats-processors
+[2024-04-17 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rats-pipelines
+[2024-04-17 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zbx-wxwork-assistant
+[2024-04-17 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arch-flow
+[2024-04-17 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RsCmwBluetoothMeas
+[2024-04-17 10:49:43] WARNING root fetch - processPackages [zbx-wxwork-assistant]: Skipping, unable to determine old version
+[2024-04-17 10:49:43] INFO root fetch - main [MainThread]: End processing [zbx-wxwork-assistant] error
+[2024-04-17 10:49:43] INFO root fetch - processPackages [audio-toolkit]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-17 10:49:43] INFO root fetch - processPackages [spirems]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-17 10:49:43] INFO root fetch - processPackages [chippy_ai]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-17 10:49:43] WARNING root fetch - processPackages [arch-flow]: Skipping, unable to determine old version
+[2024-04-17 10:49:43] INFO root fetch - main [MainThread]: End processing [arch-flow] error
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-17 10:49:43] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/eb/0d/5aec41bc32cff465878d200731c1c428b27cbd2f22f518b8933f8efa1e1a/audio_toolkit-0.2.0.tar.gz
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-17 10:49:43] INFO root fetch - processPackages [spirems]: Downloading https://files.pythonhosted.org/packages/9e/73/8453d5064614c3a6b9d48fc22446ef85142ad6b6d0d2653fb48977033dc2/spirems-0.1.7-py3-none-any.whl
+[2024-04-17 10:49:43] INFO root fetch - processPackages [RsCmwBluetoothMeas]: New version: [4.0.110] Old Version: [3.8.20.28]
+[2024-04-17 10:49:43] INFO root fetch - processPackages [chippy_ai]: Downloading https://files.pythonhosted.org/packages/91/4e/a46c1be4e20355e0ae0fc4ab0a9dc0a59df790a801faa67de7552705f13d/chippy_ai-0.2.6.tar.gz
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-17 10:49:43] INFO root fetch - processPackages [RsCmwBluetoothMeas]: Downloading https://files.pythonhosted.org/packages/e0/8f/500eacaef3d0955ea1ceb6e41d68d76f6cc1aaaba8974f40aa0d6bea5802/RsCmwBluetoothMeas-3.8.20.28.tar.gz
+[2024-04-17 10:49:43] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/9e/a1/efcecc389b189881930968c2333869f3d4898bb5b8a1ec2e066a7fb67bf9/audio_toolkit-0.3.0.tar.gz
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240417/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240417/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-17 10:49:43] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240417/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-17 10:49:43] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-17 10:49:43] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.2.0.tar.gz tmp/audio_toolkit-0.3.0.tar.gz --markdown 20240417/a/audio-toolkit/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-17 10:49:43] INFO root fetch - processPackages [spirems]: Downloading https://files.pythonhosted.org/packages/b8/c9/0a028de0d470be64ac3fa06b75a0e06c3109b7fc1d20ba2cf7a480e7d880/spirems-0.1.8-py3-none-any.whl
+[2024-04-17 10:49:43] INFO root fetch - processPackages [chippy_ai]: Downloading https://files.pythonhosted.org/packages/c5/c9/d3c9c542faf217f30e41d86a44751185fb03b9cb09059d9a2e87a200f4a8/chippy_ai-0.2.7.tar.gz
+[2024-04-17 10:49:43] INFO root fetch - processPackages [spirems]: executing diffoscope
+[2024-04-17 10:49:43] INFO root fetch - processPackages [spirems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spirems-0.1.7-py3-none-any.whl.zip tmp/spirems-0.1.8-py3-none-any.whl.zip --markdown 20240417/s/spirems/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-17 10:49:44] INFO root fetch - processPackages [chippy_ai]: executing diffoscope
+[2024-04-17 10:49:44] INFO root fetch - processPackages [chippy_ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chippy_ai-0.2.6.tar.gz tmp/chippy_ai-0.2.7.tar.gz --markdown 20240417/c/chippy_ai/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-17 10:49:44] INFO root fetch - processPackages [RsCmwBluetoothMeas]: Downloading https://files.pythonhosted.org/packages/34/ec/57403e0fddab9242459342f45cc3c6bdfb4e039d641150ee5abec64669e6/RsCmwBluetoothMeas-4.0.110.tar.gz
+[2024-04-17 10:49:44] INFO root fetch - processPackages [RsCmwBluetoothMeas]: executing diffoscope
+[2024-04-17 10:49:44] INFO root fetch - processPackages [RsCmwBluetoothMeas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCmwBluetoothMeas-3.8.20.28.tar.gz tmp/RsCmwBluetoothMeas-4.0.110.tar.gz --markdown 20240417/R/RsCmwBluetoothMeas/3.8.20.28-4.0.110/README.md --exclude *.pyd
+[2024-04-17 10:49:44] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-17 10:49:44] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-17 10:49:44] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-17 10:49:44] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-17 10:49:44] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-17 10:49:44] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-17 10:49:44] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-17 10:49:44] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-17 10:49:44] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-17 10:49:44] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.2.0.tar.gz]
+[2024-04-17 10:49:44] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.3.0.tar.gz]
+[2024-04-17 10:49:44] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-17 10:49:44] INFO root fetch - processPackages [spirems]: Remove: archive file [/home/abi/fetcher/tmp/spirems-0.1.7-py3-none-any.whl.zip]
+[2024-04-17 10:49:44] INFO root fetch - processPackages [spirems]: Remove: archive file [/home/abi/fetcher/tmp/spirems-0.1.8-py3-none-any.whl.zip]
+[2024-04-17 10:49:44] INFO root fetch - main [MainThread]: End processing [spirems]: success
+[2024-04-17 10:49:45] INFO root fetch - processPackages [chippy_ai]: Remove: archive file [/home/abi/fetcher/tmp/chippy_ai-0.2.6.tar.gz]
+[2024-04-17 10:49:45] INFO root fetch - processPackages [chippy_ai]: Remove: archive file [/home/abi/fetcher/tmp/chippy_ai-0.2.7.tar.gz]
+[2024-04-17 10:49:45] INFO root fetch - main [MainThread]: End processing [chippy_ai]: success
+[2024-04-17 10:49:49] INFO root fetch - processPackages [RsCmwBluetoothMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwBluetoothMeas-3.8.20.28.tar.gz]
+[2024-04-17 10:49:49] INFO root fetch - processPackages [RsCmwBluetoothMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwBluetoothMeas-4.0.110.tar.gz]
+[2024-04-17 10:49:49] INFO root fetch - main [MainThread]: End processing [RsCmwBluetoothMeas]: success
+[2024-04-17 10:49:49] INFO root fetch - main [MainThread]: Store serial: [22802480]
