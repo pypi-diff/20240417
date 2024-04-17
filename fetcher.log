@@ -23763,3 +23763,42 @@ EOFError: EOF read where object expected
 [2024-04-17 15:14:43] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.17-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-04-17 15:14:43] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-04-17 15:14:43] INFO root fetch - main [MainThread]: Store serial: [22805978]
+[2024-04-17 15:16:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805978]
+[2024-04-17 15:16:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentence-transformers
+[2024-04-17 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dve-lumipy-testing
+[2024-04-17 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assisted-service-client
+[2024-04-17 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fondant
+[2024-04-17 15:16:52] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-17 15:16:53] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-04-17 15:16:53] INFO root fetch - processPackages [sentence-transformers]: New version: [2.7.0] Old Version: [2.6.1]
+[2024-04-17 15:16:53] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/4a/c4/15da184529d541065896d6fc08baeb0cf0cd8306dc7f581261291ee49d80/dve_lumipy_testing-0.1.998-py3-none-any.whl
+[2024-04-17 15:16:53] INFO root fetch - processPackages [fondant]: New version: [1.0.0] Old Version: [0.9.dev2]
+[2024-04-17 15:16:53] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-04-17 15:16:53] INFO root fetch - processPackages [sentence-transformers]: Downloading https://files.pythonhosted.org/packages/a5/fe/d675f39be9352fe25052dcff2f911a982bb34a6b5768d0d440b723643fdd/sentence-transformers-2.6.1.tar.gz
+[2024-04-17 15:16:53] INFO root fetch - processPackages [fondant]: Downloading https://files.pythonhosted.org/packages/d0/0f/414bfdc7a414d0aad96533c86b622492211a4a23e1723eb204ac29a5b6e2/fondant-0.9.dev2.tar.gz
+[2024-04-17 15:16:53] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/c4/37/ad6b4a98b1693f15c493b39fe5b70f5aa0561579d7d5b2d4c4eee74ad89a/dve_lumipy_testing-0.1.999-py3-none-any.whl
+[2024-04-17 15:16:53] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-04-17 15:16:53] INFO root fetch - processPackages [sentence-transformers]: Downloading https://files.pythonhosted.org/packages/65/8d/8d6147fdef0ed7aeff3dab487bd17619b512afab845eb295faa08b20a5d0/sentence_transformers-2.7.0.tar.gz
+[2024-04-17 15:16:53] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-17 15:16:53] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip --markdown 20240417/d/dve-lumipy-testing/0.1.998-0.1.999/README.md --exclude *.pyd
+[2024-04-17 15:16:53] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-04-17 15:16:53] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240417/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-04-17 15:16:53] INFO root fetch - processPackages [sentence-transformers]: executing diffoscope
+[2024-04-17 15:16:53] INFO root fetch - processPackages [sentence-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentence-transformers-2.6.1.tar.gz tmp/sentence_transformers-2.7.0.tar.gz --markdown 20240417/s/sentence-transformers/2.6.1-2.7.0/README.md --exclude *.pyd
+[2024-04-17 15:16:53] INFO root fetch - processPackages [fondant]: Downloading https://files.pythonhosted.org/packages/fb/0c/4375117397a15812c00e00bacc3553b6dcd172b7b37399305e08672be00a/fondant-1.0.0.tar.gz
+[2024-04-17 15:16:53] INFO root fetch - processPackages [fondant]: executing diffoscope
+[2024-04-17 15:16:53] INFO root fetch - processPackages [fondant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fondant-0.9.dev2.tar.gz tmp/fondant-1.0.0.tar.gz --markdown 20240417/f/fondant/0.9.dev2-1.0.0/README.md --exclude *.pyd
+[2024-04-17 15:16:54] INFO root fetch - processPackages [sentence-transformers]: Remove: archive file [/home/abi/fetcher/tmp/sentence-transformers-2.6.1.tar.gz]
+[2024-04-17 15:16:54] INFO root fetch - processPackages [sentence-transformers]: Remove: archive file [/home/abi/fetcher/tmp/sentence_transformers-2.7.0.tar.gz]
+[2024-04-17 15:16:54] INFO root fetch - main [MainThread]: End processing [sentence-transformers]: success
+[2024-04-17 15:16:54] INFO root fetch - processPackages [fondant]: Remove: archive file [/home/abi/fetcher/tmp/fondant-0.9.dev2.tar.gz]
+[2024-04-17 15:16:54] INFO root fetch - processPackages [fondant]: Remove: archive file [/home/abi/fetcher/tmp/fondant-1.0.0.tar.gz]
+[2024-04-17 15:16:54] INFO root fetch - main [MainThread]: End processing [fondant]: success
+[2024-04-17 15:16:54] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip]
+[2024-04-17 15:16:54] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
+[2024-04-17 15:16:54] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-17 15:16:54] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-04-17 15:16:54] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-04-17 15:16:54] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-04-17 15:16:54] INFO root fetch - main [MainThread]: Store serial: [22805996]
