@@ -2841,3 +2841,76 @@
 [2024-04-17 02:50:43] INFO root fetch - processPackages [agent0]: Remove: archive file [/home/abi/fetcher/tmp/agent0-0.18.1.tar.gz]
 [2024-04-17 02:50:43] INFO root fetch - main [MainThread]: End processing [agent0]: success
 [2024-04-17 02:50:43] INFO root fetch - main [MainThread]: Store serial: [22796923]
+[2024-04-17 02:52:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796923]
+[2024-04-17 02:52:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 02:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioversions
+[2024-04-17 02:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: athena-intelligence
+[2024-04-17 02:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: immunopipe
+[2024-04-17 02:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsugu
+[2024-04-17 02:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eidolon-ai-sdk
+[2024-04-17 02:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moval
+[2024-04-17 02:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsugu
+[2024-04-17 02:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llmaudit
+[2024-04-17 02:52:52] INFO root fetch - processPackages [eidolon-ai-sdk]: New version: [0.1.27] Old Version: [0.1.26]
+[2024-04-17 02:52:52] INFO root fetch - processPackages [tsugu]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-17 02:52:52] INFO root fetch - processPackages [tsugu]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-17 02:52:52] INFO root fetch - processPackages [moval]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 02:52:52] INFO root fetch - processPackages [athena-intelligence]: New version: [0.1.38] Old Version: [0.1.37]
+[2024-04-17 02:52:52] INFO root fetch - processPackages [llmaudit]: New version: [0.0.8] Old Version: [0.0.5]
+[2024-04-17 02:52:52] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-17 02:52:52] INFO root fetch - processPackages [immunopipe]: New version: [1.3.5] Old Version: [1.3.4.post4]
+[2024-04-17 02:52:52] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/30/16/dcc88edc5d58f488cb8b1072cd21b1068f0692c99518be9c084123b52a7d/eidolon_ai_sdk-0.1.26.tar.gz
+[2024-04-17 02:52:52] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/23/4d/0240ba5af8407f605a5b9dbe662cc853a63e633a12b48160344616c3d787/tsugu-0.4.8.tar.gz
+[2024-04-17 02:52:52] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/2f/2a/fce64bfb12450128441844587623d883ace479e64f62685d578d0994f441/moval-0.2.8.tar.gz
+[2024-04-17 02:52:52] INFO root fetch - processPackages [llmaudit]: Downloading https://files.pythonhosted.org/packages/c5/e9/37f7413c5576694d9a8ad26eb6bb72f9d0610e427e153a760e56f342eabb/llmaudit-0.0.5.tar.gz
+[2024-04-17 02:52:52] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/23/4d/0240ba5af8407f605a5b9dbe662cc853a63e633a12b48160344616c3d787/tsugu-0.4.8.tar.gz
+[2024-04-17 02:52:52] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/9b/6f/aafc0ce2d0cf5675e16abbc8e726239ef91edc98911b33dca3c579a94e5e/athena_intelligence-0.1.37.tar.gz
+[2024-04-17 02:52:52] INFO root fetch - processPackages [immunopipe]: Downloading https://files.pythonhosted.org/packages/3f/8e/e3e0124ee8740148daf040e3c7b7d76d9b4aae01c515a88b8ded0cdffe4c/immunopipe-1.3.4.post4.tar.gz
+[2024-04-17 02:52:52] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-04-17 02:52:53] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/1a/20/aa11dbd0c43c200302667324b90aba7691c8a534a67ec5f7587067f7e4e6/tsugu-0.4.9.tar.gz
+[2024-04-17 02:52:53] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/ad/4e/1ade376222c4151a24bb8a4462afedaa311f1595b592028fb7632f57e1ae/moval-0.2.9.tar.gz
+[2024-04-17 02:52:53] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/1a/20/aa11dbd0c43c200302667324b90aba7691c8a534a67ec5f7587067f7e4e6/tsugu-0.4.9.tar.gz
+[2024-04-17 02:52:53] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/60/4e/96e84a88826e6fcb95377131103c04ef35a9e109576b17aa0e3838caad2b/eidolon_ai_sdk-0.1.27.tar.gz
+[2024-04-17 02:52:53] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-17 02:52:53] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.4.8.tar.gz tmp/tsugu-0.4.9.tar.gz --markdown 20240417/t/tsugu/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-17 02:52:53] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-04-17 02:52:53] INFO root fetch - processPackages [llmaudit]: Downloading https://files.pythonhosted.org/packages/e4/68/bfca56c531f4eb300d4b50dc1e4f71e744f124a613ebd39786d253759f9d/llmaudit-0.0.8.tar.gz
+[2024-04-17 02:52:53] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/52/a1/d622f9a055dcdf9c140f46dfc18ebe05ae53307d7d762ae7e7326c9edbc8/athena_intelligence-0.1.38.tar.gz
+[2024-04-17 02:52:53] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-04-17 02:52:53] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.2.8.tar.gz tmp/moval-0.2.9.tar.gz --markdown 20240417/m/moval/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 02:52:53] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-17 02:52:53] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.4.8.tar.gz tmp/tsugu-0.4.9.tar.gz --markdown 20240417/t/tsugu/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-17 02:52:53] INFO root fetch - processPackages [immunopipe]: Downloading https://files.pythonhosted.org/packages/e0/06/75e680a1872747fa88095cacc267ed5bedd64800caf1a9fe09c8b559f391/immunopipe-1.3.5.tar.gz
+[2024-04-17 02:52:53] INFO root fetch - processPackages [eidolon-ai-sdk]: executing diffoscope
+[2024-04-17 02:52:53] INFO root fetch - processPackages [eidolon-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_sdk-0.1.26.tar.gz tmp/eidolon_ai_sdk-0.1.27.tar.gz --markdown 20240417/e/eidolon-ai-sdk/0.1.26-0.1.27/README.md --exclude *.pyd
+[2024-04-17 02:52:53] INFO root fetch - processPackages [llmaudit]: executing diffoscope
+[2024-04-17 02:52:53] INFO root fetch - processPackages [llmaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmaudit-0.0.5.tar.gz tmp/llmaudit-0.0.8.tar.gz --markdown 20240417/l/llmaudit/0.0.5-0.0.8/README.md --exclude *.pyd
+[2024-04-17 02:52:53] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-04-17 02:52:53] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240417/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-04-17 02:52:53] INFO root fetch - processPackages [athena-intelligence]: executing diffoscope
+[2024-04-17 02:52:53] INFO root fetch - processPackages [athena-intelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_intelligence-0.1.37.tar.gz tmp/athena_intelligence-0.1.38.tar.gz --markdown 20240417/a/athena-intelligence/0.1.37-0.1.38/README.md --exclude *.pyd
+[2024-04-17 02:52:53] INFO root fetch - processPackages [immunopipe]: executing diffoscope
+[2024-04-17 02:52:53] INFO root fetch - processPackages [immunopipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immunopipe-1.3.4.post4.tar.gz tmp/immunopipe-1.3.5.tar.gz --markdown 20240417/i/immunopipe/1.3.4.post4-1.3.5/README.md --exclude *.pyd
+[2024-04-17 02:52:54] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.8.tar.gz]
+[2024-04-17 02:52:54] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.9.tar.gz]
+[2024-04-17 02:52:54] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-17 02:52:54] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-17 02:52:54] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.8.tar.gz]
+[2024-04-17 02:52:54] INFO root fetch - processPackages [llmaudit]: Remove: archive file [/home/abi/fetcher/tmp/llmaudit-0.0.5.tar.gz]
+[2024-04-17 02:52:54] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.9.tar.gz]
+[2024-04-17 02:52:54] INFO root fetch - processPackages [llmaudit]: Remove: archive file [/home/abi/fetcher/tmp/llmaudit-0.0.8.tar.gz]
+[2024-04-17 02:52:54] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-04-17 02:52:54] INFO root fetch - main [MainThread]: End processing [llmaudit]: success
+[2024-04-17 02:52:54] INFO root fetch - processPackages [immunopipe]: Remove: archive file [/home/abi/fetcher/tmp/immunopipe-1.3.4.post4.tar.gz]
+[2024-04-17 02:52:54] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.37.tar.gz]
+[2024-04-17 02:52:54] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.38.tar.gz]
+[2024-04-17 02:52:54] INFO root fetch - processPackages [immunopipe]: Remove: archive file [/home/abi/fetcher/tmp/immunopipe-1.3.5.tar.gz]
+[2024-04-17 02:52:54] INFO root fetch - main [MainThread]: End processing [athena-intelligence]: success
+[2024-04-17 02:52:54] INFO root fetch - main [MainThread]: End processing [immunopipe]: success
+[2024-04-17 02:52:54] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.26.tar.gz]
+[2024-04-17 02:52:54] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.27.tar.gz]
+[2024-04-17 02:52:54] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
+[2024-04-17 02:53:12] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-04-17 02:53:12] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-04-17 02:53:12] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-04-17 02:53:12] INFO root fetch - main [MainThread]: Store serial: [22796948]
