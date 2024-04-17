@@ -11144,3 +11144,103 @@
 [2024-04-17 07:32:05] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.9.0.tar.gz]
 [2024-04-17 07:32:05] INFO root fetch - main [MainThread]: End processing [unstract-sdk]: success
 [2024-04-17 07:32:05] INFO root fetch - main [MainThread]: Store serial: [22800144]
+[2024-04-17 07:34:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800144]
+[2024-04-17 07:34:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 07:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-akamai
+[2024-04-17 07:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-purchase-supplierinfo-product-breakdown
+[2024-04-17 07:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flake8-no-nesting
+[2024-04-17 07:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tflite-runtime-nightly
+[2024-04-17 07:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-icons
+[2024-04-17 07:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antsibull-core
+[2024-04-17 07:34:14] INFO root fetch - processPackages [django-icons]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-04-17 07:34:14] WARNING root fetch - processPackages [flake8-no-nesting]: Skipping, unable to determine old version
+[2024-04-17 07:34:14] INFO root fetch - main [MainThread]: End processing [flake8-no-nesting] error
+[2024-04-17 07:34:14] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240415] Old Version: [2.17.0.dev20240414]
+[2024-04-17 07:34:14] INFO root fetch - processPackages [odoo14-addon-purchase-supplierinfo-product-breakdown]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.1.dev8]
+[2024-04-17 07:34:14] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.1.0a1713330683] Old Version: [7.1.0a1712985050]
+[2024-04-17 07:34:14] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/fb/06/f48fdbd2f7036847a18341b31d54a199a2881024679e67836a47992e5275/tflite_runtime_nightly-2.17.0.dev20240414-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-17 07:34:14] INFO root fetch - processPackages [antsibull-core]: New version: [3.0.0a1] Old Version: [3.0.0]
+[2024-04-17 07:34:14] INFO root fetch - processPackages [django-icons]: executing diffoscope
+[2024-04-17 07:34:14] INFO root fetch - processPackages [django-icons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-icons-3.0.0.tar.gz tmp/django-icons-4.0.0.tar.gz --markdown 20240417/d/django-icons/3.0.0-4.0.0/README.md --exclude *.pyd
+[2024-04-17 07:34:14] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/6a/d7/76d8ef6be35c15bd0c611601a1616523b8fff947be7e5d2025ccad868530/pulumi_akamai-7.1.0a1712985050.tar.gz
+[2024-04-17 07:34:14] INFO root fetch - processPackages [odoo14-addon-purchase-supplierinfo-product-breakdown]: Downloading https://files.pythonhosted.org/packages/b4/f7/41632408abb6553deebce5ffc366129b84d505305c67cca956ac137039a0/odoo14_addon_purchase_supplierinfo_product_breakdown-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-04-17 07:34:14] INFO root fetch - processPackages [antsibull-core]: Downloading https://files.pythonhosted.org/packages/ff/54/f30a697e7904441f742c879a5a4d6cd2b7124c5599dd8e170b3ecd68be88/antsibull_core-3.0.0.tar.gz
+[2024-04-17 07:34:14] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/22/e8/ad80721920c2111f296caa3d4194ede351ea5284868212256885d9e76f32/tflite_runtime_nightly-2.17.0.dev20240415-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-17 07:34:14] INFO root fetch - processPackages [odoo14-addon-purchase-supplierinfo-product-breakdown]: Downloading https://files.pythonhosted.org/packages/a3/23/081f465c609885714499b630012b9363ab6780a406d415667c2269dc095b/odoo14_addon_purchase_supplierinfo_product_breakdown-14.0.1.0.2.dev2-py3-none-any.whl
+[2024-04-17 07:34:14] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/a8/7b/ccf8b9a51a7501cf728f6541d0986a5a5f35432e6a5b1686c556fc055d66/pulumi_akamai-7.1.0a1713330683.tar.gz
+[2024-04-17 07:34:14] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-04-17 07:34:14] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240414-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240415-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240417/t/tflite-runtime-nightly/2.17.0.dev20240414-2.17.0.dev20240415/README.md --exclude *.pyd
+[2024-04-17 07:34:15] INFO root fetch - processPackages [antsibull-core]: Downloading https://files.pythonhosted.org/packages/b6/fc/70e99cf8f213197efb70dd7cbcf0fa6a8533058d076aa8805536c596c307/antsibull_core-3.0.0a1.tar.gz
+[2024-04-17 07:34:15] INFO root fetch - processPackages [odoo14-addon-purchase-supplierinfo-product-breakdown]: executing diffoscope
+[2024-04-17 07:34:15] INFO root fetch - processPackages [odoo14-addon-purchase-supplierinfo-product-breakdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_supplierinfo_product_breakdown-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_purchase_supplierinfo_product_breakdown-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20240417/o/odoo14-addon-purchase-supplierinfo-product-breakdown/14.0.1.0.1.dev8-14.0.1.0.2.dev2/README.md --exclude *.pyd
+[2024-04-17 07:34:15] ERROR root fetch - processPackages [django-icons]: Diffoscope failed: time="2024-04-17T07:34:14+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2024-04-17 07:34:15] INFO root fetch - main [MainThread]: End processing [django-icons] error
+[2024-04-17 07:34:15] INFO root fetch - processPackages [antsibull-core]: executing diffoscope
+[2024-04-17 07:34:15] INFO root fetch - processPackages [antsibull-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsibull_core-3.0.0.tar.gz tmp/antsibull_core-3.0.0a1.tar.gz --markdown 20240417/a/antsibull-core/3.0.0-3.0.0a1/README.md --exclude *.pyd
+[2024-04-17 07:34:15] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-04-17 07:34:15] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.1.0a1712985050.tar.gz tmp/pulumi_akamai-7.1.0a1713330683.tar.gz --markdown 20240417/p/pulumi-akamai/7.1.0a1712985050-7.1.0a1713330683/README.md --exclude *.pyd
+[2024-04-17 07:34:15] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240414-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-17 07:34:15] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240415-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-17 07:34:15] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-04-17 07:34:15] INFO root fetch - processPackages [odoo14-addon-purchase-supplierinfo-product-breakdown]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_supplierinfo_product_breakdown-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-04-17 07:34:15] INFO root fetch - processPackages [odoo14-addon-purchase-supplierinfo-product-breakdown]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_supplierinfo_product_breakdown-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2024-04-17 07:34:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-supplierinfo-product-breakdown]: success
+[2024-04-17 07:34:15] INFO root fetch - processPackages [antsibull-core]: Remove: archive file [/home/abi/fetcher/tmp/antsibull_core-3.0.0.tar.gz]
+[2024-04-17 07:34:15] INFO root fetch - processPackages [antsibull-core]: Remove: archive file [/home/abi/fetcher/tmp/antsibull_core-3.0.0a1.tar.gz]
+[2024-04-17 07:34:15] INFO root fetch - main [MainThread]: End processing [antsibull-core]: success
+[2024-04-17 07:34:17] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.1.0a1712985050.tar.gz]
+[2024-04-17 07:34:17] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.1.0a1713330683.tar.gz]
+[2024-04-17 07:34:17] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-04-17 07:34:17] INFO root fetch - main [MainThread]: Store serial: [22800163]
