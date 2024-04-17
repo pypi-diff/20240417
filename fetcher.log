@@ -9277,3 +9277,15 @@
 [2024-04-17 05:34:07] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-1.0.2.tar.gz]
 [2024-04-17 05:34:07] INFO root fetch - main [MainThread]: End processing [chiasmodon]: success
 [2024-04-17 05:34:07] INFO root fetch - main [MainThread]: Store serial: [22799481]
+[2024-04-17 05:36:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799481]
+[2024-04-17 05:36:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 05:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chiasmodon
+[2024-04-17 05:36:16] INFO root fetch - processPackages [chiasmodon]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-17 05:36:16] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/d3/dd/0aa40682a2ac86cdf8a4c14ad6602a0fee34a14eeb464f255b5617d22aee/chiasmodon-1.0.1-py3-none-any.whl
+[2024-04-17 05:36:16] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/9e/b2/b7348887ccbe5ca2a0314ae2858198a225476332f00564ddd5eb51dc5ece/chiasmodon-1.0.2.tar.gz
+[2024-04-17 05:36:16] INFO root fetch - processPackages [chiasmodon]: executing diffoscope
+[2024-04-17 05:36:16] INFO root fetch - processPackages [chiasmodon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiasmodon-1.0.1-py3-none-any.whl.zip tmp/chiasmodon-1.0.2.tar.gz --markdown 20240417/c/chiasmodon/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-17 05:36:17] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-1.0.1-py3-none-any.whl.zip]
+[2024-04-17 05:36:17] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-1.0.2.tar.gz]
+[2024-04-17 05:36:17] INFO root fetch - main [MainThread]: End processing [chiasmodon]: success
+[2024-04-17 05:36:17] INFO root fetch - main [MainThread]: Store serial: [22799483]
