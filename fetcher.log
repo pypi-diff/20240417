@@ -9544,3 +9544,36 @@
 [2024-04-17 05:53:46] INFO root fetch - processPackages [pystackql]: Remove: archive file [/home/abi/fetcher/tmp/pystackql-3.5.5.tar.gz]
 [2024-04-17 05:53:46] INFO root fetch - main [MainThread]: End processing [pystackql]: success
 [2024-04-17 05:53:46] INFO root fetch - main [MainThread]: Store serial: [22799565]
+[2024-04-17 05:55:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799565]
+[2024-04-17 05:55:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 05:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystackql
+[2024-04-17 05:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybaseutils
+[2024-04-17 05:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sodata
+[2024-04-17 05:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chkptai
+[2024-04-17 05:55:54] INFO root fetch - processPackages [sodata]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-17 05:55:54] INFO root fetch - processPackages [pystackql]: New version: [3.5.5] Old Version: [3.5.4]
+[2024-04-17 05:55:54] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/3a/46/d489c68835ad2a384c21fc9e10b90ee23c695af50c29daf07981723f4609/sodata-0.0.6.tar.gz
+[2024-04-17 05:55:54] INFO root fetch - processPackages [pystackql]: Downloading https://files.pythonhosted.org/packages/5d/16/302f0b8a1e182ce1df9f4b0587934262d0bbde4d6f67729fbaac35f47ad9/pystackql-3.5.4.tar.gz
+[2024-04-17 05:55:54] WARNING root fetch - processPackages [chkptai]: Skipping, unable to determine old version
+[2024-04-17 05:55:54] INFO root fetch - main [MainThread]: End processing [chkptai] error
+[2024-04-17 05:55:54] INFO root fetch - processPackages [pybaseutils]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-17 05:55:54] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/92/c0/068e9d613eb663c69828e03e1fda0aba24f0776e0b9a6ecd7dc62e8b2430/sodata-0.0.9.tar.gz
+[2024-04-17 05:55:54] INFO root fetch - processPackages [pystackql]: Downloading https://files.pythonhosted.org/packages/77/80/fbaec081ddc7a2343180fb70bb585c31335c39bd653096e69f3046aac11e/pystackql-3.5.5.tar.gz
+[2024-04-17 05:55:54] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/37/43/bf9fe204035a52e4b271dfc89be480e4c2f1f926597140b55f9dd0e18671/pybaseutils-1.0.4.tar.gz
+[2024-04-17 05:55:54] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-17 05:55:54] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.6.tar.gz tmp/sodata-0.0.9.tar.gz --markdown 20240417/s/sodata/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-17 05:55:54] INFO root fetch - processPackages [pystackql]: executing diffoscope
+[2024-04-17 05:55:54] INFO root fetch - processPackages [pystackql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystackql-3.5.4.tar.gz tmp/pystackql-3.5.5.tar.gz --markdown 20240417/p/pystackql/3.5.4-3.5.5/README.md --exclude *.pyd
+[2024-04-17 05:55:54] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/4e/e7/e2d544bd4c1e1ddd185e5e0711b9c7552cd7609f3c82498968adc261402c/pybaseutils-1.0.5.tar.gz
+[2024-04-17 05:55:55] INFO root fetch - processPackages [pybaseutils]: executing diffoscope
+[2024-04-17 05:55:55] INFO root fetch - processPackages [pybaseutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaseutils-1.0.4.tar.gz tmp/pybaseutils-1.0.5.tar.gz --markdown 20240417/p/pybaseutils/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-17 05:55:55] INFO root fetch - processPackages [pystackql]: Remove: archive file [/home/abi/fetcher/tmp/pystackql-3.5.4.tar.gz]
+[2024-04-17 05:55:55] INFO root fetch - processPackages [pystackql]: Remove: archive file [/home/abi/fetcher/tmp/pystackql-3.5.5.tar.gz]
+[2024-04-17 05:55:55] INFO root fetch - main [MainThread]: End processing [pystackql]: success
+[2024-04-17 05:55:55] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.6.tar.gz]
+[2024-04-17 05:55:55] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.9.tar.gz]
+[2024-04-17 05:55:55] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-17 05:55:56] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-1.0.4.tar.gz]
+[2024-04-17 05:55:56] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-1.0.5.tar.gz]
+[2024-04-17 05:55:56] INFO root fetch - main [MainThread]: End processing [pybaseutils]: success
+[2024-04-17 05:55:56] INFO root fetch - main [MainThread]: Store serial: [22799577]
