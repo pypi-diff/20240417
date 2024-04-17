@@ -11111,3 +11111,36 @@
 [2024-04-17 07:29:55] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.7.0a1713330713.tar.gz]
 [2024-04-17 07:29:55] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-04-17 07:29:55] INFO root fetch - main [MainThread]: Store serial: [22800133]
+[2024-04-17 07:31:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800133]
+[2024-04-17 07:32:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 07:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-marina
+[2024-04-17 07:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: authpolicy
+[2024-04-17 07:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: donetools
+[2024-04-17 07:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unstract-sdk
+[2024-04-17 07:32:03] INFO root fetch - processPackages [donetools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 07:32:03] INFO root fetch - processPackages [django-marina]: New version: [24.1] Old Version: [23.7]
+[2024-04-17 07:32:03] WARNING root fetch - processPackages [authpolicy]: Skipping, unable to determine old version
+[2024-04-17 07:32:03] INFO root fetch - main [MainThread]: End processing [authpolicy] error
+[2024-04-17 07:32:03] INFO root fetch - processPackages [unstract-sdk]: New version: [0.9.0] Old Version: [0.20.1]
+[2024-04-17 07:32:03] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/e7/16ef7ef33b09a9634459bb56e910fc56d348769263fd89f5074d35a6aa31/donetools-0.0.8.tar.gz
+[2024-04-17 07:32:04] INFO root fetch - processPackages [django-marina]: Downloading https://files.pythonhosted.org/packages/e6/25/63841961885260195c78f034a411063f812e2b6bd892aac67a2726bd9b35/django-marina-23.7.tar.gz
+[2024-04-17 07:32:04] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/37/de/23d65eee7c76592f6ef4deb62796a81318a7fdd4bf0e473e0d80f518f5f9/unstract_sdk-0.20.1.tar.gz
+[2024-04-17 07:32:04] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/bc/28/cc26a1e320fe8c7340f7a8a47ad56f46fe697a88680abb956588b9650e76/donetools-0.0.9.tar.gz
+[2024-04-17 07:32:04] INFO root fetch - processPackages [django-marina]: Downloading https://files.pythonhosted.org/packages/88/47/6536473757b0064ebee9347da5f7ff005f57320052968217f15d0f25a5fb/django_marina-24.1.tar.gz
+[2024-04-17 07:32:04] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-17 07:32:04] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.8.tar.gz tmp/donetools-0.0.9.tar.gz --markdown 20240417/d/donetools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 07:32:04] INFO root fetch - processPackages [django-marina]: executing diffoscope
+[2024-04-17 07:32:04] INFO root fetch - processPackages [django-marina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-marina-23.7.tar.gz tmp/django_marina-24.1.tar.gz --markdown 20240417/d/django-marina/23.7-24.1/README.md --exclude *.pyd
+[2024-04-17 07:32:04] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/22/1f/50c387a8927cd896566732d9181d7f9f7e3401ecd3b8958f546dd4dc605f/unstract_sdk-0.9.0.tar.gz
+[2024-04-17 07:32:04] INFO root fetch - processPackages [unstract-sdk]: executing diffoscope
+[2024-04-17 07:32:04] INFO root fetch - processPackages [unstract-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_sdk-0.20.1.tar.gz tmp/unstract_sdk-0.9.0.tar.gz --markdown 20240417/u/unstract-sdk/0.20.1-0.9.0/README.md --exclude *.pyd
+[2024-04-17 07:32:04] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.8.tar.gz]
+[2024-04-17 07:32:04] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
+[2024-04-17 07:32:04] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-17 07:32:04] INFO root fetch - processPackages [django-marina]: Remove: archive file [/home/abi/fetcher/tmp/django-marina-23.7.tar.gz]
+[2024-04-17 07:32:04] INFO root fetch - processPackages [django-marina]: Remove: archive file [/home/abi/fetcher/tmp/django_marina-24.1.tar.gz]
+[2024-04-17 07:32:04] INFO root fetch - main [MainThread]: End processing [django-marina]: success
+[2024-04-17 07:32:05] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.20.1.tar.gz]
+[2024-04-17 07:32:05] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.9.0.tar.gz]
+[2024-04-17 07:32:05] INFO root fetch - main [MainThread]: End processing [unstract-sdk]: success
+[2024-04-17 07:32:05] INFO root fetch - main [MainThread]: Store serial: [22800144]
