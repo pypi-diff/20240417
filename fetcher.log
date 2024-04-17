@@ -15070,3 +15070,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:05:10] INFO root fetch - processPackages [pypesto]: Remove: archive file [/home/abi/fetcher/tmp/pypesto-0.5.0.tar.gz]
 [2024-04-17 10:05:10] INFO root fetch - main [MainThread]: End processing [pypesto]: success
 [2024-04-17 10:05:10] INFO root fetch - main [MainThread]: Store serial: [22801906]
+[2024-04-17 10:07:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801906]
+[2024-04-17 10:07:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 10:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlmodel-react-admin
+[2024-04-17 10:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-snowflake
+[2024-04-17 10:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ewatercycle-lorenz
+[2024-04-17 10:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: newswacafi
+[2024-04-17 10:07:19] INFO root fetch - processPackages [newswacafi]: New version: [0.5] Old Version: [0.4]
+[2024-04-17 10:07:19] WARNING root fetch - processPackages [sqlmodel-react-admin]: Skipping, unable to determine old version
+[2024-04-17 10:07:19] INFO root fetch - main [MainThread]: End processing [sqlmodel-react-admin] error
+[2024-04-17 10:07:19] INFO root fetch - processPackages [newswacafi]: Downloading https://files.pythonhosted.org/packages/46/c9/e9a234060ea5f9718f437f3768bc4dbecef66c9405e0fc8c88ee7873eab3/newswacafi-0.4.tar.gz
+[2024-04-17 10:07:19] INFO root fetch - processPackages [ewatercycle-lorenz]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 10:07:19] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-04-17 10:07:19] INFO root fetch - processPackages [newswacafi]: Downloading https://files.pythonhosted.org/packages/91/3c/2e33eb484c4f43b93f54f470e65e84a218ac9aca5a6c903f1925bac66cc9/newswacafi-0.5.tar.gz
+[2024-04-17 10:07:19] INFO root fetch - processPackages [ewatercycle-lorenz]: Downloading https://files.pythonhosted.org/packages/ca/f4/8e85979a7cb9f9dbb2ae39ccfce0d648c9cbe5ea9ea0327743da41aee2bc/ewatercycle_lorenz-0.1.0.tar.gz
+[2024-04-17 10:07:19] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-04-17 10:07:19] INFO root fetch - processPackages [newswacafi]: executing diffoscope
+[2024-04-17 10:07:19] INFO root fetch - processPackages [newswacafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newswacafi-0.4.tar.gz tmp/newswacafi-0.5.tar.gz --markdown 20240417/n/newswacafi/0.4-0.5/README.md --exclude *.pyd
+[2024-04-17 10:07:19] INFO root fetch - processPackages [ewatercycle-lorenz]: Downloading https://files.pythonhosted.org/packages/7d/3e/3703ab9c6d7a12dc0af99a97a573ab53a99f2058a0208fd9819f45bd4878/ewatercycle_lorenz-0.1.1.tar.gz
+[2024-04-17 10:07:19] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-04-17 10:07:19] INFO root fetch - processPackages [ewatercycle-lorenz]: executing diffoscope
+[2024-04-17 10:07:19] INFO root fetch - processPackages [ewatercycle-lorenz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewatercycle_lorenz-0.1.0.tar.gz tmp/ewatercycle_lorenz-0.1.1.tar.gz --markdown 20240417/e/ewatercycle-lorenz/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 10:07:20] INFO root fetch - processPackages [newswacafi]: Remove: archive file [/home/abi/fetcher/tmp/newswacafi-0.4.tar.gz]
+[2024-04-17 10:07:20] INFO root fetch - processPackages [newswacafi]: Remove: archive file [/home/abi/fetcher/tmp/newswacafi-0.5.tar.gz]
+[2024-04-17 10:07:20] INFO root fetch - main [MainThread]: End processing [newswacafi]: success
+[2024-04-17 10:07:20] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-04-17 10:07:20] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240417/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-04-17 10:07:20] INFO root fetch - processPackages [ewatercycle-lorenz]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle_lorenz-0.1.0.tar.gz]
+[2024-04-17 10:07:20] INFO root fetch - processPackages [ewatercycle-lorenz]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle_lorenz-0.1.1.tar.gz]
+[2024-04-17 10:07:20] INFO root fetch - main [MainThread]: End processing [ewatercycle-lorenz]: success
+[2024-04-17 10:07:20] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-04-17 10:07:20] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-04-17 10:07:20] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-04-17 10:07:20] INFO root fetch - main [MainThread]: Store serial: [22801923]
