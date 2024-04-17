@@ -19549,3 +19549,120 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:34:28] INFO root fetch - processPackages [kiwi]: Remove: archive file [/home/abi/fetcher/tmp/kiwi-9.8.0.tar.gz]
 [2024-04-17 12:34:28] INFO root fetch - main [MainThread]: End processing [kiwi]: success
 [2024-04-17 12:34:28] INFO root fetch - main [MainThread]: Store serial: [22803902]
+[2024-04-17 12:36:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803902]
+[2024-04-17 12:36:38] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-17 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mriqc
+[2024-04-17 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: argclass
+[2024-04-17 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: munet
+[2024-04-17 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-stock-package-shipping-ups
+[2024-04-17 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adata
+[2024-04-17 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-stock-package-shipping-ups
+[2024-04-17 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: http-xen
+[2024-04-17 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trytond-stock-package-shipping-ups
+[2024-04-17 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: duy-train-package
+[2024-04-17 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trytond-sale-payment
+[2024-04-17 12:36:38] WARNING root fetch - processPackages [http-xen]: Skipping, unable to determine old version
+[2024-04-17 12:36:38] INFO root fetch - processPackages [http-xen]: Start processing: trytond-sale-payment
+[2024-04-17 12:36:38] INFO root fetch - main [MainThread]: End processing [http-xen] error
+[2024-04-17 12:36:38] INFO root fetch - processPackages [mriqc]: New version: [24.0.0rc8] Old Version: [24.0.0rc7]
+[2024-04-17 12:36:38] INFO root fetch - processPackages [argclass]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-17 12:36:38] WARNING root fetch - processPackages [duy-train-package]: Skipping, unable to determine old version
+[2024-04-17 12:36:38] INFO root fetch - processPackages [duy-train-package]: Start processing: trytond-sale-payment
+[2024-04-17 12:36:38] INFO root fetch - main [MainThread]: End processing [duy-train-package] error
+[2024-04-17 12:36:38] INFO root fetch - processPackages [munet]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-17 12:36:38] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-17 12:36:38] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-17 12:36:38] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-17 12:36:38] INFO root fetch - processPackages [trytond-sale-payment]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-04-17 12:36:38] INFO root fetch - processPackages [trytond-sale-payment]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-04-17 12:36:38] INFO root fetch - processPackages [mriqc]: Downloading https://files.pythonhosted.org/packages/ac/40/458d832e75cbbc44bc8e7bcaf5c5758967a64d779999ae53a962c341cf5d/mriqc-24.0.0rc7.tar.gz
+[2024-04-17 12:36:38] INFO root fetch - processPackages [adata]: New version: [2.0.0b0] Old Version: [1.2.4]
+[2024-04-17 12:36:38] INFO root fetch - processPackages [trytond-sale-payment]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-04-17 12:36:38] WARNING root fetch - processPackages [mriqc]: Skipping package: exceeds size limit 45828666>=10485760
+[2024-04-17 12:36:38] INFO root fetch - processPackages [mriqc]: Start processing: lexifuzz-ner
+[2024-04-17 12:36:38] INFO root fetch - main [MainThread]: End processing [mriqc] error
+[2024-04-17 12:36:38] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: Downloading https://files.pythonhosted.org/packages/11/89/d8afe8f5ff9f7a2379c7effd832ebf283574c354fd8f39c571aaeb68fbb2/trytond_stock_package_shipping_ups-7.0.1.tar.gz
+[2024-04-17 12:36:38] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/ab/ab/50abc3289545adb952eebcb12b5d75cd68c3deddb2ead102309f6b23b3fd/munet-0.9.8.tar.gz
+[2024-04-17 12:36:38] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: Downloading https://files.pythonhosted.org/packages/11/89/d8afe8f5ff9f7a2379c7effd832ebf283574c354fd8f39c571aaeb68fbb2/trytond_stock_package_shipping_ups-7.0.1.tar.gz
+[2024-04-17 12:36:38] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: Downloading https://files.pythonhosted.org/packages/11/89/d8afe8f5ff9f7a2379c7effd832ebf283574c354fd8f39c571aaeb68fbb2/trytond_stock_package_shipping_ups-7.0.1.tar.gz
+[2024-04-17 12:36:38] INFO root fetch - processPackages [argclass]: Downloading https://files.pythonhosted.org/packages/68/ec/4eb7d750abae89de3878a6d80dfc069225ef49d68cbe98cf6115a96c195e/argclass-1.0.2.tar.gz
+[2024-04-17 12:36:38] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/cb/9d/9ba7e4835378f11a75b2f862d55c50d5ed9e29f1f3654aac013d11a1bfc2/adata-1.2.4.tar.gz
+[2024-04-17 12:36:38] INFO root fetch - processPackages [lexifuzz-ner]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-17 12:36:38] INFO root fetch - processPackages [trytond-sale-payment]: Downloading https://files.pythonhosted.org/packages/60/3c/831e63f30ddeab107d9503f3b6d1fe31f56a28b03eb41e26bd082f07d9d7/trytond_sale_payment-7.0.0.tar.gz
+[2024-04-17 12:36:38] INFO root fetch - processPackages [trytond-sale-payment]: Downloading https://files.pythonhosted.org/packages/60/3c/831e63f30ddeab107d9503f3b6d1fe31f56a28b03eb41e26bd082f07d9d7/trytond_sale_payment-7.0.0.tar.gz
+[2024-04-17 12:36:38] INFO root fetch - processPackages [trytond-sale-payment]: Downloading https://files.pythonhosted.org/packages/60/3c/831e63f30ddeab107d9503f3b6d1fe31f56a28b03eb41e26bd082f07d9d7/trytond_sale_payment-7.0.0.tar.gz
+[2024-04-17 12:36:39] INFO root fetch - processPackages [lexifuzz-ner]: Downloading https://files.pythonhosted.org/packages/af/21/a445d42f3a13d862d15c994c06a00b638f057e882bdb33a8a9993eb586a3/lexifuzz_ner-0.0.4.tar.gz
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: Downloading https://files.pythonhosted.org/packages/63/25/a700627d3d2ec242d166505404341719a4cb31d7215ff2fccedc5a638a63/trytond_stock_package_shipping_ups-7.0.2.tar.gz
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: Downloading https://files.pythonhosted.org/packages/63/25/a700627d3d2ec242d166505404341719a4cb31d7215ff2fccedc5a638a63/trytond_stock_package_shipping_ups-7.0.2.tar.gz
+[2024-04-17 12:36:39] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/e9/a7/16aef984464ad235996a4918e7377bd5e40cd015eb9b5cae381b237aeba4/munet-0.9.9.tar.gz
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: Downloading https://files.pythonhosted.org/packages/63/25/a700627d3d2ec242d166505404341719a4cb31d7215ff2fccedc5a638a63/trytond_stock_package_shipping_ups-7.0.2.tar.gz
+[2024-04-17 12:36:39] INFO root fetch - processPackages [argclass]: Downloading https://files.pythonhosted.org/packages/6a/91/168fd776db1b7c9758aa353c9258162df4a88173cab804db4825928e213e/argclass-1.0.3.tar.gz
+[2024-04-17 12:36:39] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/24/a9/074aaa797009d2b0cc2bfbc12f634babd1293c090f9c0700d84c61991b47/adata-2.0.0b0.tar.gz
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: executing diffoscope
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_package_shipping_ups-7.0.1.tar.gz tmp/trytond_stock_package_shipping_ups-7.0.2.tar.gz --markdown 20240417/t/trytond-stock-package-shipping-ups/7.0.1-7.0.2/README.md --exclude *.pyd
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: executing diffoscope
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_package_shipping_ups-7.0.1.tar.gz tmp/trytond_stock_package_shipping_ups-7.0.2.tar.gz --markdown 20240417/t/trytond-stock-package-shipping-ups/7.0.1-7.0.2/README.md --exclude *.pyd
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-sale-payment]: Downloading https://files.pythonhosted.org/packages/5a/0f/2213d76c907e7d0e00029942594793e025974a3502fea0afdc66b8346d70/trytond_sale_payment-7.0.1.tar.gz
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: executing diffoscope
+[2024-04-17 12:36:39] INFO root fetch - processPackages [munet]: executing diffoscope
+[2024-04-17 12:36:39] INFO root fetch - processPackages [munet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/munet-0.9.8.tar.gz tmp/munet-0.9.9.tar.gz --markdown 20240417/m/munet/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_package_shipping_ups-7.0.1.tar.gz tmp/trytond_stock_package_shipping_ups-7.0.2.tar.gz --markdown 20240417/t/trytond-stock-package-shipping-ups/7.0.1-7.0.2/README.md --exclude *.pyd
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-sale-payment]: Downloading https://files.pythonhosted.org/packages/5a/0f/2213d76c907e7d0e00029942594793e025974a3502fea0afdc66b8346d70/trytond_sale_payment-7.0.1.tar.gz
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-sale-payment]: Downloading https://files.pythonhosted.org/packages/5a/0f/2213d76c907e7d0e00029942594793e025974a3502fea0afdc66b8346d70/trytond_sale_payment-7.0.1.tar.gz
+[2024-04-17 12:36:39] INFO root fetch - processPackages [argclass]: executing diffoscope
+[2024-04-17 12:36:39] INFO root fetch - processPackages [argclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argclass-1.0.2.tar.gz tmp/argclass-1.0.3.tar.gz --markdown 20240417/a/argclass/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-17 12:36:39] INFO root fetch - processPackages [adata]: executing diffoscope
+[2024-04-17 12:36:39] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-1.2.4.tar.gz tmp/adata-2.0.0b0.tar.gz --markdown 20240417/a/adata/1.2.4-2.0.0b0/README.md --exclude *.pyd
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-sale-payment]: executing diffoscope
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-sale-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_payment-7.0.0.tar.gz tmp/trytond_sale_payment-7.0.1.tar.gz --markdown 20240417/t/trytond-sale-payment/7.0.0-7.0.1/README.md --exclude *.pyd
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-sale-payment]: executing diffoscope
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-sale-payment]: executing diffoscope
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-sale-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_payment-7.0.0.tar.gz tmp/trytond_sale_payment-7.0.1.tar.gz --markdown 20240417/t/trytond-sale-payment/7.0.0-7.0.1/README.md --exclude *.pyd
+[2024-04-17 12:36:39] INFO root fetch - processPackages [trytond-sale-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_payment-7.0.0.tar.gz tmp/trytond_sale_payment-7.0.1.tar.gz --markdown 20240417/t/trytond-sale-payment/7.0.0-7.0.1/README.md --exclude *.pyd
+[2024-04-17 12:36:39] INFO root fetch - processPackages [lexifuzz-ner]: Downloading https://files.pythonhosted.org/packages/90/58/1e049a64604052bde287f57220ba464780591f590d49068cbeee42da393b/lexifuzz_ner-0.0.5.tar.gz
+[2024-04-17 12:36:39] INFO root fetch - processPackages [lexifuzz-ner]: executing diffoscope
+[2024-04-17 12:36:39] INFO root fetch - processPackages [lexifuzz-ner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexifuzz_ner-0.0.4.tar.gz tmp/lexifuzz_ner-0.0.5.tar.gz --markdown 20240417/l/lexifuzz-ner/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-17 12:36:40] INFO root fetch - processPackages [argclass]: Remove: archive file [/home/abi/fetcher/tmp/argclass-1.0.2.tar.gz]
+[2024-04-17 12:36:40] INFO root fetch - processPackages [argclass]: Remove: archive file [/home/abi/fetcher/tmp/argclass-1.0.3.tar.gz]
+[2024-04-17 12:36:40] INFO root fetch - processPackages [argclass]: Start processing: scPANTHEON
+[2024-04-17 12:36:40] INFO root fetch - main [MainThread]: End processing [argclass]: success
+[2024-04-17 12:36:40] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_package_shipping_ups-7.0.1.tar.gz]
+[2024-04-17 12:36:40] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_package_shipping_ups-7.0.2.tar.gz]
+[2024-04-17 12:36:40] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: Start processing: zbx-wxwork-assistant
+[2024-04-17 12:36:40] INFO root fetch - main [MainThread]: End processing [trytond-stock-package-shipping-ups]: success
+[2024-04-17 12:36:40] WARNING root fetch - processPackages [zbx-wxwork-assistant]: Skipping, unable to determine old version
+[2024-04-17 12:36:40] INFO root fetch - processPackages [zbx-wxwork-assistant]: Start processing: beacon2-import
+[2024-04-17 12:36:40] INFO root fetch - main [MainThread]: End processing [zbx-wxwork-assistant] error
+[2024-04-17 12:36:40] INFO root fetch - main [MainThread]: End processing [trytond-stock-package-shipping-ups]: success
+[2024-04-17 12:36:40] INFO root fetch - main [MainThread]: End processing [trytond-stock-package-shipping-ups]: success
+[2024-04-17 12:36:40] INFO root fetch - processPackages [scPANTHEON]: New version: [0.5.5.2] Old Version: [0.5.5.1]
+[2024-04-17 12:36:40] INFO root fetch - processPackages [trytond-sale-payment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_payment-7.0.0.tar.gz]
+[2024-04-17 12:36:40] INFO root fetch - processPackages [trytond-sale-payment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_payment-7.0.1.tar.gz]
+[2024-04-17 12:36:40] INFO root fetch - main [MainThread]: End processing [trytond-sale-payment]: success
+[2024-04-17 12:36:40] INFO root fetch - main [MainThread]: End processing [trytond-sale-payment]: success
+[2024-04-17 12:36:40] INFO root fetch - processPackages [beacon2-import]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-17 12:36:40] INFO root fetch - processPackages [lexifuzz-ner]: Remove: archive file [/home/abi/fetcher/tmp/lexifuzz_ner-0.0.4.tar.gz]
+[2024-04-17 12:36:40] INFO root fetch - processPackages [lexifuzz-ner]: Remove: archive file [/home/abi/fetcher/tmp/lexifuzz_ner-0.0.5.tar.gz]
+[2024-04-17 12:36:40] INFO root fetch - main [MainThread]: End processing [lexifuzz-ner]: success
+[2024-04-17 12:36:40] INFO root fetch - main [MainThread]: End processing [trytond-sale-payment]: success
+[2024-04-17 12:36:40] INFO root fetch - processPackages [scPANTHEON]: Downloading https://files.pythonhosted.org/packages/8a/3c/b47a45e9dfaf468705864742869b357b0f7f218070db8108d65602f2619e/scPANTHEON-0.5.5.1.tar.gz
+[2024-04-17 12:36:41] INFO root fetch - processPackages [munet]: Remove: archive file [/home/abi/fetcher/tmp/munet-0.9.8.tar.gz]
+[2024-04-17 12:36:41] INFO root fetch - processPackages [munet]: Remove: archive file [/home/abi/fetcher/tmp/munet-0.9.9.tar.gz]
+[2024-04-17 12:36:41] INFO root fetch - main [MainThread]: End processing [munet]: success
+[2024-04-17 12:36:41] INFO root fetch - processPackages [beacon2-import]: Downloading https://files.pythonhosted.org/packages/6a/e8/4d7ec371b482f56173fc5e3c411314e38877342493f92017a0165f6666cb/beacon2-import-1.0.3.tar.gz
+[2024-04-17 12:36:41] INFO root fetch - processPackages [beacon2-import]: Downloading https://files.pythonhosted.org/packages/bd/50/49480073f2d79bebce7e629c076655992bedd70af77c5a14fa0739f4cc18/beacon2_import-1.0.4.tar.gz
+[2024-04-17 12:36:41] INFO root fetch - processPackages [beacon2-import]: executing diffoscope
+[2024-04-17 12:36:41] INFO root fetch - processPackages [beacon2-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beacon2-import-1.0.3.tar.gz tmp/beacon2_import-1.0.4.tar.gz --markdown 20240417/b/beacon2-import/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-17 12:36:41] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-1.2.4.tar.gz]
+[2024-04-17 12:36:41] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-2.0.0b0.tar.gz]
+[2024-04-17 12:36:41] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2024-04-17 12:36:42] INFO root fetch - processPackages [beacon2-import]: Remove: archive file [/home/abi/fetcher/tmp/beacon2-import-1.0.3.tar.gz]
+[2024-04-17 12:36:42] INFO root fetch - processPackages [beacon2-import]: Remove: archive file [/home/abi/fetcher/tmp/beacon2_import-1.0.4.tar.gz]
+[2024-04-17 12:36:42] INFO root fetch - main [MainThread]: End processing [beacon2-import]: success
+[2024-04-17 12:36:42] INFO root fetch - processPackages [scPANTHEON]: Downloading https://files.pythonhosted.org/packages/f8/ba/5657175c95ef6a4790abae539d93149d4d2229a57e34415956e101c1cd21/scPANTHEON-0.5.5.2.tar.gz
+[2024-04-17 12:36:45] INFO root fetch - processPackages [scPANTHEON]: executing diffoscope
+[2024-04-17 12:36:45] INFO root fetch - processPackages [scPANTHEON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scPANTHEON-0.5.5.1.tar.gz tmp/scPANTHEON-0.5.5.2.tar.gz --markdown 20240417/s/scPANTHEON/0.5.5.1-0.5.5.2/README.md --exclude *.pyd
+[2024-04-17 12:36:47] INFO root fetch - processPackages [scPANTHEON]: Remove: archive file [/home/abi/fetcher/tmp/scPANTHEON-0.5.5.1.tar.gz]
+[2024-04-17 12:36:47] INFO root fetch - processPackages [scPANTHEON]: Remove: archive file [/home/abi/fetcher/tmp/scPANTHEON-0.5.5.2.tar.gz]
+[2024-04-17 12:36:47] INFO root fetch - main [MainThread]: End processing [scPANTHEON]: success
+[2024-04-17 12:36:47] INFO root fetch - main [MainThread]: Store serial: [22803956]
