@@ -10788,3 +10788,20 @@
 [2024-04-17 07:16:43] INFO root fetch - processPackages [odoo-addon-partner-second-lastname]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_second_lastname-17.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-04-17 07:16:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-second-lastname]: success
 [2024-04-17 07:16:43] INFO root fetch - main [MainThread]: Store serial: [22800027]
+[2024-04-17 07:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800027]
+[2024-04-17 07:18:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 07:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whatap-python
+[2024-04-17 07:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fast-tradier-client
+[2024-04-17 07:18:52] INFO root fetch - processPackages [whatap-python]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-17 07:18:52] INFO root fetch - processPackages [fast-tradier-client]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-17 07:18:52] INFO root fetch - processPackages [whatap-python]: Downloading https://files.pythonhosted.org/packages/70/f8/f685811195c62be3e7e9388cc21f999d3525bb77855c31e438803c74c422/whatap-python-1.6.2.tar.gz
+[2024-04-17 07:18:52] INFO root fetch - processPackages [fast-tradier-client]: Downloading https://files.pythonhosted.org/packages/98/a3/cd30993fd646e949c6c248cbf23abf36f4c2375e43272d502582b908afd4/fast_tradier_client-0.3.3-py3-none-any.whl
+[2024-04-17 07:18:52] WARNING root fetch - processPackages [whatap-python]: Skipping package: exceeds size limit 49029611>=10485760
+[2024-04-17 07:18:52] INFO root fetch - main [MainThread]: End processing [whatap-python] error
+[2024-04-17 07:18:52] INFO root fetch - processPackages [fast-tradier-client]: Downloading https://files.pythonhosted.org/packages/81/db/044d0c027a09bed5a424c6d117ce6a544ff9b3d53902a162a79462c44f83/fast_tradier_client-0.3.4.tar.gz
+[2024-04-17 07:18:52] INFO root fetch - processPackages [fast-tradier-client]: executing diffoscope
+[2024-04-17 07:18:52] INFO root fetch - processPackages [fast-tradier-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_tradier_client-0.3.3-py3-none-any.whl.zip tmp/fast_tradier_client-0.3.4.tar.gz --markdown 20240417/f/fast-tradier-client/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-17 07:18:53] INFO root fetch - processPackages [fast-tradier-client]: Remove: archive file [/home/abi/fetcher/tmp/fast_tradier_client-0.3.3-py3-none-any.whl.zip]
+[2024-04-17 07:18:53] INFO root fetch - processPackages [fast-tradier-client]: Remove: archive file [/home/abi/fetcher/tmp/fast_tradier_client-0.3.4.tar.gz]
+[2024-04-17 07:18:53] INFO root fetch - main [MainThread]: End processing [fast-tradier-client]: success
+[2024-04-17 07:18:53] INFO root fetch - main [MainThread]: Store serial: [22800031]
