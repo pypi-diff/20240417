@@ -13558,3 +13558,29 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:04:55] INFO root fetch - processPackages [odoo-addon-web-responsive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_responsive-17.0.1.0.0.6-py3-none-any.whl.zip]
 [2024-04-17 09:04:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-responsive]: success
 [2024-04-17 09:04:55] INFO root fetch - main [MainThread]: Store serial: [22801076]
+[2024-04-17 09:06:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801076]
+[2024-04-17 09:07:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 09:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkmk-dev-tools
+[2024-04-17 09:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reviutils
+[2024-04-17 09:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2024-04-17 09:07:04] INFO root fetch - processPackages [reviutils]: New version: [1.4.0a7] Old Version: [1.4.0]
+[2024-04-17 09:07:04] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240416.9.8.426175] Old Version: [20240416.9.33.376136]
+[2024-04-17 09:07:04] INFO root fetch - processPackages [checkmk-dev-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 09:07:04] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/14/d6/1632504a15e39ac6ecebca3ff9f92d519e5df76199f3be12d8c8e765be17/reviutils-1.4.0.tar.gz
+[2024-04-17 09:07:04] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/02/f5/59d81d7b4a72114ce1ff0d496fdff280286614d26b365247ff8f25a9fd2b/certora-cli-alpha-master-20240416.9.33.376136.tar.gz
+[2024-04-17 09:07:04] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/a5/44/09fe3238664c76b0dde99d19f15393d76e212e1d1eec081b474e6eaae194/checkmk_dev_tools-0.1.8.tar.gz
+[2024-04-17 09:07:04] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14521391>=10485760
+[2024-04-17 09:07:04] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-17 09:07:04] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/b0/f2/04d590367de165de72652aa38318469e0ac8d3787bd623ae904fa5b57665/reviutils-1.4.0a7.tar.gz
+[2024-04-17 09:07:04] INFO root fetch - processPackages [reviutils]: executing diffoscope
+[2024-04-17 09:07:04] INFO root fetch - processPackages [reviutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviutils-1.4.0.tar.gz tmp/reviutils-1.4.0a7.tar.gz --markdown 20240417/r/reviutils/1.4.0-1.4.0a7/README.md --exclude *.pyd
+[2024-04-17 09:07:04] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/c1/1e/654ed63ab53350017ff4219e2e1d8cc32780c62f86a397bbc8134674c84e/checkmk_dev_tools-0.1.9.tar.gz
+[2024-04-17 09:07:04] INFO root fetch - processPackages [checkmk-dev-tools]: executing diffoscope
+[2024-04-17 09:07:04] INFO root fetch - processPackages [checkmk-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkmk_dev_tools-0.1.8.tar.gz tmp/checkmk_dev_tools-0.1.9.tar.gz --markdown 20240417/c/checkmk-dev-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 09:07:05] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0.tar.gz]
+[2024-04-17 09:07:05] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0a7.tar.gz]
+[2024-04-17 09:07:05] INFO root fetch - main [MainThread]: End processing [reviutils]: success
+[2024-04-17 09:07:05] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.8.tar.gz]
+[2024-04-17 09:07:05] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.9.tar.gz]
+[2024-04-17 09:07:05] INFO root fetch - main [MainThread]: End processing [checkmk-dev-tools]: success
+[2024-04-17 09:07:05] INFO root fetch - main [MainThread]: Store serial: [22801091]
