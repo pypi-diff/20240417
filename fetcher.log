@@ -9224,3 +9224,44 @@
 [2024-04-17 05:29:47] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-04-17 05:29:47] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-04-17 05:29:47] INFO root fetch - main [MainThread]: Store serial: [22799444]
+[2024-04-17 05:31:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799444]
+[2024-04-17 05:31:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 05:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tebbytools
+[2024-04-17 05:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raga-llm-eval
+[2024-04-17 05:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smalldiffusion
+[2024-04-17 05:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qualesim-tequila
+[2024-04-17 05:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ApiLogicServer
+[2024-04-17 05:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sodata
+[2024-04-17 05:31:56] WARNING root fetch - processPackages [tebbytools]: Skipping, unable to determine old version
+[2024-04-17 05:31:56] INFO root fetch - main [MainThread]: End processing [tebbytools] error
+[2024-04-17 05:31:56] INFO root fetch - processPackages [sodata]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-17 05:31:56] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.0b9] Old Version: [2.1.0b8]
+[2024-04-17 05:31:56] INFO root fetch - processPackages [smalldiffusion]: New version: [0.3] Old Version: [0.2]
+[2024-04-17 05:31:56] WARNING root fetch - processPackages [qualesim-tequila]: Skipping, unable to determine old version
+[2024-04-17 05:31:56] INFO root fetch - main [MainThread]: End processing [qualesim-tequila] error
+[2024-04-17 05:31:56] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/3a/46/d489c68835ad2a384c21fc9e10b90ee23c695af50c29daf07981723f4609/sodata-0.0.6.tar.gz
+[2024-04-17 05:31:56] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/97/4d/2b4ed95a3741b305ca16e9450b6fe38a6e576eb00d86526833e15216f29a/raga_llm_eval-2.1.0b8.tar.gz
+[2024-04-17 05:31:56] INFO root fetch - processPackages [ApiLogicServer]: New version: [9.6.0] Old Version: [9.5.8]
+[2024-04-17 05:31:56] INFO root fetch - processPackages [smalldiffusion]: Downloading https://files.pythonhosted.org/packages/ba/23/353231d818c78e90ffe6284882cbdc890b0e8ee3c2c51c8f5b2c3a1f69bf/smalldiffusion-0.2.tar.gz
+[2024-04-17 05:31:56] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/92/c0/068e9d613eb663c69828e03e1fda0aba24f0776e0b9a6ecd7dc62e8b2430/sodata-0.0.9.tar.gz
+[2024-04-17 05:31:56] INFO root fetch - processPackages [ApiLogicServer]: Downloading https://files.pythonhosted.org/packages/30/ab/b352cb7220c50fdd164e96db4f5755c4edf3b910a15853f19eb32d998666/ApiLogicServer-9.5.8.tar.gz
+[2024-04-17 05:31:56] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/f3/66/ebaca2cb771c21e70689b9f6b9e46d65ac93a1d837edf9277c498cf607e0/raga_llm_eval-2.1.0b9.tar.gz
+[2024-04-17 05:31:56] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-17 05:31:56] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.6.tar.gz tmp/sodata-0.0.9.tar.gz --markdown 20240417/s/sodata/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-17 05:31:56] WARNING root fetch - processPackages [ApiLogicServer]: Skipping package: exceeds size limit 10730132>=10485760
+[2024-04-17 05:31:56] INFO root fetch - main [MainThread]: End processing [ApiLogicServer] error
+[2024-04-17 05:31:56] INFO root fetch - processPackages [smalldiffusion]: Downloading https://files.pythonhosted.org/packages/2f/0b/7afd9a1f203e547f5b10d8d01dcc5f96a965e3434c87e9c7b94fe89ba856/smalldiffusion-0.3.tar.gz
+[2024-04-17 05:31:56] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-04-17 05:31:56] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_eval-2.1.0b8.tar.gz tmp/raga_llm_eval-2.1.0b9.tar.gz --markdown 20240417/r/raga-llm-eval/2.1.0b8-2.1.0b9/README.md --exclude *.pyd
+[2024-04-17 05:31:56] INFO root fetch - processPackages [smalldiffusion]: executing diffoscope
+[2024-04-17 05:31:56] INFO root fetch - processPackages [smalldiffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smalldiffusion-0.2.tar.gz tmp/smalldiffusion-0.3.tar.gz --markdown 20240417/s/smalldiffusion/0.2-0.3/README.md --exclude *.pyd
+[2024-04-17 05:31:57] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.6.tar.gz]
+[2024-04-17 05:31:57] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.9.tar.gz]
+[2024-04-17 05:31:57] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-17 05:31:57] INFO root fetch - processPackages [smalldiffusion]: Remove: archive file [/home/abi/fetcher/tmp/smalldiffusion-0.2.tar.gz]
+[2024-04-17 05:31:57] INFO root fetch - processPackages [smalldiffusion]: Remove: archive file [/home/abi/fetcher/tmp/smalldiffusion-0.3.tar.gz]
+[2024-04-17 05:31:57] INFO root fetch - main [MainThread]: End processing [smalldiffusion]: success
+[2024-04-17 05:31:57] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b8.tar.gz]
+[2024-04-17 05:31:57] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b9.tar.gz]
+[2024-04-17 05:31:57] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-04-17 05:31:57] INFO root fetch - main [MainThread]: Store serial: [22799463]
