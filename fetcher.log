@@ -14168,3 +14168,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:29:12] INFO root fetch - processPackages [xplordb]: Remove: archive file [/home/abi/fetcher/tmp/xplordb-0.13.3.tar.gz]
 [2024-04-17 09:29:12] INFO root fetch - main [MainThread]: End processing [xplordb]: success
 [2024-04-17 09:29:12] INFO root fetch - main [MainThread]: Store serial: [22801317]
+[2024-04-17 09:31:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801317]
+[2024-04-17 09:31:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 09:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-tools
+[2024-04-17 09:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: splat-trainer
+[2024-04-17 09:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syntrac-sdk
+[2024-04-17 09:31:20] WARNING root fetch - processPackages [splat-trainer]: Skipping, unable to determine old version
+[2024-04-17 09:31:20] INFO root fetch - main [MainThread]: End processing [splat-trainer] error
+[2024-04-17 09:31:20] INFO root fetch - processPackages [syntrac-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 09:31:20] INFO root fetch - processPackages [langchain-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-17 09:31:21] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/d3/63/e50ed3254eaea462d6e500ae4c142edc76ab2f25f2c403d595f091c6f8b1/syntrac_sdk-0.0.2.tar.gz
+[2024-04-17 09:31:21] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/6b/00/163bdee32da39c08882b88ee6983de813905743f23581dbfb76b13a9fe9a/langchain-tools-0.1.5.tar.gz
+[2024-04-17 09:31:21] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/cf/25/9d47cc2c84391ec2938a90838e49ede3e160adac5120144d8052428e063a/langchain-tools-0.1.6.tar.gz
+[2024-04-17 09:31:21] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/63/b3/94daff96fe4484ea642f8b295224f6a5a0b7783e7d2f23eb5484e9be686e/syntrac_sdk-0.0.3.tar.gz
+[2024-04-17 09:31:21] INFO root fetch - processPackages [langchain-tools]: executing diffoscope
+[2024-04-17 09:31:21] INFO root fetch - processPackages [langchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-tools-0.1.5.tar.gz tmp/langchain-tools-0.1.6.tar.gz --markdown 20240417/l/langchain-tools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-17 09:31:21] INFO root fetch - processPackages [syntrac-sdk]: executing diffoscope
+[2024-04-17 09:31:21] INFO root fetch - processPackages [syntrac-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_sdk-0.0.2.tar.gz tmp/syntrac_sdk-0.0.3.tar.gz --markdown 20240417/s/syntrac-sdk/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 09:31:22] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.5.tar.gz]
+[2024-04-17 09:31:22] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.6.tar.gz]
+[2024-04-17 09:31:22] INFO root fetch - main [MainThread]: End processing [langchain-tools]: success
+[2024-04-17 09:31:22] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.2.tar.gz]
+[2024-04-17 09:31:22] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.3.tar.gz]
+[2024-04-17 09:31:22] INFO root fetch - main [MainThread]: End processing [syntrac-sdk]: success
+[2024-04-17 09:31:22] INFO root fetch - main [MainThread]: Store serial: [22801327]
