@@ -17485,3 +17485,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:20:21] INFO root fetch - processPackages [gamspy-highs]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_highs-46.4.1-py3-none-win_amd64.whl.zip]
 [2024-04-17 11:20:21] INFO root fetch - main [MainThread]: End processing [gamspy-highs]: success
 [2024-04-17 11:20:21] INFO root fetch - main [MainThread]: Store serial: [22803142]
+[2024-04-17 11:22:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803142]
+[2024-04-17 11:22:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 11:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: image-go-nord
+[2024-04-17 11:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zbx-wxwork-assistant
+[2024-04-17 11:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluecellulab
+[2024-04-17 11:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: x64dbg
+[2024-04-17 11:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mediawiki-dump
+[2024-04-17 11:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynball-rl
+[2024-04-17 11:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hahomematic
+[2024-04-17 11:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easyscience
+[2024-04-17 11:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: firebolt-sdk
+[2024-04-17 11:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dataclasses-ujson
+[2024-04-17 11:22:31] INFO root fetch - processPackages [dataclasses-ujson]: New version: [0.0.8] Old Version: [0.0.5]
+[2024-04-17 11:22:31] INFO root fetch - processPackages [hahomematic]: New version: [2024.4.9b1] Old Version: [2024.4.9b0]
+[2024-04-17 11:22:31] WARNING root fetch - processPackages [easyscience]: Skipping, unable to determine old version
+[2024-04-17 11:22:31] INFO root fetch - main [MainThread]: End processing [easyscience] error
+[2024-04-17 11:22:31] WARNING root fetch - processPackages [zbx-wxwork-assistant]: Skipping, unable to determine old version
+[2024-04-17 11:22:31] INFO root fetch - main [MainThread]: End processing [zbx-wxwork-assistant] error
+[2024-04-17 11:22:31] INFO root fetch - processPackages [image-go-nord]: New version: [1.0.1] Old Version: [0.1.7]
+[2024-04-17 11:22:31] INFO root fetch - processPackages [pynball-rl]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-17 11:22:31] INFO root fetch - processPackages [mediawiki-dump]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-17 11:22:31] INFO root fetch - processPackages [dataclasses-ujson]: Downloading https://files.pythonhosted.org/packages/fe/e4/6d8902a1fcd5416dc2e87a641c95eb05f13c5b84ec8f393870f29529960a/dataclasses_ujson-0.0.5.tar.gz
+[2024-04-17 11:22:31] WARNING root fetch - processPackages [x64dbg]: Skipping, unable to determine old version
+[2024-04-17 11:22:31] INFO root fetch - main [MainThread]: End processing [x64dbg] error
+[2024-04-17 11:22:31] INFO root fetch - processPackages [bluecellulab]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-04-17 11:22:31] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/29/c4/4cade6654d509e25b526ea3c7d9fbf9043c78df012f970d4482a457b403a/hahomematic-2024.4.9b0.tar.gz
+[2024-04-17 11:22:31] INFO root fetch - processPackages [firebolt-sdk]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-17 11:22:31] INFO root fetch - processPackages [dataclasses-ujson]: Downloading https://files.pythonhosted.org/packages/33/8a/7e9b50a93d307c3878bf534af5f802e9615fe24faa00ef035d758fce82a1/dataclasses_ujson-0.0.8.tar.gz
+[2024-04-17 11:22:31] INFO root fetch - processPackages [pynball-rl]: Downloading https://files.pythonhosted.org/packages/e9/7c/bec1acc438d274513dc616c0a982c8b6419cb20329450a06552621e28f27/pynball_rl-1.0.1.tar.gz
+[2024-04-17 11:22:31] INFO root fetch - processPackages [mediawiki-dump]: Downloading https://files.pythonhosted.org/packages/96/01/a9a342f1a9b4ec5646174ccc371129ae3ecc88d172d756614798037b1298/mediawiki_dump-1.2.0.tar.gz
+[2024-04-17 11:22:31] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/84/0a/e8a298193fb535e94777d12147713f1e990367517f78e08aac250e5948c5/bluecellulab-2.5.8.tar.gz
+[2024-04-17 11:22:31] INFO root fetch - processPackages [image-go-nord]: Downloading https://files.pythonhosted.org/packages/88/65/f9ba47b20fdf1dd26bd87d9997075f02e08238b877f81be047bbde490c44/image-go-nord-0.1.7.tar.gz
+[2024-04-17 11:22:31] INFO root fetch - processPackages [firebolt-sdk]: Downloading https://files.pythonhosted.org/packages/89/54/d3cc2be9292a716b3d91c07eff3814f31456d3b822cab2d7305f7d51f352/firebolt_sdk-1.4.0.tar.gz
+[2024-04-17 11:22:31] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 16241118>=10485760
+[2024-04-17 11:22:31] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2024-04-17 11:22:31] INFO root fetch - processPackages [dataclasses-ujson]: executing diffoscope
+[2024-04-17 11:22:31] INFO root fetch - processPackages [dataclasses-ujson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses_ujson-0.0.5.tar.gz tmp/dataclasses_ujson-0.0.8.tar.gz --markdown 20240417/d/dataclasses-ujson/0.0.5-0.0.8/README.md --exclude *.pyd
+[2024-04-17 11:22:31] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/81/91/9891c6832e1587efb47c6d50c612a5cc7e0eec02825d6413ac1f4b16abf6/hahomematic-2024.4.9b1.tar.gz
+[2024-04-17 11:22:31] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2024-04-17 11:22:31] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2024.4.9b0.tar.gz tmp/hahomematic-2024.4.9b1.tar.gz --markdown 20240417/h/hahomematic/2024.4.9b0-2024.4.9b1/README.md --exclude *.pyd
+[2024-04-17 11:22:32] INFO root fetch - processPackages [image-go-nord]: Downloading https://files.pythonhosted.org/packages/3c/02/b7fba0c65d278fab40338a9da73982a90ef48e982be07c0ce79552cba1a3/image-go-nord-1.0.1.tar.gz
+[2024-04-17 11:22:32] INFO root fetch - processPackages [firebolt-sdk]: Downloading https://files.pythonhosted.org/packages/b3/81/197c38e0912aaf0d8249b4b4c6980647f8e0b539da713e610d4ee6368ac2/firebolt_sdk-1.4.1.tar.gz
+[2024-04-17 11:22:32] INFO root fetch - processPackages [mediawiki-dump]: Downloading https://files.pythonhosted.org/packages/d1/d2/db405e092ea9997d7c037d10a54ceaa1767a6470d56dc79d80135fa508ad/mediawiki_dump-1.2.1.tar.gz
+[2024-04-17 11:22:32] INFO root fetch - processPackages [pynball-rl]: Downloading https://files.pythonhosted.org/packages/fd/3b/f092b824bc2305da4bc8d14188146a47cfdf785219bc7a336c7baf4c7b3b/pynball_rl-1.0.2.tar.gz
+[2024-04-17 11:22:32] INFO root fetch - processPackages [image-go-nord]: executing diffoscope
+[2024-04-17 11:22:32] INFO root fetch - processPackages [image-go-nord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image-go-nord-0.1.7.tar.gz tmp/image-go-nord-1.0.1.tar.gz --markdown 20240417/i/image-go-nord/0.1.7-1.0.1/README.md --exclude *.pyd
+[2024-04-17 11:22:32] INFO root fetch - processPackages [pynball-rl]: executing diffoscope
+[2024-04-17 11:22:32] INFO root fetch - processPackages [mediawiki-dump]: executing diffoscope
+[2024-04-17 11:22:32] INFO root fetch - processPackages [mediawiki-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediawiki_dump-1.2.0.tar.gz tmp/mediawiki_dump-1.2.1.tar.gz --markdown 20240417/m/mediawiki-dump/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-17 11:22:32] INFO root fetch - processPackages [pynball-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynball_rl-1.0.1.tar.gz tmp/pynball_rl-1.0.2.tar.gz --markdown 20240417/p/pynball-rl/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-17 11:22:32] INFO root fetch - processPackages [firebolt-sdk]: executing diffoscope
+[2024-04-17 11:22:32] INFO root fetch - processPackages [firebolt-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebolt_sdk-1.4.0.tar.gz tmp/firebolt_sdk-1.4.1.tar.gz --markdown 20240417/f/firebolt-sdk/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-17 11:22:32] INFO root fetch - processPackages [dataclasses-ujson]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_ujson-0.0.5.tar.gz]
+[2024-04-17 11:22:32] INFO root fetch - processPackages [dataclasses-ujson]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_ujson-0.0.8.tar.gz]
+[2024-04-17 11:22:32] INFO root fetch - main [MainThread]: End processing [dataclasses-ujson]: success
+[2024-04-17 11:22:33] INFO root fetch - processPackages [image-go-nord]: Remove: archive file [/home/abi/fetcher/tmp/image-go-nord-0.1.7.tar.gz]
+[2024-04-17 11:22:33] INFO root fetch - processPackages [image-go-nord]: Remove: archive file [/home/abi/fetcher/tmp/image-go-nord-1.0.1.tar.gz]
+[2024-04-17 11:22:33] INFO root fetch - main [MainThread]: End processing [image-go-nord]: success
+[2024-04-17 11:22:33] INFO root fetch - processPackages [mediawiki-dump]: Remove: archive file [/home/abi/fetcher/tmp/mediawiki_dump-1.2.0.tar.gz]
+[2024-04-17 11:22:33] INFO root fetch - processPackages [mediawiki-dump]: Remove: archive file [/home/abi/fetcher/tmp/mediawiki_dump-1.2.1.tar.gz]
+[2024-04-17 11:22:33] INFO root fetch - main [MainThread]: End processing [mediawiki-dump]: success
+[2024-04-17 11:22:33] INFO root fetch - processPackages [pynball-rl]: Remove: archive file [/home/abi/fetcher/tmp/pynball_rl-1.0.1.tar.gz]
+[2024-04-17 11:22:33] INFO root fetch - processPackages [pynball-rl]: Remove: archive file [/home/abi/fetcher/tmp/pynball_rl-1.0.2.tar.gz]
+[2024-04-17 11:22:33] INFO root fetch - main [MainThread]: End processing [pynball-rl]: success
+[2024-04-17 11:22:33] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.9b0.tar.gz]
+[2024-04-17 11:22:33] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.9b1.tar.gz]
+[2024-04-17 11:22:33] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2024-04-17 11:22:33] INFO root fetch - processPackages [firebolt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/firebolt_sdk-1.4.0.tar.gz]
+[2024-04-17 11:22:33] INFO root fetch - processPackages [firebolt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/firebolt_sdk-1.4.1.tar.gz]
+[2024-04-17 11:22:33] INFO root fetch - main [MainThread]: End processing [firebolt-sdk]: success
+[2024-04-17 11:22:33] INFO root fetch - main [MainThread]: Store serial: [22803175]
