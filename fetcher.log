@@ -11542,3 +11542,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 07:45:13] INFO root fetch - processPackages [C-MTEB]: Remove: archive file [/home/abi/fetcher/tmp/C_MTEB-1.1.1.tar.gz]
 [2024-04-17 07:45:13] INFO root fetch - main [MainThread]: End processing [C-MTEB]: success
 [2024-04-17 07:45:13] INFO root fetch - main [MainThread]: Store serial: [22800252]
+[2024-04-17 07:47:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800252]
+[2024-04-17 07:47:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 07:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-cloudflare
+[2024-04-17 07:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antsibull
+[2024-04-17 07:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-consul
+[2024-04-17 07:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ixmp4
+[2024-04-17 07:47:22] INFO root fetch - processPackages [antsibull]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-17 07:47:22] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-04-17 07:47:22] INFO root fetch - processPackages [ixmp4]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-17 07:47:22] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2024-04-17 07:47:22] INFO root fetch - processPackages [ixmp4]: Downloading https://files.pythonhosted.org/packages/e3/aa/8ba0eca9943a8b1c17b627d6d0ce07d860d4ffa2b7c717723741440a6741/ixmp4-0.8.1.tar.gz
+[2024-04-17 07:47:22] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-04-17 07:47:22] INFO root fetch - processPackages [antsibull]: Downloading https://files.pythonhosted.org/packages/80/58/9f0dfa43324776ac13d4d29df6d3a3774158b5d87e7ad4f64bf2bb64844d/antsibull-0.8.0.tar.gz
+[2024-04-17 07:47:22] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2024-04-17 07:47:22] INFO root fetch - processPackages [ixmp4]: Downloading https://files.pythonhosted.org/packages/98/78/66f112bda436b9aef550d5ba1a29e218de2ff278e2727ef0cfddba001fae/ixmp4-0.8.2.tar.gz
+[2024-04-17 07:47:22] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-04-17 07:47:23] INFO root fetch - processPackages [ixmp4]: executing diffoscope
+[2024-04-17 07:47:23] INFO root fetch - processPackages [ixmp4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixmp4-0.8.1.tar.gz tmp/ixmp4-0.8.2.tar.gz --markdown 20240417/i/ixmp4/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-04-17 07:47:23] INFO root fetch - processPackages [antsibull]: Downloading https://files.pythonhosted.org/packages/40/21/de47d6527979090205d05aaf002a69b9447cf479be6f424141c1ea076168/antsibull-0.9.0.tar.gz
+[2024-04-17 07:47:23] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2024-04-17 07:47:23] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-04-17 07:47:23] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240417/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-04-17 07:47:23] INFO root fetch - processPackages [antsibull]: executing diffoscope
+[2024-04-17 07:47:23] INFO root fetch - processPackages [antsibull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsibull-0.8.0.tar.gz tmp/antsibull-0.9.0.tar.gz --markdown 20240417/a/antsibull/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-17 07:47:23] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2024-04-17 07:47:23] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20240417/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/README.md --exclude *.pyd
+[2024-04-17 07:47:24] INFO root fetch - processPackages [ixmp4]: Remove: archive file [/home/abi/fetcher/tmp/ixmp4-0.8.1.tar.gz]
+[2024-04-17 07:47:24] INFO root fetch - processPackages [ixmp4]: Remove: archive file [/home/abi/fetcher/tmp/ixmp4-0.8.2.tar.gz]
+[2024-04-17 07:47:24] INFO root fetch - main [MainThread]: End processing [ixmp4]: success
+[2024-04-17 07:47:24] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2024-04-17 07:47:24] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2024-04-17 07:47:24] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2024-04-17 07:47:24] INFO root fetch - processPackages [antsibull]: Remove: archive file [/home/abi/fetcher/tmp/antsibull-0.8.0.tar.gz]
+[2024-04-17 07:47:24] INFO root fetch - processPackages [antsibull]: Remove: archive file [/home/abi/fetcher/tmp/antsibull-0.9.0.tar.gz]
+[2024-04-17 07:47:24] INFO root fetch - main [MainThread]: End processing [antsibull]: success
+[2024-04-17 07:47:24] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-04-17 07:47:24] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-04-17 07:47:24] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-04-17 07:47:24] INFO root fetch - main [MainThread]: Store serial: [22800264]
