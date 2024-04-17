@@ -10468,3 +10468,45 @@
 [2024-04-17 06:52:54] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
 [2024-04-17 06:52:54] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
 [2024-04-17 06:52:54] INFO root fetch - main [MainThread]: Store serial: [22799896]
+[2024-04-17 06:54:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799896]
+[2024-04-17 06:55:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 06:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gerritParse
+[2024-04-17 06:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cinp
+[2024-04-17 06:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akasaka
+[2024-04-17 06:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graph-validation-tests
+[2024-04-17 06:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pystackql
+[2024-04-17 06:55:02] INFO root fetch - processPackages [graph-validation-tests]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 06:55:02] INFO root fetch - processPackages [akasaka]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-17 06:55:02] INFO root fetch - processPackages [pystackql]: New version: [3.5.6] Old Version: [3.5.5]
+[2024-04-17 06:55:02] WARNING root fetch - processPackages [gerritParse]: Skipping, unable to determine old version
+[2024-04-17 06:55:02] INFO root fetch - main [MainThread]: End processing [gerritParse] error
+[2024-04-17 06:55:02] INFO root fetch - processPackages [cinp]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-17 06:55:02] INFO root fetch - processPackages [akasaka]: Downloading https://files.pythonhosted.org/packages/50/76/5a4d50665f366b02c1d936b44ddccb7b4fe1f068d5bc6fbc468b7812b241/akasaka-0.1.4.tar.gz
+[2024-04-17 06:55:02] INFO root fetch - processPackages [pystackql]: Downloading https://files.pythonhosted.org/packages/77/80/fbaec081ddc7a2343180fb70bb585c31335c39bd653096e69f3046aac11e/pystackql-3.5.5.tar.gz
+[2024-04-17 06:55:02] INFO root fetch - processPackages [graph-validation-tests]: Downloading https://files.pythonhosted.org/packages/d4/d9/d972a8bd974a147ad6d2c1858860cd2980f41571a0d1b4009182f0df3098/graph_validation_tests-0.0.2.tar.gz
+[2024-04-17 06:55:02] INFO root fetch - processPackages [cinp]: Downloading https://files.pythonhosted.org/packages/0e/7e/6d3e4bb2cf6bb6ca5156d6689b2d9f23e532ef5fd1b2cbeb5b858d686b88/cinp-1.3.2.tar.gz
+[2024-04-17 06:55:02] INFO root fetch - processPackages [pystackql]: Downloading https://files.pythonhosted.org/packages/a8/e9/95f39fe511f4089386c89a48c44632cd106ecc1e80669cf7541065a9edb8/pystackql-3.5.6.tar.gz
+[2024-04-17 06:55:02] INFO root fetch - processPackages [akasaka]: Downloading https://files.pythonhosted.org/packages/f3/1e/7ce87d345e015027d8ea493c0ca534e12d3b3be5dc5317e49ec92d43c1e0/akasaka-0.1.5.tar.gz
+[2024-04-17 06:55:03] INFO root fetch - processPackages [graph-validation-tests]: Downloading https://files.pythonhosted.org/packages/16/e8/dc8d1cf0770548551a1e31728c788b9fc88cf8306ee02254bec222226251/graph_validation_tests-0.0.3.tar.gz
+[2024-04-17 06:55:03] INFO root fetch - processPackages [akasaka]: executing diffoscope
+[2024-04-17 06:55:03] INFO root fetch - processPackages [akasaka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akasaka-0.1.4.tar.gz tmp/akasaka-0.1.5.tar.gz --markdown 20240417/a/akasaka/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-17 06:55:03] INFO root fetch - processPackages [pystackql]: executing diffoscope
+[2024-04-17 06:55:03] INFO root fetch - processPackages [pystackql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystackql-3.5.5.tar.gz tmp/pystackql-3.5.6.tar.gz --markdown 20240417/p/pystackql/3.5.5-3.5.6/README.md --exclude *.pyd
+[2024-04-17 06:55:03] INFO root fetch - processPackages [cinp]: Downloading https://files.pythonhosted.org/packages/56/aa/a43e6e2d1954cb04f0adc56bb140d7e89e59dc782697a107186076e95b92/cinp-1.3.3.tar.gz
+[2024-04-17 06:55:03] INFO root fetch - processPackages [graph-validation-tests]: executing diffoscope
+[2024-04-17 06:55:03] INFO root fetch - processPackages [graph-validation-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_validation_tests-0.0.2.tar.gz tmp/graph_validation_tests-0.0.3.tar.gz --markdown 20240417/g/graph-validation-tests/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 06:55:03] INFO root fetch - processPackages [cinp]: executing diffoscope
+[2024-04-17 06:55:03] INFO root fetch - processPackages [cinp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cinp-1.3.2.tar.gz tmp/cinp-1.3.3.tar.gz --markdown 20240417/c/cinp/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-04-17 06:55:03] INFO root fetch - processPackages [akasaka]: Remove: archive file [/home/abi/fetcher/tmp/akasaka-0.1.4.tar.gz]
+[2024-04-17 06:55:03] INFO root fetch - processPackages [akasaka]: Remove: archive file [/home/abi/fetcher/tmp/akasaka-0.1.5.tar.gz]
+[2024-04-17 06:55:03] INFO root fetch - main [MainThread]: End processing [akasaka]: success
+[2024-04-17 06:55:03] INFO root fetch - processPackages [pystackql]: Remove: archive file [/home/abi/fetcher/tmp/pystackql-3.5.5.tar.gz]
+[2024-04-17 06:55:03] INFO root fetch - processPackages [pystackql]: Remove: archive file [/home/abi/fetcher/tmp/pystackql-3.5.6.tar.gz]
+[2024-04-17 06:55:03] INFO root fetch - main [MainThread]: End processing [pystackql]: success
+[2024-04-17 06:55:03] INFO root fetch - processPackages [graph-validation-tests]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_tests-0.0.2.tar.gz]
+[2024-04-17 06:55:03] INFO root fetch - processPackages [graph-validation-tests]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_tests-0.0.3.tar.gz]
+[2024-04-17 06:55:03] INFO root fetch - main [MainThread]: End processing [graph-validation-tests]: success
+[2024-04-17 06:55:03] INFO root fetch - processPackages [cinp]: Remove: archive file [/home/abi/fetcher/tmp/cinp-1.3.2.tar.gz]
+[2024-04-17 06:55:03] INFO root fetch - processPackages [cinp]: Remove: archive file [/home/abi/fetcher/tmp/cinp-1.3.3.tar.gz]
+[2024-04-17 06:55:03] INFO root fetch - main [MainThread]: End processing [cinp]: success
+[2024-04-17 06:55:03] INFO root fetch - main [MainThread]: Store serial: [22799911]
