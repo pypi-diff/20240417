@@ -14747,3 +14747,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:51:30] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.9.8-py3-none-any.whl.zip]
 [2024-04-17 09:51:30] INFO root fetch - main [MainThread]: End processing [tablite]: success
 [2024-04-17 09:51:30] INFO root fetch - main [MainThread]: Store serial: [22801636]
+[2024-04-17 09:53:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801636]
+[2024-04-17 09:53:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 09:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HawaData
+[2024-04-17 09:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FixedSizeFileIOTools
+[2024-04-17 09:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccdexplorer-schema-parser
+[2024-04-17 09:53:38] INFO root fetch - processPackages [ccdexplorer-schema-parser]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-17 09:53:38] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-17 09:53:38] WARNING root fetch - processPackages [FixedSizeFileIOTools]: Skipping, unable to determine old version
+[2024-04-17 09:53:38] INFO root fetch - main [MainThread]: End processing [FixedSizeFileIOTools] error
+[2024-04-17 09:53:38] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Downloading https://files.pythonhosted.org/packages/c4/79/832c62d4da19bc635eb84d747be89c13731c78f1962608fdfc0258ba1ab0/ccdexplorer_schema_parser-0.1.4.tar.gz
+[2024-04-17 09:53:38] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-04-17 09:53:39] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-04-17 09:53:39] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Downloading https://files.pythonhosted.org/packages/9b/8d/90093758cc603eafb17172c8d5f07613801425edb93268b9ceea030d3bf5/ccdexplorer_schema_parser-0.1.5.tar.gz
+[2024-04-17 09:53:39] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-04-17 09:53:39] INFO root fetch - processPackages [ccdexplorer-schema-parser]: executing diffoscope
+[2024-04-17 09:53:39] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240417/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-17 09:53:39] INFO root fetch - processPackages [ccdexplorer-schema-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdexplorer_schema_parser-0.1.4.tar.gz tmp/ccdexplorer_schema_parser-0.1.5.tar.gz --markdown 20240417/c/ccdexplorer-schema-parser/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-17 09:53:39] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-04-17 09:53:39] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-04-17 09:53:39] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-04-17 09:53:39] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_schema_parser-0.1.4.tar.gz]
+[2024-04-17 09:53:39] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_schema_parser-0.1.5.tar.gz]
+[2024-04-17 09:53:39] INFO root fetch - main [MainThread]: End processing [ccdexplorer-schema-parser]: success
+[2024-04-17 09:53:39] INFO root fetch - main [MainThread]: Store serial: [22801673]
