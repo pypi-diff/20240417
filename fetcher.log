@@ -13103,3 +13103,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:49:06] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
 [2024-04-17 08:49:06] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
 [2024-04-17 08:49:06] INFO root fetch - main [MainThread]: Store serial: [22800861]
+[2024-04-17 08:51:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800861]
+[2024-04-17 08:51:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 08:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-newrelic
+[2024-04-17 08:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PuddleSF
+[2024-04-17 08:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-sitemap-generate
+[2024-04-17 08:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-available-to-promise-release-exclude-location
+[2024-04-17 08:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-stock-available-to-promise-release-block
+[2024-04-17 08:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chippy_ai
+[2024-04-17 08:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adi-notebook
+[2024-04-17 08:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2024-04-17 08:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysysq
+[2024-04-17 08:51:16] WARNING root fetch - processPackages [PuddleSF]: Skipping, unable to determine old version
+[2024-04-17 08:51:16] INFO root fetch - main [MainThread]: End processing [PuddleSF] error
+[2024-04-17 08:51:16] INFO root fetch - processPackages [pysysq]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-17 08:51:16] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-04-17 08:51:16] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-17 08:51:16] INFO root fetch - processPackages [django-sitemap-generate]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-17 08:51:16] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-exclude-location]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-17 08:51:16] INFO root fetch - processPackages [odoo-addon-sale-stock-available-to-promise-release-block]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-04-17 08:51:16] INFO root fetch - processPackages [adi-notebook]: New version: [1.0.0a1] Old Version: [0.2.2]
+[2024-04-17 08:51:16] INFO root fetch - processPackages [chippy_ai]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-17 08:51:16] INFO root fetch - processPackages [pysysq]: Downloading https://files.pythonhosted.org/packages/0d/ac/6fb69660808bd62a3cc1371281165cd89c5f08b32c24af272687cae67eec/pysysq-0.1.2.tar.gz
+[2024-04-17 08:51:16] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-17 08:51:16] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-04-17 08:51:17] INFO root fetch - processPackages [django-sitemap-generate]: Downloading https://files.pythonhosted.org/packages/d6/5a/50990709b6efc601a5a3d9baacf6fb6628529bf8531f035327c4735bd500/django-sitemap-generate-0.6.0.tar.gz
+[2024-04-17 08:51:17] INFO root fetch - processPackages [adi-notebook]: Downloading https://files.pythonhosted.org/packages/48/90/1892a9891d5e27aff8bd5ede2eb3d48b05ae8bead14a4a58bdda4eb16944/adi_notebook-0.2.2-py3-none-manylinux1_x86_64.whl
+[2024-04-17 08:51:17] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-exclude-location]: Downloading https://files.pythonhosted.org/packages/21/3a/19f26eaeb3bd9c4f4ea182b7042dee23350b31ceb26b5d2cc23704e651a8/odoo_addon_stock_available_to_promise_release_exclude_location-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-17 08:51:17] INFO root fetch - processPackages [odoo-addon-sale-stock-available-to-promise-release-block]: Downloading https://files.pythonhosted.org/packages/27/ec/9e1b553db7485cd11c72556446915574fe698b6a834ab9c15424a3264774/odoo_addon_sale_stock_available_to_promise_release_block-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-17 08:51:17] INFO root fetch - processPackages [chippy_ai]: Downloading https://files.pythonhosted.org/packages/c0/01/95224dc3d8a8a0fb7fa6f8dc9a9dc3ef267696e05b44bd1652c7ffa46dbc/chippy_ai-0.2.3.tar.gz
+[2024-04-17 08:51:17] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-17 08:51:17] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-04-17 08:51:17] INFO root fetch - processPackages [pysysq]: Downloading https://files.pythonhosted.org/packages/17/f6/689dff48963735a5a5e139f4fc0f97d8dc2adbe7ad6391ea7b462d67f02c/pysysq-0.1.3.tar.gz
+[2024-04-17 08:51:17] INFO root fetch - processPackages [pysysq]: executing diffoscope
+[2024-04-17 08:51:17] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-04-17 08:51:17] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240417/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-04-17 08:51:17] INFO root fetch - processPackages [pysysq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysysq-0.1.2.tar.gz tmp/pysysq-0.1.3.tar.gz --markdown 20240417/p/pysysq/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-17 08:51:17] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-17 08:51:17] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240417/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-17 08:51:17] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-exclude-location]: Downloading https://files.pythonhosted.org/packages/a2/18/6f5ac2ffb3c205b760907ef4767783470952bb9e483356e79df075cbf20a/odoo_addon_stock_available_to_promise_release_exclude_location-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-17 08:51:17] INFO root fetch - processPackages [adi-notebook]: Downloading https://files.pythonhosted.org/packages/d3/4e/c2c00e6a8c656b9a8cd3a5164c276502812a8a2d8a93c466cc68bc632611/adi_notebook-1.0.0a1-py3-none-manylinux1_x86_64.whl
+[2024-04-17 08:51:17] INFO root fetch - processPackages [django-sitemap-generate]: Downloading https://files.pythonhosted.org/packages/05/1b/932933cc5a1efc11753d4aff3e50558de8f738f792f51b303a1a2402010c/django_sitemap_generate-0.7.0.tar.gz
+[2024-04-17 08:51:17] INFO root fetch - processPackages [odoo-addon-sale-stock-available-to-promise-release-block]: Downloading https://files.pythonhosted.org/packages/d8/66/97195c3d4c020e1d7800b89fa8ab518bbd692fd8eadc3f9cc3d256a71740/odoo_addon_sale_stock_available_to_promise_release_block-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-17 08:51:17] INFO root fetch - processPackages [chippy_ai]: Downloading https://files.pythonhosted.org/packages/e9/60/1cccef75cd2caa836780cb28b567996b1dbe334c8fc0943a1e7e0c6b1e14/chippy_ai-0.2.4.tar.gz
+[2024-04-17 08:51:17] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-exclude-location]: executing diffoscope
+[2024-04-17 08:51:17] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-exclude-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_to_promise_release_exclude_location-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_available_to_promise_release_exclude_location-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240417/o/odoo-addon-stock-available-to-promise-release-exclude-location/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-17 08:51:17] INFO root fetch - processPackages [adi-notebook]: executing diffoscope
+[2024-04-17 08:51:17] INFO root fetch - processPackages [adi-notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adi_notebook-0.2.2-py3-none-manylinux1_x86_64.whl.zip tmp/adi_notebook-1.0.0a1-py3-none-manylinux1_x86_64.whl.zip --markdown 20240417/a/adi-notebook/0.2.2-1.0.0a1/README.md --exclude *.pyd
+[2024-04-17 08:51:17] INFO root fetch - processPackages [django-sitemap-generate]: executing diffoscope
+[2024-04-17 08:51:17] INFO root fetch - processPackages [django-sitemap-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sitemap-generate-0.6.0.tar.gz tmp/django_sitemap_generate-0.7.0.tar.gz --markdown 20240417/d/django-sitemap-generate/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-17 08:51:17] INFO root fetch - processPackages [odoo-addon-sale-stock-available-to-promise-release-block]: executing diffoscope
+[2024-04-17 08:51:17] INFO root fetch - processPackages [odoo-addon-sale-stock-available-to-promise-release-block]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_stock_available_to_promise_release_block-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_stock_available_to_promise_release_block-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240417/o/odoo-addon-sale-stock-available-to-promise-release-block/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-17 08:51:17] INFO root fetch - processPackages [chippy_ai]: executing diffoscope
+[2024-04-17 08:51:17] INFO root fetch - processPackages [chippy_ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chippy_ai-0.2.3.tar.gz tmp/chippy_ai-0.2.4.tar.gz --markdown 20240417/c/chippy_ai/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-17 08:51:18] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-exclude-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release_exclude_location-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-17 08:51:18] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-exclude-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release_exclude_location-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-17 08:51:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-to-promise-release-exclude-location]: success
+[2024-04-17 08:51:18] INFO root fetch - processPackages [odoo-addon-sale-stock-available-to-promise-release-block]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_available_to_promise_release_block-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-17 08:51:18] INFO root fetch - processPackages [odoo-addon-sale-stock-available-to-promise-release-block]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_available_to_promise_release_block-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-17 08:51:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-available-to-promise-release-block]: success
+[2024-04-17 08:51:18] INFO root fetch - processPackages [django-sitemap-generate]: Remove: archive file [/home/abi/fetcher/tmp/django-sitemap-generate-0.6.0.tar.gz]
+[2024-04-17 08:51:18] INFO root fetch - processPackages [django-sitemap-generate]: Remove: archive file [/home/abi/fetcher/tmp/django_sitemap_generate-0.7.0.tar.gz]
+[2024-04-17 08:51:18] INFO root fetch - main [MainThread]: End processing [django-sitemap-generate]: success
+[2024-04-17 08:51:18] INFO root fetch - processPackages [pysysq]: Remove: archive file [/home/abi/fetcher/tmp/pysysq-0.1.2.tar.gz]
+[2024-04-17 08:51:18] INFO root fetch - processPackages [pysysq]: Remove: archive file [/home/abi/fetcher/tmp/pysysq-0.1.3.tar.gz]
+[2024-04-17 08:51:18] INFO root fetch - main [MainThread]: End processing [pysysq]: success
+[2024-04-17 08:51:18] INFO root fetch - processPackages [adi-notebook]: Remove: archive file [/home/abi/fetcher/tmp/adi_notebook-0.2.2-py3-none-manylinux1_x86_64.whl.zip]
+[2024-04-17 08:51:18] INFO root fetch - processPackages [adi-notebook]: Remove: archive file [/home/abi/fetcher/tmp/adi_notebook-1.0.0a1-py3-none-manylinux1_x86_64.whl.zip]
+[2024-04-17 08:51:18] INFO root fetch - main [MainThread]: End processing [adi-notebook]: success
+[2024-04-17 08:51:18] INFO root fetch - processPackages [chippy_ai]: Remove: archive file [/home/abi/fetcher/tmp/chippy_ai-0.2.3.tar.gz]
+[2024-04-17 08:51:18] INFO root fetch - processPackages [chippy_ai]: Remove: archive file [/home/abi/fetcher/tmp/chippy_ai-0.2.4.tar.gz]
+[2024-04-17 08:51:18] INFO root fetch - main [MainThread]: End processing [chippy_ai]: success
+[2024-04-17 08:51:18] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-04-17 08:51:18] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-04-17 08:51:18] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-04-17 08:51:19] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-17 08:51:19] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-17 08:51:19] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-17 08:51:19] INFO root fetch - main [MainThread]: Store serial: [22800889]
