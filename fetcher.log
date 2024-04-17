@@ -8044,3 +8044,69 @@
 [2024-04-17 04:27:28] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.3.1.tar.gz]
 [2024-04-17 04:27:28] INFO root fetch - main [MainThread]: End processing [fancy-dataclass]: success
 [2024-04-17 04:27:28] INFO root fetch - main [MainThread]: Store serial: [22798908]
+[2024-04-17 04:29:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798908]
+[2024-04-17 04:29:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mattmazda1122
+[2024-04-17 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentrun
+[2024-04-17 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testsolar-testtool-sdk-py2
+[2024-04-17 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reviutils
+[2024-04-17 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omop2poll
+[2024-04-17 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lvc
+[2024-04-17 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: advanced-macro-calculator
+[2024-04-17 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mcitemlib
+[2024-04-17 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: juery
+[2024-04-17 04:29:36] INFO root fetch - processPackages [reviutils]: New version: [1.4.0a7] Old Version: [1.3.4]
+[2024-04-17 04:29:36] WARNING root fetch - processPackages [testsolar-testtool-sdk-py2]: Skipping, unable to determine old version
+[2024-04-17 04:29:36] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk-py2] error
+[2024-04-17 04:29:36] INFO root fetch - processPackages [agentrun]: New version: [0.2.0] Old Version: [0.1a0]
+[2024-04-17 04:29:37] INFO root fetch - processPackages [mcitemlib]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-17 04:29:37] INFO root fetch - processPackages [juery]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-17 04:29:37] INFO root fetch - processPackages [advanced-macro-calculator]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-17 04:29:37] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/c7/ef/914cd18a5a107ec08753bd6c3d9b49ba9d375a3a4645a5dc8057d0e9707b/reviutils-1.3.4.tar.gz
+[2024-04-17 04:29:37] WARNING root fetch - processPackages [mattmazda1122]: Skipping, unable to determine old version
+[2024-04-17 04:29:37] INFO root fetch - main [MainThread]: End processing [mattmazda1122] error
+[2024-04-17 04:29:37] WARNING root fetch - processPackages [omop2poll]: Skipping, unable to determine old version
+[2024-04-17 04:29:37] INFO root fetch - main [MainThread]: End processing [omop2poll] error
+[2024-04-17 04:29:37] INFO root fetch - processPackages [lvc]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-17 04:29:37] INFO root fetch - processPackages [juery]: Downloading https://files.pythonhosted.org/packages/8e/11/1fa450875ff3aa74bb6d101027c062e800be5bb9c769cdfb10b0419cfff5/juery-0.1.0.tar.gz
+[2024-04-17 04:29:37] INFO root fetch - processPackages [mcitemlib]: Downloading https://files.pythonhosted.org/packages/08/bb/6885f79c5b7aa46e014062c928d60d69920051b02cc6b862cdc9cdc3e314/mcitemlib-0.2.1.tar.gz
+[2024-04-17 04:29:37] INFO root fetch - processPackages [agentrun]: Downloading https://files.pythonhosted.org/packages/41/63/862f24fdc29696f5210e9b4190a12cc8e0516d0e51554e001070f9cce525/agentrun-0.1a0.tar.gz
+[2024-04-17 04:29:37] INFO root fetch - processPackages [advanced-macro-calculator]: Downloading https://files.pythonhosted.org/packages/00/dd/9b9f408459aff43fb44c7c60fce2f0d53be1561b7537ed2ffe8564da1db6/advanced_macro_calculator-1.0.0.tar.gz
+[2024-04-17 04:29:37] INFO root fetch - processPackages [lvc]: Downloading https://files.pythonhosted.org/packages/ac/29/b2e2e72fcffc2f41813ced44c43d6c6a2e842b869435171fe5ef56e42313/lvc-1.0.2.tar.gz
+[2024-04-17 04:29:37] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/b0/f2/04d590367de165de72652aa38318469e0ac8d3787bd623ae904fa5b57665/reviutils-1.4.0a7.tar.gz
+[2024-04-17 04:29:37] INFO root fetch - processPackages [juery]: Downloading https://files.pythonhosted.org/packages/bb/59/2bcdfb07b06c75317b6f8345329a3eb7a158c7eb548bf5596e7c986806a2/juery-0.2.0.tar.gz
+[2024-04-17 04:29:37] INFO root fetch - processPackages [agentrun]: Downloading https://files.pythonhosted.org/packages/a3/ee/1b681ccf4bd1365f0277404017d84f544fea6eb16b8cce5e42c6b03b8f4d/agentrun-0.2.0.tar.gz
+[2024-04-17 04:29:37] INFO root fetch - processPackages [mcitemlib]: Downloading https://files.pythonhosted.org/packages/c7/7a/a2fdc280cc9ea63a4953a66120701e0d89c1043beae34297cb67d7b2f41a/mcitemlib-0.2.2.tar.gz
+[2024-04-17 04:29:37] INFO root fetch - processPackages [reviutils]: executing diffoscope
+[2024-04-17 04:29:37] INFO root fetch - processPackages [reviutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviutils-1.3.4.tar.gz tmp/reviutils-1.4.0a7.tar.gz --markdown 20240417/r/reviutils/1.3.4-1.4.0a7/README.md --exclude *.pyd
+[2024-04-17 04:29:37] INFO root fetch - processPackages [juery]: executing diffoscope
+[2024-04-17 04:29:37] INFO root fetch - processPackages [juery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juery-0.1.0.tar.gz tmp/juery-0.2.0.tar.gz --markdown 20240417/j/juery/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-17 04:29:37] INFO root fetch - processPackages [agentrun]: executing diffoscope
+[2024-04-17 04:29:37] INFO root fetch - processPackages [agentrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentrun-0.1a0.tar.gz tmp/agentrun-0.2.0.tar.gz --markdown 20240417/a/agentrun/0.1a0-0.2.0/README.md --exclude *.pyd
+[2024-04-17 04:29:37] INFO root fetch - processPackages [mcitemlib]: executing diffoscope
+[2024-04-17 04:29:37] INFO root fetch - processPackages [mcitemlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcitemlib-0.2.1.tar.gz tmp/mcitemlib-0.2.2.tar.gz --markdown 20240417/m/mcitemlib/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-17 04:29:37] INFO root fetch - processPackages [advanced-macro-calculator]: Downloading https://files.pythonhosted.org/packages/b3/8d/c15f7b987acb7f77f7ff4eab078a143b47e0c43971b72b65105029bb023e/advanced_macro_calculator-1.0.1.tar.gz
+[2024-04-17 04:29:37] INFO root fetch - processPackages [lvc]: Downloading https://files.pythonhosted.org/packages/08/f6/63a21093679849c8c1e600d231db834e0eee10c4a785bd1d2c43148a7215/lvc-1.0.3.tar.gz
+[2024-04-17 04:29:37] INFO root fetch - processPackages [advanced-macro-calculator]: executing diffoscope
+[2024-04-17 04:29:37] INFO root fetch - processPackages [advanced-macro-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_macro_calculator-1.0.0.tar.gz tmp/advanced_macro_calculator-1.0.1.tar.gz --markdown 20240417/a/advanced-macro-calculator/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-17 04:29:37] INFO root fetch - processPackages [lvc]: executing diffoscope
+[2024-04-17 04:29:37] INFO root fetch - processPackages [lvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lvc-1.0.2.tar.gz tmp/lvc-1.0.3.tar.gz --markdown 20240417/l/lvc/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-17 04:29:38] INFO root fetch - processPackages [juery]: Remove: archive file [/home/abi/fetcher/tmp/juery-0.1.0.tar.gz]
+[2024-04-17 04:29:38] INFO root fetch - processPackages [juery]: Remove: archive file [/home/abi/fetcher/tmp/juery-0.2.0.tar.gz]
+[2024-04-17 04:29:38] INFO root fetch - main [MainThread]: End processing [juery]: success
+[2024-04-17 04:29:38] INFO root fetch - processPackages [mcitemlib]: Remove: archive file [/home/abi/fetcher/tmp/mcitemlib-0.2.1.tar.gz]
+[2024-04-17 04:29:38] INFO root fetch - processPackages [mcitemlib]: Remove: archive file [/home/abi/fetcher/tmp/mcitemlib-0.2.2.tar.gz]
+[2024-04-17 04:29:38] INFO root fetch - main [MainThread]: End processing [mcitemlib]: success
+[2024-04-17 04:29:38] INFO root fetch - processPackages [agentrun]: Remove: archive file [/home/abi/fetcher/tmp/agentrun-0.1a0.tar.gz]
+[2024-04-17 04:29:38] INFO root fetch - processPackages [agentrun]: Remove: archive file [/home/abi/fetcher/tmp/agentrun-0.2.0.tar.gz]
+[2024-04-17 04:29:38] INFO root fetch - main [MainThread]: End processing [agentrun]: success
+[2024-04-17 04:29:38] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.3.4.tar.gz]
+[2024-04-17 04:29:38] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0a7.tar.gz]
+[2024-04-17 04:29:38] INFO root fetch - main [MainThread]: End processing [reviutils]: success
+[2024-04-17 04:29:38] INFO root fetch - processPackages [advanced-macro-calculator]: Remove: archive file [/home/abi/fetcher/tmp/advanced_macro_calculator-1.0.0.tar.gz]
+[2024-04-17 04:29:38] INFO root fetch - processPackages [advanced-macro-calculator]: Remove: archive file [/home/abi/fetcher/tmp/advanced_macro_calculator-1.0.1.tar.gz]
+[2024-04-17 04:29:38] INFO root fetch - main [MainThread]: End processing [advanced-macro-calculator]: success
+[2024-04-17 04:29:38] INFO root fetch - processPackages [lvc]: Remove: archive file [/home/abi/fetcher/tmp/lvc-1.0.2.tar.gz]
+[2024-04-17 04:29:38] INFO root fetch - processPackages [lvc]: Remove: archive file [/home/abi/fetcher/tmp/lvc-1.0.3.tar.gz]
+[2024-04-17 04:29:38] INFO root fetch - main [MainThread]: End processing [lvc]: success
+[2024-04-17 04:29:38] INFO root fetch - main [MainThread]: Store serial: [22798937]
