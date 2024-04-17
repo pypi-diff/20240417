@@ -21717,3 +21717,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-17 14:01:21] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.3.tar.gz]
 [2024-04-17 14:01:21] INFO root fetch - main [MainThread]: End processing [cumo]: success
 [2024-04-17 14:01:21] INFO root fetch - main [MainThread]: Store serial: [22804969]
+[2024-04-17 14:03:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804969]
+[2024-04-17 14:03:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chefshatgym
+[2024-04-17 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-clash-tool
+[2024-04-17 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: port-ocean
+[2024-04-17 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-xe-esimd
+[2024-04-17 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: house-price-prediction-6112
+[2024-04-17 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-cloudinit
+[2024-04-17 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llm-structured-output
+[2024-04-17 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sound-scape-explorer
+[2024-04-17 14:03:30] INFO root fetch - processPackages [chefshatgym]: New version: [2.1.0] Old Version: [2.0.9]
+[2024-04-17 14:03:30] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240416] Old Version: [2.5.0b20240415]
+[2024-04-17 14:03:30] INFO root fetch - processPackages [chefshatgym]: Downloading https://files.pythonhosted.org/packages/29/a0/9515051d56fd3ece10f59fd9b0911e2167f294d4fcec266f0176718ceb6a/chefshatgym-2.0.9-py3-none-any.whl
+[2024-04-17 14:03:30] WARNING root fetch - processPackages [easy-clash-tool]: Skipping, unable to determine old version
+[2024-04-17 14:03:30] INFO root fetch - main [MainThread]: End processing [easy-clash-tool] error
+[2024-04-17 14:03:30] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/ec/8a/66dcf5ae91c9d08b5b93692d391ab2257211851f0027337345bd8c32302d/bigdl_core_xe_esimd-2.5.0b20240415-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-17 14:03:30] INFO root fetch - processPackages [llm-structured-output]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-17 14:03:30] INFO root fetch - processPackages [sound-scape-explorer]: New version: [13.2.0] Old Version: [13.1.8]
+[2024-04-17 14:03:30] WARNING root fetch - processPackages [house-price-prediction-6112]: Skipping, unable to determine old version
+[2024-04-17 14:03:30] INFO root fetch - main [MainThread]: End processing [house-price-prediction-6112] error
+[2024-04-17 14:03:30] INFO root fetch - processPackages [port-ocean]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-17 14:03:30] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1713331387] Old Version: [1.5.0a1712985751]
+[2024-04-17 14:03:30] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61865771>=10485760
+[2024-04-17 14:03:30] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-04-17 14:03:30] INFO root fetch - processPackages [chefshatgym]: Downloading https://files.pythonhosted.org/packages/ae/6e/99349ff1ea8439c3287d5fc6bfde9fb7c73e7c35f4f9ccf43f0c24658d35/chefshatgym-2.1.0-py3-none-any.whl
+[2024-04-17 14:03:30] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/78/bc/7cc9e8e2e79075a3c79c00273aaeb13f895d17585c027c53b61f77bdaba4/port_ocean-0.5.8.tar.gz
+[2024-04-17 14:03:30] INFO root fetch - processPackages [sound-scape-explorer]: Downloading https://files.pythonhosted.org/packages/89/52/404f12ec0ae45735a5d210b0bd1d2f2f2775551e308d3754b2fd4bfedc40/sound-scape-explorer-13.1.8.tar.gz
+[2024-04-17 14:03:30] INFO root fetch - processPackages [llm-structured-output]: Downloading https://files.pythonhosted.org/packages/a1/8b/7ced36698209bd124c2e51118fd87c9c600428655dab9ac2a36d38017b22/llm_structured_output-0.0.6.tar.gz
+[2024-04-17 14:03:30] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/eb/7e/9bd829bdf7e0f230344e2a56c9afabc10829acb199f7ee8d48e1185ce66e/pulumi_cloudinit-1.5.0a1712985751.tar.gz
+[2024-04-17 14:03:30] INFO root fetch - processPackages [chefshatgym]: executing diffoscope
+[2024-04-17 14:03:30] INFO root fetch - processPackages [chefshatgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chefshatgym-2.0.9-py3-none-any.whl.zip tmp/chefshatgym-2.1.0-py3-none-any.whl.zip --markdown 20240417/c/chefshatgym/2.0.9-2.1.0/README.md --exclude *.pyd
+[2024-04-17 14:03:31] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/9a/b8/b4b21f5c3d509271ff988cb9644c8429ce3f2eb23c44e309e16fc3f2c3d6/port_ocean-0.5.9.tar.gz
+[2024-04-17 14:03:31] INFO root fetch - processPackages [sound-scape-explorer]: Downloading https://files.pythonhosted.org/packages/4c/09/6c414fe4425a797317c6706ceb09b88480bf9ca6a2687efc6468ba615101/sound_scape_explorer-13.2.0.tar.gz
+[2024-04-17 14:03:31] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/93/fd/d0b235e189f88c2a3170df0c7256dcad35cc4a4440abfeae70c717d4e302/pulumi_cloudinit-1.5.0a1713331387.tar.gz
+[2024-04-17 14:03:31] INFO root fetch - processPackages [llm-structured-output]: Downloading https://files.pythonhosted.org/packages/61/ae/e19591d0784d773b0273b839601b2d55e7e0e64e9df2fc897c5ee876f014/llm_structured_output-0.0.7.tar.gz
+[2024-04-17 14:03:31] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-04-17 14:03:31] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1712985751.tar.gz tmp/pulumi_cloudinit-1.5.0a1713331387.tar.gz --markdown 20240417/p/pulumi-cloudinit/1.5.0a1712985751-1.5.0a1713331387/README.md --exclude *.pyd
+[2024-04-17 14:03:31] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2024-04-17 14:03:31] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.5.8.tar.gz tmp/port_ocean-0.5.9.tar.gz --markdown 20240417/p/port-ocean/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-17 14:03:31] INFO root fetch - processPackages [llm-structured-output]: executing diffoscope
+[2024-04-17 14:03:31] INFO root fetch - processPackages [llm-structured-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_structured_output-0.0.6.tar.gz tmp/llm_structured_output-0.0.7.tar.gz --markdown 20240417/l/llm-structured-output/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-17 14:03:31] INFO root fetch - processPackages [sound-scape-explorer]: executing diffoscope
+[2024-04-17 14:03:31] INFO root fetch - processPackages [sound-scape-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sound-scape-explorer-13.1.8.tar.gz tmp/sound_scape_explorer-13.2.0.tar.gz --markdown 20240417/s/sound-scape-explorer/13.1.8-13.2.0/README.md --exclude *.pyd
+[2024-04-17 14:03:31] INFO root fetch - processPackages [chefshatgym]: Remove: archive file [/home/abi/fetcher/tmp/chefshatgym-2.0.9-py3-none-any.whl.zip]
+[2024-04-17 14:03:31] INFO root fetch - processPackages [chefshatgym]: Remove: archive file [/home/abi/fetcher/tmp/chefshatgym-2.1.0-py3-none-any.whl.zip]
+[2024-04-17 14:03:31] INFO root fetch - main [MainThread]: End processing [chefshatgym]: success
+[2024-04-17 14:03:31] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1712985751.tar.gz]
+[2024-04-17 14:03:31] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1713331387.tar.gz]
+[2024-04-17 14:03:31] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-04-17 14:03:31] INFO root fetch - processPackages [llm-structured-output]: Remove: archive file [/home/abi/fetcher/tmp/llm_structured_output-0.0.6.tar.gz]
+[2024-04-17 14:03:31] INFO root fetch - processPackages [llm-structured-output]: Remove: archive file [/home/abi/fetcher/tmp/llm_structured_output-0.0.7.tar.gz]
+[2024-04-17 14:03:31] INFO root fetch - main [MainThread]: End processing [llm-structured-output]: success
+[2024-04-17 14:03:32] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.8.tar.gz]
+[2024-04-17 14:03:32] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.9.tar.gz]
+[2024-04-17 14:03:32] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2024-04-17 14:03:32] INFO root fetch - processPackages [sound-scape-explorer]: Remove: archive file [/home/abi/fetcher/tmp/sound-scape-explorer-13.1.8.tar.gz]
+[2024-04-17 14:03:32] INFO root fetch - processPackages [sound-scape-explorer]: Remove: archive file [/home/abi/fetcher/tmp/sound_scape_explorer-13.2.0.tar.gz]
+[2024-04-17 14:03:32] INFO root fetch - main [MainThread]: End processing [sound-scape-explorer]: success
+[2024-04-17 14:03:32] INFO root fetch - main [MainThread]: Store serial: [22805000]
