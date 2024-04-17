@@ -12192,3 +12192,56 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:18:20] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240417.tar.gz]
 [2024-04-17 08:18:20] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
 [2024-04-17 08:18:20] INFO root fetch - main [MainThread]: Store serial: [22800474]
+[2024-04-17 08:20:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800474]
+[2024-04-17 08:20:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 08:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai2-kit
+[2024-04-17 08:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygpt-net
+[2024-04-17 08:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-cpp
+[2024-04-17 08:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ampo
+[2024-04-17 08:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llmkira
+[2024-04-17 08:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: loe-simp-app-fw
+[2024-04-17 08:20:35] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-17 08:20:35] INFO root fetch - processPackages [pygpt-net]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-17 08:20:35] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-17 08:20:35] INFO root fetch - processPackages [ampo]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-17 08:20:35] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/64/c2/2a30a3334aeb8fde8f3b758c826e5f3f486630db29dac6daeadb3b9739cb/loe_simp_app_fw-1.0.2.tar.gz
+[2024-04-17 08:20:35] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240416] Old Version: [2.5.0b20240415]
+[2024-04-17 08:20:35] INFO root fetch - processPackages [llmkira]: New version: [1.0.0] Old Version: [0.27.3]
+[2024-04-17 08:20:35] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-04-17 08:20:35] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a5/de/e40709b6067cd6a2fe2ce05bb561b0d9d4c91f6cd91f7b3c4bd151d18a9b/pygpt_net-2.1.8.tar.gz
+[2024-04-17 08:20:35] INFO root fetch - processPackages [ampo]: Downloading https://files.pythonhosted.org/packages/b8/6d/35e423195979939e3799cd89cffd0128fdd9aab4258535c77c42550589f2/ampo-0.2.3.tar.gz
+[2024-04-17 08:20:36] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-04-17 08:20:36] INFO root fetch - processPackages [llmkira]: Downloading https://files.pythonhosted.org/packages/a7/c9/158cd8044266c395b89a643e093880f859a1db0eb6adfed9dd57fad45237/llmkira-0.27.3.tar.gz
+[2024-04-17 08:20:36] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/ec/1d/4d90135e8e37891429af343eefb7e334268eb7153b40ce43a4f276fa5281/bigdl_core_cpp-2.5.0b20240415-py3-none-win_amd64.whl
+[2024-04-17 08:20:36] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 54466818>=10485760
+[2024-04-17 08:20:36] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-17 08:20:36] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/f9/16/6d44d4ac7c55654221422286e9a1a2cd4697136ca629da862bedcc9acefc/loe_simp_app_fw-1.0.3.tar.gz
+[2024-04-17 08:20:36] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/b1/0c/70ca3376ad87325507daa188a0b208ac8aba51d8f326cbde31d57835c897/pygpt_net-2.1.9.tar.gz
+[2024-04-17 08:20:36] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-04-17 08:20:36] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240417/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-17 08:20:36] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-04-17 08:20:36] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.0.2.tar.gz tmp/loe_simp_app_fw-1.0.3.tar.gz --markdown 20240417/l/loe-simp-app-fw/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-17 08:20:36] INFO root fetch - processPackages [ampo]: Downloading https://files.pythonhosted.org/packages/42/8a/7f77bf2e5f7d6aad354d80e21249305b5aea0c17e60bcd1658b157382a78/ampo-0.2.4.tar.gz
+[2024-04-17 08:20:36] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-04-17 08:20:36] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.1.8.tar.gz tmp/pygpt_net-2.1.9.tar.gz --markdown 20240417/p/pygpt-net/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-17 08:20:36] INFO root fetch - processPackages [ampo]: executing diffoscope
+[2024-04-17 08:20:36] INFO root fetch - processPackages [ampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampo-0.2.3.tar.gz tmp/ampo-0.2.4.tar.gz --markdown 20240417/a/ampo/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-17 08:20:36] INFO root fetch - processPackages [llmkira]: Downloading https://files.pythonhosted.org/packages/88/08/8a8ae966f2fd1ae6ff1191db42b35524064d30cf0b0a3fbad25e6e3a5e9e/llmkira-1.0.0.tar.gz
+[2024-04-17 08:20:36] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.0.2.tar.gz]
+[2024-04-17 08:20:36] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.0.3.tar.gz]
+[2024-04-17 08:20:36] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-04-17 08:20:36] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-04-17 08:20:36] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-04-17 08:20:36] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-04-17 08:20:36] INFO root fetch - processPackages [llmkira]: executing diffoscope
+[2024-04-17 08:20:36] INFO root fetch - processPackages [llmkira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmkira-0.27.3.tar.gz tmp/llmkira-1.0.0.tar.gz --markdown 20240417/l/llmkira/0.27.3-1.0.0/README.md --exclude *.pyd
+[2024-04-17 08:20:36] INFO root fetch - processPackages [ampo]: Remove: archive file [/home/abi/fetcher/tmp/ampo-0.2.3.tar.gz]
+[2024-04-17 08:20:36] INFO root fetch - processPackages [ampo]: Remove: archive file [/home/abi/fetcher/tmp/ampo-0.2.4.tar.gz]
+[2024-04-17 08:20:36] INFO root fetch - main [MainThread]: End processing [ampo]: success
+[2024-04-17 08:20:37] INFO root fetch - processPackages [llmkira]: Remove: archive file [/home/abi/fetcher/tmp/llmkira-0.27.3.tar.gz]
+[2024-04-17 08:20:37] INFO root fetch - processPackages [llmkira]: Remove: archive file [/home/abi/fetcher/tmp/llmkira-1.0.0.tar.gz]
+[2024-04-17 08:20:37] INFO root fetch - main [MainThread]: End processing [llmkira]: success
+[2024-04-17 08:20:39] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.8.tar.gz]
+[2024-04-17 08:20:39] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
+[2024-04-17 08:20:39] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-04-17 08:20:39] INFO root fetch - main [MainThread]: Store serial: [22800492]
