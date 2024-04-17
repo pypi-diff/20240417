@@ -21830,3 +21830,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-17 14:05:43] INFO root fetch - processPackages [ibridges]: Remove: archive file [/home/abi/fetcher/tmp/ibridges-0.1.4.tar.gz]
 [2024-04-17 14:05:43] INFO root fetch - main [MainThread]: End processing [ibridges]: success
 [2024-04-17 14:05:43] INFO root fetch - main [MainThread]: Store serial: [22805025]
+[2024-04-17 14:07:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805025]
+[2024-04-17 14:07:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 14:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logging-strict
+[2024-04-17 14:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nazca
+[2024-04-17 14:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qxelarator
+[2024-04-17 14:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-fhl
+[2024-04-17 14:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qtlink
+[2024-04-17 14:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spc-toolbox
+[2024-04-17 14:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: acetone-nnet
+[2024-04-17 14:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartmin
+[2024-04-17 14:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jetson-examples
+[2024-04-17 14:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fei-crypto
+[2024-04-17 14:07:52] INFO root fetch - processPackages [acetone-nnet]: New version: [0.1.dev3] Old Version: [0.1.dev2]
+[2024-04-17 14:07:52] INFO root fetch - processPackages [qtlink]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-17 14:07:52] INFO root fetch - processPackages [nonebot-plugin-fhl]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 14:07:52] INFO root fetch - processPackages [nazca]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-04-17 14:07:52] INFO root fetch - processPackages [jetson-examples]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-17 14:07:52] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/d7/f0/485f1e870bbdefc4adfd793ed0250292c0d6186c95f0372074dbef9d31ca/acetone_nnet-0.1.dev2.tar.gz
+[2024-04-17 14:07:52] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/dc/26/9c01cf59732b46c2da8b4bc8aca365a45e70c3b5cdc67de08f4e4735f23c/qtlink-1.2.1.tar.gz
+[2024-04-17 14:07:52] INFO root fetch - processPackages [logging-strict]: New version: [1.2.32] Old Version: [1.2.31]
+[2024-04-17 14:07:52] INFO root fetch - processPackages [spc-toolbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 14:07:52] INFO root fetch - processPackages [smartmin]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-04-17 14:07:52] INFO root fetch - processPackages [qxelarator]: New version: [0.7.0] Old Version: [0.6.5]
+[2024-04-17 14:07:52] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/02/3c/832051b0a60389f6d2c7be7437350bd940eb2ac1bbd3f476929d90545a5d/nonebot_plugin_fhl-0.1.8.tar.gz
+[2024-04-17 14:07:52] INFO root fetch - processPackages [fei-crypto]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-17 14:07:52] INFO root fetch - processPackages [nazca]: Downloading https://files.pythonhosted.org/packages/9b/32/1cc3fbb6a95a8921984428528d6aa75dc67b8ef66908d6674b10dd71e900/nazca-3.0.0.tar.gz
+[2024-04-17 14:07:52] INFO root fetch - processPackages [jetson-examples]: Downloading https://files.pythonhosted.org/packages/d0/16/6d29e5930201c5dd3e3da82788c588d673f46b7f2e55de0e5798ea1c6305/jetson_examples-0.0.4.tar.gz
+[2024-04-17 14:07:52] INFO root fetch - processPackages [logging-strict]: Downloading https://files.pythonhosted.org/packages/89/d2/2e53f9bbdfc50e84b260bc48c7e1e7f06295b251105b26c858b3a9c1dc2d/logging-strict-1.2.31.tar.gz
+[2024-04-17 14:07:52] INFO root fetch - processPackages [spc-toolbox]: Downloading https://files.pythonhosted.org/packages/52/14/dea0680cc3c13f5ff027eb577232bfdc5836a52639696aee02fff5c73c5b/spc_toolbox-0.1.1.tar.gz
+[2024-04-17 14:07:52] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/b6/ee/e79c0f32d9245d41a4d288850329efe6d2553a6fac495184583a4d12d7f9/qtlink-1.2.2.tar.gz
+[2024-04-17 14:07:52] INFO root fetch - processPackages [qxelarator]: Downloading https://files.pythonhosted.org/packages/50/11/a7bd2d2ff86ddc90de3da0f388334b7d3b4c39fc1eeab8a2154151b61a27/qxelarator-0.6.5-cp39-cp39-win_amd64.whl
+[2024-04-17 14:07:52] INFO root fetch - processPackages [smartmin]: Downloading https://files.pythonhosted.org/packages/d8/d8/1d728053d34e505ea331a92056227fdda92e2e627c0d216aa9c4002b9177/smartmin-5.0.0.tar.gz
+[2024-04-17 14:07:52] INFO root fetch - processPackages [fei-crypto]: Downloading https://files.pythonhosted.org/packages/56/66/af474ae3b1d865a82e24b9180fe78a938f73fa51bdf529ac5c39f4d23ae7/fei_crypto-0.1.6.tar.gz
+[2024-04-17 14:07:52] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/91/6a/1a055c3ff5d9143d572833b833f8741722e947419fc5d4c7a1f7a1bdbb19/acetone_nnet-0.1.dev3.tar.gz
+[2024-04-17 14:07:52] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/7f/f5/e2f5bf48c970a87b72e19e81fc8655799aa2a5d8e6893a6e430ef49ffd47/nonebot_plugin_fhl-0.1.9.tar.gz
+[2024-04-17 14:07:52] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-04-17 14:07:52] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.2.1.tar.gz tmp/qtlink-1.2.2.tar.gz --markdown 20240417/q/qtlink/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-17 14:07:52] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-04-17 14:07:52] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.1.dev2.tar.gz tmp/acetone_nnet-0.1.dev3.tar.gz --markdown 20240417/a/acetone-nnet/0.1.dev2-0.1.dev3/README.md --exclude *.pyd
+[2024-04-17 14:07:53] INFO root fetch - processPackages [nonebot-plugin-fhl]: executing diffoscope
+[2024-04-17 14:07:53] INFO root fetch - processPackages [nonebot-plugin-fhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_fhl-0.1.8.tar.gz tmp/nonebot_plugin_fhl-0.1.9.tar.gz --markdown 20240417/n/nonebot-plugin-fhl/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 14:07:53] INFO root fetch - processPackages [jetson-examples]: Downloading https://files.pythonhosted.org/packages/65/80/30ed9f153d31c484707895ee7240c704f9db980e72b610eb8327bcc7ebb7/jetson_examples-0.0.5.tar.gz
+[2024-04-17 14:07:53] INFO root fetch - processPackages [spc-toolbox]: Downloading https://files.pythonhosted.org/packages/3e/eb/326d6e893f32fa9f6396adbc0f1cd65d4b0255d3035e13065cbf2a84cbeb/spc_toolbox-0.1.2.tar.gz
+[2024-04-17 14:07:53] INFO root fetch - processPackages [fei-crypto]: Downloading https://files.pythonhosted.org/packages/0d/2a/b97ebba3b899e4a99ed7f294659ef2131c2ef4424a065e5882fad1c6c1d4/fei_crypto-0.1.7.tar.gz
+[2024-04-17 14:07:53] INFO root fetch - processPackages [jetson-examples]: executing diffoscope
+[2024-04-17 14:07:53] INFO root fetch - processPackages [jetson-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetson_examples-0.0.4.tar.gz tmp/jetson_examples-0.0.5.tar.gz --markdown 20240417/j/jetson-examples/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-17 14:07:53] INFO root fetch - processPackages [logging-strict]: Downloading https://files.pythonhosted.org/packages/03/2c/8514d6170f8777789ffc3717ff29825046ca989ec1b4ef204d64e97c3353/logging_strict-1.2.32.tar.gz
+[2024-04-17 14:07:53] INFO root fetch - processPackages [qxelarator]: Downloading https://files.pythonhosted.org/packages/48/24/14e79b35de03d67c94e1b7dffc27ae54460282543f3e4c3cec3f6a32eaa1/qxelarator-0.7.0-cp39-cp39-win_amd64.whl
+[2024-04-17 14:07:53] INFO root fetch - processPackages [nazca]: Downloading https://files.pythonhosted.org/packages/7c/a6/8157b2a9224781e4d38962d250e14be9e97153d9ac8c39fdbbe55cde6d0b/nazca-3.1.0.tar.gz
+[2024-04-17 14:07:53] INFO root fetch - processPackages [smartmin]: Downloading https://files.pythonhosted.org/packages/c0/6c/4c3882407ccea80c201d71b788df430a493f4e050d15cfddcb4c6f053b34/smartmin-5.0.1.tar.gz
+[2024-04-17 14:07:53] INFO root fetch - processPackages [spc-toolbox]: executing diffoscope
+[2024-04-17 14:07:53] INFO root fetch - processPackages [spc-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spc_toolbox-0.1.1.tar.gz tmp/spc_toolbox-0.1.2.tar.gz --markdown 20240417/s/spc-toolbox/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 14:07:53] INFO root fetch - processPackages [smartmin]: executing diffoscope
+[2024-04-17 14:07:53] INFO root fetch - processPackages [smartmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartmin-5.0.0.tar.gz tmp/smartmin-5.0.1.tar.gz --markdown 20240417/s/smartmin/5.0.0-5.0.1/README.md --exclude *.pyd
+[2024-04-17 14:07:53] INFO root fetch - processPackages [fei-crypto]: executing diffoscope
+[2024-04-17 14:07:53] INFO root fetch - processPackages [fei-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fei_crypto-0.1.6.tar.gz tmp/fei_crypto-0.1.7.tar.gz --markdown 20240417/f/fei-crypto/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-17 14:07:53] INFO root fetch - processPackages [nazca]: executing diffoscope
+[2024-04-17 14:07:53] INFO root fetch - processPackages [nazca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nazca-3.0.0.tar.gz tmp/nazca-3.1.0.tar.gz --markdown 20240417/n/nazca/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-04-17 14:07:53] INFO root fetch - processPackages [logging-strict]: executing diffoscope
+[2024-04-17 14:07:53] INFO root fetch - processPackages [logging-strict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging-strict-1.2.31.tar.gz tmp/logging_strict-1.2.32.tar.gz --markdown 20240417/l/logging-strict/1.2.31-1.2.32/README.md --exclude *.pyd
+[2024-04-17 14:07:53] INFO root fetch - processPackages [qxelarator]: executing diffoscope
+[2024-04-17 14:07:53] INFO root fetch - processPackages [qxelarator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qxelarator-0.6.5-cp39-cp39-win_amd64.whl.zip tmp/qxelarator-0.7.0-cp39-cp39-win_amd64.whl.zip --markdown 20240417/q/qxelarator/0.6.5-0.7.0/README.md --exclude *.pyd
+[2024-04-17 14:07:53] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.1.tar.gz]
+[2024-04-17 14:07:53] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.2.tar.gz]
+[2024-04-17 14:07:53] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-04-17 14:07:53] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.8.tar.gz]
+[2024-04-17 14:07:53] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.9.tar.gz]
+[2024-04-17 14:07:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fhl]: success
+[2024-04-17 14:07:54] INFO root fetch - processPackages [jetson-examples]: Remove: archive file [/home/abi/fetcher/tmp/jetson_examples-0.0.4.tar.gz]
+[2024-04-17 14:07:54] INFO root fetch - processPackages [jetson-examples]: Remove: archive file [/home/abi/fetcher/tmp/jetson_examples-0.0.5.tar.gz]
+[2024-04-17 14:07:54] INFO root fetch - main [MainThread]: End processing [jetson-examples]: success
+[2024-04-17 14:07:54] INFO root fetch - processPackages [spc-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/spc_toolbox-0.1.1.tar.gz]
+[2024-04-17 14:07:54] INFO root fetch - processPackages [spc-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/spc_toolbox-0.1.2.tar.gz]
+[2024-04-17 14:07:54] INFO root fetch - main [MainThread]: End processing [spc-toolbox]: success
+[2024-04-17 14:07:54] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.1.dev2.tar.gz]
+[2024-04-17 14:07:54] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.1.dev3.tar.gz]
+[2024-04-17 14:07:54] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-04-17 14:07:54] INFO root fetch - processPackages [fei-crypto]: Remove: archive file [/home/abi/fetcher/tmp/fei_crypto-0.1.6.tar.gz]
+[2024-04-17 14:07:54] INFO root fetch - processPackages [fei-crypto]: Remove: archive file [/home/abi/fetcher/tmp/fei_crypto-0.1.7.tar.gz]
+[2024-04-17 14:07:54] INFO root fetch - main [MainThread]: End processing [fei-crypto]: success
+[2024-04-17 14:07:54] INFO root fetch - processPackages [qxelarator]: Remove: archive file [/home/abi/fetcher/tmp/qxelarator-0.6.5-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 14:07:54] INFO root fetch - processPackages [qxelarator]: Remove: archive file [/home/abi/fetcher/tmp/qxelarator-0.7.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 14:07:54] INFO root fetch - main [MainThread]: End processing [qxelarator]: success
+[2024-04-17 14:07:54] INFO root fetch - processPackages [smartmin]: Remove: archive file [/home/abi/fetcher/tmp/smartmin-5.0.0.tar.gz]
+[2024-04-17 14:07:54] INFO root fetch - processPackages [smartmin]: Remove: archive file [/home/abi/fetcher/tmp/smartmin-5.0.1.tar.gz]
+[2024-04-17 14:07:54] INFO root fetch - main [MainThread]: End processing [smartmin]: success
+[2024-04-17 14:07:54] INFO root fetch - processPackages [nazca]: Remove: archive file [/home/abi/fetcher/tmp/nazca-3.0.0.tar.gz]
+[2024-04-17 14:07:54] INFO root fetch - processPackages [nazca]: Remove: archive file [/home/abi/fetcher/tmp/nazca-3.1.0.tar.gz]
+[2024-04-17 14:07:54] INFO root fetch - main [MainThread]: End processing [nazca]: success
+[2024-04-17 14:07:55] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.31.tar.gz]
+[2024-04-17 14:07:55] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging_strict-1.2.32.tar.gz]
+[2024-04-17 14:07:55] INFO root fetch - main [MainThread]: End processing [logging-strict]: success
+[2024-04-17 14:07:55] INFO root fetch - main [MainThread]: Store serial: [22805074]
