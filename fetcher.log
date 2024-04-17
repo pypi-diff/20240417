@@ -7568,3 +7568,33 @@
 [2024-04-17 03:58:28] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.1.2-py3-none-any.whl.zip]
 [2024-04-17 03:58:28] INFO root fetch - main [MainThread]: End processing [dg-face-tracking]: success
 [2024-04-17 03:58:28] INFO root fetch - main [MainThread]: Store serial: [22798709]
+[2024-04-17 04:00:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798709]
+[2024-04-17 04:00:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 04:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qualesim-quiets
+[2024-04-17 04:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-ai-studio-utils
+[2024-04-17 04:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastz
+[2024-04-17 04:00:37] INFO root fetch - processPackages [qualesim-quiets]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-17 04:00:37] INFO root fetch - processPackages [google-ai-studio-utils]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-17 04:00:37] INFO root fetch - processPackages [fastz]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-04-17 04:00:37] INFO root fetch - processPackages [qualesim-quiets]: Downloading https://files.pythonhosted.org/packages/96/78/15ce77dca8509504e09dffc05faebd9aa2f30650ef7e43a845f3d3de0e7f/qualesim-quiets-1.0.0.tar.gz
+[2024-04-17 04:00:37] INFO root fetch - processPackages [google-ai-studio-utils]: Downloading https://files.pythonhosted.org/packages/dd/b4/d7b348f98cb254e7b1d3abda8f5db8f4efff3336a7abb3218cc66c223c59/google_ai_studio_utils-0.1.4.tar.gz
+[2024-04-17 04:00:37] INFO root fetch - processPackages [fastz]: Downloading https://files.pythonhosted.org/packages/21/ca/3b10fb828450b24f573e7b4770ffa4ae269b3df9bcbba7307cc9efe358fd/fastz-0.0.1.tar.gz
+[2024-04-17 04:00:37] INFO root fetch - processPackages [google-ai-studio-utils]: Downloading https://files.pythonhosted.org/packages/6a/82/63937d40ce1a5070c6652bf6d77d29c4af26d496ac3b48fcc8b4d9717033/google_ai_studio_utils-0.1.5.tar.gz
+[2024-04-17 04:00:37] INFO root fetch - processPackages [qualesim-quiets]: Downloading https://files.pythonhosted.org/packages/f6/cf/60d228003bcbe074db445b6064c68d95e923b9884eed9e9d45cea11f57fb/qualesim-quiets-1.0.1.tar.gz
+[2024-04-17 04:00:37] INFO root fetch - processPackages [fastz]: Downloading https://files.pythonhosted.org/packages/e8/48/4e95a867f18fc104daa0d39993f1eb6d6227986d5066a43ae970355201a9/fastz-1.0.0.tar.gz
+[2024-04-17 04:00:37] INFO root fetch - processPackages [google-ai-studio-utils]: executing diffoscope
+[2024-04-17 04:00:37] INFO root fetch - processPackages [google-ai-studio-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_ai_studio_utils-0.1.4.tar.gz tmp/google_ai_studio_utils-0.1.5.tar.gz --markdown 20240417/g/google-ai-studio-utils/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-17 04:00:37] INFO root fetch - processPackages [qualesim-quiets]: executing diffoscope
+[2024-04-17 04:00:37] INFO root fetch - processPackages [qualesim-quiets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualesim-quiets-1.0.0.tar.gz tmp/qualesim-quiets-1.0.1.tar.gz --markdown 20240417/q/qualesim-quiets/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-17 04:00:37] INFO root fetch - processPackages [fastz]: executing diffoscope
+[2024-04-17 04:00:37] INFO root fetch - processPackages [fastz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastz-0.0.1.tar.gz tmp/fastz-1.0.0.tar.gz --markdown 20240417/f/fastz/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-04-17 04:00:38] INFO root fetch - processPackages [google-ai-studio-utils]: Remove: archive file [/home/abi/fetcher/tmp/google_ai_studio_utils-0.1.4.tar.gz]
+[2024-04-17 04:00:38] INFO root fetch - processPackages [google-ai-studio-utils]: Remove: archive file [/home/abi/fetcher/tmp/google_ai_studio_utils-0.1.5.tar.gz]
+[2024-04-17 04:00:38] INFO root fetch - main [MainThread]: End processing [google-ai-studio-utils]: success
+[2024-04-17 04:00:38] INFO root fetch - processPackages [qualesim-quiets]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quiets-1.0.0.tar.gz]
+[2024-04-17 04:00:38] INFO root fetch - processPackages [qualesim-quiets]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quiets-1.0.1.tar.gz]
+[2024-04-17 04:00:38] INFO root fetch - main [MainThread]: End processing [qualesim-quiets]: success
+[2024-04-17 04:00:38] INFO root fetch - processPackages [fastz]: Remove: archive file [/home/abi/fetcher/tmp/fastz-0.0.1.tar.gz]
+[2024-04-17 04:00:38] INFO root fetch - processPackages [fastz]: Remove: archive file [/home/abi/fetcher/tmp/fastz-1.0.0.tar.gz]
+[2024-04-17 04:00:38] INFO root fetch - main [MainThread]: End processing [fastz]: success
+[2024-04-17 04:00:38] INFO root fetch - main [MainThread]: Store serial: [22798723]
