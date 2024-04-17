@@ -8856,3 +8856,51 @@
 [2024-04-17 05:05:01] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.1.2.tar.gz]
 [2024-04-17 05:05:01] INFO root fetch - main [MainThread]: End processing [ehdg-pupil-detector]: success
 [2024-04-17 05:05:01] INFO root fetch - main [MainThread]: Store serial: [22799237]
+[2024-04-17 05:07:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799237]
+[2024-04-17 05:07:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 05:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchling-api-client
+[2024-04-17 05:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maxwell-service
+[2024-04-17 05:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-flux
+[2024-04-17 05:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jijmodeling-transpiler
+[2024-04-17 05:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nose-launchable
+[2024-04-17 05:07:11] INFO root fetch - processPackages [python-flux]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-17 05:07:11] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-17 05:07:11] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/33/ae/b5929cf1486c807e947b316658178dd6e9bbcc25ecb9fa1078888e3c1248/python_flux-1.0.4.tar.gz
+[2024-04-17 05:07:11] INFO root fetch - processPackages [maxwell-service]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-17 05:07:11] INFO root fetch - processPackages [nose-launchable]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-17 05:07:11] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2024-04-17 05:07:11] INFO root fetch - processPackages [jijmodeling-transpiler]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-04-17 05:07:11] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/4e/f4/7a8a3be80d1f91c834929bfac55d0f90277387e7610f4beb9cd75c85082a/python_flux-1.0.5.tar.gz
+[2024-04-17 05:07:11] INFO root fetch - processPackages [maxwell-service]: Downloading https://files.pythonhosted.org/packages/80/63/55b4bd7551471cafac6e7f7f340b10fef9a173164e593e80341b1305da12/maxwell_service-0.7.1.tar.gz
+[2024-04-17 05:07:11] INFO root fetch - processPackages [nose-launchable]: Downloading https://files.pythonhosted.org/packages/20/ac/393ce3523fd432986ebbcbfc760bb2009576b440fcb592cd99313830f127/nose-launchable-0.5.0.tar.gz
+[2024-04-17 05:07:11] INFO root fetch - processPackages [jijmodeling-transpiler]: Downloading https://files.pythonhosted.org/packages/25/28/e0f1656cf6189df787b2edd89afa4063017c1a7404b0f1411e4a02f3e2e8/jijmodeling_transpiler-0.6.7-cp39-cp39-win_amd64.whl
+[2024-04-17 05:07:12] INFO root fetch - processPackages [python-flux]: executing diffoscope
+[2024-04-17 05:07:12] INFO root fetch - processPackages [python-flux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_flux-1.0.4.tar.gz tmp/python_flux-1.0.5.tar.gz --markdown 20240417/p/python-flux/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-17 05:07:12] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2024-04-17 05:07:12] INFO root fetch - processPackages [nose-launchable]: Downloading https://files.pythonhosted.org/packages/2f/92/4b55779f152f8840c70ab99ef5db39f456adeed405df243cba68b31819f3/nose_launchable-0.6.0.tar.gz
+[2024-04-17 05:07:12] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2024-04-17 05:07:12] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20240417/b/benchling-api-client/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-17 05:07:12] INFO root fetch - processPackages [nose-launchable]: executing diffoscope
+[2024-04-17 05:07:12] INFO root fetch - processPackages [nose-launchable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nose-launchable-0.5.0.tar.gz tmp/nose_launchable-0.6.0.tar.gz --markdown 20240417/n/nose-launchable/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-17 05:07:12] INFO root fetch - processPackages [maxwell-service]: Downloading https://files.pythonhosted.org/packages/2a/d3/597ae288d7c5b4580d1acb75841fbfc1d548d268ac387004f65ceb966672/maxwell_service-0.8.0.tar.gz
+[2024-04-17 05:07:12] INFO root fetch - processPackages [jijmodeling-transpiler]: Downloading https://files.pythonhosted.org/packages/8d/33/543e8e35e0a3f10abdb3f5b970ec6137055223ed1ee06e5fba9bd3e74a30/jijmodeling_transpiler-0.6.8-cp39-cp39-win_amd64.whl
+[2024-04-17 05:07:12] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-1.0.4.tar.gz]
+[2024-04-17 05:07:12] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-1.0.5.tar.gz]
+[2024-04-17 05:07:12] INFO root fetch - main [MainThread]: End processing [python-flux]: success
+[2024-04-17 05:07:12] INFO root fetch - processPackages [jijmodeling-transpiler]: executing diffoscope
+[2024-04-17 05:07:12] INFO root fetch - processPackages [jijmodeling-transpiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling_transpiler-0.6.7-cp39-cp39-win_amd64.whl.zip tmp/jijmodeling_transpiler-0.6.8-cp39-cp39-win_amd64.whl.zip --markdown 20240417/j/jijmodeling-transpiler/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-04-17 05:07:12] INFO root fetch - processPackages [maxwell-service]: executing diffoscope
+[2024-04-17 05:07:12] INFO root fetch - processPackages [maxwell-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxwell_service-0.7.1.tar.gz tmp/maxwell_service-0.8.0.tar.gz --markdown 20240417/m/maxwell-service/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-04-17 05:07:12] INFO root fetch - processPackages [nose-launchable]: Remove: archive file [/home/abi/fetcher/tmp/nose-launchable-0.5.0.tar.gz]
+[2024-04-17 05:07:12] INFO root fetch - processPackages [nose-launchable]: Remove: archive file [/home/abi/fetcher/tmp/nose_launchable-0.6.0.tar.gz]
+[2024-04-17 05:07:12] INFO root fetch - main [MainThread]: End processing [nose-launchable]: success
+[2024-04-17 05:07:13] INFO root fetch - processPackages [jijmodeling-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling_transpiler-0.6.7-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 05:07:13] INFO root fetch - processPackages [jijmodeling-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling_transpiler-0.6.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 05:07:13] INFO root fetch - main [MainThread]: End processing [jijmodeling-transpiler]: success
+[2024-04-17 05:07:13] INFO root fetch - processPackages [maxwell-service]: Remove: archive file [/home/abi/fetcher/tmp/maxwell_service-0.7.1.tar.gz]
+[2024-04-17 05:07:13] INFO root fetch - processPackages [maxwell-service]: Remove: archive file [/home/abi/fetcher/tmp/maxwell_service-0.8.0.tar.gz]
+[2024-04-17 05:07:13] INFO root fetch - main [MainThread]: End processing [maxwell-service]: success
+[2024-04-17 05:07:30] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2024-04-17 05:07:30] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2024-04-17 05:07:30] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2024-04-17 05:07:30] INFO root fetch - main [MainThread]: Store serial: [22799272]
