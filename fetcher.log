@@ -12117,3 +12117,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:16:04] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
 [2024-04-17 08:16:04] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2024-04-17 08:16:04] INFO root fetch - main [MainThread]: Store serial: [22800447]
+[2024-04-17 08:18:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800447]
+[2024-04-17 08:18:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 08:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2024-04-17 08:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py2docfx
+[2024-04-17 08:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module
+[2024-04-17 08:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reaction-local
+[2024-04-17 08:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: byzerllm
+[2024-04-17 08:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ckanext-dc-serve
+[2024-04-17 08:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-request
+[2024-04-17 08:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ai2-kit
+[2024-04-17 08:18:13] INFO root fetch - processPackages [ckanext-dc-serve]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-17 08:18:13] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-17 08:18:13] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240417] Old Version: [20240411]
+[2024-04-17 08:18:13] INFO root fetch - processPackages [ckanext-dc-serve]: Downloading https://files.pythonhosted.org/packages/91/75/de4f8e7a0c6632f278d47cba7ffe8073874d23d49026ce5ccd66006107a9/ckanext-dc_serve-0.9.4.tar.gz
+[2024-04-17 08:18:13] INFO root fetch - processPackages [reaction-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 08:18:13] INFO root fetch - processPackages [py2docfx]: New version: [0.1.4rc1691271] Old Version: [0.1.4rc1690176]
+[2024-04-17 08:18:13] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 08:18:13] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240417] Old Version: [20240411]
+[2024-04-17 08:18:13] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-17 08:18:13] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/da/fd/ebd2c46e6b5835d1fb6716cf2314171d120eac5a00caf6dedb81893f6c4c/odoo_addon_stock_request-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-17 08:18:13] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/5b/0e/d4c00e3fb93d93d7d01da85a59aeb7d4e3b83f59f61b47a0cba8ff71d9da/fake-bpy-module-20240411.tar.gz
+[2024-04-17 08:18:13] INFO root fetch - processPackages [ckanext-dc-serve]: Downloading https://files.pythonhosted.org/packages/fd/f1/a13147acdffced969cdb04865379b686343be9353b05279ab9c0f6c8d88b/ckanext-dc_serve-0.9.5.tar.gz
+[2024-04-17 08:18:13] INFO root fetch - processPackages [reaction-local]: Downloading https://files.pythonhosted.org/packages/a6/9d/166c1f9c5c4ac252cc5a9501c4fe45b226c5e8ead84780af6e5d1f64c7a0/reaction-local-0.0.8.tar.gz
+[2024-04-17 08:18:13] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-17 08:18:13] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/31/5c/bd65b7dfe368d8ce548f8219b6c390d0c54b25441d81e923a3e10a44ccdd/fake-bpy-module-latest-20240411.tar.gz
+[2024-04-17 08:18:13] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/8a/89/92fad384f2155a5bd7d53e077137cbde350759805d3d8ffca87f25c05e42/py2docfx-0.1.4rc1690176-py3-none-any.whl
+[2024-04-17 08:18:14] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-04-17 08:18:14] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/b4/b4/3d59f7e3eb420b8de98d77a5caff013eee01815b6e23e9d1bcee4fe27fad/odoo_addon_stock_request-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-17 08:18:14] INFO root fetch - processPackages [ckanext-dc-serve]: executing diffoscope
+[2024-04-17 08:18:14] INFO root fetch - processPackages [ckanext-dc-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-dc_serve-0.9.4.tar.gz tmp/ckanext-dc_serve-0.9.5.tar.gz --markdown 20240417/c/ckanext-dc-serve/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-17 08:18:14] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2024-04-17 08:18:14] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_request-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240417/o/odoo-addon-stock-request/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-17 08:18:14] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/29/55/4177240d810b7f6d96691be418f6abf72a774c9fa3dba6e9b4efce34826b/fake_bpy_module-20240417.tar.gz
+[2024-04-17 08:18:14] INFO root fetch - processPackages [reaction-local]: Downloading https://files.pythonhosted.org/packages/91/b7/5064d1d9f93220746c18f37cc5d646c060856eec1f817013f2d082124868/reaction-local-0.0.9.tar.gz
+[2024-04-17 08:18:14] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/6a/92/92480e7691e788f1a4b4b6bda5ed1554bd4a3549c36b56d1f9e72b2123ad/py2docfx-0.1.4rc1691271-py3-none-any.whl
+[2024-04-17 08:18:14] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/4f/5a/0b6ca49e19ae1d44079fb056f9d336ba8ba17c07b090a62e0951c14471fd/fake_bpy_module_latest-20240417.tar.gz
+[2024-04-17 08:18:14] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-17 08:18:14] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-17 08:18:14] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.4rc1690176-py3-none-any.whl.zip tmp/py2docfx-0.1.4rc1691271-py3-none-any.whl.zip --markdown 20240417/p/py2docfx/0.1.4rc1690176-0.1.4rc1691271/README.md --exclude *.pyd
+[2024-04-17 08:18:14] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-17 08:18:14] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-20240411.tar.gz tmp/fake_bpy_module-20240417.tar.gz --markdown 20240417/f/fake-bpy-module/20240411-20240417/README.md --exclude *.pyd
+[2024-04-17 08:18:14] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-17 08:18:14] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20240411.tar.gz tmp/fake_bpy_module_latest-20240417.tar.gz --markdown 20240417/f/fake-bpy-module-latest/20240411-20240417/README.md --exclude *.pyd
+[2024-04-17 08:18:14] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-04-17 08:18:14] INFO root fetch - processPackages [reaction-local]: executing diffoscope
+[2024-04-17 08:18:14] INFO root fetch - processPackages [reaction-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaction-local-0.0.8.tar.gz tmp/reaction-local-0.0.9.tar.gz --markdown 20240417/r/reaction-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 08:18:14] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-04-17 08:18:14] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240417/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-17 08:18:14] INFO root fetch - processPackages [ckanext-dc-serve]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dc_serve-0.9.4.tar.gz]
+[2024-04-17 08:18:14] INFO root fetch - processPackages [ckanext-dc-serve]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dc_serve-0.9.5.tar.gz]
+[2024-04-17 08:18:14] INFO root fetch - main [MainThread]: End processing [ckanext-dc-serve]: success
+[2024-04-17 08:18:14] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-17 08:18:14] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240417/b/byzerllm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 08:18:15] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-17 08:18:15] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-17 08:18:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2024-04-17 08:18:15] INFO root fetch - processPackages [reaction-local]: Remove: archive file [/home/abi/fetcher/tmp/reaction-local-0.0.8.tar.gz]
+[2024-04-17 08:18:15] INFO root fetch - processPackages [reaction-local]: Remove: archive file [/home/abi/fetcher/tmp/reaction-local-0.0.9.tar.gz]
+[2024-04-17 08:18:15] INFO root fetch - main [MainThread]: End processing [reaction-local]: success
+[2024-04-17 08:18:15] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4rc1690176-py3-none-any.whl.zip]
+[2024-04-17 08:18:15] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4rc1691271-py3-none-any.whl.zip]
+[2024-04-17 08:18:15] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-17 08:18:15] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-04-17 08:18:15] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-04-17 08:18:15] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-04-17 08:18:17] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-17 08:18:17] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-17 08:18:17] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-17 08:18:20] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240411.tar.gz]
+[2024-04-17 08:18:20] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240417.tar.gz]
+[2024-04-17 08:18:20] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-17 08:18:20] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240411.tar.gz]
+[2024-04-17 08:18:20] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240417.tar.gz]
+[2024-04-17 08:18:20] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-17 08:18:20] INFO root fetch - main [MainThread]: Store serial: [22800474]
