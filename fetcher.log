@@ -1720,3 +1720,18 @@
 [2024-04-17 01:57:57] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.1.tar.gz]
 [2024-04-17 01:57:57] INFO root fetch - main [MainThread]: End processing [mlsauce]: success
 [2024-04-17 01:57:57] INFO root fetch - main [MainThread]: Store serial: [22796457]
+[2024-04-17 02:00:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796457]
+[2024-04-17 02:00:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 02:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cd-fvd
+[2024-04-17 02:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: purpose-transcribe
+[2024-04-17 02:00:06] WARNING root fetch - processPackages [cd-fvd]: Skipping, unable to determine old version
+[2024-04-17 02:00:06] INFO root fetch - main [MainThread]: End processing [cd-fvd] error
+[2024-04-17 02:00:06] INFO root fetch - processPackages [purpose-transcribe]: New version: [0.2.1] Old Version: [0.1.2]
+[2024-04-17 02:00:06] INFO root fetch - processPackages [purpose-transcribe]: Downloading https://files.pythonhosted.org/packages/e2/b1/b2209764218249e7acbc2470f6eb6e0574b72cc568d8d452fef750bab70f/purpose_transcribe-0.1.2.tar.gz
+[2024-04-17 02:00:07] INFO root fetch - processPackages [purpose-transcribe]: Downloading https://files.pythonhosted.org/packages/17/70/7b5ff2f0b260c854b6504f71de1286eecedb5215deb60db98b70a78930c1/purpose_transcribe-0.2.1.tar.gz
+[2024-04-17 02:00:07] INFO root fetch - processPackages [purpose-transcribe]: executing diffoscope
+[2024-04-17 02:00:07] INFO root fetch - processPackages [purpose-transcribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purpose_transcribe-0.1.2.tar.gz tmp/purpose_transcribe-0.2.1.tar.gz --markdown 20240417/p/purpose-transcribe/0.1.2-0.2.1/README.md --exclude *.pyd
+[2024-04-17 02:00:07] INFO root fetch - processPackages [purpose-transcribe]: Remove: archive file [/home/abi/fetcher/tmp/purpose_transcribe-0.1.2.tar.gz]
+[2024-04-17 02:00:07] INFO root fetch - processPackages [purpose-transcribe]: Remove: archive file [/home/abi/fetcher/tmp/purpose_transcribe-0.2.1.tar.gz]
+[2024-04-17 02:00:07] INFO root fetch - main [MainThread]: End processing [purpose-transcribe]: success
+[2024-04-17 02:00:07] INFO root fetch - main [MainThread]: Store serial: [22796467]
