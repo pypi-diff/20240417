@@ -16108,3 +16108,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:38:35] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_python_examples-7.8.5.tar.gz]
 [2024-04-17 10:38:35] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
 [2024-04-17 10:38:35] INFO root fetch - main [MainThread]: Store serial: [22802344]
+[2024-04-17 10:40:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802344]
+[2024-04-17 10:40:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 10:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wonder-diffusion-sdk
+[2024-04-17 10:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataverk-airflow
+[2024-04-17 10:40:45] INFO root fetch - processPackages [wonder-diffusion-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 10:40:45] INFO root fetch - processPackages [dataverk-airflow]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-17 10:40:45] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/e7/8b/afcc25e265fc6f05ca86c1c8fde4d8e2558b1ee816da8b479c1c1edb6532/wonder-diffusion-sdk-0.0.2.tar.gz
+[2024-04-17 10:40:45] INFO root fetch - processPackages [dataverk-airflow]: Downloading https://files.pythonhosted.org/packages/e3/4d/eadeccaeb81be45f94791f733d31571b7e546ce8e57d4738ad615b819e55/dataverk_airflow-1.6.2.tar.gz
+[2024-04-17 10:40:45] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/e1/ae/30cd34fc42d0b13dcd2bc513d81206f42508a243405996a58bbd4150d7a5/wonder-diffusion-sdk-0.0.3.tar.gz
+[2024-04-17 10:40:46] INFO root fetch - processPackages [wonder-diffusion-sdk]: executing diffoscope
+[2024-04-17 10:40:46] INFO root fetch - processPackages [wonder-diffusion-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-diffusion-sdk-0.0.2.tar.gz tmp/wonder-diffusion-sdk-0.0.3.tar.gz --markdown 20240417/w/wonder-diffusion-sdk/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 10:40:46] INFO root fetch - processPackages [dataverk-airflow]: Downloading https://files.pythonhosted.org/packages/11/54/c044ae8c12a8eee36e02ebc56740313ea092deff6bbd3aac25cb243df5d4/dataverk_airflow-1.6.3.tar.gz
+[2024-04-17 10:40:46] INFO root fetch - processPackages [dataverk-airflow]: executing diffoscope
+[2024-04-17 10:40:46] INFO root fetch - processPackages [dataverk-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverk_airflow-1.6.2.tar.gz tmp/dataverk_airflow-1.6.3.tar.gz --markdown 20240417/d/dataverk-airflow/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-04-17 10:40:46] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.2.tar.gz]
+[2024-04-17 10:40:46] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.3.tar.gz]
+[2024-04-17 10:40:46] INFO root fetch - main [MainThread]: End processing [wonder-diffusion-sdk]: success
+[2024-04-17 10:40:46] INFO root fetch - processPackages [dataverk-airflow]: Remove: archive file [/home/abi/fetcher/tmp/dataverk_airflow-1.6.2.tar.gz]
+[2024-04-17 10:40:46] INFO root fetch - processPackages [dataverk-airflow]: Remove: archive file [/home/abi/fetcher/tmp/dataverk_airflow-1.6.3.tar.gz]
+[2024-04-17 10:40:46] INFO root fetch - main [MainThread]: End processing [dataverk-airflow]: success
+[2024-04-17 10:40:46] INFO root fetch - main [MainThread]: Store serial: [22802348]
