@@ -2680,3 +2680,30 @@
 [2024-04-17 02:44:02] INFO root fetch - processPackages [pelicun]: Remove: archive file [/home/abi/fetcher/tmp/pelicun-3.3.1.tar.gz]
 [2024-04-17 02:44:02] INFO root fetch - main [MainThread]: End processing [pelicun]: success
 [2024-04-17 02:44:02] INFO root fetch - main [MainThread]: Store serial: [22796857]
+[2024-04-17 02:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796857]
+[2024-04-17 02:46:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 02:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-claudebot-plugin
+[2024-04-17 02:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: experiment-lab
+[2024-04-17 02:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2024-04-17 02:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DFRobotUPS
+[2024-04-17 02:46:10] WARNING root fetch - processPackages [mkdocs-claudebot-plugin]: Skipping, unable to determine old version
+[2024-04-17 02:46:10] INFO root fetch - main [MainThread]: End processing [mkdocs-claudebot-plugin] error
+[2024-04-17 02:46:10] WARNING root fetch - processPackages [DFRobotUPS]: Skipping, unable to determine old version
+[2024-04-17 02:46:10] INFO root fetch - main [MainThread]: End processing [DFRobotUPS] error
+[2024-04-17 02:46:10] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202404160044] Old Version: [4.9.4.dev202404150242]
+[2024-04-17 02:46:10] INFO root fetch - processPackages [experiment-lab]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-17 02:46:10] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/f2/03/00fa8f9b2118b48557883261594a6abe8f7cfbd672d5cd9774466c6a9eab/tfds-nightly-4.9.4.dev202404150242.tar.gz
+[2024-04-17 02:46:11] INFO root fetch - processPackages [experiment-lab]: Downloading https://files.pythonhosted.org/packages/a4/81/91375472da5b0fc5eac3f6b20ccfe6477ca08633e4f59b63429f51946132/experiment_lab-1.1.1.tar.gz
+[2024-04-17 02:46:11] INFO root fetch - processPackages [experiment-lab]: Downloading https://files.pythonhosted.org/packages/29/b8/d270ce7925fc27d2223c3afd4d888a84540547ed6805e0fb8243129b427a/experiment_lab-1.1.2.tar.gz
+[2024-04-17 02:46:11] INFO root fetch - processPackages [experiment-lab]: executing diffoscope
+[2024-04-17 02:46:11] INFO root fetch - processPackages [experiment-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_lab-1.1.1.tar.gz tmp/experiment_lab-1.1.2.tar.gz --markdown 20240417/e/experiment-lab/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-17 02:46:11] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/9e/3b/a9fe4f72dc8d49fcf2547294cfcfe84743838719027eae38483fb3884eaf/tfds-nightly-4.9.4.dev202404160044.tar.gz
+[2024-04-17 02:46:11] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-04-17 02:46:11] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404150242.tar.gz tmp/tfds-nightly-4.9.4.dev202404160044.tar.gz --markdown 20240417/t/tfds-nightly/4.9.4.dev202404150242-4.9.4.dev202404160044/README.md --exclude *.pyd
+[2024-04-17 02:46:12] INFO root fetch - processPackages [experiment-lab]: Remove: archive file [/home/abi/fetcher/tmp/experiment_lab-1.1.1.tar.gz]
+[2024-04-17 02:46:12] INFO root fetch - processPackages [experiment-lab]: Remove: archive file [/home/abi/fetcher/tmp/experiment_lab-1.1.2.tar.gz]
+[2024-04-17 02:46:12] INFO root fetch - main [MainThread]: End processing [experiment-lab]: success
+[2024-04-17 02:46:20] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404150242.tar.gz]
+[2024-04-17 02:46:20] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404160044.tar.gz]
+[2024-04-17 02:46:20] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-04-17 02:46:20] INFO root fetch - main [MainThread]: Store serial: [22796869]
