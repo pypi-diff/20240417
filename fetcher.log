@@ -7493,3 +7493,24 @@
 [2024-04-17 03:51:54] INFO root fetch - processPackages [servir-aces]: Remove: archive file [/home/abi/fetcher/tmp/servir_aces-0.0.9.tar.gz]
 [2024-04-17 03:51:54] INFO root fetch - main [MainThread]: End processing [servir-aces]: success
 [2024-04-17 03:51:54] INFO root fetch - main [MainThread]: Store serial: [22798672]
+[2024-04-17 03:53:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798672]
+[2024-04-17 03:54:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 03:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mwalib
+[2024-04-17 03:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: countess
+[2024-04-17 03:54:02] INFO root fetch - processPackages [mwalib]: New version: [1.3.0] Old Version: [1.2.3]
+[2024-04-17 03:54:02] INFO root fetch - processPackages [countess]: New version: [0.0.60] Old Version: [0.0.59]
+[2024-04-17 03:54:03] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/4f/31/fd880c1c28b831194dc5458664ffdb230180209db82b8fc3bb2d8c9aacb8/countess-0.0.59.tar.gz
+[2024-04-17 03:54:03] INFO root fetch - processPackages [mwalib]: Downloading https://files.pythonhosted.org/packages/5f/05/df2e7587bd7c17a19d20a5e0cf4ced3ca6960e234ad6b5b5685145d1116e/mwalib-1.2.3.tar.gz
+[2024-04-17 03:54:03] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/9d/3c/8a9911be48c8adce41c6303474642d4dce9c451cd114b5c640a3134f76b8/countess-0.0.60.tar.gz
+[2024-04-17 03:54:03] INFO root fetch - processPackages [countess]: executing diffoscope
+[2024-04-17 03:54:03] INFO root fetch - processPackages [countess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countess-0.0.59.tar.gz tmp/countess-0.0.60.tar.gz --markdown 20240417/c/countess/0.0.59-0.0.60/README.md --exclude *.pyd
+[2024-04-17 03:54:03] INFO root fetch - processPackages [mwalib]: Downloading https://files.pythonhosted.org/packages/a2/68/7ffaf10507bb76856420fa6266a4ef321675f73e611fd7a741450e3875b9/mwalib-1.3.0.tar.gz
+[2024-04-17 03:54:03] INFO root fetch - processPackages [mwalib]: executing diffoscope
+[2024-04-17 03:54:03] INFO root fetch - processPackages [mwalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwalib-1.2.3.tar.gz tmp/mwalib-1.3.0.tar.gz --markdown 20240417/m/mwalib/1.2.3-1.3.0/README.md --exclude *.pyd
+[2024-04-17 03:54:04] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.59.tar.gz]
+[2024-04-17 03:54:04] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.60.tar.gz]
+[2024-04-17 03:54:04] INFO root fetch - main [MainThread]: End processing [countess]: success
+[2024-04-17 03:54:04] INFO root fetch - processPackages [mwalib]: Remove: archive file [/home/abi/fetcher/tmp/mwalib-1.2.3.tar.gz]
+[2024-04-17 03:54:04] INFO root fetch - processPackages [mwalib]: Remove: archive file [/home/abi/fetcher/tmp/mwalib-1.3.0.tar.gz]
+[2024-04-17 03:54:04] INFO root fetch - main [MainThread]: End processing [mwalib]: success
+[2024-04-17 03:54:04] INFO root fetch - main [MainThread]: Store serial: [22798682]
