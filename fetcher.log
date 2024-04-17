@@ -22551,3 +22551,90 @@ EOFError: EOF read where object expected
 
 [2024-04-17 14:29:55] INFO root fetch - main [MainThread]: End processing [agilicus] error
 [2024-04-17 14:29:55] INFO root fetch - main [MainThread]: Store serial: [22805337]
+[2024-04-17 14:31:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805337]
+[2024-04-17 14:32:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 14:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skanym
+[2024-04-17 14:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-rpc
+[2024-04-17 14:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalhub
+[2024-04-17 14:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quart-rpc
+[2024-04-17 14:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MOBiceps
+[2024-04-17 14:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyetp
+[2024-04-17 14:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digitalhub-core
+[2024-04-17 14:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dans-datastation-tools
+[2024-04-17 14:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digitalhub-data
+[2024-04-17 14:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openobd-protocol
+[2024-04-17 14:32:04] INFO root fetch - processPackages [flask-rpc]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-17 14:32:04] INFO root fetch - processPackages [MOBiceps]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-17 14:32:04] INFO root fetch - processPackages [pyetp]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-17 14:32:04] WARNING root fetch - processPackages [quart-rpc]: Skipping, unable to determine old version
+[2024-04-17 14:32:04] INFO root fetch - main [MainThread]: End processing [quart-rpc] error
+[2024-04-17 14:32:04] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/79/b2/b2790d96b8c935353127015fc6c28d683a06a8b1ea61c12877d11181ca3a/flask_rpc-0.2.2.tar.gz
+[2024-04-17 14:32:04] INFO root fetch - processPackages [digitalhub-core]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 14:32:04] INFO root fetch - processPackages [digitalhub-data]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 14:32:04] INFO root fetch - processPackages [openobd-protocol]: New version: [0.0.37] Old Version: [0.0.36]
+[2024-04-17 14:32:04] INFO root fetch - processPackages [skanym]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 14:32:04] INFO root fetch - processPackages [digitalhub]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 14:32:04] INFO root fetch - processPackages [pyetp]: Downloading https://files.pythonhosted.org/packages/fe/77/22b020f4006f53802d7e1270c9884e0e639c7f33e84daa4e9822e7d0a89b/pyetp-0.0.4.tar.gz
+[2024-04-17 14:32:04] INFO root fetch - processPackages [MOBiceps]: Downloading https://files.pythonhosted.org/packages/7e/a0/8ee24a2222160cc0d5bccbec8f92a83685ae8c0ac9ad4fe529fb0fb951e1/MOBiceps-0.1.2.tar.gz
+[2024-04-17 14:32:04] INFO root fetch - processPackages [dans-datastation-tools]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-17 14:32:04] INFO root fetch - processPackages [skanym]: Downloading https://files.pythonhosted.org/packages/cd/91/94600878d3d9333576d6e676140cf625cb6dfb4463d99c49ed3cd7a39edb/skanym-0.1.0.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/aa/34/68863e6783bcde5904eaa797668d703cc2739dfbe6c29adfaf318d505c9e/flask_rpc-0.2.3.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/08/32/d2fb4957c5b7162424aa9e35e981e3baf4cb192d858e2400d1fa789026e0/digitalhub-0.3.1.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/4a/f5/b6ec709626cad2fc8379209c1314182c2b37c4bbb72d48a58557591c2669/digitalhub-data-0.3.1.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/45/f4/6e11fc08ff048f4ca28f411c2a4cff377cde2a1ac16d0e754cd0394b1356/digitalhub-core-0.3.1.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/30/d7/218cca29e023e322341ba75f5f8b30a89e48782b69d848187d8417f3039f/openobd-protocol-0.0.36.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [dans-datastation-tools]: Downloading https://files.pythonhosted.org/packages/08/62/4cba38c948e0fa33a69c9beca81c47287fee27036ce8c320827363d60325/dans-datastation-tools-0.8.0.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [pyetp]: Downloading https://files.pythonhosted.org/packages/f7/88/542993ca7f0166ae73752cecacb1cd492b4df9c074b31c5aa729efe412a6/pyetp-0.0.5.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [MOBiceps]: Downloading https://files.pythonhosted.org/packages/04/a4/5d656c4770fd55ca354c13ae64190a3a153a8d6425a6635400bbe22dc147/MOBiceps-0.1.3.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [flask-rpc]: executing diffoscope
+[2024-04-17 14:32:05] INFO root fetch - processPackages [flask-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_rpc-0.2.2.tar.gz tmp/flask_rpc-0.2.3.tar.gz --markdown 20240417/f/flask-rpc/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-17 14:32:05] INFO root fetch - processPackages [pyetp]: executing diffoscope
+[2024-04-17 14:32:05] INFO root fetch - processPackages [pyetp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyetp-0.0.4.tar.gz tmp/pyetp-0.0.5.tar.gz --markdown 20240417/p/pyetp/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-17 14:32:05] INFO root fetch - processPackages [MOBiceps]: executing diffoscope
+[2024-04-17 14:32:05] INFO root fetch - processPackages [MOBiceps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MOBiceps-0.1.2.tar.gz tmp/MOBiceps-0.1.3.tar.gz --markdown 20240417/M/MOBiceps/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-17 14:32:05] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/89/f6/2b4a0f782c766cbdde761029aa17b988935411ea7a2b231f2f853bb81268/digitalhub-0.3.2.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/57/36/b720332b0cabaa2c6dd939f3bdd9cba412b85e5ea7009bce560a271ecd7c/digitalhub_data-0.3.2.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [skanym]: Downloading https://files.pythonhosted.org/packages/77/ef/eae610e2b89c8f97df080985d3a9e0565764ac1efced1d887c629c2d338c/skanym-0.1.1.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [dans-datastation-tools]: Downloading https://files.pythonhosted.org/packages/33/96/44cd919e59f5edb30e2236c9f4259f8c9e7483d1219012cbaf403482dd4d/dans-datastation-tools-0.9.0.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [digitalhub-data]: executing diffoscope
+[2024-04-17 14:32:05] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/d3/ef/c22178b16f6fe18e8baaa8c19ff48bbfa9d88c5d0cf2fcde5f85d5293404/digitalhub_core-0.3.2.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [digitalhub-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-data-0.3.1.tar.gz tmp/digitalhub_data-0.3.2.tar.gz --markdown 20240417/d/digitalhub-data/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 14:32:05] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/39/48/87ccfd1be5be7ad0259abaaf6010486ec3959e471073bf20aa750e667a15/openobd_protocol-0.0.37.tar.gz
+[2024-04-17 14:32:05] INFO root fetch - processPackages [digitalhub]: executing diffoscope
+[2024-04-17 14:32:05] INFO root fetch - processPackages [digitalhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-0.3.1.tar.gz tmp/digitalhub-0.3.2.tar.gz --markdown 20240417/d/digitalhub/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 14:32:05] INFO root fetch - processPackages [dans-datastation-tools]: executing diffoscope
+[2024-04-17 14:32:05] INFO root fetch - processPackages [dans-datastation-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dans-datastation-tools-0.8.0.tar.gz tmp/dans-datastation-tools-0.9.0.tar.gz --markdown 20240417/d/dans-datastation-tools/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-17 14:32:05] INFO root fetch - processPackages [digitalhub-core]: executing diffoscope
+[2024-04-17 14:32:05] INFO root fetch - processPackages [digitalhub-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-core-0.3.1.tar.gz tmp/digitalhub_core-0.3.2.tar.gz --markdown 20240417/d/digitalhub-core/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 14:32:05] INFO root fetch - processPackages [openobd-protocol]: executing diffoscope
+[2024-04-17 14:32:05] INFO root fetch - processPackages [openobd-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openobd-protocol-0.0.36.tar.gz tmp/openobd_protocol-0.0.37.tar.gz --markdown 20240417/o/openobd-protocol/0.0.36-0.0.37/README.md --exclude *.pyd
+[2024-04-17 14:32:05] INFO root fetch - processPackages [skanym]: executing diffoscope
+[2024-04-17 14:32:05] INFO root fetch - processPackages [skanym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skanym-0.1.0.tar.gz tmp/skanym-0.1.1.tar.gz --markdown 20240417/s/skanym/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 14:32:05] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-0.2.2.tar.gz]
+[2024-04-17 14:32:05] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-0.2.3.tar.gz]
+[2024-04-17 14:32:05] INFO root fetch - main [MainThread]: End processing [flask-rpc]: success
+[2024-04-17 14:32:06] INFO root fetch - processPackages [pyetp]: Remove: archive file [/home/abi/fetcher/tmp/pyetp-0.0.4.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - processPackages [pyetp]: Remove: archive file [/home/abi/fetcher/tmp/pyetp-0.0.5.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - main [MainThread]: End processing [pyetp]: success
+[2024-04-17 14:32:06] INFO root fetch - processPackages [MOBiceps]: Remove: archive file [/home/abi/fetcher/tmp/MOBiceps-0.1.2.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - processPackages [MOBiceps]: Remove: archive file [/home/abi/fetcher/tmp/MOBiceps-0.1.3.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - main [MainThread]: End processing [MOBiceps]: success
+[2024-04-17 14:32:06] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-data-0.3.1.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.3.2.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - main [MainThread]: End processing [digitalhub-data]: success
+[2024-04-17 14:32:06] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.3.1.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.3.2.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - main [MainThread]: End processing [digitalhub]: success
+[2024-04-17 14:32:06] INFO root fetch - processPackages [dans-datastation-tools]: Remove: archive file [/home/abi/fetcher/tmp/dans-datastation-tools-0.8.0.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - processPackages [dans-datastation-tools]: Remove: archive file [/home/abi/fetcher/tmp/dans-datastation-tools-0.9.0.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - main [MainThread]: End processing [dans-datastation-tools]: success
+[2024-04-17 14:32:06] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd-protocol-0.0.36.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.0.37.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - main [MainThread]: End processing [openobd-protocol]: success
+[2024-04-17 14:32:06] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-core-0.3.1.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.3.2.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
+[2024-04-17 14:32:06] INFO root fetch - processPackages [skanym]: Remove: archive file [/home/abi/fetcher/tmp/skanym-0.1.0.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - processPackages [skanym]: Remove: archive file [/home/abi/fetcher/tmp/skanym-0.1.1.tar.gz]
+[2024-04-17 14:32:06] INFO root fetch - main [MainThread]: End processing [skanym]: success
+[2024-04-17 14:32:06] INFO root fetch - main [MainThread]: Store serial: [22805367]
