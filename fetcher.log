@@ -12721,3 +12721,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:40:18] INFO root fetch - processPackages [ship-model-lib]: Remove: archive file [/home/abi/fetcher/tmp/ship_model_lib-1.0.0.tar.gz]
 [2024-04-17 08:40:18] INFO root fetch - main [MainThread]: End processing [ship-model-lib]: success
 [2024-04-17 08:40:18] INFO root fetch - main [MainThread]: Store serial: [22800660]
+[2024-04-17 08:42:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800660]
+[2024-04-17 08:42:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 08:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aio-scrapy
+[2024-04-17 08:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keelson
+[2024-04-17 08:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eventsail
+[2024-04-17 08:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlfab
+[2024-04-17 08:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: miniscons
+[2024-04-17 08:42:26] INFO root fetch - processPackages [keelson]: New version: [0.3.1rc8] Old Version: [0.3.1rc6]
+[2024-04-17 08:42:26] INFO root fetch - processPackages [eventsail]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 08:42:26] WARNING root fetch - processPackages [miniscons]: Skipping, unable to determine old version
+[2024-04-17 08:42:26] INFO root fetch - main [MainThread]: End processing [miniscons] error
+[2024-04-17 08:42:26] INFO root fetch - processPackages [aio-scrapy]: New version: [2.1.0] Old Version: [2.0.9]
+[2024-04-17 08:42:26] INFO root fetch - processPackages [mlfab]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 08:42:26] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/4b/8d/a8d337d39be75e00edab82ffd0622c355a6b978d01c6baf5e2b85c317cc3/keelson-0.3.1rc6-py3-none-any.whl
+[2024-04-17 08:42:26] INFO root fetch - processPackages [eventsail]: Downloading https://files.pythonhosted.org/packages/da/da/ec720f5dccb7270d4af2970befe4c8237c8c77907eb7087d7c3560980814/eventsail-0.1.0.tar.gz
+[2024-04-17 08:42:26] INFO root fetch - processPackages [aio-scrapy]: Downloading https://files.pythonhosted.org/packages/3e/22/27a96954581547da170aad459072e69ec5d15ce4c3717ad0ce564bf112b3/aio-scrapy-2.0.9.tar.gz
+[2024-04-17 08:42:26] INFO root fetch - processPackages [mlfab]: Downloading https://files.pythonhosted.org/packages/c4/72/85d3c3a95ee721e23153609f999bdf722318ecd5c35c5628d184be3053ac/mlfab-0.1.8.tar.gz
+[2024-04-17 08:42:27] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/c6/e7/74deb2f4692ca724892622c48d5c9a3300000f59c46ecd7f1ca9fbf2937f/keelson-0.3.1rc8-py3-none-any.whl
+[2024-04-17 08:42:27] INFO root fetch - processPackages [eventsail]: Downloading https://files.pythonhosted.org/packages/c6/ad/95559bb9071bc4d6440cc5e625b437440130b4a139b4e1392d8d3a70d542/eventsail-0.1.1.tar.gz
+[2024-04-17 08:42:27] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-17 08:42:27] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.1rc6-py3-none-any.whl.zip tmp/keelson-0.3.1rc8-py3-none-any.whl.zip --markdown 20240417/k/keelson/0.3.1rc6-0.3.1rc8/README.md --exclude *.pyd
+[2024-04-17 08:42:27] INFO root fetch - processPackages [aio-scrapy]: Downloading https://files.pythonhosted.org/packages/01/6b/a17c577c86067ba5b59e3715d5dc01eaca1dd4793d661307ca189a76ea2e/aio-scrapy-2.1.0.tar.gz
+[2024-04-17 08:42:27] INFO root fetch - processPackages [eventsail]: executing diffoscope
+[2024-04-17 08:42:27] INFO root fetch - processPackages [eventsail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventsail-0.1.0.tar.gz tmp/eventsail-0.1.1.tar.gz --markdown 20240417/e/eventsail/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 08:42:27] INFO root fetch - processPackages [mlfab]: Downloading https://files.pythonhosted.org/packages/0e/87/ef727427b8dfe81acffbb1f26533da2a70f85e7beb67451421ead578c9a1/mlfab-0.1.9.tar.gz
+[2024-04-17 08:42:27] INFO root fetch - processPackages [aio-scrapy]: executing diffoscope
+[2024-04-17 08:42:27] INFO root fetch - processPackages [aio-scrapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-scrapy-2.0.9.tar.gz tmp/aio-scrapy-2.1.0.tar.gz --markdown 20240417/a/aio-scrapy/2.0.9-2.1.0/README.md --exclude *.pyd
+[2024-04-17 08:42:27] INFO root fetch - processPackages [mlfab]: executing diffoscope
+[2024-04-17 08:42:27] INFO root fetch - processPackages [mlfab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfab-0.1.8.tar.gz tmp/mlfab-0.1.9.tar.gz --markdown 20240417/m/mlfab/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 08:42:27] INFO root fetch - processPackages [eventsail]: Remove: archive file [/home/abi/fetcher/tmp/eventsail-0.1.0.tar.gz]
+[2024-04-17 08:42:27] INFO root fetch - processPackages [eventsail]: Remove: archive file [/home/abi/fetcher/tmp/eventsail-0.1.1.tar.gz]
+[2024-04-17 08:42:27] INFO root fetch - main [MainThread]: End processing [eventsail]: success
+[2024-04-17 08:42:28] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc6-py3-none-any.whl.zip]
+[2024-04-17 08:42:28] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc8-py3-none-any.whl.zip]
+[2024-04-17 08:42:28] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-17 08:42:28] INFO root fetch - processPackages [aio-scrapy]: Remove: archive file [/home/abi/fetcher/tmp/aio-scrapy-2.0.9.tar.gz]
+[2024-04-17 08:42:28] INFO root fetch - processPackages [aio-scrapy]: Remove: archive file [/home/abi/fetcher/tmp/aio-scrapy-2.1.0.tar.gz]
+[2024-04-17 08:42:28] INFO root fetch - main [MainThread]: End processing [aio-scrapy]: success
+[2024-04-17 08:42:28] INFO root fetch - processPackages [mlfab]: Remove: archive file [/home/abi/fetcher/tmp/mlfab-0.1.8.tar.gz]
+[2024-04-17 08:42:28] INFO root fetch - processPackages [mlfab]: Remove: archive file [/home/abi/fetcher/tmp/mlfab-0.1.9.tar.gz]
+[2024-04-17 08:42:28] INFO root fetch - main [MainThread]: End processing [mlfab]: success
+[2024-04-17 08:42:28] INFO root fetch - main [MainThread]: Store serial: [22800676]
