@@ -20603,3 +20603,29 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:19:33] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.9.tar.gz]
 [2024-04-17 13:19:33] INFO root fetch - main [MainThread]: End processing [servicelayer]: success
 [2024-04-17 13:19:33] INFO root fetch - main [MainThread]: Store serial: [22804397]
+[2024-04-17 13:21:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804397]
+[2024-04-17 13:21:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 13:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe
+[2024-04-17 13:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: theohe-epias
+[2024-04-17 13:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-fhl
+[2024-04-17 13:21:42] INFO root fetch - processPackages [nonebot-plugin-fhl]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-17 13:21:42] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240416] Old Version: [2.5.0b20240415]
+[2024-04-17 13:21:42] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/37/96/29e7bd8fa4121f03309fee2c3192a4cc0aab53fd42825b2bbcefd029094f/nonebot_plugin_fhl-0.1.5.tar.gz
+[2024-04-17 13:21:42] INFO root fetch - processPackages [theohe-epias]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 13:21:42] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/68/3a/6c09ee693dbd4afd02135765ac85807af7cf6b7d54307a834d98507a0345/bigdl_core_xe-2.5.0b20240415-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-17 13:21:42] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105244719>=10485760
+[2024-04-17 13:21:42] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-17 13:21:42] INFO root fetch - processPackages [theohe-epias]: Downloading https://files.pythonhosted.org/packages/5b/a3/3a65355dd236e0cc043225aca4e084a4f55c4788cfc866404408ea4c6a9a/theohe-epias-0.0.8.tar.gz
+[2024-04-17 13:21:42] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/e6/33/132c67f52d5bec99f15c51eabc1c67d16c9b136cf337295e70a3409aacbf/nonebot_plugin_fhl-0.1.6.tar.gz
+[2024-04-17 13:21:42] INFO root fetch - processPackages [nonebot-plugin-fhl]: executing diffoscope
+[2024-04-17 13:21:42] INFO root fetch - processPackages [nonebot-plugin-fhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_fhl-0.1.5.tar.gz tmp/nonebot_plugin_fhl-0.1.6.tar.gz --markdown 20240417/n/nonebot-plugin-fhl/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-17 13:21:42] INFO root fetch - processPackages [theohe-epias]: Downloading https://files.pythonhosted.org/packages/94/64/9be708a87efea1075febc3a464865ac769f5382b6f82519ad64ebb75b0a1/theohe_epias-0.0.9.tar.gz
+[2024-04-17 13:21:43] INFO root fetch - processPackages [theohe-epias]: executing diffoscope
+[2024-04-17 13:21:43] INFO root fetch - processPackages [theohe-epias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theohe-epias-0.0.8.tar.gz tmp/theohe_epias-0.0.9.tar.gz --markdown 20240417/t/theohe-epias/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 13:21:43] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.5.tar.gz]
+[2024-04-17 13:21:43] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.6.tar.gz]
+[2024-04-17 13:21:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fhl]: success
+[2024-04-17 13:21:43] INFO root fetch - processPackages [theohe-epias]: Remove: archive file [/home/abi/fetcher/tmp/theohe-epias-0.0.8.tar.gz]
+[2024-04-17 13:21:43] INFO root fetch - processPackages [theohe-epias]: Remove: archive file [/home/abi/fetcher/tmp/theohe_epias-0.0.9.tar.gz]
+[2024-04-17 13:21:43] INFO root fetch - main [MainThread]: End processing [theohe-epias]: success
+[2024-04-17 13:21:43] INFO root fetch - main [MainThread]: Store serial: [22804405]
