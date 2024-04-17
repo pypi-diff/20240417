@@ -20355,3 +20355,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:01:27] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
 [2024-04-17 13:01:27] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
 [2024-04-17 13:01:27] INFO root fetch - main [MainThread]: Store serial: [22804242]
+[2024-04-17 13:03:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804242]
+[2024-04-17 13:03:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 13:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emerald-hws
+[2024-04-17 13:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crosslab-aiortc
+[2024-04-17 13:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkov
+[2024-04-17 13:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvutil
+[2024-04-17 13:03:37] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-17 13:03:37] WARNING root fetch - processPackages [cvutil]: Skipping, unable to determine old version
+[2024-04-17 13:03:37] INFO root fetch - main [MainThread]: End processing [cvutil] error
+[2024-04-17 13:03:37] INFO root fetch - processPackages [emerald-hws]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-17 13:03:37] INFO root fetch - processPackages [crosslab-aiortc]: New version: [1.8.0] Old Version: [1.5.0]
+[2024-04-17 13:03:37] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-04-17 13:03:37] INFO root fetch - processPackages [emerald-hws]: Downloading https://files.pythonhosted.org/packages/bc/e7/28d06e6f7fb6092e5bf7d20d11cb3d04fc3821c6cc9e64d12bf4c48630f9/emerald_hws-0.0.6.tar.gz
+[2024-04-17 13:03:37] INFO root fetch - processPackages [crosslab-aiortc]: Downloading https://files.pythonhosted.org/packages/ed/a3/f9d3708f46605948bc3bbd5ab0468444f29354b17d3cf7305dac0f38ef36/crosslab-aiortc-1.5.0.tar.gz
+[2024-04-17 13:03:37] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-04-17 13:03:37] INFO root fetch - processPackages [emerald-hws]: Downloading https://files.pythonhosted.org/packages/7c/05/cfa50410ae1fa2e08a34c9a98fe2cc370ffe8f0ad1605989b86856e71b01/emerald_hws-0.0.7.tar.gz
+[2024-04-17 13:03:37] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-04-17 13:03:37] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240417/c/checkov/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-17 13:03:37] INFO root fetch - processPackages [crosslab-aiortc]: Downloading https://files.pythonhosted.org/packages/fe/70/ad7bffdbb9d250b90490b09f52757813ab63cce36e3c893f0281db945e6f/crosslab_aiortc-1.8.0.tar.gz
+[2024-04-17 13:03:37] INFO root fetch - processPackages [emerald-hws]: executing diffoscope
+[2024-04-17 13:03:37] INFO root fetch - processPackages [emerald-hws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emerald_hws-0.0.6.tar.gz tmp/emerald_hws-0.0.7.tar.gz --markdown 20240417/e/emerald-hws/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-17 13:03:38] INFO root fetch - processPackages [crosslab-aiortc]: executing diffoscope
+[2024-04-17 13:03:38] INFO root fetch - processPackages [crosslab-aiortc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab-aiortc-1.5.0.tar.gz tmp/crosslab_aiortc-1.8.0.tar.gz --markdown 20240417/c/crosslab-aiortc/1.5.0-1.8.0/README.md --exclude *.pyd
+[2024-04-17 13:03:38] INFO root fetch - processPackages [emerald-hws]: Remove: archive file [/home/abi/fetcher/tmp/emerald_hws-0.0.6.tar.gz]
+[2024-04-17 13:03:38] INFO root fetch - processPackages [emerald-hws]: Remove: archive file [/home/abi/fetcher/tmp/emerald_hws-0.0.7.tar.gz]
+[2024-04-17 13:03:38] INFO root fetch - main [MainThread]: End processing [emerald-hws]: success
+[2024-04-17 13:03:39] INFO root fetch - processPackages [crosslab-aiortc]: Remove: archive file [/home/abi/fetcher/tmp/crosslab-aiortc-1.5.0.tar.gz]
+[2024-04-17 13:03:39] INFO root fetch - processPackages [crosslab-aiortc]: Remove: archive file [/home/abi/fetcher/tmp/crosslab_aiortc-1.8.0.tar.gz]
+[2024-04-17 13:03:39] INFO root fetch - main [MainThread]: End processing [crosslab-aiortc]: success
+[2024-04-17 13:03:45] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-04-17 13:03:45] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-04-17 13:03:45] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-04-17 13:03:45] INFO root fetch - main [MainThread]: Store serial: [22804281]
