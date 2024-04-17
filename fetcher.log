@@ -15248,3 +15248,56 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:11:42] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
 [2024-04-17 10:11:42] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
 [2024-04-17 10:11:42] INFO root fetch - main [MainThread]: Store serial: [22801981]
+[2024-04-17 10:13:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801981]
+[2024-04-17 10:13:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 10:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eventsail
+[2024-04-17 10:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: httpx-oauth
+[2024-04-17 10:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: istr-python
+[2024-04-17 10:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: superblockify
+[2024-04-17 10:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapy-zyte-api
+[2024-04-17 10:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stpyv8
+[2024-04-17 10:13:51] INFO root fetch - processPackages [eventsail]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 10:13:51] INFO root fetch - processPackages [istr-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 10:13:51] INFO root fetch - processPackages [eventsail]: Downloading https://files.pythonhosted.org/packages/da/da/ec720f5dccb7270d4af2970befe4c8237c8c77907eb7087d7c3560980814/eventsail-0.1.0.tar.gz
+[2024-04-17 10:13:51] INFO root fetch - processPackages [istr-python]: Downloading https://files.pythonhosted.org/packages/a3/25/b3884c98fe1936bfd84b62db30ef1a6c7782b2aa09e420974708968b34fa/istr_python-0.0.2.tar.gz
+[2024-04-17 10:13:52] INFO root fetch - processPackages [scrapy-zyte-api]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-17 10:13:52] INFO root fetch - processPackages [httpx-oauth]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-17 10:13:52] INFO root fetch - processPackages [superblockify]: New version: [1.0.0rc6] Old Version: [1.0.0rc5]
+[2024-04-17 10:13:52] INFO root fetch - processPackages [stpyv8]: New version: [12.4.254.13] Old Version: [12.3.219.16]
+[2024-04-17 10:13:52] INFO root fetch - processPackages [eventsail]: Downloading https://files.pythonhosted.org/packages/c6/ad/95559bb9071bc4d6440cc5e625b437440130b4a139b4e1392d8d3a70d542/eventsail-0.1.1.tar.gz
+[2024-04-17 10:13:52] INFO root fetch - processPackages [stpyv8]: Downloading https://files.pythonhosted.org/packages/ba/b0/7180fad96d6fc3db1012f60a6fc41df24d715dcdd0106cab9bc20cb8e6c1/stpyv8-12.3.219.16-cp39-cp39-win_amd64.whl
+[2024-04-17 10:13:52] INFO root fetch - processPackages [scrapy-zyte-api]: Downloading https://files.pythonhosted.org/packages/e7/7b/36aad7ebce5dc78b2d17301e554e0ea8e9e4a4667245e6a67e1de860c1fd/scrapy-zyte-api-0.8.4.tar.gz
+[2024-04-17 10:13:52] INFO root fetch - processPackages [istr-python]: Downloading https://files.pythonhosted.org/packages/c1/cc/95d21deddd245293a8f3e4b4a3db1342fa6e07dee574c2e3bdac094c1e09/istr_python-0.0.3.tar.gz
+[2024-04-17 10:13:52] INFO root fetch - processPackages [httpx-oauth]: Downloading https://files.pythonhosted.org/packages/e2/4d/6c12fd86fbe15a3e3b4d2c11a1836c26b105ff41bc50cebb435266e69552/httpx-oauth-0.9.0.tar.gz
+[2024-04-17 10:13:52] INFO root fetch - processPackages [superblockify]: Downloading https://files.pythonhosted.org/packages/40/f3/2c6c3c1204b5f71904d09e39c72130a5ef0c429f9863debf67bea8db7e90/superblockify-1.0.0rc5.tar.gz
+[2024-04-17 10:13:52] INFO root fetch - processPackages [eventsail]: executing diffoscope
+[2024-04-17 10:13:52] INFO root fetch - processPackages [eventsail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventsail-0.1.0.tar.gz tmp/eventsail-0.1.1.tar.gz --markdown 20240417/e/eventsail/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 10:13:52] INFO root fetch - processPackages [istr-python]: executing diffoscope
+[2024-04-17 10:13:52] INFO root fetch - processPackages [istr-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/istr_python-0.0.2.tar.gz tmp/istr_python-0.0.3.tar.gz --markdown 20240417/i/istr-python/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 10:13:52] WARNING root fetch - processPackages [stpyv8]: Skipping package: exceeds size limit 12888901>=10485760
+[2024-04-17 10:13:52] INFO root fetch - main [MainThread]: End processing [stpyv8] error
+[2024-04-17 10:13:52] INFO root fetch - processPackages [superblockify]: Downloading https://files.pythonhosted.org/packages/4c/35/8bbea7e195de8092937d77e894919c7f6c8aaabb1b325bc11323d7509dd9/superblockify-1.0.0rc6.tar.gz
+[2024-04-17 10:13:52] INFO root fetch - processPackages [scrapy-zyte-api]: Downloading https://files.pythonhosted.org/packages/22/f8/aa367ede8774c33162034b6719c8e423524414115c24d0173acf360072f6/scrapy-zyte-api-0.9.0.tar.gz
+[2024-04-17 10:13:52] INFO root fetch - processPackages [httpx-oauth]: Downloading https://files.pythonhosted.org/packages/9a/1d/3531ba1a5366ca27e28f3dba1c62b836796ff9f776f8936bc4b09d7ba1cf/httpx-oauth-0.9.1.tar.gz
+[2024-04-17 10:13:52] INFO root fetch - processPackages [scrapy-zyte-api]: executing diffoscope
+[2024-04-17 10:13:52] INFO root fetch - processPackages [scrapy-zyte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-zyte-api-0.8.4.tar.gz tmp/scrapy-zyte-api-0.9.0.tar.gz --markdown 20240417/s/scrapy-zyte-api/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-17 10:13:52] INFO root fetch - processPackages [httpx-oauth]: executing diffoscope
+[2024-04-17 10:13:52] INFO root fetch - processPackages [httpx-oauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpx-oauth-0.9.0.tar.gz tmp/httpx-oauth-0.9.1.tar.gz --markdown 20240417/h/httpx-oauth/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-17 10:13:52] INFO root fetch - processPackages [superblockify]: executing diffoscope
+[2024-04-17 10:13:52] INFO root fetch - processPackages [superblockify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblockify-1.0.0rc5.tar.gz tmp/superblockify-1.0.0rc6.tar.gz --markdown 20240417/s/superblockify/1.0.0rc5-1.0.0rc6/README.md --exclude *.pyd
+[2024-04-17 10:13:53] INFO root fetch - processPackages [istr-python]: Remove: archive file [/home/abi/fetcher/tmp/istr_python-0.0.2.tar.gz]
+[2024-04-17 10:13:53] INFO root fetch - processPackages [istr-python]: Remove: archive file [/home/abi/fetcher/tmp/istr_python-0.0.3.tar.gz]
+[2024-04-17 10:13:53] INFO root fetch - main [MainThread]: End processing [istr-python]: success
+[2024-04-17 10:13:53] INFO root fetch - processPackages [eventsail]: Remove: archive file [/home/abi/fetcher/tmp/eventsail-0.1.0.tar.gz]
+[2024-04-17 10:13:53] INFO root fetch - processPackages [eventsail]: Remove: archive file [/home/abi/fetcher/tmp/eventsail-0.1.1.tar.gz]
+[2024-04-17 10:13:53] INFO root fetch - main [MainThread]: End processing [eventsail]: success
+[2024-04-17 10:13:53] INFO root fetch - processPackages [scrapy-zyte-api]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-zyte-api-0.8.4.tar.gz]
+[2024-04-17 10:13:53] INFO root fetch - processPackages [scrapy-zyte-api]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-zyte-api-0.9.0.tar.gz]
+[2024-04-17 10:13:53] INFO root fetch - main [MainThread]: End processing [scrapy-zyte-api]: success
+[2024-04-17 10:13:53] INFO root fetch - processPackages [httpx-oauth]: Remove: archive file [/home/abi/fetcher/tmp/httpx-oauth-0.9.0.tar.gz]
+[2024-04-17 10:13:53] INFO root fetch - processPackages [httpx-oauth]: Remove: archive file [/home/abi/fetcher/tmp/httpx-oauth-0.9.1.tar.gz]
+[2024-04-17 10:13:53] INFO root fetch - main [MainThread]: End processing [httpx-oauth]: success
+[2024-04-17 10:13:53] INFO root fetch - processPackages [superblockify]: Remove: archive file [/home/abi/fetcher/tmp/superblockify-1.0.0rc5.tar.gz]
+[2024-04-17 10:13:53] INFO root fetch - processPackages [superblockify]: Remove: archive file [/home/abi/fetcher/tmp/superblockify-1.0.0rc6.tar.gz]
+[2024-04-17 10:13:53] INFO root fetch - main [MainThread]: End processing [superblockify]: success
+[2024-04-17 10:13:53] INFO root fetch - main [MainThread]: Store serial: [22802000]
