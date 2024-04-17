@@ -19912,3 +19912,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:43:36] INFO root fetch - main [MainThread]: End processing [trytond-account-statement-mt940]: success
 [2024-04-17 12:43:36] INFO root fetch - main [MainThread]: End processing [trytond-account-payment-stripe]: success
 [2024-04-17 12:43:36] INFO root fetch - main [MainThread]: Store serial: [22804064]
+[2024-04-17 12:45:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804064]
+[2024-04-17 12:45:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 12:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lexifuzz-ner
+[2024-04-17 12:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-fhl
+[2024-04-17 12:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cubed
+[2024-04-17 12:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autora-experimentalist-falsification
+[2024-04-17 12:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edgeimpulse-api
+[2024-04-17 12:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-account-payment-clearing
+[2024-04-17 12:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-account-invoice
+[2024-04-17 12:45:44] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.49.8] Old Version: [1.49.6]
+[2024-04-17 12:45:44] INFO root fetch - processPackages [lexifuzz-ner]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-17 12:45:44] INFO root fetch - processPackages [nonebot-plugin-fhl]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-17 12:45:44] INFO root fetch - processPackages [lexifuzz-ner]: Downloading https://files.pythonhosted.org/packages/af/21/a445d42f3a13d862d15c994c06a00b638f057e882bdb33a8a9993eb586a3/lexifuzz_ner-0.0.4.tar.gz
+[2024-04-17 12:45:44] INFO root fetch - processPackages [cubed]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-17 12:45:44] INFO root fetch - processPackages [autora-experimentalist-falsification]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-17 12:45:44] INFO root fetch - processPackages [trytond-account-payment-clearing]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-17 12:45:44] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/6f/9d/623eba3b07fa9baa3793e0b694b9793a0b1d95929ef40f5e27108d51dac9/edgeimpulse_api-1.49.6.tar.gz
+[2024-04-17 12:45:44] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/4e/85/cf9fe943513240adde744bca45b5d7b302f08289d092d41faee8f2f0c439/nonebot_plugin_fhl-0.1.4.tar.gz
+[2024-04-17 12:45:44] INFO root fetch - processPackages [lexifuzz-ner]: Downloading https://files.pythonhosted.org/packages/90/58/1e049a64604052bde287f57220ba464780591f590d49068cbeee42da393b/lexifuzz_ner-0.0.5.tar.gz
+[2024-04-17 12:45:44] INFO root fetch - processPackages [trytond-account-invoice]: New version: [7.0.4] Old Version: [7.0.3]
+[2024-04-17 12:45:45] INFO root fetch - processPackages [cubed]: Downloading https://files.pythonhosted.org/packages/8e/15/3bb624b77fa4faae61f3f297cb9d74a43494e09b77f4008070c12898480d/cubed-0.8.0.tar.gz
+[2024-04-17 12:45:45] INFO root fetch - processPackages [trytond-account-payment-clearing]: Downloading https://files.pythonhosted.org/packages/f4/e0/49e2d9e6d2f5c003e01026feb0008937777df5dbdfe1db523f5ddc7986ce/trytond_account_payment_clearing-7.0.1.tar.gz
+[2024-04-17 12:45:45] INFO root fetch - processPackages [autora-experimentalist-falsification]: Downloading https://files.pythonhosted.org/packages/1f/52/f11fd59dfbfd70d3996257a58dc38395da916f9a152b8ee553c6952e4761/autora-experimentalist-falsification-2.0.1.tar.gz
+[2024-04-17 12:45:45] INFO root fetch - processPackages [lexifuzz-ner]: executing diffoscope
+[2024-04-17 12:45:45] INFO root fetch - processPackages [lexifuzz-ner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexifuzz_ner-0.0.4.tar.gz tmp/lexifuzz_ner-0.0.5.tar.gz --markdown 20240417/l/lexifuzz-ner/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-17 12:45:45] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/37/96/29e7bd8fa4121f03309fee2c3192a4cc0aab53fd42825b2bbcefd029094f/nonebot_plugin_fhl-0.1.5.tar.gz
+[2024-04-17 12:45:45] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/c3/18/33f68925bcf332efc7ba6f4038a59ad0039a971abe54a4138a716ef06ffb/edgeimpulse_api-1.49.8.tar.gz
+[2024-04-17 12:45:45] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/78/d4/5360e5c32c2a8c75774ed22f47bd29927a48d94e19cb28eae8b11c6160d5/trytond_account_invoice-7.0.3.tar.gz
+[2024-04-17 12:45:45] INFO root fetch - processPackages [nonebot-plugin-fhl]: executing diffoscope
+[2024-04-17 12:45:45] INFO root fetch - processPackages [nonebot-plugin-fhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_fhl-0.1.4.tar.gz tmp/nonebot_plugin_fhl-0.1.5.tar.gz --markdown 20240417/n/nonebot-plugin-fhl/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-17 12:45:45] INFO root fetch - processPackages [trytond-account-payment-clearing]: Downloading https://files.pythonhosted.org/packages/ff/02/df2bae38973d0cb0d38f157665c15e825fc33a3808b8a72f745fe8c95f98/trytond_account_payment_clearing-7.0.2.tar.gz
+[2024-04-17 12:45:45] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2024-04-17 12:45:45] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.49.6.tar.gz tmp/edgeimpulse_api-1.49.8.tar.gz --markdown 20240417/e/edgeimpulse-api/1.49.6-1.49.8/README.md --exclude *.pyd
+[2024-04-17 12:45:45] INFO root fetch - processPackages [cubed]: Downloading https://files.pythonhosted.org/packages/df/b7/a7b5ccd8c50f461a78dc131c98a62fefe9d8dca1d3a92d3f83959d4899c3/cubed-0.9.0.tar.gz
+[2024-04-17 12:45:45] INFO root fetch - processPackages [autora-experimentalist-falsification]: Downloading https://files.pythonhosted.org/packages/a2/f7/6527c4f992f12fdba148bdd841c8ed6c5dc5c45a37f7a7321402bfd95834/autora-experimentalist-falsification-2.0.2.tar.gz
+[2024-04-17 12:45:45] INFO root fetch - processPackages [trytond-account-payment-clearing]: executing diffoscope
+[2024-04-17 12:45:45] INFO root fetch - processPackages [trytond-account-payment-clearing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_payment_clearing-7.0.1.tar.gz tmp/trytond_account_payment_clearing-7.0.2.tar.gz --markdown 20240417/t/trytond-account-payment-clearing/7.0.1-7.0.2/README.md --exclude *.pyd
+[2024-04-17 12:45:45] INFO root fetch - processPackages [lexifuzz-ner]: Remove: archive file [/home/abi/fetcher/tmp/lexifuzz_ner-0.0.4.tar.gz]
+[2024-04-17 12:45:45] INFO root fetch - processPackages [lexifuzz-ner]: Remove: archive file [/home/abi/fetcher/tmp/lexifuzz_ner-0.0.5.tar.gz]
+[2024-04-17 12:45:45] INFO root fetch - main [MainThread]: End processing [lexifuzz-ner]: success
+[2024-04-17 12:45:45] INFO root fetch - processPackages [cubed]: executing diffoscope
+[2024-04-17 12:45:45] INFO root fetch - processPackages [cubed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubed-0.8.0.tar.gz tmp/cubed-0.9.0.tar.gz --markdown 20240417/c/cubed/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-17 12:45:45] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/a4/3c/d35ede5fa27758149f51beb0adea9e5009146d3a1812ee19a63356af501a/trytond_account_invoice-7.0.4-py3-none-any.whl
+[2024-04-17 12:45:45] INFO root fetch - processPackages [autora-experimentalist-falsification]: executing diffoscope
+[2024-04-17 12:45:45] INFO root fetch - processPackages [autora-experimentalist-falsification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experimentalist-falsification-2.0.1.tar.gz tmp/autora-experimentalist-falsification-2.0.2.tar.gz --markdown 20240417/a/autora-experimentalist-falsification/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-17 12:45:45] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.4.tar.gz]
+[2024-04-17 12:45:45] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.5.tar.gz]
+[2024-04-17 12:45:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fhl]: success
+[2024-04-17 12:45:46] INFO root fetch - processPackages [trytond-account-invoice]: executing diffoscope
+[2024-04-17 12:45:46] INFO root fetch - processPackages [trytond-account-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice-7.0.3.tar.gz tmp/trytond_account_invoice-7.0.4-py3-none-any.whl.zip --markdown 20240417/t/trytond-account-invoice/7.0.3-7.0.4/README.md --exclude *.pyd
+[2024-04-17 12:45:46] INFO root fetch - processPackages [trytond-account-payment-clearing]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_payment_clearing-7.0.1.tar.gz]
+[2024-04-17 12:45:46] INFO root fetch - processPackages [trytond-account-payment-clearing]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_payment_clearing-7.0.2.tar.gz]
+[2024-04-17 12:45:46] INFO root fetch - main [MainThread]: End processing [trytond-account-payment-clearing]: success
+[2024-04-17 12:45:46] INFO root fetch - processPackages [autora-experimentalist-falsification]: Remove: archive file [/home/abi/fetcher/tmp/autora-experimentalist-falsification-2.0.1.tar.gz]
+[2024-04-17 12:45:46] INFO root fetch - processPackages [autora-experimentalist-falsification]: Remove: archive file [/home/abi/fetcher/tmp/autora-experimentalist-falsification-2.0.2.tar.gz]
+[2024-04-17 12:45:46] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-falsification]: success
+[2024-04-17 12:45:46] INFO root fetch - processPackages [trytond-account-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_invoice-7.0.3.tar.gz]
+[2024-04-17 12:45:46] INFO root fetch - processPackages [trytond-account-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_invoice-7.0.4-py3-none-any.whl.zip]
+[2024-04-17 12:45:46] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
+[2024-04-17 12:45:46] INFO root fetch - processPackages [cubed]: Remove: archive file [/home/abi/fetcher/tmp/cubed-0.8.0.tar.gz]
+[2024-04-17 12:45:46] INFO root fetch - processPackages [cubed]: Remove: archive file [/home/abi/fetcher/tmp/cubed-0.9.0.tar.gz]
+[2024-04-17 12:45:46] INFO root fetch - main [MainThread]: End processing [cubed]: success
+[2024-04-17 12:45:49] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.6.tar.gz]
+[2024-04-17 12:45:49] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.8.tar.gz]
+[2024-04-17 12:45:49] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2024-04-17 12:45:49] INFO root fetch - main [MainThread]: Store serial: [22804083]
