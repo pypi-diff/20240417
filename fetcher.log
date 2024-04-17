@@ -7976,3 +7976,24 @@
 [2024-04-17 04:20:37] INFO root fetch - processPackages [mmrotate-dev]: Remove: archive file [/home/abi/fetcher/tmp/mmrotate_dev-1.0.0rc2.tar.gz]
 [2024-04-17 04:20:37] INFO root fetch - main [MainThread]: End processing [mmrotate-dev]: success
 [2024-04-17 04:20:37] INFO root fetch - main [MainThread]: Store serial: [22798888]
+[2024-04-17 04:22:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798888]
+[2024-04-17 04:22:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 04:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: model-explorer
+[2024-04-17 04:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ehdg-tools
+[2024-04-17 04:22:46] INFO root fetch - processPackages [ehdg-tools]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-04-17 04:22:46] INFO root fetch - processPackages [model-explorer]: New version: [0.0.69] Old Version: [0.0.68]
+[2024-04-17 04:22:46] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/94/fe/cafc7e2f3c30f1f7e949fb270ed14cb650ab3de953c6ac6e7b5e9bac90ab/model-explorer-0.0.68.tar.gz
+[2024-04-17 04:22:46] INFO root fetch - processPackages [ehdg-tools]: Downloading https://files.pythonhosted.org/packages/2f/2d/f797103df07623f427109d6014f33d110c45a2d7ab7f1d7d67efcf474684/ehdg_tools-4.1.0.tar.gz
+[2024-04-17 04:22:46] INFO root fetch - processPackages [ehdg-tools]: Downloading https://files.pythonhosted.org/packages/e3/fb/8cbec6b1d6bd3cf419ce1fea2ce72bd9c0333a80a37154d3978924b993c7/ehdg_tools-4.2.0.tar.gz
+[2024-04-17 04:22:47] INFO root fetch - processPackages [ehdg-tools]: executing diffoscope
+[2024-04-17 04:22:47] INFO root fetch - processPackages [ehdg-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdg_tools-4.1.0.tar.gz tmp/ehdg_tools-4.2.0.tar.gz --markdown 20240417/e/ehdg-tools/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-04-17 04:22:47] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/4f/a4/db518ac291eebc544222a3f8fa9022f8b8ce73ea3bf816eeb2b50dca2fb7/model_explorer-0.0.69.tar.gz
+[2024-04-17 04:22:47] INFO root fetch - processPackages [ehdg-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_tools-4.1.0.tar.gz]
+[2024-04-17 04:22:47] INFO root fetch - processPackages [ehdg-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_tools-4.2.0.tar.gz]
+[2024-04-17 04:22:47] INFO root fetch - main [MainThread]: End processing [ehdg-tools]: success
+[2024-04-17 04:22:47] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-04-17 04:22:47] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-explorer-0.0.68.tar.gz tmp/model_explorer-0.0.69.tar.gz --markdown 20240417/m/model-explorer/0.0.68-0.0.69/README.md --exclude *.pyd
+[2024-04-17 04:23:06] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.68.tar.gz]
+[2024-04-17 04:23:06] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.69.tar.gz]
+[2024-04-17 04:23:06] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-04-17 04:23:06] INFO root fetch - main [MainThread]: Store serial: [22798894]
