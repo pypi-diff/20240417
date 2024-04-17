@@ -1815,3 +1815,45 @@
 [2024-04-17 02:06:38] INFO root fetch - processPackages [pcdsdevices]: Remove: archive file [/home/abi/fetcher/tmp/pcdsdevices-8.4.0.tar.gz]
 [2024-04-17 02:06:38] INFO root fetch - main [MainThread]: End processing [pcdsdevices]: success
 [2024-04-17 02:06:38] INFO root fetch - main [MainThread]: Store serial: [22796494]
+[2024-04-17 02:08:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796494]
+[2024-04-17 02:08:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 02:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2024-04-17 02:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: create-mountaineer-app
+[2024-04-17 02:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IsNumberOdd
+[2024-04-17 02:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prerun
+[2024-04-17 02:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pfio
+[2024-04-17 02:08:46] INFO root fetch - processPackages [prerun]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-17 02:08:47] INFO root fetch - processPackages [prerun]: Downloading https://files.pythonhosted.org/packages/10/fe/a99357f56652030377d5fe219756226156751038a4c441a0e41608f41784/prerun-1.0.0.tar.gz
+[2024-04-17 02:08:47] INFO root fetch - processPackages [create-mountaineer-app]: New version: [0.4.1.dev3] Old Version: [0.4.1.dev2]
+[2024-04-17 02:08:47] WARNING root fetch - processPackages [IsNumberOdd]: Skipping, unable to determine old version
+[2024-04-17 02:08:47] INFO root fetch - main [MainThread]: End processing [IsNumberOdd] error
+[2024-04-17 02:08:47] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240417] Old Version: [0.0.8.dev20240416]
+[2024-04-17 02:08:47] INFO root fetch - processPackages [pfio]: New version: [2.8.0] Old Version: [2.7.1]
+[2024-04-17 02:08:47] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/47/93/4656345f5b3924efb74b582c08f755f8543af40deecf29938c7830b4d207/create_mountaineer_app-0.4.1.dev2.tar.gz
+[2024-04-17 02:08:47] INFO root fetch - processPackages [prerun]: Downloading https://files.pythonhosted.org/packages/2d/0f/6b9a1424f2b167e1760a77afcf9b40b4d9b884b0101fc848f44eb8e53098/prerun-1.1.0.tar.gz
+[2024-04-17 02:08:47] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/ca/e4/df1e372279442c729a1ea8e74bcd2db0757d415e7b306d359eaec2835643/jaxutils-nightly-0.0.8.dev20240416.tar.gz
+[2024-04-17 02:08:47] INFO root fetch - processPackages [pfio]: Downloading https://files.pythonhosted.org/packages/76/6d/4b809348224175ee620d61e3b03a0bd76254f7faba23cf6b16fe1649e729/pfio-2.7.1.tar.gz
+[2024-04-17 02:08:47] INFO root fetch - processPackages [prerun]: executing diffoscope
+[2024-04-17 02:08:47] INFO root fetch - processPackages [prerun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prerun-1.0.0.tar.gz tmp/prerun-1.1.0.tar.gz --markdown 20240417/p/prerun/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-17 02:08:47] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/12/68/2c99b4fa44fff3ac17fd6eee6b2c9d4ad74cf664d040936fce45f8d72fba/create_mountaineer_app-0.4.1.dev3.tar.gz
+[2024-04-17 02:08:47] INFO root fetch - processPackages [create-mountaineer-app]: executing diffoscope
+[2024-04-17 02:08:47] INFO root fetch - processPackages [create-mountaineer-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_mountaineer_app-0.4.1.dev2.tar.gz tmp/create_mountaineer_app-0.4.1.dev3.tar.gz --markdown 20240417/c/create-mountaineer-app/0.4.1.dev2-0.4.1.dev3/README.md --exclude *.pyd
+[2024-04-17 02:08:47] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/29/46/dcb4de99b4a4f9a659397df7141b3f31d743462e522c58a409572b221bc1/jaxutils-nightly-0.0.8.dev20240417.tar.gz
+[2024-04-17 02:08:47] INFO root fetch - processPackages [pfio]: Downloading https://files.pythonhosted.org/packages/20/f1/e99bda28b4dab8901ce07d17c33d58f05aeeed138e5853d6813b24455474/pfio-2.8.0.tar.gz
+[2024-04-17 02:08:47] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-17 02:08:47] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240416.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240417.tar.gz --markdown 20240417/j/jaxutils-nightly/0.0.8.dev20240416-0.0.8.dev20240417/README.md --exclude *.pyd
+[2024-04-17 02:08:47] INFO root fetch - processPackages [pfio]: executing diffoscope
+[2024-04-17 02:08:47] INFO root fetch - processPackages [pfio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfio-2.7.1.tar.gz tmp/pfio-2.8.0.tar.gz --markdown 20240417/p/pfio/2.7.1-2.8.0/README.md --exclude *.pyd
+[2024-04-17 02:08:48] INFO root fetch - processPackages [prerun]: Remove: archive file [/home/abi/fetcher/tmp/prerun-1.0.0.tar.gz]
+[2024-04-17 02:08:48] INFO root fetch - processPackages [prerun]: Remove: archive file [/home/abi/fetcher/tmp/prerun-1.1.0.tar.gz]
+[2024-04-17 02:08:48] INFO root fetch - main [MainThread]: End processing [prerun]: success
+[2024-04-17 02:08:48] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240416.tar.gz]
+[2024-04-17 02:08:48] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240417.tar.gz]
+[2024-04-17 02:08:48] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-17 02:08:48] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.4.1.dev2.tar.gz]
+[2024-04-17 02:08:48] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.4.1.dev3.tar.gz]
+[2024-04-17 02:08:48] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
+[2024-04-17 02:08:48] INFO root fetch - processPackages [pfio]: Remove: archive file [/home/abi/fetcher/tmp/pfio-2.7.1.tar.gz]
+[2024-04-17 02:08:48] INFO root fetch - processPackages [pfio]: Remove: archive file [/home/abi/fetcher/tmp/pfio-2.8.0.tar.gz]
+[2024-04-17 02:08:48] INFO root fetch - main [MainThread]: End processing [pfio]: success
+[2024-04-17 02:08:48] INFO root fetch - main [MainThread]: Store serial: [22796517]
