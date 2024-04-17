@@ -8664,3 +8664,24 @@
 [2024-04-17 04:54:04] INFO root fetch - processPackages [jaraco.packaging]: Remove: archive file [/home/abi/fetcher/tmp/jaraco_packaging-9.6.0.tar.gz]
 [2024-04-17 04:54:04] INFO root fetch - main [MainThread]: End processing [jaraco.packaging]: success
 [2024-04-17 04:54:04] INFO root fetch - main [MainThread]: Store serial: [22799156]
+[2024-04-17 04:56:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799156]
+[2024-04-17 04:56:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 04:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-linkedmall20230930
+[2024-04-17 04:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: donetools
+[2024-04-17 04:56:14] INFO root fetch - processPackages [donetools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 04:56:14] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/e7/16ef7ef33b09a9634459bb56e910fc56d348769263fd89f5074d35a6aa31/donetools-0.0.8.tar.gz
+[2024-04-17 04:56:14] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: New version: [2.2.0] Old Version: [2.1.4]
+[2024-04-17 04:56:15] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/bc/28/cc26a1e320fe8c7340f7a8a47ad56f46fe697a88680abb956588b9650e76/donetools-0.0.9.tar.gz
+[2024-04-17 04:56:15] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Downloading https://files.pythonhosted.org/packages/df/a8/8b053066f3644e8f0a962a862ca465971beaa3734fecbb758e5ea2262c4b/alibabacloud_linkedmall20230930-2.1.4.tar.gz
+[2024-04-17 04:56:15] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-17 04:56:15] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.8.tar.gz tmp/donetools-0.0.9.tar.gz --markdown 20240417/d/donetools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 04:56:15] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Downloading https://files.pythonhosted.org/packages/4f/cc/50e79da6c621214cddcfbf5f59b9d43bc28b8a0a48149cdd01c1afb6835f/alibabacloud_linkedmall20230930-2.2.0.tar.gz
+[2024-04-17 04:56:15] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: executing diffoscope
+[2024-04-17 04:56:15] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_linkedmall20230930-2.1.4.tar.gz tmp/alibabacloud_linkedmall20230930-2.2.0.tar.gz --markdown 20240417/a/alibabacloud-linkedmall20230930/2.1.4-2.2.0/README.md --exclude *.pyd
+[2024-04-17 04:56:15] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.8.tar.gz]
+[2024-04-17 04:56:15] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
+[2024-04-17 04:56:15] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-17 04:56:16] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkedmall20230930-2.1.4.tar.gz]
+[2024-04-17 04:56:16] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkedmall20230930-2.2.0.tar.gz]
+[2024-04-17 04:56:16] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkedmall20230930]: success
+[2024-04-17 04:56:16] INFO root fetch - main [MainThread]: Store serial: [22799164]
