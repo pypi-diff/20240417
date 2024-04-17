@@ -21262,3 +21262,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:48:57] INFO root fetch - processPackages [mlchemad]: Remove: archive file [/home/abi/fetcher/tmp/mlchemad-1.5.2.tar.gz]
 [2024-04-17 13:48:57] INFO root fetch - main [MainThread]: End processing [mlchemad]: success
 [2024-04-17 13:48:57] INFO root fetch - main [MainThread]: Store serial: [22804728]
+[2024-04-17 13:51:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804728]
+[2024-04-17 13:51:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 13:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyriksdagen
+[2024-04-17 13:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezside
+[2024-04-17 13:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastlabel
+[2024-04-17 13:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PythonProjectBootstrapperTest2
+[2024-04-17 13:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snek-sploit
+[2024-04-17 13:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rustbininfo
+[2024-04-17 13:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenGeode-Geosciences
+[2024-04-17 13:51:06] INFO root fetch - processPackages [ezside]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 13:51:06] INFO root fetch - processPackages [PythonProjectBootstrapperTest2]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 13:51:06] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/5a/d4/1810386c07f848c78c2e8b15144f22482295b4040d1283a67e6675563952/ezside-0.1.8.tar.gz
+[2024-04-17 13:51:06] INFO root fetch - processPackages [rustbininfo]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-17 13:51:06] INFO root fetch - processPackages [snek-sploit]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-17 13:51:06] INFO root fetch - processPackages [fastlabel]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-17 13:51:06] INFO root fetch - processPackages [pyriksdagen]: New version: [1.1.0] Old Version: [1.0.0rc1]
+[2024-04-17 13:51:06] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.6.2rc1] Old Version: [7.6.1rc1]
+[2024-04-17 13:51:07] INFO root fetch - processPackages [PythonProjectBootstrapperTest2]: Downloading https://files.pythonhosted.org/packages/d4/fb/f9a4e5791f282956ee2713a0c9a390c43c269a0cb4745ff24b21e9dc41d6/PythonProjectBootstrapperTest2-0.1.8-py3-none-any.whl
+[2024-04-17 13:51:07] INFO root fetch - processPackages [snek-sploit]: Downloading https://files.pythonhosted.org/packages/a0/47/9962ad832abeb2699a305884b43140d9a5f49c834f7987d6aaa28adab9e1/snek_sploit-0.3.0.tar.gz
+[2024-04-17 13:51:07] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/f1/e0/2cae952d702515bb0e82f0bacbe379367f4a416b2a3928f33850e21ae823/ezside-0.1.9.tar.gz
+[2024-04-17 13:51:07] INFO root fetch - processPackages [pyriksdagen]: Downloading https://files.pythonhosted.org/packages/1e/4b/b03b1936889f2b5215efd589ce97fa18f4659e0ffa05cfde7ebf5f4059cf/pyriksdagen-1.0.0rc1.tar.gz
+[2024-04-17 13:51:07] INFO root fetch - processPackages [rustbininfo]: Downloading https://files.pythonhosted.org/packages/e2/0f/6533231f0c6f476d2e059f1b837e87a58af27360074c2cb2c3e1c376d7a3/rustbininfo-0.2.0.tar.gz
+[2024-04-17 13:51:07] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/25/b0/2094741bfa9cf61f1af3bb936cffe7e48a3f73960ee148e362991c92dfdf/OpenGeode_Geosciences-7.6.1rc1-cp39-cp39-win_amd64.whl
+[2024-04-17 13:51:07] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/57/be/7f95f0710f3736b944abf8635802ed7c4fa9ed908af29b88814533d5d1aa/fastlabel-0.9.8.tar.gz
+[2024-04-17 13:51:07] INFO root fetch - processPackages [ezside]: executing diffoscope
+[2024-04-17 13:51:07] INFO root fetch - processPackages [ezside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezside-0.1.8.tar.gz tmp/ezside-0.1.9.tar.gz --markdown 20240417/e/ezside/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 13:51:07] INFO root fetch - processPackages [PythonProjectBootstrapperTest2]: Downloading https://files.pythonhosted.org/packages/eb/97/dc98f046f4bf077e4303adba7213bd881ef9693acfc4510f35cdcd85e8ee/PythonProjectBootstrapperTest2-0.1.9-py3-none-any.whl
+[2024-04-17 13:51:07] INFO root fetch - processPackages [snek-sploit]: Downloading https://files.pythonhosted.org/packages/a7/84/0fd3932259319677d4b0e0d2230c55c5e3cf628e5c4591dc2160225966be/snek_sploit-0.4.0.tar.gz
+[2024-04-17 13:51:07] INFO root fetch - processPackages [PythonProjectBootstrapperTest2]: executing diffoscope
+[2024-04-17 13:51:07] INFO root fetch - processPackages [PythonProjectBootstrapperTest2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonProjectBootstrapperTest2-0.1.8-py3-none-any.whl.zip tmp/PythonProjectBootstrapperTest2-0.1.9-py3-none-any.whl.zip --markdown 20240417/P/PythonProjectBootstrapperTest2/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 13:51:07] INFO root fetch - processPackages [pyriksdagen]: Downloading https://files.pythonhosted.org/packages/21/76/9248335fd0f308240f514a0af174a3babbbbf3ef29fd89a957e63af1eb7f/pyriksdagen-1.1.0.tar.gz
+[2024-04-17 13:51:07] INFO root fetch - processPackages [rustbininfo]: Downloading https://files.pythonhosted.org/packages/c8/c2/eb653ccdbb93d25dc9f6ae45722622bdce08120e118a8794fad9d355cef3/rustbininfo-0.3.0.tar.gz
+[2024-04-17 13:51:07] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/d0/e5/f18c001dc7450d962af6e6925a6600fb1877e202166062e99e6d1fadf36b/fastlabel-0.9.9.tar.gz
+[2024-04-17 13:51:07] INFO root fetch - processPackages [snek-sploit]: executing diffoscope
+[2024-04-17 13:51:07] INFO root fetch - processPackages [snek-sploit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snek_sploit-0.3.0.tar.gz tmp/snek_sploit-0.4.0.tar.gz --markdown 20240417/s/snek-sploit/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-17 13:51:07] INFO root fetch - processPackages [pyriksdagen]: executing diffoscope
+[2024-04-17 13:51:07] INFO root fetch - processPackages [pyriksdagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyriksdagen-1.0.0rc1.tar.gz tmp/pyriksdagen-1.1.0.tar.gz --markdown 20240417/p/pyriksdagen/1.0.0rc1-1.1.0/README.md --exclude *.pyd
+[2024-04-17 13:51:07] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/04/94/7a6150101a6db24f847d0f3a1b524afdfbc6f8fb1ebd49f6c772b15c2513/OpenGeode_Geosciences-7.6.2rc1-cp311-cp311-manylinux2014_x86_64.whl
+[2024-04-17 13:51:07] INFO root fetch - processPackages [rustbininfo]: executing diffoscope
+[2024-04-17 13:51:07] INFO root fetch - processPackages [rustbininfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustbininfo-0.2.0.tar.gz tmp/rustbininfo-0.3.0.tar.gz --markdown 20240417/r/rustbininfo/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-17 13:51:07] INFO root fetch - processPackages [fastlabel]: executing diffoscope
+[2024-04-17 13:51:07] INFO root fetch - processPackages [fastlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlabel-0.9.8.tar.gz tmp/fastlabel-0.9.9.tar.gz --markdown 20240417/f/fastlabel/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-17 13:51:08] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.8.tar.gz]
+[2024-04-17 13:51:08] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.9.tar.gz]
+[2024-04-17 13:51:08] INFO root fetch - main [MainThread]: End processing [ezside]: success
+[2024-04-17 13:51:08] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2024-04-17 13:51:08] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.6.1rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.6.2rc1-cp311-cp311-manylinux2014_x86_64.whl.zip --markdown 20240417/O/OpenGeode-Geosciences/7.6.1rc1-7.6.2rc1/README.md --exclude *.pyd
+[2024-04-17 13:51:08] INFO root fetch - processPackages [PythonProjectBootstrapperTest2]: Remove: archive file [/home/abi/fetcher/tmp/PythonProjectBootstrapperTest2-0.1.8-py3-none-any.whl.zip]
+[2024-04-17 13:51:08] INFO root fetch - processPackages [PythonProjectBootstrapperTest2]: Remove: archive file [/home/abi/fetcher/tmp/PythonProjectBootstrapperTest2-0.1.9-py3-none-any.whl.zip]
+[2024-04-17 13:51:08] INFO root fetch - main [MainThread]: End processing [PythonProjectBootstrapperTest2]: success
+[2024-04-17 13:51:08] INFO root fetch - processPackages [rustbininfo]: Remove: archive file [/home/abi/fetcher/tmp/rustbininfo-0.2.0.tar.gz]
+[2024-04-17 13:51:08] INFO root fetch - processPackages [rustbininfo]: Remove: archive file [/home/abi/fetcher/tmp/rustbininfo-0.3.0.tar.gz]
+[2024-04-17 13:51:08] INFO root fetch - main [MainThread]: End processing [rustbininfo]: success
+[2024-04-17 13:51:08] INFO root fetch - processPackages [snek-sploit]: Remove: archive file [/home/abi/fetcher/tmp/snek_sploit-0.3.0.tar.gz]
+[2024-04-17 13:51:08] INFO root fetch - processPackages [snek-sploit]: Remove: archive file [/home/abi/fetcher/tmp/snek_sploit-0.4.0.tar.gz]
+[2024-04-17 13:51:08] INFO root fetch - main [MainThread]: End processing [snek-sploit]: success
+[2024-04-17 13:51:08] INFO root fetch - processPackages [pyriksdagen]: Remove: archive file [/home/abi/fetcher/tmp/pyriksdagen-1.0.0rc1.tar.gz]
+[2024-04-17 13:51:08] INFO root fetch - processPackages [pyriksdagen]: Remove: archive file [/home/abi/fetcher/tmp/pyriksdagen-1.1.0.tar.gz]
+[2024-04-17 13:51:08] INFO root fetch - main [MainThread]: End processing [pyriksdagen]: success
+[2024-04-17 13:51:08] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.8.tar.gz]
+[2024-04-17 13:51:08] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.9.tar.gz]
+[2024-04-17 13:51:08] INFO root fetch - main [MainThread]: End processing [fastlabel]: success
+[2024-04-17 13:51:08] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 13:51:08] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.2rc1-cp311-cp311-manylinux2014_x86_64.whl.zip]
+[2024-04-17 13:51:08] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2024-04-17 13:51:08] INFO root fetch - main [MainThread]: Store serial: [22804747]
