@@ -21208,3 +21208,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:46:46] INFO root fetch - processPackages [roslibpy]: Remove: archive file [/home/abi/fetcher/tmp/roslibpy-1.7.0.tar.gz]
 [2024-04-17 13:46:46] INFO root fetch - main [MainThread]: End processing [roslibpy]: success
 [2024-04-17 13:46:46] INFO root fetch - main [MainThread]: Store serial: [22804709]
+[2024-04-17 13:48:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804709]
+[2024-04-17 13:48:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 13:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evovaq
+[2024-04-17 13:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlchemad
+[2024-04-17 13:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sybil-engine
+[2024-04-17 13:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: StellarDS-SDK
+[2024-04-17 13:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-juvix-plugin
+[2024-04-17 13:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tsk-monster
+[2024-04-17 13:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: subspyces
+[2024-04-17 13:48:55] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 13:48:55] WARNING root fetch - processPackages [subspyces]: Skipping, unable to determine old version
+[2024-04-17 13:48:55] INFO root fetch - main [MainThread]: End processing [subspyces] error
+[2024-04-17 13:48:55] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-17 13:48:55] INFO root fetch - processPackages [mlchemad]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-17 13:48:55] WARNING root fetch - processPackages [StellarDS-SDK]: Skipping, unable to determine old version
+[2024-04-17 13:48:55] INFO root fetch - main [MainThread]: End processing [StellarDS-SDK] error
+[2024-04-17 13:48:55] INFO root fetch - processPackages [sybil-engine]: New version: [6.8.0] Old Version: [6.7.0]
+[2024-04-17 13:48:55] INFO root fetch - processPackages [mkdocs-juvix-plugin]: New version: [0.2] Old Version: [0.1.4]
+[2024-04-17 13:48:55] INFO root fetch - processPackages [evovaq]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-17 13:48:55] INFO root fetch - processPackages [mlchemad]: Downloading https://files.pythonhosted.org/packages/45/3a/80c908210a481c9b1161dfc6b0935c2dd6190799ea3401f6a9b79146d851/mlchemad-1.5.1.tar.gz
+[2024-04-17 13:48:55] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/a5/71/a16442fd532f337edcbf24b7e8a53f7bc761c19151bc518d91c0b8f4aeff/sybil_engine-6.7.0.tar.gz
+[2024-04-17 13:48:55] INFO root fetch - processPackages [evovaq]: Downloading https://files.pythonhosted.org/packages/81/2a/2eaf0096f1018b2444073b7510ba707fecc39a0c7cc04cd21c2e343d4ec3/evovaq-1.0.7.tar.gz
+[2024-04-17 13:48:55] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Downloading https://files.pythonhosted.org/packages/5f/21/3488201eb76e122310d164f4bf4fc9adb94b34ecf35c0c853b48c1040a7f/mkdocs-juvix-plugin-0.1.4.tar.gz
+[2024-04-17 13:48:55] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-17 13:48:56] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-17 13:48:56] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240417/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 13:48:56] INFO root fetch - processPackages [evovaq]: Downloading https://files.pythonhosted.org/packages/03/6c/267fa21c751d2026ac8477f88b2e57798def5375b70f2fe476da90ecd7a2/evovaq-1.0.9.tar.gz
+[2024-04-17 13:48:56] INFO root fetch - processPackages [mlchemad]: Downloading https://files.pythonhosted.org/packages/58/1d/2452236c0e6cfcaf451f56dbbfe5bcc91354411e983d99cdc7a62af3314a/mlchemad-1.5.2.tar.gz
+[2024-04-17 13:48:56] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/5f/47/b07312ce9c05907e71c6699a5d5c44d829a3b1f344ef4eebc1b62429db39/sybil_engine-6.8.0.tar.gz
+[2024-04-17 13:48:56] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Downloading https://files.pythonhosted.org/packages/7f/60/aa12339a0f57ec64085e00ac4111e4e7b5cc9c1a21889f7e91e8292307e6/mkdocs-juvix-plugin-0.2.tar.gz
+[2024-04-17 13:48:56] INFO root fetch - processPackages [evovaq]: executing diffoscope
+[2024-04-17 13:48:56] INFO root fetch - processPackages [evovaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evovaq-1.0.7.tar.gz tmp/evovaq-1.0.9.tar.gz --markdown 20240417/e/evovaq/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-17 13:48:56] INFO root fetch - processPackages [mlchemad]: executing diffoscope
+[2024-04-17 13:48:56] INFO root fetch - processPackages [mlchemad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlchemad-1.5.1.tar.gz tmp/mlchemad-1.5.2.tar.gz --markdown 20240417/m/mlchemad/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-04-17 13:48:56] INFO root fetch - processPackages [mkdocs-juvix-plugin]: executing diffoscope
+[2024-04-17 13:48:56] INFO root fetch - processPackages [mkdocs-juvix-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-juvix-plugin-0.1.4.tar.gz tmp/mkdocs-juvix-plugin-0.2.tar.gz --markdown 20240417/m/mkdocs-juvix-plugin/0.1.4-0.2/README.md --exclude *.pyd
+[2024-04-17 13:48:56] INFO root fetch - processPackages [sybil-engine]: executing diffoscope
+[2024-04-17 13:48:56] INFO root fetch - processPackages [sybil-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sybil_engine-6.7.0.tar.gz tmp/sybil_engine-6.8.0.tar.gz --markdown 20240417/s/sybil-engine/6.7.0-6.8.0/README.md --exclude *.pyd
+[2024-04-17 13:48:56] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-17 13:48:56] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-17 13:48:56] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-17 13:48:56] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-juvix-plugin-0.1.4.tar.gz]
+[2024-04-17 13:48:56] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-juvix-plugin-0.2.tar.gz]
+[2024-04-17 13:48:56] INFO root fetch - main [MainThread]: End processing [mkdocs-juvix-plugin]: success
+[2024-04-17 13:48:56] INFO root fetch - processPackages [evovaq]: Remove: archive file [/home/abi/fetcher/tmp/evovaq-1.0.7.tar.gz]
+[2024-04-17 13:48:56] INFO root fetch - processPackages [evovaq]: Remove: archive file [/home/abi/fetcher/tmp/evovaq-1.0.9.tar.gz]
+[2024-04-17 13:48:56] INFO root fetch - main [MainThread]: End processing [evovaq]: success
+[2024-04-17 13:48:57] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-6.7.0.tar.gz]
+[2024-04-17 13:48:57] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-6.8.0.tar.gz]
+[2024-04-17 13:48:57] INFO root fetch - main [MainThread]: End processing [sybil-engine]: success
+[2024-04-17 13:48:57] INFO root fetch - processPackages [mlchemad]: Remove: archive file [/home/abi/fetcher/tmp/mlchemad-1.5.1.tar.gz]
+[2024-04-17 13:48:57] INFO root fetch - processPackages [mlchemad]: Remove: archive file [/home/abi/fetcher/tmp/mlchemad-1.5.2.tar.gz]
+[2024-04-17 13:48:57] INFO root fetch - main [MainThread]: End processing [mlchemad]: success
+[2024-04-17 13:48:57] INFO root fetch - main [MainThread]: Store serial: [22804728]
