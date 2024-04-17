@@ -8375,3 +8375,81 @@
 [2024-04-17 04:43:08] INFO root fetch - processPackages [odoo12-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_asset_management-12.0.3.2.0.99.dev8-py3-none-any.whl.zip]
 [2024-04-17 04:43:08] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-asset-management]: success
 [2024-04-17 04:43:08] INFO root fetch - main [MainThread]: Store serial: [22799043]
+[2024-04-17 04:45:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799043]
+[2024-04-17 04:45:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 04:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rats-pipelines
+[2024-04-17 04:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rats-processors
+[2024-04-17 04:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-apps
+[2024-04-17 04:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: topapprox
+[2024-04-17 04:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zq-tools
+[2024-04-17 04:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: albumentations
+[2024-04-17 04:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ptcr
+[2024-04-17 04:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iac-init
+[2024-04-17 04:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aioesphomeapi
+[2024-04-17 04:45:17] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-17 04:45:17] INFO root fetch - processPackages [ptcr]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 04:45:17] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-17 04:45:17] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-17 04:45:17] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-17 04:45:17] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/bf/8a/76beb6a7d5d6f7f8213781a4a6bae764ddffc6268cd124d80fe5fe1f9811/ptcr-0.1.1.tar.gz
+[2024-04-17 04:45:17] INFO root fetch - processPackages [iac-init]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-17 04:45:17] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-17 04:45:17] INFO root fetch - processPackages [zq-tools]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-17 04:45:17] WARNING root fetch - processPackages [topapprox]: Skipping, unable to determine old version
+[2024-04-17 04:45:17] INFO root fetch - main [MainThread]: End processing [topapprox] error
+[2024-04-17 04:45:17] INFO root fetch - processPackages [albumentations]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-17 04:45:17] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2024-04-17 04:45:17] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-17 04:45:17] INFO root fetch - processPackages [albumentations]: Downloading https://files.pythonhosted.org/packages/dc/c1/4bb46e1afe56a4908bfe6fe58a9231ed5d7e7f46e400559d8bce7fc7dedc/albumentations-1.4.3.tar.gz
+[2024-04-17 04:45:18] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/ef/63/567da38c21f87a44bd2d603509b98b23153146162b18699b9ad08a19aedc/iac_init-0.2.7.tar.gz
+[2024-04-17 04:45:18] INFO root fetch - processPackages [zq-tools]: Downloading https://files.pythonhosted.org/packages/99/9f/03115136228ed0776f52f05086ac516e8fca9b6457da065a42ce99d05d08/zq-tools-1.0.2.tar.gz
+[2024-04-17 04:45:18] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/62/7f/d2cc3b95dfe936bbad8f3956f274147389d6625de031d1105261491bffd9/aioesphomeapi-9.1.4.tar.gz
+[2024-04-17 04:45:18] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-17 04:45:18] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/bf/19/20b9c3905675fb560598540fc552a0bbc4b5c4babc2f4454bdef6f7dbbc0/ptcr-0.1.2.tar.gz
+[2024-04-17 04:45:18] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-17 04:45:18] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-17 04:45:18] INFO root fetch - processPackages [ptcr]: executing diffoscope
+[2024-04-17 04:45:18] INFO root fetch - processPackages [ptcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptcr-0.1.1.tar.gz tmp/ptcr-0.1.2.tar.gz --markdown 20240417/p/ptcr/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 04:45:18] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-17 04:45:18] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240417/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-17 04:45:18] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-17 04:45:18] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240417/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-17 04:45:18] INFO root fetch - processPackages [albumentations]: Downloading https://files.pythonhosted.org/packages/28/d1/71ce412e010dc940966ce2adc7a998ae3c67d98ea9974565f100cdd0a2e5/albumentations-1.4.4.tar.gz
+[2024-04-17 04:45:18] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-17 04:45:18] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240417/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-17 04:45:18] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/31/a5/7752ad5c00c30308168280af3a2da33fe7799fa15968f7380d5e7bfe0c92/iac_init-0.2.8.tar.gz
+[2024-04-17 04:45:18] INFO root fetch - processPackages [zq-tools]: Downloading https://files.pythonhosted.org/packages/d8/32/28cf190d48dcb278ce6f2d1d16c7511a8cbdbee7e93d595ae5b64183e20d/zq-tools-1.0.3.tar.gz
+[2024-04-17 04:45:18] INFO root fetch - processPackages [albumentations]: executing diffoscope
+[2024-04-17 04:45:18] INFO root fetch - processPackages [albumentations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/albumentations-1.4.3.tar.gz tmp/albumentations-1.4.4.tar.gz --markdown 20240417/a/albumentations/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-04-17 04:45:18] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/95/57/381c894380ec58a8c891a923696dc0d97d7af266921f326f942ec3332685/aioesphomeapi-9.1.5.tar.gz
+[2024-04-17 04:45:18] INFO root fetch - processPackages [zq-tools]: executing diffoscope
+[2024-04-17 04:45:18] INFO root fetch - processPackages [zq-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zq-tools-1.0.2.tar.gz tmp/zq-tools-1.0.3.tar.gz --markdown 20240417/z/zq-tools/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-17 04:45:18] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-17 04:45:18] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.2.7.tar.gz tmp/iac_init-0.2.8.tar.gz --markdown 20240417/i/iac-init/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-17 04:45:18] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2024-04-17 04:45:18] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20240417/a/aioesphomeapi/9.1.4-9.1.5/README.md --exclude *.pyd
+[2024-04-17 04:45:19] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.1.1.tar.gz]
+[2024-04-17 04:45:19] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.1.2.tar.gz]
+[2024-04-17 04:45:19] INFO root fetch - main [MainThread]: End processing [ptcr]: success
+[2024-04-17 04:45:19] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-17 04:45:19] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-17 04:45:19] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-17 04:45:19] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-17 04:45:19] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-17 04:45:19] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-17 04:45:19] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-17 04:45:19] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-17 04:45:19] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-17 04:45:19] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.4.tar.gz]
+[2024-04-17 04:45:19] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
+[2024-04-17 04:45:19] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2024-04-17 04:45:19] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.2.7.tar.gz]
+[2024-04-17 04:45:19] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.2.8.tar.gz]
+[2024-04-17 04:45:19] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-17 04:45:19] INFO root fetch - processPackages [zq-tools]: Remove: archive file [/home/abi/fetcher/tmp/zq-tools-1.0.2.tar.gz]
+[2024-04-17 04:45:19] INFO root fetch - processPackages [zq-tools]: Remove: archive file [/home/abi/fetcher/tmp/zq-tools-1.0.3.tar.gz]
+[2024-04-17 04:45:19] INFO root fetch - main [MainThread]: End processing [zq-tools]: success
+[2024-04-17 04:45:19] INFO root fetch - processPackages [albumentations]: Remove: archive file [/home/abi/fetcher/tmp/albumentations-1.4.3.tar.gz]
+[2024-04-17 04:45:19] INFO root fetch - processPackages [albumentations]: Remove: archive file [/home/abi/fetcher/tmp/albumentations-1.4.4.tar.gz]
+[2024-04-17 04:45:19] INFO root fetch - main [MainThread]: End processing [albumentations]: success
+[2024-04-17 04:45:19] INFO root fetch - main [MainThread]: Store serial: [22799072]
