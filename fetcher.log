@@ -20571,3 +20571,18 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:14:41] INFO root fetch - processPackages [WebAppDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/webappdirac-6.0.0a7.tar.gz]
 [2024-04-17 13:14:41] INFO root fetch - main [MainThread]: End processing [WebAppDIRAC]: success
 [2024-04-17 13:14:41] INFO root fetch - main [MainThread]: Store serial: [22804374]
+[2024-04-17 13:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804374]
+[2024-04-17 13:16:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 13:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: desbordante
+[2024-04-17 13:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: StellarDS-SDK
+[2024-04-17 13:16:51] INFO root fetch - processPackages [desbordante]: New version: [2.0.0] Old Version: [1.1.0]
+[2024-04-17 13:16:51] WARNING root fetch - processPackages [StellarDS-SDK]: Skipping, unable to determine old version
+[2024-04-17 13:16:51] INFO root fetch - main [MainThread]: End processing [StellarDS-SDK] error
+[2024-04-17 13:16:51] INFO root fetch - processPackages [desbordante]: Downloading https://files.pythonhosted.org/packages/8a/3b/291b8a190dd8883ff4fd8e0db9572f2ce3a93ef2f90d898c6e4b9f28201c/desbordante-1.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-17 13:16:51] INFO root fetch - processPackages [desbordante]: Downloading https://files.pythonhosted.org/packages/76/15/8bb051d81ef50f10a96f7d435bfa0f18d1fcf951285a76cd16062b947f9d/desbordante-2.0.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-17 13:16:52] INFO root fetch - processPackages [desbordante]: executing diffoscope
+[2024-04-17 13:16:52] INFO root fetch - processPackages [desbordante]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desbordante-1.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/desbordante-2.0.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240417/d/desbordante/1.1.0-2.0.0/README.md --exclude *.pyd
+[2024-04-17 13:17:18] INFO root fetch - processPackages [desbordante]: Remove: archive file [/home/abi/fetcher/tmp/desbordante-1.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-17 13:17:18] INFO root fetch - processPackages [desbordante]: Remove: archive file [/home/abi/fetcher/tmp/desbordante-2.0.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-17 13:17:18] INFO root fetch - main [MainThread]: End processing [desbordante]: success
+[2024-04-17 13:17:18] INFO root fetch - main [MainThread]: Store serial: [22804390]
