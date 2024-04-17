@@ -2566,3 +2566,60 @@
 [2024-04-17 02:37:28] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.0.dev8.tar.gz]
 [2024-04-17 02:37:28] INFO root fetch - main [MainThread]: End processing [flet-easy]: success
 [2024-04-17 02:37:28] INFO root fetch - main [MainThread]: Store serial: [22796803]
+[2024-04-17 02:39:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796803]
+[2024-04-17 02:39:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 02:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazy-schema
+[2024-04-17 02:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sesql
+[2024-04-17 02:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-hx-yinying
+[2024-04-17 02:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twitter-openapi-python-generated
+[2024-04-17 02:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stackql-deploy
+[2024-04-17 02:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spectral-recovery
+[2024-04-17 02:39:36] INFO root fetch - processPackages [lazy-schema]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-17 02:39:36] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-17 02:39:36] INFO root fetch - processPackages [spectral-recovery]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-04-17 02:39:36] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: New version: [1.1] Old Version: [1.0]
+[2024-04-17 02:39:36] INFO root fetch - processPackages [twitter-openapi-python-generated]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 02:39:36] INFO root fetch - processPackages [sesql]: New version: [2024.4.1rc1] Old Version: [2024.4.0]
+[2024-04-17 02:39:36] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/a6/73/f55351863922932bd9d21a39b130d3f92e3dfcdc63f24757aab34f93c79f/lazy_schema-0.2.4.tar.gz
+[2024-04-17 02:39:36] INFO root fetch - processPackages [spectral-recovery]: Downloading https://files.pythonhosted.org/packages/0c/2b/e737b919ba296ae5c24576f723740bf0a01a5ecbaf947355264ed3e87fe3/spectral_recovery-0.3.3.tar.gz
+[2024-04-17 02:39:36] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/77/50/6993bed2f10acfac68b1c420f7c0fbfb419830974499b1fd0263668203da/stackql_deploy-1.0.6.tar.gz
+[2024-04-17 02:39:36] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/be/43/a0322f25cd9dc3203488d716133812e03b22ff5217c68b2da05b90199d04/nonebot_plugin_hx-yinying-1.0.tar.gz
+[2024-04-17 02:39:36] INFO root fetch - processPackages [twitter-openapi-python-generated]: Downloading https://files.pythonhosted.org/packages/58/48/fda6759b3ea8c60d642c78f297dac5ab1520a0f9258710bea2c633288048/twitter_openapi_python_generated-0.0.8.tar.gz
+[2024-04-17 02:39:36] INFO root fetch - processPackages [sesql]: Downloading https://files.pythonhosted.org/packages/28/4f/e8bb61e55aa48d5e9c2da24b96651e93758db2fb7b59c6c80888d697ceeb/sesql-2024.4.0.tar.gz
+[2024-04-17 02:39:36] INFO root fetch - processPackages [spectral-recovery]: Downloading https://files.pythonhosted.org/packages/f1/75/f4b9203ba62308746a208ffc6c4e640e55899b1ff5723c6454cbdefc7c7d/spectral_recovery-0.4.0.tar.gz
+[2024-04-17 02:39:36] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/2d/01/17bd4b99d19ea28c5991ecf00a9b849d1c50db339a5b4d31f66eebcf5fc8/stackql_deploy-1.0.7.tar.gz
+[2024-04-17 02:39:36] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/93/e8/fae6f34409dc0545be872475fba3d25fc9fc283188b33105c9bace26b1dd/lazy_schema-0.2.5.tar.gz
+[2024-04-17 02:39:36] INFO root fetch - processPackages [spectral-recovery]: executing diffoscope
+[2024-04-17 02:39:36] INFO root fetch - processPackages [spectral-recovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectral_recovery-0.3.3.tar.gz tmp/spectral_recovery-0.4.0.tar.gz --markdown 20240417/s/spectral-recovery/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-04-17 02:39:37] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/95/a1/c3a3b4d27a112e324784628547d558fdf537b783d70ca68327063b1058bb/nonebot_plugin_hx-yinying-1.1.tar.gz
+[2024-04-17 02:39:37] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 02:39:37] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.6.tar.gz tmp/stackql_deploy-1.0.7.tar.gz --markdown 20240417/s/stackql-deploy/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-17 02:39:37] INFO root fetch - processPackages [lazy-schema]: executing diffoscope
+[2024-04-17 02:39:37] INFO root fetch - processPackages [lazy-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_schema-0.2.4.tar.gz tmp/lazy_schema-0.2.5.tar.gz --markdown 20240417/l/lazy-schema/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-17 02:39:37] INFO root fetch - processPackages [twitter-openapi-python-generated]: Downloading https://files.pythonhosted.org/packages/ac/9c/1eb5b0405e26f8dc20c56273ee48bc2340359c6f0f75b4b488917566267e/twitter_openapi_python_generated-0.0.9.tar.gz
+[2024-04-17 02:39:37] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: executing diffoscope
+[2024-04-17 02:39:37] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_hx-yinying-1.0.tar.gz tmp/nonebot_plugin_hx-yinying-1.1.tar.gz --markdown 20240417/n/nonebot-plugin-hx-yinying/1.0-1.1/README.md --exclude *.pyd
+[2024-04-17 02:39:37] INFO root fetch - processPackages [twitter-openapi-python-generated]: executing diffoscope
+[2024-04-17 02:39:37] INFO root fetch - processPackages [twitter-openapi-python-generated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_openapi_python_generated-0.0.8.tar.gz tmp/twitter_openapi_python_generated-0.0.9.tar.gz --markdown 20240417/t/twitter-openapi-python-generated/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 02:39:37] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.2.4.tar.gz]
+[2024-04-17 02:39:37] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.2.5.tar.gz]
+[2024-04-17 02:39:37] INFO root fetch - main [MainThread]: End processing [lazy-schema]: success
+[2024-04-17 02:39:37] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.6.tar.gz]
+[2024-04-17 02:39:37] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.7.tar.gz]
+[2024-04-17 02:39:37] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 02:39:37] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_hx-yinying-1.0.tar.gz]
+[2024-04-17 02:39:37] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_hx-yinying-1.1.tar.gz]
+[2024-04-17 02:39:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hx-yinying]: success
+[2024-04-17 02:39:37] INFO root fetch - processPackages [spectral-recovery]: Remove: archive file [/home/abi/fetcher/tmp/spectral_recovery-0.3.3.tar.gz]
+[2024-04-17 02:39:37] INFO root fetch - processPackages [spectral-recovery]: Remove: archive file [/home/abi/fetcher/tmp/spectral_recovery-0.4.0.tar.gz]
+[2024-04-17 02:39:37] INFO root fetch - main [MainThread]: End processing [spectral-recovery]: success
+[2024-04-17 02:39:37] INFO root fetch - processPackages [sesql]: Downloading https://files.pythonhosted.org/packages/ab/0c/786f8b5ecb4ba02bb4eda23bdeae2c5906191b076c820d6b923bf9a47eb0/sesql-2024.4.1rc1.tar.gz
+[2024-04-17 02:39:38] INFO root fetch - processPackages [sesql]: executing diffoscope
+[2024-04-17 02:39:38] INFO root fetch - processPackages [sesql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesql-2024.4.0.tar.gz tmp/sesql-2024.4.1rc1.tar.gz --markdown 20240417/s/sesql/2024.4.0-2024.4.1rc1/README.md --exclude *.pyd
+[2024-04-17 02:39:38] INFO root fetch - processPackages [sesql]: Remove: archive file [/home/abi/fetcher/tmp/sesql-2024.4.0.tar.gz]
+[2024-04-17 02:39:38] INFO root fetch - processPackages [sesql]: Remove: archive file [/home/abi/fetcher/tmp/sesql-2024.4.1rc1.tar.gz]
+[2024-04-17 02:39:38] INFO root fetch - main [MainThread]: End processing [sesql]: success
+[2024-04-17 02:39:40] INFO root fetch - processPackages [twitter-openapi-python-generated]: Remove: archive file [/home/abi/fetcher/tmp/twitter_openapi_python_generated-0.0.8.tar.gz]
+[2024-04-17 02:39:40] INFO root fetch - processPackages [twitter-openapi-python-generated]: Remove: archive file [/home/abi/fetcher/tmp/twitter_openapi_python_generated-0.0.9.tar.gz]
+[2024-04-17 02:39:40] INFO root fetch - main [MainThread]: End processing [twitter-openapi-python-generated]: success
+[2024-04-17 02:39:40] INFO root fetch - main [MainThread]: Store serial: [22796821]
