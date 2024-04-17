@@ -12084,3 +12084,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:13:51] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
 [2024-04-17 08:13:51] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
 [2024-04-17 08:13:51] INFO root fetch - main [MainThread]: Store serial: [22800431]
+[2024-04-17 08:15:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800431]
+[2024-04-17 08:16:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 08:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-tetris-stats
+[2024-04-17 08:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-awscdk-resolver
+[2024-04-17 08:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TestPackage-yidas
+[2024-04-17 08:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-datadog
+[2024-04-17 08:16:00] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-04-17 08:16:00] WARNING root fetch - processPackages [TestPackage-yidas]: Skipping, unable to determine old version
+[2024-04-17 08:16:00] INFO root fetch - main [MainThread]: End processing [TestPackage-yidas] error
+[2024-04-17 08:16:00] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.9] Old Version: [0.0.86]
+[2024-04-17 08:16:00] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-04-17 08:16:01] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/9f/f3/0d6167ce1b07681af45920e47b12c274be5a450b9d6c8295268c0e817910/cdk8s-awscdk-resolver-0.0.86.tar.gz
+[2024-04-17 08:16:01] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/d7/71/107c36f745965284a8ce6a9f51694704f080c72efc8fcf2d0275d6bb6383/nonebot_plugin_tetris_stats-1.0.0a8.tar.gz
+[2024-04-17 08:16:01] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-04-17 08:16:01] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/e4/ba/3b1af2b8b411cdb77e57e6b1d4e656a18d1c62c5fddbd831b369378f4fbd/cdk8s-awscdk-resolver-0.0.9.tar.gz
+[2024-04-17 08:16:01] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/7e/11/b4ca4dc842c04eac5b47b20f80a08e20d52d805cceb9e1059c5d42d20875/nonebot_plugin_tetris_stats-1.0.0a9.tar.gz
+[2024-04-17 08:16:01] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2024-04-17 08:16:01] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-1.0.0a8.tar.gz tmp/nonebot_plugin_tetris_stats-1.0.0a9.tar.gz --markdown 20240417/n/nonebot-plugin-tetris-stats/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-04-17 08:16:01] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-04-17 08:16:01] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.86.tar.gz tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz --markdown 20240417/c/cdk8s-awscdk-resolver/0.0.86-0.0.9/README.md --exclude *.pyd
+[2024-04-17 08:16:01] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-04-17 08:16:01] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-04-17 08:16:01] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240417/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-04-17 08:16:02] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.86.tar.gz]
+[2024-04-17 08:16:02] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz]
+[2024-04-17 08:16:02] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-04-17 08:16:02] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.0.0a8.tar.gz]
+[2024-04-17 08:16:02] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.0.0a9.tar.gz]
+[2024-04-17 08:16:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2024-04-17 08:16:04] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-04-17 08:16:04] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-04-17 08:16:04] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-04-17 08:16:04] INFO root fetch - main [MainThread]: Store serial: [22800447]
