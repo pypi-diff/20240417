@@ -9631,3 +9631,78 @@
 [2024-04-17 06:02:26] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-0.5.0.tar.gz]
 [2024-04-17 06:02:26] INFO root fetch - main [MainThread]: End processing [janim]: success
 [2024-04-17 06:02:26] INFO root fetch - main [MainThread]: Store serial: [22799590]
+[2024-04-17 06:04:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799590]
+[2024-04-17 06:04:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 06:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coretex
+[2024-04-17 06:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stTransfer
+[2024-04-17 06:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hui-tools
+[2024-04-17 06:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyflowline
+[2024-04-17 06:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plotly3d
+[2024-04-17 06:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hexwatershed
+[2024-04-17 06:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qcs-sdk-python-grpc-web
+[2024-04-17 06:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qcs-sdk-python
+[2024-04-17 06:04:35] INFO root fetch - processPackages [plotly3d]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-17 06:04:35] INFO root fetch - processPackages [coretex]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-04-17 06:04:35] INFO root fetch - processPackages [pyflowline]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-17 06:04:35] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: New version: [0.17.6rc0] Old Version: [0.17.5rc0]
+[2024-04-17 06:04:35] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.9.1rc0] Old Version: [0.9.1]
+[2024-04-17 06:04:35] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/53/cd/461a546799a46dc163d46f8e332e48bcfed01ba0855e2c42e904c2df39ac/plotly3d-0.4.0.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [stTransfer]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 06:04:35] INFO root fetch - processPackages [hui-tools]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 06:04:35] INFO root fetch - processPackages [hexwatershed]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 06:04:35] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/cc/67/b8929d7c260613419a9746e7ba9555fd4475f8f033494637c7bcb3de7ca6/qcs_sdk_python_grpc_web-0.17.5rc0.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/9c/9e/96442e220cdfb0a7de20d94e88cc29d613e1047969cf03065f2d31453bac/coretex-1.0.96.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [pyflowline]: Downloading https://files.pythonhosted.org/packages/e4/ef/4a4ff79f8fea7607e59462f9338121b833c35fd123a7ee023300e8f7020a/pyflowline-0.3.6.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/ae/01/0fb2c446d87f5050c97d355db924cb5d1550c365f87131b08c8d55030eec/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-17 06:04:35] INFO root fetch - processPackages [stTransfer]: Downloading https://files.pythonhosted.org/packages/e7/3d/6f32e797c5da76df593dd4645c178ceed0ef6593567c851a1c276320ca39/stTransfer-1.0.8.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [hexwatershed]: Downloading https://files.pythonhosted.org/packages/f1/b9/5aff71a9ce224e5338ab5421e777f488be2c7fd8c1a563adc3baf6b474c2/hexwatershed-0.2.8.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [hui-tools]: Downloading https://files.pythonhosted.org/packages/f5/f9/0d8a77d183b5e86e17b1c2f5c668d0335abee033faa6d30c9c17ea7618ff/hui-tools-0.3.1.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/35/0f/19a109dc4ec31f790990676e2491f95aa631705ada3ef9669d6992624fc3/coretex-1.0.99.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/4d/30/d954ff9c978a1ad543546f6964a54ed9054467a893f49b320faf0d784bc7/plotly3d-0.4.1.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/07/4b/be23a7a285af4f2ccab14c5e1dc802c039acbba659b041e889b5a2115498/qcs_sdk_python_grpc_web-0.17.6rc0.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [stTransfer]: Downloading https://files.pythonhosted.org/packages/a7/be/74161372cc083a46becbdc8ae9f3be2847446f6360d09831ac56762291c7/stTransfer-1.0.9.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [hexwatershed]: Downloading https://files.pythonhosted.org/packages/2f/01/3614f3e8d99dce9c3a3bb0bf3d64f02a76124d5a57315e77ca22eface8f9/hexwatershed-0.2.9.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [plotly3d]: executing diffoscope
+[2024-04-17 06:04:35] INFO root fetch - processPackages [plotly3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly3d-0.4.0.tar.gz tmp/plotly3d-0.4.1.tar.gz --markdown 20240417/p/plotly3d/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-17 06:04:35] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2024-04-17 06:04:35] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.96.tar.gz tmp/coretex-1.0.99.tar.gz --markdown 20240417/c/coretex/1.0.96-1.0.99/README.md --exclude *.pyd
+[2024-04-17 06:04:35] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: executing diffoscope
+[2024-04-17 06:04:35] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python_grpc_web-0.17.5rc0.tar.gz tmp/qcs_sdk_python_grpc_web-0.17.6rc0.tar.gz --markdown 20240417/q/qcs-sdk-python-grpc-web/0.17.5rc0-0.17.6rc0/README.md --exclude *.pyd
+[2024-04-17 06:04:35] INFO root fetch - processPackages [stTransfer]: executing diffoscope
+[2024-04-17 06:04:35] INFO root fetch - processPackages [stTransfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stTransfer-1.0.8.tar.gz tmp/stTransfer-1.0.9.tar.gz --markdown 20240417/s/stTransfer/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 06:04:35] INFO root fetch - processPackages [hexwatershed]: executing diffoscope
+[2024-04-17 06:04:35] INFO root fetch - processPackages [hexwatershed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexwatershed-0.2.8.tar.gz tmp/hexwatershed-0.2.9.tar.gz --markdown 20240417/h/hexwatershed/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 06:04:35] INFO root fetch - processPackages [hui-tools]: Downloading https://files.pythonhosted.org/packages/51/e8/20c1379b77d49f1d6ef834b8eed7ced18e247ab941bd294ad3c31c3ed4c2/hui-tools-0.3.2.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/2e/f1/272ed4b50250474a48d15284cb78d9fa628df46edf6e61cbe635ff067749/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-17 06:04:35] INFO root fetch - processPackages [pyflowline]: Downloading https://files.pythonhosted.org/packages/9f/70/f9bbbe6f574b8b49e218a6e260d15d47c1c39b1c83a77a8f83886c23bd26/pyflowline-0.3.7.tar.gz
+[2024-04-17 06:04:35] INFO root fetch - processPackages [hui-tools]: executing diffoscope
+[2024-04-17 06:04:35] INFO root fetch - processPackages [hui-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hui-tools-0.3.1.tar.gz tmp/hui-tools-0.3.2.tar.gz --markdown 20240417/h/hui-tools/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 06:04:36] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2024-04-17 06:04:36] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240417/q/qcs-sdk-python/0.9.1-0.9.1rc0/README.md --exclude *.pyd
+[2024-04-17 06:04:36] INFO root fetch - processPackages [pyflowline]: executing diffoscope
+[2024-04-17 06:04:36] INFO root fetch - processPackages [pyflowline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflowline-0.3.6.tar.gz tmp/pyflowline-0.3.7.tar.gz --markdown 20240417/p/pyflowline/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-17 06:04:36] INFO root fetch - processPackages [stTransfer]: Remove: archive file [/home/abi/fetcher/tmp/stTransfer-1.0.8.tar.gz]
+[2024-04-17 06:04:36] INFO root fetch - processPackages [stTransfer]: Remove: archive file [/home/abi/fetcher/tmp/stTransfer-1.0.9.tar.gz]
+[2024-04-17 06:04:36] INFO root fetch - main [MainThread]: End processing [stTransfer]: success
+[2024-04-17 06:04:36] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.4.0.tar.gz]
+[2024-04-17 06:04:36] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.4.1.tar.gz]
+[2024-04-17 06:04:36] INFO root fetch - main [MainThread]: End processing [plotly3d]: success
+[2024-04-17 06:04:36] INFO root fetch - processPackages [hui-tools]: Remove: archive file [/home/abi/fetcher/tmp/hui-tools-0.3.1.tar.gz]
+[2024-04-17 06:04:36] INFO root fetch - processPackages [hui-tools]: Remove: archive file [/home/abi/fetcher/tmp/hui-tools-0.3.2.tar.gz]
+[2024-04-17 06:04:36] INFO root fetch - main [MainThread]: End processing [hui-tools]: success
+[2024-04-17 06:04:36] INFO root fetch - processPackages [hexwatershed]: Remove: archive file [/home/abi/fetcher/tmp/hexwatershed-0.2.8.tar.gz]
+[2024-04-17 06:04:36] INFO root fetch - processPackages [hexwatershed]: Remove: archive file [/home/abi/fetcher/tmp/hexwatershed-0.2.9.tar.gz]
+[2024-04-17 06:04:36] INFO root fetch - main [MainThread]: End processing [hexwatershed]: success
+[2024-04-17 06:04:37] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.5rc0.tar.gz]
+[2024-04-17 06:04:37] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.6rc0.tar.gz]
+[2024-04-17 06:04:37] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python-grpc-web]: success
+[2024-04-17 06:04:37] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.96.tar.gz]
+[2024-04-17 06:04:37] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
+[2024-04-17 06:04:37] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2024-04-17 06:04:37] INFO root fetch - processPackages [pyflowline]: Remove: archive file [/home/abi/fetcher/tmp/pyflowline-0.3.6.tar.gz]
+[2024-04-17 06:04:37] INFO root fetch - processPackages [pyflowline]: Remove: archive file [/home/abi/fetcher/tmp/pyflowline-0.3.7.tar.gz]
+[2024-04-17 06:04:37] INFO root fetch - main [MainThread]: End processing [pyflowline]: success
+[2024-04-17 06:06:49] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-17 06:06:49] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-17 06:06:49] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2024-04-17 06:06:49] INFO root fetch - main [MainThread]: Store serial: [22799610]
