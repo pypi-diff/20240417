@@ -7655,3 +7655,27 @@
 [2024-04-17 04:07:18] INFO root fetch - processPackages [imface]: Remove: archive file [/home/abi/fetcher/tmp/imface-0.0.0.4.4.tar.gz]
 [2024-04-17 04:07:18] INFO root fetch - main [MainThread]: End processing [imface]: success
 [2024-04-17 04:07:18] INFO root fetch - main [MainThread]: Store serial: [22798773]
+[2024-04-17 04:09:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798773]
+[2024-04-17 04:09:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 04:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edx-enterprise
+[2024-04-17 04:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loe-simp-app-fw
+[2024-04-17 04:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shopee-chatbot-component
+[2024-04-17 04:09:26] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-17 04:09:26] WARNING root fetch - processPackages [shopee-chatbot-component]: Skipping, unable to determine old version
+[2024-04-17 04:09:26] INFO root fetch - main [MainThread]: End processing [shopee-chatbot-component] error
+[2024-04-17 04:09:27] INFO root fetch - processPackages [edx-enterprise]: New version: [4.9.5] Old Version: [4.9.2]
+[2024-04-17 04:09:27] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/1c/e3/0f7ef1b8137c9154fdbcc48fb721059573074b6a793df202b24c7d8a8592/loe_simp_app_fw-1.0.0.tar.gz
+[2024-04-17 04:09:27] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/e4/b3/dc021f2c163a19997e4167718a40d80668c3f4a6aa155975e4fbc7d84bc6/edx-enterprise-4.9.2.tar.gz
+[2024-04-17 04:09:27] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/02/dd/96a9a746f0a705e59d3cfaa0ea97b154f46b52fbc99708679909de900eac/loe_simp_app_fw-1.0.1.tar.gz
+[2024-04-17 04:09:27] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-04-17 04:09:27] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.0.0.tar.gz tmp/loe_simp_app_fw-1.0.1.tar.gz --markdown 20240417/l/loe-simp-app-fw/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-17 04:09:27] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/38/83/c01344f1866c05fe5671721941192ad2a1ab055d72d2e575ce08b970d4ef/edx-enterprise-4.9.5.tar.gz
+[2024-04-17 04:09:28] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.0.0.tar.gz]
+[2024-04-17 04:09:28] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.0.1.tar.gz]
+[2024-04-17 04:09:28] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-04-17 04:09:28] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2024-04-17 04:09:28] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-4.9.2.tar.gz tmp/edx-enterprise-4.9.5.tar.gz --markdown 20240417/e/edx-enterprise/4.9.2-4.9.5/README.md --exclude *.pyd
+[2024-04-17 04:09:30] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.2.tar.gz]
+[2024-04-17 04:09:30] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
+[2024-04-17 04:09:30] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2024-04-17 04:09:30] INFO root fetch - main [MainThread]: Store serial: [22798783]
