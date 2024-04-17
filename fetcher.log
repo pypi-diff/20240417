@@ -2477,3 +2477,32 @@
 [2024-04-17 02:30:56] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.18-py3-none-any.whl.zip]
 [2024-04-17 02:30:56] INFO root fetch - main [MainThread]: End processing [zonevu]: success
 [2024-04-17 02:30:56] INFO root fetch - main [MainThread]: Store serial: [22796757]
+[2024-04-17 02:33:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796757]
+[2024-04-17 02:33:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 02:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ships
+[2024-04-17 02:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: habluetooth
+[2024-04-17 02:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cd-fvd
+[2024-04-17 02:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyGSTi
+[2024-04-17 02:33:06] WARNING root fetch - processPackages [cd-fvd]: Skipping, unable to determine old version
+[2024-04-17 02:33:06] INFO root fetch - main [MainThread]: End processing [cd-fvd] error
+[2024-04-17 02:33:06] INFO root fetch - processPackages [ships]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-04-17 02:33:06] INFO root fetch - processPackages [ships]: Downloading https://files.pythonhosted.org/packages/23/ef/dff782804db8798053310e89cf112e2d8fb6862c7aa99c5420c8b5044299/ships-1.2.6.tar.gz
+[2024-04-17 02:33:06] INFO root fetch - processPackages [pyGSTi]: New version: [0.9.9.3] Old Version: [0.9.9.2]
+[2024-04-17 02:33:06] INFO root fetch - processPackages [habluetooth]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-04-17 02:33:06] INFO root fetch - processPackages [ships]: Downloading https://files.pythonhosted.org/packages/a1/f7/ff4f58719a92c073b749cb4c765f47cb21c7e1bc349c6697342fa4f7daf0/ships-1.2.7.tar.gz
+[2024-04-17 02:33:06] INFO root fetch - processPackages [pyGSTi]: Downloading https://files.pythonhosted.org/packages/1f/73/1da571a8bc8086709ddcc16fd3f70e0d0ae89d712b85d46d09b53a36977e/pyGSTi-0.9.9.2.tar.gz
+[2024-04-17 02:33:06] INFO root fetch - processPackages [habluetooth]: Downloading https://files.pythonhosted.org/packages/2f/2e/265f9af9dbdb45186d9c8f4e60c415ef98ad93a4f9a754a3f184fc130ec6/habluetooth-2.5.2.tar.gz
+[2024-04-17 02:33:06] INFO root fetch - processPackages [ships]: executing diffoscope
+[2024-04-17 02:33:06] INFO root fetch - processPackages [ships]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ships-1.2.6.tar.gz tmp/ships-1.2.7.tar.gz --markdown 20240417/s/ships/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-04-17 02:33:07] INFO root fetch - processPackages [habluetooth]: Downloading https://files.pythonhosted.org/packages/fa/84/6c0daf3412b21d837b6d6ccf354eaff896d072c4b2f35f7e0f3cf72409f1/habluetooth-2.5.3.tar.gz
+[2024-04-17 02:33:07] INFO root fetch - processPackages [habluetooth]: executing diffoscope
+[2024-04-17 02:33:07] INFO root fetch - processPackages [habluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habluetooth-2.5.2.tar.gz tmp/habluetooth-2.5.3.tar.gz --markdown 20240417/h/habluetooth/2.5.2-2.5.3/README.md --exclude *.pyd
+[2024-04-17 02:33:07] WARNING root fetch - processPackages [pyGSTi]: Skipping package: exceeds size limit 11040458>=10485760
+[2024-04-17 02:33:07] INFO root fetch - main [MainThread]: End processing [pyGSTi] error
+[2024-04-17 02:33:07] INFO root fetch - processPackages [ships]: Remove: archive file [/home/abi/fetcher/tmp/ships-1.2.6.tar.gz]
+[2024-04-17 02:33:07] INFO root fetch - processPackages [ships]: Remove: archive file [/home/abi/fetcher/tmp/ships-1.2.7.tar.gz]
+[2024-04-17 02:33:07] INFO root fetch - main [MainThread]: End processing [ships]: success
+[2024-04-17 02:33:07] INFO root fetch - processPackages [habluetooth]: Remove: archive file [/home/abi/fetcher/tmp/habluetooth-2.5.2.tar.gz]
+[2024-04-17 02:33:07] INFO root fetch - processPackages [habluetooth]: Remove: archive file [/home/abi/fetcher/tmp/habluetooth-2.5.3.tar.gz]
+[2024-04-17 02:33:07] INFO root fetch - main [MainThread]: End processing [habluetooth]: success
+[2024-04-17 02:33:07] INFO root fetch - main [MainThread]: Store serial: [22796783]
