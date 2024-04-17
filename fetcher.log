@@ -7267,3 +7267,36 @@
 [2024-04-17 03:40:58] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.3.tar.gz]
 [2024-04-17 03:40:58] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
 [2024-04-17 03:40:58] INFO root fetch - main [MainThread]: Store serial: [22798593]
+[2024-04-17 03:43:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798593]
+[2024-04-17 03:43:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 03:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: project-utils-django
+[2024-04-17 03:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: euphoria
+[2024-04-17 03:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reviutils
+[2024-04-17 03:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygpt-net
+[2024-04-17 03:43:06] INFO root fetch - processPackages [project-utils-django]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-17 03:43:07] INFO root fetch - processPackages [project-utils-django]: Downloading https://files.pythonhosted.org/packages/b9/b5/53d919494b2bb8b4265b431973c1d299b1810e77334c628f4f5a1f4180e3/project-utils-django-1.0.3.tar.gz
+[2024-04-17 03:43:07] WARNING root fetch - processPackages [euphoria]: Skipping, unable to determine old version
+[2024-04-17 03:43:07] INFO root fetch - main [MainThread]: End processing [euphoria] error
+[2024-04-17 03:43:07] INFO root fetch - processPackages [reviutils]: New version: [1.4.0a7] Old Version: [1.3.4]
+[2024-04-17 03:43:07] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/c7/ef/914cd18a5a107ec08753bd6c3d9b49ba9d375a3a4645a5dc8057d0e9707b/reviutils-1.3.4.tar.gz
+[2024-04-17 03:43:07] INFO root fetch - processPackages [project-utils-django]: Downloading https://files.pythonhosted.org/packages/08/b9/7acc93d2d43c1c7714fe0f003deb6a9e8020a8a8d71dac4af14ce53b8865/project-utils-django-1.0.4.tar.gz
+[2024-04-17 03:43:07] INFO root fetch - processPackages [project-utils-django]: executing diffoscope
+[2024-04-17 03:43:07] INFO root fetch - processPackages [project-utils-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project-utils-django-1.0.3.tar.gz tmp/project-utils-django-1.0.4.tar.gz --markdown 20240417/p/project-utils-django/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-17 03:43:07] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/b0/f2/04d590367de165de72652aa38318469e0ac8d3787bd623ae904fa5b57665/reviutils-1.4.0a7.tar.gz
+[2024-04-17 03:43:07] INFO root fetch - processPackages [pygpt-net]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-17 03:43:07] INFO root fetch - processPackages [reviutils]: executing diffoscope
+[2024-04-17 03:43:07] INFO root fetch - processPackages [reviutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviutils-1.3.4.tar.gz tmp/reviutils-1.4.0a7.tar.gz --markdown 20240417/r/reviutils/1.3.4-1.4.0a7/README.md --exclude *.pyd
+[2024-04-17 03:43:07] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a5/de/e40709b6067cd6a2fe2ce05bb561b0d9d4c91f6cd91f7b3c4bd151d18a9b/pygpt_net-2.1.8.tar.gz
+[2024-04-17 03:43:08] INFO root fetch - processPackages [project-utils-django]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-django-1.0.3.tar.gz]
+[2024-04-17 03:43:08] INFO root fetch - processPackages [project-utils-django]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-django-1.0.4.tar.gz]
+[2024-04-17 03:43:08] INFO root fetch - main [MainThread]: End processing [project-utils-django]: success
+[2024-04-17 03:43:08] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.3.4.tar.gz]
+[2024-04-17 03:43:08] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0a7.tar.gz]
+[2024-04-17 03:43:08] INFO root fetch - main [MainThread]: End processing [reviutils]: success
+[2024-04-17 03:43:08] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/b1/0c/70ca3376ad87325507daa188a0b208ac8aba51d8f326cbde31d57835c897/pygpt_net-2.1.9.tar.gz
+[2024-04-17 03:43:08] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-04-17 03:43:08] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.1.8.tar.gz tmp/pygpt_net-2.1.9.tar.gz --markdown 20240417/p/pygpt-net/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-17 03:43:11] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.8.tar.gz]
+[2024-04-17 03:43:11] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
+[2024-04-17 03:43:11] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-04-17 03:43:11] INFO root fetch - main [MainThread]: Store serial: [22798611]
