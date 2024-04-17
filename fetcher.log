@@ -18462,3 +18462,99 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:54:09] INFO root fetch - processPackages [weather_provider_api]: Remove: archive file [/home/abi/fetcher/tmp/weather_provider_api-2.50.36.tar.gz]
 [2024-04-17 11:54:09] INFO root fetch - main [MainThread]: End processing [weather_provider_api]: success
 [2024-04-17 11:54:09] INFO root fetch - main [MainThread]: Store serial: [22803491]
+[2024-04-17 11:56:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803491]
+[2024-04-17 11:56:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-17 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: design.plone.contenttypes
+[2024-04-17 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vdk-oracle
+[2024-04-17 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptflow-tracing
+[2024-04-17 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: s3path
+[2024-04-17 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: promptflow-core
+[2024-04-17 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simply-log
+[2024-04-17 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: promptflow-devkit
+[2024-04-17 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: promptflow-azure
+[2024-04-17 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: promptflow
+[2024-04-17 11:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meson-python
+[2024-04-17 11:56:18] INFO root fetch - processPackages [promptflow-core]: New version: [1.8.0] Old Version: [0.1.0b1]
+[2024-04-17 11:56:18] INFO root fetch - processPackages [promptflow]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-04-17 11:56:18] INFO root fetch - processPackages [s3path]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-17 11:56:18] INFO root fetch - processPackages [meson-python]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-17 11:56:18] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.2.4] Old Version: [6.2.3]
+[2024-04-17 11:56:18] WARNING root fetch - processPackages [simply-log]: Skipping, unable to determine old version
+[2024-04-17 11:56:18] INFO root fetch - processPackages [simply-log]: Start processing: babelfont
+[2024-04-17 11:56:18] INFO root fetch - main [MainThread]: End processing [simply-log] error
+[2024-04-17 11:56:18] INFO root fetch - processPackages [vdk-oracle]: New version: [0.1.2] Old Version: [0.1.1256713362]
+[2024-04-17 11:56:18] INFO root fetch - processPackages [promptflow-devkit]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-17 11:56:18] INFO root fetch - processPackages [promptflow-tracing]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-17 11:56:18] INFO root fetch - processPackages [promptflow-azure]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-17 11:56:18] INFO root fetch - processPackages [babelfont]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-17 11:56:18] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/7b/78/66d243a59e9422cfcadc2d7b5152e1df536abf957977cb00100cbd7f1164/design.plone.contenttypes-6.2.3.tar.gz
+[2024-04-17 11:56:18] INFO root fetch - processPackages [promptflow-core]: Downloading https://files.pythonhosted.org/packages/2a/96/25ddaf418965cbb221d65b1d711d4af5b5bc754593852f76210644f67173/promptflow_core-0.1.0b1-py3-none-any.whl
+[2024-04-17 11:56:18] INFO root fetch - processPackages [s3path]: Downloading https://files.pythonhosted.org/packages/3a/56/8edc50da8e84a8e687ed4e5c1f2275a80c61a6ff31a2e11f015c67d8ee53/s3path-0.5.4.tar.gz
+[2024-04-17 11:56:18] INFO root fetch - processPackages [meson-python]: Downloading https://files.pythonhosted.org/packages/c3/94/957a04750188722d09ade6ae3731b115366177faee32ace175c3ca59358b/meson_python-0.8.1.tar.gz
+[2024-04-17 11:56:18] INFO root fetch - processPackages [babelfont]: Downloading https://files.pythonhosted.org/packages/74/a0/a5042a9daca0a9a2acc7ec8cb6239617a3a91c7fef313659a8609989dd96/babelfont-3.0.1.tar.gz
+[2024-04-17 11:56:18] INFO root fetch - processPackages [promptflow-devkit]: Downloading https://files.pythonhosted.org/packages/a7/80/a42998ec0e0d7a76bcd3a43d1f267fad31864cde8300a116126c2d5669fb/promptflow_devkit-1.8.0-py3-none-any.whl
+[2024-04-17 11:56:18] INFO root fetch - processPackages [promptflow]: Downloading https://files.pythonhosted.org/packages/45/37/694523b9bcd84ffc756f7f25bf2437950156860ec2e5b663a7fabf975bfa/promptflow-1.7.0-py3-none-any.whl
+[2024-04-17 11:56:18] INFO root fetch - processPackages [vdk-oracle]: Downloading https://files.pythonhosted.org/packages/29/0b/dbe4aea3c97993bb1a78ed4e4a2bd88d4049e15dd7a1f26946836a2895f2/vdk_oracle-0.1.1256713362.tar.gz
+[2024-04-17 11:56:18] INFO root fetch - processPackages [promptflow-tracing]: Downloading https://files.pythonhosted.org/packages/49/14/dbc959af05f0dfaebeb90ad196ce4d9f95f03555385ad4f68e402357d929/promptflow_tracing-1.8.0-py3-none-any.whl
+[2024-04-17 11:56:18] INFO root fetch - processPackages [promptflow-azure]: Downloading https://files.pythonhosted.org/packages/36/ea/080a767769525e5743710e7a54e425b2aae998dc9e2f711689a2efc5e291/promptflow_azure-1.8.0-py3-none-any.whl
+[2024-04-17 11:56:18] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/12/7f/a8db9fe10e868dbe9e161610adee3d621b19e056df0bd941aa60e826a34d/design.plone.contenttypes-6.2.4.tar.gz
+[2024-04-17 11:56:18] INFO root fetch - processPackages [babelfont]: Downloading https://files.pythonhosted.org/packages/33/c9/df977cf5b20192f3bcd48cc6f042f132b3ef0dcb09b17c8ba9f88cf9ea55/babelfont-3.0.2.tar.gz
+[2024-04-17 11:56:18] INFO root fetch - processPackages [s3path]: Downloading https://files.pythonhosted.org/packages/6c/b8/a4be3ae1519763e19123e4f51022141cbad9cec28636f2e76be53741e205/s3path-0.5.5.tar.gz
+[2024-04-17 11:56:19] INFO root fetch - processPackages [vdk-oracle]: Downloading https://files.pythonhosted.org/packages/ce/29/fc10d50ca1babf1f25201f42a1a5a9701ef9292a30c345eced05b69a8484/vdk-oracle-0.1.2.tar.gz
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow-core]: Downloading https://files.pythonhosted.org/packages/25/4d/3b703134fd3c50f59bb1c3fea4210db6b74f9f4694cd97b5bbfc941ffa83/promptflow_core-1.8.0-py3-none-any.whl
+[2024-04-17 11:56:19] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2024-04-17 11:56:19] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.2.3.tar.gz tmp/design.plone.contenttypes-6.2.4.tar.gz --markdown 20240417/d/design.plone.contenttypes/6.2.3-6.2.4/README.md --exclude *.pyd
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow-tracing]: Downloading https://files.pythonhosted.org/packages/89/f6/ceefcf4302f79a1f1d9df02ed0266df362bf7d7c01b08f56e1ca8f3347bb/promptflow_tracing-1.9.0-py3-none-any.whl
+[2024-04-17 11:56:19] INFO root fetch - processPackages [meson-python]: Downloading https://files.pythonhosted.org/packages/4a/ba/2ac2ba7b8e15c2d5ff7822e8a0bd5e777f5f5d7117d898efe478eee0dc9e/meson_python-0.9.0.tar.gz
+[2024-04-17 11:56:19] INFO root fetch - processPackages [s3path]: executing diffoscope
+[2024-04-17 11:56:19] INFO root fetch - processPackages [s3path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3path-0.5.4.tar.gz tmp/s3path-0.5.5.tar.gz --markdown 20240417/s/s3path/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-04-17 11:56:19] INFO root fetch - processPackages [babelfont]: executing diffoscope
+[2024-04-17 11:56:19] INFO root fetch - processPackages [babelfont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babelfont-3.0.1.tar.gz tmp/babelfont-3.0.2.tar.gz --markdown 20240417/b/babelfont/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-17 11:56:19] INFO root fetch - processPackages [vdk-oracle]: executing diffoscope
+[2024-04-17 11:56:19] INFO root fetch - processPackages [vdk-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk_oracle-0.1.1256713362.tar.gz tmp/vdk-oracle-0.1.2.tar.gz --markdown 20240417/v/vdk-oracle/0.1.1256713362-0.1.2/README.md --exclude *.pyd
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow-tracing]: executing diffoscope
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow-tracing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_tracing-1.8.0-py3-none-any.whl.zip tmp/promptflow_tracing-1.9.0-py3-none-any.whl.zip --markdown 20240417/p/promptflow-tracing/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow-devkit]: Downloading https://files.pythonhosted.org/packages/e4/f8/fdd16738d6d12c1a789acd81c40c3bc37795f33919a608f44e37a08e22e0/promptflow_devkit-1.9.0-py3-none-any.whl
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow-azure]: Downloading https://files.pythonhosted.org/packages/62/87/641981f0ea8dbe256baa83a45e12e5c38b68f597813b5c496db878bad92a/promptflow_azure-1.9.0-py3-none-any.whl
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow-core]: executing diffoscope
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_core-0.1.0b1-py3-none-any.whl.zip tmp/promptflow_core-1.8.0-py3-none-any.whl.zip --markdown 20240417/p/promptflow-core/0.1.0b1-1.8.0/README.md --exclude *.pyd
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow]: Downloading https://files.pythonhosted.org/packages/f0/6f/51cb0283b12115e724744081fdb4d93250bebda5ec967df66d7d854482d5/promptflow-1.8.0-py3-none-any.whl
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow-azure]: executing diffoscope
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_azure-1.8.0-py3-none-any.whl.zip tmp/promptflow_azure-1.9.0-py3-none-any.whl.zip --markdown 20240417/p/promptflow-azure/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow]: executing diffoscope
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow-1.7.0-py3-none-any.whl.zip tmp/promptflow-1.8.0-py3-none-any.whl.zip --markdown 20240417/p/promptflow/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow-devkit]: executing diffoscope
+[2024-04-17 11:56:19] INFO root fetch - processPackages [promptflow-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_devkit-1.8.0-py3-none-any.whl.zip tmp/promptflow_devkit-1.9.0-py3-none-any.whl.zip --markdown 20240417/p/promptflow-devkit/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-17 11:56:19] INFO root fetch - processPackages [meson-python]: executing diffoscope
+[2024-04-17 11:56:19] INFO root fetch - processPackages [meson-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meson_python-0.8.1.tar.gz tmp/meson_python-0.9.0.tar.gz --markdown 20240417/m/meson-python/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-17 11:56:20] INFO root fetch - processPackages [s3path]: Remove: archive file [/home/abi/fetcher/tmp/s3path-0.5.4.tar.gz]
+[2024-04-17 11:56:20] INFO root fetch - processPackages [s3path]: Remove: archive file [/home/abi/fetcher/tmp/s3path-0.5.5.tar.gz]
+[2024-04-17 11:56:20] INFO root fetch - main [MainThread]: End processing [s3path]: success
+[2024-04-17 11:56:20] INFO root fetch - processPackages [vdk-oracle]: Remove: archive file [/home/abi/fetcher/tmp/vdk_oracle-0.1.1256713362.tar.gz]
+[2024-04-17 11:56:20] INFO root fetch - processPackages [vdk-oracle]: Remove: archive file [/home/abi/fetcher/tmp/vdk-oracle-0.1.2.tar.gz]
+[2024-04-17 11:56:20] INFO root fetch - main [MainThread]: End processing [vdk-oracle]: success
+[2024-04-17 11:56:20] INFO root fetch - processPackages [promptflow-tracing]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_tracing-1.8.0-py3-none-any.whl.zip]
+[2024-04-17 11:56:20] INFO root fetch - processPackages [promptflow-tracing]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_tracing-1.9.0-py3-none-any.whl.zip]
+[2024-04-17 11:56:20] INFO root fetch - main [MainThread]: End processing [promptflow-tracing]: success
+[2024-04-17 11:56:20] INFO root fetch - processPackages [babelfont]: Remove: archive file [/home/abi/fetcher/tmp/babelfont-3.0.1.tar.gz]
+[2024-04-17 11:56:20] INFO root fetch - processPackages [babelfont]: Remove: archive file [/home/abi/fetcher/tmp/babelfont-3.0.2.tar.gz]
+[2024-04-17 11:56:20] INFO root fetch - main [MainThread]: End processing [babelfont]: success
+[2024-04-17 11:56:20] INFO root fetch - processPackages [meson-python]: Remove: archive file [/home/abi/fetcher/tmp/meson_python-0.8.1.tar.gz]
+[2024-04-17 11:56:20] INFO root fetch - processPackages [meson-python]: Remove: archive file [/home/abi/fetcher/tmp/meson_python-0.9.0.tar.gz]
+[2024-04-17 11:56:20] INFO root fetch - main [MainThread]: End processing [meson-python]: success
+[2024-04-17 11:56:21] INFO root fetch - processPackages [promptflow-core]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_core-0.1.0b1-py3-none-any.whl.zip]
+[2024-04-17 11:56:21] INFO root fetch - processPackages [promptflow-core]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_core-1.8.0-py3-none-any.whl.zip]
+[2024-04-17 11:56:21] INFO root fetch - main [MainThread]: End processing [promptflow-core]: success
+[2024-04-17 11:56:21] INFO root fetch - processPackages [promptflow]: Remove: archive file [/home/abi/fetcher/tmp/promptflow-1.7.0-py3-none-any.whl.zip]
+[2024-04-17 11:56:21] INFO root fetch - processPackages [promptflow]: Remove: archive file [/home/abi/fetcher/tmp/promptflow-1.8.0-py3-none-any.whl.zip]
+[2024-04-17 11:56:21] INFO root fetch - main [MainThread]: End processing [promptflow]: success
+[2024-04-17 11:56:21] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.2.3.tar.gz]
+[2024-04-17 11:56:21] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.2.4.tar.gz]
+[2024-04-17 11:56:21] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2024-04-17 11:56:23] INFO root fetch - processPackages [promptflow-azure]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_azure-1.8.0-py3-none-any.whl.zip]
+[2024-04-17 11:56:23] INFO root fetch - processPackages [promptflow-azure]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_azure-1.9.0-py3-none-any.whl.zip]
+[2024-04-17 11:56:23] INFO root fetch - main [MainThread]: End processing [promptflow-azure]: success
+[2024-04-17 11:56:45] INFO root fetch - processPackages [promptflow-devkit]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_devkit-1.8.0-py3-none-any.whl.zip]
+[2024-04-17 11:56:45] INFO root fetch - processPackages [promptflow-devkit]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_devkit-1.9.0-py3-none-any.whl.zip]
+[2024-04-17 11:56:45] INFO root fetch - main [MainThread]: End processing [promptflow-devkit]: success
+[2024-04-17 11:56:45] INFO root fetch - main [MainThread]: Store serial: [22803523]
