@@ -21923,3 +21923,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-17 14:07:55] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging_strict-1.2.32.tar.gz]
 [2024-04-17 14:07:55] INFO root fetch - main [MainThread]: End processing [logging-strict]: success
 [2024-04-17 14:07:55] INFO root fetch - main [MainThread]: Store serial: [22805074]
+[2024-04-17 14:10:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805074]
+[2024-04-17 14:10:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynitrokey
+[2024-04-17 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fast-gmail
+[2024-04-17 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-pt-vat
+[2024-04-17 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rent-countdown
+[2024-04-17 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mpl-data-cast
+[2024-04-17 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenGeode-Inspector
+[2024-04-17 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torcheval-nightly
+[2024-04-17 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discord-user-bot
+[2024-04-17 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: personal-graph
+[2024-04-17 14:10:05] INFO root fetch - processPackages [discord-user-bot]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2024-04-17 14:10:05] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-17 14:10:06] INFO root fetch - processPackages [pynitrokey]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-17 14:10:06] INFO root fetch - processPackages [mpl-data-cast]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-17 14:10:06] INFO root fetch - processPackages [fast-gmail]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-17 14:10:06] INFO root fetch - processPackages [odoo14-addon-l10n-pt-vat]: New version: [14.0.1.0.5] Old Version: [14.0.1.0.4.dev1]
+[2024-04-17 14:10:06] WARNING root fetch - processPackages [rent-countdown]: Skipping, unable to determine old version
+[2024-04-17 14:10:06] INFO root fetch - main [MainThread]: End processing [rent-countdown] error
+[2024-04-17 14:10:06] INFO root fetch - processPackages [discord-user-bot]: Downloading https://files.pythonhosted.org/packages/81/3e/10cf8aed951b40bac000c0caecd034c5e64ad3b9317ccf830d72a8f745c5/discord-user-bot-0.0.2.tar.gz
+[2024-04-17 14:10:06] WARNING root fetch - processPackages [personal-graph]: Skipping, unable to determine old version
+[2024-04-17 14:10:06] INFO root fetch - main [MainThread]: End processing [personal-graph] error
+[2024-04-17 14:10:06] INFO root fetch - processPackages [OpenGeode-Inspector]: New version: [5.1.1rc1] Old Version: [5.1.0rc1]
+[2024-04-17 14:10:06] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/a3/6d/794af2087c6d670c1d6bd148a897d3a59b68e8d4b82c381b57d3e20ab544/torcheval-nightly-2024.4.8.tar.gz
+[2024-04-17 14:10:06] INFO root fetch - processPackages [pynitrokey]: Downloading https://files.pythonhosted.org/packages/27/9a/3544196275cdde534cb21b7561a786061257ae323761ef80781ad3332ff3/pynitrokey-0.4.8.tar.gz
+[2024-04-17 14:10:06] INFO root fetch - processPackages [odoo14-addon-l10n-pt-vat]: Downloading https://files.pythonhosted.org/packages/e2/97/b39d96640fb6150ce3115dc262bf2c6ffae1adb34f01049ff05693b29e34/odoo14_addon_l10n_pt_vat-14.0.1.0.4.dev1-py3-none-any.whl
+[2024-04-17 14:10:06] INFO root fetch - processPackages [fast-gmail]: Downloading https://files.pythonhosted.org/packages/a7/c8/a9d273ce68c7ec78e8707dc65786e21219ba88a5c1d9fd501f741084a37e/fast_gmail-1.0.4.tar.gz
+[2024-04-17 14:10:06] INFO root fetch - processPackages [mpl-data-cast]: Downloading https://files.pythonhosted.org/packages/f6/be/39e395ff7b9c6e94906bc966040b78bfa0977d2f8b1892933b6d07e1f7bb/mpl_data_cast-0.6.2.tar.gz
+[2024-04-17 14:10:06] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/04/b5/9519153f78d352bc5af88b5d9b731b7dac7fd9a25bbff563a6a5753dcde6/OpenGeode_Inspector-5.1.0rc1-cp39-cp39-win_amd64.whl
+[2024-04-17 14:10:06] INFO root fetch - processPackages [discord-user-bot]: Downloading https://files.pythonhosted.org/packages/ca/cb/be994912a40ea25943c601deeec1f72ea908180d52d267443d7a7a8e60ca/discord-user-bot-0.0.2.1.tar.gz
+[2024-04-17 14:10:06] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/01/5f/5d3ae8fee972a25478395600694aa6da7aecdf0fdc15b5bb79b52a372737/torcheval-nightly-2024.4.9.tar.gz
+[2024-04-17 14:10:06] INFO root fetch - processPackages [discord-user-bot]: executing diffoscope
+[2024-04-17 14:10:06] INFO root fetch - processPackages [discord-user-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-user-bot-0.0.2.tar.gz tmp/discord-user-bot-0.0.2.1.tar.gz --markdown 20240417/d/discord-user-bot/0.0.2-0.0.2.1/README.md --exclude *.pyd
+[2024-04-17 14:10:06] INFO root fetch - processPackages [fast-gmail]: Downloading https://files.pythonhosted.org/packages/b1/9a/7f5930753750319f8e907a8d35cdd224e7e9fa6481275ac7bfa779c5a715/fast_gmail-1.0.5.tar.gz
+[2024-04-17 14:10:06] INFO root fetch - processPackages [odoo14-addon-l10n-pt-vat]: Downloading https://files.pythonhosted.org/packages/c7/08/9367358813cdbc622b2e3b81d2d00757ee77742469db6c873ed8f15130c5/odoo14_addon_l10n_pt_vat-14.0.1.0.5-py3-none-any.whl
+[2024-04-17 14:10:06] INFO root fetch - processPackages [mpl-data-cast]: Downloading https://files.pythonhosted.org/packages/b5/51/0d6c4d4f89e67e04827db6d4523fc9c5cf3a63080f0e7f0845f944a60232/mpl_data_cast-0.6.3.tar.gz
+[2024-04-17 14:10:06] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-17 14:10:06] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.4.8.tar.gz tmp/torcheval-nightly-2024.4.9.tar.gz --markdown 20240417/t/torcheval-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-17 14:10:06] INFO root fetch - processPackages [pynitrokey]: Downloading https://files.pythonhosted.org/packages/e3/cb/1adf2297f05e8b11220ce633278e09fdd30d6a18b66ab24720d5837bff00/pynitrokey-0.4.9.tar.gz
+[2024-04-17 14:10:06] INFO root fetch - processPackages [fast-gmail]: executing diffoscope
+[2024-04-17 14:10:06] INFO root fetch - processPackages [fast-gmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_gmail-1.0.4.tar.gz tmp/fast_gmail-1.0.5.tar.gz --markdown 20240417/f/fast-gmail/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-17 14:10:06] INFO root fetch - processPackages [odoo14-addon-l10n-pt-vat]: executing diffoscope
+[2024-04-17 14:10:06] INFO root fetch - processPackages [odoo14-addon-l10n-pt-vat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_pt_vat-14.0.1.0.4.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_pt_vat-14.0.1.0.5-py3-none-any.whl.zip --markdown 20240417/o/odoo14-addon-l10n-pt-vat/14.0.1.0.4.dev1-14.0.1.0.5/README.md --exclude *.pyd
+[2024-04-17 14:10:06] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/8d/fd/0702f5da4ab1a1b5dec541413fee839c3b4f2bd94801efc0275ed95e1d56/OpenGeode_Inspector-5.1.1rc1-cp39-cp39-win_amd64.whl
+[2024-04-17 14:10:06] INFO root fetch - processPackages [mpl-data-cast]: executing diffoscope
+[2024-04-17 14:10:06] INFO root fetch - processPackages [mpl-data-cast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpl_data_cast-0.6.2.tar.gz tmp/mpl_data_cast-0.6.3.tar.gz --markdown 20240417/m/mpl-data-cast/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-17 14:10:06] INFO root fetch - processPackages [pynitrokey]: executing diffoscope
+[2024-04-17 14:10:06] INFO root fetch - processPackages [pynitrokey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynitrokey-0.4.8.tar.gz tmp/pynitrokey-0.4.9.tar.gz --markdown 20240417/p/pynitrokey/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-17 14:10:07] INFO root fetch - processPackages [OpenGeode-Inspector]: executing diffoscope
+[2024-04-17 14:10:07] INFO root fetch - processPackages [OpenGeode-Inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Inspector-5.1.0rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Inspector-5.1.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240417/O/OpenGeode-Inspector/5.1.0rc1-5.1.1rc1/README.md --exclude *.pyd
+[2024-04-17 14:10:07] INFO root fetch - processPackages [discord-user-bot]: Remove: archive file [/home/abi/fetcher/tmp/discord-user-bot-0.0.2.tar.gz]
+[2024-04-17 14:10:07] INFO root fetch - processPackages [discord-user-bot]: Remove: archive file [/home/abi/fetcher/tmp/discord-user-bot-0.0.2.1.tar.gz]
+[2024-04-17 14:10:07] INFO root fetch - main [MainThread]: End processing [discord-user-bot]: success
+[2024-04-17 14:10:07] INFO root fetch - processPackages [fast-gmail]: Remove: archive file [/home/abi/fetcher/tmp/fast_gmail-1.0.4.tar.gz]
+[2024-04-17 14:10:07] INFO root fetch - processPackages [fast-gmail]: Remove: archive file [/home/abi/fetcher/tmp/fast_gmail-1.0.5.tar.gz]
+[2024-04-17 14:10:07] INFO root fetch - main [MainThread]: End processing [fast-gmail]: success
+[2024-04-17 14:10:07] INFO root fetch - processPackages [odoo14-addon-l10n-pt-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_pt_vat-14.0.1.0.4.dev1-py3-none-any.whl.zip]
+[2024-04-17 14:10:07] INFO root fetch - processPackages [odoo14-addon-l10n-pt-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_pt_vat-14.0.1.0.5-py3-none-any.whl.zip]
+[2024-04-17 14:10:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-pt-vat]: success
+[2024-04-17 14:10:07] INFO root fetch - processPackages [mpl-data-cast]: Remove: archive file [/home/abi/fetcher/tmp/mpl_data_cast-0.6.2.tar.gz]
+[2024-04-17 14:10:07] INFO root fetch - processPackages [mpl-data-cast]: Remove: archive file [/home/abi/fetcher/tmp/mpl_data_cast-0.6.3.tar.gz]
+[2024-04-17 14:10:07] INFO root fetch - main [MainThread]: End processing [mpl-data-cast]: success
+[2024-04-17 14:10:07] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.8.tar.gz]
+[2024-04-17 14:10:07] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.9.tar.gz]
+[2024-04-17 14:10:07] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-17 14:10:07] INFO root fetch - processPackages [pynitrokey]: Remove: archive file [/home/abi/fetcher/tmp/pynitrokey-0.4.8.tar.gz]
+[2024-04-17 14:10:07] INFO root fetch - processPackages [pynitrokey]: Remove: archive file [/home/abi/fetcher/tmp/pynitrokey-0.4.9.tar.gz]
+[2024-04-17 14:10:07] INFO root fetch - main [MainThread]: End processing [pynitrokey]: success
+[2024-04-17 14:10:09] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 14:10:09] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 14:10:09] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
+[2024-04-17 14:10:09] INFO root fetch - main [MainThread]: Store serial: [22805109]
