@@ -9832,3 +9832,17 @@
 [2024-04-17 06:13:42] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.5.tar.gz]
 [2024-04-17 06:13:42] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
 [2024-04-17 06:13:42] INFO root fetch - main [MainThread]: Store serial: [22799686]
+[2024-04-17 06:15:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799686]
+[2024-04-17 06:15:51] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-17 06:17:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799691]
+[2024-04-17 06:17:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 06:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oresat-dxwifi
+[2024-04-17 06:17:56] INFO root fetch - processPackages [oresat-dxwifi]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-17 06:17:56] INFO root fetch - processPackages [oresat-dxwifi]: Downloading https://files.pythonhosted.org/packages/8f/ec/45f0a5a1321028e5b04ddf27fc14ba227b1886edcad6ec5796d860c1d0ac/oresat_dxwifi-0.3.0.tar.gz
+[2024-04-17 06:17:57] INFO root fetch - processPackages [oresat-dxwifi]: Downloading https://files.pythonhosted.org/packages/fd/de/d57ed909482a93fdf2a3584fa33e0df7091d716479b9f01320fe2c558b70/oresat_dxwifi-0.3.1.tar.gz
+[2024-04-17 06:17:57] INFO root fetch - processPackages [oresat-dxwifi]: executing diffoscope
+[2024-04-17 06:17:57] INFO root fetch - processPackages [oresat-dxwifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat_dxwifi-0.3.0.tar.gz tmp/oresat_dxwifi-0.3.1.tar.gz --markdown 20240417/o/oresat-dxwifi/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-17 06:17:58] INFO root fetch - processPackages [oresat-dxwifi]: Remove: archive file [/home/abi/fetcher/tmp/oresat_dxwifi-0.3.0.tar.gz]
+[2024-04-17 06:17:58] INFO root fetch - processPackages [oresat-dxwifi]: Remove: archive file [/home/abi/fetcher/tmp/oresat_dxwifi-0.3.1.tar.gz]
+[2024-04-17 06:17:58] INFO root fetch - main [MainThread]: End processing [oresat-dxwifi]: success
+[2024-04-17 06:17:58] INFO root fetch - main [MainThread]: Store serial: [22799699]
