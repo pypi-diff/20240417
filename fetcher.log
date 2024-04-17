@@ -16792,3 +16792,105 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:04:19] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.8.1-py3-none-any.whl.zip]
 [2024-04-17 11:04:19] INFO root fetch - main [MainThread]: End processing [dara-components]: success
 [2024-04-17 11:04:19] INFO root fetch - main [MainThread]: Store serial: [22802698]
+[2024-04-17 11:06:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802698]
+[2024-04-17 11:06:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-17 11:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlmodel-react-admin
+[2024-04-17 11:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simplenote-local
+[2024-04-17 11:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.common
+[2024-04-17 11:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.core
+[2024-04-17 11:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.features
+[2024-04-17 11:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snapshooter
+[2024-04-17 11:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.tabular
+[2024-04-17 11:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neosctl
+[2024-04-17 11:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.multimodal
+[2024-04-17 11:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.timeseries
+[2024-04-17 11:06:35] INFO root fetch - processPackages [sqlmodel-react-admin]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 11:06:35] INFO root fetch - processPackages [simplenote-local]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-17 11:06:35] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.0b20240416] Old Version: [1.1.0b20240415]
+[2024-04-17 11:06:35] INFO root fetch - processPackages [neosctl]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-17 11:06:35] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.0b20240416] Old Version: [1.1.0b20240415]
+[2024-04-17 11:06:35] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.0b20240416] Old Version: [1.1.0b20240415]
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.0b20240416] Old Version: [1.1.0b20240415]
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.0b20240416] Old Version: [1.1.0b20240415]
+[2024-04-17 11:06:36] INFO root fetch - processPackages [snapshooter]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/b0/69/2d65fe62b6977d5772ce9460a98d069247d038f24c5b4763ac95656b5428/autogluon.core-1.1.0b20240415.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.0b20240417] Old Version: [1.1.0b20240416]
+[2024-04-17 11:06:36] INFO root fetch - processPackages [sqlmodel-react-admin]: Downloading https://files.pythonhosted.org/packages/5c/02/df69d70ec7ac3de5609cb778848ea19c18cf3c7bc25001c199032e1956f8/sqlmodel_react_admin-0.0.2.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/5d/1b/bb37f5637a064c8d5ab4b4235d039cf7857037c9c438d57b7671aef507e3/neosctl-0.9.2.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [simplenote-local]: Downloading https://files.pythonhosted.org/packages/3b/b9/a9509361de8204a9ce040644f5868b9e4c32e61559a5a77cc64ca5df3136/simplenote_local-1.0.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/5b/8a/56b9da52de350a5215f8c2dcc8cc01f1abd00850bd977765a305abcaa3c3/autogluon.features-1.1.0b20240415.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/0b/c5/6f4ccccd066231fa1344b6edd9cfe96009776ae914aa99a50b2cd37d4094/autogluon.common-1.1.0b20240415.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/c1/f3/a3d28f0ad95c0bdaa79402349e54f9b6137b5791ed902822513cd6e7a2bf/autogluon.multimodal-1.1.0b20240415.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/ec/69/e82c34c4cdff379068b0574b2e9e7efeb8d57096e9824966ded0768ef310/autogluon.tabular-1.1.0b20240416.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/32/ed/36d2370f2eab3486bdd17965ce6812c90cacec176256c3fce1e34935e3bb/autogluon.timeseries-1.1.0b20240415.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [snapshooter]: Downloading https://files.pythonhosted.org/packages/d6/96/c8dabb15affc2d30517b8edb35feabbf789d9dec3692f94cc658326917cc/snapshooter-1.0.6.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/fb/17/0247bcfe59a8b9582e555bf06a04177a766199fe8b2dca93c086c142891a/neosctl-0.9.3.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/02/79/c1971687f72feaf50950f0675c29e6006539ac815ea2de0279c3dd3f6fb3/autogluon.features-1.1.0b20240416.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/42/88/fbb977cfb0d559b2b011908e0d64be0d5a2dc82854166065cbea8aa4e6a2/autogluon.common-1.1.0b20240416.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [sqlmodel-react-admin]: Downloading https://files.pythonhosted.org/packages/ba/92/18509e19b8dc014ef1c63ca3502199640cd494b40137963101f3b5f01632/sqlmodel_react_admin-0.0.3.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/30/85/d8e6db4c59ff8bd661489bd57e48e842429519e9c3f01a8742ecac707bcd/autogluon.timeseries-1.1.0b20240416.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [simplenote-local]: Downloading https://files.pythonhosted.org/packages/44/bf/f1ea1d0835524b07f29ca2f54dfb51b43de97f44d96d5a4add610c36c19a/simplenote_local-1.0.1.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/81/07/10c94daa1858787da196768cb27b5f3bbc321820c24af6f74512ddc4cd97/autogluon.multimodal-1.1.0b20240416.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/fd/5d/3912bfdff88a2fe07f818a6cff6db24d64526fff474d4343795e421de03b/autogluon.core-1.1.0b20240416.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [neosctl]: executing diffoscope
+[2024-04-17 11:06:36] INFO root fetch - processPackages [neosctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosctl-0.9.2.tar.gz tmp/neosctl-0.9.3.tar.gz --markdown 20240417/n/neosctl/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.0b20240415.tar.gz tmp/autogluon.features-1.1.0b20240416.tar.gz --markdown 20240417/a/autogluon.features/1.1.0b20240415-1.1.0b20240416/README.md --exclude *.pyd
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/a7/b5/616a59798128ad4636c10211eede6bb4782bc389073d7d32ca02a365b1d6/autogluon.tabular-1.1.0b20240417.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.0b20240415.tar.gz tmp/autogluon.common-1.1.0b20240416.tar.gz --markdown 20240417/a/autogluon.common/1.1.0b20240415-1.1.0b20240416/README.md --exclude *.pyd
+[2024-04-17 11:06:36] INFO root fetch - processPackages [sqlmodel-react-admin]: executing diffoscope
+[2024-04-17 11:06:36] INFO root fetch - processPackages [sqlmodel-react-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmodel_react_admin-0.0.2.tar.gz tmp/sqlmodel_react_admin-0.0.3.tar.gz --markdown 20240417/s/sqlmodel-react-admin/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 11:06:36] INFO root fetch - processPackages [snapshooter]: Downloading https://files.pythonhosted.org/packages/28/3e/3cab03bebdb3f9044ccd02796fe9a80f10f288bdce5c2e9e7b29af49e0d7/snapshooter-1.0.7.tar.gz
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.0b20240415.tar.gz tmp/autogluon.timeseries-1.1.0b20240416.tar.gz --markdown 20240417/a/autogluon.timeseries/1.1.0b20240415-1.1.0b20240416/README.md --exclude *.pyd
+[2024-04-17 11:06:36] INFO root fetch - processPackages [simplenote-local]: executing diffoscope
+[2024-04-17 11:06:36] INFO root fetch - processPackages [simplenote-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplenote_local-1.0.tar.gz tmp/simplenote_local-1.0.1.tar.gz --markdown 20240417/s/simplenote-local/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.0b20240415.tar.gz tmp/autogluon.core-1.1.0b20240416.tar.gz --markdown 20240417/a/autogluon.core/1.1.0b20240415-1.1.0b20240416/README.md --exclude *.pyd
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.0b20240416.tar.gz tmp/autogluon.tabular-1.1.0b20240417.tar.gz --markdown 20240417/a/autogluon.tabular/1.1.0b20240416-1.1.0b20240417/README.md --exclude *.pyd
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-04-17 11:06:36] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.0b20240415.tar.gz tmp/autogluon.multimodal-1.1.0b20240416.tar.gz --markdown 20240417/a/autogluon.multimodal/1.1.0b20240415-1.1.0b20240416/README.md --exclude *.pyd
+[2024-04-17 11:06:37] INFO root fetch - processPackages [snapshooter]: executing diffoscope
+[2024-04-17 11:06:37] INFO root fetch - processPackages [snapshooter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapshooter-1.0.6.tar.gz tmp/snapshooter-1.0.7.tar.gz --markdown 20240417/s/snapshooter/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.0b20240415.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.0b20240416.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon.features]: Start processing: autogluon
+[2024-04-17 11:06:38] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-17 11:06:38] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.9.2.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.9.3.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - main [MainThread]: End processing [neosctl]: success
+[2024-04-17 11:06:38] INFO root fetch - processPackages [sqlmodel-react-admin]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel_react_admin-0.0.2.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - processPackages [sqlmodel-react-admin]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel_react_admin-0.0.3.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - main [MainThread]: End processing [sqlmodel-react-admin]: success
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.0b20240415.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.0b20240416.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon]: New version: [1.1.0b20240416] Old Version: [1.1.0b20240415]
+[2024-04-17 11:06:38] INFO root fetch - processPackages [simplenote-local]: Remove: archive file [/home/abi/fetcher/tmp/simplenote_local-1.0.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - processPackages [simplenote-local]: Remove: archive file [/home/abi/fetcher/tmp/simplenote_local-1.0.1.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - main [MainThread]: End processing [simplenote-local]: success
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/67/cb/b5f58bf5313cc930a7a5d326292b25474550b9a316bd92ceb29f95dea1ab/autogluon-1.1.0b20240415.tar.gz
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.0b20240415.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.0b20240416.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-17 11:06:38] INFO root fetch - processPackages [snapshooter]: Remove: archive file [/home/abi/fetcher/tmp/snapshooter-1.0.6.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - processPackages [snapshooter]: Remove: archive file [/home/abi/fetcher/tmp/snapshooter-1.0.7.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - main [MainThread]: End processing [snapshooter]: success
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.0b20240415.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.0b20240416.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/5d/81/fe4d5276984cfa57a39cdc6f9e8db7642664827da579046b4a1520e4ce88/autogluon-1.1.0b20240416.tar.gz
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.0b20240416.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.0b20240417.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.0b20240415.tar.gz tmp/autogluon-1.1.0b20240416.tar.gz --markdown 20240417/a/autogluon/1.1.0b20240415-1.1.0b20240416/README.md --exclude *.pyd
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.0b20240415.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.0b20240416.tar.gz]
+[2024-04-17 11:06:38] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-04-17 11:06:39] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.0b20240415.tar.gz]
+[2024-04-17 11:06:39] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.0b20240416.tar.gz]
+[2024-04-17 11:06:39] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-04-17 11:06:39] INFO root fetch - main [MainThread]: Store serial: [22802738]
