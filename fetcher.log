@@ -13235,3 +13235,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:53:30] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1713333813.tar.gz]
 [2024-04-17 08:53:30] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
 [2024-04-17 08:53:30] INFO root fetch - main [MainThread]: Store serial: [22800918]
+[2024-04-17 08:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800918]
+[2024-04-17 08:55:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalk-harness
+[2024-04-17 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: me-toolbox
+[2024-04-17 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jageocoder
+[2024-04-17 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d2py
+[2024-04-17 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-null
+[2024-04-17 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aecdata
+[2024-04-17 08:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-move-location
+[2024-04-17 08:55:38] INFO root fetch - processPackages [me-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 08:55:38] INFO root fetch - processPackages [chalk-harness]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-17 08:55:38] INFO root fetch - processPackages [odoo-addon-stock-move-location]: New version: [16.0.1.3.0] Old Version: [16.0.1.2.3]
+[2024-04-17 08:55:38] INFO root fetch - processPackages [me-toolbox]: Downloading https://files.pythonhosted.org/packages/7a/37/fa39d971e22733456797af998cec41ff2ef3afa5860c477decf4a10db746/me_toolbox-0.0.8.tar.gz
+[2024-04-17 08:55:39] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/04/cf/7b5f46fcb7ff618c41cba126b21c03047ab357635bab1cb1fa76c6c31081/chalk-harness-1.9.8.tar.gz
+[2024-04-17 08:55:39] WARNING root fetch - processPackages [aecdata]: Skipping, unable to determine old version
+[2024-04-17 08:55:39] INFO root fetch - main [MainThread]: End processing [aecdata] error
+[2024-04-17 08:55:39] INFO root fetch - processPackages [pulumi-null]: New version: [0.0.4a1713334088] Old Version: [0.0.4a1712988544]
+[2024-04-17 08:55:39] INFO root fetch - processPackages [d2py]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-17 08:55:39] INFO root fetch - processPackages [jageocoder]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-17 08:55:39] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/d3/e3/4de744bb48efc6919592d473af785626c24f9a691ebdf5461eec6fbf9b3f/odoo_addon_stock_move_location-16.0.1.2.3-py3-none-any.whl
+[2024-04-17 08:55:39] INFO root fetch - processPackages [me-toolbox]: Downloading https://files.pythonhosted.org/packages/e7/81/09362c69dc8b5600961979131d511f559f386495e23bf36e63d59421dc4d/me_toolbox-0.0.9.tar.gz
+[2024-04-17 08:55:39] INFO root fetch - processPackages [d2py]: Downloading https://files.pythonhosted.org/packages/f3/81/c7b033bb503b49f1442a9d6bc3cc4af7e302daee072a977fc636be6a2283/d2py-0.5.8.tar.gz
+[2024-04-17 08:55:39] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/a1/15/42180158b3c306d4ab7d3a3c3d671c6909eca75a35199c626ea238a68aba/jageocoder-2.1.4.tar.gz
+[2024-04-17 08:55:39] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/71/ea/d40dc649c4c8238582eeede1c8cfae5807f94913301efa0c34aff4e959f8/chalk-harness-1.9.9.tar.gz
+[2024-04-17 08:55:39] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/24/0a/b34f19917a061806c401d18fbc7675a6a661f01a0caff0d96c596cd93a5b/pulumi_null-0.0.4a1712988544.tar.gz
+[2024-04-17 08:55:39] INFO root fetch - processPackages [me-toolbox]: executing diffoscope
+[2024-04-17 08:55:39] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2024-04-17 08:55:39] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-1.9.8.tar.gz tmp/chalk-harness-1.9.9.tar.gz --markdown 20240417/c/chalk-harness/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-17 08:55:39] INFO root fetch - processPackages [me-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/me_toolbox-0.0.8.tar.gz tmp/me_toolbox-0.0.9.tar.gz --markdown 20240417/m/me-toolbox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 08:55:39] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/35/ce/c75746114be2b5fe2e0cecdd74ea12a48e86eb5e73259632044237de34e6/odoo_addon_stock_move_location-16.0.1.3.0-py3-none-any.whl
+[2024-04-17 08:55:39] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/94/c9/8cd6ed8993ff996025fe6a48ec7a125833174791ed74296ef4b505994b68/jageocoder-2.1.5.tar.gz
+[2024-04-17 08:55:39] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/50/71/3ff2b55c5002d7879a5b8e1f05394a0d2a66352affa34b20865ee00d72c5/pulumi_null-0.0.4a1713334088.tar.gz
+[2024-04-17 08:55:39] INFO root fetch - processPackages [d2py]: Downloading https://files.pythonhosted.org/packages/14/fc/cda0961877e36a22db31604df3f11ef36673afbb52c146d16d9f36c4d816/d2py-0.5.9.tar.gz
+[2024-04-17 08:55:39] INFO root fetch - processPackages [pulumi-null]: executing diffoscope
+[2024-04-17 08:55:39] INFO root fetch - processPackages [pulumi-null]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_null-0.0.4a1712988544.tar.gz tmp/pulumi_null-0.0.4a1713334088.tar.gz --markdown 20240417/p/pulumi-null/0.0.4a1712988544-0.0.4a1713334088/README.md --exclude *.pyd
+[2024-04-17 08:55:39] INFO root fetch - processPackages [jageocoder]: executing diffoscope
+[2024-04-17 08:55:39] INFO root fetch - processPackages [jageocoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jageocoder-2.1.4.tar.gz tmp/jageocoder-2.1.5.tar.gz --markdown 20240417/j/jageocoder/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-04-17 08:55:39] INFO root fetch - processPackages [d2py]: executing diffoscope
+[2024-04-17 08:55:39] INFO root fetch - processPackages [d2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d2py-0.5.8.tar.gz tmp/d2py-0.5.9.tar.gz --markdown 20240417/d/d2py/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-17 08:55:39] INFO root fetch - processPackages [odoo-addon-stock-move-location]: executing diffoscope
+[2024-04-17 08:55:39] INFO root fetch - processPackages [odoo-addon-stock-move-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_move_location-16.0.1.2.3-py3-none-any.whl.zip tmp/odoo_addon_stock_move_location-16.0.1.3.0-py3-none-any.whl.zip --markdown 20240417/o/odoo-addon-stock-move-location/16.0.1.2.3-16.0.1.3.0/README.md --exclude *.pyd
+[2024-04-17 08:55:40] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.8.tar.gz]
+[2024-04-17 08:55:40] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.9.tar.gz]
+[2024-04-17 08:55:40] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2024-04-17 08:55:40] INFO root fetch - processPackages [me-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/me_toolbox-0.0.8.tar.gz]
+[2024-04-17 08:55:40] INFO root fetch - processPackages [me-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/me_toolbox-0.0.9.tar.gz]
+[2024-04-17 08:55:40] INFO root fetch - main [MainThread]: End processing [me-toolbox]: success
+[2024-04-17 08:55:40] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.0.4a1712988544.tar.gz]
+[2024-04-17 08:55:40] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.0.4a1713334088.tar.gz]
+[2024-04-17 08:55:40] INFO root fetch - main [MainThread]: End processing [pulumi-null]: success
+[2024-04-17 08:55:40] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_location-16.0.1.2.3-py3-none-any.whl.zip]
+[2024-04-17 08:55:40] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_location-16.0.1.3.0-py3-none-any.whl.zip]
+[2024-04-17 08:55:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-location]: success
+[2024-04-17 08:55:40] INFO root fetch - processPackages [d2py]: Remove: archive file [/home/abi/fetcher/tmp/d2py-0.5.8.tar.gz]
+[2024-04-17 08:55:40] INFO root fetch - processPackages [d2py]: Remove: archive file [/home/abi/fetcher/tmp/d2py-0.5.9.tar.gz]
+[2024-04-17 08:55:40] INFO root fetch - main [MainThread]: End processing [d2py]: success
+[2024-04-17 08:55:40] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.1.4.tar.gz]
+[2024-04-17 08:55:40] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.1.5.tar.gz]
+[2024-04-17 08:55:40] INFO root fetch - main [MainThread]: End processing [jageocoder]: success
+[2024-04-17 08:55:40] INFO root fetch - main [MainThread]: Store serial: [22800941]
