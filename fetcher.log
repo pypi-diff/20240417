@@ -7598,3 +7598,24 @@
 [2024-04-17 04:00:38] INFO root fetch - processPackages [fastz]: Remove: archive file [/home/abi/fetcher/tmp/fastz-1.0.0.tar.gz]
 [2024-04-17 04:00:38] INFO root fetch - main [MainThread]: End processing [fastz]: success
 [2024-04-17 04:00:38] INFO root fetch - main [MainThread]: Store serial: [22798723]
+[2024-04-17 04:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798723]
+[2024-04-17 04:02:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 04:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cz_legacy
+[2024-04-17 04:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opensourcetest
+[2024-04-17 04:02:47] INFO root fetch - processPackages [cz_legacy]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-17 04:02:47] INFO root fetch - processPackages [opensourcetest]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-17 04:02:47] INFO root fetch - processPackages [cz_legacy]: Downloading https://files.pythonhosted.org/packages/80/74/2d9eca9bd960ae644cba46e20a6e507e4adea340ff413fa4b9005ef61c04/cz_legacy-1.0.1.tar.gz
+[2024-04-17 04:02:47] INFO root fetch - processPackages [opensourcetest]: Downloading https://files.pythonhosted.org/packages/cb/f3/510a321895d36cc138325ef303b4eb719a82e1a45d980e872fdad67cab7b/opensourcetest-0.3.8.tar.gz
+[2024-04-17 04:02:47] INFO root fetch - processPackages [cz_legacy]: Downloading https://files.pythonhosted.org/packages/1e/95/55517ccd79beecd1dccd2d00c37888bbd1851e05811bf4d0d6d51d05d341/cz_legacy-1.0.2.tar.gz
+[2024-04-17 04:02:47] INFO root fetch - processPackages [cz_legacy]: executing diffoscope
+[2024-04-17 04:02:47] INFO root fetch - processPackages [cz_legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz_legacy-1.0.1.tar.gz tmp/cz_legacy-1.0.2.tar.gz --markdown 20240417/c/cz_legacy/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-17 04:02:48] INFO root fetch - processPackages [cz_legacy]: Remove: archive file [/home/abi/fetcher/tmp/cz_legacy-1.0.1.tar.gz]
+[2024-04-17 04:02:48] INFO root fetch - processPackages [cz_legacy]: Remove: archive file [/home/abi/fetcher/tmp/cz_legacy-1.0.2.tar.gz]
+[2024-04-17 04:02:48] INFO root fetch - main [MainThread]: End processing [cz_legacy]: success
+[2024-04-17 04:02:50] INFO root fetch - processPackages [opensourcetest]: Downloading https://files.pythonhosted.org/packages/b9/30/9f3e9f97894af70669e8629bee0e4e62bb0a5bae1c1e0bc919ee75aa0418/opensourcetest-0.3.9.tar.gz
+[2024-04-17 04:02:53] INFO root fetch - processPackages [opensourcetest]: executing diffoscope
+[2024-04-17 04:02:53] INFO root fetch - processPackages [opensourcetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensourcetest-0.3.8.tar.gz tmp/opensourcetest-0.3.9.tar.gz --markdown 20240417/o/opensourcetest/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-17 04:02:54] INFO root fetch - processPackages [opensourcetest]: Remove: archive file [/home/abi/fetcher/tmp/opensourcetest-0.3.8.tar.gz]
+[2024-04-17 04:02:54] INFO root fetch - processPackages [opensourcetest]: Remove: archive file [/home/abi/fetcher/tmp/opensourcetest-0.3.9.tar.gz]
+[2024-04-17 04:02:54] INFO root fetch - main [MainThread]: End processing [opensourcetest]: success
+[2024-04-17 04:02:54] INFO root fetch - main [MainThread]: Store serial: [22798747]
