@@ -10591,3 +10591,30 @@
 [2024-04-17 07:01:33] INFO root fetch - processPackages [user-local]: Remove: archive file [/home/abi/fetcher/tmp/user-local-0.0.9.tar.gz]
 [2024-04-17 07:01:33] INFO root fetch - main [MainThread]: End processing [user-local]: success
 [2024-04-17 07:01:33] INFO root fetch - main [MainThread]: Store serial: [22799953]
+[2024-04-17 07:03:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799953]
+[2024-04-17 07:03:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 07:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mainpackage
+[2024-04-17 07:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsonargparse
+[2024-04-17 07:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xtnkk-tools
+[2024-04-17 07:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: madison
+[2024-04-17 07:03:41] INFO root fetch - processPackages [xtnkk-tools]: New version: [1.0.0.1] Old Version: [1.0.0.0]
+[2024-04-17 07:03:41] INFO root fetch - processPackages [jsonargparse]: New version: [4.9.0] Old Version: [4.8.0.dev2]
+[2024-04-17 07:03:41] WARNING root fetch - processPackages [madison]: Skipping, unable to determine old version
+[2024-04-17 07:03:41] INFO root fetch - main [MainThread]: End processing [madison] error
+[2024-04-17 07:03:41] WARNING root fetch - processPackages [mainpackage]: Skipping, unable to determine old version
+[2024-04-17 07:03:41] INFO root fetch - main [MainThread]: End processing [mainpackage] error
+[2024-04-17 07:03:42] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/d2/73/f6b156bd5d258fe523cb8ba3fac7e5ceecca358cb9d23f9f89e3aa80044d/xtnkk-tools-1.0.0.0.tar.gz
+[2024-04-17 07:03:42] INFO root fetch - processPackages [jsonargparse]: Downloading https://files.pythonhosted.org/packages/16/9b/6278a964472d726663deec1a73e681b459dd3cf253683239e2ed27c01622/jsonargparse-4.8.0.dev2.tar.gz
+[2024-04-17 07:03:42] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/5f/b8/495a894d5e0a85bea2d6253b0821c27e18e5d038e5eedaeda63a71837c04/xtnkk-tools-1.0.0.1.tar.gz
+[2024-04-17 07:03:42] INFO root fetch - processPackages [xtnkk-tools]: executing diffoscope
+[2024-04-17 07:03:42] INFO root fetch - processPackages [xtnkk-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtnkk-tools-1.0.0.0.tar.gz tmp/xtnkk-tools-1.0.0.1.tar.gz --markdown 20240417/x/xtnkk-tools/1.0.0.0-1.0.0.1/README.md --exclude *.pyd
+[2024-04-17 07:03:42] INFO root fetch - processPackages [jsonargparse]: Downloading https://files.pythonhosted.org/packages/4b/46/493ba47ed28265c51702c94daf00111d2b5a5ade193250ac089165563e58/jsonargparse-4.9.0.tar.gz
+[2024-04-17 07:03:42] INFO root fetch - processPackages [jsonargparse]: executing diffoscope
+[2024-04-17 07:03:42] INFO root fetch - processPackages [jsonargparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonargparse-4.8.0.dev2.tar.gz tmp/jsonargparse-4.9.0.tar.gz --markdown 20240417/j/jsonargparse/4.8.0.dev2-4.9.0/README.md --exclude *.pyd
+[2024-04-17 07:03:43] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.0.0.tar.gz]
+[2024-04-17 07:03:43] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.0.1.tar.gz]
+[2024-04-17 07:03:43] INFO root fetch - main [MainThread]: End processing [xtnkk-tools]: success
+[2024-04-17 07:03:43] INFO root fetch - processPackages [jsonargparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonargparse-4.8.0.dev2.tar.gz]
+[2024-04-17 07:03:43] INFO root fetch - processPackages [jsonargparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonargparse-4.9.0.tar.gz]
+[2024-04-17 07:03:43] INFO root fetch - main [MainThread]: End processing [jsonargparse]: success
+[2024-04-17 07:03:43] INFO root fetch - main [MainThread]: Store serial: [22799970]
