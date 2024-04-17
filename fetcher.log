@@ -7454,3 +7454,42 @@
 [2024-04-17 03:49:44] INFO root fetch - processPackages [schematic_db]: Remove: archive file [/home/abi/fetcher/tmp/schematic_db-0.1.0.tar.gz]
 [2024-04-17 03:49:44] INFO root fetch - main [MainThread]: End processing [schematic_db]: success
 [2024-04-17 03:49:44] INFO root fetch - main [MainThread]: Store serial: [22798660]
+[2024-04-17 03:51:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798660]
+[2024-04-17 03:51:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 03:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: servir-aces
+[2024-04-17 03:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omop2poll
+[2024-04-17 03:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stackql-deploy
+[2024-04-17 03:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shipyard-motherduck
+[2024-04-17 03:51:52] INFO root fetch - processPackages [shipyard-motherduck]: New version: [0.1.0a1] Old Version: [0.1.0a0]
+[2024-04-17 03:51:52] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 03:51:52] INFO root fetch - processPackages [servir-aces]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-17 03:51:52] INFO root fetch - processPackages [omop2poll]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-17 03:51:52] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 03:51:52] INFO root fetch - processPackages [omop2poll]: Downloading https://files.pythonhosted.org/packages/ae/cf/498bfbc684d13d8a1d5c0df9e4364c0a2b3a23662770044555f888a9b1a9/omop2poll-0.1.3.tar.gz
+[2024-04-17 03:51:52] INFO root fetch - processPackages [servir-aces]: Downloading https://files.pythonhosted.org/packages/6b/59/7d1f805fabc2c2487a411a7f7525de65130d325dae7ced0c08b2168ddc29/servir_aces-0.0.7.tar.gz
+[2024-04-17 03:51:52] INFO root fetch - processPackages [shipyard-motherduck]: Downloading https://files.pythonhosted.org/packages/af/cb/13f215e59e336a702471d2a357abddb1be98a14892d5b7429f498c18bc97/shipyard_motherduck-0.1.0a0.tar.gz
+[2024-04-17 03:51:52] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 03:51:52] INFO root fetch - processPackages [omop2poll]: Downloading https://files.pythonhosted.org/packages/64/60/59f0f8e631e522b7624defb0d8ebad1f3ea546b0bd8671e30aa02d688fd3/omop2poll-0.1.4.tar.gz
+[2024-04-17 03:51:53] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 03:51:53] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 03:51:53] INFO root fetch - processPackages [shipyard-motherduck]: Downloading https://files.pythonhosted.org/packages/fb/7d/6ee4b6b7009ff77bc7b40c3c34e6e8cfef25e990289108769ca31d7edfb3/shipyard_motherduck-0.1.0a1.tar.gz
+[2024-04-17 03:51:53] INFO root fetch - processPackages [omop2poll]: executing diffoscope
+[2024-04-17 03:51:53] INFO root fetch - processPackages [omop2poll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omop2poll-0.1.3.tar.gz tmp/omop2poll-0.1.4.tar.gz --markdown 20240417/o/omop2poll/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-17 03:51:53] INFO root fetch - processPackages [servir-aces]: Downloading https://files.pythonhosted.org/packages/9f/eb/04bd0cee1f9aa221fc155435f32c7f2d4be98aa0e33ef27d43646570b098/servir_aces-0.0.9.tar.gz
+[2024-04-17 03:51:53] INFO root fetch - processPackages [shipyard-motherduck]: executing diffoscope
+[2024-04-17 03:51:53] INFO root fetch - processPackages [shipyard-motherduck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_motherduck-0.1.0a0.tar.gz tmp/shipyard_motherduck-0.1.0a1.tar.gz --markdown 20240417/s/shipyard-motherduck/0.1.0a0-0.1.0a1/README.md --exclude *.pyd
+[2024-04-17 03:51:53] INFO root fetch - processPackages [servir-aces]: executing diffoscope
+[2024-04-17 03:51:53] INFO root fetch - processPackages [servir-aces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servir_aces-0.0.7.tar.gz tmp/servir_aces-0.0.9.tar.gz --markdown 20240417/s/servir-aces/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-17 03:51:53] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 03:51:53] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 03:51:53] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 03:51:53] INFO root fetch - processPackages [omop2poll]: Remove: archive file [/home/abi/fetcher/tmp/omop2poll-0.1.3.tar.gz]
+[2024-04-17 03:51:53] INFO root fetch - processPackages [omop2poll]: Remove: archive file [/home/abi/fetcher/tmp/omop2poll-0.1.4.tar.gz]
+[2024-04-17 03:51:53] INFO root fetch - main [MainThread]: End processing [omop2poll]: success
+[2024-04-17 03:51:53] INFO root fetch - processPackages [shipyard-motherduck]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_motherduck-0.1.0a0.tar.gz]
+[2024-04-17 03:51:53] INFO root fetch - processPackages [shipyard-motherduck]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_motherduck-0.1.0a1.tar.gz]
+[2024-04-17 03:51:53] INFO root fetch - main [MainThread]: End processing [shipyard-motherduck]: success
+[2024-04-17 03:51:54] INFO root fetch - processPackages [servir-aces]: Remove: archive file [/home/abi/fetcher/tmp/servir_aces-0.0.7.tar.gz]
+[2024-04-17 03:51:54] INFO root fetch - processPackages [servir-aces]: Remove: archive file [/home/abi/fetcher/tmp/servir_aces-0.0.9.tar.gz]
+[2024-04-17 03:51:54] INFO root fetch - main [MainThread]: End processing [servir-aces]: success
+[2024-04-17 03:51:54] INFO root fetch - main [MainThread]: Store serial: [22798672]
