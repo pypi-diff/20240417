@@ -8183,3 +8183,54 @@
 [2024-04-17 04:34:05] INFO root fetch - processPackages [fabric-message-bus]: Remove: archive file [/home/abi/fetcher/tmp/fabric-message-bus-1.7.0b1.tar.gz]
 [2024-04-17 04:34:05] INFO root fetch - main [MainThread]: End processing [fabric-message-bus]: success
 [2024-04-17 04:34:05] INFO root fetch - main [MainThread]: Store serial: [22798966]
+[2024-04-17 04:36:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798966]
+[2024-04-17 04:36:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 04:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-flux
+[2024-04-17 04:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agsconfig
+[2024-04-17 04:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ptcr
+[2024-04-17 04:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrapework
+[2024-04-17 04:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansar-connect
+[2024-04-17 04:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geo-inference
+[2024-04-17 04:36:14] INFO root fetch - processPackages [ptcr]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-17 04:36:14] ERROR root fetch - processPackages [geo-inference]: Unable to get metadata: No such project 'geo-inference'
+[2024-04-17 04:36:14] INFO root fetch - main [MainThread]: End processing [geo-inference] error
+[2024-04-17 04:36:14] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/09/50/8dcc51a10e04fa9da1acbcb8ab161b373bc15e1c2c354cbc9b59de5eba54/ptcr-0.0.1.tar.gz
+[2024-04-17 04:36:14] INFO root fetch - processPackages [agsconfig]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 04:36:14] INFO root fetch - processPackages [scrapework]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-04-17 04:36:14] INFO root fetch - processPackages [python-flux]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-17 04:36:14] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.179] Old Version: [0.1.178]
+[2024-04-17 04:36:15] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/1a/64/407d6ee8493d7b8226346cddfe4d00f401b2342c8bf11c592959d2d2d16d/ptcr-0.1.0.tar.gz
+[2024-04-17 04:36:15] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/5e/cd/ca1d11b218564ab8c8e85035d8612ae86d783b9859ba12f386d0f40fbd20/ansar_connect-0.1.178.tar.gz
+[2024-04-17 04:36:15] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/e6/e8/86afc9675e0137adc300a4b1e23e8707967a313a940797493e0bafd3c896/agsconfig-0.3.1-py2.py3-none-any.whl
+[2024-04-17 04:36:15] INFO root fetch - processPackages [scrapework]: Downloading https://files.pythonhosted.org/packages/21/0c/01e485d951fe3dc63ddac2d8885f31cb7da4608a132cbd0b17575385e0f0/scrapework-0.4.5.tar.gz
+[2024-04-17 04:36:15] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/33/ae/b5929cf1486c807e947b316658178dd6e9bbcc25ecb9fa1078888e3c1248/python_flux-1.0.4.tar.gz
+[2024-04-17 04:36:15] INFO root fetch - processPackages [ptcr]: executing diffoscope
+[2024-04-17 04:36:15] INFO root fetch - processPackages [ptcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptcr-0.0.1.tar.gz tmp/ptcr-0.1.0.tar.gz --markdown 20240417/p/ptcr/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-17 04:36:15] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/44/79/fb3fc33213235dd6b2ab6ed52fa072de8ec05a6f1f6f3d53f67309f8e889/ansar_connect-0.1.179.tar.gz
+[2024-04-17 04:36:15] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/b4/fa/204efbe36bc9c33422c624b8d47efaca6b011c1bb96eb29755ecdcc7721a/agsconfig-0.3.2-py2.py3-none-any.whl
+[2024-04-17 04:36:15] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/4e/f4/7a8a3be80d1f91c834929bfac55d0f90277387e7610f4beb9cd75c85082a/python_flux-1.0.5.tar.gz
+[2024-04-17 04:36:15] INFO root fetch - processPackages [scrapework]: Downloading https://files.pythonhosted.org/packages/df/7f/0b2b07bc8a34f4c0b521f571e8ba20be4989f63d10b80ba5d8a343114a2d/scrapework-0.4.6.tar.gz
+[2024-04-17 04:36:15] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-17 04:36:15] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.178.tar.gz tmp/ansar_connect-0.1.179.tar.gz --markdown 20240417/a/ansar-connect/0.1.178-0.1.179/README.md --exclude *.pyd
+[2024-04-17 04:36:15] INFO root fetch - processPackages [agsconfig]: executing diffoscope
+[2024-04-17 04:36:15] INFO root fetch - processPackages [agsconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsconfig-0.3.1-py2.py3-none-any.whl.zip tmp/agsconfig-0.3.2-py2.py3-none-any.whl.zip --markdown 20240417/a/agsconfig/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 04:36:15] INFO root fetch - processPackages [python-flux]: executing diffoscope
+[2024-04-17 04:36:15] INFO root fetch - processPackages [python-flux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_flux-1.0.4.tar.gz tmp/python_flux-1.0.5.tar.gz --markdown 20240417/p/python-flux/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-17 04:36:15] INFO root fetch - processPackages [scrapework]: executing diffoscope
+[2024-04-17 04:36:15] INFO root fetch - processPackages [scrapework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapework-0.4.5.tar.gz tmp/scrapework-0.4.6.tar.gz --markdown 20240417/s/scrapework/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-04-17 04:36:15] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.0.1.tar.gz]
+[2024-04-17 04:36:15] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.1.0.tar.gz]
+[2024-04-17 04:36:15] INFO root fetch - main [MainThread]: End processing [ptcr]: success
+[2024-04-17 04:36:16] INFO root fetch - processPackages [scrapework]: Remove: archive file [/home/abi/fetcher/tmp/scrapework-0.4.5.tar.gz]
+[2024-04-17 04:36:16] INFO root fetch - processPackages [scrapework]: Remove: archive file [/home/abi/fetcher/tmp/scrapework-0.4.6.tar.gz]
+[2024-04-17 04:36:16] INFO root fetch - main [MainThread]: End processing [scrapework]: success
+[2024-04-17 04:36:16] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.3.1-py2.py3-none-any.whl.zip]
+[2024-04-17 04:36:16] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.3.2-py2.py3-none-any.whl.zip]
+[2024-04-17 04:36:16] INFO root fetch - main [MainThread]: End processing [agsconfig]: success
+[2024-04-17 04:36:16] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-1.0.4.tar.gz]
+[2024-04-17 04:36:16] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-1.0.5.tar.gz]
+[2024-04-17 04:36:16] INFO root fetch - main [MainThread]: End processing [python-flux]: success
+[2024-04-17 04:36:16] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.178.tar.gz]
+[2024-04-17 04:36:16] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.179.tar.gz]
+[2024-04-17 04:36:16] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-17 04:36:16] INFO root fetch - main [MainThread]: Store serial: [22798984]
