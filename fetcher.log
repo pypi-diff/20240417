@@ -17745,3 +17745,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:29:06] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.5.3-py3-none-any.whl.zip]
 [2024-04-17 11:29:06] INFO root fetch - main [MainThread]: End processing [lightly]: success
 [2024-04-17 11:29:06] INFO root fetch - main [MainThread]: Store serial: [22803232]
+[2024-04-17 11:31:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803232]
+[2024-04-17 11:31:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 11:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightly
+[2024-04-17 11:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drex
+[2024-04-17 11:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trio-bybit
+[2024-04-17 11:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataclasses-ujson
+[2024-04-17 11:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qualesim-quiets
+[2024-04-17 11:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: speasy
+[2024-04-17 11:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ops-py-azure-key-vault-alert
+[2024-04-17 11:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dnsdist-console
+[2024-04-17 11:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bert4keras3
+[2024-04-17 11:31:15] INFO root fetch - processPackages [dataclasses-ujson]: New version: [0.0.8] Old Version: [0.0.5]
+[2024-04-17 11:31:15] INFO root fetch - processPackages [speasy]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-04-17 11:31:15] INFO root fetch - processPackages [bert4keras3]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-17 11:31:15] INFO root fetch - processPackages [qualesim-quiets]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-17 11:31:15] INFO root fetch - processPackages [drex]: New version: [0.0.2431] Old Version: [0.0.243]
+[2024-04-17 11:31:15] INFO root fetch - processPackages [trio-bybit]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 11:31:15] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: New version: [4.5.0] Old Version: [4.4.1]
+[2024-04-17 11:31:15] INFO root fetch - processPackages [lightly]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-04-17 11:31:15] INFO root fetch - processPackages [dnsdist-console]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-04-17 11:31:15] INFO root fetch - processPackages [dataclasses-ujson]: Downloading https://files.pythonhosted.org/packages/fe/e4/6d8902a1fcd5416dc2e87a641c95eb05f13c5b84ec8f393870f29529960a/dataclasses_ujson-0.0.5.tar.gz
+[2024-04-17 11:31:15] INFO root fetch - processPackages [speasy]: Downloading https://files.pythonhosted.org/packages/4a/6b/83afffab1c7653f6fd5e0bd8d18f3bdccae3ac0ee3d07624750ca2be0503/speasy-1.2.4.tar.gz
+[2024-04-17 11:31:15] INFO root fetch - processPackages [qualesim-quiets]: Downloading https://files.pythonhosted.org/packages/f6/cf/60d228003bcbe074db445b6064c68d95e923b9884eed9e9d45cea11f57fb/qualesim-quiets-1.0.1.tar.gz
+[2024-04-17 11:31:15] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/2b/9c/707c7ac73f7efe55c472cde382996862dc8d0ff43b09ed46299a10bc2359/bert4keras3-1.2.8-py2.py3-none-any.whl
+[2024-04-17 11:31:15] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/aa/83/3a61f8e0ef82791a687c65d9ef3b18558cfdaaf263f9b921e88f97b9fa90/drex-0.0.243.tar.gz
+[2024-04-17 11:31:15] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Downloading https://files.pythonhosted.org/packages/5d/6c/43752d479ecd69759f897070ed9f3ecb8af740d7b7bd2a36db881bd362d1/ops-py-azure-key-vault-alert-4.4.1.tar.gz
+[2024-04-17 11:31:15] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/37/5d/44d1d602aa8ddab23a52bc086087b5bf30f9f827451d4dd1256ebcb43856/lightly-1.5.2.tar.gz
+[2024-04-17 11:31:15] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/6d/b4/66d8d2474c785088608e1e3fb6c80c8a7760dff79756f43a489a7cf20082/trio_bybit-0.1.0.tar.gz
+[2024-04-17 11:31:16] INFO root fetch - processPackages [dnsdist-console]: Downloading https://files.pythonhosted.org/packages/4e/7f/85be1bc59230aef53644d919a67b45b652e3ccd56c5f6c378986456da864/dnsdist_console-1.4.4.tar.gz
+[2024-04-17 11:31:16] INFO root fetch - processPackages [speasy]: Downloading https://files.pythonhosted.org/packages/cf/1a/3d512cd3905787a609ead744a243540b3a62af0128f6e9efcc79563ba3fc/speasy-1.2.5.tar.gz
+[2024-04-17 11:31:16] INFO root fetch - processPackages [dataclasses-ujson]: Downloading https://files.pythonhosted.org/packages/33/8a/7e9b50a93d307c3878bf534af5f802e9615fe24faa00ef035d758fce82a1/dataclasses_ujson-0.0.8.tar.gz
+[2024-04-17 11:31:16] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Downloading https://files.pythonhosted.org/packages/8d/cc/2d9de9f7f2d7e617f6a198fac06103a3f75071f997349f00e42c1961702b/ops_py_azure_key_vault_alert-4.5.0.tar.gz
+[2024-04-17 11:31:16] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/cc/79/2327a1c4fdf1207dad0971af42ca6666462aeb5e695c05e1c35d2f9362b8/lightly-1.5.3-py3-none-any.whl
+[2024-04-17 11:31:16] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/88/7e/610519eecaeb4faccc58fea9ad543f4857947b418b9dcb59bc0fe9560e69/drex-0.0.2431.tar.gz
+[2024-04-17 11:31:16] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/59/e7/7269c6c153de28270125af156b15871c7f7de4f473d24ac40f9c11171c60/bert4keras3-1.2.9-py3-none-any.whl
+[2024-04-17 11:31:16] INFO root fetch - processPackages [speasy]: executing diffoscope
+[2024-04-17 11:31:16] INFO root fetch - processPackages [speasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speasy-1.2.4.tar.gz tmp/speasy-1.2.5.tar.gz --markdown 20240417/s/speasy/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-04-17 11:31:16] INFO root fetch - processPackages [dataclasses-ujson]: executing diffoscope
+[2024-04-17 11:31:16] INFO root fetch - processPackages [dataclasses-ujson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses_ujson-0.0.5.tar.gz tmp/dataclasses_ujson-0.0.8.tar.gz --markdown 20240417/d/dataclasses-ujson/0.0.5-0.0.8/README.md --exclude *.pyd
+[2024-04-17 11:31:16] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: executing diffoscope
+[2024-04-17 11:31:16] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-py-azure-key-vault-alert-4.4.1.tar.gz tmp/ops_py_azure_key_vault_alert-4.5.0.tar.gz --markdown 20240417/o/ops-py-azure-key-vault-alert/4.4.1-4.5.0/README.md --exclude *.pyd
+[2024-04-17 11:31:16] INFO root fetch - processPackages [drex]: executing diffoscope
+[2024-04-17 11:31:16] INFO root fetch - processPackages [drex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drex-0.0.243.tar.gz tmp/drex-0.0.2431.tar.gz --markdown 20240417/d/drex/0.0.243-0.0.2431/README.md --exclude *.pyd
+[2024-04-17 11:31:16] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/00/d3/99cf63d36532cdafa4c2fa5911c37575b9d5e797009f8657333732268199/trio_bybit-0.1.1.tar.gz
+[2024-04-17 11:31:16] INFO root fetch - processPackages [bert4keras3]: executing diffoscope
+[2024-04-17 11:31:16] INFO root fetch - processPackages [bert4keras3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert4keras3-1.2.8-py2.py3-none-any.whl.zip tmp/bert4keras3-1.2.9-py3-none-any.whl.zip --markdown 20240417/b/bert4keras3/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-17 11:31:16] INFO root fetch - processPackages [lightly]: executing diffoscope
+[2024-04-17 11:31:16] INFO root fetch - processPackages [lightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightly-1.5.2.tar.gz tmp/lightly-1.5.3-py3-none-any.whl.zip --markdown 20240417/l/lightly/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-04-17 11:31:16] INFO root fetch - processPackages [dnsdist-console]: Downloading https://files.pythonhosted.org/packages/50/0c/4e39efe6a04c7d68c6ff9f31f53a4253707f2b0216c40cda3d9c9653af3f/dnsdist_console-1.4.5.tar.gz
+[2024-04-17 11:31:16] INFO root fetch - processPackages [trio-bybit]: executing diffoscope
+[2024-04-17 11:31:16] INFO root fetch - processPackages [trio-bybit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_bybit-0.1.0.tar.gz tmp/trio_bybit-0.1.1.tar.gz --markdown 20240417/t/trio-bybit/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 11:31:16] INFO root fetch - processPackages [qualesim-quiets]: Downloading https://files.pythonhosted.org/packages/cd/3c/8dcea668b72259b0eb162f0ec9996dd3365465af66b7eede2d56cb572156/qualesim-quiets-1.0.2.tar.gz
+[2024-04-17 11:31:16] INFO root fetch - processPackages [dnsdist-console]: executing diffoscope
+[2024-04-17 11:31:16] INFO root fetch - processPackages [dnsdist-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnsdist_console-1.4.4.tar.gz tmp/dnsdist_console-1.4.5.tar.gz --markdown 20240417/d/dnsdist-console/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-04-17 11:31:16] INFO root fetch - processPackages [qualesim-quiets]: executing diffoscope
+[2024-04-17 11:31:16] INFO root fetch - processPackages [qualesim-quiets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualesim-quiets-1.0.1.tar.gz tmp/qualesim-quiets-1.0.2.tar.gz --markdown 20240417/q/qualesim-quiets/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-17 11:31:17] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Remove: archive file [/home/abi/fetcher/tmp/ops-py-azure-key-vault-alert-4.4.1.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_alert-4.5.0.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - main [MainThread]: End processing [ops-py-azure-key-vault-alert]: success
+[2024-04-17 11:31:17] INFO root fetch - processPackages [dataclasses-ujson]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_ujson-0.0.5.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - processPackages [dataclasses-ujson]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_ujson-0.0.8.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - main [MainThread]: End processing [dataclasses-ujson]: success
+[2024-04-17 11:31:17] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.2.8-py2.py3-none-any.whl.zip]
+[2024-04-17 11:31:17] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.2.9-py3-none-any.whl.zip]
+[2024-04-17 11:31:17] INFO root fetch - main [MainThread]: End processing [bert4keras3]: success
+[2024-04-17 11:31:17] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.1.0.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.1.1.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - main [MainThread]: End processing [trio-bybit]: success
+[2024-04-17 11:31:17] INFO root fetch - processPackages [speasy]: Remove: archive file [/home/abi/fetcher/tmp/speasy-1.2.4.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - processPackages [speasy]: Remove: archive file [/home/abi/fetcher/tmp/speasy-1.2.5.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - main [MainThread]: End processing [speasy]: success
+[2024-04-17 11:31:17] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.243.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.2431.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - main [MainThread]: End processing [drex]: success
+[2024-04-17 11:31:17] INFO root fetch - processPackages [qualesim-quiets]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quiets-1.0.1.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - processPackages [qualesim-quiets]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quiets-1.0.2.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - main [MainThread]: End processing [qualesim-quiets]: success
+[2024-04-17 11:31:17] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.5.2.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.5.3-py3-none-any.whl.zip]
+[2024-04-17 11:31:17] INFO root fetch - main [MainThread]: End processing [lightly]: success
+[2024-04-17 11:31:17] INFO root fetch - processPackages [dnsdist-console]: Remove: archive file [/home/abi/fetcher/tmp/dnsdist_console-1.4.4.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - processPackages [dnsdist-console]: Remove: archive file [/home/abi/fetcher/tmp/dnsdist_console-1.4.5.tar.gz]
+[2024-04-17 11:31:17] INFO root fetch - main [MainThread]: End processing [dnsdist-console]: success
+[2024-04-17 11:31:17] INFO root fetch - main [MainThread]: Store serial: [22803263]
