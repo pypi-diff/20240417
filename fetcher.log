@@ -20239,3 +20239,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:57:05] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-04-17 12:57:05] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-04-17 12:57:05] INFO root fetch - main [MainThread]: Store serial: [22804195]
+[2024-04-17 12:59:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804195]
+[2024-04-17 12:59:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 12:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apmtools
+[2024-04-17 12:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adata
+[2024-04-17 12:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-photovoltaic-mgmt-extended
+[2024-04-17 12:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qiskit-iqm
+[2024-04-17 12:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mpyl
+[2024-04-17 12:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkscreener
+[2024-04-17 12:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: samples-filter
+[2024-04-17 12:59:14] INFO root fetch - processPackages [adata]: New version: [2.0.0b0] Old Version: [1.2.4]
+[2024-04-17 12:59:14] INFO root fetch - processPackages [apmtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 12:59:14] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240417.270] Old Version: [0.44.20240417.269]
+[2024-04-17 12:59:14] INFO root fetch - processPackages [qiskit-iqm]: New version: [9.0] Old Version: [8.3]
+[2024-04-17 12:59:14] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/cb/9d/9ba7e4835378f11a75b2f862d55c50d5ed9e29f1f3654aac013d11a1bfc2/adata-1.2.4.tar.gz
+[2024-04-17 12:59:14] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/de/e4/d6e711ac61fe6f7af46eda73a0f1b76b8fea3058ed7ff8d5ed8e37631da0/apmtools-0.0.8.tar.gz
+[2024-04-17 12:59:14] WARNING root fetch - processPackages [samples-filter]: Skipping, unable to determine old version
+[2024-04-17 12:59:14] INFO root fetch - main [MainThread]: End processing [samples-filter] error
+[2024-04-17 12:59:14] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: New version: [13.0.1.1.3] Old Version: [13.0.1.1.2]
+[2024-04-17 12:59:14] INFO root fetch - processPackages [mpyl]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-04-17 12:59:14] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/11/dc/978674896536f46a4ccf13865e2be1dd4092cc89c847901d67faf7373810/pkscreener-0.44.20240417.269.tar.gz
+[2024-04-17 12:59:14] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/6f/9f/9f7666c7e61e4ba8b3f959e0c5eef07e997c7500f0d051b41a202380e0fc/qiskit-iqm-8.3.tar.gz
+[2024-04-17 12:59:14] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: Downloading https://files.pythonhosted.org/packages/ec/77/b023e59800c0f65595b54b8f61fe33c0304ecc7f6d542169e1edd1ea3c1b/odoo13-addon-photovoltaic_mgmt_extended-13.0.1.1.2.tar.gz
+[2024-04-17 12:59:14] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/24/a9/074aaa797009d2b0cc2bfbc12f634babd1293c090f9c0700d84c61991b47/adata-2.0.0b0.tar.gz
+[2024-04-17 12:59:14] INFO root fetch - processPackages [mpyl]: Downloading https://files.pythonhosted.org/packages/f0/24/c38a2dac2fe83ac421c3c82f66db33a070a72f2ef94f6f2be613157c9039/mpyl-1.6.3-py3-none-any.whl
+[2024-04-17 12:59:14] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/21/fa/19188be4ca367f4ebaec7bd7ee3b5daab94d4a3a20da3ac629796190e76b/qiskit-iqm-9.0.tar.gz
+[2024-04-17 12:59:14] INFO root fetch - processPackages [adata]: executing diffoscope
+[2024-04-17 12:59:14] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-1.2.4.tar.gz tmp/adata-2.0.0b0.tar.gz --markdown 20240417/a/adata/1.2.4-2.0.0b0/README.md --exclude *.pyd
+[2024-04-17 12:59:14] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2024-04-17 12:59:14] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-8.3.tar.gz tmp/qiskit-iqm-9.0.tar.gz --markdown 20240417/q/qiskit-iqm/8.3-9.0/README.md --exclude *.pyd
+[2024-04-17 12:59:14] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/9f/80/80f21cdf0d64472aad0db7cdb7fb2a00fbfa25ba4088a0481e9699172b7d/pkscreener-0.44.20240417.270.tar.gz
+[2024-04-17 12:59:15] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/1b/d8/f078c028e3a31e87a9d21228f1c6989660a625af41cadc32b810ce6f8332/apmtools-0.0.9.tar.gz
+[2024-04-17 12:59:15] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: Downloading https://files.pythonhosted.org/packages/2a/dd/2b5130d234e2fb9cba039496ef98dcb6213a75a6cfd660ca5baf05364db3/odoo13-addon-photovoltaic_mgmt_extended-13.0.1.1.3.tar.gz
+[2024-04-17 12:59:15] INFO root fetch - processPackages [mpyl]: Downloading https://files.pythonhosted.org/packages/33/a2/0c511cddd5d592489e93a4f47eb1f62fa0b90578d11d2f24cc2c417ce349/mpyl-1.6.4-py3-none-any.whl
+[2024-04-17 12:59:15] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-17 12:59:15] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240417.269.tar.gz tmp/pkscreener-0.44.20240417.270.tar.gz --markdown 20240417/p/pkscreener/0.44.20240417.269-0.44.20240417.270/README.md --exclude *.pyd
+[2024-04-17 12:59:15] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: executing diffoscope
+[2024-04-17 12:59:15] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13-addon-photovoltaic_mgmt_extended-13.0.1.1.2.tar.gz tmp/odoo13-addon-photovoltaic_mgmt_extended-13.0.1.1.3.tar.gz --markdown 20240417/o/odoo13-addon-photovoltaic-mgmt-extended/13.0.1.1.2-13.0.1.1.3/README.md --exclude *.pyd
+[2024-04-17 12:59:15] INFO root fetch - processPackages [mpyl]: executing diffoscope
+[2024-04-17 12:59:15] INFO root fetch - processPackages [mpyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpyl-1.6.3-py3-none-any.whl.zip tmp/mpyl-1.6.4-py3-none-any.whl.zip --markdown 20240417/m/mpyl/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-04-17 12:59:15] INFO root fetch - processPackages [apmtools]: executing diffoscope
+[2024-04-17 12:59:15] INFO root fetch - processPackages [apmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apmtools-0.0.8.tar.gz tmp/apmtools-0.0.9.tar.gz --markdown 20240417/a/apmtools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 12:59:15] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-8.3.tar.gz]
+[2024-04-17 12:59:15] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-9.0.tar.gz]
+[2024-04-17 12:59:15] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2024-04-17 12:59:15] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_mgmt_extended-13.0.1.1.2.tar.gz]
+[2024-04-17 12:59:15] INFO root fetch - processPackages [odoo13-addon-photovoltaic-mgmt-extended]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_mgmt_extended-13.0.1.1.3.tar.gz]
+[2024-04-17 12:59:15] INFO root fetch - main [MainThread]: End processing [odoo13-addon-photovoltaic-mgmt-extended]: success
+[2024-04-17 12:59:16] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240417.269.tar.gz]
+[2024-04-17 12:59:16] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240417.270.tar.gz]
+[2024-04-17 12:59:16] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-17 12:59:16] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.8.tar.gz]
+[2024-04-17 12:59:16] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.9.tar.gz]
+[2024-04-17 12:59:16] INFO root fetch - main [MainThread]: End processing [apmtools]: success
+[2024-04-17 12:59:16] INFO root fetch - processPackages [mpyl]: Remove: archive file [/home/abi/fetcher/tmp/mpyl-1.6.3-py3-none-any.whl.zip]
+[2024-04-17 12:59:16] INFO root fetch - processPackages [mpyl]: Remove: archive file [/home/abi/fetcher/tmp/mpyl-1.6.4-py3-none-any.whl.zip]
+[2024-04-17 12:59:16] INFO root fetch - main [MainThread]: End processing [mpyl]: success
+[2024-04-17 12:59:16] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-1.2.4.tar.gz]
+[2024-04-17 12:59:16] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-2.0.0b0.tar.gz]
+[2024-04-17 12:59:16] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2024-04-17 12:59:16] INFO root fetch - main [MainThread]: Store serial: [22804218]
