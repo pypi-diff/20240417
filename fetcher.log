@@ -15629,3 +15629,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:23:04] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-04-17 10:23:04] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-04-17 10:23:04] INFO root fetch - main [MainThread]: Store serial: [22802164]
+[2024-04-17 10:25:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802164]
+[2024-04-17 10:25:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: t-bug-catcher
+[2024-04-17 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-id
+[2024-04-17 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-slack
+[2024-04-17 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lowatt-grdf
+[2024-04-17 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-splunk
+[2024-04-17 10:25:13] WARNING root fetch - processPackages [easy-id]: Skipping, unable to determine old version
+[2024-04-17 10:25:13] INFO root fetch - main [MainThread]: End processing [easy-id] error
+[2024-04-17 10:25:13] INFO root fetch - processPackages [t-bug-catcher]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-17 10:25:13] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1713338397] Old Version: [1.3.0a1712990695]
+[2024-04-17 10:25:13] INFO root fetch - processPackages [pulumi-slack]: New version: [0.4.5a1713338281] Old Version: [0.4.5a1712990346]
+[2024-04-17 10:25:13] INFO root fetch - processPackages [lowatt-grdf]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-17 10:25:13] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/7d/c5/a6ec5721c96b4ac9facecd9eb85414212bfd69f4c2148dcb91d6733990c8/t_bug_catcher-0.4.3.tar.gz
+[2024-04-17 10:25:14] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/15/3c/48f230f227dcd73044c6b006e4dc7363a1b5ba6f9efe42325c11f5682696/pulumi_slack-0.4.5a1712990346.tar.gz
+[2024-04-17 10:25:14] INFO root fetch - processPackages [lowatt-grdf]: Downloading https://files.pythonhosted.org/packages/9d/fc/5e4959473e707fb90ca3d3c97319da388c3f99dc112f15949003f1a0d92c/lowatt_grdf-2.2.0.tar.gz
+[2024-04-17 10:25:14] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/d2/04/e67322e9b26d00ff664b1b9b88efccb4ab3295ba9a87caf9e1b5e77ddb34/pulumi_splunk-1.3.0a1712990695.tar.gz
+[2024-04-17 10:25:14] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/0d/33/88037edc2b68b9925ddfa5eff63127108bc41d94c7ecf5558a53c9f37b21/t_bug_catcher-0.4.4.tar.gz
+[2024-04-17 10:25:14] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/c5/37/89d4d02e5944fe515ac785d2fc8757a1445239e8c6bbc83080062e95ba1d/pulumi_slack-0.4.5a1713338281.tar.gz
+[2024-04-17 10:25:14] INFO root fetch - processPackages [lowatt-grdf]: Downloading https://files.pythonhosted.org/packages/1f/99/51fdf124c8f9f7747e8e443c5592a7d59a12b6e1bbad19367130b347a89e/lowatt_grdf-2.2.1.tar.gz
+[2024-04-17 10:25:14] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/95/a4/7ac2220091af75624afa5dc8a895bdde549ec3fe3c2af39d3ccf76050ae6/pulumi_splunk-1.3.0a1713338397.tar.gz
+[2024-04-17 10:25:14] INFO root fetch - processPackages [t-bug-catcher]: executing diffoscope
+[2024-04-17 10:25:14] INFO root fetch - processPackages [t-bug-catcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_bug_catcher-0.4.3.tar.gz tmp/t_bug_catcher-0.4.4.tar.gz --markdown 20240417/t/t-bug-catcher/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-17 10:25:14] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-04-17 10:25:14] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.5a1712990346.tar.gz tmp/pulumi_slack-0.4.5a1713338281.tar.gz --markdown 20240417/p/pulumi-slack/0.4.5a1712990346-0.4.5a1713338281/README.md --exclude *.pyd
+[2024-04-17 10:25:14] INFO root fetch - processPackages [lowatt-grdf]: executing diffoscope
+[2024-04-17 10:25:14] INFO root fetch - processPackages [lowatt-grdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lowatt_grdf-2.2.0.tar.gz tmp/lowatt_grdf-2.2.1.tar.gz --markdown 20240417/l/lowatt-grdf/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-04-17 10:25:14] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2024-04-17 10:25:14] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1712990695.tar.gz tmp/pulumi_splunk-1.3.0a1713338397.tar.gz --markdown 20240417/p/pulumi-splunk/1.3.0a1712990695-1.3.0a1713338397/README.md --exclude *.pyd
+[2024-04-17 10:25:15] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.5a1712990346.tar.gz]
+[2024-04-17 10:25:15] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.5a1713338281.tar.gz]
+[2024-04-17 10:25:15] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-04-17 10:25:15] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.3.tar.gz]
+[2024-04-17 10:25:15] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.4.tar.gz]
+[2024-04-17 10:25:15] INFO root fetch - main [MainThread]: End processing [t-bug-catcher]: success
+[2024-04-17 10:25:15] INFO root fetch - processPackages [lowatt-grdf]: Remove: archive file [/home/abi/fetcher/tmp/lowatt_grdf-2.2.0.tar.gz]
+[2024-04-17 10:25:15] INFO root fetch - processPackages [lowatt-grdf]: Remove: archive file [/home/abi/fetcher/tmp/lowatt_grdf-2.2.1.tar.gz]
+[2024-04-17 10:25:15] INFO root fetch - main [MainThread]: End processing [lowatt-grdf]: success
+[2024-04-17 10:25:15] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1712990695.tar.gz]
+[2024-04-17 10:25:15] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1713338397.tar.gz]
+[2024-04-17 10:25:15] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2024-04-17 10:25:15] INFO root fetch - main [MainThread]: Store serial: [22802182]
