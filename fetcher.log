@@ -19858,3 +19858,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:41:24] INFO root fetch - processPackages [paramount]: Remove: archive file [/home/abi/fetcher/tmp/paramount-0.3.7.tar.gz]
 [2024-04-17 12:41:24] INFO root fetch - main [MainThread]: End processing [paramount]: success
 [2024-04-17 12:41:24] INFO root fetch - main [MainThread]: Store serial: [22804030]
+[2024-04-17 12:43:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804030]
+[2024-04-17 12:43:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 12:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond-account-statement-mt940
+[2024-04-17 12:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bens-calculator
+[2024-04-17 12:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-account-statement-mt940
+[2024-04-17 12:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scandir-rs
+[2024-04-17 12:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytond-account-payment-stripe
+[2024-04-17 12:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-account-payment-stripe
+[2024-04-17 12:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-account-payment-stripe
+[2024-04-17 12:43:34] INFO root fetch - processPackages [scandir-rs]: New version: [2.7.0] Old Version: [2.4.0]
+[2024-04-17 12:43:34] WARNING root fetch - processPackages [bens-calculator]: Skipping, unable to determine old version
+[2024-04-17 12:43:34] INFO root fetch - main [MainThread]: End processing [bens-calculator] error
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-statement-mt940]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-statement-mt940]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-04-17 12:43:34] INFO root fetch - processPackages [scandir-rs]: Downloading https://files.pythonhosted.org/packages/e4/e7/bb4605f0e355f6c7a9c930d6f5792cc7a622dfaaa13b8ce2f2a82e093642/scandir_rs-2.4.0-cp39-cp39-manylinux_2_34_x86_64.whl
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-payment-stripe]: New version: [7.0.3] Old Version: [7.0.2]
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-payment-stripe]: New version: [7.0.3] Old Version: [7.0.2]
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-payment-stripe]: New version: [7.0.3] Old Version: [7.0.2]
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-statement-mt940]: Downloading https://files.pythonhosted.org/packages/7d/b6/17c1c817596c093e6d9d6df50ac5f19154cb6a59aea6eecf77f818f5c089/trytond_account_statement_mt940-7.0.0.tar.gz
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-statement-mt940]: Downloading https://files.pythonhosted.org/packages/7d/b6/17c1c817596c093e6d9d6df50ac5f19154cb6a59aea6eecf77f818f5c089/trytond_account_statement_mt940-7.0.0.tar.gz
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-payment-stripe]: Downloading https://files.pythonhosted.org/packages/4f/1e/7e968f07b8e6a50070dfe411fb6626b1878566da4d149ac958d7d1689499/trytond_account_payment_stripe-7.0.2.tar.gz
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-payment-stripe]: Downloading https://files.pythonhosted.org/packages/4f/1e/7e968f07b8e6a50070dfe411fb6626b1878566da4d149ac958d7d1689499/trytond_account_payment_stripe-7.0.2.tar.gz
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-payment-stripe]: Downloading https://files.pythonhosted.org/packages/4f/1e/7e968f07b8e6a50070dfe411fb6626b1878566da4d149ac958d7d1689499/trytond_account_payment_stripe-7.0.2.tar.gz
+[2024-04-17 12:43:34] INFO root fetch - processPackages [scandir-rs]: Downloading https://files.pythonhosted.org/packages/b7/68/e8a97d41c1c827f794e72b563c8337e7ae1cf5b3a87c6ad70fc4dbb49e29/scandir_rs-2.7.0.tar.gz
+[2024-04-17 12:43:34] INFO root fetch - processPackages [scandir-rs]: executing diffoscope
+[2024-04-17 12:43:34] INFO root fetch - processPackages [scandir-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scandir_rs-2.4.0-cp39-cp39-manylinux_2_34_x86_64.whl.zip tmp/scandir_rs-2.7.0.tar.gz --markdown 20240417/s/scandir-rs/2.4.0-2.7.0/README.md --exclude *.pyd
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-statement-mt940]: Downloading https://files.pythonhosted.org/packages/47/dc/5e0121338507d14c68b82360ea3017d9883f9cce346370c16dc257533ff9/trytond_account_statement_mt940-7.0.1.tar.gz
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-statement-mt940]: Downloading https://files.pythonhosted.org/packages/47/dc/5e0121338507d14c68b82360ea3017d9883f9cce346370c16dc257533ff9/trytond_account_statement_mt940-7.0.1.tar.gz
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-payment-stripe]: Downloading https://files.pythonhosted.org/packages/4c/4e/4be7e0c6c160b7938e15bff2ee0c9b35192c9c60ab34f64d8b4657f587df/trytond_account_payment_stripe-7.0.3.tar.gz
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-payment-stripe]: Downloading https://files.pythonhosted.org/packages/4c/4e/4be7e0c6c160b7938e15bff2ee0c9b35192c9c60ab34f64d8b4657f587df/trytond_account_payment_stripe-7.0.3.tar.gz
+[2024-04-17 12:43:34] INFO root fetch - processPackages [trytond-account-payment-stripe]: Downloading https://files.pythonhosted.org/packages/4c/4e/4be7e0c6c160b7938e15bff2ee0c9b35192c9c60ab34f64d8b4657f587df/trytond_account_payment_stripe-7.0.3.tar.gz
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-payment-stripe]: executing diffoscope
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-payment-stripe]: executing diffoscope
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-payment-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_payment_stripe-7.0.2.tar.gz tmp/trytond_account_payment_stripe-7.0.3.tar.gz --markdown 20240417/t/trytond-account-payment-stripe/7.0.2-7.0.3/README.md --exclude *.pyd
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-payment-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_payment_stripe-7.0.2.tar.gz tmp/trytond_account_payment_stripe-7.0.3.tar.gz --markdown 20240417/t/trytond-account-payment-stripe/7.0.2-7.0.3/README.md --exclude *.pyd
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-payment-stripe]: executing diffoscope
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-payment-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_payment_stripe-7.0.2.tar.gz tmp/trytond_account_payment_stripe-7.0.3.tar.gz --markdown 20240417/t/trytond-account-payment-stripe/7.0.2-7.0.3/README.md --exclude *.pyd
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-statement-mt940]: executing diffoscope
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-statement-mt940]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_statement_mt940-7.0.0.tar.gz tmp/trytond_account_statement_mt940-7.0.1.tar.gz --markdown 20240417/t/trytond-account-statement-mt940/7.0.0-7.0.1/README.md --exclude *.pyd
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-statement-mt940]: executing diffoscope
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-statement-mt940]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_statement_mt940-7.0.0.tar.gz tmp/trytond_account_statement_mt940-7.0.1.tar.gz --markdown 20240417/t/trytond-account-statement-mt940/7.0.0-7.0.1/README.md --exclude *.pyd
+[2024-04-17 12:43:35] INFO root fetch - processPackages [scandir-rs]: Remove: archive file [/home/abi/fetcher/tmp/scandir_rs-2.4.0-cp39-cp39-manylinux_2_34_x86_64.whl.zip]
+[2024-04-17 12:43:35] INFO root fetch - processPackages [scandir-rs]: Remove: archive file [/home/abi/fetcher/tmp/scandir_rs-2.7.0.tar.gz]
+[2024-04-17 12:43:35] INFO root fetch - main [MainThread]: End processing [scandir-rs]: success
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-statement-mt940]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_statement_mt940-7.0.0.tar.gz]
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-statement-mt940]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_statement_mt940-7.0.1.tar.gz]
+[2024-04-17 12:43:35] INFO root fetch - main [MainThread]: End processing [trytond-account-statement-mt940]: success
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-payment-stripe]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_payment_stripe-7.0.2.tar.gz]
+[2024-04-17 12:43:35] INFO root fetch - processPackages [trytond-account-payment-stripe]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_payment_stripe-7.0.3.tar.gz]
+[2024-04-17 12:43:35] INFO root fetch - main [MainThread]: End processing [trytond-account-payment-stripe]: success
+[2024-04-17 12:43:35] INFO root fetch - main [MainThread]: End processing [trytond-account-payment-stripe]: success
+[2024-04-17 12:43:36] INFO root fetch - main [MainThread]: End processing [trytond-account-statement-mt940]: success
+[2024-04-17 12:43:36] INFO root fetch - main [MainThread]: End processing [trytond-account-payment-stripe]: success
+[2024-04-17 12:43:36] INFO root fetch - main [MainThread]: Store serial: [22804064]
