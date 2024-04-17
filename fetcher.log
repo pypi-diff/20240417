@@ -11965,3 +11965,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:09:21] INFO root fetch - processPackages [zohocrmsdk6-0]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk6_0-4.0.0.tar.gz]
 [2024-04-17 08:09:21] INFO root fetch - main [MainThread]: End processing [zohocrmsdk6-0]: success
 [2024-04-17 08:09:21] INFO root fetch - main [MainThread]: Store serial: [22800395]
+[2024-04-17 08:11:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800395]
+[2024-04-17 08:11:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 08:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-alicloud
+[2024-04-17 08:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reboot-resemble
+[2024-04-17 08:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-server-ux
+[2024-04-17 08:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apmtools
+[2024-04-17 08:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qwen-agent
+[2024-04-17 08:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bbg-fetch
+[2024-04-17 08:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lambkid
+[2024-04-17 08:11:30] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20240415.0] Old Version: [16.0.20240412.0]
+[2024-04-17 08:11:30] INFO root fetch - processPackages [apmtools]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-17 08:11:30] INFO root fetch - processPackages [lambkid]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 08:11:30] INFO root fetch - processPackages [bbg-fetch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-17 08:11:30] INFO root fetch - processPackages [qwen-agent]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 08:11:30] INFO root fetch - processPackages [reboot-resemble]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-17 08:11:30] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/6a/38/f38847da57bd91482716f8004b4d19347ec9f4743ccba412cf7eef888c49/lambkid-0.1.8.tar.gz
+[2024-04-17 08:11:30] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/d6/0f/9d8c085e7580e37f326d037d9f9d15fe400c54baf64edf69277ff28b1876/odoo_addons_oca_server_ux-16.0.20240412.0-py3-none-any.whl
+[2024-04-17 08:11:30] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-04-17 08:11:30] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/12/28/7e4b8b8d21a76d6b239836a11d8190e48513218e0df9ccd647ae44c61776/apmtools-0.0.6.tar.gz
+[2024-04-17 08:11:31] INFO root fetch - processPackages [reboot-resemble]: Downloading https://files.pythonhosted.org/packages/fa/a2/166d59efd42325818bb406f99a56388cec01b077ed323a07b96947311293/reboot_resemble-0.5.6-cp310-cp310-manylinux_2_35_x86_64.whl
+[2024-04-17 08:11:31] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-04-17 08:11:31] INFO root fetch - processPackages [bbg-fetch]: Downloading https://files.pythonhosted.org/packages/bd/13/90248dbcf53b4e2befb6a2297d72457a7c3e98ba604df65d8d58c0d05770/bbg_fetch-1.0.4.tar.gz
+[2024-04-17 08:11:31] INFO root fetch - processPackages [qwen-agent]: Downloading https://files.pythonhosted.org/packages/53/d0/c52910398af519f56fa089ed5410eb0164e29a56ebe3dd2079dd08b060ca/qwen-agent-0.0.1.tar.gz
+[2024-04-17 08:11:31] WARNING root fetch - processPackages [reboot-resemble]: Skipping package: exceeds size limit 17378611>=10485760
+[2024-04-17 08:11:31] INFO root fetch - main [MainThread]: End processing [reboot-resemble] error
+[2024-04-17 08:11:31] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/c2/30/531bab397333696a9f1093c60d081963d1ecd05afb57256361e442b1fefe/odoo_addons_oca_server_ux-16.0.20240415.0-py3-none-any.whl
+[2024-04-17 08:11:31] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/2a/05/3ffb7974db064cbcc79af161bf87417bc66b99e257e16f9f35bc2dfaf41e/lambkid-0.1.9.tar.gz
+[2024-04-17 08:11:31] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2024-04-17 08:11:31] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20240412.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20240415.0-py3-none-any.whl.zip --markdown 20240417/o/odoo-addons-oca-server-ux/16.0.20240412.0-16.0.20240415.0/README.md --exclude *.pyd
+[2024-04-17 08:11:31] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-17 08:11:31] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.1.8.tar.gz tmp/lambkid-0.1.9.tar.gz --markdown 20240417/l/lambkid/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 08:11:31] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/33/c2/23cba349f8829522fc98cd694e4f3ff984dbe60a8a5b16db804418ab997d/apmtools-0.0.7.tar.gz
+[2024-04-17 08:11:31] INFO root fetch - processPackages [bbg-fetch]: Downloading https://files.pythonhosted.org/packages/f9/74/e357dffe566ca71d3c8fea4ec06dbd60d381b3ba7e08082e411b97d88aa8/bbg_fetch-1.0.5.tar.gz
+[2024-04-17 08:11:31] INFO root fetch - processPackages [bbg-fetch]: executing diffoscope
+[2024-04-17 08:11:31] INFO root fetch - processPackages [bbg-fetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbg_fetch-1.0.4.tar.gz tmp/bbg_fetch-1.0.5.tar.gz --markdown 20240417/b/bbg-fetch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-17 08:11:31] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20240412.0-py3-none-any.whl.zip]
+[2024-04-17 08:11:31] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20240415.0-py3-none-any.whl.zip]
+[2024-04-17 08:11:31] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2024-04-17 08:11:31] INFO root fetch - processPackages [apmtools]: executing diffoscope
+[2024-04-17 08:11:31] INFO root fetch - processPackages [apmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apmtools-0.0.6.tar.gz tmp/apmtools-0.0.7.tar.gz --markdown 20240417/a/apmtools/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-17 08:11:31] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-04-17 08:11:32] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.8.tar.gz]
+[2024-04-17 08:11:32] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.9.tar.gz]
+[2024-04-17 08:11:32] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-17 08:11:32] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-04-17 08:11:32] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240417/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-04-17 08:11:32] INFO root fetch - processPackages [bbg-fetch]: Remove: archive file [/home/abi/fetcher/tmp/bbg_fetch-1.0.4.tar.gz]
+[2024-04-17 08:11:32] INFO root fetch - processPackages [bbg-fetch]: Remove: archive file [/home/abi/fetcher/tmp/bbg_fetch-1.0.5.tar.gz]
+[2024-04-17 08:11:32] INFO root fetch - main [MainThread]: End processing [bbg-fetch]: success
+[2024-04-17 08:11:32] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.6.tar.gz]
+[2024-04-17 08:11:32] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.7.tar.gz]
+[2024-04-17 08:11:32] INFO root fetch - main [MainThread]: End processing [apmtools]: success
+[2024-04-17 08:11:34] INFO root fetch - processPackages [qwen-agent]: Downloading https://files.pythonhosted.org/packages/96/2b/bcd7627ce2c032b4a9e99262779d40e58847cd9abb10948a763a2b9055fa/qwen-agent-0.0.2.tar.gz
+[2024-04-17 08:11:34] INFO root fetch - processPackages [qwen-agent]: executing diffoscope
+[2024-04-17 08:11:34] INFO root fetch - processPackages [qwen-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwen-agent-0.0.1.tar.gz tmp/qwen-agent-0.0.2.tar.gz --markdown 20240417/q/qwen-agent/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 08:11:35] INFO root fetch - processPackages [qwen-agent]: Remove: archive file [/home/abi/fetcher/tmp/qwen-agent-0.0.1.tar.gz]
+[2024-04-17 08:11:35] INFO root fetch - processPackages [qwen-agent]: Remove: archive file [/home/abi/fetcher/tmp/qwen-agent-0.0.2.tar.gz]
+[2024-04-17 08:11:35] INFO root fetch - main [MainThread]: End processing [qwen-agent]: success
+[2024-04-17 08:11:40] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-04-17 08:11:40] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-04-17 08:11:40] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-04-17 08:11:40] INFO root fetch - main [MainThread]: Store serial: [22800414]
