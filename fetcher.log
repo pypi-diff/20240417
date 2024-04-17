@@ -2275,3 +2275,29 @@
 [2024-04-17 02:22:08] INFO root fetch - processPackages [libfwevt-python]: Remove: archive file [/home/abi/fetcher/tmp/libfwevt_python-20240416-cp38-cp38-win32.whl.zip]
 [2024-04-17 02:22:08] INFO root fetch - main [MainThread]: End processing [libfwevt-python]: success
 [2024-04-17 02:22:08] INFO root fetch - main [MainThread]: Store serial: [22796672]
+[2024-04-17 02:24:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796672]
+[2024-04-17 02:24:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 02:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-cr-constructs
+[2024-04-17 02:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-tweet-queue
+[2024-04-17 02:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gamdl
+[2024-04-17 02:24:17] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-17 02:24:17] INFO root fetch - processPackages [gamdl]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-17 02:24:17] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.429] Old Version: [2.1.428]
+[2024-04-17 02:24:18] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2024-04-17 02:24:18] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/ea/74/58a86dd0257ece1456e8b60abb6d02f725e524e3d3d74f0a1c1929db5798/gamdl-2.1.7.tar.gz
+[2024-04-17 02:24:18] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/f2/55/59fe3cd3bcebb8686ffc43cfcc4397c778ee03b59afc115de6b732be06ea/cdk-cr-constructs-2.1.428.tar.gz
+[2024-04-17 02:24:18] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15102017>=10485760
+[2024-04-17 02:24:18] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-04-17 02:24:18] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2024-04-17 02:24:18] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2024-04-17 02:24:18] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20240417/c/cdk-tweet-queue/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-17 02:24:18] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/2a/52/3e7298a39fd9eaf8719408242eb1edb891b0d8ac52a3ca205fd2ec3b3495/gamdl-2.1.8.tar.gz
+[2024-04-17 02:24:18] INFO root fetch - processPackages [gamdl]: executing diffoscope
+[2024-04-17 02:24:18] INFO root fetch - processPackages [gamdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamdl-2.1.7.tar.gz tmp/gamdl-2.1.8.tar.gz --markdown 20240417/g/gamdl/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-04-17 02:24:19] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2024-04-17 02:24:19] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2024-04-17 02:24:19] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2024-04-17 02:24:19] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.1.7.tar.gz]
+[2024-04-17 02:24:19] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.1.8.tar.gz]
+[2024-04-17 02:24:19] INFO root fetch - main [MainThread]: End processing [gamdl]: success
+[2024-04-17 02:24:19] INFO root fetch - main [MainThread]: Store serial: [22796681]
