@@ -22457,3 +22457,97 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-17 14:27:42] INFO root fetch - processPackages [epyt]: Remove: archive file [/home/abi/fetcher/tmp/epyt-1.0.9b4.tar.gz]
 [2024-04-17 14:27:42] INFO root fetch - main [MainThread]: End processing [epyt]: success
 [2024-04-17 14:27:42] INFO root fetch - main [MainThread]: Store serial: [22805316]
+[2024-04-17 14:29:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805316]
+[2024-04-17 14:29:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 14:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jeongu
+[2024-04-17 14:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agilicus
+[2024-04-17 14:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhakucalls
+[2024-04-17 14:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hearthstone
+[2024-04-17 14:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tira
+[2024-04-17 14:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finbourne-horizon-sdk
+[2024-04-17 14:29:53] INFO root fetch - processPackages [hearthstone]: New version: [9.2.1] Old Version: [9.2.0]
+[2024-04-17 14:29:53] INFO root fetch - processPackages [tira]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-17 14:29:53] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/a2/f9/ef2f70d2a19ec36473abf97e82b7bff3d10e607a4d9b16505ed413bea8cf/hearthstone-9.2.0.tar.gz
+[2024-04-17 14:29:53] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-17 14:29:53] WARNING root fetch - processPackages [jeongu]: Skipping, unable to determine old version
+[2024-04-17 14:29:53] INFO root fetch - main [MainThread]: End processing [jeongu] error
+[2024-04-17 14:29:53] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/4b/d0/2e61e71a65015785af087e247c1a0fb86643b1a1315e058857f4c30e93d1/tira-0.0.98.tar.gz
+[2024-04-17 14:29:53] WARNING root fetch - processPackages [pyhakucalls]: Skipping, unable to determine old version
+[2024-04-17 14:29:53] INFO root fetch - main [MainThread]: End processing [pyhakucalls] error
+[2024-04-17 14:29:53] INFO root fetch - processPackages [agilicus]: New version: [1.99.0] Old Version: [1.98.9]
+[2024-04-17 14:29:53] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/28/9e/e9b55e80a696b56fc3eb96441e5bb2bcb7e8fc5b058a09974a64501cfc07/finbourne_horizon_sdk-2.1.5.tar.gz
+[2024-04-17 14:29:53] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/2d/31/b9af5a5b67ff777b2c9209808c8e4e18c7fd17c6348a13651170d8884d62/tira-0.0.99.tar.gz
+[2024-04-17 14:29:54] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/8c/50/b99b93c0a8e6a2cafec30fe6c60e34bc02986f2349ed35c231a458420a7a/hearthstone-9.2.1.tar.gz
+[2024-04-17 14:29:54] INFO root fetch - processPackages [tira]: executing diffoscope
+[2024-04-17 14:29:54] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.98.tar.gz tmp/tira-0.0.99.tar.gz --markdown 20240417/t/tira/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-17 14:29:54] INFO root fetch - processPackages [agilicus]: executing diffoscope
+[2024-04-17 14:29:54] INFO root fetch - processPackages [agilicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilicus-1.98.9.tar.gz tmp/agilicus-1.99.0.tar.gz --markdown 20240417/a/agilicus/1.98.9-1.99.0/README.md --exclude *.pyd
+[2024-04-17 14:29:54] INFO root fetch - processPackages [hearthstone]: executing diffoscope
+[2024-04-17 14:29:54] INFO root fetch - processPackages [hearthstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hearthstone-9.2.0.tar.gz tmp/hearthstone-9.2.1.tar.gz --markdown 20240417/h/hearthstone/9.2.0-9.2.1/README.md --exclude *.pyd
+[2024-04-17 14:29:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/0c/f8/f0e709a0b0b8a329250628e34cee990328683a39dcd39129e748ecccd4dc/finbourne_horizon_sdk-2.1.6.tar.gz
+[2024-04-17 14:29:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-04-17 14:29:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.5.tar.gz tmp/finbourne_horizon_sdk-2.1.6.tar.gz --markdown 20240417/f/finbourne-horizon-sdk/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-04-17 14:29:54] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.98.tar.gz]
+[2024-04-17 14:29:54] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.99.tar.gz]
+[2024-04-17 14:29:54] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2024-04-17 14:29:54] INFO root fetch - processPackages [hearthstone]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone-9.2.0.tar.gz]
+[2024-04-17 14:29:54] INFO root fetch - processPackages [hearthstone]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone-9.2.1.tar.gz]
+[2024-04-17 14:29:54] INFO root fetch - main [MainThread]: End processing [hearthstone]: success
+[2024-04-17 14:29:55] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.5.tar.gz]
+[2024-04-17 14:29:55] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.6.tar.gz]
+[2024-04-17 14:29:55] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-04-17 14:29:55] ERROR root fetch - processPackages [agilicus]: Diffoscope failed: time="2024-04-17T14:29:54+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-04-17 14:29:55] INFO root fetch - main [MainThread]: End processing [agilicus] error
+[2024-04-17 14:29:55] INFO root fetch - main [MainThread]: Store serial: [22805337]
