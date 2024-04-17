@@ -14111,3 +14111,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:27:00] INFO root fetch - processPackages [taichi-splatting]: Remove: archive file [/home/abi/fetcher/tmp/taichi-splatting-0.9.0.tar.gz]
 [2024-04-17 09:27:00] INFO root fetch - main [MainThread]: End processing [taichi-splatting]: success
 [2024-04-17 09:27:00] INFO root fetch - main [MainThread]: Store serial: [22801299]
+[2024-04-17 09:29:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801299]
+[2024-04-17 09:29:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 09:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lineoptim
+[2024-04-17 09:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ddadevops
+[2024-04-17 09:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xplordb
+[2024-04-17 09:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ewatercycle-HBV
+[2024-04-17 09:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-module-loader
+[2024-04-17 09:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ocpy-client
+[2024-04-17 09:29:08] INFO root fetch - processPackages [lineoptim]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-17 09:29:09] INFO root fetch - processPackages [lineoptim]: Downloading https://files.pythonhosted.org/packages/5b/4d/e96b48b8ad32e036809d3af9a03b4028663f7fa8180b8a50387739dd089d/lineoptim-1.0.0-py3-none-any.whl
+[2024-04-17 09:29:09] INFO root fetch - processPackages [xplordb]: New version: [0.13.3] Old Version: [0.13.2]
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ocpy-client]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ewatercycle-HBV]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-04-17 09:29:09] INFO root fetch - processPackages [fastapi-module-loader]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ddadevops]: New version: [4.9.3] Old Version: [4.9.2]
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ocpy-client]: Downloading https://files.pythonhosted.org/packages/80/7a/4d879c690b7919d571ed42962c72a616237b63acf9a991f8c13352eef772/ocpy_client-1.3.8.tar.gz
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/f6/49/5caf87c7125794d30c01aa8d33e16dc31a204c00531853db9cd2e0958d43/ddadevops-4.9.2.tar.gz
+[2024-04-17 09:29:09] INFO root fetch - processPackages [lineoptim]: Downloading https://files.pythonhosted.org/packages/cb/b8/e93fab0d09d7d3ebe2439b7387a4bf40c11a2bf9e3802ee8f3a2ea2309b6/lineoptim-1.1.0.tar.gz
+[2024-04-17 09:29:09] INFO root fetch - processPackages [xplordb]: Downloading https://files.pythonhosted.org/packages/35/eb/359a6e0b3f51401420335e5c0f69ea5c947eb8154b6ae8b0f45e555f9f0f/xplordb-0.13.2.tar.gz
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ewatercycle-HBV]: Downloading https://files.pythonhosted.org/packages/c4/a3/332ce875d87135195e18f9265f7b9d33d6edcca2f1ea6e83d6637c44ee8d/ewatercycle_hbv-1.8.1.tar.gz
+[2024-04-17 09:29:09] INFO root fetch - processPackages [fastapi-module-loader]: Downloading https://files.pythonhosted.org/packages/a9/e8/4bd491af72a43de3bce6d9150af5dcb723d2fdacec0f7a9ebcb549181deb/fastapi_module_loader-0.2.2.tar.gz
+[2024-04-17 09:29:09] INFO root fetch - processPackages [lineoptim]: executing diffoscope
+[2024-04-17 09:29:09] INFO root fetch - processPackages [lineoptim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lineoptim-1.0.0-py3-none-any.whl.zip tmp/lineoptim-1.1.0.tar.gz --markdown 20240417/l/lineoptim/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/ac/99/c3f1d06c3fabf31d1f6da75272b913afd1854e512e274f3cf7ad7903eeea/ddadevops-4.9.3.tar.gz
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ocpy-client]: Downloading https://files.pythonhosted.org/packages/f6/65/78116154ee7a9aa75f12f80ede4c59dd8a08052d5bb18a9f6dc72f3e2a8d/ocpy_client-1.3.9.tar.gz
+[2024-04-17 09:29:09] INFO root fetch - processPackages [xplordb]: Downloading https://files.pythonhosted.org/packages/96/7c/ce72f049bd86b95f988c35b5ac87c02c67511b4a37260648081357017465/xplordb-0.13.3.tar.gz
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ewatercycle-HBV]: Downloading https://files.pythonhosted.org/packages/ef/b2/5870e845dd92a9e08e0e2cbb06e930a42c1de4f4513a115e935227f903be/ewatercycle_hbv-1.8.2.tar.gz
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.9.2.tar.gz tmp/ddadevops-4.9.3.tar.gz --markdown 20240417/d/ddadevops/4.9.2-4.9.3/README.md --exclude *.pyd
+[2024-04-17 09:29:09] INFO root fetch - processPackages [fastapi-module-loader]: Downloading https://files.pythonhosted.org/packages/67/de/d35b4e397ec8ef696080b1f483fcc4afa15e680325f83e94ce99ddd8b959/fastapi_module_loader-0.2.3.tar.gz
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ocpy-client]: executing diffoscope
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ocpy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocpy_client-1.3.8.tar.gz tmp/ocpy_client-1.3.9.tar.gz --markdown 20240417/o/ocpy-client/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ewatercycle-HBV]: executing diffoscope
+[2024-04-17 09:29:09] INFO root fetch - processPackages [ewatercycle-HBV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewatercycle_hbv-1.8.1.tar.gz tmp/ewatercycle_hbv-1.8.2.tar.gz --markdown 20240417/e/ewatercycle-HBV/1.8.1-1.8.2/README.md --exclude *.pyd
+[2024-04-17 09:29:09] INFO root fetch - processPackages [xplordb]: executing diffoscope
+[2024-04-17 09:29:09] INFO root fetch - processPackages [xplordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplordb-0.13.2.tar.gz tmp/xplordb-0.13.3.tar.gz --markdown 20240417/x/xplordb/0.13.2-0.13.3/README.md --exclude *.pyd
+[2024-04-17 09:29:09] INFO root fetch - processPackages [fastapi-module-loader]: executing diffoscope
+[2024-04-17 09:29:09] INFO root fetch - processPackages [fastapi-module-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_module_loader-0.2.2.tar.gz tmp/fastapi_module_loader-0.2.3.tar.gz --markdown 20240417/f/fastapi-module-loader/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-17 09:29:10] INFO root fetch - processPackages [lineoptim]: Remove: archive file [/home/abi/fetcher/tmp/lineoptim-1.0.0-py3-none-any.whl.zip]
+[2024-04-17 09:29:10] INFO root fetch - processPackages [lineoptim]: Remove: archive file [/home/abi/fetcher/tmp/lineoptim-1.1.0.tar.gz]
+[2024-04-17 09:29:10] INFO root fetch - main [MainThread]: End processing [lineoptim]: success
+[2024-04-17 09:29:10] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.9.2.tar.gz]
+[2024-04-17 09:29:10] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.9.3.tar.gz]
+[2024-04-17 09:29:10] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2024-04-17 09:29:10] INFO root fetch - processPackages [ewatercycle-HBV]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle_hbv-1.8.1.tar.gz]
+[2024-04-17 09:29:10] INFO root fetch - processPackages [ewatercycle-HBV]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle_hbv-1.8.2.tar.gz]
+[2024-04-17 09:29:10] INFO root fetch - main [MainThread]: End processing [ewatercycle-HBV]: success
+[2024-04-17 09:29:10] INFO root fetch - processPackages [fastapi-module-loader]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_module_loader-0.2.2.tar.gz]
+[2024-04-17 09:29:10] INFO root fetch - processPackages [fastapi-module-loader]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_module_loader-0.2.3.tar.gz]
+[2024-04-17 09:29:10] INFO root fetch - main [MainThread]: End processing [fastapi-module-loader]: success
+[2024-04-17 09:29:10] INFO root fetch - processPackages [ocpy-client]: Remove: archive file [/home/abi/fetcher/tmp/ocpy_client-1.3.8.tar.gz]
+[2024-04-17 09:29:10] INFO root fetch - processPackages [ocpy-client]: Remove: archive file [/home/abi/fetcher/tmp/ocpy_client-1.3.9.tar.gz]
+[2024-04-17 09:29:10] INFO root fetch - main [MainThread]: End processing [ocpy-client]: success
+[2024-04-17 09:29:12] INFO root fetch - processPackages [xplordb]: Remove: archive file [/home/abi/fetcher/tmp/xplordb-0.13.2.tar.gz]
+[2024-04-17 09:29:12] INFO root fetch - processPackages [xplordb]: Remove: archive file [/home/abi/fetcher/tmp/xplordb-0.13.3.tar.gz]
+[2024-04-17 09:29:12] INFO root fetch - main [MainThread]: End processing [xplordb]: success
+[2024-04-17 09:29:12] INFO root fetch - main [MainThread]: Store serial: [22801317]
