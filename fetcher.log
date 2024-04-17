@@ -13787,3 +13787,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:13:47] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
 [2024-04-17 09:13:47] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-04-17 09:13:47] INFO root fetch - main [MainThread]: Store serial: [22801157]
+[2024-04-17 09:15:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801157]
+[2024-04-17 09:15:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 09:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: me-toolbox
+[2024-04-17 09:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spit
+[2024-04-17 09:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rstream
+[2024-04-17 09:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: winBullet
+[2024-04-17 09:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsk-monster
+[2024-04-17 09:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tira
+[2024-04-17 09:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlscat
+[2024-04-17 09:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cognite-neat
+[2024-04-17 09:15:56] INFO root fetch - processPackages [me-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 09:15:56] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 09:15:56] INFO root fetch - processPackages [rstream]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-17 09:15:56] INFO root fetch - processPackages [mlscat]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-04-17 09:15:56] INFO root fetch - processPackages [winBullet]: New version: [1.1] Old Version: [1.0]
+[2024-04-17 09:15:56] INFO root fetch - processPackages [spit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 09:15:56] INFO root fetch - processPackages [cognite-neat]: New version: [0.72.3] Old Version: [0.72.2]
+[2024-04-17 09:15:56] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-17 09:15:56] INFO root fetch - processPackages [me-toolbox]: Downloading https://files.pythonhosted.org/packages/7a/37/fa39d971e22733456797af998cec41ff2ef3afa5860c477decf4a10db746/me_toolbox-0.0.8.tar.gz
+[2024-04-17 09:15:56] INFO root fetch - processPackages [tira]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-17 09:15:57] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/b9/02/cda6be5ba5d1adb01bada1d2cfaec91e30f2d6ec2a048f9fa170aa87f94d/rstream-0.8.1.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [winBullet]: Downloading https://files.pythonhosted.org/packages/e9/aa/765950678b62156e3578b4a354af6f4cff75d147f69a1a52dc5712a50337/winBullet-1.0.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [mlscat]: Downloading https://files.pythonhosted.org/packages/a1/7b/e64f97327c4f7532bee6e7896e55ab4aa856bec31e75176ea38950b1b789/mlscat-0.0.4.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/b0/7d/95b428f5054ceaa7df9d2570781e0a517f600a27a4088a45806eaf3f7ccf/spit-0.1.8.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/4b/d0/2e61e71a65015785af087e247c1a0fb86643b1a1315e058857f4c30e93d1/tira-0.0.98.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [me-toolbox]: Downloading https://files.pythonhosted.org/packages/e7/81/09362c69dc8b5600961979131d511f559f386495e23bf36e63d59421dc4d/me_toolbox-0.0.9.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/5e/be/91c85ab08aaea827f415030db4c0acd20399d11f375e250fd6a645e78e03/cognite_neat-0.72.2.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-17 09:15:57] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240417/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 09:15:57] INFO root fetch - processPackages [me-toolbox]: executing diffoscope
+[2024-04-17 09:15:57] INFO root fetch - processPackages [me-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/me_toolbox-0.0.8.tar.gz tmp/me_toolbox-0.0.9.tar.gz --markdown 20240417/m/me-toolbox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 09:15:57] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/92/ef/61a6ea12a0afe157e759df9abbbb973d4d75526af47b4b5bddf4f613b288/rstream-0.9.0.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [winBullet]: Downloading https://files.pythonhosted.org/packages/d6/40/a28fbf4282fe9421971a703b5fc252ff6770e14c6e4dba8dccf3f268726a/winbullet-1.1.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [mlscat]: Downloading https://files.pythonhosted.org/packages/09/f2/1f369b3d62ebd1823004adaa399bed6b00746386a6ee241549c77a9a609d/mlscat-0.0.6.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/2d/31/b9af5a5b67ff777b2c9209808c8e4e18c7fd17c6348a13651170d8884d62/tira-0.0.99.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/a3/41/95c2b32d3c225f7fa0cd1b957d8a4e11da5b22cececd0396c623963ac6eb/spit-0.1.9.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [rstream]: executing diffoscope
+[2024-04-17 09:15:57] INFO root fetch - processPackages [rstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstream-0.8.1.tar.gz tmp/rstream-0.9.0.tar.gz --markdown 20240417/r/rstream/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-17 09:15:57] INFO root fetch - processPackages [winBullet]: executing diffoscope
+[2024-04-17 09:15:57] INFO root fetch - processPackages [winBullet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winBullet-1.0.tar.gz tmp/winbullet-1.1.tar.gz --markdown 20240417/w/winBullet/1.0-1.1/README.md --exclude *.pyd
+[2024-04-17 09:15:57] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/92/96/b97bdfac881c1fec908457f3e3fcdb309c76d89bc498c6fa46baf18b057b/cognite_neat-0.72.3.tar.gz
+[2024-04-17 09:15:57] INFO root fetch - processPackages [tira]: executing diffoscope
+[2024-04-17 09:15:57] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.98.tar.gz tmp/tira-0.0.99.tar.gz --markdown 20240417/t/tira/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-17 09:15:57] INFO root fetch - processPackages [spit]: executing diffoscope
+[2024-04-17 09:15:57] INFO root fetch - processPackages [spit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spit-0.1.8.tar.gz tmp/spit-0.1.9.tar.gz --markdown 20240417/s/spit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 09:15:57] INFO root fetch - processPackages [mlscat]: executing diffoscope
+[2024-04-17 09:15:57] INFO root fetch - processPackages [mlscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlscat-0.0.4.tar.gz tmp/mlscat-0.0.6.tar.gz --markdown 20240417/m/mlscat/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-04-17 09:15:58] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-04-17 09:15:58] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.72.2.tar.gz tmp/cognite_neat-0.72.3.tar.gz --markdown 20240417/c/cognite-neat/0.72.2-0.72.3/README.md --exclude *.pyd
+[2024-04-17 09:15:58] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-17 09:15:58] INFO root fetch - processPackages [me-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/me_toolbox-0.0.8.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - processPackages [me-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/me_toolbox-0.0.9.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - main [MainThread]: End processing [me-toolbox]: success
+[2024-04-17 09:15:58] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.8.1.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.9.0.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - main [MainThread]: End processing [rstream]: success
+[2024-04-17 09:15:58] INFO root fetch - processPackages [winBullet]: Remove: archive file [/home/abi/fetcher/tmp/winBullet-1.0.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - processPackages [winBullet]: Remove: archive file [/home/abi/fetcher/tmp/winbullet-1.1.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - main [MainThread]: End processing [winBullet]: success
+[2024-04-17 09:15:58] INFO root fetch - processPackages [mlscat]: Remove: archive file [/home/abi/fetcher/tmp/mlscat-0.0.4.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - processPackages [mlscat]: Remove: archive file [/home/abi/fetcher/tmp/mlscat-0.0.6.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - main [MainThread]: End processing [mlscat]: success
+[2024-04-17 09:15:58] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.98.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.99.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2024-04-17 09:15:58] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.1.8.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.1.9.tar.gz]
+[2024-04-17 09:15:58] INFO root fetch - main [MainThread]: End processing [spit]: success
+[2024-04-17 09:16:01] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.72.2.tar.gz]
+[2024-04-17 09:16:01] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.72.3.tar.gz]
+[2024-04-17 09:16:01] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-04-17 09:16:01] INFO root fetch - main [MainThread]: Store serial: [22801182]
