@@ -9772,3 +9772,24 @@
 [2024-04-17 06:09:16] INFO root fetch - processPackages [libfwps-python]: Remove: archive file [/home/abi/fetcher/tmp/libfwps-python-20240417.tar.gz]
 [2024-04-17 06:09:16] INFO root fetch - main [MainThread]: End processing [libfwps-python]: success
 [2024-04-17 06:09:16] INFO root fetch - main [MainThread]: Store serial: [22799664]
+[2024-04-17 06:11:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799664]
+[2024-04-17 06:11:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 06:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kongfu-api
+[2024-04-17 06:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-connect
+[2024-04-17 06:11:25] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.180] Old Version: [0.1.179]
+[2024-04-17 06:11:25] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/44/79/fb3fc33213235dd6b2ab6ed52fa072de8ec05a6f1f6f3d53f67309f8e889/ansar_connect-0.1.179.tar.gz
+[2024-04-17 06:11:25] INFO root fetch - processPackages [kongfu-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-17 06:11:25] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/5a/75/2cf565f1c84d6344877c4cf9582fdd2381ace81963630524f4f361fc828b/ansar_connect-0.1.180.tar.gz
+[2024-04-17 06:11:25] INFO root fetch - processPackages [kongfu-api]: Downloading https://files.pythonhosted.org/packages/8c/04/1c242469891477cd5a61af84d02edcafbcf00bcbbfd54d623aa9c65f4e82/kongfu-api-0.0.6.tar.gz
+[2024-04-17 06:11:25] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-17 06:11:25] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.179.tar.gz tmp/ansar_connect-0.1.180.tar.gz --markdown 20240417/a/ansar-connect/0.1.179-0.1.180/README.md --exclude *.pyd
+[2024-04-17 06:11:25] INFO root fetch - processPackages [kongfu-api]: Downloading https://files.pythonhosted.org/packages/4d/f4/6a7b817c5e3ef51a52c54d539c7c1a9b676ecaf065a186ca9e9971cf73c9/kongfu-api-0.0.7.tar.gz
+[2024-04-17 06:11:26] INFO root fetch - processPackages [kongfu-api]: executing diffoscope
+[2024-04-17 06:11:26] INFO root fetch - processPackages [kongfu-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kongfu-api-0.0.6.tar.gz tmp/kongfu-api-0.0.7.tar.gz --markdown 20240417/k/kongfu-api/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-17 06:11:26] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.179.tar.gz]
+[2024-04-17 06:11:26] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.180.tar.gz]
+[2024-04-17 06:11:26] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-17 06:11:26] INFO root fetch - processPackages [kongfu-api]: Remove: archive file [/home/abi/fetcher/tmp/kongfu-api-0.0.6.tar.gz]
+[2024-04-17 06:11:26] INFO root fetch - processPackages [kongfu-api]: Remove: archive file [/home/abi/fetcher/tmp/kongfu-api-0.0.7.tar.gz]
+[2024-04-17 06:11:26] INFO root fetch - main [MainThread]: End processing [kongfu-api]: success
+[2024-04-17 06:11:26] INFO root fetch - main [MainThread]: Store serial: [22799671]
