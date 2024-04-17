@@ -8110,3 +8110,24 @@
 [2024-04-17 04:29:38] INFO root fetch - processPackages [lvc]: Remove: archive file [/home/abi/fetcher/tmp/lvc-1.0.3.tar.gz]
 [2024-04-17 04:29:38] INFO root fetch - main [MainThread]: End processing [lvc]: success
 [2024-04-17 04:29:38] INFO root fetch - main [MainThread]: Store serial: [22798937]
+[2024-04-17 04:31:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798937]
+[2024-04-17 04:31:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 04:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: juery
+[2024-04-17 04:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlflow-oidc-auth
+[2024-04-17 04:31:47] INFO root fetch - processPackages [mlflow-oidc-auth]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-17 04:31:47] INFO root fetch - processPackages [juery]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-17 04:31:47] INFO root fetch - processPackages [juery]: Downloading https://files.pythonhosted.org/packages/bb/59/2bcdfb07b06c75317b6f8345329a3eb7a158c7eb548bf5596e7c986806a2/juery-0.2.0.tar.gz
+[2024-04-17 04:31:47] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/42/af/60728b164dbc32bc8005dbac2f859554c18f0bbd156d9c5a1bade6f799c5/mlflow-oidc-auth-1.1.2.tar.gz
+[2024-04-17 04:31:47] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/48/d6/56872ff61d2ded5256e80c2a1b0699d23ed0a29500610f233bcec60f1927/mlflow_oidc_auth-1.2.0.tar.gz
+[2024-04-17 04:31:47] INFO root fetch - processPackages [juery]: Downloading https://files.pythonhosted.org/packages/e8/a7/12602d189ba130551760ae7e5b75b313c4012ae6d1b4fa202efb54a8c32c/juery-0.2.1.tar.gz
+[2024-04-17 04:31:47] INFO root fetch - processPackages [mlflow-oidc-auth]: executing diffoscope
+[2024-04-17 04:31:47] INFO root fetch - processPackages [mlflow-oidc-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow-oidc-auth-1.1.2.tar.gz tmp/mlflow_oidc_auth-1.2.0.tar.gz --markdown 20240417/m/mlflow-oidc-auth/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-04-17 04:31:47] INFO root fetch - processPackages [juery]: executing diffoscope
+[2024-04-17 04:31:47] INFO root fetch - processPackages [juery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juery-0.2.0.tar.gz tmp/juery-0.2.1.tar.gz --markdown 20240417/j/juery/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-17 04:31:48] INFO root fetch - processPackages [juery]: Remove: archive file [/home/abi/fetcher/tmp/juery-0.2.0.tar.gz]
+[2024-04-17 04:31:48] INFO root fetch - processPackages [juery]: Remove: archive file [/home/abi/fetcher/tmp/juery-0.2.1.tar.gz]
+[2024-04-17 04:31:48] INFO root fetch - main [MainThread]: End processing [juery]: success
+[2024-04-17 04:31:54] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-oidc-auth-1.1.2.tar.gz]
+[2024-04-17 04:31:54] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_oidc_auth-1.2.0.tar.gz]
+[2024-04-17 04:31:54] INFO root fetch - main [MainThread]: End processing [mlflow-oidc-auth]: success
+[2024-04-17 04:31:54] INFO root fetch - main [MainThread]: Store serial: [22798943]
