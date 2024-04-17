@@ -18733,3 +18733,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:03:22] INFO root fetch - processPackages [ant-fin-agent-framework]: Remove: archive file [/home/abi/fetcher/tmp/ant_fin_agent_framework-0.0.2b1.tar.gz]
 [2024-04-17 12:03:22] INFO root fetch - main [MainThread]: End processing [ant-fin-agent-framework]: success
 [2024-04-17 12:03:22] INFO root fetch - main [MainThread]: Store serial: [22803592]
+[2024-04-17 12:05:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803592]
+[2024-04-17 12:05:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databend-driver
+[2024-04-17 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tenzir-platform
+[2024-04-17 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-fhl
+[2024-04-17 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LbProdRun
+[2024-04-17 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dalsa
+[2024-04-17 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyweatherfr
+[2024-04-17 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coolest
+[2024-04-17 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: buildstream-plugins
+[2024-04-17 12:05:31] INFO root fetch - processPackages [dalsa]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-17 12:05:31] INFO root fetch - processPackages [nonebot-plugin-fhl]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 12:05:31] INFO root fetch - processPackages [pyweatherfr]: New version: [5.2.4] Old Version: [5.2.3]
+[2024-04-17 12:05:31] INFO root fetch - processPackages [tenzir-platform]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 12:05:31] INFO root fetch - processPackages [dalsa]: Downloading https://files.pythonhosted.org/packages/c2/65/887576b3208f1c72f09803b4a59b9f755cb4c5955fd6357ed160d19b03d5/dalsa-0.0.5.tar.gz
+[2024-04-17 12:05:31] INFO root fetch - processPackages [buildstream-plugins]: New version: [2.2.0.dev1] Old Version: [2.1.0.dev0]
+[2024-04-17 12:05:31] INFO root fetch - processPackages [LbProdRun]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-17 12:05:31] WARNING root fetch - processPackages [coolest]: Skipping, unable to determine old version
+[2024-04-17 12:05:31] INFO root fetch - main [MainThread]: End processing [coolest] error
+[2024-04-17 12:05:31] INFO root fetch - processPackages [pyweatherfr]: Downloading https://files.pythonhosted.org/packages/52/29/d6db4bd81b1f71d4734c6806f20e3732d996fe30056da0397b7b152253dd/pyweatherfr-5.2.3.tar.gz
+[2024-04-17 12:05:31] INFO root fetch - processPackages [databend-driver]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-17 12:05:31] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/55/6f/5c07c53bdcc7ab69e838594b0d77c76c444f8ee0137e5045736a61f8bfb3/nonebot_plugin_fhl-0.1.0.tar.gz
+[2024-04-17 12:05:31] INFO root fetch - processPackages [tenzir-platform]: Downloading https://files.pythonhosted.org/packages/64/ff/73e9fbe4d8904a6c080668a064d577cea37acbf5561b992f39a7da47e5d9/tenzir_platform-0.3.1.tar.gz
+[2024-04-17 12:05:31] INFO root fetch - processPackages [LbProdRun]: Downloading https://files.pythonhosted.org/packages/ca/7a/cfc650de418f0a4405ef27d563731261d93fbafb7d1161c98c7a79744262/LbProdRun-1.6.0.tar.gz
+[2024-04-17 12:05:31] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/9e/d2/0bd5410dd972dbb678b40872c610f4f48032a9640df408af5feea4cb50b1/databend_driver-0.9.4-cp37-abi3-win_amd64.whl
+[2024-04-17 12:05:31] INFO root fetch - processPackages [buildstream-plugins]: Downloading https://files.pythonhosted.org/packages/5a/7f/714c9edaa370728e856f200ece68e797d1e6eb967ae008e4335a646b631e/buildstream-plugins-2.1.0.dev0.tar.gz
+[2024-04-17 12:05:32] INFO root fetch - processPackages [dalsa]: Downloading https://files.pythonhosted.org/packages/70/fc/502ac2e4926800095ff4e21ace509af05b3846cb4ef523e3895adebc10ef/dalsa-0.0.6.tar.gz
+[2024-04-17 12:05:32] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/4c/6d/0efed4714df18a9a1bd2cdf4e0c0f32260ec82916a657b0f6b073bd558bb/nonebot_plugin_fhl-0.1.1.tar.gz
+[2024-04-17 12:05:32] INFO root fetch - processPackages [pyweatherfr]: Downloading https://files.pythonhosted.org/packages/c3/ed/248af43cfd5f889bceffb2e677f244dbb69ba7d0a205d1c1acdb6e4f8307/pyweatherfr-5.2.4.tar.gz
+[2024-04-17 12:05:32] INFO root fetch - processPackages [dalsa]: executing diffoscope
+[2024-04-17 12:05:32] INFO root fetch - processPackages [dalsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalsa-0.0.5.tar.gz tmp/dalsa-0.0.6.tar.gz --markdown 20240417/d/dalsa/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-17 12:05:32] INFO root fetch - processPackages [tenzir-platform]: Downloading https://files.pythonhosted.org/packages/30/66/bad179c8b560fb0e4a84dd8fcfee304db69505518506b312840f88989bf5/tenzir_platform-0.3.2.tar.gz
+[2024-04-17 12:05:32] INFO root fetch - processPackages [nonebot-plugin-fhl]: executing diffoscope
+[2024-04-17 12:05:32] INFO root fetch - processPackages [nonebot-plugin-fhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_fhl-0.1.0.tar.gz tmp/nonebot_plugin_fhl-0.1.1.tar.gz --markdown 20240417/n/nonebot-plugin-fhl/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 12:05:32] INFO root fetch - processPackages [LbProdRun]: Downloading https://files.pythonhosted.org/packages/7c/61/b83aacfea5f980f37171e492cb4d074dd63d2abd980e0737e399f9fc15d2/lbprodrun-1.7.0.tar.gz
+[2024-04-17 12:05:32] INFO root fetch - processPackages [buildstream-plugins]: Downloading https://files.pythonhosted.org/packages/6c/d2/bcd1e06e05a129280ddb16db3a4ed3ab899884f8d4b5710ac6dbb33b1da2/buildstream-plugins-2.2.0.dev1.tar.gz
+[2024-04-17 12:05:32] INFO root fetch - processPackages [pyweatherfr]: executing diffoscope
+[2024-04-17 12:05:32] INFO root fetch - processPackages [pyweatherfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyweatherfr-5.2.3.tar.gz tmp/pyweatherfr-5.2.4.tar.gz --markdown 20240417/p/pyweatherfr/5.2.3-5.2.4/README.md --exclude *.pyd
+[2024-04-17 12:05:32] INFO root fetch - processPackages [tenzir-platform]: executing diffoscope
+[2024-04-17 12:05:32] INFO root fetch - processPackages [tenzir-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenzir_platform-0.3.1.tar.gz tmp/tenzir_platform-0.3.2.tar.gz --markdown 20240417/t/tenzir-platform/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 12:05:32] INFO root fetch - processPackages [LbProdRun]: executing diffoscope
+[2024-04-17 12:05:32] INFO root fetch - processPackages [LbProdRun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbProdRun-1.6.0.tar.gz tmp/lbprodrun-1.7.0.tar.gz --markdown 20240417/L/LbProdRun/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-17 12:05:32] INFO root fetch - processPackages [buildstream-plugins]: executing diffoscope
+[2024-04-17 12:05:32] INFO root fetch - processPackages [buildstream-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildstream-plugins-2.1.0.dev0.tar.gz tmp/buildstream-plugins-2.2.0.dev1.tar.gz --markdown 20240417/b/buildstream-plugins/2.1.0.dev0-2.2.0.dev1/README.md --exclude *.pyd
+[2024-04-17 12:05:32] INFO root fetch - processPackages [dalsa]: Remove: archive file [/home/abi/fetcher/tmp/dalsa-0.0.5.tar.gz]
+[2024-04-17 12:05:32] INFO root fetch - processPackages [dalsa]: Remove: archive file [/home/abi/fetcher/tmp/dalsa-0.0.6.tar.gz]
+[2024-04-17 12:05:32] INFO root fetch - main [MainThread]: End processing [dalsa]: success
+[2024-04-17 12:05:32] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/b7/e3/195c2e775c9ea50822c2431f0a00f48ae03a7a10be4d3e583cce489052ee/databend_driver-0.9.5-cp37-abi3-win_amd64.whl
+[2024-04-17 12:05:33] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.0.tar.gz]
+[2024-04-17 12:05:33] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.1.tar.gz]
+[2024-04-17 12:05:33] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fhl]: success
+[2024-04-17 12:05:33] INFO root fetch - processPackages [tenzir-platform]: Remove: archive file [/home/abi/fetcher/tmp/tenzir_platform-0.3.1.tar.gz]
+[2024-04-17 12:05:33] INFO root fetch - processPackages [tenzir-platform]: Remove: archive file [/home/abi/fetcher/tmp/tenzir_platform-0.3.2.tar.gz]
+[2024-04-17 12:05:33] INFO root fetch - main [MainThread]: End processing [tenzir-platform]: success
+[2024-04-17 12:05:33] INFO root fetch - processPackages [pyweatherfr]: Remove: archive file [/home/abi/fetcher/tmp/pyweatherfr-5.2.3.tar.gz]
+[2024-04-17 12:05:33] INFO root fetch - processPackages [pyweatherfr]: Remove: archive file [/home/abi/fetcher/tmp/pyweatherfr-5.2.4.tar.gz]
+[2024-04-17 12:05:33] INFO root fetch - main [MainThread]: End processing [pyweatherfr]: success
+[2024-04-17 12:05:33] INFO root fetch - processPackages [LbProdRun]: Remove: archive file [/home/abi/fetcher/tmp/LbProdRun-1.6.0.tar.gz]
+[2024-04-17 12:05:33] INFO root fetch - processPackages [LbProdRun]: Remove: archive file [/home/abi/fetcher/tmp/lbprodrun-1.7.0.tar.gz]
+[2024-04-17 12:05:33] INFO root fetch - main [MainThread]: End processing [LbProdRun]: success
+[2024-04-17 12:05:33] INFO root fetch - processPackages [buildstream-plugins]: Remove: archive file [/home/abi/fetcher/tmp/buildstream-plugins-2.1.0.dev0.tar.gz]
+[2024-04-17 12:05:33] INFO root fetch - processPackages [buildstream-plugins]: Remove: archive file [/home/abi/fetcher/tmp/buildstream-plugins-2.2.0.dev1.tar.gz]
+[2024-04-17 12:05:33] INFO root fetch - main [MainThread]: End processing [buildstream-plugins]: success
+[2024-04-17 12:05:33] INFO root fetch - processPackages [databend-driver]: executing diffoscope
+[2024-04-17 12:05:33] INFO root fetch - processPackages [databend-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip --markdown 20240417/d/databend-driver/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-17 12:05:34] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip]
+[2024-04-17 12:05:34] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip]
+[2024-04-17 12:05:34] INFO root fetch - main [MainThread]: End processing [databend-driver]: success
+[2024-04-17 12:05:34] INFO root fetch - main [MainThread]: Store serial: [22803620]
