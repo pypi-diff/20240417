@@ -17829,3 +17829,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:31:17] INFO root fetch - processPackages [dnsdist-console]: Remove: archive file [/home/abi/fetcher/tmp/dnsdist_console-1.4.5.tar.gz]
 [2024-04-17 11:31:17] INFO root fetch - main [MainThread]: End processing [dnsdist-console]: success
 [2024-04-17 11:31:17] INFO root fetch - main [MainThread]: Store serial: [22803263]
+[2024-04-17 11:33:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803263]
+[2024-04-17 11:33:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eirStru
+[2024-04-17 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zbx-wxwork-assistant
+[2024-04-17 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: csoundengine
+[2024-04-17 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-jsc-custom
+[2024-04-17 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataclasses-ujson
+[2024-04-17 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dnstap-pb
+[2024-04-17 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccxt
+[2024-04-17 11:33:26] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-17 11:33:26] WARNING root fetch - processPackages [zbx-wxwork-assistant]: Skipping, unable to determine old version
+[2024-04-17 11:33:26] INFO root fetch - main [MainThread]: End processing [zbx-wxwork-assistant] error
+[2024-04-17 11:33:26] INFO root fetch - processPackages [dataclasses-ujson]: New version: [0.0.8] Old Version: [0.0.5]
+[2024-04-17 11:33:26] INFO root fetch - processPackages [jupyter-jsc-custom]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-17 11:33:26] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-17 11:33:26] INFO root fetch - processPackages [dnstap-pb]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-17 11:33:26] INFO root fetch - processPackages [dataclasses-ujson]: Downloading https://files.pythonhosted.org/packages/fe/e4/6d8902a1fcd5416dc2e87a641c95eb05f13c5b84ec8f393870f29529960a/dataclasses_ujson-0.0.5.tar.gz
+[2024-04-17 11:33:26] INFO root fetch - processPackages [csoundengine]: New version: [2.8.2] Old Version: [2.8.1]
+[2024-04-17 11:33:26] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/45/0b/d01728bdb4cc42a9c15363d9363f7fcc2fccac498b844711af99cf7346c5/jupyter_jsc_custom-0.9.8.tar.gz
+[2024-04-17 11:33:26] INFO root fetch - processPackages [ccxt]: New version: [4.2.99] Old Version: [4.2.98]
+[2024-04-17 11:33:27] INFO root fetch - processPackages [dnstap-pb]: Downloading https://files.pythonhosted.org/packages/5e/6d/86af123d749a528ebc9655806d8a8f7704d7193a96a98fd759f1c4c280e8/dnstap_pb-0.8.0.tar.gz
+[2024-04-17 11:33:27] INFO root fetch - processPackages [csoundengine]: Downloading https://files.pythonhosted.org/packages/c3/5b/ab7b508aab34c7cd0093ad7da704db7ac9febe985403d658e2b629223f0f/csoundengine-2.8.1.tar.gz
+[2024-04-17 11:33:27] INFO root fetch - processPackages [jupyter-jsc-custom]: Downloading https://files.pythonhosted.org/packages/22/8c/2c89680a5bfd1d47dcbf10ae7a7fe374d9176b6815cbed2c02f780ec8491/jupyter_jsc_custom-0.9.9.tar.gz
+[2024-04-17 11:33:27] INFO root fetch - processPackages [dataclasses-ujson]: Downloading https://files.pythonhosted.org/packages/33/8a/7e9b50a93d307c3878bf534af5f802e9615fe24faa00ef035d758fce82a1/dataclasses_ujson-0.0.8.tar.gz
+[2024-04-17 11:33:27] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-17 11:33:27] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/07/7ce9ce492a0e4d6aa789fa039d0e240a7d486fb77b32b5fd4fc043a3f504/ccxt-4.2.98.tar.gz
+[2024-04-17 11:33:27] INFO root fetch - processPackages [jupyter-jsc-custom]: executing diffoscope
+[2024-04-17 11:33:27] INFO root fetch - processPackages [jupyter-jsc-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_jsc_custom-0.9.8.tar.gz tmp/jupyter_jsc_custom-0.9.9.tar.gz --markdown 20240417/j/jupyter-jsc-custom/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-17 11:33:27] INFO root fetch - processPackages [dataclasses-ujson]: executing diffoscope
+[2024-04-17 11:33:27] INFO root fetch - processPackages [dataclasses-ujson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses_ujson-0.0.5.tar.gz tmp/dataclasses_ujson-0.0.8.tar.gz --markdown 20240417/d/dataclasses-ujson/0.0.5-0.0.8/README.md --exclude *.pyd
+[2024-04-17 11:33:27] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-17 11:33:27] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240417/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-17 11:33:27] INFO root fetch - processPackages [dnstap-pb]: Downloading https://files.pythonhosted.org/packages/09/ef/62a5aa4c39dae3087e8316a65a8bb71e0ebd273845b5e0fc56f4ae7a22b1/dnstap_pb-0.9.0.tar.gz
+[2024-04-17 11:33:27] INFO root fetch - processPackages [csoundengine]: Downloading https://files.pythonhosted.org/packages/2c/59/65057ddf471ca3ec096b16a0affd3053fb76811073cf3ac9049d9e2cfa82/csoundengine-2.8.2.tar.gz
+[2024-04-17 11:33:27] INFO root fetch - processPackages [dnstap-pb]: executing diffoscope
+[2024-04-17 11:33:27] INFO root fetch - processPackages [dnstap-pb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnstap_pb-0.8.0.tar.gz tmp/dnstap_pb-0.9.0.tar.gz --markdown 20240417/d/dnstap-pb/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-17 11:33:27] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/d1/af/b0a8c6632431911643ff2d5de4b724593b5464bef4ef936f5aa3260cd386/ccxt-4.2.99.tar.gz
+[2024-04-17 11:33:27] INFO root fetch - processPackages [csoundengine]: executing diffoscope
+[2024-04-17 11:33:27] INFO root fetch - processPackages [csoundengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csoundengine-2.8.1.tar.gz tmp/csoundengine-2.8.2.tar.gz --markdown 20240417/c/csoundengine/2.8.1-2.8.2/README.md --exclude *.pyd
+[2024-04-17 11:33:28] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2024-04-17 11:33:28] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.2.98.tar.gz tmp/ccxt-4.2.99.tar.gz --markdown 20240417/c/ccxt/4.2.98-4.2.99/README.md --exclude *.pyd
+[2024-04-17 11:33:28] INFO root fetch - processPackages [dataclasses-ujson]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_ujson-0.0.5.tar.gz]
+[2024-04-17 11:33:28] INFO root fetch - processPackages [dataclasses-ujson]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_ujson-0.0.8.tar.gz]
+[2024-04-17 11:33:28] INFO root fetch - main [MainThread]: End processing [dataclasses-ujson]: success
+[2024-04-17 11:33:28] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.8.tar.gz]
+[2024-04-17 11:33:28] INFO root fetch - processPackages [jupyter-jsc-custom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jsc_custom-0.9.9.tar.gz]
+[2024-04-17 11:33:28] INFO root fetch - main [MainThread]: End processing [jupyter-jsc-custom]: success
+[2024-04-17 11:33:28] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-17 11:33:28] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-17 11:33:28] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-17 11:33:28] INFO root fetch - processPackages [dnstap-pb]: Remove: archive file [/home/abi/fetcher/tmp/dnstap_pb-0.8.0.tar.gz]
+[2024-04-17 11:33:28] INFO root fetch - processPackages [dnstap-pb]: Remove: archive file [/home/abi/fetcher/tmp/dnstap_pb-0.9.0.tar.gz]
+[2024-04-17 11:33:28] INFO root fetch - main [MainThread]: End processing [dnstap-pb]: success
+[2024-04-17 11:33:32] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.2.98.tar.gz]
+[2024-04-17 11:33:32] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.2.99.tar.gz]
+[2024-04-17 11:33:32] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2024-04-17 11:33:48] INFO root fetch - processPackages [csoundengine]: Remove: archive file [/home/abi/fetcher/tmp/csoundengine-2.8.1.tar.gz]
+[2024-04-17 11:33:48] INFO root fetch - processPackages [csoundengine]: Remove: archive file [/home/abi/fetcher/tmp/csoundengine-2.8.2.tar.gz]
+[2024-04-17 11:33:48] INFO root fetch - main [MainThread]: End processing [csoundengine]: success
+[2024-04-17 11:33:48] INFO root fetch - main [MainThread]: Store serial: [22803282]
