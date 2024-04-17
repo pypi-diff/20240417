@@ -10570,3 +10570,24 @@
 [2024-04-17 06:59:23] INFO root fetch - processPackages [mockaroo-python]: Remove: archive file [/home/abi/fetcher/tmp/mockaroo_python-3.0.0.tar.gz]
 [2024-04-17 06:59:23] INFO root fetch - main [MainThread]: End processing [mockaroo-python]: success
 [2024-04-17 06:59:23] INFO root fetch - main [MainThread]: Store serial: [22799938]
+[2024-04-17 07:01:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799938]
+[2024-04-17 07:01:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 07:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-package-uajmani
+[2024-04-17 07:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: user-local
+[2024-04-17 07:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quikui
+[2024-04-17 07:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchmetrics-ext
+[2024-04-17 07:01:32] WARNING root fetch - processPackages [torchmetrics-ext]: Skipping, unable to determine old version
+[2024-04-17 07:01:32] INFO root fetch - main [MainThread]: End processing [torchmetrics-ext] error
+[2024-04-17 07:01:32] INFO root fetch - processPackages [user-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 07:01:32] WARNING root fetch - processPackages [example-package-uajmani]: Skipping, unable to determine old version
+[2024-04-17 07:01:32] INFO root fetch - main [MainThread]: End processing [example-package-uajmani] error
+[2024-04-17 07:01:32] WARNING root fetch - processPackages [quikui]: Skipping, unable to determine old version
+[2024-04-17 07:01:32] INFO root fetch - main [MainThread]: End processing [quikui] error
+[2024-04-17 07:01:32] INFO root fetch - processPackages [user-local]: Downloading https://files.pythonhosted.org/packages/06/d1/9b2d1e2755b0e56d71c0252a5eb8bf6a7e0d8c2fafec6659d10e559cc782/user-local-0.0.8.tar.gz
+[2024-04-17 07:01:32] INFO root fetch - processPackages [user-local]: Downloading https://files.pythonhosted.org/packages/49/1f/bfa45e5ee88d12d2a1570c0db5cd202078362ebc9295e10c8beae0f9cb5c/user-local-0.0.9.tar.gz
+[2024-04-17 07:01:32] INFO root fetch - processPackages [user-local]: executing diffoscope
+[2024-04-17 07:01:32] INFO root fetch - processPackages [user-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user-local-0.0.8.tar.gz tmp/user-local-0.0.9.tar.gz --markdown 20240417/u/user-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 07:01:33] INFO root fetch - processPackages [user-local]: Remove: archive file [/home/abi/fetcher/tmp/user-local-0.0.8.tar.gz]
+[2024-04-17 07:01:33] INFO root fetch - processPackages [user-local]: Remove: archive file [/home/abi/fetcher/tmp/user-local-0.0.9.tar.gz]
+[2024-04-17 07:01:33] INFO root fetch - main [MainThread]: End processing [user-local]: success
+[2024-04-17 07:01:33] INFO root fetch - main [MainThread]: Store serial: [22799953]
