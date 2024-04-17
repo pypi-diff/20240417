@@ -11602,3 +11602,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 07:49:34] INFO root fetch - processPackages [pytest-ch-framework]: Remove: archive file [/home/abi/fetcher/tmp/pytest_ch_framework-1.0.1.tar.gz]
 [2024-04-17 07:49:34] INFO root fetch - main [MainThread]: End processing [pytest-ch-framework]: success
 [2024-04-17 07:49:34] INFO root fetch - main [MainThread]: Store serial: [22800270]
+[2024-04-17 07:51:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800270]
+[2024-04-17 07:51:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 07:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2024-04-17 07:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecs_composex
+[2024-04-17 07:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multiqc-sgr
+[2024-04-17 07:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: storey
+[2024-04-17 07:51:43] INFO root fetch - processPackages [multiqc-sgr]: New version: [1.22.post0] Old Version: [1.21.2]
+[2024-04-17 07:51:43] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-17 07:51:43] INFO root fetch - processPackages [ecs_composex]: New version: [1.1.0rc3] Old Version: [1.1.0rc2]
+[2024-04-17 07:51:43] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-17 07:51:43] INFO root fetch - processPackages [storey]: New version: [1.7.8] Old Version: [1.7.7]
+[2024-04-17 07:51:43] INFO root fetch - processPackages [multiqc-sgr]: Downloading https://files.pythonhosted.org/packages/2d/58/a90091204d887c4c4b3a1b98b3733d2bffbc2196a2ff7e28bbebb2d061c8/multiqc_sgr-1.21.2.tar.gz
+[2024-04-17 07:51:43] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-17 07:51:43] INFO root fetch - processPackages [ecs_composex]: Downloading https://files.pythonhosted.org/packages/0d/17/23749088161e31ff4a4348acb05a8db65846bf16ad26181c12f40cd0a5f6/ecs_composex-1.1.0rc2.tar.gz
+[2024-04-17 07:51:43] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/50/8d/58aeb53c5cd68caa0be25d3828408aad29ed2ed7f7e9b44821fc05e79915/storey-1.7.7.tar.gz
+[2024-04-17 07:51:43] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-17 07:51:43] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240417/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-17 07:51:43] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/ce/f2/fb725885928d8ccbbb0a7f28c52605a4972284c1100e5cca1a2523767ad3/storey-1.7.8.tar.gz
+[2024-04-17 07:51:44] INFO root fetch - processPackages [ecs_composex]: Downloading https://files.pythonhosted.org/packages/9c/f6/0979a6ff2231d68e65ffe3d7b01aa82a9b8615abffde607bb2a352f7a93e/ecs_composex-1.1.0rc3.tar.gz
+[2024-04-17 07:51:44] INFO root fetch - processPackages [multiqc-sgr]: Downloading https://files.pythonhosted.org/packages/7c/6e/d282fd34a6c142f910166e6132b8e59684ee95354c6b8da93c39a1d14b83/multiqc_sgr-1.22.post0.tar.gz
+[2024-04-17 07:51:44] INFO root fetch - processPackages [storey]: executing diffoscope
+[2024-04-17 07:51:44] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.7.7.tar.gz tmp/storey-1.7.8.tar.gz --markdown 20240417/s/storey/1.7.7-1.7.8/README.md --exclude *.pyd
+[2024-04-17 07:51:44] INFO root fetch - processPackages [ecs_composex]: executing diffoscope
+[2024-04-17 07:51:44] INFO root fetch - processPackages [ecs_composex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecs_composex-1.1.0rc2.tar.gz tmp/ecs_composex-1.1.0rc3.tar.gz --markdown 20240417/e/ecs_composex/1.1.0rc2-1.1.0rc3/README.md --exclude *.pyd
+[2024-04-17 07:51:44] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-17 07:51:44] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-17 07:51:44] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-17 07:51:44] INFO root fetch - processPackages [multiqc-sgr]: executing diffoscope
+[2024-04-17 07:51:44] INFO root fetch - processPackages [multiqc-sgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiqc_sgr-1.21.2.tar.gz tmp/multiqc_sgr-1.22.post0.tar.gz --markdown 20240417/m/multiqc-sgr/1.21.2-1.22.post0/README.md --exclude *.pyd
+[2024-04-17 07:51:44] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.7.tar.gz]
+[2024-04-17 07:51:44] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.8.tar.gz]
+[2024-04-17 07:51:44] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2024-04-17 07:51:45] INFO root fetch - processPackages [ecs_composex]: Remove: archive file [/home/abi/fetcher/tmp/ecs_composex-1.1.0rc2.tar.gz]
+[2024-04-17 07:51:45] INFO root fetch - processPackages [ecs_composex]: Remove: archive file [/home/abi/fetcher/tmp/ecs_composex-1.1.0rc3.tar.gz]
+[2024-04-17 07:51:45] INFO root fetch - main [MainThread]: End processing [ecs_composex]: success
+[2024-04-17 07:51:49] INFO root fetch - processPackages [multiqc-sgr]: Remove: archive file [/home/abi/fetcher/tmp/multiqc_sgr-1.21.2.tar.gz]
+[2024-04-17 07:51:49] INFO root fetch - processPackages [multiqc-sgr]: Remove: archive file [/home/abi/fetcher/tmp/multiqc_sgr-1.22.post0.tar.gz]
+[2024-04-17 07:51:49] INFO root fetch - main [MainThread]: End processing [multiqc-sgr]: success
+[2024-04-17 07:51:49] INFO root fetch - main [MainThread]: Store serial: [22800281]
