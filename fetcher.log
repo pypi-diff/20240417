@@ -23389,3 +23389,69 @@ EOFError: EOF read where object expected
 [2024-04-17 14:59:21] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2024-04-17 14:59:21] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2024-04-17 14:59:21] INFO root fetch - main [MainThread]: Store serial: [22805794]
+[2024-04-17 15:01:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805794]
+[2024-04-17 15:01:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 15:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moonstreamdb
+[2024-04-17 15:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fairness-datasets
+[2024-04-17 15:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dol
+[2024-04-17 15:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-model
+[2024-04-17 15:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codedepot-git-ai
+[2024-04-17 15:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-fleet
+[2024-04-17 15:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bennycloth
+[2024-04-17 15:01:30] INFO root fetch - processPackages [codedepot-git-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 15:01:30] INFO root fetch - processPackages [moonstreamdb]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-17 15:01:30] INFO root fetch - processPackages [bennycloth]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-17 15:01:30] INFO root fetch - processPackages [open-fleet]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 15:01:30] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/75/a0/d0e8b138cccd8f61da86fd40d4a8266353af6b5bfed4b3be48a89b58d840/codedepot_git_ai-0.0.8.tar.gz
+[2024-04-17 15:01:30] INFO root fetch - processPackages [fairness-datasets]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-17 15:01:30] INFO root fetch - processPackages [edc-model]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-17 15:01:30] INFO root fetch - processPackages [dol]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-17 15:01:30] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/eb/3d/2ec8d14fb5a5fd342f8793cc4f8d12fd70fa0266cd3b72f9f5ecfbfdffa2/moonstreamdb-0.4.1.tar.gz
+[2024-04-17 15:01:30] INFO root fetch - processPackages [open-fleet]: Downloading https://files.pythonhosted.org/packages/5c/cf/1b85342e81bf384277b4266c1048c5695b2bb47dd53cb10bda68d827dd0a/open_fleet-0.0.1.tar.gz
+[2024-04-17 15:01:30] INFO root fetch - processPackages [fairness-datasets]: Downloading https://files.pythonhosted.org/packages/20/09/1e38fb4297874e147962c2d9547739ef26d6f4dc5407dab035a7d093e38f/fairness_datasets-0.1.0.tar.gz
+[2024-04-17 15:01:30] INFO root fetch - processPackages [bennycloth]: Downloading https://files.pythonhosted.org/packages/e2/cb/7d2b2f709d0213340682278b25a0869d139e5dd85ef08c8f4f5504442926/bennycloth-0.0.6.tar.gz
+[2024-04-17 15:01:31] INFO root fetch - processPackages [edc-model]: Downloading https://files.pythonhosted.org/packages/2f/50/3f093f49f84fdca943092a526df4af7162f963b74ba735c31e895648d975/edc_model-0.3.8-py3-none-any.whl
+[2024-04-17 15:01:31] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/1f/fb/3fcdaf99d6434aada4ea578dd2a3d046376dcc888a968c197445c5dd195b/codedepot_git_ai-0.0.9.tar.gz
+[2024-04-17 15:01:31] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/6f/c5/f8a89851ec9b6dd7de8b9fa052a348669681083d710557cbc207275200c6/dol-0.2.9.tar.gz
+[2024-04-17 15:01:31] INFO root fetch - processPackages [codedepot-git-ai]: executing diffoscope
+[2024-04-17 15:01:31] INFO root fetch - processPackages [codedepot-git-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_git_ai-0.0.8.tar.gz tmp/codedepot_git_ai-0.0.9.tar.gz --markdown 20240417/c/codedepot-git-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 15:01:31] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/24/5a/ed447d6f6b6fe4f51ce184b3c921639547f6e11f45c384781f8776c0bc76/moonstreamdb-0.4.2.tar.gz
+[2024-04-17 15:01:31] INFO root fetch - processPackages [fairness-datasets]: Downloading https://files.pythonhosted.org/packages/8b/eb/f8c767958e9b23b79936d5fc3274f8f6436ac2e185f9c02fab699b583869/fairness_datasets-0.2.0.tar.gz
+[2024-04-17 15:01:31] INFO root fetch - processPackages [open-fleet]: Downloading https://files.pythonhosted.org/packages/bf/e3/a01a626be9ed73794c9fdc74680ac21d60f41c214e4c85419d1c7b72ff42/open_fleet-0.0.2.tar.gz
+[2024-04-17 15:01:31] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/54/9b/84ff7b37c9e8a531f64432c812ef371ae4074c27398d60140e842e70443f/dol-0.3.0.tar.gz
+[2024-04-17 15:01:31] INFO root fetch - processPackages [moonstreamdb]: executing diffoscope
+[2024-04-17 15:01:31] INFO root fetch - processPackages [moonstreamdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonstreamdb-0.4.1.tar.gz tmp/moonstreamdb-0.4.2.tar.gz --markdown 20240417/m/moonstreamdb/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-17 15:01:31] INFO root fetch - processPackages [edc-model]: Downloading https://files.pythonhosted.org/packages/22/c1/0520252af45753682431977db2a79bf94298e33d9063bd1f7d801159fbad/edc_model-0.3.9-py3-none-any.whl
+[2024-04-17 15:01:31] INFO root fetch - processPackages [bennycloth]: Downloading https://files.pythonhosted.org/packages/76/10/657d670628dd89119743da257187bed46cf6274b2708bbf8ecd8f378dc68/bennycloth-0.0.7.tar.gz
+[2024-04-17 15:01:31] INFO root fetch - processPackages [fairness-datasets]: executing diffoscope
+[2024-04-17 15:01:31] INFO root fetch - processPackages [fairness-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairness_datasets-0.1.0.tar.gz tmp/fairness_datasets-0.2.0.tar.gz --markdown 20240417/f/fairness-datasets/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-17 15:01:31] INFO root fetch - processPackages [open-fleet]: executing diffoscope
+[2024-04-17 15:01:31] INFO root fetch - processPackages [open-fleet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_fleet-0.0.1.tar.gz tmp/open_fleet-0.0.2.tar.gz --markdown 20240417/o/open-fleet/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 15:01:31] INFO root fetch - processPackages [dol]: executing diffoscope
+[2024-04-17 15:01:31] INFO root fetch - processPackages [dol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dol-0.2.9.tar.gz tmp/dol-0.3.0.tar.gz --markdown 20240417/d/dol/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-17 15:01:31] INFO root fetch - processPackages [bennycloth]: executing diffoscope
+[2024-04-17 15:01:31] INFO root fetch - processPackages [bennycloth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bennycloth-0.0.6.tar.gz tmp/bennycloth-0.0.7.tar.gz --markdown 20240417/b/bennycloth/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-17 15:01:31] INFO root fetch - processPackages [edc-model]: executing diffoscope
+[2024-04-17 15:01:31] INFO root fetch - processPackages [edc-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_model-0.3.8-py3-none-any.whl.zip tmp/edc_model-0.3.9-py3-none-any.whl.zip --markdown 20240417/e/edc-model/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-17 15:01:31] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.8.tar.gz]
+[2024-04-17 15:01:31] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.9.tar.gz]
+[2024-04-17 15:01:31] INFO root fetch - main [MainThread]: End processing [codedepot-git-ai]: success
+[2024-04-17 15:01:32] INFO root fetch - processPackages [fairness-datasets]: Remove: archive file [/home/abi/fetcher/tmp/fairness_datasets-0.1.0.tar.gz]
+[2024-04-17 15:01:32] INFO root fetch - processPackages [fairness-datasets]: Remove: archive file [/home/abi/fetcher/tmp/fairness_datasets-0.2.0.tar.gz]
+[2024-04-17 15:01:32] INFO root fetch - main [MainThread]: End processing [fairness-datasets]: success
+[2024-04-17 15:01:32] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.4.1.tar.gz]
+[2024-04-17 15:01:32] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.4.2.tar.gz]
+[2024-04-17 15:01:32] INFO root fetch - main [MainThread]: End processing [moonstreamdb]: success
+[2024-04-17 15:01:32] INFO root fetch - processPackages [bennycloth]: Remove: archive file [/home/abi/fetcher/tmp/bennycloth-0.0.6.tar.gz]
+[2024-04-17 15:01:32] INFO root fetch - processPackages [bennycloth]: Remove: archive file [/home/abi/fetcher/tmp/bennycloth-0.0.7.tar.gz]
+[2024-04-17 15:01:32] INFO root fetch - main [MainThread]: End processing [bennycloth]: success
+[2024-04-17 15:01:32] INFO root fetch - processPackages [open-fleet]: Remove: archive file [/home/abi/fetcher/tmp/open_fleet-0.0.1.tar.gz]
+[2024-04-17 15:01:32] INFO root fetch - processPackages [open-fleet]: Remove: archive file [/home/abi/fetcher/tmp/open_fleet-0.0.2.tar.gz]
+[2024-04-17 15:01:32] INFO root fetch - main [MainThread]: End processing [open-fleet]: success
+[2024-04-17 15:01:32] INFO root fetch - processPackages [edc-model]: Remove: archive file [/home/abi/fetcher/tmp/edc_model-0.3.8-py3-none-any.whl.zip]
+[2024-04-17 15:01:32] INFO root fetch - processPackages [edc-model]: Remove: archive file [/home/abi/fetcher/tmp/edc_model-0.3.9-py3-none-any.whl.zip]
+[2024-04-17 15:01:32] INFO root fetch - main [MainThread]: End processing [edc-model]: success
+[2024-04-17 15:01:32] INFO root fetch - processPackages [dol]: Remove: archive file [/home/abi/fetcher/tmp/dol-0.2.9.tar.gz]
+[2024-04-17 15:01:32] INFO root fetch - processPackages [dol]: Remove: archive file [/home/abi/fetcher/tmp/dol-0.3.0.tar.gz]
+[2024-04-17 15:01:32] INFO root fetch - main [MainThread]: End processing [dol]: success
+[2024-04-17 15:01:32] INFO root fetch - main [MainThread]: Store serial: [22805832]
