@@ -11369,3 +11369,56 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 07:36:30] INFO root fetch - processPackages [odoo14-addon-purchase-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_advance_payment-14.0.1.1.1.dev5-py3-none-any.whl.zip]
 [2024-04-17 07:36:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-advance-payment]: success
 [2024-04-17 07:36:30] INFO root fetch - main [MainThread]: Store serial: [22800198]
+[2024-04-17 07:38:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800198]
+[2024-04-17 07:38:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 07:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-amazon-chime-resources
+[2024-04-17 07:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lockerpm
+[2024-04-17 07:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azuread
+[2024-04-17 07:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stackql-deploy
+[2024-04-17 07:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: that-depends
+[2024-04-17 07:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lineoptim
+[2024-04-17 07:38:38] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 07:38:38] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [3.2.6] Old Version: [3.2.5]
+[2024-04-17 07:38:38] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-04-17 07:38:38] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 07:38:38] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/2c/f9/03c8a8a4ce8ae66c5992f724c17bbea78723d6dfc67b21cd8e1c84b56439/cdk-amazon-chime-resources-3.2.5.tar.gz
+[2024-04-17 07:38:38] INFO root fetch - processPackages [lineoptim]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-17 07:38:38] INFO root fetch - processPackages [that-depends]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-17 07:38:38] INFO root fetch - processPackages [lockerpm]: New version: [1.0.0] Old Version: [0.3.9b1]
+[2024-04-17 07:38:38] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 15401326>=10485760
+[2024-04-17 07:38:38] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2024-04-17 07:38:39] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 07:38:39] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-04-17 07:38:39] INFO root fetch - processPackages [lineoptim]: Downloading https://files.pythonhosted.org/packages/5b/4d/e96b48b8ad32e036809d3af9a03b4028663f7fa8180b8a50387739dd089d/lineoptim-1.0.0-py3-none-any.whl
+[2024-04-17 07:38:39] INFO root fetch - processPackages [that-depends]: Downloading https://files.pythonhosted.org/packages/4b/ee/98ccffcd648d287fcecd7e0fb87715d13c183aa06c7f43084d464fa9a98d/that_depends-1.5.1.tar.gz
+[2024-04-17 07:38:39] INFO root fetch - processPackages [lockerpm]: Downloading https://files.pythonhosted.org/packages/dd/df/bf658d1495f67cacd3bf3d40d89b12e9b39a0892b55ebe7217f86d46bf05/lockerpm-0.3.9b1.tar.gz
+[2024-04-17 07:38:39] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 07:38:39] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 07:38:39] INFO root fetch - processPackages [lineoptim]: Downloading https://files.pythonhosted.org/packages/cb/b8/e93fab0d09d7d3ebe2439b7387a4bf40c11a2bf9e3802ee8f3a2ea2309b6/lineoptim-1.1.0.tar.gz
+[2024-04-17 07:38:39] INFO root fetch - processPackages [that-depends]: Downloading https://files.pythonhosted.org/packages/3a/ef/006da167bb6349f87f9c637b83a073ca9db622dbd7f6ec679d40f0842f72/that_depends-1.5.2.tar.gz
+[2024-04-17 07:38:39] INFO root fetch - processPackages [lockerpm]: Downloading https://files.pythonhosted.org/packages/cd/6b/679f2603f371f83e6c670434d202c20d9550707c59fba34262aa28fe73c1/lockerpm-1.0.0.tar.gz
+[2024-04-17 07:38:39] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-04-17 07:38:39] INFO root fetch - processPackages [that-depends]: executing diffoscope
+[2024-04-17 07:38:39] INFO root fetch - processPackages [that-depends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/that_depends-1.5.1.tar.gz tmp/that_depends-1.5.2.tar.gz --markdown 20240417/t/that-depends/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-04-17 07:38:39] INFO root fetch - processPackages [lockerpm]: executing diffoscope
+[2024-04-17 07:38:39] INFO root fetch - processPackages [lockerpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockerpm-0.3.9b1.tar.gz tmp/lockerpm-1.0.0.tar.gz --markdown 20240417/l/lockerpm/0.3.9b1-1.0.0/README.md --exclude *.pyd
+[2024-04-17 07:38:39] INFO root fetch - processPackages [lineoptim]: executing diffoscope
+[2024-04-17 07:38:39] INFO root fetch - processPackages [lineoptim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lineoptim-1.0.0-py3-none-any.whl.zip tmp/lineoptim-1.1.0.tar.gz --markdown 20240417/l/lineoptim/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-17 07:38:39] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-04-17 07:38:39] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240417/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-04-17 07:38:39] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 07:38:39] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 07:38:39] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 07:38:40] INFO root fetch - processPackages [that-depends]: Remove: archive file [/home/abi/fetcher/tmp/that_depends-1.5.1.tar.gz]
+[2024-04-17 07:38:40] INFO root fetch - processPackages [that-depends]: Remove: archive file [/home/abi/fetcher/tmp/that_depends-1.5.2.tar.gz]
+[2024-04-17 07:38:40] INFO root fetch - main [MainThread]: End processing [that-depends]: success
+[2024-04-17 07:38:40] INFO root fetch - processPackages [lineoptim]: Remove: archive file [/home/abi/fetcher/tmp/lineoptim-1.0.0-py3-none-any.whl.zip]
+[2024-04-17 07:38:40] INFO root fetch - processPackages [lineoptim]: Remove: archive file [/home/abi/fetcher/tmp/lineoptim-1.1.0.tar.gz]
+[2024-04-17 07:38:40] INFO root fetch - main [MainThread]: End processing [lineoptim]: success
+[2024-04-17 07:38:40] INFO root fetch - processPackages [lockerpm]: Remove: archive file [/home/abi/fetcher/tmp/lockerpm-0.3.9b1.tar.gz]
+[2024-04-17 07:38:40] INFO root fetch - processPackages [lockerpm]: Remove: archive file [/home/abi/fetcher/tmp/lockerpm-1.0.0.tar.gz]
+[2024-04-17 07:38:40] INFO root fetch - main [MainThread]: End processing [lockerpm]: success
+[2024-04-17 07:38:40] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-04-17 07:38:40] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-04-17 07:38:40] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-04-17 07:38:40] INFO root fetch - main [MainThread]: Store serial: [22800215]
