@@ -16380,3 +16380,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:49:49] INFO root fetch - processPackages [RsCmwBluetoothMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwBluetoothMeas-4.0.110.tar.gz]
 [2024-04-17 10:49:49] INFO root fetch - main [MainThread]: End processing [RsCmwBluetoothMeas]: success
 [2024-04-17 10:49:49] INFO root fetch - main [MainThread]: Store serial: [22802480]
+[2024-04-17 10:51:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802480]
+[2024-04-17 10:51:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 10:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MinVectorDB
+[2024-04-17 10:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: line-bot-sdk
+[2024-04-17 10:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neosctl
+[2024-04-17 10:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-3rdparty-mediawiki
+[2024-04-17 10:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coolML
+[2024-04-17 10:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhanshop
+[2024-04-17 10:51:59] INFO root fetch - processPackages [zhanshop]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 10:51:59] WARNING root fetch - processPackages [coolML]: Skipping, unable to determine old version
+[2024-04-17 10:51:59] INFO root fetch - main [MainThread]: End processing [coolML] error
+[2024-04-17 10:51:59] INFO root fetch - processPackages [zhanshop]: Downloading https://files.pythonhosted.org/packages/30/8e/ca5f7107acb11f8abdc9c71b3fd3af94e8f99d1103fb44e1b22ad7e3be49/zhanshop-0.0.1.tar.gz
+[2024-04-17 10:51:59] INFO root fetch - processPackages [line-bot-sdk]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-04-17 10:51:59] INFO root fetch - processPackages [neosctl]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-17 10:51:59] INFO root fetch - processPackages [MinVectorDB]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-17 10:51:59] INFO root fetch - processPackages [py-3rdparty-mediawiki]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-17 10:51:59] INFO root fetch - processPackages [line-bot-sdk]: Downloading https://files.pythonhosted.org/packages/82/49/cb62eb3d463daa25c5f38b537495149a56cd06013842bfb65712fb6b11f9/line-bot-sdk-3.8.1.tar.gz
+[2024-04-17 10:51:59] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/5d/1b/bb37f5637a064c8d5ab4b4235d039cf7857037c9c438d57b7671aef507e3/neosctl-0.9.2.tar.gz
+[2024-04-17 10:51:59] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/06/78/f2fe13c0142b88d3f5eb77fb5837f1899596c684303892361972d90b2802/minvectordb-0.2.6.tar.gz
+[2024-04-17 10:51:59] INFO root fetch - processPackages [zhanshop]: Downloading https://files.pythonhosted.org/packages/24/b6/78e463e0a6dde32ee366f4e8acf376a054bf5aafe2c61452960dd2d50a74/zhanshop-0.0.2.tar.gz
+[2024-04-17 10:51:59] INFO root fetch - processPackages [py-3rdparty-mediawiki]: Downloading https://files.pythonhosted.org/packages/e1/73/98e3365d0827e15a46c42f18d6f85b984bc24bd8aa239ddd7facf1545568/py_3rdparty_mediawiki-0.9.4.tar.gz
+[2024-04-17 10:51:59] INFO root fetch - processPackages [zhanshop]: executing diffoscope
+[2024-04-17 10:51:59] INFO root fetch - processPackages [zhanshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhanshop-0.0.1.tar.gz tmp/zhanshop-0.0.2.tar.gz --markdown 20240417/z/zhanshop/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 10:51:59] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/fb/17/0247bcfe59a8b9582e555bf06a04177a766199fe8b2dca93c086c142891a/neosctl-0.9.3.tar.gz
+[2024-04-17 10:51:59] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/0d/c3/b1ad652c03eea6bdabbd5413a6080e48698e8eec2ddf9ab0e865be839669/minvectordb-0.2.7.tar.gz
+[2024-04-17 10:51:59] INFO root fetch - processPackages [line-bot-sdk]: Downloading https://files.pythonhosted.org/packages/44/a0/2740186a3a599ee69dfcb245fad5e76c881462097e75e219d5dc6b8967df/line-bot-sdk-3.9.0.tar.gz
+[2024-04-17 10:51:59] INFO root fetch - processPackages [neosctl]: executing diffoscope
+[2024-04-17 10:51:59] INFO root fetch - processPackages [neosctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosctl-0.9.2.tar.gz tmp/neosctl-0.9.3.tar.gz --markdown 20240417/n/neosctl/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-17 10:51:59] INFO root fetch - processPackages [MinVectorDB]: executing diffoscope
+[2024-04-17 10:51:59] INFO root fetch - processPackages [MinVectorDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minvectordb-0.2.6.tar.gz tmp/minvectordb-0.2.7.tar.gz --markdown 20240417/M/MinVectorDB/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-17 10:51:59] INFO root fetch - processPackages [py-3rdparty-mediawiki]: Downloading https://files.pythonhosted.org/packages/be/33/cb9f8f94b74be2657970eb02e4428f8d636ffa6e6af81884e602c72507f5/py_3rdparty_mediawiki-0.9.5.tar.gz
+[2024-04-17 10:52:00] INFO root fetch - processPackages [line-bot-sdk]: executing diffoscope
+[2024-04-17 10:52:00] INFO root fetch - processPackages [line-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/line-bot-sdk-3.8.1.tar.gz tmp/line-bot-sdk-3.9.0.tar.gz --markdown 20240417/l/line-bot-sdk/3.8.1-3.9.0/README.md --exclude *.pyd
+[2024-04-17 10:52:00] INFO root fetch - processPackages [py-3rdparty-mediawiki]: executing diffoscope
+[2024-04-17 10:52:00] INFO root fetch - processPackages [py-3rdparty-mediawiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_3rdparty_mediawiki-0.9.4.tar.gz tmp/py_3rdparty_mediawiki-0.9.5.tar.gz --markdown 20240417/p/py-3rdparty-mediawiki/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-17 10:52:00] INFO root fetch - processPackages [zhanshop]: Remove: archive file [/home/abi/fetcher/tmp/zhanshop-0.0.1.tar.gz]
+[2024-04-17 10:52:00] INFO root fetch - processPackages [zhanshop]: Remove: archive file [/home/abi/fetcher/tmp/zhanshop-0.0.2.tar.gz]
+[2024-04-17 10:52:00] INFO root fetch - main [MainThread]: End processing [zhanshop]: success
+[2024-04-17 10:52:00] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.9.2.tar.gz]
+[2024-04-17 10:52:00] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.9.3.tar.gz]
+[2024-04-17 10:52:00] INFO root fetch - main [MainThread]: End processing [neosctl]: success
+[2024-04-17 10:52:01] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.2.6.tar.gz]
+[2024-04-17 10:52:01] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.2.7.tar.gz]
+[2024-04-17 10:52:01] INFO root fetch - main [MainThread]: End processing [MinVectorDB]: success
+[2024-04-17 10:52:01] INFO root fetch - processPackages [py-3rdparty-mediawiki]: Remove: archive file [/home/abi/fetcher/tmp/py_3rdparty_mediawiki-0.9.4.tar.gz]
+[2024-04-17 10:52:01] INFO root fetch - processPackages [py-3rdparty-mediawiki]: Remove: archive file [/home/abi/fetcher/tmp/py_3rdparty_mediawiki-0.9.5.tar.gz]
+[2024-04-17 10:52:01] INFO root fetch - main [MainThread]: End processing [py-3rdparty-mediawiki]: success
+[2024-04-17 10:52:02] INFO root fetch - processPackages [line-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/line-bot-sdk-3.8.1.tar.gz]
+[2024-04-17 10:52:02] INFO root fetch - processPackages [line-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/line-bot-sdk-3.9.0.tar.gz]
+[2024-04-17 10:52:02] INFO root fetch - main [MainThread]: End processing [line-bot-sdk]: success
+[2024-04-17 10:52:02] INFO root fetch - main [MainThread]: Store serial: [22802559]
