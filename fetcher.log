@@ -9080,3 +9080,18 @@
 [2024-04-17 05:20:40] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.180.tar.gz]
 [2024-04-17 05:20:40] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
 [2024-04-17 05:20:40] INFO root fetch - main [MainThread]: Store serial: [22799394]
+[2024-04-17 05:22:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799394]
+[2024-04-17 05:22:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 05:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2024-04-17 05:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ninjabook
+[2024-04-17 05:22:49] WARNING root fetch - processPackages [ninjabook]: Skipping, unable to determine old version
+[2024-04-17 05:22:49] INFO root fetch - main [MainThread]: End processing [ninjabook] error
+[2024-04-17 05:22:49] INFO root fetch - processPackages [keras-nightly]: New version: [3.2.1.dev2024041622] Old Version: [3.2.1.dev2024041603]
+[2024-04-17 05:22:49] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/69/f7/79685e5574f13e3ddd2e81d652a1fdbd92c2ea0bfc5d946087c6e9503481/keras_nightly-3.2.1.dev2024041603.tar.gz
+[2024-04-17 05:22:49] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/66/55/f2ead1d2f176393ff8c231d3e3adabd66b4659bcb66715419c25077ff748/keras_nightly-3.2.1.dev2024041622.tar.gz
+[2024-04-17 05:22:50] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-04-17 05:22:50] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.2.1.dev2024041603.tar.gz tmp/keras_nightly-3.2.1.dev2024041622.tar.gz --markdown 20240417/k/keras-nightly/3.2.1.dev2024041603-3.2.1.dev2024041622/README.md --exclude *.pyd
+[2024-04-17 05:22:55] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.2.1.dev2024041603.tar.gz]
+[2024-04-17 05:22:55] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.2.1.dev2024041622.tar.gz]
+[2024-04-17 05:22:55] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-04-17 05:22:55] INFO root fetch - main [MainThread]: Store serial: [22799400]
