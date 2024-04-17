@@ -6842,3 +6842,33 @@
 [2024-04-17 03:22:25] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.7.2-py3-none-any.whl.zip]
 [2024-04-17 03:22:25] INFO root fetch - main [MainThread]: End processing [NEMO-reports]: success
 [2024-04-17 03:22:25] INFO root fetch - main [MainThread]: Store serial: [22798014]
+[2024-04-17 03:24:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798014]
+[2024-04-17 03:24:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 03:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smtp-proxy
+[2024-04-17 03:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ckzg
+[2024-04-17 03:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: project-utils-django
+[2024-04-17 03:24:34] INFO root fetch - processPackages [project-utils-django]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-17 03:24:34] INFO root fetch - processPackages [project-utils-django]: Downloading https://files.pythonhosted.org/packages/7a/22/a11667f042d68a601611db12049232b0f78bd4f1fee51705e7d0a86eb6d5/project-utils-django-1.0.1.tar.gz
+[2024-04-17 03:24:34] INFO root fetch - processPackages [smtp-proxy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 03:24:34] INFO root fetch - processPackages [ckzg]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-17 03:24:34] INFO root fetch - processPackages [smtp-proxy]: Downloading https://files.pythonhosted.org/packages/df/02/c9faa89f96e15189b08a0af0bb4e2cd1f8761fe0b6cfd52943c99c244442/smtp_proxy-0.1.0.tar.gz
+[2024-04-17 03:24:35] INFO root fetch - processPackages [project-utils-django]: Downloading https://files.pythonhosted.org/packages/ec/9c/dd03f86c6365d0418583a709796b100e17ffdd468b0ba119edcb20951f0f/project-utils-django-1.0.2.tar.gz
+[2024-04-17 03:24:35] INFO root fetch - processPackages [ckzg]: Downloading https://files.pythonhosted.org/packages/ff/4d/50aa956dd48c3e90722ac27f6cbb8e9a80457dc2d3f5bb6f5f4844535c31/ckzg-1.0.0-pp39-pypy39_pp73-win_amd64.whl
+[2024-04-17 03:24:35] INFO root fetch - processPackages [project-utils-django]: executing diffoscope
+[2024-04-17 03:24:35] INFO root fetch - processPackages [project-utils-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project-utils-django-1.0.1.tar.gz tmp/project-utils-django-1.0.2.tar.gz --markdown 20240417/p/project-utils-django/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-17 03:24:35] INFO root fetch - processPackages [smtp-proxy]: Downloading https://files.pythonhosted.org/packages/ed/2d/379e7c01270c649812ae9840e6c800bfb2b6db41fe2e82b6fb14be32c1a9/smtp_proxy-0.1.1.tar.gz
+[2024-04-17 03:24:35] INFO root fetch - processPackages [smtp-proxy]: executing diffoscope
+[2024-04-17 03:24:35] INFO root fetch - processPackages [smtp-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smtp_proxy-0.1.0.tar.gz tmp/smtp_proxy-0.1.1.tar.gz --markdown 20240417/s/smtp-proxy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 03:24:35] INFO root fetch - processPackages [ckzg]: Downloading https://files.pythonhosted.org/packages/a2/12/7bf455cb832b12063fc2961903b1fc11e66e7c76a6a8be4236e734c5b4b2/ckzg-1.0.1-cp38-cp38-musllinux_1_1_aarch64.whl
+[2024-04-17 03:24:35] INFO root fetch - processPackages [ckzg]: executing diffoscope
+[2024-04-17 03:24:35] INFO root fetch - processPackages [ckzg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckzg-1.0.0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/ckzg-1.0.1-cp38-cp38-musllinux_1_1_aarch64.whl.zip --markdown 20240417/c/ckzg/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-17 03:24:35] INFO root fetch - processPackages [project-utils-django]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-django-1.0.1.tar.gz]
+[2024-04-17 03:24:35] INFO root fetch - processPackages [project-utils-django]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-django-1.0.2.tar.gz]
+[2024-04-17 03:24:35] INFO root fetch - main [MainThread]: End processing [project-utils-django]: success
+[2024-04-17 03:24:35] INFO root fetch - processPackages [smtp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/smtp_proxy-0.1.0.tar.gz]
+[2024-04-17 03:24:35] INFO root fetch - processPackages [smtp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/smtp_proxy-0.1.1.tar.gz]
+[2024-04-17 03:24:35] INFO root fetch - main [MainThread]: End processing [smtp-proxy]: success
+[2024-04-17 03:24:36] INFO root fetch - processPackages [ckzg]: Remove: archive file [/home/abi/fetcher/tmp/ckzg-1.0.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-04-17 03:24:36] INFO root fetch - processPackages [ckzg]: Remove: archive file [/home/abi/fetcher/tmp/ckzg-1.0.1-cp38-cp38-musllinux_1_1_aarch64.whl.zip]
+[2024-04-17 03:24:36] INFO root fetch - main [MainThread]: End processing [ckzg]: success
+[2024-04-17 03:24:36] INFO root fetch - main [MainThread]: Store serial: [22798135]
