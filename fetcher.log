@@ -12498,3 +12498,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:29:25] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
 [2024-04-17 08:29:25] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
 [2024-04-17 08:29:25] INFO root fetch - main [MainThread]: Store serial: [22800574]
+[2024-04-17 08:31:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800574]
+[2024-04-17 08:31:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 08:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stac-fastapi.types
+[2024-04-17 08:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: admap
+[2024-04-17 08:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stac-fastapi.extensions
+[2024-04-17 08:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stac-fastapi.api
+[2024-04-17 08:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: profiles-rudderstack-bin
+[2024-04-17 08:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrasp
+[2024-04-17 08:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsugu
+[2024-04-17 08:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dydantic
+[2024-04-17 08:31:34] INFO root fetch - processPackages [tsugu]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.types]: New version: [2.5.0] Old Version: [2.4.9]
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.api]: New version: [2.5.0] Old Version: [2.4.9]
+[2024-04-17 08:31:34] INFO root fetch - processPackages [profiles-rudderstack-bin]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.extensions]: New version: [2.5.0] Old Version: [2.4.9]
+[2024-04-17 08:31:34] INFO root fetch - processPackages [dydantic]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-17 08:31:34] INFO root fetch - processPackages [admap]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-04-17 08:31:34] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/23/4d/0240ba5af8407f605a5b9dbe662cc853a63e633a12b48160344616c3d787/tsugu-0.4.8.tar.gz
+[2024-04-17 08:31:34] INFO root fetch - processPackages [pyrasp]: New version: [0.6.1rc1] Old Version: [0.6.0]
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.extensions]: Downloading https://files.pythonhosted.org/packages/2d/c7/b274ced7e7549b3b3363ad19c429939a4f210f2c3835b3598232763b7dee/stac-fastapi.extensions-2.4.9.tar.gz
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.types]: Downloading https://files.pythonhosted.org/packages/2a/f9/c776e26ca94c4d9bc2cc3a3dbb6fd3eedf3ca2a2c82e3dc5e8cbb3a95125/stac-fastapi.types-2.4.9.tar.gz
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.api]: Downloading https://files.pythonhosted.org/packages/28/6d/f3bdaccadd4441419b2cb1e61b6a65ea4e5454055680a34e8991a292cc52/stac-fastapi.api-2.4.9.tar.gz
+[2024-04-17 08:31:34] INFO root fetch - processPackages [profiles-rudderstack-bin]: Downloading https://files.pythonhosted.org/packages/2a/fa/f53dd82c8de9a17b04a3bee01636c020e77a2b5df73b8c9f0849c679393a/profiles_rudderstack_bin-0.9.3-py3-none-win_amd64.whl
+[2024-04-17 08:31:34] INFO root fetch - processPackages [admap]: Downloading https://files.pythonhosted.org/packages/a9/fa/b8181da5cac7447415acec0fc202c68a2ebe659b9031d3c94d6f3dcdda0a/admap-2.0.4.tar.gz
+[2024-04-17 08:31:34] INFO root fetch - processPackages [pyrasp]: Downloading https://files.pythonhosted.org/packages/02/4f/526fd5e8461537f43add8a0f351deafbb13389bf1418c9923fa926373e9f/pyrasp-0.6.0.tar.gz
+[2024-04-17 08:31:34] INFO root fetch - processPackages [dydantic]: Downloading https://files.pythonhosted.org/packages/ae/f0/2ef18ddc8fda71c1b3c44930a15e0035c837599012eb75ac0695022a4228/dydantic-0.0.5.tar.gz
+[2024-04-17 08:31:34] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/1a/20/aa11dbd0c43c200302667324b90aba7691c8a534a67ec5f7587067f7e4e6/tsugu-0.4.9.tar.gz
+[2024-04-17 08:31:34] WARNING root fetch - processPackages [profiles-rudderstack-bin]: Skipping package: exceeds size limit 35657249>=10485760
+[2024-04-17 08:31:34] INFO root fetch - main [MainThread]: End processing [profiles-rudderstack-bin] error
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.extensions]: Downloading https://files.pythonhosted.org/packages/e5/0d/26b1946ef54ae38f5d5f24efd414fb9c4a6c0c1a43ee6d49396fe788da73/stac_fastapi_extensions-2.5.0.tar.gz
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.types]: Downloading https://files.pythonhosted.org/packages/82/bf/45420b34d5a75c26bb59f4cccf53aed841d3ef03f990e55b863b1b769d21/stac_fastapi_types-2.5.0.tar.gz
+[2024-04-17 08:31:34] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-17 08:31:34] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.4.8.tar.gz tmp/tsugu-0.4.9.tar.gz --markdown 20240417/t/tsugu/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.api]: Downloading https://files.pythonhosted.org/packages/0f/38/be76483c951a0abceaeab23445e99e28a11543ad6aadd7c0d7078d77d83e/stac_fastapi_api-2.5.0.tar.gz
+[2024-04-17 08:31:34] INFO root fetch - processPackages [admap]: Downloading https://files.pythonhosted.org/packages/61/35/dc510f3a9b3819c7a835e75f15c65db1095797e984355e2952e1ac33c57c/admap-2.0.5.tar.gz
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.extensions]: executing diffoscope
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac-fastapi.extensions-2.4.9.tar.gz tmp/stac_fastapi_extensions-2.5.0.tar.gz --markdown 20240417/s/stac-fastapi.extensions/2.4.9-2.5.0/README.md --exclude *.pyd
+[2024-04-17 08:31:34] INFO root fetch - processPackages [dydantic]: Downloading https://files.pythonhosted.org/packages/4e/3d/29bbd2cc0812b256d0eed89b04f83d5829921c18bdb634a614c0f09e1fab/dydantic-0.0.6.tar.gz
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.types]: executing diffoscope
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac-fastapi.types-2.4.9.tar.gz tmp/stac_fastapi_types-2.5.0.tar.gz --markdown 20240417/s/stac-fastapi.types/2.4.9-2.5.0/README.md --exclude *.pyd
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.api]: executing diffoscope
+[2024-04-17 08:31:34] INFO root fetch - processPackages [stac-fastapi.api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac-fastapi.api-2.4.9.tar.gz tmp/stac_fastapi_api-2.5.0.tar.gz --markdown 20240417/s/stac-fastapi.api/2.4.9-2.5.0/README.md --exclude *.pyd
+[2024-04-17 08:31:34] INFO root fetch - processPackages [admap]: executing diffoscope
+[2024-04-17 08:31:34] INFO root fetch - processPackages [admap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/admap-2.0.4.tar.gz tmp/admap-2.0.5.tar.gz --markdown 20240417/a/admap/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-04-17 08:31:34] INFO root fetch - processPackages [dydantic]: executing diffoscope
+[2024-04-17 08:31:34] INFO root fetch - processPackages [dydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dydantic-0.0.5.tar.gz tmp/dydantic-0.0.6.tar.gz --markdown 20240417/d/dydantic/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-17 08:31:35] INFO root fetch - processPackages [pyrasp]: Downloading https://files.pythonhosted.org/packages/5f/3d/dbc39f6abf6e7e7edbb4f24b6860903e0e9de1bea8900eac355b78407fe6/pyrasp-0.6.1rc1.tar.gz
+[2024-04-17 08:31:35] INFO root fetch - processPackages [pyrasp]: executing diffoscope
+[2024-04-17 08:31:35] INFO root fetch - processPackages [pyrasp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrasp-0.6.0.tar.gz tmp/pyrasp-0.6.1rc1.tar.gz --markdown 20240417/p/pyrasp/0.6.0-0.6.1rc1/README.md --exclude *.pyd
+[2024-04-17 08:31:35] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.8.tar.gz]
+[2024-04-17 08:31:35] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.9.tar.gz]
+[2024-04-17 08:31:35] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-17 08:31:35] INFO root fetch - processPackages [stac-fastapi.extensions]: Remove: archive file [/home/abi/fetcher/tmp/stac-fastapi.extensions-2.4.9.tar.gz]
+[2024-04-17 08:31:35] INFO root fetch - processPackages [stac-fastapi.extensions]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_extensions-2.5.0.tar.gz]
+[2024-04-17 08:31:35] INFO root fetch - main [MainThread]: End processing [stac-fastapi.extensions]: success
+[2024-04-17 08:31:35] INFO root fetch - processPackages [stac-fastapi.api]: Remove: archive file [/home/abi/fetcher/tmp/stac-fastapi.api-2.4.9.tar.gz]
+[2024-04-17 08:31:35] INFO root fetch - processPackages [stac-fastapi.api]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_api-2.5.0.tar.gz]
+[2024-04-17 08:31:35] INFO root fetch - main [MainThread]: End processing [stac-fastapi.api]: success
+[2024-04-17 08:31:35] INFO root fetch - processPackages [stac-fastapi.types]: Remove: archive file [/home/abi/fetcher/tmp/stac-fastapi.types-2.4.9.tar.gz]
+[2024-04-17 08:31:35] INFO root fetch - processPackages [stac-fastapi.types]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_types-2.5.0.tar.gz]
+[2024-04-17 08:31:35] INFO root fetch - main [MainThread]: End processing [stac-fastapi.types]: success
+[2024-04-17 08:31:35] INFO root fetch - processPackages [dydantic]: Remove: archive file [/home/abi/fetcher/tmp/dydantic-0.0.5.tar.gz]
+[2024-04-17 08:31:35] INFO root fetch - processPackages [dydantic]: Remove: archive file [/home/abi/fetcher/tmp/dydantic-0.0.6.tar.gz]
+[2024-04-17 08:31:35] INFO root fetch - main [MainThread]: End processing [dydantic]: success
+[2024-04-17 08:31:35] INFO root fetch - processPackages [admap]: Remove: archive file [/home/abi/fetcher/tmp/admap-2.0.4.tar.gz]
+[2024-04-17 08:31:35] INFO root fetch - processPackages [admap]: Remove: archive file [/home/abi/fetcher/tmp/admap-2.0.5.tar.gz]
+[2024-04-17 08:31:35] INFO root fetch - main [MainThread]: End processing [admap]: success
+[2024-04-17 08:31:36] INFO root fetch - processPackages [pyrasp]: Remove: archive file [/home/abi/fetcher/tmp/pyrasp-0.6.0.tar.gz]
+[2024-04-17 08:31:36] INFO root fetch - processPackages [pyrasp]: Remove: archive file [/home/abi/fetcher/tmp/pyrasp-0.6.1rc1.tar.gz]
+[2024-04-17 08:31:36] INFO root fetch - main [MainThread]: End processing [pyrasp]: success
+[2024-04-17 08:31:36] INFO root fetch - main [MainThread]: Store serial: [22800605]
