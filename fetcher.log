@@ -9941,3 +9941,81 @@
 [2024-04-17 06:24:32] INFO root fetch - processPackages [rms-oops]: Remove: archive file [/home/abi/fetcher/tmp/rms_oops-0.0.3.tar.gz]
 [2024-04-17 06:24:32] INFO root fetch - main [MainThread]: End processing [rms-oops]: success
 [2024-04-17 06:24:32] INFO root fetch - main [MainThread]: Store serial: [22799732]
+[2024-04-17 06:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799732]
+[2024-04-17 06:26:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 06:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clovers-leafgame
+[2024-04-17 06:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-assets-management
+[2024-04-17 06:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datalad
+[2024-04-17 06:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-it-declaration-of-intent
+[2024-04-17 06:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polars-access-mdbtools
+[2024-04-17 06:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-assets-management
+[2024-04-17 06:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nanoCEM
+[2024-04-17 06:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-l10n-it-dichiarazione-intento
+[2024-04-17 06:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pmdsky-debug-py
+[2024-04-17 06:26:41] INFO root fetch - processPackages [clovers-leafgame]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo14-addon-assets-management]: New version: [14.0.1.4.5.dev1] Old Version: [14.0.1.4.4.dev1]
+[2024-04-17 06:26:41] WARNING root fetch - processPackages [polars-access-mdbtools]: Skipping, unable to determine old version
+[2024-04-17 06:26:41] INFO root fetch - main [MainThread]: End processing [polars-access-mdbtools] error
+[2024-04-17 06:26:41] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.5.7] Old Version: [0.0.5.6]
+[2024-04-17 06:26:41] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/22/f7/565736622681dd9de4d5f0133bc170d0db60e463d91f11abe9ca0f3df864/odoo14_addon_assets_management-14.0.1.4.4.dev1-py3-none-any.whl
+[2024-04-17 06:26:41] INFO root fetch - processPackages [datalad]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo12-addon-assets-management]: New version: [12.0.1.0.2.99.dev4] Old Version: [12.0.1.0.2.99.dev3]
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: New version: [14.0.1.1.9] Old Version: [14.0.1.1.8.dev3]
+[2024-04-17 06:26:41] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/33/eb/4fec645489c62e47f76637800291fdb912026058b33adb6b93856fb83b80/pmdsky_debug_py-9.0.8-py3-none-any.whl
+[2024-04-17 06:26:41] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/fd/3d/cb6464fccddbe572868c7ac53652ca7afe9fc62334db723c2b694c3fbb1d/nanoCEM-0.0.5.6.tar.gz
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo12-addon-l10n-it-dichiarazione-intento]: New version: [12.0.0.2.1.99.dev6] Old Version: [12.0.0.2.1.99.dev5]
+[2024-04-17 06:26:41] INFO root fetch - processPackages [clovers-leafgame]: Downloading https://files.pythonhosted.org/packages/01/e0/415cd196965d5eb0ecc4821d5a07b873dd2dcd0c4ae13c0c8f2a85c5f03b/clovers_leafgame-0.1.1.tar.gz
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/80/e7/c170de8a91df786bbf37e69a507224affa2cba5329624b66217a6caa33f7/odoo12_addon_assets_management-12.0.1.0.2.99.dev3-py3-none-any.whl
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: Downloading https://files.pythonhosted.org/packages/f7/dc/f9f6d087251316b19d6d06165ad0311e04646d491895918fe7091e911328/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.8.dev3-py3-none-any.whl
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/8e/f0/247f010bdf8a8452d5cc38cd90a44cd9e073c6d2d000f607843cbe89bfad/odoo14_addon_assets_management-14.0.1.4.5.dev1-py3-none-any.whl
+[2024-04-17 06:26:41] INFO root fetch - processPackages [clovers-leafgame]: Downloading https://files.pythonhosted.org/packages/19/61/175384d733f370e502cbe1679642e6b1eafb64c661fdef31f1b6e8ba1bea/clovers_leafgame-0.1.2.tar.gz
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo12-addon-l10n-it-dichiarazione-intento]: Downloading https://files.pythonhosted.org/packages/4e/ef/b2328bfcfd5ac84becfd426037f598535d5fbb49e8f551fe4673031dc0ca/odoo12_addon_l10n_it_dichiarazione_intento-12.0.0.2.1.99.dev5-py3-none-any.whl
+[2024-04-17 06:26:41] INFO root fetch - processPackages [datalad]: Downloading https://files.pythonhosted.org/packages/ee/51/43be9521b4942bf5db7e218e8802e747b4aa7fd8a7c7be80580a8e63232b/datalad-1.0.0.tar.gz
+[2024-04-17 06:26:41] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/78/90/3ae42c4f8e39ed28cfa302c2db60b1605399688c48f721f7261802bd8a29/pmdsky_debug_py-9.0.9-py3-none-any.whl
+[2024-04-17 06:26:41] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/0b/82/562f62c3b1a92f54e8021d10ffc086dc670d8dd5828659e71c577818f218/nanoCEM-0.0.5.7.tar.gz
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo14-addon-assets-management]: executing diffoscope
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo14-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_assets_management-14.0.1.4.4.dev1-py3-none-any.whl.zip tmp/odoo14_addon_assets_management-14.0.1.4.5.dev1-py3-none-any.whl.zip --markdown 20240417/o/odoo14-addon-assets-management/14.0.1.4.4.dev1-14.0.1.4.5.dev1/README.md --exclude *.pyd
+[2024-04-17 06:26:41] INFO root fetch - processPackages [clovers-leafgame]: executing diffoscope
+[2024-04-17 06:26:41] INFO root fetch - processPackages [clovers-leafgame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clovers_leafgame-0.1.1.tar.gz tmp/clovers_leafgame-0.1.2.tar.gz --markdown 20240417/c/clovers-leafgame/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 06:26:41] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2024-04-17 06:26:41] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.5.6.tar.gz tmp/nanoCEM-0.0.5.7.tar.gz --markdown 20240417/n/nanoCEM/0.0.5.6-0.0.5.7/README.md --exclude *.pyd
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/8e/75/1d63d51c01a782a4e31aa3d6342804c577ada4616caf71395428c3c0d359/odoo12_addon_assets_management-12.0.1.0.2.99.dev4-py3-none-any.whl
+[2024-04-17 06:26:41] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2024-04-17 06:26:41] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-9.0.8-py3-none-any.whl.zip tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip --markdown 20240417/p/pmdsky-debug-py/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo12-addon-assets-management]: executing diffoscope
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo12-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_assets_management-12.0.1.0.2.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_assets_management-12.0.1.0.2.99.dev4-py3-none-any.whl.zip --markdown 20240417/o/odoo12-addon-assets-management/12.0.1.0.2.99.dev3-12.0.1.0.2.99.dev4/README.md --exclude *.pyd
+[2024-04-17 06:26:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: Downloading https://files.pythonhosted.org/packages/da/4b/f2602b5f6979ad434deeda7ab76e84cf4df49ecece74383636f7dddae818/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.9-py3-none-any.whl
+[2024-04-17 06:26:42] INFO root fetch - processPackages [datalad]: Downloading https://files.pythonhosted.org/packages/9d/34/43641154f4086995c62928f36b7142c733618682e34fb6cb74a79aeafc7b/datalad-1.0.1.tar.gz
+[2024-04-17 06:26:42] INFO root fetch - processPackages [odoo12-addon-l10n-it-dichiarazione-intento]: Downloading https://files.pythonhosted.org/packages/c2/7a/e37219461c90a62898d13171d01c6055a8e9fe0292e6e40bb782404faac6/odoo12_addon_l10n_it_dichiarazione_intento-12.0.0.2.1.99.dev6-py3-none-any.whl
+[2024-04-17 06:26:42] INFO root fetch - processPackages [datalad]: executing diffoscope
+[2024-04-17 06:26:42] INFO root fetch - processPackages [datalad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalad-1.0.0.tar.gz tmp/datalad-1.0.1.tar.gz --markdown 20240417/d/datalad/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-17 06:26:42] INFO root fetch - processPackages [odoo12-addon-l10n-it-dichiarazione-intento]: executing diffoscope
+[2024-04-17 06:26:42] INFO root fetch - processPackages [odoo12-addon-l10n-it-dichiarazione-intento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_dichiarazione_intento-12.0.0.2.1.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_dichiarazione_intento-12.0.0.2.1.99.dev6-py3-none-any.whl.zip --markdown 20240417/o/odoo12-addon-l10n-it-dichiarazione-intento/12.0.0.2.1.99.dev5-12.0.0.2.1.99.dev6/README.md --exclude *.pyd
+[2024-04-17 06:26:42] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.5.6.tar.gz]
+[2024-04-17 06:26:42] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.5.7.tar.gz]
+[2024-04-17 06:26:42] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2024-04-17 06:26:42] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: executing diffoscope
+[2024-04-17 06:26:42] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.8.dev3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.9-py3-none-any.whl.zip --markdown 20240417/o/odoo14-addon-l10n-it-declaration-of-intent/14.0.1.1.8.dev3-14.0.1.1.9/README.md --exclude *.pyd
+[2024-04-17 06:26:42] INFO root fetch - processPackages [clovers-leafgame]: Remove: archive file [/home/abi/fetcher/tmp/clovers_leafgame-0.1.1.tar.gz]
+[2024-04-17 06:26:42] INFO root fetch - processPackages [clovers-leafgame]: Remove: archive file [/home/abi/fetcher/tmp/clovers_leafgame-0.1.2.tar.gz]
+[2024-04-17 06:26:42] INFO root fetch - main [MainThread]: End processing [clovers-leafgame]: success
+[2024-04-17 06:26:42] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.4.4.dev1-py3-none-any.whl.zip]
+[2024-04-17 06:26:42] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.4.5.dev1-py3-none-any.whl.zip]
+[2024-04-17 06:26:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-assets-management]: success
+[2024-04-17 06:26:42] INFO root fetch - processPackages [odoo12-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_assets_management-12.0.1.0.2.99.dev3-py3-none-any.whl.zip]
+[2024-04-17 06:26:42] INFO root fetch - processPackages [odoo12-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_assets_management-12.0.1.0.2.99.dev4-py3-none-any.whl.zip]
+[2024-04-17 06:26:42] INFO root fetch - main [MainThread]: End processing [odoo12-addon-assets-management]: success
+[2024-04-17 06:26:43] INFO root fetch - processPackages [odoo12-addon-l10n-it-dichiarazione-intento]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_dichiarazione_intento-12.0.0.2.1.99.dev5-py3-none-any.whl.zip]
+[2024-04-17 06:26:43] INFO root fetch - processPackages [odoo12-addon-l10n-it-dichiarazione-intento]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_dichiarazione_intento-12.0.0.2.1.99.dev6-py3-none-any.whl.zip]
+[2024-04-17 06:26:43] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-dichiarazione-intento]: success
+[2024-04-17 06:26:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.8.dev3-py3-none-any.whl.zip]
+[2024-04-17 06:26:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.9-py3-none-any.whl.zip]
+[2024-04-17 06:26:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-declaration-of-intent]: success
+[2024-04-17 06:26:44] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.8-py3-none-any.whl.zip]
+[2024-04-17 06:26:44] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip]
+[2024-04-17 06:26:44] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2024-04-17 06:26:44] INFO root fetch - processPackages [datalad]: Remove: archive file [/home/abi/fetcher/tmp/datalad-1.0.0.tar.gz]
+[2024-04-17 06:26:44] INFO root fetch - processPackages [datalad]: Remove: archive file [/home/abi/fetcher/tmp/datalad-1.0.1.tar.gz]
+[2024-04-17 06:26:44] INFO root fetch - main [MainThread]: End processing [datalad]: success
+[2024-04-17 06:26:44] INFO root fetch - main [MainThread]: Store serial: [22799753]
