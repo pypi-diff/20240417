@@ -14840,3 +14840,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:58:15] INFO root fetch - processPackages [TissUUmaps]: Remove: archive file [/home/abi/fetcher/tmp/TissUUmaps-3.2rc3.tar.gz]
 [2024-04-17 09:58:15] INFO root fetch - main [MainThread]: End processing [TissUUmaps]: success
 [2024-04-17 09:58:15] INFO root fetch - main [MainThread]: Store serial: [22801733]
+[2024-04-17 10:00:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801733]
+[2024-04-17 10:00:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 10:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aruba-dero
+[2024-04-17 10:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly
+[2024-04-17 10:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kafka-schema-registry-admin
+[2024-04-17 10:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-packages
+[2024-04-17 10:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypesto
+[2024-04-17 10:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-oci
+[2024-04-17 10:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scikit-base
+[2024-04-17 10:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lnschema_core
+[2024-04-17 10:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chippy_ai
+[2024-04-17 10:00:25] INFO root fetch - processPackages [chippy_ai]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-17 10:00:25] INFO root fetch - processPackages [scikit-base]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-04-17 10:00:25] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240417] Old Version: [2.17.0.dev20240416]
+[2024-04-17 10:00:25] INFO root fetch - processPackages [chippy_ai]: Downloading https://files.pythonhosted.org/packages/c0/01/95224dc3d8a8a0fb7fa6f8dc9a9dc3ef267696e05b44bd1652c7ffa46dbc/chippy_ai-0.2.3.tar.gz
+[2024-04-17 10:00:25] WARNING root fetch - processPackages [aruba-dero]: Skipping, unable to determine old version
+[2024-04-17 10:00:25] INFO root fetch - main [MainThread]: End processing [aruba-dero] error
+[2024-04-17 10:00:25] INFO root fetch - processPackages [scikit-base]: Downloading https://files.pythonhosted.org/packages/d6/5d/e42953144deaa93e1d0f31637bbb60e5813ff0f24670fc0f38858a1df72a/scikit-base-0.7.5.tar.gz
+[2024-04-17 10:00:25] INFO root fetch - processPackages [kafka-schema-registry-admin]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-17 10:00:25] INFO root fetch - processPackages [pypesto]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-17 10:00:25] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-17 10:00:25] INFO root fetch - processPackages [pulumi-oci]: New version: [1.9.0a1693981063] Old Version: [1.9.0a1693634572]
+[2024-04-17 10:00:25] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/49/c7/b95a4516d8f0f3aed057df1f463cf378456ea9a4cb78f2cb9ccb3eff0c90/tf_nightly-2.17.0.dev20240416-cp39-cp39-win_amd64.whl
+[2024-04-17 10:00:25] INFO root fetch - processPackages [pypesto]: Downloading https://files.pythonhosted.org/packages/19/85/a35130e4fcca1966e388e6bc6a89634e245b8a28239632368878559511cf/pypesto-0.4.2.tar.gz
+[2024-04-17 10:00:25] INFO root fetch - processPackages [kafka-schema-registry-admin]: Downloading https://files.pythonhosted.org/packages/7a/9f/4f9fa711adba85d0f91c6784b6500bf239bc768ff5e132f686d392f5cfaf/kafka_schema_registry_admin-0.5.1.tar.gz
+[2024-04-17 10:00:26] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2024-04-17 10:00:26] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/02/f8/59b31ede3416e4e37062af605ed2293a67d7cfe3eec867258c58481c638d/pulumi_oci-1.9.0a1693634572.tar.gz
+[2024-04-17 10:00:26] INFO root fetch - processPackages [chippy_ai]: Downloading https://files.pythonhosted.org/packages/e9/60/1cccef75cd2caa836780cb28b567996b1dbe334c8fc0943a1e7e0c6b1e14/chippy_ai-0.2.4.tar.gz
+[2024-04-17 10:00:26] INFO root fetch - processPackages [scikit-base]: Downloading https://files.pythonhosted.org/packages/36/e5/d0498518d3e964a615bbe671074763c327193937d3bb4a31763e49ff22a6/scikit_base-0.7.6.tar.gz
+[2024-04-17 10:00:26] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/9f/a7/e486c848edeb7b7d3e773e997f323613cb740295e9a3b04a98b6e6a6c0dc/tf_nightly-2.17.0.dev20240417-cp39-cp39-win_amd64.whl
+[2024-04-17 10:00:26] INFO root fetch - processPackages [scikit-base]: executing diffoscope
+[2024-04-17 10:00:26] INFO root fetch - processPackages [scikit-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-base-0.7.5.tar.gz tmp/scikit_base-0.7.6.tar.gz --markdown 20240417/s/scikit-base/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-04-17 10:00:26] INFO root fetch - processPackages [kafka-schema-registry-admin]: Downloading https://files.pythonhosted.org/packages/5e/5e/bb44b11264d683964b969a83b55d8165644c536e102285bdc3603b4c0727/kafka_schema_registry_admin-0.5.2.tar.gz
+[2024-04-17 10:00:26] INFO root fetch - processPackages [pypesto]: Downloading https://files.pythonhosted.org/packages/56/dd/6d496264288ee0df8579bd1881154b5976643d05f72b2c2937e0ae56135a/pypesto-0.5.0.tar.gz
+[2024-04-17 10:00:26] INFO root fetch - processPackages [chippy_ai]: executing diffoscope
+[2024-04-17 10:00:26] INFO root fetch - processPackages [chippy_ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chippy_ai-0.2.3.tar.gz tmp/chippy_ai-0.2.4.tar.gz --markdown 20240417/c/chippy_ai/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-17 10:00:26] INFO root fetch - processPackages [aws-packages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 10:00:26] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-17 10:00:26] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240416-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240417-cp39-cp39-win_amd64.whl.zip --markdown 20240417/t/tf-nightly/2.17.0.dev20240416-2.17.0.dev20240417/README.md --exclude *.pyd
+[2024-04-17 10:00:26] INFO root fetch - processPackages [kafka-schema-registry-admin]: executing diffoscope
+[2024-04-17 10:00:26] INFO root fetch - processPackages [kafka-schema-registry-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka_schema_registry_admin-0.5.1.tar.gz tmp/kafka_schema_registry_admin-0.5.2.tar.gz --markdown 20240417/k/kafka-schema-registry-admin/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-17 10:00:26] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2024-04-17 10:00:26] INFO root fetch - processPackages [pypesto]: executing diffoscope
+[2024-04-17 10:00:26] INFO root fetch - processPackages [pypesto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypesto-0.4.2.tar.gz tmp/pypesto-0.5.0.tar.gz --markdown 20240417/p/pypesto/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-04-17 10:00:26] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2024-04-17 10:00:26] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20240417/l/lnschema_core/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-17 10:00:26] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/df/79/dc9dd4f48288c36fa85b903a442b0590b5f087cf3de6feac6a2c7361bd03/aws_packages-0.0.8.tar.gz
+[2024-04-17 10:00:27] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/f9/70/6dad25f5681631041b67fc5bad90c0828becfec9e1569cd148b0c104a41d/aws_packages-0.0.9.tar.gz
+[2024-04-17 10:00:27] INFO root fetch - processPackages [kafka-schema-registry-admin]: Remove: archive file [/home/abi/fetcher/tmp/kafka_schema_registry_admin-0.5.1.tar.gz]
+[2024-04-17 10:00:27] INFO root fetch - processPackages [kafka-schema-registry-admin]: Remove: archive file [/home/abi/fetcher/tmp/kafka_schema_registry_admin-0.5.2.tar.gz]
+[2024-04-17 10:00:27] INFO root fetch - main [MainThread]: End processing [kafka-schema-registry-admin]: success
+[2024-04-17 10:00:27] INFO root fetch - processPackages [scikit-base]: Remove: archive file [/home/abi/fetcher/tmp/scikit-base-0.7.5.tar.gz]
+[2024-04-17 10:00:27] INFO root fetch - processPackages [scikit-base]: Remove: archive file [/home/abi/fetcher/tmp/scikit_base-0.7.6.tar.gz]
+[2024-04-17 10:00:27] INFO root fetch - main [MainThread]: End processing [scikit-base]: success
+[2024-04-17 10:00:27] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240416-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 10:00:27] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240417-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 10:00:27] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-17 10:00:27] INFO root fetch - processPackages [aws-packages]: executing diffoscope
+[2024-04-17 10:00:27] INFO root fetch - processPackages [aws-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_packages-0.0.8.tar.gz tmp/aws_packages-0.0.9.tar.gz --markdown 20240417/a/aws-packages/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 10:00:27] INFO root fetch - processPackages [chippy_ai]: Remove: archive file [/home/abi/fetcher/tmp/chippy_ai-0.2.3.tar.gz]
+[2024-04-17 10:00:27] INFO root fetch - processPackages [chippy_ai]: Remove: archive file [/home/abi/fetcher/tmp/chippy_ai-0.2.4.tar.gz]
+[2024-04-17 10:00:27] INFO root fetch - main [MainThread]: End processing [chippy_ai]: success
+[2024-04-17 10:00:27] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2024-04-17 10:00:27] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2024-04-17 10:00:27] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2024-04-17 10:00:27] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/77/93/cd3384a9ca236f6aa79a6f6fa7c94647e0588bdaf8a86d173cca47e31e21/pulumi_oci-1.9.0a1693981063.tar.gz
+[2024-04-17 10:00:28] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.8.tar.gz]
+[2024-04-17 10:00:28] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.9.tar.gz]
+[2024-04-17 10:00:28] INFO root fetch - main [MainThread]: End processing [aws-packages]: success
+[2024-04-17 10:00:28] INFO root fetch - processPackages [pypesto]: Remove: archive file [/home/abi/fetcher/tmp/pypesto-0.4.2.tar.gz]
+[2024-04-17 10:00:28] INFO root fetch - processPackages [pypesto]: Remove: archive file [/home/abi/fetcher/tmp/pypesto-0.5.0.tar.gz]
+[2024-04-17 10:00:28] INFO root fetch - main [MainThread]: End processing [pypesto]: success
+[2024-04-17 10:00:29] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2024-04-17 10:00:29] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.9.0a1693634572.tar.gz tmp/pulumi_oci-1.9.0a1693981063.tar.gz --markdown 20240417/p/pulumi-oci/1.9.0a1693634572-1.9.0a1693981063/README.md --exclude *.pyd
+[2024-04-17 10:00:44] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693634572.tar.gz]
+[2024-04-17 10:00:44] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
+[2024-04-17 10:00:44] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2024-04-17 10:00:44] INFO root fetch - main [MainThread]: Store serial: [22801804]
