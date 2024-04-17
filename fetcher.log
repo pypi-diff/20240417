@@ -20299,3 +20299,59 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:59:16] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-2.0.0b0.tar.gz]
 [2024-04-17 12:59:16] INFO root fetch - main [MainThread]: End processing [adata]: success
 [2024-04-17 12:59:16] INFO root fetch - main [MainThread]: Store serial: [22804218]
+[2024-04-17 13:01:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804218]
+[2024-04-17 13:01:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 13:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snakemake-storage-plugin-s3
+[2024-04-17 13:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulpcore
+[2024-04-17 13:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulpcore-client
+[2024-04-17 13:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulp-file-client
+[2024-04-17 13:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulp-certguard-client
+[2024-04-17 13:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cesped
+[2024-04-17 13:01:25] INFO root fetch - processPackages [pulp-file-client]: New version: [3.51.0] Old Version: [3.50.3]
+[2024-04-17 13:01:25] INFO root fetch - processPackages [pulp-certguard-client]: New version: [3.51.0] Old Version: [3.50.3]
+[2024-04-17 13:01:25] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-17 13:01:25] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2024-04-17 13:01:26] INFO root fetch - processPackages [snakemake-storage-plugin-s3]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 13:01:26] INFO root fetch - processPackages [cesped]: New version: [24.4.2] Old Version: [24.1.3]
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulp-file-client]: Downloading https://files.pythonhosted.org/packages/c6/79/0017beaa7969dc123e3a9d64de15141449a05bceb70a3cbff7ce0197004f/pulp_file-client-3.50.3.tar.gz
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulp-certguard-client]: Downloading https://files.pythonhosted.org/packages/93/0e/291e527aaf081f4a36eaea414c578a2a4e317913502559af8a5d8d4bf513/pulp_certguard-client-3.50.3.tar.gz
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2024-04-17 13:01:26] INFO root fetch - processPackages [snakemake-storage-plugin-s3]: Downloading https://files.pythonhosted.org/packages/2b/48/a2aba4583934d9710c6adf372e69898e2d456b36abc7b324f07c0dfd3ecb/snakemake_storage_plugin_s3-0.2.8.tar.gz
+[2024-04-17 13:01:26] INFO root fetch - processPackages [cesped]: Downloading https://files.pythonhosted.org/packages/17/fe/d92a19e01f98d63ce32985dbf52d76e55d33bbbd0c9929dbc1d28b820c9d/cesped-24.1.3.tar.gz
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulp-certguard-client]: Downloading https://files.pythonhosted.org/packages/23/31/b9681fa82ffd270d956655f7b7d0907fb1d5afb0a5272c293431aa41adf1/pulp_certguard-client-3.51.0.tar.gz
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulp-file-client]: executing diffoscope
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulp-file-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_file-client-3.50.3.tar.gz tmp/pulp_file-client-3.51.0.tar.gz --markdown 20240417/p/pulp-file-client/3.50.3-3.51.0/README.md --exclude *.pyd
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20240417/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/README.md --exclude *.pyd
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulp-certguard-client]: executing diffoscope
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulp-certguard-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_certguard-client-3.50.3.tar.gz tmp/pulp_certguard-client-3.51.0.tar.gz --markdown 20240417/p/pulp-certguard-client/3.50.3-3.51.0/README.md --exclude *.pyd
+[2024-04-17 13:01:26] INFO root fetch - processPackages [snakemake-storage-plugin-s3]: Downloading https://files.pythonhosted.org/packages/98/7e/43316481094cd6984c9049df4e84e18444ba571231de494f3f14123b3903/snakemake_storage_plugin_s3-0.2.9.tar.gz
+[2024-04-17 13:01:26] INFO root fetch - processPackages [cesped]: Downloading https://files.pythonhosted.org/packages/12/20/d97f648b6d60fc77f68c2973927b2aec4d1cfa85cfc1b30d935869296750/cesped-24.4.2.tar.gz
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2024-04-17 13:01:26] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20240417/p/pulpcore/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-17 13:01:26] INFO root fetch - processPackages [snakemake-storage-plugin-s3]: executing diffoscope
+[2024-04-17 13:01:26] INFO root fetch - processPackages [snakemake-storage-plugin-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_storage_plugin_s3-0.2.8.tar.gz tmp/snakemake_storage_plugin_s3-0.2.9.tar.gz --markdown 20240417/s/snakemake-storage-plugin-s3/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 13:01:26] INFO root fetch - processPackages [cesped]: executing diffoscope
+[2024-04-17 13:01:26] INFO root fetch - processPackages [cesped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cesped-24.1.3.tar.gz tmp/cesped-24.4.2.tar.gz --markdown 20240417/c/cesped/24.1.3-24.4.2/README.md --exclude *.pyd
+[2024-04-17 13:01:27] INFO root fetch - processPackages [snakemake-storage-plugin-s3]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_storage_plugin_s3-0.2.8.tar.gz]
+[2024-04-17 13:01:27] INFO root fetch - processPackages [snakemake-storage-plugin-s3]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_storage_plugin_s3-0.2.9.tar.gz]
+[2024-04-17 13:01:27] INFO root fetch - main [MainThread]: End processing [snakemake-storage-plugin-s3]: success
+[2024-04-17 13:01:27] INFO root fetch - processPackages [pulp-file-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_file-client-3.50.3.tar.gz]
+[2024-04-17 13:01:27] INFO root fetch - processPackages [pulp-file-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_file-client-3.51.0.tar.gz]
+[2024-04-17 13:01:27] INFO root fetch - main [MainThread]: End processing [pulp-file-client]: success
+[2024-04-17 13:01:27] INFO root fetch - processPackages [pulp-certguard-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_certguard-client-3.50.3.tar.gz]
+[2024-04-17 13:01:27] INFO root fetch - processPackages [pulp-certguard-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_certguard-client-3.51.0.tar.gz]
+[2024-04-17 13:01:27] INFO root fetch - main [MainThread]: End processing [pulp-certguard-client]: success
+[2024-04-17 13:01:27] INFO root fetch - processPackages [cesped]: Remove: archive file [/home/abi/fetcher/tmp/cesped-24.1.3.tar.gz]
+[2024-04-17 13:01:27] INFO root fetch - processPackages [cesped]: Remove: archive file [/home/abi/fetcher/tmp/cesped-24.4.2.tar.gz]
+[2024-04-17 13:01:27] INFO root fetch - main [MainThread]: End processing [cesped]: success
+[2024-04-17 13:01:27] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz]
+[2024-04-17 13:01:27] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.1.tar.gz]
+[2024-04-17 13:01:27] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2024-04-17 13:01:27] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.0.tar.gz]
+[2024-04-17 13:01:27] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
+[2024-04-17 13:01:27] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2024-04-17 13:01:27] INFO root fetch - main [MainThread]: Store serial: [22804242]
