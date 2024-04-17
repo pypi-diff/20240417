@@ -11831,3 +11831,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:02:42] INFO root fetch - processPackages [dbt-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/dbt_duckdb-1.7.4.tar.gz]
 [2024-04-17 08:02:42] INFO root fetch - main [MainThread]: End processing [dbt-duckdb]: success
 [2024-04-17 08:02:42] INFO root fetch - main [MainThread]: Store serial: [22800341]
+[2024-04-17 08:04:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800341]
+[2024-04-17 08:04:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2024-04-17 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-connect
+[2024-04-17 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvidia-modulus
+[2024-04-17 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-iot
+[2024-04-17 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atomic-bomb-engine
+[2024-04-17 08:04:50] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.182] Old Version: [0.1.181]
+[2024-04-17 08:04:50] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/70/d4/1c52a4986634dbb4d31f3820cd63634e5e0277facc12e22ab73d958bba9f/ansar_connect-0.1.181.tar.gz
+[2024-04-17 08:04:50] INFO root fetch - processPackages [nvidia-modulus]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-17 08:04:50] WARNING root fetch - processPackages [pih-iot]: Skipping, unable to determine old version
+[2024-04-17 08:04:50] INFO root fetch - main [MainThread]: End processing [pih-iot] error
+[2024-04-17 08:04:51] INFO root fetch - processPackages [pih]: New version: [0.36.8] Old Version: [0.36.7]
+[2024-04-17 08:04:51] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-17 08:04:51] INFO root fetch - processPackages [nvidia-modulus]: Downloading https://files.pythonhosted.org/packages/16/ed/8eecb92101ba6e6c9d7624fc619d4a5a8e1c685083bd0185a1562606a155/nvidia_modulus-0.5.0-py3-none-any.whl
+[2024-04-17 08:04:51] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/af/16/85eb5312d7db8136765d0ace31e43169e9fe1c0459072ef176da3fd506c1/pih-0.36.7.tar.gz
+[2024-04-17 08:04:51] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-17 08:04:51] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/12/d7/3286a9c0312685e03bd39307f4add282e7593d4733f72f59a2f63a4f295c/ansar_connect-0.1.182.tar.gz
+[2024-04-17 08:04:51] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-17 08:04:51] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.181.tar.gz tmp/ansar_connect-0.1.182.tar.gz --markdown 20240417/a/ansar-connect/0.1.181-0.1.182/README.md --exclude *.pyd
+[2024-04-17 08:04:51] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-04-17 08:04:51] INFO root fetch - processPackages [nvidia-modulus]: Downloading https://files.pythonhosted.org/packages/c1/86/89366d5df5b5d3d65323063ffff43c6c713c5dff3b707bc7293bda56b0c7/nvidia_modulus-0.6.0-py3-none-any.whl
+[2024-04-17 08:04:51] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-17 08:04:51] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.7.tar.gz tmp/pih-0.36.8.tar.gz --markdown 20240417/p/pih/0.36.7-0.36.8/README.md --exclude *.pyd
+[2024-04-17 08:04:51] INFO root fetch - processPackages [nvidia-modulus]: executing diffoscope
+[2024-04-17 08:04:51] INFO root fetch - processPackages [nvidia-modulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_modulus-0.5.0-py3-none-any.whl.zip tmp/nvidia_modulus-0.6.0-py3-none-any.whl.zip --markdown 20240417/n/nvidia-modulus/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-17 08:04:51] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-17 08:04:52] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.181.tar.gz]
+[2024-04-17 08:04:52] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.182.tar.gz]
+[2024-04-17 08:04:52] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-17 08:04:52] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-17 08:04:52] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240417/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-17 08:04:52] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.7.tar.gz]
+[2024-04-17 08:04:52] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-04-17 08:04:52] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-17 08:04:52] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-17 08:04:52] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-17 08:04:52] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-17 08:04:53] INFO root fetch - processPackages [nvidia-modulus]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_modulus-0.5.0-py3-none-any.whl.zip]
+[2024-04-17 08:04:53] INFO root fetch - processPackages [nvidia-modulus]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_modulus-0.6.0-py3-none-any.whl.zip]
+[2024-04-17 08:04:53] INFO root fetch - main [MainThread]: End processing [nvidia-modulus]: success
+[2024-04-17 08:04:53] INFO root fetch - main [MainThread]: Store serial: [22800359]
