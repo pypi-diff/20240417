@@ -17967,3 +17967,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:36:00] INFO root fetch - processPackages [airflow-tools]: Remove: archive file [/home/abi/fetcher/tmp/airflow_tools-0.8.5.tar.gz]
 [2024-04-17 11:36:00] INFO root fetch - main [MainThread]: End processing [airflow-tools]: success
 [2024-04-17 11:36:00] INFO root fetch - main [MainThread]: Store serial: [22803319]
+[2024-04-17 11:38:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803319]
+[2024-04-17 11:38:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 11:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botmom
+[2024-04-17 11:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cas-tools
+[2024-04-17 11:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-akamai
+[2024-04-17 11:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyQtUIkit
+[2024-04-17 11:38:09] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.7.0] Old Version: [2.5.1]
+[2024-04-17 11:38:09] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.1.0a1713330683] Old Version: [7.1.0a1712985050]
+[2024-04-17 11:38:09] INFO root fetch - processPackages [botmom]: New version: [1.0] Old Version: [0.2]
+[2024-04-17 11:38:09] INFO root fetch - processPackages [cas-tools]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2024-04-17 11:38:09] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/33/83/dc546bc7a9a9989c913387fd8d0ea0fe339bec1f1c2cb62aced7fad6778b/PyQtUIkit-2.5.1.tar.gz
+[2024-04-17 11:38:09] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/6a/d7/76d8ef6be35c15bd0c611601a1616523b8fff947be7e5d2025ccad868530/pulumi_akamai-7.1.0a1712985050.tar.gz
+[2024-04-17 11:38:10] INFO root fetch - processPackages [cas-tools]: Downloading https://files.pythonhosted.org/packages/b9/5e/39f97fb29d99b0ef2f2ffcffe6cab596041f77151661c1a2ce8808c686da/cas-tools-0.0.1.dev8.tar.gz
+[2024-04-17 11:38:10] INFO root fetch - processPackages [botmom]: Downloading https://files.pythonhosted.org/packages/08/ce/4f343e27b7bcc4bab6b757ee73a271425726e44904ed127065ea9aa52c76/botmom-0.2.tar.gz
+[2024-04-17 11:38:10] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/a8/7b/ccf8b9a51a7501cf728f6541d0986a5a5f35432e6a5b1686c556fc055d66/pulumi_akamai-7.1.0a1713330683.tar.gz
+[2024-04-17 11:38:10] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/2f/d7/424fcae7afec6ffbe1b93623a512120c3ee395d732f076f08a03188e45cf/PyQtUIkit-2.7.0.tar.gz
+[2024-04-17 11:38:10] INFO root fetch - processPackages [botmom]: Downloading https://files.pythonhosted.org/packages/c6/44/2eed7eb48c31339a6a5cf462e1ab13d5f7367b0b625d57cb4252dc645992/botmom-1.0.tar.gz
+[2024-04-17 11:38:10] INFO root fetch - processPackages [cas-tools]: Downloading https://files.pythonhosted.org/packages/28/ec/5317b3525f1d8446524985a0eafd9be6ebd8d7ada90d82fef5a5830a585f/cas-tools-0.0.1.dev9.tar.gz
+[2024-04-17 11:38:10] INFO root fetch - processPackages [botmom]: executing diffoscope
+[2024-04-17 11:38:10] INFO root fetch - processPackages [botmom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botmom-0.2.tar.gz tmp/botmom-1.0.tar.gz --markdown 20240417/b/botmom/0.2-1.0/README.md --exclude *.pyd
+[2024-04-17 11:38:10] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-17 11:38:10] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.5.1.tar.gz tmp/PyQtUIkit-2.7.0.tar.gz --markdown 20240417/P/PyQtUIkit/2.5.1-2.7.0/README.md --exclude *.pyd
+[2024-04-17 11:38:10] INFO root fetch - processPackages [cas-tools]: executing diffoscope
+[2024-04-17 11:38:10] INFO root fetch - processPackages [cas-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cas-tools-0.0.1.dev8.tar.gz tmp/cas-tools-0.0.1.dev9.tar.gz --markdown 20240417/c/cas-tools/0.0.1.dev8-0.0.1.dev9/README.md --exclude *.pyd
+[2024-04-17 11:38:10] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-04-17 11:38:10] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.1.0a1712985050.tar.gz tmp/pulumi_akamai-7.1.0a1713330683.tar.gz --markdown 20240417/p/pulumi-akamai/7.1.0a1712985050-7.1.0a1713330683/README.md --exclude *.pyd
+[2024-04-17 11:38:11] INFO root fetch - processPackages [cas-tools]: Remove: archive file [/home/abi/fetcher/tmp/cas-tools-0.0.1.dev8.tar.gz]
+[2024-04-17 11:38:11] INFO root fetch - processPackages [cas-tools]: Remove: archive file [/home/abi/fetcher/tmp/cas-tools-0.0.1.dev9.tar.gz]
+[2024-04-17 11:38:11] INFO root fetch - main [MainThread]: End processing [cas-tools]: success
+[2024-04-17 11:38:11] INFO root fetch - processPackages [botmom]: Remove: archive file [/home/abi/fetcher/tmp/botmom-0.2.tar.gz]
+[2024-04-17 11:38:11] INFO root fetch - processPackages [botmom]: Remove: archive file [/home/abi/fetcher/tmp/botmom-1.0.tar.gz]
+[2024-04-17 11:38:11] INFO root fetch - main [MainThread]: End processing [botmom]: success
+[2024-04-17 11:38:11] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.5.1.tar.gz]
+[2024-04-17 11:38:11] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.7.0.tar.gz]
+[2024-04-17 11:38:11] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-17 11:38:13] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.1.0a1712985050.tar.gz]
+[2024-04-17 11:38:13] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.1.0a1713330683.tar.gz]
+[2024-04-17 11:38:13] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-04-17 11:38:13] INFO root fetch - main [MainThread]: Store serial: [22803333]
