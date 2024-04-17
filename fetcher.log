@@ -8453,3 +8453,33 @@
 [2024-04-17 04:45:19] INFO root fetch - processPackages [albumentations]: Remove: archive file [/home/abi/fetcher/tmp/albumentations-1.4.4.tar.gz]
 [2024-04-17 04:45:19] INFO root fetch - main [MainThread]: End processing [albumentations]: success
 [2024-04-17 04:45:19] INFO root fetch - main [MainThread]: Store serial: [22799072]
+[2024-04-17 04:47:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799072]
+[2024-04-17 04:47:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 04:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langbank
+[2024-04-17 04:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: searchspotify
+[2024-04-17 04:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evo-science
+[2024-04-17 04:47:28] INFO root fetch - processPackages [langbank]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-04-17 04:47:28] INFO root fetch - processPackages [langbank]: Downloading https://files.pythonhosted.org/packages/c2/5a/f78d3e02a540a8a549015b1db6ab2170ccbf0cd7019c1af49412c73b7b13/langbank-0.1.5.tar.gz
+[2024-04-17 04:47:28] INFO root fetch - processPackages [evo-science]: New version: [0.1.12] Old Version: [0.1.0]
+[2024-04-17 04:47:28] INFO root fetch - processPackages [searchspotify]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 04:47:28] INFO root fetch - processPackages [langbank]: Downloading https://files.pythonhosted.org/packages/bb/79/e722bced2cc515e17ed6446a42a190bda86a6d5c7320b32c229a9d3d7f08/langbank-0.2.0.tar.gz
+[2024-04-17 04:47:28] INFO root fetch - processPackages [searchspotify]: Downloading https://files.pythonhosted.org/packages/bd/98/2610b71a195571e9cfaf7a93f948a23c3722b292a1f5f241a6d1cead81e3/searchspotify-0.0.8.tar.gz
+[2024-04-17 04:47:28] INFO root fetch - processPackages [evo-science]: Downloading https://files.pythonhosted.org/packages/5c/32/38a54f34f819c840b641f5502b175e0dce1b049b27375dd7aa621060425a/evo-science-0.1.0.tar.gz
+[2024-04-17 04:47:29] INFO root fetch - processPackages [langbank]: executing diffoscope
+[2024-04-17 04:47:29] INFO root fetch - processPackages [langbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langbank-0.1.5.tar.gz tmp/langbank-0.2.0.tar.gz --markdown 20240417/l/langbank/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-04-17 04:47:29] INFO root fetch - processPackages [searchspotify]: Downloading https://files.pythonhosted.org/packages/98/9a/68e7d6267ddbf1164eca46a300aa7ad0d139b4e3055959df68ce7bcec2c2/searchspotify-0.0.9.tar.gz
+[2024-04-17 04:47:29] INFO root fetch - processPackages [evo-science]: Downloading https://files.pythonhosted.org/packages/d3/f1/f4cfa5e62def06eb53e4fc662a733cdcd0c37c9e6e1f5cbec0a8d9d9168b/evo_science-0.1.12.tar.gz
+[2024-04-17 04:47:29] INFO root fetch - processPackages [searchspotify]: executing diffoscope
+[2024-04-17 04:47:29] INFO root fetch - processPackages [searchspotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchspotify-0.0.8.tar.gz tmp/searchspotify-0.0.9.tar.gz --markdown 20240417/s/searchspotify/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 04:47:29] INFO root fetch - processPackages [evo-science]: executing diffoscope
+[2024-04-17 04:47:29] INFO root fetch - processPackages [evo-science]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo-science-0.1.0.tar.gz tmp/evo_science-0.1.12.tar.gz --markdown 20240417/e/evo-science/0.1.0-0.1.12/README.md --exclude *.pyd
+[2024-04-17 04:47:29] INFO root fetch - processPackages [langbank]: Remove: archive file [/home/abi/fetcher/tmp/langbank-0.1.5.tar.gz]
+[2024-04-17 04:47:29] INFO root fetch - processPackages [langbank]: Remove: archive file [/home/abi/fetcher/tmp/langbank-0.2.0.tar.gz]
+[2024-04-17 04:47:29] INFO root fetch - main [MainThread]: End processing [langbank]: success
+[2024-04-17 04:47:29] INFO root fetch - processPackages [evo-science]: Remove: archive file [/home/abi/fetcher/tmp/evo-science-0.1.0.tar.gz]
+[2024-04-17 04:47:29] INFO root fetch - processPackages [evo-science]: Remove: archive file [/home/abi/fetcher/tmp/evo_science-0.1.12.tar.gz]
+[2024-04-17 04:47:29] INFO root fetch - main [MainThread]: End processing [evo-science]: success
+[2024-04-17 04:47:30] INFO root fetch - processPackages [searchspotify]: Remove: archive file [/home/abi/fetcher/tmp/searchspotify-0.0.8.tar.gz]
+[2024-04-17 04:47:30] INFO root fetch - processPackages [searchspotify]: Remove: archive file [/home/abi/fetcher/tmp/searchspotify-0.0.9.tar.gz]
+[2024-04-17 04:47:30] INFO root fetch - main [MainThread]: End processing [searchspotify]: success
+[2024-04-17 04:47:30] INFO root fetch - main [MainThread]: Store serial: [22799084]
