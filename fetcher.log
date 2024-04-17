@@ -13471,3 +13471,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:02:42] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
 [2024-04-17 09:02:42] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2024-04-17 09:02:42] INFO root fetch - main [MainThread]: Store serial: [22801018]
+[2024-04-17 09:04:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801018]
+[2024-04-17 09:04:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-17 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsugu
+[2024-04-17 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-04-17 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boilerplates
+[2024-04-17 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mssapi-mt
+[2024-04-17 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-web-responsive
+[2024-04-17 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-okta
+[2024-04-17 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TestPackage-yidas
+[2024-04-17 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-stock-picking-restrict-cancel-printed
+[2024-04-17 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zbx-wxwork-assistant
+[2024-04-17 09:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zensvi
+[2024-04-17 09:04:51] INFO root fetch - processPackages [tsugu]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-17 09:04:51] INFO root fetch - processPackages [TestPackage-yidas]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-17 09:04:51] INFO root fetch - processPackages [boilerplates]: New version: [1.0.2.dev2] Old Version: [1.0.2.dev1]
+[2024-04-17 09:04:51] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-17 09:04:51] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/51/d1/1f3ed54658327efe919cd158f4a9178dcdb46f4fe307cea68a3bab43630d/tsugu-0.5.0.tar.gz
+[2024-04-17 09:04:51] WARNING root fetch - processPackages [mssapi-mt]: Skipping, unable to determine old version
+[2024-04-17 09:04:51] INFO root fetch - processPackages [mssapi-mt]: Start processing: pyuptech
+[2024-04-17 09:04:51] INFO root fetch - main [MainThread]: End processing [mssapi-mt] error
+[2024-04-17 09:04:51] INFO root fetch - processPackages [odoo-addon-web-responsive]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-04-17 09:04:51] INFO root fetch - processPackages [TestPackage-yidas]: Downloading https://files.pythonhosted.org/packages/d9/5c/b49490db667dbc8ed214810c58d4e31c516299fb4358c85f676e1d6478b0/testpackage_yidas-0.0.4.tar.gz
+[2024-04-17 09:04:51] INFO root fetch - processPackages [boilerplates]: Downloading https://files.pythonhosted.org/packages/c9/ff/ad897a2f85328dfd412eae5d621252a0bf181667aa4cd72c5669261b246a/boilerplates-1.0.2.dev1.tar.gz
+[2024-04-17 09:04:51] ERROR root fetch - processPackages [zbx-wxwork-assistant]: Unable to get metadata: No such project 'zbx-wxwork-assistant'
+[2024-04-17 09:04:51] INFO root fetch - processPackages [zbx-wxwork-assistant]: Start processing: disruptive
+[2024-04-17 09:04:51] INFO root fetch - main [MainThread]: End processing [zbx-wxwork-assistant] error
+[2024-04-17 09:04:51] WARNING root fetch - processPackages [odoo14-addon-stock-picking-restrict-cancel-printed]: Skipping, unable to determine old version
+[2024-04-17 09:04:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-restrict-cancel-printed] error
+[2024-04-17 09:04:51] INFO root fetch - processPackages [zensvi]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-17 09:04:51] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1713335086] Old Version: [4.9.0a1712988805]
+[2024-04-17 09:04:52] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-17 09:04:52] WARNING root fetch - processPackages [pyuptech]: Skipping, unable to determine old version
+[2024-04-17 09:04:52] INFO root fetch - main [MainThread]: End processing [pyuptech] error
+[2024-04-17 09:04:52] INFO root fetch - processPackages [disruptive]: New version: [1.6.8] Old Version: [1.6.7]
+[2024-04-17 09:04:52] INFO root fetch - processPackages [odoo-addon-web-responsive]: Downloading https://files.pythonhosted.org/packages/7c/d1/5f34c45d974840398806d90ed78f23a82971a1991d95edaf87ed856fe3b2/odoo_addon_web_responsive-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-17 09:04:52] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/f3/19/482a4c150547888b018c8377f60e1c9742b222c81cb512ea14034d7d01e9/pulumi_okta-4.9.0a1712988805.tar.gz
+[2024-04-17 09:04:52] INFO root fetch - processPackages [boilerplates]: Downloading https://files.pythonhosted.org/packages/88/25/329d6276b69bcf9b69aef3d86dbcfb2ce7254d26a659b53e746f72b81197/boilerplates-1.0.2.dev2.tar.gz
+[2024-04-17 09:04:52] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/c4/b3/5f6efb302a54041edfdb7cee7e64caaad9afec14cd8770bb2ceb8f6b6fc8/zensvi-0.9.7.tar.gz
+[2024-04-17 09:04:52] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/6b/63/9c45ea40679cb25be3d6963d602c910f15b62fe0283d977641a9b8df5557/tsugu-0.5.1.tar.gz
+[2024-04-17 09:04:52] INFO root fetch - processPackages [TestPackage-yidas]: Downloading https://files.pythonhosted.org/packages/f1/7e/8c48f3ca8e3503e65eda032c7036d9042e270b30324e8c08f533e683d0d0/testpackage_yidas-0.0.5.tar.gz
+[2024-04-17 09:04:52] INFO root fetch - processPackages [boilerplates]: executing diffoscope
+[2024-04-17 09:04:52] INFO root fetch - processPackages [boilerplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boilerplates-1.0.2.dev1.tar.gz tmp/boilerplates-1.0.2.dev2.tar.gz --markdown 20240417/b/boilerplates/1.0.2.dev1-1.0.2.dev2/README.md --exclude *.pyd
+[2024-04-17 09:04:52] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-17 09:04:52] INFO root fetch - processPackages [disruptive]: Downloading https://files.pythonhosted.org/packages/40/d1/3557037b926cf3b6de266d26fed1817b5a291ce3383222b76c11ab83c437/disruptive-1.6.7.tar.gz
+[2024-04-17 09:04:52] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-17 09:04:52] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.5.0.tar.gz tmp/tsugu-0.5.1.tar.gz --markdown 20240417/t/tsugu/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-17 09:04:52] INFO root fetch - processPackages [TestPackage-yidas]: executing diffoscope
+[2024-04-17 09:04:52] INFO root fetch - processPackages [TestPackage-yidas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpackage_yidas-0.0.4.tar.gz tmp/testpackage_yidas-0.0.5.tar.gz --markdown 20240417/T/TestPackage-yidas/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-17 09:04:52] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-17 09:04:52] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240417/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-17 09:04:52] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/64/fe/463d8340abbe248d66e1fb8423d3f8346914585264ccb6efb2ab19a242f9/pulumi_okta-4.9.0a1713335086.tar.gz
+[2024-04-17 09:04:52] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/58/a0/fa16c5167950fd72ac2b9de84f31f095275d7e96dede1c5f126683fca082/zensvi-0.9.8.tar.gz
+[2024-04-17 09:04:52] INFO root fetch - processPackages [disruptive]: Downloading https://files.pythonhosted.org/packages/4b/cd/0dbf3be875ba30f01612a909a446289bc46945580c2fe3a5e189e2ce108d/disruptive-1.6.8.tar.gz
+[2024-04-17 09:04:52] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-04-17 09:04:52] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1712988805.tar.gz tmp/pulumi_okta-4.9.0a1713335086.tar.gz --markdown 20240417/p/pulumi-okta/4.9.0a1712988805-4.9.0a1713335086/README.md --exclude *.pyd
+[2024-04-17 09:04:52] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2024-04-17 09:04:52] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.9.7.tar.gz tmp/zensvi-0.9.8.tar.gz --markdown 20240417/z/zensvi/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-17 09:04:52] INFO root fetch - processPackages [disruptive]: executing diffoscope
+[2024-04-17 09:04:52] INFO root fetch - processPackages [disruptive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disruptive-1.6.7.tar.gz tmp/disruptive-1.6.8.tar.gz --markdown 20240417/d/disruptive/1.6.7-1.6.8/README.md --exclude *.pyd
+[2024-04-17 09:04:53] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.5.0.tar.gz]
+[2024-04-17 09:04:53] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.5.1.tar.gz]
+[2024-04-17 09:04:53] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-17 09:04:53] INFO root fetch - processPackages [boilerplates]: Remove: archive file [/home/abi/fetcher/tmp/boilerplates-1.0.2.dev1.tar.gz]
+[2024-04-17 09:04:53] INFO root fetch - processPackages [boilerplates]: Remove: archive file [/home/abi/fetcher/tmp/boilerplates-1.0.2.dev2.tar.gz]
+[2024-04-17 09:04:53] INFO root fetch - main [MainThread]: End processing [boilerplates]: success
+[2024-04-17 09:04:53] INFO root fetch - processPackages [TestPackage-yidas]: Remove: archive file [/home/abi/fetcher/tmp/testpackage_yidas-0.0.4.tar.gz]
+[2024-04-17 09:04:53] INFO root fetch - processPackages [TestPackage-yidas]: Remove: archive file [/home/abi/fetcher/tmp/testpackage_yidas-0.0.5.tar.gz]
+[2024-04-17 09:04:53] INFO root fetch - main [MainThread]: End processing [TestPackage-yidas]: success
+[2024-04-17 09:04:53] INFO root fetch - processPackages [odoo-addon-web-responsive]: Downloading https://files.pythonhosted.org/packages/88/80/9fa291877c4d366150cd590b0da6f30a082877e1b42883803afc1144e207/odoo_addon_web_responsive-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-17 09:04:53] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.7.tar.gz]
+[2024-04-17 09:04:53] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.8.tar.gz]
+[2024-04-17 09:04:53] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2024-04-17 09:04:53] INFO root fetch - processPackages [disruptive]: Remove: archive file [/home/abi/fetcher/tmp/disruptive-1.6.7.tar.gz]
+[2024-04-17 09:04:53] INFO root fetch - processPackages [disruptive]: Remove: archive file [/home/abi/fetcher/tmp/disruptive-1.6.8.tar.gz]
+[2024-04-17 09:04:53] INFO root fetch - main [MainThread]: End processing [disruptive]: success
+[2024-04-17 09:04:54] INFO root fetch - processPackages [odoo-addon-web-responsive]: executing diffoscope
+[2024-04-17 09:04:54] INFO root fetch - processPackages [odoo-addon-web-responsive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_responsive-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_web_responsive-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240417/o/odoo-addon-web-responsive/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-04-17 09:04:54] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1712988805.tar.gz]
+[2024-04-17 09:04:54] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1713335086.tar.gz]
+[2024-04-17 09:04:54] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-04-17 09:04:55] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-17 09:04:55] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-17 09:04:55] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-17 09:04:55] INFO root fetch - processPackages [odoo-addon-web-responsive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_responsive-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-17 09:04:55] INFO root fetch - processPackages [odoo-addon-web-responsive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_responsive-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-17 09:04:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-responsive]: success
+[2024-04-17 09:04:55] INFO root fetch - main [MainThread]: Store serial: [22801076]
