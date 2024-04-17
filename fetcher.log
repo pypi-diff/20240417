@@ -12670,3 +12670,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:38:07] INFO root fetch - processPackages [geopic-tag-reader]: Remove: archive file [/home/abi/fetcher/tmp/geopic_tag_reader-1.1.0.tar.gz]
 [2024-04-17 08:38:07] INFO root fetch - main [MainThread]: End processing [geopic-tag-reader]: success
 [2024-04-17 08:38:07] INFO root fetch - main [MainThread]: Store serial: [22800641]
+[2024-04-17 08:40:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800641]
+[2024-04-17 08:40:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 08:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-minio
+[2024-04-17 08:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fcbf
+[2024-04-17 08:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boilerplates
+[2024-04-17 08:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ship-model-lib
+[2024-04-17 08:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llmaudit
+[2024-04-17 08:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ntp-manager
+[2024-04-17 08:40:16] INFO root fetch - processPackages [llmaudit]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 08:40:16] INFO root fetch - processPackages [llmaudit]: Downloading https://files.pythonhosted.org/packages/0d/d1/efade5238de6c98fea43eea421f462a8a184020f0c6721f0f6de4d60fdce/llmaudit-0.1.0.tar.gz
+[2024-04-17 08:40:16] INFO root fetch - processPackages [boilerplates]: New version: [1.0.2.dev2] Old Version: [1.0.2.dev1]
+[2024-04-17 08:40:16] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2024-04-17 08:40:16] INFO root fetch - processPackages [ship-model-lib]: New version: [1.0.0] Old Version: [0.6.13]
+[2024-04-17 08:40:16] WARNING root fetch - processPackages [ntp-manager]: Skipping, unable to determine old version
+[2024-04-17 08:40:16] INFO root fetch - main [MainThread]: End processing [ntp-manager] error
+[2024-04-17 08:40:16] INFO root fetch - processPackages [fcbf]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 08:40:16] INFO root fetch - processPackages [boilerplates]: Downloading https://files.pythonhosted.org/packages/c9/ff/ad897a2f85328dfd412eae5d621252a0bf181667aa4cd72c5669261b246a/boilerplates-1.0.2.dev1.tar.gz
+[2024-04-17 08:40:16] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2024-04-17 08:40:16] INFO root fetch - processPackages [ship-model-lib]: Downloading https://files.pythonhosted.org/packages/a0/9e/8ab5a732945399e834f9c6c0b1d10a34d0756a0af45752a1bc0b779ced98/ship_model_lib-0.6.13.tar.gz
+[2024-04-17 08:40:16] INFO root fetch - processPackages [fcbf]: Downloading https://files.pythonhosted.org/packages/22/40/30c25a35f867bb792ac40bb7a13c9a206d989fb0ce8f25e97cc24818c1f9/fcbf-0.1.1.tar.gz
+[2024-04-17 08:40:16] INFO root fetch - processPackages [llmaudit]: Downloading https://files.pythonhosted.org/packages/65/14/988a0362319d5e2af7e1a6a1ee559bbc68295422545ec5f825d0c18207d2/llmaudit-0.1.1.tar.gz
+[2024-04-17 08:40:16] INFO root fetch - processPackages [llmaudit]: executing diffoscope
+[2024-04-17 08:40:16] INFO root fetch - processPackages [llmaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmaudit-0.1.0.tar.gz tmp/llmaudit-0.1.1.tar.gz --markdown 20240417/l/llmaudit/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 08:40:16] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2024-04-17 08:40:16] INFO root fetch - processPackages [boilerplates]: Downloading https://files.pythonhosted.org/packages/88/25/329d6276b69bcf9b69aef3d86dbcfb2ce7254d26a659b53e746f72b81197/boilerplates-1.0.2.dev2.tar.gz
+[2024-04-17 08:40:16] INFO root fetch - processPackages [ship-model-lib]: Downloading https://files.pythonhosted.org/packages/ac/18/a439837af46808334b2c0d1eae65a49aa308e81039a594b0fd47a880cab8/ship_model_lib-1.0.0.tar.gz
+[2024-04-17 08:40:16] INFO root fetch - processPackages [fcbf]: Downloading https://files.pythonhosted.org/packages/29/02/63659a194d3b198a4c61cf367069b34d99aba3c71cdfbc2d77b83e777fde/fcbf-0.1.2.tar.gz
+[2024-04-17 08:40:17] INFO root fetch - processPackages [boilerplates]: executing diffoscope
+[2024-04-17 08:40:17] INFO root fetch - processPackages [boilerplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boilerplates-1.0.2.dev1.tar.gz tmp/boilerplates-1.0.2.dev2.tar.gz --markdown 20240417/b/boilerplates/1.0.2.dev1-1.0.2.dev2/README.md --exclude *.pyd
+[2024-04-17 08:40:17] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2024-04-17 08:40:17] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20240417/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/README.md --exclude *.pyd
+[2024-04-17 08:40:17] INFO root fetch - processPackages [fcbf]: executing diffoscope
+[2024-04-17 08:40:17] INFO root fetch - processPackages [fcbf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcbf-0.1.1.tar.gz tmp/fcbf-0.1.2.tar.gz --markdown 20240417/f/fcbf/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 08:40:17] INFO root fetch - processPackages [ship-model-lib]: executing diffoscope
+[2024-04-17 08:40:17] INFO root fetch - processPackages [ship-model-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ship_model_lib-0.6.13.tar.gz tmp/ship_model_lib-1.0.0.tar.gz --markdown 20240417/s/ship-model-lib/0.6.13-1.0.0/README.md --exclude *.pyd
+[2024-04-17 08:40:17] INFO root fetch - processPackages [llmaudit]: Remove: archive file [/home/abi/fetcher/tmp/llmaudit-0.1.0.tar.gz]
+[2024-04-17 08:40:17] INFO root fetch - processPackages [llmaudit]: Remove: archive file [/home/abi/fetcher/tmp/llmaudit-0.1.1.tar.gz]
+[2024-04-17 08:40:17] INFO root fetch - main [MainThread]: End processing [llmaudit]: success
+[2024-04-17 08:40:17] INFO root fetch - processPackages [boilerplates]: Remove: archive file [/home/abi/fetcher/tmp/boilerplates-1.0.2.dev1.tar.gz]
+[2024-04-17 08:40:17] INFO root fetch - processPackages [boilerplates]: Remove: archive file [/home/abi/fetcher/tmp/boilerplates-1.0.2.dev2.tar.gz]
+[2024-04-17 08:40:17] INFO root fetch - main [MainThread]: End processing [boilerplates]: success
+[2024-04-17 08:40:17] INFO root fetch - processPackages [fcbf]: Remove: archive file [/home/abi/fetcher/tmp/fcbf-0.1.1.tar.gz]
+[2024-04-17 08:40:17] INFO root fetch - processPackages [fcbf]: Remove: archive file [/home/abi/fetcher/tmp/fcbf-0.1.2.tar.gz]
+[2024-04-17 08:40:17] INFO root fetch - main [MainThread]: End processing [fcbf]: success
+[2024-04-17 08:40:18] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2024-04-17 08:40:18] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2024-04-17 08:40:18] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2024-04-17 08:40:18] INFO root fetch - processPackages [ship-model-lib]: Remove: archive file [/home/abi/fetcher/tmp/ship_model_lib-0.6.13.tar.gz]
+[2024-04-17 08:40:18] INFO root fetch - processPackages [ship-model-lib]: Remove: archive file [/home/abi/fetcher/tmp/ship_model_lib-1.0.0.tar.gz]
+[2024-04-17 08:40:18] INFO root fetch - main [MainThread]: End processing [ship-model-lib]: success
+[2024-04-17 08:40:18] INFO root fetch - main [MainThread]: Store serial: [22800660]
