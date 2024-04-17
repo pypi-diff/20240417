@@ -21995,3 +21995,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-17 14:10:09] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.1rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-17 14:10:09] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
 [2024-04-17 14:10:09] INFO root fetch - main [MainThread]: Store serial: [22805109]
+[2024-04-17 14:12:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805109]
+[2024-04-17 14:12:20] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 14:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tilebox-grpc
+[2024-04-17 14:12:20] INFO root fetch - processPackages [tilebox-grpc]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-17 14:12:20] INFO root fetch - processPackages [tilebox-grpc]: Downloading https://files.pythonhosted.org/packages/89/1d/b97965aa46b1cdfca9d35e7ce68762c61dfc5ca1c0a1f369c5a9c418475e/tilebox_grpc-0.9.0.tar.gz
+[2024-04-17 14:12:20] INFO root fetch - processPackages [tilebox-grpc]: Downloading https://files.pythonhosted.org/packages/b1/d0/864fe0b77fbd5a9a7dbe4505ccfbcdb396b9171e321ad4031d9af99643e1/tilebox_grpc-0.9.1.tar.gz
+[2024-04-17 14:12:20] INFO root fetch - processPackages [tilebox-grpc]: executing diffoscope
+[2024-04-17 14:12:20] INFO root fetch - processPackages [tilebox-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tilebox_grpc-0.9.0.tar.gz tmp/tilebox_grpc-0.9.1.tar.gz --markdown 20240417/t/tilebox-grpc/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-17 14:12:21] INFO root fetch - processPackages [tilebox-grpc]: Remove: archive file [/home/abi/fetcher/tmp/tilebox_grpc-0.9.0.tar.gz]
+[2024-04-17 14:12:21] INFO root fetch - processPackages [tilebox-grpc]: Remove: archive file [/home/abi/fetcher/tmp/tilebox_grpc-0.9.1.tar.gz]
+[2024-04-17 14:12:21] INFO root fetch - main [MainThread]: End processing [tilebox-grpc]: success
+[2024-04-17 14:12:21] INFO root fetch - main [MainThread]: Store serial: [22805113]
