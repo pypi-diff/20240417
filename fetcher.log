@@ -20736,3 +20736,82 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:26:49] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.2.5.tar.gz]
 [2024-04-17 13:26:49] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
 [2024-04-17 13:26:49] INFO root fetch - main [MainThread]: Store serial: [22804482]
+[2024-04-17 13:28:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804482]
+[2024-04-17 13:28:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zermelo-for-python
+[2024-04-17 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zermelo-for-python
+[2024-04-17 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchx-nightly
+[2024-04-17 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rewards-pkg-23246642
+[2024-04-17 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-oncall-rota
+[2024-04-17 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selenium-driverless
+[2024-04-17 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ChatGPTWeb
+[2024-04-17 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-generic-api-permissions
+[2024-04-17 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mahotas
+[2024-04-17 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastf1
+[2024-04-17 13:28:59] WARNING root fetch - processPackages [django-oncall-rota]: Skipping, unable to determine old version
+[2024-04-17 13:28:59] INFO root fetch - main [MainThread]: End processing [django-oncall-rota] error
+[2024-04-17 13:28:59] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.4.16] Old Version: [2024.4.15]
+[2024-04-17 13:28:59] INFO root fetch - processPackages [zermelo-for-python]: New version: [2024.4.17.13.26.11] Old Version: [2024.4.17.13.25.58]
+[2024-04-17 13:28:59] INFO root fetch - processPackages [zermelo-for-python]: New version: [2024.4.17.13.26.11] Old Version: [2024.4.17.13.25.58]
+[2024-04-17 13:28:59] WARNING root fetch - processPackages [rewards-pkg-23246642]: Skipping, unable to determine old version
+[2024-04-17 13:28:59] INFO root fetch - main [MainThread]: End processing [rewards-pkg-23246642] error
+[2024-04-17 13:28:59] INFO root fetch - processPackages [selenium-driverless]: New version: [1.9] Old Version: [1.8.0.2]
+[2024-04-17 13:28:59] INFO root fetch - processPackages [django-generic-api-permissions]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-17 13:28:59] INFO root fetch - processPackages [fastf1]: New version: [3.3.4] Old Version: [3.3.3]
+[2024-04-17 13:28:59] INFO root fetch - processPackages [ChatGPTWeb]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 13:28:59] INFO root fetch - processPackages [mahotas]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-17 13:28:59] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/c5/ae/0fe38f3b6a832bbc9a29f7259e0235326239a0ca651f36e02030bc9b864d/torchx_nightly-2024.4.15-py3-none-any.whl
+[2024-04-17 13:28:59] INFO root fetch - processPackages [zermelo-for-python]: Downloading https://files.pythonhosted.org/packages/11/88/8760a7a9287762056e8efc7aff8141a415b5fd9ec3aa7239fdd101a7013e/zermelo_for_python-2024.4.17.13.25.58.tar.gz
+[2024-04-17 13:28:59] INFO root fetch - processPackages [zermelo-for-python]: Downloading https://files.pythonhosted.org/packages/11/88/8760a7a9287762056e8efc7aff8141a415b5fd9ec3aa7239fdd101a7013e/zermelo_for_python-2024.4.17.13.25.58.tar.gz
+[2024-04-17 13:28:59] INFO root fetch - processPackages [django-generic-api-permissions]: Downloading https://files.pythonhosted.org/packages/e3/0f/0efc508f5dafc5b7989ea928205e6ebbd7c6f0f1820dee4f63aad1e839fa/django_generic_api_permissions-0.4.4.tar.gz
+[2024-04-17 13:28:59] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/31/fd/cbf733f65beab21c52d68d36f2b5f27a363ca6e0edf097ce8306db9d5dad/selenium_driverless-1.8.0.2.tar.gz
+[2024-04-17 13:28:59] INFO root fetch - processPackages [mahotas]: Downloading https://files.pythonhosted.org/packages/27/4b/72581c4316b2fb08cbcb3309d9f2eccd40f09f6af6117545e75f4015c505/mahotas-1.4.8.tar.gz
+[2024-04-17 13:28:59] INFO root fetch - processPackages [fastf1]: Downloading https://files.pythonhosted.org/packages/25/97/5b61f82b0f346d001c6c502cdcb999113424d4e359ecdcf914ab349a3943/fastf1-3.3.3.tar.gz
+[2024-04-17 13:28:59] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/82/0b/2f40072238e539ff3dafbd19d986e0824e96f181027997b032d565a7250f/ChatGPTWeb-0.2.8.tar.gz
+[2024-04-17 13:28:59] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/86/f5/0fd170abc287852dd01d7fb8c4043a13c1a5a1ba9fb812def0a93e1d29ac/torchx_nightly-2024.4.16-py3-none-any.whl
+[2024-04-17 13:28:59] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-04-17 13:28:59] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.4.15-py3-none-any.whl.zip tmp/torchx_nightly-2024.4.16-py3-none-any.whl.zip --markdown 20240417/t/torchx-nightly/2024.4.15-2024.4.16/README.md --exclude *.pyd
+[2024-04-17 13:28:59] INFO root fetch - processPackages [zermelo-for-python]: Downloading https://files.pythonhosted.org/packages/bd/67/dd9070c7d60fcf5ef6563273e57ebe9fa7362e3f312c2c2fc51d1eb66085/zermelo_for_python-2024.4.17.13.26.11-py3-none-any.whl
+[2024-04-17 13:28:59] INFO root fetch - processPackages [zermelo-for-python]: Downloading https://files.pythonhosted.org/packages/bd/67/dd9070c7d60fcf5ef6563273e57ebe9fa7362e3f312c2c2fc51d1eb66085/zermelo_for_python-2024.4.17.13.26.11-py3-none-any.whl
+[2024-04-17 13:28:59] INFO root fetch - processPackages [django-generic-api-permissions]: Downloading https://files.pythonhosted.org/packages/2b/77/9db872c7aecbeac33514a5f43d93bdbbfbceb30c19d514300bdee2439f11/django_generic_api_permissions-0.4.5.tar.gz
+[2024-04-17 13:28:59] INFO root fetch - processPackages [zermelo-for-python]: executing diffoscope
+[2024-04-17 13:28:59] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/c2/07/48a39963a051837ad1394281b0a7803bd8e57f7bd348e48ace95874fc0bb/ChatGPTWeb-0.2.9.tar.gz
+[2024-04-17 13:28:59] INFO root fetch - processPackages [zermelo-for-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zermelo_for_python-2024.4.17.13.25.58.tar.gz tmp/zermelo_for_python-2024.4.17.13.26.11-py3-none-any.whl.zip --markdown 20240417/z/zermelo-for-python/2024.4.17.13.25.58-2024.4.17.13.26.11/README.md --exclude *.pyd
+[2024-04-17 13:28:59] INFO root fetch - processPackages [fastf1]: Downloading https://files.pythonhosted.org/packages/bc/f3/640c5ccc4cf0770c6ba96f61b9618a4d1277f51ac40b97263ccd75c743c9/fastf1-3.3.4.tar.gz
+[2024-04-17 13:28:59] INFO root fetch - processPackages [zermelo-for-python]: executing diffoscope
+[2024-04-17 13:28:59] INFO root fetch - processPackages [zermelo-for-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zermelo_for_python-2024.4.17.13.25.58.tar.gz tmp/zermelo_for_python-2024.4.17.13.26.11-py3-none-any.whl.zip --markdown 20240417/z/zermelo-for-python/2024.4.17.13.25.58-2024.4.17.13.26.11/README.md --exclude *.pyd
+[2024-04-17 13:29:00] INFO root fetch - processPackages [django-generic-api-permissions]: executing diffoscope
+[2024-04-17 13:29:00] INFO root fetch - processPackages [django-generic-api-permissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_generic_api_permissions-0.4.4.tar.gz tmp/django_generic_api_permissions-0.4.5.tar.gz --markdown 20240417/d/django-generic-api-permissions/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-17 13:29:00] INFO root fetch - processPackages [ChatGPTWeb]: executing diffoscope
+[2024-04-17 13:29:00] INFO root fetch - processPackages [ChatGPTWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPTWeb-0.2.8.tar.gz tmp/ChatGPTWeb-0.2.9.tar.gz --markdown 20240417/C/ChatGPTWeb/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 13:29:00] INFO root fetch - processPackages [fastf1]: executing diffoscope
+[2024-04-17 13:29:00] INFO root fetch - processPackages [fastf1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastf1-3.3.3.tar.gz tmp/fastf1-3.3.4.tar.gz --markdown 20240417/f/fastf1/3.3.3-3.3.4/README.md --exclude *.pyd
+[2024-04-17 13:29:00] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/bf/8f/de603e70b49726ca021e0e845d9b8d7249cb3f1b7e2809908e4fe73a7cd9/selenium_driverless-1.9.tar.gz
+[2024-04-17 13:29:00] INFO root fetch - processPackages [mahotas]: Downloading https://files.pythonhosted.org/packages/84/74/bd38163462eb346519f36dc205f0a52a01fb372c7bbcc87392c9b21cfe26/mahotas-1.4.9.tar.gz
+[2024-04-17 13:29:00] INFO root fetch - processPackages [zermelo-for-python]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_for_python-2024.4.17.13.25.58.tar.gz]
+[2024-04-17 13:29:00] INFO root fetch - processPackages [zermelo-for-python]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_for_python-2024.4.17.13.26.11-py3-none-any.whl.zip]
+[2024-04-17 13:29:00] INFO root fetch - main [MainThread]: End processing [zermelo-for-python]: success
+[2024-04-17 13:29:00] INFO root fetch - main [MainThread]: End processing [zermelo-for-python]: success
+[2024-04-17 13:29:00] INFO root fetch - processPackages [selenium-driverless]: executing diffoscope
+[2024-04-17 13:29:00] INFO root fetch - processPackages [selenium-driverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_driverless-1.8.0.2.tar.gz tmp/selenium_driverless-1.9.tar.gz --markdown 20240417/s/selenium-driverless/1.8.0.2-1.9/README.md --exclude *.pyd
+[2024-04-17 13:29:00] INFO root fetch - processPackages [django-generic-api-permissions]: Remove: archive file [/home/abi/fetcher/tmp/django_generic_api_permissions-0.4.4.tar.gz]
+[2024-04-17 13:29:00] INFO root fetch - processPackages [django-generic-api-permissions]: Remove: archive file [/home/abi/fetcher/tmp/django_generic_api_permissions-0.4.5.tar.gz]
+[2024-04-17 13:29:00] INFO root fetch - main [MainThread]: End processing [django-generic-api-permissions]: success
+[2024-04-17 13:29:00] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.15-py3-none-any.whl.zip]
+[2024-04-17 13:29:00] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.16-py3-none-any.whl.zip]
+[2024-04-17 13:29:00] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-04-17 13:29:00] INFO root fetch - processPackages [ChatGPTWeb]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTWeb-0.2.8.tar.gz]
+[2024-04-17 13:29:00] INFO root fetch - processPackages [ChatGPTWeb]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTWeb-0.2.9.tar.gz]
+[2024-04-17 13:29:00] INFO root fetch - main [MainThread]: End processing [ChatGPTWeb]: success
+[2024-04-17 13:29:01] INFO root fetch - processPackages [fastf1]: Remove: archive file [/home/abi/fetcher/tmp/fastf1-3.3.3.tar.gz]
+[2024-04-17 13:29:01] INFO root fetch - processPackages [fastf1]: Remove: archive file [/home/abi/fetcher/tmp/fastf1-3.3.4.tar.gz]
+[2024-04-17 13:29:01] INFO root fetch - main [MainThread]: End processing [fastf1]: success
+[2024-04-17 13:29:01] INFO root fetch - processPackages [mahotas]: executing diffoscope
+[2024-04-17 13:29:01] INFO root fetch - processPackages [mahotas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mahotas-1.4.8.tar.gz tmp/mahotas-1.4.9.tar.gz --markdown 20240417/m/mahotas/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-17 13:29:02] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.8.0.2.tar.gz]
+[2024-04-17 13:29:02] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.9.tar.gz]
+[2024-04-17 13:29:02] INFO root fetch - main [MainThread]: End processing [selenium-driverless]: success
+[2024-04-17 13:29:02] INFO root fetch - processPackages [mahotas]: Remove: archive file [/home/abi/fetcher/tmp/mahotas-1.4.8.tar.gz]
+[2024-04-17 13:29:02] INFO root fetch - processPackages [mahotas]: Remove: archive file [/home/abi/fetcher/tmp/mahotas-1.4.9.tar.gz]
+[2024-04-17 13:29:02] INFO root fetch - main [MainThread]: End processing [mahotas]: success
+[2024-04-17 13:29:02] INFO root fetch - main [MainThread]: Store serial: [22804509]
