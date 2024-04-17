@@ -9793,3 +9793,42 @@
 [2024-04-17 06:11:26] INFO root fetch - processPackages [kongfu-api]: Remove: archive file [/home/abi/fetcher/tmp/kongfu-api-0.0.7.tar.gz]
 [2024-04-17 06:11:26] INFO root fetch - main [MainThread]: End processing [kongfu-api]: success
 [2024-04-17 06:11:26] INFO root fetch - main [MainThread]: Store serial: [22799671]
+[2024-04-17 06:13:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799671]
+[2024-04-17 06:13:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 06:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stackql-deploy
+[2024-04-17 06:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iac-init
+[2024-04-17 06:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Sphinx
+[2024-04-17 06:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomic-bomb-engine
+[2024-04-17 06:13:35] INFO root fetch - processPackages [iac-init]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-17 06:13:35] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 06:13:35] INFO root fetch - processPackages [Sphinx]: New version: [7.3.5] Old Version: [7.3.4]
+[2024-04-17 06:13:35] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-17 06:13:35] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/86/c4/de5e7a673d6d0e35d35994db7e65d16e525f6b78d3672774824445ec80ea/iac_init-0.3.3.tar.gz
+[2024-04-17 06:13:35] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-17 06:13:35] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 06:13:35] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/0e/3b/5cdf0dbaa8fa39ce39b4f9611cd64c2c70d127a4bca236e3b44feeba8f64/sphinx-7.3.4.tar.gz
+[2024-04-17 06:13:35] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 06:13:35] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/1d/91/86f95c0b7e6248a1ff3cd97dfc5e6c79c553b0426986b395038a60c9914c/iac_init-0.3.4.tar.gz
+[2024-04-17 06:13:35] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 06:13:35] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 06:13:35] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-17 06:13:35] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.3.3.tar.gz tmp/iac_init-0.3.4.tar.gz --markdown 20240417/i/iac-init/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-17 06:13:35] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-17 06:13:36] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/ee/da/a6efd3ae0d33bc716e24adf5fff9ad40b2978bf7d9201293f6470bc9d18c/sphinx-7.3.5.tar.gz
+[2024-04-17 06:13:36] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-17 06:13:36] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240417/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-17 06:13:36] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.3.3.tar.gz]
+[2024-04-17 06:13:36] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.3.4.tar.gz]
+[2024-04-17 06:13:36] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-17 06:13:36] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 06:13:36] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 06:13:36] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 06:13:36] INFO root fetch - processPackages [Sphinx]: executing diffoscope
+[2024-04-17 06:13:36] INFO root fetch - processPackages [Sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-7.3.4.tar.gz tmp/sphinx-7.3.5.tar.gz --markdown 20240417/S/Sphinx/7.3.4-7.3.5/README.md --exclude *.pyd
+[2024-04-17 06:13:36] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-17 06:13:36] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-17 06:13:36] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-17 06:13:42] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.4.tar.gz]
+[2024-04-17 06:13:42] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.5.tar.gz]
+[2024-04-17 06:13:42] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
+[2024-04-17 06:13:42] INFO root fetch - main [MainThread]: Store serial: [22799686]
