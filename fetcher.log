@@ -22401,3 +22401,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-17 14:25:26] INFO root fetch - processPackages [glyphsets]: Remove: archive file [/home/abi/fetcher/tmp/glyphsets-0.6.9.tar.gz]
 [2024-04-17 14:25:26] INFO root fetch - main [MainThread]: End processing [glyphsets]: success
 [2024-04-17 14:25:26] INFO root fetch - main [MainThread]: Store serial: [22805287]
+[2024-04-17 14:27:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805287]
+[2024-04-17 14:27:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 14:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lvm-read-comma
+[2024-04-17 14:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-04-17 14:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-users-bot
+[2024-04-17 14:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-pdk
+[2024-04-17 14:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brynq-sdk-brynq
+[2024-04-17 14:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Cellist
+[2024-04-17 14:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: epyt
+[2024-04-17 14:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DLMS-SPODES-client
+[2024-04-17 14:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dstack
+[2024-04-17 14:27:35] WARNING root fetch - processPackages [discord-users-bot]: Skipping, unable to determine old version
+[2024-04-17 14:27:35] INFO root fetch - main [MainThread]: End processing [discord-users-bot] error
+[2024-04-17 14:27:35] WARNING root fetch - processPackages [lvm-read-comma]: Skipping, unable to determine old version
+[2024-04-17 14:27:35] INFO root fetch - main [MainThread]: End processing [lvm-read-comma] error
+[2024-04-17 14:27:35] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-17 14:27:35] INFO root fetch - processPackages [epyt]: New version: [1.0.9b4] Old Version: [1.0.9b2]
+[2024-04-17 14:27:35] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-17 14:27:35] INFO root fetch - processPackages [aws-pdk]: New version: [0.23.9] Old Version: [0.23.8]
+[2024-04-17 14:27:36] WARNING root fetch - processPackages [brynq-sdk-brynq]: Skipping, unable to determine old version
+[2024-04-17 14:27:36] INFO root fetch - main [MainThread]: End processing [brynq-sdk-brynq] error
+[2024-04-17 14:27:36] INFO root fetch - processPackages [epyt]: Downloading https://files.pythonhosted.org/packages/df/db/68bc7c716078acc6ec7905c322e5d8d812bb9888824554bdbcc248edd996/epyt-1.0.9b2.tar.gz
+[2024-04-17 14:27:36] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/94/4b/bcc8809f94aef117e065daedd586f1963efa0e1f05fbe8e6834a2b27634a/DLMS_SPODES_client-0.7.8.tar.gz
+[2024-04-17 14:27:36] WARNING root fetch - processPackages [Cellist]: Skipping, unable to determine old version
+[2024-04-17 14:27:36] INFO root fetch - main [MainThread]: End processing [Cellist] error
+[2024-04-17 14:27:36] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-17 14:27:36] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2024-04-17 14:27:36] INFO root fetch - processPackages [aws-pdk]: Downloading https://files.pythonhosted.org/packages/5d/b0/7ec23c8fbfb3411ad6ea5d191c68ce62b3e49ac7172e49cc9cc2ab9489f2/aws_pdk-0.23.8.tar.gz
+[2024-04-17 14:27:36] WARNING root fetch - processPackages [aws-pdk]: Skipping package: exceeds size limit 23534896>=10485760
+[2024-04-17 14:27:36] INFO root fetch - main [MainThread]: End processing [aws-pdk] error
+[2024-04-17 14:27:36] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-17 14:27:36] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2024-04-17 14:27:36] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/24/38/d18fae8d519618ff6a33eb12786c0546068107df16d78e05d0070c3a72af/DLMS_SPODES_client-0.7.9.tar.gz
+[2024-04-17 14:27:36] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-17 14:27:36] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240417/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-17 14:27:36] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-17 14:27:36] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.7.8.tar.gz tmp/DLMS_SPODES_client-0.7.9.tar.gz --markdown 20240417/D/DLMS-SPODES-client/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-17 14:27:36] INFO root fetch - processPackages [epyt]: Downloading https://files.pythonhosted.org/packages/4e/c6/b92bb4990304dbd9341392f31cbe0d51177f12cd3b81a6d91a4699d9aa61/epyt-1.0.9b4.tar.gz
+[2024-04-17 14:27:36] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2024-04-17 14:27:36] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2024-04-17 14:27:36] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20240417/d/dstack/0.9.post1-0.9rc2/README.md --exclude *.pyd
+[2024-04-17 14:27:37] INFO root fetch - processPackages [epyt]: executing diffoscope
+[2024-04-17 14:27:37] INFO root fetch - processPackages [epyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyt-1.0.9b2.tar.gz tmp/epyt-1.0.9b4.tar.gz --markdown 20240417/e/epyt/1.0.9b2-1.0.9b4/README.md --exclude *.pyd
+[2024-04-17 14:27:37] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.8.tar.gz]
+[2024-04-17 14:27:37] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.9.tar.gz]
+[2024-04-17 14:27:37] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-17 14:27:37] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-17 14:27:37] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-17 14:27:37] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-17 14:27:37] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2024-04-17 14:27:37] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2024-04-17 14:27:37] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2024-04-17 14:27:42] INFO root fetch - processPackages [epyt]: Remove: archive file [/home/abi/fetcher/tmp/epyt-1.0.9b2.tar.gz]
+[2024-04-17 14:27:42] INFO root fetch - processPackages [epyt]: Remove: archive file [/home/abi/fetcher/tmp/epyt-1.0.9b4.tar.gz]
+[2024-04-17 14:27:42] INFO root fetch - main [MainThread]: End processing [epyt]: success
+[2024-04-17 14:27:42] INFO root fetch - main [MainThread]: Store serial: [22805316]
