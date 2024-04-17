@@ -22337,3 +22337,67 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-17 14:23:05] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-17 14:23:05] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2024-04-17 14:23:05] INFO root fetch - main [MainThread]: Store serial: [22805265]
+[2024-04-17 14:25:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805265]
+[2024-04-17 14:25:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 14:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DataWeaver
+[2024-04-17 14:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycvc
+[2024-04-17 14:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: semantic-router
+[2024-04-17 14:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glyphsets
+[2024-04-17 14:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DataWeaver
+[2024-04-17 14:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MOBiceps
+[2024-04-17 14:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: saer
+[2024-04-17 14:25:22] INFO root fetch - processPackages [semantic-router]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 14:25:22] INFO root fetch - processPackages [glyphsets]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-17 14:25:22] INFO root fetch - processPackages [MOBiceps]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 14:25:22] INFO root fetch - processPackages [saer]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-17 14:25:22] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/69/f5/24f7ed2376beeca68004c749ee072334bcdbcd70becd7e5549ea5773efae/semantic_router-0.0.8.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [DataWeaver]: New version: [1.0.1] Old Version: [0.3.5]
+[2024-04-17 14:25:23] INFO root fetch - processPackages [DataWeaver]: New version: [1.0.1] Old Version: [0.3.5]
+[2024-04-17 14:25:23] INFO root fetch - processPackages [glyphsets]: Downloading https://files.pythonhosted.org/packages/d4/a3/39609e28e2b35f00f708e39f0609c50f87a848624f9771a4e6f8db95fb69/glyphsets-0.6.8.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [pycvc]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-17 14:25:23] INFO root fetch - processPackages [saer]: Downloading https://files.pythonhosted.org/packages/a8/f6/fc15b007ebfb019c1cd5868eced8dc1e1dc3fc7fa07e3dfd8c360dbb1163/saer-1.0.1.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [MOBiceps]: Downloading https://files.pythonhosted.org/packages/e0/96/13f6b09b1695b921d5bb003926c8ce24e6a92b17919f34eb87d55674873a/MOBiceps-0.1.1.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [DataWeaver]: Downloading https://files.pythonhosted.org/packages/a0/67/e14eee7a3d16505ab81cb80852f60776d6849e805f3410f6f41c6c612717/dataweaver-0.3.5.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [DataWeaver]: Downloading https://files.pythonhosted.org/packages/a0/67/e14eee7a3d16505ab81cb80852f60776d6849e805f3410f6f41c6c612717/dataweaver-0.3.5.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/c6/e8/868f59ad8c7643feea9a25db402d4e84236189e1a9d89a4c840838be947f/semantic_router-0.0.9.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [pycvc]: Downloading https://files.pythonhosted.org/packages/d7/4b/b90a43db7aa6a990ba8254caabe8811cf158238c80b3d871096605709c06/pycvc-1.4.0.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [semantic-router]: executing diffoscope
+[2024-04-17 14:25:23] INFO root fetch - processPackages [semantic-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_router-0.0.8.tar.gz tmp/semantic_router-0.0.9.tar.gz --markdown 20240417/s/semantic-router/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 14:25:23] INFO root fetch - processPackages [saer]: Downloading https://files.pythonhosted.org/packages/c1/70/09cbe71923535276b7a31b09b3ca3fc8db18a7dd3df197b01f2b3492e0f4/saer-1.0.2.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [MOBiceps]: Downloading https://files.pythonhosted.org/packages/7e/a0/8ee24a2222160cc0d5bccbec8f92a83685ae8c0ac9ad4fe529fb0fb951e1/MOBiceps-0.1.2.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [glyphsets]: Downloading https://files.pythonhosted.org/packages/2c/f9/121b1b45ccf2e1bd2aee0f75e6f6718ac1b1369c68ac6b26fd4c12397cdf/glyphsets-0.6.9.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [DataWeaver]: Downloading https://files.pythonhosted.org/packages/9c/86/0cbbf57492a5fecdb35c4b5bc3e53bb7e7a8d5cd50fa2f4aa91751f624ad/dataweaver-1.0.1.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [DataWeaver]: Downloading https://files.pythonhosted.org/packages/9c/86/0cbbf57492a5fecdb35c4b5bc3e53bb7e7a8d5cd50fa2f4aa91751f624ad/dataweaver-1.0.1.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [saer]: executing diffoscope
+[2024-04-17 14:25:23] INFO root fetch - processPackages [saer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saer-1.0.1.tar.gz tmp/saer-1.0.2.tar.gz --markdown 20240417/s/saer/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-17 14:25:23] INFO root fetch - processPackages [MOBiceps]: executing diffoscope
+[2024-04-17 14:25:23] INFO root fetch - processPackages [MOBiceps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MOBiceps-0.1.1.tar.gz tmp/MOBiceps-0.1.2.tar.gz --markdown 20240417/M/MOBiceps/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 14:25:23] INFO root fetch - processPackages [DataWeaver]: executing diffoscope
+[2024-04-17 14:25:23] INFO root fetch - processPackages [DataWeaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataweaver-0.3.5.tar.gz tmp/dataweaver-1.0.1.tar.gz --markdown 20240417/D/DataWeaver/0.3.5-1.0.1/README.md --exclude *.pyd
+[2024-04-17 14:25:23] INFO root fetch - processPackages [DataWeaver]: executing diffoscope
+[2024-04-17 14:25:23] INFO root fetch - processPackages [DataWeaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataweaver-0.3.5.tar.gz tmp/dataweaver-1.0.1.tar.gz --markdown 20240417/D/DataWeaver/0.3.5-1.0.1/README.md --exclude *.pyd
+[2024-04-17 14:25:23] INFO root fetch - processPackages [pycvc]: Downloading https://files.pythonhosted.org/packages/8f/92/152be394bfc13945f2a8785ae6207e0d8388e3ea9ba731c8c2696f97ee8b/pycvc-1.5.0.tar.gz
+[2024-04-17 14:25:23] INFO root fetch - processPackages [pycvc]: executing diffoscope
+[2024-04-17 14:25:23] INFO root fetch - processPackages [pycvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycvc-1.4.0.tar.gz tmp/pycvc-1.5.0.tar.gz --markdown 20240417/p/pycvc/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-04-17 14:25:23] INFO root fetch - processPackages [glyphsets]: executing diffoscope
+[2024-04-17 14:25:23] INFO root fetch - processPackages [glyphsets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glyphsets-0.6.8.tar.gz tmp/glyphsets-0.6.9.tar.gz --markdown 20240417/g/glyphsets/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-17 14:25:24] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.8.tar.gz]
+[2024-04-17 14:25:24] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.9.tar.gz]
+[2024-04-17 14:25:24] INFO root fetch - main [MainThread]: End processing [semantic-router]: success
+[2024-04-17 14:25:24] INFO root fetch - processPackages [MOBiceps]: Remove: archive file [/home/abi/fetcher/tmp/MOBiceps-0.1.1.tar.gz]
+[2024-04-17 14:25:24] INFO root fetch - processPackages [MOBiceps]: Remove: archive file [/home/abi/fetcher/tmp/MOBiceps-0.1.2.tar.gz]
+[2024-04-17 14:25:24] INFO root fetch - main [MainThread]: End processing [MOBiceps]: success
+[2024-04-17 14:25:24] INFO root fetch - processPackages [DataWeaver]: Remove: archive file [/home/abi/fetcher/tmp/dataweaver-0.3.5.tar.gz]
+[2024-04-17 14:25:24] INFO root fetch - processPackages [DataWeaver]: Remove: archive file [/home/abi/fetcher/tmp/dataweaver-1.0.1.tar.gz]
+[2024-04-17 14:25:24] INFO root fetch - main [MainThread]: End processing [DataWeaver]: success
+[2024-04-17 14:25:24] INFO root fetch - main [MainThread]: End processing [DataWeaver]: success
+[2024-04-17 14:25:24] INFO root fetch - processPackages [saer]: Remove: archive file [/home/abi/fetcher/tmp/saer-1.0.1.tar.gz]
+[2024-04-17 14:25:24] INFO root fetch - processPackages [saer]: Remove: archive file [/home/abi/fetcher/tmp/saer-1.0.2.tar.gz]
+[2024-04-17 14:25:24] INFO root fetch - main [MainThread]: End processing [saer]: success
+[2024-04-17 14:25:24] INFO root fetch - processPackages [pycvc]: Remove: archive file [/home/abi/fetcher/tmp/pycvc-1.4.0.tar.gz]
+[2024-04-17 14:25:24] INFO root fetch - processPackages [pycvc]: Remove: archive file [/home/abi/fetcher/tmp/pycvc-1.5.0.tar.gz]
+[2024-04-17 14:25:24] INFO root fetch - main [MainThread]: End processing [pycvc]: success
+[2024-04-17 14:25:26] INFO root fetch - processPackages [glyphsets]: Remove: archive file [/home/abi/fetcher/tmp/glyphsets-0.6.8.tar.gz]
+[2024-04-17 14:25:26] INFO root fetch - processPackages [glyphsets]: Remove: archive file [/home/abi/fetcher/tmp/glyphsets-0.6.9.tar.gz]
+[2024-04-17 14:25:26] INFO root fetch - main [MainThread]: End processing [glyphsets]: success
+[2024-04-17 14:25:26] INFO root fetch - main [MainThread]: Store serial: [22805287]
