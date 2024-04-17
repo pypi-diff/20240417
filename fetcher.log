@@ -9610,3 +9610,24 @@
 [2024-04-17 06:00:15] INFO root fetch - processPackages [libs-zip]: Remove: archive file [/home/abi/fetcher/tmp/libs_zip-0.0.2-py3-none-any.whl.zip]
 [2024-04-17 06:00:15] INFO root fetch - main [MainThread]: End processing [libs-zip]: success
 [2024-04-17 06:00:15] INFO root fetch - main [MainThread]: Store serial: [22799584]
+[2024-04-17 06:02:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799584]
+[2024-04-17 06:02:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 06:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iac-init
+[2024-04-17 06:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: janim
+[2024-04-17 06:02:24] INFO root fetch - processPackages [iac-init]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 06:02:24] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/84/82/6ade3e00ce4dcecd1898fa294e6c198a95619770e012620eed7e9fbf5d22/iac_init-0.3.1.tar.gz
+[2024-04-17 06:02:24] INFO root fetch - processPackages [janim]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-17 06:02:24] INFO root fetch - processPackages [janim]: Downloading https://files.pythonhosted.org/packages/29/25/24500dfd714eadbe86aefedb428cf8f5dab4dc5b5164597867924c1910b9/janim-0.4.0.tar.gz
+[2024-04-17 06:02:25] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/bf/70/14de1432745d42c5dda3936d3a45ea8e64a6383d6f86581a728c477309dd/iac_init-0.3.2.tar.gz
+[2024-04-17 06:02:25] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-17 06:02:25] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.3.1.tar.gz tmp/iac_init-0.3.2.tar.gz --markdown 20240417/i/iac-init/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 06:02:25] INFO root fetch - processPackages [janim]: Downloading https://files.pythonhosted.org/packages/18/a2/225c2242656ec2f499ff462a61aac9a79d376a8166ac43f9d89593ef88c8/janim-0.5.0.tar.gz
+[2024-04-17 06:02:25] INFO root fetch - processPackages [janim]: executing diffoscope
+[2024-04-17 06:02:25] INFO root fetch - processPackages [janim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janim-0.4.0.tar.gz tmp/janim-0.5.0.tar.gz --markdown 20240417/j/janim/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-17 06:02:25] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.3.1.tar.gz]
+[2024-04-17 06:02:25] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.3.2.tar.gz]
+[2024-04-17 06:02:25] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-17 06:02:26] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-0.4.0.tar.gz]
+[2024-04-17 06:02:26] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-0.5.0.tar.gz]
+[2024-04-17 06:02:26] INFO root fetch - main [MainThread]: End processing [janim]: success
+[2024-04-17 06:02:26] INFO root fetch - main [MainThread]: Store serial: [22799590]
