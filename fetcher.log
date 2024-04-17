@@ -23282,3 +23282,45 @@ EOFError: EOF read where object expected
 [2024-04-17 14:54:11] INFO root fetch - processPackages [netbluemind5]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind5-5.0.7187.tar.gz]
 [2024-04-17 14:54:11] INFO root fetch - main [MainThread]: End processing [netbluemind5]: success
 [2024-04-17 14:54:11] INFO root fetch - main [MainThread]: Store serial: [22805729]
+[2024-04-17 14:56:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805729]
+[2024-04-17 14:56:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ket-lang
+[2024-04-17 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperon-das
+[2024-04-17 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kedro-viz
+[2024-04-17 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-fleet
+[2024-04-17 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foxsenseinnovations.vigil
+[2024-04-17 14:56:21] INFO root fetch - processPackages [ket-lang]: New version: [0.7rc1] Old Version: [0.7rc0]
+[2024-04-17 14:56:21] INFO root fetch - processPackages [foxsenseinnovations.vigil]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-17 14:56:21] INFO root fetch - processPackages [hyperon-das]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-04-17 14:56:21] INFO root fetch - processPackages [kedro-viz]: New version: [9.0.0] Old Version: [8.0.1]
+[2024-04-17 14:56:21] WARNING root fetch - processPackages [open-fleet]: Skipping, unable to determine old version
+[2024-04-17 14:56:21] INFO root fetch - main [MainThread]: End processing [open-fleet] error
+[2024-04-17 14:56:21] INFO root fetch - processPackages [ket-lang]: Downloading https://files.pythonhosted.org/packages/5f/a3/a2ed1c39b59a8f27dfaea889cad6eff668c8bead551da71e8b8ff2b13181/ket-lang-0.7rc0.tar.gz
+[2024-04-17 14:56:21] INFO root fetch - processPackages [hyperon-das]: Downloading https://files.pythonhosted.org/packages/a1/20/92e7352410be3caa02a40c5af2ca98bddacb725a45ecb57d1851a8c7e3e0/hyperon_das-0.7.5.tar.gz
+[2024-04-17 14:56:21] INFO root fetch - processPackages [foxsenseinnovations.vigil]: Downloading https://files.pythonhosted.org/packages/50/c4/f141968006524ac4debb13c4ad78d5b327f3a65916734ce3aec6d5b265c2/foxsenseinnovations.vigil-1.0.0.tar.gz
+[2024-04-17 14:56:21] INFO root fetch - processPackages [kedro-viz]: Downloading https://files.pythonhosted.org/packages/09/7a/25a94200054e5fdf55418c0723bb5dfb0b74c29d00f8efcbd0cdddc02678/kedro-viz-8.0.1.tar.gz
+[2024-04-17 14:56:21] INFO root fetch - processPackages [ket-lang]: Downloading https://files.pythonhosted.org/packages/fd/3f/ec7c55ab991760fdfb51089e865869a2651901b6bc0db2ea349190d3590f/ket-lang-0.7rc1.tar.gz
+[2024-04-17 14:56:21] INFO root fetch - processPackages [ket-lang]: executing diffoscope
+[2024-04-17 14:56:21] INFO root fetch - processPackages [ket-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ket-lang-0.7rc0.tar.gz tmp/ket-lang-0.7rc1.tar.gz --markdown 20240417/k/ket-lang/0.7rc0-0.7rc1/README.md --exclude *.pyd
+[2024-04-17 14:56:21] INFO root fetch - processPackages [hyperon-das]: Downloading https://files.pythonhosted.org/packages/b4/60/dd73da09da4eefe7eb13acb4d13ad67bbfb2a39ddd6068eb0ee9b1b13a9e/hyperon_das-0.7.6.tar.gz
+[2024-04-17 14:56:21] INFO root fetch - processPackages [foxsenseinnovations.vigil]: Downloading https://files.pythonhosted.org/packages/49/aa/06084071d622a2d01817a7f730b5ab5ae4eab738644ad63d6b0da71b0069/foxsenseinnovations.vigil-1.0.1.tar.gz
+[2024-04-17 14:56:21] INFO root fetch - processPackages [hyperon-das]: executing diffoscope
+[2024-04-17 14:56:21] INFO root fetch - processPackages [hyperon-das]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperon_das-0.7.5.tar.gz tmp/hyperon_das-0.7.6.tar.gz --markdown 20240417/h/hyperon-das/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-04-17 14:56:21] INFO root fetch - processPackages [kedro-viz]: Downloading https://files.pythonhosted.org/packages/0d/c7/2534fda07576a9c787857405f6505d1d94e584499df5d0f817cb243b9090/kedro-viz-9.0.0.tar.gz
+[2024-04-17 14:56:22] INFO root fetch - processPackages [foxsenseinnovations.vigil]: executing diffoscope
+[2024-04-17 14:56:22] INFO root fetch - processPackages [foxsenseinnovations.vigil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxsenseinnovations.vigil-1.0.0.tar.gz tmp/foxsenseinnovations.vigil-1.0.1.tar.gz --markdown 20240417/f/foxsenseinnovations.vigil/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-17 14:56:22] INFO root fetch - processPackages [kedro-viz]: executing diffoscope
+[2024-04-17 14:56:22] INFO root fetch - processPackages [kedro-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-viz-8.0.1.tar.gz tmp/kedro-viz-9.0.0.tar.gz --markdown 20240417/k/kedro-viz/8.0.1-9.0.0/README.md --exclude *.pyd
+[2024-04-17 14:56:22] INFO root fetch - processPackages [ket-lang]: Remove: archive file [/home/abi/fetcher/tmp/ket-lang-0.7rc0.tar.gz]
+[2024-04-17 14:56:22] INFO root fetch - processPackages [ket-lang]: Remove: archive file [/home/abi/fetcher/tmp/ket-lang-0.7rc1.tar.gz]
+[2024-04-17 14:56:22] INFO root fetch - main [MainThread]: End processing [ket-lang]: success
+[2024-04-17 14:56:22] INFO root fetch - processPackages [hyperon-das]: Remove: archive file [/home/abi/fetcher/tmp/hyperon_das-0.7.5.tar.gz]
+[2024-04-17 14:56:22] INFO root fetch - processPackages [hyperon-das]: Remove: archive file [/home/abi/fetcher/tmp/hyperon_das-0.7.6.tar.gz]
+[2024-04-17 14:56:22] INFO root fetch - main [MainThread]: End processing [hyperon-das]: success
+[2024-04-17 14:56:22] INFO root fetch - processPackages [foxsenseinnovations.vigil]: Remove: archive file [/home/abi/fetcher/tmp/foxsenseinnovations.vigil-1.0.0.tar.gz]
+[2024-04-17 14:56:22] INFO root fetch - processPackages [foxsenseinnovations.vigil]: Remove: archive file [/home/abi/fetcher/tmp/foxsenseinnovations.vigil-1.0.1.tar.gz]
+[2024-04-17 14:56:22] INFO root fetch - main [MainThread]: End processing [foxsenseinnovations.vigil]: success
+[2024-04-17 14:57:07] INFO root fetch - processPackages [kedro-viz]: Remove: archive file [/home/abi/fetcher/tmp/kedro-viz-8.0.1.tar.gz]
+[2024-04-17 14:57:07] INFO root fetch - processPackages [kedro-viz]: Remove: archive file [/home/abi/fetcher/tmp/kedro-viz-9.0.0.tar.gz]
+[2024-04-17 14:57:07] INFO root fetch - main [MainThread]: End processing [kedro-viz]: success
+[2024-04-17 14:57:07] INFO root fetch - main [MainThread]: Store serial: [22805745]
