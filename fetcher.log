@@ -11495,3 +11495,38 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 07:40:51] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1713331204.tar.gz]
 [2024-04-17 07:40:51] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
 [2024-04-17 07:40:51] INFO root fetch - main [MainThread]: Store serial: [22800239]
+[2024-04-17 07:42:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800239]
+[2024-04-17 07:43:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 07:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FlagEmbedding
+[2024-04-17 07:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mriqc
+[2024-04-17 07:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-confluentcloud
+[2024-04-17 07:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-aiven
+[2024-04-17 07:43:00] INFO root fetch - processPackages [FlagEmbedding]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-17 07:43:00] INFO root fetch - processPackages [mriqc]: New version: [24.0.0rc8] Old Version: [24.0.0rc7]
+[2024-04-17 07:43:00] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-04-17 07:43:00] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-04-17 07:43:00] INFO root fetch - processPackages [FlagEmbedding]: Downloading https://files.pythonhosted.org/packages/fe/c9/faed3224f41a28f137b18034148f69baef25d2e55063213c31fe30496ce6/FlagEmbedding-1.2.8.tar.gz
+[2024-04-17 07:43:00] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-04-17 07:43:00] INFO root fetch - processPackages [mriqc]: Downloading https://files.pythonhosted.org/packages/ac/40/458d832e75cbbc44bc8e7bcaf5c5758967a64d779999ae53a962c341cf5d/mriqc-24.0.0rc7.tar.gz
+[2024-04-17 07:43:00] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-04-17 07:43:01] WARNING root fetch - processPackages [mriqc]: Skipping package: exceeds size limit 45828666>=10485760
+[2024-04-17 07:43:01] INFO root fetch - main [MainThread]: End processing [mriqc] error
+[2024-04-17 07:43:01] INFO root fetch - processPackages [FlagEmbedding]: Downloading https://files.pythonhosted.org/packages/bd/d3/7c5d6e5bce1a4d537d860373a1b495239761160da895c1face3bced89e5c/FlagEmbedding-1.2.9.tar.gz
+[2024-04-17 07:43:01] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-04-17 07:43:01] INFO root fetch - processPackages [FlagEmbedding]: executing diffoscope
+[2024-04-17 07:43:01] INFO root fetch - processPackages [FlagEmbedding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlagEmbedding-1.2.8.tar.gz tmp/FlagEmbedding-1.2.9.tar.gz --markdown 20240417/F/FlagEmbedding/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-17 07:43:01] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-04-17 07:43:01] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-04-17 07:43:01] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240417/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-04-17 07:43:01] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-04-17 07:43:01] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240417/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-04-17 07:43:02] INFO root fetch - processPackages [FlagEmbedding]: Remove: archive file [/home/abi/fetcher/tmp/FlagEmbedding-1.2.8.tar.gz]
+[2024-04-17 07:43:02] INFO root fetch - processPackages [FlagEmbedding]: Remove: archive file [/home/abi/fetcher/tmp/FlagEmbedding-1.2.9.tar.gz]
+[2024-04-17 07:43:02] INFO root fetch - main [MainThread]: End processing [FlagEmbedding]: success
+[2024-04-17 07:43:02] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-04-17 07:43:02] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-04-17 07:43:02] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-04-17 07:43:02] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-04-17 07:43:02] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-04-17 07:43:02] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-04-17 07:43:02] INFO root fetch - main [MainThread]: Store serial: [22800250]
