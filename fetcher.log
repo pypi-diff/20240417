@@ -9095,3 +9095,51 @@
 [2024-04-17 05:22:55] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.2.1.dev2024041622.tar.gz]
 [2024-04-17 05:22:55] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-04-17 05:22:55] INFO root fetch - main [MainThread]: Store serial: [22799400]
+[2024-04-17 05:24:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799400]
+[2024-04-17 05:25:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 05:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iac-init
+[2024-04-17 05:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: st-input-slider
+[2024-04-17 05:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: donetools
+[2024-04-17 05:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyautogen
+[2024-04-17 05:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-domain20180208-py2
+[2024-04-17 05:25:04] INFO root fetch - processPackages [iac-init]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-17 05:25:04] INFO root fetch - processPackages [donetools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 05:25:04] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/40/f6/cddd05feb265d18584a54810aa9f32530f365ba7ff7ca63337ef29a4644d/iac_init-0.2.9.tar.gz
+[2024-04-17 05:25:04] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/e7/16ef7ef33b09a9634459bb56e910fc56d348769263fd89f5074d35a6aa31/donetools-0.0.8.tar.gz
+[2024-04-17 05:25:04] INFO root fetch - processPackages [st-input-slider]: New version: [0.1.0] Old Version: [0.0.7]
+[2024-04-17 05:25:04] INFO root fetch - processPackages [alibabacloud-domain20180208-py2]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-17 05:25:04] INFO root fetch - processPackages [pyautogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 05:25:04] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/bc/28/cc26a1e320fe8c7340f7a8a47ad56f46fe697a88680abb956588b9650e76/donetools-0.0.9.tar.gz
+[2024-04-17 05:25:04] INFO root fetch - processPackages [st-input-slider]: Downloading https://files.pythonhosted.org/packages/59/5f/6492a8ccda01cfc8d7c1564089673b987c42d5a3fdb0c9de6bd91ffcdb56/st-input-slider-0.0.7.tar.gz
+[2024-04-17 05:25:04] INFO root fetch - processPackages [alibabacloud-domain20180208-py2]: Downloading https://files.pythonhosted.org/packages/6c/6c/3e543aca98d52d265895f1d0a8a3d725e7bb88c1c3d5065ba7ee8b2d28bd/alibabacloud_domain20180208_py2-1.2.0.tar.gz
+[2024-04-17 05:25:04] INFO root fetch - processPackages [pyautogen]: Downloading https://files.pythonhosted.org/packages/ee/94/1a890fc4c776fc04c255fe92a910c2326ac4e56c923d500ad9ec07d48d8f/pyautogen-0.2.8.tar.gz
+[2024-04-17 05:25:04] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-17 05:25:04] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.8.tar.gz tmp/donetools-0.0.9.tar.gz --markdown 20240417/d/donetools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 05:25:04] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/82/63/f7dead93befe28837303ab71eb04343ecceadd7176d5c474d8574450dcfe/iac_init-0.3.0.tar.gz
+[2024-04-17 05:25:04] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-17 05:25:04] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.2.9.tar.gz tmp/iac_init-0.3.0.tar.gz --markdown 20240417/i/iac-init/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-17 05:25:04] INFO root fetch - processPackages [alibabacloud-domain20180208-py2]: Downloading https://files.pythonhosted.org/packages/62/d8/8143d23f2bb3a9306850a23ec9bb8b1930cdfecb567c578c2d4b9c8b3b8d/alibabacloud_domain20180208_py2-1.2.1.tar.gz
+[2024-04-17 05:25:04] INFO root fetch - processPackages [st-input-slider]: Downloading https://files.pythonhosted.org/packages/a3/72/11d0cc845c19c50db7b6a9799d58fd8664033097b7eb84faf2294dd0f78c/st-input-slider-0.1.0.tar.gz
+[2024-04-17 05:25:04] INFO root fetch - processPackages [pyautogen]: Downloading https://files.pythonhosted.org/packages/d0/99/a3efee9be20f34aac6015f3bdfde3b7bee1fee1dea8d4514b739f13e0673/pyautogen-0.2.9.tar.gz
+[2024-04-17 05:25:04] INFO root fetch - processPackages [alibabacloud-domain20180208-py2]: executing diffoscope
+[2024-04-17 05:25:04] INFO root fetch - processPackages [alibabacloud-domain20180208-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_domain20180208_py2-1.2.0.tar.gz tmp/alibabacloud_domain20180208_py2-1.2.1.tar.gz --markdown 20240417/a/alibabacloud-domain20180208-py2/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-17 05:25:05] INFO root fetch - processPackages [pyautogen]: executing diffoscope
+[2024-04-17 05:25:05] INFO root fetch - processPackages [pyautogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautogen-0.2.8.tar.gz tmp/pyautogen-0.2.9.tar.gz --markdown 20240417/p/pyautogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 05:25:05] INFO root fetch - processPackages [st-input-slider]: executing diffoscope
+[2024-04-17 05:25:05] INFO root fetch - processPackages [st-input-slider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-input-slider-0.0.7.tar.gz tmp/st-input-slider-0.1.0.tar.gz --markdown 20240417/s/st-input-slider/0.0.7-0.1.0/README.md --exclude *.pyd
+[2024-04-17 05:25:05] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.8.tar.gz]
+[2024-04-17 05:25:05] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
+[2024-04-17 05:25:05] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-17 05:25:05] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.2.9.tar.gz]
+[2024-04-17 05:25:05] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.3.0.tar.gz]
+[2024-04-17 05:25:05] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-17 05:25:05] INFO root fetch - processPackages [alibabacloud-domain20180208-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_domain20180208_py2-1.2.0.tar.gz]
+[2024-04-17 05:25:05] INFO root fetch - processPackages [alibabacloud-domain20180208-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_domain20180208_py2-1.2.1.tar.gz]
+[2024-04-17 05:25:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-domain20180208-py2]: success
+[2024-04-17 05:25:05] INFO root fetch - processPackages [pyautogen]: Remove: archive file [/home/abi/fetcher/tmp/pyautogen-0.2.8.tar.gz]
+[2024-04-17 05:25:05] INFO root fetch - processPackages [pyautogen]: Remove: archive file [/home/abi/fetcher/tmp/pyautogen-0.2.9.tar.gz]
+[2024-04-17 05:25:05] INFO root fetch - main [MainThread]: End processing [pyautogen]: success
+[2024-04-17 05:25:25] INFO root fetch - processPackages [st-input-slider]: Remove: archive file [/home/abi/fetcher/tmp/st-input-slider-0.0.7.tar.gz]
+[2024-04-17 05:25:25] INFO root fetch - processPackages [st-input-slider]: Remove: archive file [/home/abi/fetcher/tmp/st-input-slider-0.1.0.tar.gz]
+[2024-04-17 05:25:25] INFO root fetch - main [MainThread]: End processing [st-input-slider]: success
+[2024-04-17 05:25:25] INFO root fetch - main [MainThread]: Store serial: [22799416]
