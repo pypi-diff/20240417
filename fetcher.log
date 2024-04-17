@@ -12293,3 +12293,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:22:50] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1713332421.tar.gz]
 [2024-04-17 08:22:50] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
 [2024-04-17 08:22:50] INFO root fetch - main [MainThread]: Store serial: [22800506]
+[2024-04-17 08:24:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800506]
+[2024-04-17 08:24:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 08:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kafka
+[2024-04-17 08:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-http
+[2024-04-17 08:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-hcloud
+[2024-04-17 08:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wah
+[2024-04-17 08:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-coder
+[2024-04-17 08:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bkpaas-auth
+[2024-04-17 08:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thepipe-api
+[2024-04-17 08:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo11-addon-stock-picking-package-preparation
+[2024-04-17 08:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-kong
+[2024-04-17 08:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-keycloak
+[2024-04-17 08:24:58] INFO root fetch - processPackages [thepipe-api]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-17 08:24:59] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 08:24:59] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-04-17 08:24:59] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/0e/50/df2502fca8753b73f4b08e07a70a75f6e650e347db99a9c03c29b848e5fe/thepipe_api-0.2.3.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [pulumi-http]: New version: [0.0.4a1713332669] Old Version: [0.0.4a1712986868]
+[2024-04-17 08:24:59] INFO root fetch - processPackages [bkpaas-auth]: New version: [2.1.0] Old Version: [2.0.8]
+[2024-04-17 08:24:59] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1713332701] Old Version: [3.8.0a1712987270]
+[2024-04-17 08:24:59] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 08:24:59] INFO root fetch - processPackages [odoo11-addon-stock-picking-package-preparation]: New version: [11.0.1.0.0.99.dev9] Old Version: [11.0.1.0.0.99.dev8]
+[2024-04-17 08:24:59] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1713332908] Old Version: [4.6.0a1712987334]
+[2024-04-17 08:24:59] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1713332823] Old Version: [5.4.0a1712987350]
+[2024-04-17 08:24:59] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [bkpaas-auth]: Downloading https://files.pythonhosted.org/packages/1d/09/c6e5ef0b4dd015392922f4770fd098c942fa15fe9dd425d173124e212611/bkpaas-auth-2.0.8.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/6d/09/fc32b98ce351290afafc971b90acd736e735dd4014269475df7d5e58d854/pulumi_kafka-3.8.0a1712987270.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [odoo11-addon-stock-picking-package-preparation]: Downloading https://files.pythonhosted.org/packages/d3/8e/ce2db13859fa98093f427b32944fbccf45188e37f4da97b2e384e31398ae/odoo11_addon_stock_picking_package_preparation-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2024-04-17 08:24:59] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/df/a8/4b40229f12b58c82a0ce8327983c06ec9399bfd70f34ba2056ae2198d5f9/pulumi_kong-4.6.0a1712987334.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/7e/58/2909bbe1ab07589bf03a9e93d00780a7e129113457816ff5a70dcc9460c7/pulumi_http-0.0.4a1712986868.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/34/35/967795e6a5f9535eba9745972628cab1ab44497f970c9ed32ef246ade63f/thepipe_api-0.2.4.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/b7/57/bdb8d6d76e16ec462c27a4a421c9ad8c2b27be9988cee4a96e0c9152a23a/pulumi_keycloak-5.4.0a1712987350.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-04-17 08:24:59] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240417/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 08:24:59] INFO root fetch - processPackages [thepipe-api]: executing diffoscope
+[2024-04-17 08:24:59] INFO root fetch - processPackages [thepipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thepipe_api-0.2.3.tar.gz tmp/thepipe_api-0.2.4.tar.gz --markdown 20240417/t/thepipe-api/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-17 08:24:59] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/1f/21/f4bbe758689c92cb901f19b18fcbc3fc091d27598e25fb8bc53964a0c93d/pulumi_kafka-3.8.0a1713332701.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [bkpaas-auth]: Downloading https://files.pythonhosted.org/packages/b1/53/d399e0005d45ff3dc6349ea1d8a3aadc552d23ff7a7175eb6795443f048e/bkpaas-auth-2.1.0.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/57/f0/998ce0698bb6d820ba4fbd5b72e1503937bf4ffd0c862de473a14b60f868/pulumi_kong-4.6.0a1713332908.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-17 08:24:59] INFO root fetch - processPackages [odoo11-addon-stock-picking-package-preparation]: Downloading https://files.pythonhosted.org/packages/a0/31/6ba00de55506e977229166d035e53151fb8bc5569c9c0c423b39ad2e7f62/odoo11_addon_stock_picking_package_preparation-11.0.1.0.0.99.dev9-py2.py3-none-any.whl
+[2024-04-17 08:25:00] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/cb/eb/15330f5ff1d33d0779005191b6b80cd1c9c7bd8665c5695b1c6c182d276c/pulumi_http-0.0.4a1713332669.tar.gz
+[2024-04-17 08:25:00] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-04-17 08:25:00] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-04-17 08:25:00] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240417/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-04-17 08:25:00] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1712987270.tar.gz tmp/pulumi_kafka-3.8.0a1713332701.tar.gz --markdown 20240417/p/pulumi-kafka/3.8.0a1712987270-3.8.0a1713332701/README.md --exclude *.pyd
+[2024-04-17 08:25:00] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/df/d8/c7ec8174686c8fa2b0de65038109e5a815ae4851c45bc9bfcc5e0f2c144d/pulumi_keycloak-5.4.0a1713332823.tar.gz
+[2024-04-17 08:25:00] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2024-04-17 08:25:00] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1712987334.tar.gz tmp/pulumi_kong-4.6.0a1713332908.tar.gz --markdown 20240417/p/pulumi-kong/4.6.0a1712987334-4.6.0a1713332908/README.md --exclude *.pyd
+[2024-04-17 08:25:00] INFO root fetch - processPackages [bkpaas-auth]: executing diffoscope
+[2024-04-17 08:25:00] INFO root fetch - processPackages [bkpaas-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkpaas-auth-2.0.8.tar.gz tmp/bkpaas-auth-2.1.0.tar.gz --markdown 20240417/b/bkpaas-auth/2.0.8-2.1.0/README.md --exclude *.pyd
+[2024-04-17 08:25:00] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-17 08:25:00] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240417/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 08:25:00] INFO root fetch - processPackages [odoo11-addon-stock-picking-package-preparation]: executing diffoscope
+[2024-04-17 08:25:00] INFO root fetch - processPackages [odoo11-addon-stock-picking-package-preparation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_stock_picking_package_preparation-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_stock_picking_package_preparation-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20240417/o/odoo11-addon-stock-picking-package-preparation/11.0.1.0.0.99.dev8-11.0.1.0.0.99.dev9/README.md --exclude *.pyd
+[2024-04-17 08:25:00] INFO root fetch - processPackages [pulumi-http]: executing diffoscope
+[2024-04-17 08:25:00] INFO root fetch - processPackages [pulumi-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_http-0.0.4a1712986868.tar.gz tmp/pulumi_http-0.0.4a1713332669.tar.gz --markdown 20240417/p/pulumi-http/0.0.4a1712986868-0.0.4a1713332669/README.md --exclude *.pyd
+[2024-04-17 08:25:00] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-04-17 08:25:00] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1712987350.tar.gz tmp/pulumi_keycloak-5.4.0a1713332823.tar.gz --markdown 20240417/p/pulumi-keycloak/5.4.0a1712987350-5.4.0a1713332823/README.md --exclude *.pyd
+[2024-04-17 08:25:00] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.2.3.tar.gz]
+[2024-04-17 08:25:00] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.2.4.tar.gz]
+[2024-04-17 08:25:00] INFO root fetch - main [MainThread]: End processing [thepipe-api]: success
+[2024-04-17 08:25:00] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-04-17 08:25:00] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-04-17 08:25:00] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-04-17 08:25:01] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1712987270.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1713332701.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-04-17 08:25:01] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.0.4a1712986868.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.0.4a1713332669.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - main [MainThread]: End processing [pulumi-http]: success
+[2024-04-17 08:25:01] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1712987334.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1713332908.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2024-04-17 08:25:01] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-17 08:25:01] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-04-17 08:25:01] INFO root fetch - processPackages [odoo11-addon-stock-picking-package-preparation]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_stock_picking_package_preparation-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip]
+[2024-04-17 08:25:01] INFO root fetch - processPackages [odoo11-addon-stock-picking-package-preparation]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_stock_picking_package_preparation-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip]
+[2024-04-17 08:25:01] INFO root fetch - main [MainThread]: End processing [odoo11-addon-stock-picking-package-preparation]: success
+[2024-04-17 08:25:01] INFO root fetch - processPackages [bkpaas-auth]: Remove: archive file [/home/abi/fetcher/tmp/bkpaas-auth-2.0.8.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - processPackages [bkpaas-auth]: Remove: archive file [/home/abi/fetcher/tmp/bkpaas-auth-2.1.0.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - main [MainThread]: End processing [bkpaas-auth]: success
+[2024-04-17 08:25:01] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1712987350.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1713332823.tar.gz]
+[2024-04-17 08:25:01] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-04-17 08:25:01] INFO root fetch - main [MainThread]: Store serial: [22800533]
