@@ -2962,3 +2962,47 @@
 [2024-04-17 02:55:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-04-17 02:55:23] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-04-17 02:55:23] INFO root fetch - main [MainThread]: Store serial: [22796966]
+[2024-04-17 02:57:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796966]
+[2024-04-17 02:57:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 02:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-poe
+[2024-04-17 02:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataquality
+[2024-04-17 02:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycde
+[2024-04-17 02:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Sphinx
+[2024-04-17 02:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: armis
+[2024-04-17 02:57:32] INFO root fetch - processPackages [Sphinx]: New version: [7.3.1] Old Version: [7.3.0]
+[2024-04-17 02:57:32] INFO root fetch - processPackages [fastapi-poe]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-17 02:57:32] INFO root fetch - processPackages [armis]: New version: [1.0.16] Old Version: [1.0.15]
+[2024-04-17 02:57:32] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/ce/ec/aee43842bb844ee9a53cf815c858e7247abd1d070c79e4b27e51db43cd94/sphinx-7.3.0.tar.gz
+[2024-04-17 02:57:32] INFO root fetch - processPackages [dataquality]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-17 02:57:32] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev871] Old Version: [0.3.1.dev853]
+[2024-04-17 02:57:32] INFO root fetch - processPackages [fastapi-poe]: Downloading https://files.pythonhosted.org/packages/4b/25/bea38e86b4c9277e953c90a822f4861c62b230a69e700bd9b0151876b6c1/fastapi_poe-0.0.7.tar.gz
+[2024-04-17 02:57:32] INFO root fetch - processPackages [armis]: Downloading https://files.pythonhosted.org/packages/b2/0a/acf350c65e898c8f41228bcbff797e4f1933f41e99f4abae40a78825d18b/armis-1.0.15.tar.gz
+[2024-04-17 02:57:32] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/11/36/b9bcf137970978330162aef12cfe1f4753b95908383b569b90c2a507a41d/dataquality-2.0.1.tar.gz
+[2024-04-17 02:57:32] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/23/f4/e53f29dfd0064bf3cb616799c2cc849c6ec4078bd46778c46ba0aa3fb65e/pycde-0.3.1.dev853-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-17 02:57:32] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/df/8d/6caed45a985cf0a285124e66418b77095158ed4a1a8d1bb93c385db8f4fd/sphinx-7.3.1.tar.gz
+[2024-04-17 02:57:32] INFO root fetch - processPackages [fastapi-poe]: Downloading https://files.pythonhosted.org/packages/45/b6/a2d0467846df0a1202add666fe039e49680698de1e4b3718bae5354e8e85/fastapi_poe-0.0.9.tar.gz
+[2024-04-17 02:57:32] INFO root fetch - processPackages [armis]: Downloading https://files.pythonhosted.org/packages/58/24/cb6ea5cae6d5b98dfb4a261f81fbdbd35f93aad83dd490d88a615c17b277/armis-1.0.16-py3-none-any.whl
+[2024-04-17 02:57:32] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/f2/05/d453abb468aada40b2b0d74c3919393bb0f8729bacc5bf0dade8ce0148ee/dataquality-2.0.2.tar.gz
+[2024-04-17 02:57:32] INFO root fetch - processPackages [fastapi-poe]: executing diffoscope
+[2024-04-17 02:57:32] INFO root fetch - processPackages [fastapi-poe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_poe-0.0.7.tar.gz tmp/fastapi_poe-0.0.9.tar.gz --markdown 20240417/f/fastapi-poe/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-17 02:57:33] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2024-04-17 02:57:33] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-2.0.1.tar.gz tmp/dataquality-2.0.2.tar.gz --markdown 20240417/d/dataquality/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-17 02:57:33] INFO root fetch - processPackages [armis]: executing diffoscope
+[2024-04-17 02:57:33] INFO root fetch - processPackages [armis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armis-1.0.15.tar.gz tmp/armis-1.0.16-py3-none-any.whl.zip --markdown 20240417/a/armis/1.0.15-1.0.16/README.md --exclude *.pyd
+[2024-04-17 02:57:33] INFO root fetch - processPackages [Sphinx]: executing diffoscope
+[2024-04-17 02:57:33] INFO root fetch - processPackages [Sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-7.3.0.tar.gz tmp/sphinx-7.3.1.tar.gz --markdown 20240417/S/Sphinx/7.3.0-7.3.1/README.md --exclude *.pyd
+[2024-04-17 02:57:33] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 22113818>=10485760
+[2024-04-17 02:57:33] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-04-17 02:57:33] INFO root fetch - processPackages [fastapi-poe]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_poe-0.0.7.tar.gz]
+[2024-04-17 02:57:33] INFO root fetch - processPackages [fastapi-poe]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_poe-0.0.9.tar.gz]
+[2024-04-17 02:57:33] INFO root fetch - main [MainThread]: End processing [fastapi-poe]: success
+[2024-04-17 02:57:33] INFO root fetch - processPackages [armis]: Remove: archive file [/home/abi/fetcher/tmp/armis-1.0.15.tar.gz]
+[2024-04-17 02:57:33] INFO root fetch - processPackages [armis]: Remove: archive file [/home/abi/fetcher/tmp/armis-1.0.16-py3-none-any.whl.zip]
+[2024-04-17 02:57:33] INFO root fetch - main [MainThread]: End processing [armis]: success
+[2024-04-17 02:57:34] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-2.0.1.tar.gz]
+[2024-04-17 02:57:34] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-2.0.2.tar.gz]
+[2024-04-17 02:57:34] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2024-04-17 02:57:38] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.0.tar.gz]
+[2024-04-17 02:57:38] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.1.tar.gz]
+[2024-04-17 02:57:38] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
+[2024-04-17 02:57:38] INFO root fetch - main [MainThread]: Store serial: [22796980]
