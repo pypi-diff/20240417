@@ -16560,3 +16560,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:54:20] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.1.0.tar.gz]
 [2024-04-17 10:54:20] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-17 10:54:20] INFO root fetch - main [MainThread]: Store serial: [22802600]
+[2024-04-17 10:56:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802600]
+[2024-04-17 10:56:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-17 10:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DLMS-SPODES-client
+[2024-04-17 10:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logMessage
+[2024-04-17 10:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wisecube
+[2024-04-17 10:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audio-toolkit
+[2024-04-17 10:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drex
+[2024-04-17 10:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thug
+[2024-04-17 10:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognite-sdk
+[2024-04-17 10:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datalibro-backend
+[2024-04-17 10:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openvideo
+[2024-04-17 10:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alloniaconfigs
+[2024-04-17 10:56:29] INFO root fetch - processPackages [drex]: New version: [0.0.242] Old Version: [0.0.241]
+[2024-04-17 10:56:29] INFO root fetch - processPackages [audio-toolkit]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-17 10:56:29] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-17 10:56:29] WARNING root fetch - processPackages [alloniaconfigs]: Skipping, unable to determine old version
+[2024-04-17 10:56:29] INFO root fetch - processPackages [alloniaconfigs]: Start processing: trivela
+[2024-04-17 10:56:29] INFO root fetch - main [MainThread]: End processing [alloniaconfigs] error
+[2024-04-17 10:56:29] WARNING root fetch - processPackages [openvideo]: Skipping, unable to determine old version
+[2024-04-17 10:56:29] INFO root fetch - main [MainThread]: End processing [openvideo] error
+[2024-04-17 10:56:29] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-04-17 10:56:29] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/f9/b3/6992f522c0bd2cc422312acdd3d1686329d3d79a2ad139cda70945aaa067/audio_toolkit-0.4.0.tar.gz
+[2024-04-17 10:56:30] WARNING root fetch - processPackages [wisecube]: Skipping, unable to determine old version
+[2024-04-17 10:56:30] INFO root fetch - main [MainThread]: End processing [wisecube] error
+[2024-04-17 10:56:30] INFO root fetch - processPackages [thug]: New version: [6.6] Old Version: [6.5]
+[2024-04-17 10:56:30] INFO root fetch - processPackages [datalibro-backend]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-17 10:56:30] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/e7/39/3f869ca3a586a128e932468d46a43c957c5d0f0c6f5f1ccec545407fba09/drex-0.0.241.tar.gz
+[2024-04-17 10:56:30] WARNING root fetch - processPackages [logMessage]: Skipping, unable to determine old version
+[2024-04-17 10:56:30] INFO root fetch - main [MainThread]: End processing [logMessage] error
+[2024-04-17 10:56:30] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/94/4b/bcc8809f94aef117e065daedd586f1963efa0e1f05fbe8e6834a2b27634a/DLMS_SPODES_client-0.7.8.tar.gz
+[2024-04-17 10:56:30] INFO root fetch - processPackages [trivela]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-17 10:56:30] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-04-17 10:56:30] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/1e/31/30e54efd7cbcdbdf07fecd849e1997a6053521aecdbe7f047e49966add7d/drex-0.0.242.tar.gz
+[2024-04-17 10:56:30] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/01/b3/949e1d4067150b185900490f3ce9d8b0a4c53bb2d5bd73e26a87efbddec3/datalibro_backend-1.0.9.tar.gz
+[2024-04-17 10:56:30] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/24/38/d18fae8d519618ff6a33eb12786c0546068107df16d78e05d0070c3a72af/DLMS_SPODES_client-0.7.9.tar.gz
+[2024-04-17 10:56:30] INFO root fetch - processPackages [thug]: Downloading https://files.pythonhosted.org/packages/45/a1/67dbf6d803ff176620d79c9d7d68f1ff85810c4e8a7cde702b3c16fc1be8/thug-6.5.tar.gz
+[2024-04-17 10:56:30] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/01/b0/fe1cd4176c709b5fa7dbfc4c236fc204935f667ade93749ed2e2a28cc30d/audio_toolkit-0.5.0.tar.gz
+[2024-04-17 10:56:30] INFO root fetch - processPackages [trivela]: Downloading https://files.pythonhosted.org/packages/d8/4a/dbdafe4e0c7a4f1996ea70af3ff90e0d78a67a49aaa81221d64e2c1da503/trivela-0.0.4.tar.gz
+[2024-04-17 10:56:30] INFO root fetch - processPackages [drex]: executing diffoscope
+[2024-04-17 10:56:30] INFO root fetch - processPackages [drex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drex-0.0.241.tar.gz tmp/drex-0.0.242.tar.gz --markdown 20240417/d/drex/0.0.241-0.0.242/README.md --exclude *.pyd
+[2024-04-17 10:56:30] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-04-17 10:56:30] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-17 10:56:30] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.4.0.tar.gz tmp/audio_toolkit-0.5.0.tar.gz --markdown 20240417/a/audio-toolkit/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-17 10:56:30] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-17 10:56:30] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.7.8.tar.gz tmp/DLMS_SPODES_client-0.7.9.tar.gz --markdown 20240417/D/DLMS-SPODES-client/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-17 10:56:30] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-04-17 10:56:30] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240417/c/cognite-sdk/7.8.9-7.9.0/README.md --exclude *.pyd
+[2024-04-17 10:56:30] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/2f/79/82667e2d9295eb845c3658b7b98831d8b82c78eda7ae287166d2e336864b/datalibro_backend-1.1.0.tar.gz
+[2024-04-17 10:56:30] INFO root fetch - processPackages [thug]: Downloading https://files.pythonhosted.org/packages/66/09/f3e778f465d7855adefc3af02e8deb7a3bc2b13030f97e90d5781d6c3ffc/thug-6.6.tar.gz
+[2024-04-17 10:56:30] INFO root fetch - processPackages [trivela]: Downloading https://files.pythonhosted.org/packages/ab/41/8607b59d7e8bbed136dd0ecec848e4d8322b6dcfe6c78b5ea3b6f7afa322/trivela-0.0.5.tar.gz
+[2024-04-17 10:56:30] INFO root fetch - processPackages [thug]: executing diffoscope
+[2024-04-17 10:56:30] INFO root fetch - processPackages [thug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thug-6.5.tar.gz tmp/thug-6.6.tar.gz --markdown 20240417/t/thug/6.5-6.6/README.md --exclude *.pyd
+[2024-04-17 10:56:30] INFO root fetch - processPackages [datalibro-backend]: executing diffoscope
+[2024-04-17 10:56:30] INFO root fetch - processPackages [datalibro-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_backend-1.0.9.tar.gz tmp/datalibro_backend-1.1.0.tar.gz --markdown 20240417/d/datalibro-backend/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-04-17 10:56:31] INFO root fetch - processPackages [trivela]: executing diffoscope
+[2024-04-17 10:56:31] INFO root fetch - processPackages [trivela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trivela-0.0.4.tar.gz tmp/trivela-0.0.5.tar.gz --markdown 20240417/t/trivela/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-17 10:56:31] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.241.tar.gz]
+[2024-04-17 10:56:31] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.242.tar.gz]
+[2024-04-17 10:56:31] INFO root fetch - main [MainThread]: End processing [drex]: success
+[2024-04-17 10:56:31] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.4.0.tar.gz]
+[2024-04-17 10:56:31] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.5.0.tar.gz]
+[2024-04-17 10:56:31] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-17 10:56:31] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.8.tar.gz]
+[2024-04-17 10:56:31] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.9.tar.gz]
+[2024-04-17 10:56:31] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-17 10:56:31] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.0.9.tar.gz]
+[2024-04-17 10:56:31] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.0.tar.gz]
+[2024-04-17 10:56:31] INFO root fetch - main [MainThread]: End processing [datalibro-backend]: success
+[2024-04-17 10:56:31] INFO root fetch - processPackages [trivela]: Remove: archive file [/home/abi/fetcher/tmp/trivela-0.0.4.tar.gz]
+[2024-04-17 10:56:31] INFO root fetch - processPackages [trivela]: Remove: archive file [/home/abi/fetcher/tmp/trivela-0.0.5.tar.gz]
+[2024-04-17 10:56:31] INFO root fetch - main [MainThread]: End processing [trivela]: success
+[2024-04-17 10:56:32] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-04-17 10:56:32] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-04-17 10:56:32] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-04-17 10:56:32] INFO root fetch - processPackages [thug]: Remove: archive file [/home/abi/fetcher/tmp/thug-6.5.tar.gz]
+[2024-04-17 10:56:32] INFO root fetch - processPackages [thug]: Remove: archive file [/home/abi/fetcher/tmp/thug-6.6.tar.gz]
+[2024-04-17 10:56:32] INFO root fetch - main [MainThread]: End processing [thug]: success
+[2024-04-17 10:56:32] INFO root fetch - main [MainThread]: Store serial: [22802632]
