@@ -12457,3 +12457,44 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:27:13] INFO root fetch - processPackages [monopyly]: Remove: archive file [/home/abi/fetcher/tmp/monopyly-1.4.6.tar.gz]
 [2024-04-17 08:27:13] INFO root fetch - main [MainThread]: End processing [monopyly]: success
 [2024-04-17 08:27:13] INFO root fetch - main [MainThread]: Store serial: [22800556]
+[2024-04-17 08:29:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800556]
+[2024-04-17 08:29:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 08:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-21
+[2024-04-17 08:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wzl-udi
+[2024-04-17 08:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: joo
+[2024-04-17 08:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-gitlab
+[2024-04-17 08:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TestPackage-yidas
+[2024-04-17 08:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotifyunl0ck
+[2024-04-17 08:29:22] WARNING root fetch - processPackages [TestPackage-yidas]: Skipping, unable to determine old version
+[2024-04-17 08:29:22] INFO root fetch - main [MainThread]: End processing [TestPackage-yidas] error
+[2024-04-17 08:29:22] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.9.0a1708340471] Old Version: [6.9.0a1708063247]
+[2024-04-17 08:29:22] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240416] Old Version: [2.5.0b20240415]
+[2024-04-17 08:29:22] INFO root fetch - processPackages [wzl-udi]: New version: [9.3.8] Old Version: [9.3.7]
+[2024-04-17 08:29:22] INFO root fetch - processPackages [joo]: New version: [1.2.0.12919] Old Version: [0.1.0.142]
+[2024-04-17 08:29:22] ERROR root fetch - processPackages [spotifyunl0ck]: Unable to get metadata: No such project 'spotifyunl0ck'
+[2024-04-17 08:29:22] INFO root fetch - main [MainThread]: End processing [spotifyunl0ck] error
+[2024-04-17 08:29:22] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/58/07/ab2778876b4db96da370ecc6d084f38b132c7d1e47cda0350b3de396d7e4/pulumi_gitlab-6.9.0a1708063247.tar.gz
+[2024-04-17 08:29:23] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/19/b9/d064ffe1ed43f258290ca025f81d877ac7ec1db1c27b8df4313f2b59f4da/bigdl_core_xe_21-2.5.0b20240415-cp39-cp39-win_amd64.whl
+[2024-04-17 08:29:23] INFO root fetch - processPackages [wzl-udi]: Downloading https://files.pythonhosted.org/packages/9d/6d/0a6be0184d48410cc852f43b903fc0a1d0e57b45448a2857789490d15bfd/wzl-udi-9.3.7.tar.gz
+[2024-04-17 08:29:23] INFO root fetch - processPackages [joo]: Downloading https://files.pythonhosted.org/packages/5e/a7/b488a0d9b31754d82eb185f08febb4d3439531a8e242ba7733417aee996c/joo-0.1.0.142.tar.gz
+[2024-04-17 08:29:23] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 25824777>=10485760
+[2024-04-17 08:29:23] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-17 08:29:23] INFO root fetch - processPackages [wzl-udi]: Downloading https://files.pythonhosted.org/packages/30/0e/4a92d8b83daeb91680128eb9fd12380311d9d097285afeb716890af09ca1/wzl-udi-9.3.8.tar.gz
+[2024-04-17 08:29:23] INFO root fetch - processPackages [joo]: Downloading https://files.pythonhosted.org/packages/2f/0b/590d376e4aacdc045d61f8839cd78728868ab85cc2936112e2d97428f95d/joo-1.2.0.12919.tar.gz
+[2024-04-17 08:29:23] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/ec/de/e27b5fc2f3f3a7a5f878850b1b8d0f82d5624c70b642a39146c756ea3d5c/pulumi_gitlab-6.9.0a1708340471.tar.gz
+[2024-04-17 08:29:23] INFO root fetch - processPackages [joo]: executing diffoscope
+[2024-04-17 08:29:23] INFO root fetch - processPackages [joo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joo-0.1.0.142.tar.gz tmp/joo-1.2.0.12919.tar.gz --markdown 20240417/j/joo/0.1.0.142-1.2.0.12919/README.md --exclude *.pyd
+[2024-04-17 08:29:23] INFO root fetch - processPackages [wzl-udi]: executing diffoscope
+[2024-04-17 08:29:23] INFO root fetch - processPackages [wzl-udi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wzl-udi-9.3.7.tar.gz tmp/wzl-udi-9.3.8.tar.gz --markdown 20240417/w/wzl-udi/9.3.7-9.3.8/README.md --exclude *.pyd
+[2024-04-17 08:29:23] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-04-17 08:29:23] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz --markdown 20240417/p/pulumi-gitlab/6.9.0a1708063247-6.9.0a1708340471/README.md --exclude *.pyd
+[2024-04-17 08:29:24] INFO root fetch - processPackages [wzl-udi]: Remove: archive file [/home/abi/fetcher/tmp/wzl-udi-9.3.7.tar.gz]
+[2024-04-17 08:29:24] INFO root fetch - processPackages [wzl-udi]: Remove: archive file [/home/abi/fetcher/tmp/wzl-udi-9.3.8.tar.gz]
+[2024-04-17 08:29:24] INFO root fetch - main [MainThread]: End processing [wzl-udi]: success
+[2024-04-17 08:29:24] INFO root fetch - processPackages [joo]: Remove: archive file [/home/abi/fetcher/tmp/joo-0.1.0.142.tar.gz]
+[2024-04-17 08:29:24] INFO root fetch - processPackages [joo]: Remove: archive file [/home/abi/fetcher/tmp/joo-1.2.0.12919.tar.gz]
+[2024-04-17 08:29:24] INFO root fetch - main [MainThread]: End processing [joo]: success
+[2024-04-17 08:29:25] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz]
+[2024-04-17 08:29:25] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
+[2024-04-17 08:29:25] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-04-17 08:29:25] INFO root fetch - main [MainThread]: Store serial: [22800574]
