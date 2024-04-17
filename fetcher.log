@@ -8685,3 +8685,27 @@
 [2024-04-17 04:56:16] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkedmall20230930-2.2.0.tar.gz]
 [2024-04-17 04:56:16] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkedmall20230930]: success
 [2024-04-17 04:56:16] INFO root fetch - main [MainThread]: Store serial: [22799164]
+[2024-04-17 04:58:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799164]
+[2024-04-17 04:58:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 04:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ptcr
+[2024-04-17 04:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simpleCalculadora
+[2024-04-17 04:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stackql-deploy
+[2024-04-17 04:58:26] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 04:58:26] INFO root fetch - processPackages [ptcr]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-17 04:58:26] WARNING root fetch - processPackages [simpleCalculadora]: Skipping, unable to determine old version
+[2024-04-17 04:58:26] INFO root fetch - main [MainThread]: End processing [simpleCalculadora] error
+[2024-04-17 04:58:26] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 04:58:26] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/a7/cc/4386cbac6a0a2e5eb30f51ea089b1fa2f432a1cff5788d2b5900595ab5e7/ptcr-0.1.5.tar.gz
+[2024-04-17 04:58:26] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 04:58:26] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/70/78/5639cb6d6ec3b4324b3e6fc707ac6434cbd6f4ff83b7ca4f1004dd34c736/ptcr-0.1.6.tar.gz
+[2024-04-17 04:58:26] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 04:58:26] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 04:58:26] INFO root fetch - processPackages [ptcr]: executing diffoscope
+[2024-04-17 04:58:26] INFO root fetch - processPackages [ptcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptcr-0.1.5.tar.gz tmp/ptcr-0.1.6.tar.gz --markdown 20240417/p/ptcr/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-17 04:58:27] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 04:58:27] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 04:58:27] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 04:58:27] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.1.5.tar.gz]
+[2024-04-17 04:58:27] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.1.6.tar.gz]
+[2024-04-17 04:58:27] INFO root fetch - main [MainThread]: End processing [ptcr]: success
+[2024-04-17 04:58:27] INFO root fetch - main [MainThread]: Store serial: [22799172]
