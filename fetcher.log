@@ -9706,3 +9706,69 @@
 [2024-04-17 06:06:49] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-17 06:06:49] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
 [2024-04-17 06:06:49] INFO root fetch - main [MainThread]: Store serial: [22799610]
+[2024-04-17 06:09:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799610]
+[2024-04-17 06:09:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 06:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chromedriver-binary
+[2024-04-17 06:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: macnotesapp
+[2024-04-17 06:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stackql-deploy
+[2024-04-17 06:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geopypi
+[2024-04-17 06:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iac-init
+[2024-04-17 06:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libfwps-python
+[2024-04-17 06:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bbm25-haystack
+[2024-04-17 06:09:11] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 06:09:11] INFO root fetch - processPackages [iac-init]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-17 06:09:11] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-17 06:09:11] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 06:09:11] INFO root fetch - processPackages [Geopypi]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-17 06:09:11] INFO root fetch - processPackages [macnotesapp]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-17 06:09:11] INFO root fetch - processPackages [bbm25-haystack]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-17 06:09:11] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/bf/70/14de1432745d42c5dda3936d3a45ea8e64a6383d6f86581a728c477309dd/iac_init-0.3.2.tar.gz
+[2024-04-17 06:09:11] INFO root fetch - processPackages [libfwps-python]: New version: [20240417] Old Version: [20240310]
+[2024-04-17 06:09:11] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-17 06:09:11] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 06:09:11] INFO root fetch - processPackages [Geopypi]: Downloading https://files.pythonhosted.org/packages/27/19/6a74cb7fb6b82692c4c6ba9f4fcf6845cb9643a3cf4a22700362cd91da9c/Geopypi-0.0.4.tar.gz
+[2024-04-17 06:09:11] INFO root fetch - processPackages [macnotesapp]: Downloading https://files.pythonhosted.org/packages/91/fe/2110f794a1757d42c082fc726e7d6c0198da253d996af5b09bd73222e421/macnotesapp-0.6.0.tar.gz
+[2024-04-17 06:09:11] INFO root fetch - processPackages [bbm25-haystack]: Downloading https://files.pythonhosted.org/packages/b4/22/ccc89416691ca34aebaaafa5f985fc863e26286dae1de6d4e03e2f669b63/bbm25_haystack-0.1.2.tar.gz
+[2024-04-17 06:09:11] INFO root fetch - processPackages [libfwps-python]: Downloading https://files.pythonhosted.org/packages/ff/84/77f598ef17b370d860ce8e0aa9e54c8550bb39f08c7e6cef64d7f4b07758/libfwps-python-20240310.tar.gz
+[2024-04-17 06:09:11] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-17 06:09:12] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 06:09:12] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 06:09:12] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/86/c4/de5e7a673d6d0e35d35994db7e65d16e525f6b78d3672774824445ec80ea/iac_init-0.3.3.tar.gz
+[2024-04-17 06:09:12] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-17 06:09:12] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240417/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-04-17 06:09:12] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-17 06:09:12] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.3.2.tar.gz tmp/iac_init-0.3.3.tar.gz --markdown 20240417/i/iac-init/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-17 06:09:12] INFO root fetch - processPackages [macnotesapp]: Downloading https://files.pythonhosted.org/packages/11/e8/0e03c5f63691aa1930d45209ff9f4bfad136e55b6e9f343c937e24133f20/macnotesapp-0.6.1.tar.gz
+[2024-04-17 06:09:12] INFO root fetch - processPackages [Geopypi]: Downloading https://files.pythonhosted.org/packages/19/00/9ace6564c59eaff752b59a9c62088d5478ca45a9fefc067652001d3c295d/geopypi-0.0.5.tar.gz
+[2024-04-17 06:09:12] INFO root fetch - processPackages [bbm25-haystack]: Downloading https://files.pythonhosted.org/packages/44/61/ecae3e0cb484814c76807ee05e394f0c1a2e82b9198d4151e6188eb061e7/bbm25_haystack-0.1.3.tar.gz
+[2024-04-17 06:09:12] INFO root fetch - processPackages [macnotesapp]: executing diffoscope
+[2024-04-17 06:09:12] INFO root fetch - processPackages [macnotesapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macnotesapp-0.6.0.tar.gz tmp/macnotesapp-0.6.1.tar.gz --markdown 20240417/m/macnotesapp/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-17 06:09:12] INFO root fetch - processPackages [libfwps-python]: Downloading https://files.pythonhosted.org/packages/55/02/5cfc303ad1e64a4cbff2027be27a0fb70c6c52cbd9df96dbdd64bfa6d8ab/libfwps-python-20240417.tar.gz
+[2024-04-17 06:09:12] INFO root fetch - processPackages [Geopypi]: executing diffoscope
+[2024-04-17 06:09:12] INFO root fetch - processPackages [Geopypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geopypi-0.0.4.tar.gz tmp/geopypi-0.0.5.tar.gz --markdown 20240417/G/Geopypi/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-17 06:09:12] INFO root fetch - processPackages [bbm25-haystack]: executing diffoscope
+[2024-04-17 06:09:12] INFO root fetch - processPackages [bbm25-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbm25_haystack-0.1.2.tar.gz tmp/bbm25_haystack-0.1.3.tar.gz --markdown 20240417/b/bbm25-haystack/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-17 06:09:12] INFO root fetch - processPackages [libfwps-python]: executing diffoscope
+[2024-04-17 06:09:12] INFO root fetch - processPackages [libfwps-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libfwps-python-20240310.tar.gz tmp/libfwps-python-20240417.tar.gz --markdown 20240417/l/libfwps-python/20240310-20240417/README.md --exclude *.pyd
+[2024-04-17 06:09:12] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-04-17 06:09:12] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-04-17 06:09:12] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-17 06:09:12] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 06:09:12] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 06:09:12] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 06:09:12] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.3.2.tar.gz]
+[2024-04-17 06:09:12] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.3.3.tar.gz]
+[2024-04-17 06:09:12] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-17 06:09:13] INFO root fetch - processPackages [Geopypi]: Remove: archive file [/home/abi/fetcher/tmp/Geopypi-0.0.4.tar.gz]
+[2024-04-17 06:09:13] INFO root fetch - processPackages [Geopypi]: Remove: archive file [/home/abi/fetcher/tmp/geopypi-0.0.5.tar.gz]
+[2024-04-17 06:09:13] INFO root fetch - main [MainThread]: End processing [Geopypi]: success
+[2024-04-17 06:09:13] INFO root fetch - processPackages [bbm25-haystack]: Remove: archive file [/home/abi/fetcher/tmp/bbm25_haystack-0.1.2.tar.gz]
+[2024-04-17 06:09:13] INFO root fetch - processPackages [bbm25-haystack]: Remove: archive file [/home/abi/fetcher/tmp/bbm25_haystack-0.1.3.tar.gz]
+[2024-04-17 06:09:13] INFO root fetch - main [MainThread]: End processing [bbm25-haystack]: success
+[2024-04-17 06:09:13] INFO root fetch - processPackages [macnotesapp]: Remove: archive file [/home/abi/fetcher/tmp/macnotesapp-0.6.0.tar.gz]
+[2024-04-17 06:09:13] INFO root fetch - processPackages [macnotesapp]: Remove: archive file [/home/abi/fetcher/tmp/macnotesapp-0.6.1.tar.gz]
+[2024-04-17 06:09:13] INFO root fetch - main [MainThread]: End processing [macnotesapp]: success
+[2024-04-17 06:09:16] INFO root fetch - processPackages [libfwps-python]: Remove: archive file [/home/abi/fetcher/tmp/libfwps-python-20240310.tar.gz]
+[2024-04-17 06:09:16] INFO root fetch - processPackages [libfwps-python]: Remove: archive file [/home/abi/fetcher/tmp/libfwps-python-20240417.tar.gz]
+[2024-04-17 06:09:16] INFO root fetch - main [MainThread]: End processing [libfwps-python]: success
+[2024-04-17 06:09:16] INFO root fetch - main [MainThread]: Store serial: [22799664]
