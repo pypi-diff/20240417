@@ -14705,3 +14705,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:49:19] INFO root fetch - processPackages [etos-client]: Remove: archive file [/home/abi/fetcher/tmp/etos_client-6.3.0.tar.gz]
 [2024-04-17 09:49:19] INFO root fetch - main [MainThread]: End processing [etos-client]: success
 [2024-04-17 09:49:19] INFO root fetch - main [MainThread]: Store serial: [22801620]
+[2024-04-17 09:51:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801620]
+[2024-04-17 09:51:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 09:51:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zbx-wxwork-assistant
+[2024-04-17 09:51:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tablite
+[2024-04-17 09:51:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lamindb_setup
+[2024-04-17 09:51:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hearthstone
+[2024-04-17 09:51:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sequali
+[2024-04-17 09:51:28] INFO root fetch - processPackages [hearthstone]: New version: [9.2.0] Old Version: [9.1.0]
+[2024-04-17 09:51:28] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/00/81/ac135fa7bf29dd4da36b862916c2f45ba11fb91fc055cc4375fcac6f557e/hearthstone-9.1.0.tar.gz
+[2024-04-17 09:51:28] WARNING root fetch - processPackages [zbx-wxwork-assistant]: Skipping, unable to determine old version
+[2024-04-17 09:51:28] INFO root fetch - main [MainThread]: End processing [zbx-wxwork-assistant] error
+[2024-04-17 09:51:28] INFO root fetch - processPackages [sequali]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-17 09:51:28] INFO root fetch - processPackages [lamindb_setup]: New version: [0.69.1] Old Version: [0.69.0]
+[2024-04-17 09:51:28] INFO root fetch - processPackages [tablite]: New version: [2023.9.8] Old Version: [2023.9.7]
+[2024-04-17 09:51:28] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/69/1a/7380abcd1131d63fbfc3f716566dd75131728fab496d42a2a313fe6ba840/tablite-2023.9.7-py3-none-any.whl
+[2024-04-17 09:51:28] INFO root fetch - processPackages [sequali]: Downloading https://files.pythonhosted.org/packages/5f/b6/927a7132983f10ea22bbee9aa416e33c265ffe5e57421ae6fc2033758b82/sequali-0.7.0.tar.gz
+[2024-04-17 09:51:28] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/7c/27/cc307aab21b4906904641ec2f5c00cb92ef24e41f90ad45a929fd33c108a/lamindb_setup-0.69.0.tar.gz
+[2024-04-17 09:51:28] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/a2/f9/ef2f70d2a19ec36473abf97e82b7bff3d10e607a4d9b16505ed413bea8cf/hearthstone-9.2.0.tar.gz
+[2024-04-17 09:51:28] INFO root fetch - processPackages [hearthstone]: executing diffoscope
+[2024-04-17 09:51:28] INFO root fetch - processPackages [hearthstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hearthstone-9.1.0.tar.gz tmp/hearthstone-9.2.0.tar.gz --markdown 20240417/h/hearthstone/9.1.0-9.2.0/README.md --exclude *.pyd
+[2024-04-17 09:51:29] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/37/f5/343ff277b3302972e846d78aaaddd2e6b05bc04aa1259fec92f71a3638cd/lamindb_setup-0.69.1.tar.gz
+[2024-04-17 09:51:29] INFO root fetch - processPackages [sequali]: Downloading https://files.pythonhosted.org/packages/ba/ca/0c503f345b93a7000a9d81255ac8e31b123f101360c4e86b8455ee999543/sequali-0.7.1-cp39-cp39-macosx_11_0_arm64.whl
+[2024-04-17 09:51:29] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/b8/4a/752f66fecda7a2172d5056375800c9d050a5bc79c8c17e507a15a09c09ed/tablite-2023.9.8-py3-none-any.whl
+[2024-04-17 09:51:29] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2024-04-17 09:51:29] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.69.0.tar.gz tmp/lamindb_setup-0.69.1.tar.gz --markdown 20240417/l/lamindb_setup/0.69.0-0.69.1/README.md --exclude *.pyd
+[2024-04-17 09:51:29] INFO root fetch - processPackages [sequali]: executing diffoscope
+[2024-04-17 09:51:29] INFO root fetch - processPackages [sequali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequali-0.7.0.tar.gz tmp/sequali-0.7.1-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20240417/s/sequali/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-17 09:51:29] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2024-04-17 09:51:29] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2023.9.7-py3-none-any.whl.zip tmp/tablite-2023.9.8-py3-none-any.whl.zip --markdown 20240417/t/tablite/2023.9.7-2023.9.8/README.md --exclude *.pyd
+[2024-04-17 09:51:29] INFO root fetch - processPackages [hearthstone]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone-9.1.0.tar.gz]
+[2024-04-17 09:51:29] INFO root fetch - processPackages [hearthstone]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone-9.2.0.tar.gz]
+[2024-04-17 09:51:29] INFO root fetch - main [MainThread]: End processing [hearthstone]: success
+[2024-04-17 09:51:30] INFO root fetch - processPackages [sequali]: Remove: archive file [/home/abi/fetcher/tmp/sequali-0.7.0.tar.gz]
+[2024-04-17 09:51:30] INFO root fetch - processPackages [sequali]: Remove: archive file [/home/abi/fetcher/tmp/sequali-0.7.1-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-04-17 09:51:30] INFO root fetch - main [MainThread]: End processing [sequali]: success
+[2024-04-17 09:51:30] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.69.0.tar.gz]
+[2024-04-17 09:51:30] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.69.1.tar.gz]
+[2024-04-17 09:51:30] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2024-04-17 09:51:30] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.9.7-py3-none-any.whl.zip]
+[2024-04-17 09:51:30] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.9.8-py3-none-any.whl.zip]
+[2024-04-17 09:51:30] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2024-04-17 09:51:30] INFO root fetch - main [MainThread]: Store serial: [22801636]
