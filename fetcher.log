@@ -18129,3 +18129,105 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:42:42] INFO root fetch - processPackages [TreeTime]: Remove: archive file [/home/abi/fetcher/tmp/TreeTime-2024.1.tar.gz]
 [2024-04-17 11:42:42] INFO root fetch - main [MainThread]: End processing [TreeTime]: success
 [2024-04-17 11:42:42] INFO root fetch - main [MainThread]: Store serial: [22803371]
+[2024-04-17 11:44:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803371]
+[2024-04-17 11:44:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-17 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataclasses-ujson
+[2024-04-17 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jcal
+[2024-04-17 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmgtoolkit
+[2024-04-17 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lyzr
+[2024-04-17 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scanoss
+[2024-04-17 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: picsellia
+[2024-04-17 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-dnsimple
+[2024-04-17 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cg
+[2024-04-17 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyprocessors-openai_completion
+[2024-04-17 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ampo
+[2024-04-17 11:44:51] INFO root fetch - processPackages [dataclasses-ujson]: New version: [0.0.8] Old Version: [0.0.5]
+[2024-04-17 11:44:51] INFO root fetch - processPackages [ampo]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-17 11:44:51] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1713331874] Old Version: [3.5.0a1712986309]
+[2024-04-17 11:44:51] INFO root fetch - processPackages [cg]: New version: [60.1.1] Old Version: [60.1.0]
+[2024-04-17 11:44:51] INFO root fetch - processPackages [tmgtoolkit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 11:44:51] INFO root fetch - processPackages [dataclasses-ujson]: Downloading https://files.pythonhosted.org/packages/fe/e4/6d8902a1fcd5416dc2e87a641c95eb05f13c5b84ec8f393870f29529960a/dataclasses_ujson-0.0.5.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [jcal]: New version: [0.3] Old Version: [0.2.1]
+[2024-04-17 11:44:51] INFO root fetch - processPackages [ampo]: Downloading https://files.pythonhosted.org/packages/b8/6d/35e423195979939e3799cd89cffd0128fdd9aab4258535c77c42550589f2/ampo-0.2.3.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [scanoss]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-17 11:44:51] INFO root fetch - processPackages [lyzr]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 11:44:51] INFO root fetch - processPackages [pyprocessors-openai_completion]: New version: [0.5.98] Old Version: [0.5.96]
+[2024-04-17 11:44:51] INFO root fetch - processPackages [picsellia]: New version: [6.9.1] Old Version: [6.9.0]
+[2024-04-17 11:44:51] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/f6/e1/b731916d8b6962e3a1e0e83d81704ef428ab2d07b0dea07bd03adf9e04a0/cg-60.1.0.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/ba/93/6651dae365393eaf453f05ee40d9ccf1eddc726df15202d43fe41b04137d/pulumi_dnsimple-3.5.0a1712986309.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [tmgtoolkit]: Downloading https://files.pythonhosted.org/packages/5f/e2/28c9cb1c623f7e1c0bd686ef8c02f8d81b11a9943c0a10729e347ecda37d/tmgtoolkit-0.1.1.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [jcal]: Downloading https://files.pythonhosted.org/packages/08/5e/be746f93388f9cd80ecfb1c14685e114dae21e6c7f0e1d79dc7ddb27bb69/jcal-0.2.1-py3-none-any.whl
+[2024-04-17 11:44:51] INFO root fetch - processPackages [dataclasses-ujson]: Downloading https://files.pythonhosted.org/packages/33/8a/7e9b50a93d307c3878bf534af5f802e9615fe24faa00ef035d758fce82a1/dataclasses_ujson-0.0.8.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [scanoss]: Downloading https://files.pythonhosted.org/packages/37/b8/5188a2973c64c6d5a62e535f4aa99b09a08c78f4a442b3075f84ab9b6a4b/scanoss-1.8.0.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [pyprocessors-openai_completion]: Downloading https://files.pythonhosted.org/packages/d2/29/9fabe639b4463b58fb0912b24032472e82de458e7cf0d5b7d9ab72f289cb/pyprocessors_openai_completion-0.5.96.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [lyzr]: Downloading https://files.pythonhosted.org/packages/16/e9/844edf9eb99ce8d4fa5b5e7fe50bc806a43f64ac014f3264b4c33765fd84/lyzr-0.1.8.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [picsellia]: Downloading https://files.pythonhosted.org/packages/53/4d/429cba0ffc92e278bb7c6de092db18ca374292e945109e701914a1cbd70e/picsellia-6.9.0.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [ampo]: Downloading https://files.pythonhosted.org/packages/42/8a/7f77bf2e5f7d6aad354d80e21249305b5aea0c17e60bcd1658b157382a78/ampo-0.2.4.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/69/f5/8dc83a9f3b2b866f6b7d79d285a29fab547babf04f59252db54fe4a050e4/pulumi_dnsimple-3.5.0a1713331874.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [dataclasses-ujson]: executing diffoscope
+[2024-04-17 11:44:51] INFO root fetch - processPackages [dataclasses-ujson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses_ujson-0.0.5.tar.gz tmp/dataclasses_ujson-0.0.8.tar.gz --markdown 20240417/d/dataclasses-ujson/0.0.5-0.0.8/README.md --exclude *.pyd
+[2024-04-17 11:44:51] INFO root fetch - processPackages [ampo]: executing diffoscope
+[2024-04-17 11:44:51] INFO root fetch - processPackages [ampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampo-0.2.3.tar.gz tmp/ampo-0.2.4.tar.gz --markdown 20240417/a/ampo/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-17 11:44:51] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2024-04-17 11:44:51] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1712986309.tar.gz tmp/pulumi_dnsimple-3.5.0a1713331874.tar.gz --markdown 20240417/p/pulumi-dnsimple/3.5.0a1712986309-3.5.0a1713331874/README.md --exclude *.pyd
+[2024-04-17 11:44:51] INFO root fetch - processPackages [tmgtoolkit]: Downloading https://files.pythonhosted.org/packages/4a/2c/59f21298119650f9cec795eb196ec247f2b694446bdf4d20354dd71d7791/tmgtoolkit-0.1.2.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/78/fe/66901f8754b5df7544de165568f7ef14525b33189f6f895fa45dd05ba4dd/cg-60.1.1.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [jcal]: Downloading https://files.pythonhosted.org/packages/9f/cd/c0ba0f288729d0a487673b31f83063e8657f606650942e68fe729e7856d5/jcal-0.3-py3-none-any.whl
+[2024-04-17 11:44:51] INFO root fetch - processPackages [scanoss]: Downloading https://files.pythonhosted.org/packages/ae/6a/9a562453888cd4950256c4a524761cd55521304f5b402c4909ff67807e63/scanoss-1.9.0.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [pyprocessors-openai_completion]: Downloading https://files.pythonhosted.org/packages/b6/db/9de278b5795af8d5cc38db8eb7b7bb3c8734bf63bf0c51ffb1f72022a3c9/pyprocessors_openai_completion-0.5.98.tar.gz
+[2024-04-17 11:44:51] INFO root fetch - processPackages [lyzr]: Downloading https://files.pythonhosted.org/packages/3b/1a/f5e40176ae2a8bf9ad28494907a484ecaab5e97f0790bf0e796cc17e1e51/lyzr-0.1.9.tar.gz
+[2024-04-17 11:44:52] INFO root fetch - processPackages [tmgtoolkit]: executing diffoscope
+[2024-04-17 11:44:52] INFO root fetch - processPackages [tmgtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmgtoolkit-0.1.1.tar.gz tmp/tmgtoolkit-0.1.2.tar.gz --markdown 20240417/t/tmgtoolkit/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 11:44:52] INFO root fetch - processPackages [picsellia]: Downloading https://files.pythonhosted.org/packages/17/e6/4ee4c9871f71c35921138843b9bb53c0485cebd4cfe1cdc5c45b0d1aedac/picsellia-6.9.1.tar.gz
+[2024-04-17 11:44:52] INFO root fetch - processPackages [jcal]: executing diffoscope
+[2024-04-17 11:44:52] INFO root fetch - processPackages [jcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcal-0.2.1-py3-none-any.whl.zip tmp/jcal-0.3-py3-none-any.whl.zip --markdown 20240417/j/jcal/0.2.1-0.3/README.md --exclude *.pyd
+[2024-04-17 11:44:52] INFO root fetch - processPackages [pyprocessors-openai_completion]: executing diffoscope
+[2024-04-17 11:44:52] INFO root fetch - processPackages [pyprocessors-openai_completion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_openai_completion-0.5.96.tar.gz tmp/pyprocessors_openai_completion-0.5.98.tar.gz --markdown 20240417/p/pyprocessors-openai_completion/0.5.96-0.5.98/README.md --exclude *.pyd
+[2024-04-17 11:44:52] INFO root fetch - processPackages [scanoss]: executing diffoscope
+[2024-04-17 11:44:52] INFO root fetch - processPackages [scanoss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scanoss-1.8.0.tar.gz tmp/scanoss-1.9.0.tar.gz --markdown 20240417/s/scanoss/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-17 11:44:52] INFO root fetch - processPackages [picsellia]: executing diffoscope
+[2024-04-17 11:44:52] INFO root fetch - processPackages [picsellia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picsellia-6.9.0.tar.gz tmp/picsellia-6.9.1.tar.gz --markdown 20240417/p/picsellia/6.9.0-6.9.1/README.md --exclude *.pyd
+[2024-04-17 11:44:52] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-17 11:44:52] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.1.0.tar.gz tmp/cg-60.1.1.tar.gz --markdown 20240417/c/cg/60.1.0-60.1.1/README.md --exclude *.pyd
+[2024-04-17 11:44:52] INFO root fetch - processPackages [lyzr]: executing diffoscope
+[2024-04-17 11:44:52] INFO root fetch - processPackages [lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyzr-0.1.8.tar.gz tmp/lyzr-0.1.9.tar.gz --markdown 20240417/l/lyzr/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 11:44:52] INFO root fetch - processPackages [dataclasses-ujson]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_ujson-0.0.5.tar.gz]
+[2024-04-17 11:44:52] INFO root fetch - processPackages [dataclasses-ujson]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_ujson-0.0.8.tar.gz]
+[2024-04-17 11:44:52] INFO root fetch - processPackages [dataclasses-ujson]: Start processing: selfpkg
+[2024-04-17 11:44:52] INFO root fetch - main [MainThread]: End processing [dataclasses-ujson]: success
+[2024-04-17 11:44:52] INFO root fetch - processPackages [selfpkg]: New version: [0.0.3a1] Old Version: [0.0.2]
+[2024-04-17 11:44:52] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1712986309.tar.gz]
+[2024-04-17 11:44:52] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1713331874.tar.gz]
+[2024-04-17 11:44:52] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2024-04-17 11:44:52] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/5f/3a/6ee9fde9915777c7d033e9db708a4ecaaa937bbd0905ae5f69470cc42544/selfpkg-0.0.2.tar.gz
+[2024-04-17 11:44:52] INFO root fetch - processPackages [ampo]: Remove: archive file [/home/abi/fetcher/tmp/ampo-0.2.3.tar.gz]
+[2024-04-17 11:44:52] INFO root fetch - processPackages [ampo]: Remove: archive file [/home/abi/fetcher/tmp/ampo-0.2.4.tar.gz]
+[2024-04-17 11:44:52] INFO root fetch - main [MainThread]: End processing [ampo]: success
+[2024-04-17 11:44:52] INFO root fetch - processPackages [tmgtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tmgtoolkit-0.1.1.tar.gz]
+[2024-04-17 11:44:52] INFO root fetch - processPackages [tmgtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tmgtoolkit-0.1.2.tar.gz]
+[2024-04-17 11:44:52] INFO root fetch - main [MainThread]: End processing [tmgtoolkit]: success
+[2024-04-17 11:44:53] INFO root fetch - processPackages [jcal]: Remove: archive file [/home/abi/fetcher/tmp/jcal-0.2.1-py3-none-any.whl.zip]
+[2024-04-17 11:44:53] INFO root fetch - processPackages [jcal]: Remove: archive file [/home/abi/fetcher/tmp/jcal-0.3-py3-none-any.whl.zip]
+[2024-04-17 11:44:53] INFO root fetch - main [MainThread]: End processing [jcal]: success
+[2024-04-17 11:44:53] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/1f/05/17e600a4bc46542c7a955e5310b4874e90d9a1000811ef4d5c9eff199f19/selfpkg-0.0.3a1.tar.gz
+[2024-04-17 11:44:53] INFO root fetch - processPackages [pyprocessors-openai_completion]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_openai_completion-0.5.96.tar.gz]
+[2024-04-17 11:44:53] INFO root fetch - processPackages [pyprocessors-openai_completion]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_openai_completion-0.5.98.tar.gz]
+[2024-04-17 11:44:53] INFO root fetch - main [MainThread]: End processing [pyprocessors-openai_completion]: success
+[2024-04-17 11:44:53] INFO root fetch - processPackages [selfpkg]: executing diffoscope
+[2024-04-17 11:44:53] INFO root fetch - processPackages [selfpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfpkg-0.0.2.tar.gz tmp/selfpkg-0.0.3a1.tar.gz --markdown 20240417/s/selfpkg/0.0.2-0.0.3a1/README.md --exclude *.pyd
+[2024-04-17 11:44:53] INFO root fetch - processPackages [scanoss]: Remove: archive file [/home/abi/fetcher/tmp/scanoss-1.8.0.tar.gz]
+[2024-04-17 11:44:53] INFO root fetch - processPackages [scanoss]: Remove: archive file [/home/abi/fetcher/tmp/scanoss-1.9.0.tar.gz]
+[2024-04-17 11:44:53] INFO root fetch - main [MainThread]: End processing [scanoss]: success
+[2024-04-17 11:44:53] INFO root fetch - processPackages [picsellia]: Remove: archive file [/home/abi/fetcher/tmp/picsellia-6.9.0.tar.gz]
+[2024-04-17 11:44:53] INFO root fetch - processPackages [picsellia]: Remove: archive file [/home/abi/fetcher/tmp/picsellia-6.9.1.tar.gz]
+[2024-04-17 11:44:53] INFO root fetch - main [MainThread]: End processing [picsellia]: success
+[2024-04-17 11:44:53] INFO root fetch - processPackages [lyzr]: Remove: archive file [/home/abi/fetcher/tmp/lyzr-0.1.8.tar.gz]
+[2024-04-17 11:44:53] INFO root fetch - processPackages [lyzr]: Remove: archive file [/home/abi/fetcher/tmp/lyzr-0.1.9.tar.gz]
+[2024-04-17 11:44:53] INFO root fetch - main [MainThread]: End processing [lyzr]: success
+[2024-04-17 11:44:53] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.2.tar.gz]
+[2024-04-17 11:44:53] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.3a1.tar.gz]
+[2024-04-17 11:44:53] INFO root fetch - main [MainThread]: End processing [selfpkg]: success
+[2024-04-17 11:44:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.1.0.tar.gz]
+[2024-04-17 11:44:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.1.1.tar.gz]
+[2024-04-17 11:44:56] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-17 11:44:56] INFO root fetch - main [MainThread]: Store serial: [22803406]
