@@ -8234,3 +8234,75 @@
 [2024-04-17 04:36:16] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.179.tar.gz]
 [2024-04-17 04:36:16] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
 [2024-04-17 04:36:16] INFO root fetch - main [MainThread]: Store serial: [22798984]
+[2024-04-17 04:38:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798984]
+[2024-04-17 04:38:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: colorprinttest
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-declarative-manifest
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qcs-sdk-python-grpc-web
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qcs-sdk-python
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-cutoff-base
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ehdg-tools
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: asynctaskpool
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: donetools
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cellmaps-pipeline
+[2024-04-17 04:38:25] WARNING root fetch - processPackages [asynctaskpool]: Skipping, unable to determine old version
+[2024-04-17 04:38:25] INFO root fetch - main [MainThread]: End processing [asynctaskpool] error
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ehdg-tools]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-04-17 04:38:25] INFO root fetch - processPackages [cellmaps-pipeline]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2024-04-17 04:38:25] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: New version: [0.17.6rc0] Old Version: [0.17.5rc0]
+[2024-04-17 04:38:25] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: New version: [0.81.6] Old Version: [0.81.3]
+[2024-04-17 04:38:25] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: New version: [17.0.1.1.0.2] Old Version: [17.0.1.1.0.1]
+[2024-04-17 04:38:25] WARNING root fetch - processPackages [colorprinttest]: Skipping, unable to determine old version
+[2024-04-17 04:38:25] INFO root fetch - main [MainThread]: End processing [colorprinttest] error
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ehdg-tools]: Downloading https://files.pythonhosted.org/packages/2f/2d/f797103df07623f427109d6014f33d110c45a2d7ab7f1d7d67efcf474684/ehdg_tools-4.1.0.tar.gz
+[2024-04-17 04:38:25] INFO root fetch - processPackages [donetools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 04:38:25] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.9.1rc0] Old Version: [0.9.1]
+[2024-04-17 04:38:25] INFO root fetch - processPackages [cellmaps-pipeline]: Downloading https://files.pythonhosted.org/packages/69/e6/27bfdf853fe76eb37279bea1203945805438917882a75346700750e63c43/cellmaps_pipeline-0.1.0a8.tar.gz
+[2024-04-17 04:38:25] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/60/7e/5a62e02e28be108e168f7e594c00bd7bc5836230f174817b2415981f4df3/odoo_addon_account_cutoff_base-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ehdg-tools]: Downloading https://files.pythonhosted.org/packages/e3/fb/8cbec6b1d6bd3cf419ce1fea2ce72bd9c0333a80a37154d3978924b993c7/ehdg_tools-4.2.0.tar.gz
+[2024-04-17 04:38:25] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/cc/67/b8929d7c260613419a9746e7ba9555fd4475f8f033494637c7bcb3de7ca6/qcs_sdk_python_grpc_web-0.17.5rc0.tar.gz
+[2024-04-17 04:38:25] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Downloading https://files.pythonhosted.org/packages/17/09/49307c28577e6d6f5900e5f2fb61cc450df5da4afc08e40500fe240da694/airbyte_source_declarative_manifest-0.81.3.tar.gz
+[2024-04-17 04:38:25] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/e7/16ef7ef33b09a9634459bb56e910fc56d348769263fd89f5074d35a6aa31/donetools-0.0.8.tar.gz
+[2024-04-17 04:38:25] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/ae/01/0fb2c446d87f5050c97d355db924cb5d1550c365f87131b08c8d55030eec/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ehdg-tools]: executing diffoscope
+[2024-04-17 04:38:25] INFO root fetch - processPackages [ehdg-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdg_tools-4.1.0.tar.gz tmp/ehdg_tools-4.2.0.tar.gz --markdown 20240417/e/ehdg-tools/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-04-17 04:38:26] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Downloading https://files.pythonhosted.org/packages/d7/2d/bae9221b210516a224a8a1f90a4da7db3fe864c96eb2e4054e1dd5869068/airbyte_source_declarative_manifest-0.81.6.tar.gz
+[2024-04-17 04:38:26] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/07/4b/be23a7a285af4f2ccab14c5e1dc802c039acbba659b041e889b5a2115498/qcs_sdk_python_grpc_web-0.17.6rc0.tar.gz
+[2024-04-17 04:38:26] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/c8/24/d7354877b4975b58eb1c2d432efa0ec4b376de5adfe359671c3223a78eaa/odoo_addon_account_cutoff_base-17.0.1.1.0.2-py3-none-any.whl
+[2024-04-17 04:38:26] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/bc/28/cc26a1e320fe8c7340f7a8a47ad56f46fe697a88680abb956588b9650e76/donetools-0.0.9.tar.gz
+[2024-04-17 04:38:26] INFO root fetch - processPackages [cellmaps-pipeline]: Downloading https://files.pythonhosted.org/packages/fe/56/bc4a94154fd79bc8c2a1d54b74da568ef097d245ebd9c19b00d7b2d76b35/cellmaps_pipeline-0.1.0a9.tar.gz
+[2024-04-17 04:38:26] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: executing diffoscope
+[2024-04-17 04:38:26] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_declarative_manifest-0.81.3.tar.gz tmp/airbyte_source_declarative_manifest-0.81.6.tar.gz --markdown 20240417/a/airbyte-source-declarative-manifest/0.81.3-0.81.6/README.md --exclude *.pyd
+[2024-04-17 04:38:26] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-17 04:38:26] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.8.tar.gz tmp/donetools-0.0.9.tar.gz --markdown 20240417/d/donetools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 04:38:26] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: executing diffoscope
+[2024-04-17 04:38:26] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python_grpc_web-0.17.5rc0.tar.gz tmp/qcs_sdk_python_grpc_web-0.17.6rc0.tar.gz --markdown 20240417/q/qcs-sdk-python-grpc-web/0.17.5rc0-0.17.6rc0/README.md --exclude *.pyd
+[2024-04-17 04:38:26] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: executing diffoscope
+[2024-04-17 04:38:26] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_base-17.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_base-17.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240417/o/odoo-addon-account-cutoff-base/17.0.1.1.0.1-17.0.1.1.0.2/README.md --exclude *.pyd
+[2024-04-17 04:38:26] INFO root fetch - processPackages [cellmaps-pipeline]: executing diffoscope
+[2024-04-17 04:38:26] INFO root fetch - processPackages [cellmaps-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_pipeline-0.1.0a8.tar.gz tmp/cellmaps_pipeline-0.1.0a9.tar.gz --markdown 20240417/c/cellmaps-pipeline/0.1.0a8-0.1.0a9/README.md --exclude *.pyd
+[2024-04-17 04:38:26] INFO root fetch - processPackages [ehdg-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_tools-4.1.0.tar.gz]
+[2024-04-17 04:38:26] INFO root fetch - processPackages [ehdg-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_tools-4.2.0.tar.gz]
+[2024-04-17 04:38:26] INFO root fetch - main [MainThread]: End processing [ehdg-tools]: success
+[2024-04-17 04:38:26] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.8.tar.gz]
+[2024-04-17 04:38:26] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
+[2024-04-17 04:38:26] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-17 04:38:26] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/2e/f1/272ed4b50250474a48d15284cb78d9fa628df46edf6e61cbe635ff067749/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-17 04:38:26] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_declarative_manifest-0.81.3.tar.gz]
+[2024-04-17 04:38:26] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_declarative_manifest-0.81.6.tar.gz]
+[2024-04-17 04:38:26] INFO root fetch - main [MainThread]: End processing [airbyte-source-declarative-manifest]: success
+[2024-04-17 04:38:27] INFO root fetch - processPackages [cellmaps-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_pipeline-0.1.0a8.tar.gz]
+[2024-04-17 04:38:27] INFO root fetch - processPackages [cellmaps-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_pipeline-0.1.0a9.tar.gz]
+[2024-04-17 04:38:27] INFO root fetch - main [MainThread]: End processing [cellmaps-pipeline]: success
+[2024-04-17 04:38:27] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-17 04:38:27] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-04-17 04:38:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-base]: success
+[2024-04-17 04:38:27] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.5rc0.tar.gz]
+[2024-04-17 04:38:27] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.6rc0.tar.gz]
+[2024-04-17 04:38:27] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python-grpc-web]: success
+[2024-04-17 04:38:27] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2024-04-17 04:38:27] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240417/q/qcs-sdk-python/0.9.1-0.9.1rc0/README.md --exclude *.pyd
+[2024-04-17 04:40:40] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-17 04:40:40] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-17 04:40:40] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2024-04-17 04:40:40] INFO root fetch - main [MainThread]: Store serial: [22799017]
