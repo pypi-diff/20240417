@@ -20174,3 +20174,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:54:51] INFO root fetch - processPackages [fortimanager-template-sync]: Remove: archive file [/home/abi/fetcher/tmp/fortimanager_template_sync-0.0.1.post1.tar.gz]
 [2024-04-17 12:54:51] INFO root fetch - main [MainThread]: End processing [fortimanager-template-sync]: success
 [2024-04-17 12:54:51] INFO root fetch - main [MainThread]: Store serial: [22804165]
+[2024-04-17 12:56:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804165]
+[2024-04-17 12:57:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 12:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keble-db
+[2024-04-17 12:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydcogenerator
+[2024-04-17 12:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydcogenerator
+[2024-04-17 12:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydocgenerator
+[2024-04-17 12:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydocgenerator
+[2024-04-17 12:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tsk-monster
+[2024-04-17 12:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ethyca-fides
+[2024-04-17 12:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autora-experimentalist-extrapolation
+[2024-04-17 12:57:00] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 12:57:00] INFO root fetch - processPackages [pydcogenerator]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-04-17 12:57:00] INFO root fetch - processPackages [pydcogenerator]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-04-17 12:57:00] INFO root fetch - processPackages [keble-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 12:57:00] INFO root fetch - processPackages [pydocgenerator]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-17 12:57:00] INFO root fetch - processPackages [pydocgenerator]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-17 12:57:00] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-17 12:57:00] WARNING root fetch - processPackages [autora-experimentalist-extrapolation]: Skipping, unable to determine old version
+[2024-04-17 12:57:00] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-extrapolation] error
+[2024-04-17 12:57:00] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-17 12:57:00] INFO root fetch - processPackages [pydcogenerator]: Downloading https://files.pythonhosted.org/packages/f6/66/8777f55a77497fddad6c37c242fc1a831ad2cadffba0d3772d255e0acc25/pydcogenerator-0.0.5.tar.gz
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydocgenerator]: Downloading https://files.pythonhosted.org/packages/9c/06/fc30b3332d6b047a6717be388f1838cfbc4d930d2fa482c52b28777a025e/pydocgenerator-0.0.3.tar.gz
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydcogenerator]: Downloading https://files.pythonhosted.org/packages/f6/66/8777f55a77497fddad6c37c242fc1a831ad2cadffba0d3772d255e0acc25/pydcogenerator-0.0.5.tar.gz
+[2024-04-17 12:57:01] INFO root fetch - processPackages [keble-db]: Downloading https://files.pythonhosted.org/packages/80/49/9ca1d9f3c1059977331f8dcf9443159176fd0177ea59276f5e0a63b7ab5e/keble_db-0.0.8.tar.gz
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydocgenerator]: Downloading https://files.pythonhosted.org/packages/9c/06/fc30b3332d6b047a6717be388f1838cfbc4d930d2fa482c52b28777a025e/pydocgenerator-0.0.3.tar.gz
+[2024-04-17 12:57:01] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-04-17 12:57:01] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-17 12:57:01] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-17 12:57:01] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240417/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydcogenerator]: Downloading https://files.pythonhosted.org/packages/5a/50/6c0c9b181eda47b26945a41b780a9f24ae31d23595a81267b21ed5354b49/pydcogenerator-0.1.0.tar.gz
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydcogenerator]: Downloading https://files.pythonhosted.org/packages/5a/50/6c0c9b181eda47b26945a41b780a9f24ae31d23595a81267b21ed5354b49/pydcogenerator-0.1.0.tar.gz
+[2024-04-17 12:57:01] INFO root fetch - processPackages [keble-db]: Downloading https://files.pythonhosted.org/packages/5a/18/7b1356a4b51d29a4ee543bdb7400c5d01880424bf69621271ddbcbaaec68/keble_db-0.0.9.tar.gz
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydocgenerator]: Downloading https://files.pythonhosted.org/packages/4b/a5/dfd45147b9fb62d0eda51b28af970536f10033f65fc06712257d2733e6ff/pydocgenerator-0.0.4.tar.gz
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydocgenerator]: Downloading https://files.pythonhosted.org/packages/4b/a5/dfd45147b9fb62d0eda51b28af970536f10033f65fc06712257d2733e6ff/pydocgenerator-0.0.4.tar.gz
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydcogenerator]: executing diffoscope
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydcogenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydcogenerator-0.0.5.tar.gz tmp/pydcogenerator-0.1.0.tar.gz --markdown 20240417/p/pydcogenerator/0.0.5-0.1.0/README.md --exclude *.pyd
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydcogenerator]: executing diffoscope
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydcogenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydcogenerator-0.0.5.tar.gz tmp/pydcogenerator-0.1.0.tar.gz --markdown 20240417/p/pydcogenerator/0.0.5-0.1.0/README.md --exclude *.pyd
+[2024-04-17 12:57:01] INFO root fetch - processPackages [keble-db]: executing diffoscope
+[2024-04-17 12:57:01] INFO root fetch - processPackages [keble-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keble_db-0.0.8.tar.gz tmp/keble_db-0.0.9.tar.gz --markdown 20240417/k/keble-db/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydocgenerator]: executing diffoscope
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydocgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydocgenerator-0.0.3.tar.gz tmp/pydocgenerator-0.0.4.tar.gz --markdown 20240417/p/pydocgenerator/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydocgenerator]: executing diffoscope
+[2024-04-17 12:57:01] INFO root fetch - processPackages [pydocgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydocgenerator-0.0.3.tar.gz tmp/pydocgenerator-0.0.4.tar.gz --markdown 20240417/p/pydocgenerator/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-17 12:57:01] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-04-17 12:57:01] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-17 12:57:01] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-17 12:57:01] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-17 12:57:02] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-04-17 12:57:02] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240417/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-17 12:57:02] INFO root fetch - processPackages [pydocgenerator]: Remove: archive file [/home/abi/fetcher/tmp/pydocgenerator-0.0.3.tar.gz]
+[2024-04-17 12:57:02] INFO root fetch - processPackages [pydocgenerator]: Remove: archive file [/home/abi/fetcher/tmp/pydocgenerator-0.0.4.tar.gz]
+[2024-04-17 12:57:02] INFO root fetch - main [MainThread]: End processing [pydocgenerator]: success
+[2024-04-17 12:57:02] INFO root fetch - processPackages [pydcogenerator]: Remove: archive file [/home/abi/fetcher/tmp/pydcogenerator-0.0.5.tar.gz]
+[2024-04-17 12:57:02] INFO root fetch - processPackages [pydcogenerator]: Remove: archive file [/home/abi/fetcher/tmp/pydcogenerator-0.1.0.tar.gz]
+[2024-04-17 12:57:02] INFO root fetch - main [MainThread]: End processing [pydcogenerator]: success
+[2024-04-17 12:57:02] INFO root fetch - main [MainThread]: End processing [pydcogenerator]: success
+[2024-04-17 12:57:02] INFO root fetch - processPackages [keble-db]: Remove: archive file [/home/abi/fetcher/tmp/keble_db-0.0.8.tar.gz]
+[2024-04-17 12:57:02] INFO root fetch - processPackages [keble-db]: Remove: archive file [/home/abi/fetcher/tmp/keble_db-0.0.9.tar.gz]
+[2024-04-17 12:57:02] INFO root fetch - main [MainThread]: End processing [keble-db]: success
+[2024-04-17 12:57:02] INFO root fetch - main [MainThread]: End processing [pydocgenerator]: success
+[2024-04-17 12:57:05] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-04-17 12:57:05] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-04-17 12:57:05] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-04-17 12:57:05] INFO root fetch - main [MainThread]: Store serial: [22804195]
