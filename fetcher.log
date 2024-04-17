@@ -20941,3 +20941,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:33:42] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-04-17 13:33:42] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-04-17 13:33:42] INFO root fetch - main [MainThread]: Store serial: [22804575]
+[2024-04-17 13:35:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804575]
+[2024-04-17 13:35:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 13:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: malevich-space
+[2024-04-17 13:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-gpt
+[2024-04-17 13:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudforet-console-api-v2
+[2024-04-17 13:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-tools
+[2024-04-17 13:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: POTHEAD
+[2024-04-17 13:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ampo
+[2024-04-17 13:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neuromeka
+[2024-04-17 13:35:51] INFO root fetch - processPackages [ampo]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-17 13:35:51] INFO root fetch - processPackages [langchain-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-17 13:35:51] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-17 13:35:51] INFO root fetch - processPackages [nonebot-plugin-gpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 13:35:51] INFO root fetch - processPackages [ampo]: Downloading https://files.pythonhosted.org/packages/42/8a/7f77bf2e5f7d6aad354d80e21249305b5aea0c17e60bcd1658b157382a78/ampo-0.2.4.tar.gz
+[2024-04-17 13:35:51] WARNING root fetch - processPackages [neuromeka]: Skipping, unable to determine old version
+[2024-04-17 13:35:51] INFO root fetch - main [MainThread]: End processing [neuromeka] error
+[2024-04-17 13:35:51] INFO root fetch - processPackages [malevich-space]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-17 13:35:51] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/6b/00/163bdee32da39c08882b88ee6983de813905743f23581dbfb76b13a9fe9a/langchain-tools-0.1.5.tar.gz
+[2024-04-17 13:35:51] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/b1/83/382d576c7baaf1076b4ba63610379bfef3bb2bd2d564ad1843394c61f1a8/cloudforet-console-api-v2-2.0.dev98.tar.gz
+[2024-04-17 13:35:51] INFO root fetch - processPackages [POTHEAD]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-17 13:35:51] INFO root fetch - processPackages [nonebot-plugin-gpt]: Downloading https://files.pythonhosted.org/packages/d3/b8/e98732cabdc5211650e901088c2fde40acd5a0131b175d00468129132813/nonebot-plugin-gpt-0.0.8.tar.gz
+[2024-04-17 13:35:51] INFO root fetch - processPackages [malevich-space]: Downloading https://files.pythonhosted.org/packages/3e/e8/4a3118e7e00fb6f4ee4717ac9f41c1f7d851c0d4827c6dcd036dc26325b1/malevich_space-0.4.8.tar.gz
+[2024-04-17 13:35:51] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/cf/25/9d47cc2c84391ec2938a90838e49ede3e160adac5120144d8052428e063a/langchain-tools-0.1.6.tar.gz
+[2024-04-17 13:35:51] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/cc/3a/2cab122ef371d628e0e339e8a0b5233e79840b362512069527bd9fce8f78/cloudforet-console-api-v2-2.0.dev99.tar.gz
+[2024-04-17 13:35:51] INFO root fetch - processPackages [langchain-tools]: executing diffoscope
+[2024-04-17 13:35:51] INFO root fetch - processPackages [langchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-tools-0.1.5.tar.gz tmp/langchain-tools-0.1.6.tar.gz --markdown 20240417/l/langchain-tools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-17 13:35:51] INFO root fetch - processPackages [POTHEAD]: Downloading https://files.pythonhosted.org/packages/15/3e/d799c8656816d025d0fc0787054dc949160fbb2aef131ae66417d1cf72fd/POTHEAD-0.8.9.tar.gz
+[2024-04-17 13:35:51] INFO root fetch - processPackages [ampo]: Downloading https://files.pythonhosted.org/packages/c2/5f/1bdbc8152d8fe8e6ddee0c12420b683217e80928b7561a190ef1fcaf9f2a/ampo-0.2.5.tar.gz
+[2024-04-17 13:35:51] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2024-04-17 13:35:51] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz --markdown 20240417/c/cloudforet-console-api-v2/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-17 13:35:51] INFO root fetch - processPackages [ampo]: executing diffoscope
+[2024-04-17 13:35:51] INFO root fetch - processPackages [ampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampo-0.2.4.tar.gz tmp/ampo-0.2.5.tar.gz --markdown 20240417/a/ampo/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-17 13:35:51] INFO root fetch - processPackages [nonebot-plugin-gpt]: Downloading https://files.pythonhosted.org/packages/3d/9f/81d150090fcea62c65939c289c40f03dc27e061ec4bc33f5dafeb79fc785/nonebot-plugin-gpt-0.0.9.tar.gz
+[2024-04-17 13:35:51] INFO root fetch - processPackages [malevich-space]: Downloading https://files.pythonhosted.org/packages/dc/ab/47d152787e634bfae81bae05d2fb910c21ab44dc32a6e6ee46e0596288b9/malevich_space-0.4.9.tar.gz
+[2024-04-17 13:35:52] INFO root fetch - processPackages [nonebot-plugin-gpt]: executing diffoscope
+[2024-04-17 13:35:52] INFO root fetch - processPackages [nonebot-plugin-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-gpt-0.0.8.tar.gz tmp/nonebot-plugin-gpt-0.0.9.tar.gz --markdown 20240417/n/nonebot-plugin-gpt/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 13:35:52] INFO root fetch - processPackages [POTHEAD]: Downloading https://files.pythonhosted.org/packages/e4/74/2075389ba6e000d4d076284d6de59d0bc2962f0a9c9f7eea3fcb66301e88/POTHEAD-0.9.0.tar.gz
+[2024-04-17 13:35:52] INFO root fetch - processPackages [malevich-space]: executing diffoscope
+[2024-04-17 13:35:52] INFO root fetch - processPackages [malevich-space]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malevich_space-0.4.8.tar.gz tmp/malevich_space-0.4.9.tar.gz --markdown 20240417/m/malevich-space/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-17 13:35:52] INFO root fetch - processPackages [POTHEAD]: executing diffoscope
+[2024-04-17 13:35:52] INFO root fetch - processPackages [POTHEAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/POTHEAD-0.8.9.tar.gz tmp/POTHEAD-0.9.0.tar.gz --markdown 20240417/P/POTHEAD/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-04-17 13:35:52] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz]
+[2024-04-17 13:35:52] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz]
+[2024-04-17 13:35:52] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2024-04-17 13:35:52] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.5.tar.gz]
+[2024-04-17 13:35:52] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.6.tar.gz]
+[2024-04-17 13:35:52] INFO root fetch - main [MainThread]: End processing [langchain-tools]: success
+[2024-04-17 13:35:52] INFO root fetch - processPackages [ampo]: Remove: archive file [/home/abi/fetcher/tmp/ampo-0.2.4.tar.gz]
+[2024-04-17 13:35:52] INFO root fetch - processPackages [ampo]: Remove: archive file [/home/abi/fetcher/tmp/ampo-0.2.5.tar.gz]
+[2024-04-17 13:35:52] INFO root fetch - main [MainThread]: End processing [ampo]: success
+[2024-04-17 13:35:52] INFO root fetch - processPackages [nonebot-plugin-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-gpt-0.0.8.tar.gz]
+[2024-04-17 13:35:52] INFO root fetch - processPackages [nonebot-plugin-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-gpt-0.0.9.tar.gz]
+[2024-04-17 13:35:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gpt]: success
+[2024-04-17 13:35:52] INFO root fetch - processPackages [malevich-space]: Remove: archive file [/home/abi/fetcher/tmp/malevich_space-0.4.8.tar.gz]
+[2024-04-17 13:35:52] INFO root fetch - processPackages [malevich-space]: Remove: archive file [/home/abi/fetcher/tmp/malevich_space-0.4.9.tar.gz]
+[2024-04-17 13:35:52] INFO root fetch - main [MainThread]: End processing [malevich-space]: success
+[2024-04-17 13:35:52] INFO root fetch - processPackages [POTHEAD]: Remove: archive file [/home/abi/fetcher/tmp/POTHEAD-0.8.9.tar.gz]
+[2024-04-17 13:35:52] INFO root fetch - processPackages [POTHEAD]: Remove: archive file [/home/abi/fetcher/tmp/POTHEAD-0.9.0.tar.gz]
+[2024-04-17 13:35:52] INFO root fetch - main [MainThread]: End processing [POTHEAD]: success
+[2024-04-17 13:35:52] INFO root fetch - main [MainThread]: Store serial: [22804610]
