@@ -20815,3 +20815,92 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:29:02] INFO root fetch - processPackages [mahotas]: Remove: archive file [/home/abi/fetcher/tmp/mahotas-1.4.9.tar.gz]
 [2024-04-17 13:29:02] INFO root fetch - main [MainThread]: End processing [mahotas]: success
 [2024-04-17 13:29:02] INFO root fetch - main [MainThread]: Store serial: [22804509]
+[2024-04-17 13:31:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804509]
+[2024-04-17 13:31:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybiolib
+[2024-04-17 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zephyr-python-api
+[2024-04-17 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NearBeach
+[2024-04-17 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pcgym
+[2024-04-17 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-readers
+[2024-04-17 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: notdiamond
+[2024-04-17 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mediascope-api-lib
+[2024-04-17 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gs2
+[2024-04-17 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nsqdriver
+[2024-04-17 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: misleep
+[2024-04-17 13:31:12] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-04-17 13:31:12] INFO root fetch - processPackages [notdiamond]: New version: [0.1.4b0] Old Version: [0.1.3b0]
+[2024-04-17 13:31:12] INFO root fetch - processPackages [zephyr-python-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-17 13:31:12] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/43/c6/f46b540991741d33933d6927f706523f07b5e75807f2e4430705779aa482/notdiamond-0.1.3b0.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [django-readers]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-17 13:31:12] INFO root fetch - processPackages [mediascope-api-lib]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-17 13:31:12] INFO root fetch - processPackages [pcgym]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-17 13:31:12] INFO root fetch - processPackages [gs2]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-17 13:31:12] INFO root fetch - processPackages [NearBeach]: New version: [0.31.9] Old Version: [0.31.8]
+[2024-04-17 13:31:12] INFO root fetch - processPackages [nsqdriver]: New version: [0.5.6] Old Version: [0.5.4]
+[2024-04-17 13:31:12] INFO root fetch - processPackages [misleep]: New version: [0.2.2b0] Old Version: [0.2.1b0]
+[2024-04-17 13:31:12] INFO root fetch - processPackages [django-readers]: Downloading https://files.pythonhosted.org/packages/e1/cb/144cd0984fb04ab5f2317fd141a6b5a767b730a23ad4910336d22eb22298/django-readers-2.2.0.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [zephyr-python-api]: Downloading https://files.pythonhosted.org/packages/f2/4b/1b7854b6c0a0a2d4222a704643101b5d54abce28f4450322187c2670ebfb/zephyr-python-api-0.0.4.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/c5/4e/2410c578d132c3fea988dc408e73fddf9945a8ab84f7cfbaa7c82bd7a40b/gs2-1.1.98.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [NearBeach]: Downloading https://files.pythonhosted.org/packages/d3/c9/4444a9584fae7ddaa87ff4efa7f16f8833a3827e50758749323b05d77edd/nearbeach-0.31.8.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [mediascope-api-lib]: Downloading https://files.pythonhosted.org/packages/ad/c0/096d6b85be30e2e8ae8ea253f4b5ae5bf049b5d0a73031ec4ad8394866ee/mediascope_api_lib-1.1.8.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/68/1d/cb849ca6902c595159582a701176a21f69909f2eeb487ce528359bfc42f9/nsqdriver-0.5.4-cp39-cp39-win_amd64.whl
+[2024-04-17 13:31:12] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/e3/0f/e3a9feac9b775d12d116f7aaa3f464ecf102bcaf2040927f4c129f0f77e8/misleep-0.2.1b0.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/46/b8/3a2c7a4f33ecef30c649dbf3d5354dd6d4762bef8efe8a01aeab53763547/notdiamond-0.1.4b0.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [pcgym]: Downloading https://files.pythonhosted.org/packages/76/63/0c826884602b48ddf4336bcb39ee7d01cde48c86cdb0afc5139180e55e75/pcgym-0.1.5.tar.gz
+[2024-04-17 13:31:12] WARNING root fetch - processPackages [NearBeach]: Skipping package: exceeds size limit 32530107>=10485760
+[2024-04-17 13:31:12] INFO root fetch - main [MainThread]: End processing [NearBeach] error
+[2024-04-17 13:31:12] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-04-17 13:31:12] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240417/p/pybiolib/1.1.997-1.1.999/README.md --exclude *.pyd
+[2024-04-17 13:31:12] INFO root fetch - processPackages [notdiamond]: executing diffoscope
+[2024-04-17 13:31:12] INFO root fetch - processPackages [notdiamond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notdiamond-0.1.3b0.tar.gz tmp/notdiamond-0.1.4b0.tar.gz --markdown 20240417/n/notdiamond/0.1.3b0-0.1.4b0/README.md --exclude *.pyd
+[2024-04-17 13:31:12] INFO root fetch - processPackages [django-readers]: Downloading https://files.pythonhosted.org/packages/5f/f1/edc43e4e07fa4710cf96fe684e90300dbdfc9fcabadf9ffbeeda018d2b9e/django-readers-2.3.0.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/81/a0/4021a82a0acbd1a2e84e6dce76f329b6654d5ebcf3ad4bfebcfcb3152d55/gs2-1.1.99.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [mediascope-api-lib]: Downloading https://files.pythonhosted.org/packages/07/f7/33a069c960e3437034bbadb0951bb35a13e8e2e16a74aed7e766f6a9548e/mediascope_api_lib-1.1.9.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [zephyr-python-api]: Downloading https://files.pythonhosted.org/packages/50/30/e84aba88f6b3097e64b769c18db89f7ae24d35a153b4a6a122ec626fbf43/zephyr_python_api-0.0.5.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [django-readers]: executing diffoscope
+[2024-04-17 13:31:12] INFO root fetch - processPackages [pcgym]: Downloading https://files.pythonhosted.org/packages/f7/15/19d565742baca2b0383b7e35326991d6326d0cc63042e11cd7bad4dc086a/pcgym-0.1.6.tar.gz
+[2024-04-17 13:31:12] INFO root fetch - processPackages [django-readers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-readers-2.2.0.tar.gz tmp/django-readers-2.3.0.tar.gz --markdown 20240417/d/django-readers/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-04-17 13:31:12] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/2a/12/9741f69c0ca53cf403efe9663a74765a2ea416991d45210e4610a06b632f/nsqdriver-0.5.6-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-17 13:31:12] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/b4/34/85ab36d21a9a2b62e79d29bec12838c27b723227eabd499127564583e49d/misleep-0.2.2b0.tar.gz
+[2024-04-17 13:31:13] INFO root fetch - processPackages [zephyr-python-api]: executing diffoscope
+[2024-04-17 13:31:13] INFO root fetch - processPackages [zephyr-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zephyr-python-api-0.0.4.tar.gz tmp/zephyr_python_api-0.0.5.tar.gz --markdown 20240417/z/zephyr-python-api/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-17 13:31:13] INFO root fetch - processPackages [pcgym]: executing diffoscope
+[2024-04-17 13:31:13] INFO root fetch - processPackages [pcgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcgym-0.1.5.tar.gz tmp/pcgym-0.1.6.tar.gz --markdown 20240417/p/pcgym/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-17 13:31:13] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2024-04-17 13:31:13] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.98.tar.gz tmp/gs2-1.1.99.tar.gz --markdown 20240417/g/gs2/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-17 13:31:13] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-04-17 13:31:13] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.2.1b0.tar.gz tmp/misleep-0.2.2b0.tar.gz --markdown 20240417/m/misleep/0.2.1b0-0.2.2b0/README.md --exclude *.pyd
+[2024-04-17 13:31:13] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.3b0.tar.gz]
+[2024-04-17 13:31:13] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.4b0.tar.gz]
+[2024-04-17 13:31:13] INFO root fetch - main [MainThread]: End processing [notdiamond]: success
+[2024-04-17 13:31:13] INFO root fetch - processPackages [nsqdriver]: executing diffoscope
+[2024-04-17 13:31:13] INFO root fetch - processPackages [nsqdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsqdriver-0.5.4-cp39-cp39-win_amd64.whl.zip tmp/nsqdriver-0.5.6-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240417/n/nsqdriver/0.5.4-0.5.6/README.md --exclude *.pyd
+[2024-04-17 13:31:13] INFO root fetch - processPackages [django-readers]: Remove: archive file [/home/abi/fetcher/tmp/django-readers-2.2.0.tar.gz]
+[2024-04-17 13:31:13] INFO root fetch - processPackages [django-readers]: Remove: archive file [/home/abi/fetcher/tmp/django-readers-2.3.0.tar.gz]
+[2024-04-17 13:31:13] INFO root fetch - main [MainThread]: End processing [django-readers]: success
+[2024-04-17 13:31:13] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-04-17 13:31:13] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-04-17 13:31:13] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-04-17 13:31:13] INFO root fetch - processPackages [pcgym]: Remove: archive file [/home/abi/fetcher/tmp/pcgym-0.1.5.tar.gz]
+[2024-04-17 13:31:13] INFO root fetch - processPackages [pcgym]: Remove: archive file [/home/abi/fetcher/tmp/pcgym-0.1.6.tar.gz]
+[2024-04-17 13:31:13] INFO root fetch - main [MainThread]: End processing [pcgym]: success
+[2024-04-17 13:31:13] INFO root fetch - processPackages [zephyr-python-api]: Remove: archive file [/home/abi/fetcher/tmp/zephyr-python-api-0.0.4.tar.gz]
+[2024-04-17 13:31:13] INFO root fetch - processPackages [zephyr-python-api]: Remove: archive file [/home/abi/fetcher/tmp/zephyr_python_api-0.0.5.tar.gz]
+[2024-04-17 13:31:13] INFO root fetch - main [MainThread]: End processing [zephyr-python-api]: success
+[2024-04-17 13:31:14] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.1b0.tar.gz]
+[2024-04-17 13:31:14] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.2b0.tar.gz]
+[2024-04-17 13:31:14] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-04-17 13:31:14] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.5.4-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 13:31:14] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.5.6-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-17 13:31:14] INFO root fetch - main [MainThread]: End processing [nsqdriver]: success
+[2024-04-17 13:31:14] INFO root fetch - processPackages [mediascope-api-lib]: executing diffoscope
+[2024-04-17 13:31:14] INFO root fetch - processPackages [mediascope-api-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediascope_api_lib-1.1.8.tar.gz tmp/mediascope_api_lib-1.1.9.tar.gz --markdown 20240417/m/mediascope-api-lib/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-17 13:31:15] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.98.tar.gz]
+[2024-04-17 13:31:15] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
+[2024-04-17 13:31:15] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2024-04-17 13:31:15] INFO root fetch - processPackages [mediascope-api-lib]: Remove: archive file [/home/abi/fetcher/tmp/mediascope_api_lib-1.1.8.tar.gz]
+[2024-04-17 13:31:15] INFO root fetch - processPackages [mediascope-api-lib]: Remove: archive file [/home/abi/fetcher/tmp/mediascope_api_lib-1.1.9.tar.gz]
+[2024-04-17 13:31:15] INFO root fetch - main [MainThread]: End processing [mediascope-api-lib]: success
+[2024-04-17 13:31:15] INFO root fetch - main [MainThread]: Store serial: [22804544]
