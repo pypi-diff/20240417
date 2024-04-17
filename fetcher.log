@@ -23083,3 +23083,75 @@ EOFError: EOF read where object expected
 [2024-04-17 14:47:32] INFO root fetch - processPackages [astromartini]: Remove: archive file [/home/abi/fetcher/tmp/astromartini-2.0.9.tar.gz]
 [2024-04-17 14:47:32] INFO root fetch - main [MainThread]: End processing [astromartini]: success
 [2024-04-17 14:47:32] INFO root fetch - main [MainThread]: Store serial: [22805647]
+[2024-04-17 14:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805647]
+[2024-04-17 14:49:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 14:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyCXpress
+[2024-04-17 14:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FicImageScript
+[2024-04-17 14:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codedepot-git-ai
+[2024-04-17 14:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datarobot-model-metrics
+[2024-04-17 14:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DataWeaver
+[2024-04-17 14:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ained
+[2024-04-17 14:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pykwl
+[2024-04-17 14:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leadguru-jobs
+[2024-04-17 14:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neptune
+[2024-04-17 14:49:42] INFO root fetch - processPackages [PyCXpress]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 14:49:42] INFO root fetch - processPackages [codedepot-git-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 14:49:42] INFO root fetch - processPackages [DataWeaver]: New version: [1.0.1] Old Version: [0.3.5]
+[2024-04-17 14:49:42] INFO root fetch - processPackages [PyCXpress]: Downloading https://files.pythonhosted.org/packages/bd/40/6b0ffd83f7ebe413d2b536c66e6c0f86e2c1288d354b48b7bccc45b34098/pycxpress-0.0.1.tar.gz
+[2024-04-17 14:49:42] INFO root fetch - processPackages [FicImageScript]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-17 14:49:42] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/75/a0/d0e8b138cccd8f61da86fd40d4a8266353af6b5bfed4b3be48a89b58d840/codedepot_git_ai-0.0.8.tar.gz
+[2024-04-17 14:49:42] WARNING root fetch - processPackages [pykwl]: Skipping, unable to determine old version
+[2024-04-17 14:49:42] INFO root fetch - main [MainThread]: End processing [pykwl] error
+[2024-04-17 14:49:42] INFO root fetch - processPackages [DataWeaver]: Downloading https://files.pythonhosted.org/packages/a0/67/e14eee7a3d16505ab81cb80852f60776d6849e805f3410f6f41c6c612717/dataweaver-0.3.5.tar.gz
+[2024-04-17 14:49:42] WARNING root fetch - processPackages [ained]: Skipping, unable to determine old version
+[2024-04-17 14:49:42] INFO root fetch - main [MainThread]: End processing [ained] error
+[2024-04-17 14:49:42] INFO root fetch - processPackages [datarobot-model-metrics]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-17 14:49:42] INFO root fetch - processPackages [neptune]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2024-04-17 14:49:42] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-17 14:49:42] INFO root fetch - processPackages [FicImageScript]: Downloading https://files.pythonhosted.org/packages/ef/3d/21093c5dbfa17757481dfcaca018420de28da5922c9267304d0fd3dabce6/FicImageScript-4.0.0.tar.gz
+[2024-04-17 14:49:42] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/1f/fb/3fcdaf99d6434aada4ea578dd2a3d046376dcc888a968c197445c5dd195b/codedepot_git_ai-0.0.9.tar.gz
+[2024-04-17 14:49:42] INFO root fetch - processPackages [PyCXpress]: Downloading https://files.pythonhosted.org/packages/3f/aa/5eb93dac7e9bc67a384a2d3e1e90528cdb4dc7e376400a4ea1d8654f5897/pycxpress-0.0.2.tar.gz
+[2024-04-17 14:49:42] INFO root fetch - processPackages [datarobot-model-metrics]: Downloading https://files.pythonhosted.org/packages/95/00/0f2c454780df4ae1e304c40130b9a9f1d216ab1e12b4aa01b1eaf10f0fb5/datarobot_model_metrics-0.5.5-py2.py3-none-any.whl
+[2024-04-17 14:49:42] INFO root fetch - processPackages [DataWeaver]: Downloading https://files.pythonhosted.org/packages/9c/86/0cbbf57492a5fecdb35c4b5bc3e53bb7e7a8d5cd50fa2f4aa91751f624ad/dataweaver-1.0.1.tar.gz
+[2024-04-17 14:49:42] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/85/c9/8e594412788643ef529464b6c309b51baff2825e5a3b7a3fd631f41969ee/neptune-2.0.0a1.tar.gz
+[2024-04-17 14:49:42] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-17 14:49:42] INFO root fetch - processPackages [DataWeaver]: executing diffoscope
+[2024-04-17 14:49:42] INFO root fetch - processPackages [codedepot-git-ai]: executing diffoscope
+[2024-04-17 14:49:42] INFO root fetch - processPackages [DataWeaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataweaver-0.3.5.tar.gz tmp/dataweaver-1.0.1.tar.gz --markdown 20240417/D/DataWeaver/0.3.5-1.0.1/README.md --exclude *.pyd
+[2024-04-17 14:49:42] INFO root fetch - processPackages [codedepot-git-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_git_ai-0.0.8.tar.gz tmp/codedepot_git_ai-0.0.9.tar.gz --markdown 20240417/c/codedepot-git-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 14:49:42] INFO root fetch - processPackages [PyCXpress]: executing diffoscope
+[2024-04-17 14:49:42] INFO root fetch - processPackages [PyCXpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycxpress-0.0.1.tar.gz tmp/pycxpress-0.0.2.tar.gz --markdown 20240417/P/PyCXpress/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 14:49:42] INFO root fetch - processPackages [FicImageScript]: Downloading https://files.pythonhosted.org/packages/f2/b6/1b6e734e5167d3345872101ef9099231095938e6efb77f25ee472bde9acf/ficimagescript-4.1.0.tar.gz
+[2024-04-17 14:49:42] INFO root fetch - processPackages [datarobot-model-metrics]: Downloading https://files.pythonhosted.org/packages/49/20/8c8989dcb764c893abc4143cdb72a047a9e436fb9358071f8bbd43cb532d/datarobot_model_metrics-0.5.6-py2.py3-none-any.whl
+[2024-04-17 14:49:42] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/ac/bc/9cfd0d654234bce80c130b7ed58d9a0c7e1b450bdefa25675f78f39f01a2/neptune-2.0.0a2.tar.gz
+[2024-04-17 14:49:42] INFO root fetch - processPackages [FicImageScript]: executing diffoscope
+[2024-04-17 14:49:42] INFO root fetch - processPackages [FicImageScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FicImageScript-4.0.0.tar.gz tmp/ficimagescript-4.1.0.tar.gz --markdown 20240417/F/FicImageScript/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-04-17 14:49:42] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-17 14:49:43] INFO root fetch - processPackages [datarobot-model-metrics]: executing diffoscope
+[2024-04-17 14:49:43] INFO root fetch - processPackages [datarobot-model-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_model_metrics-0.5.5-py2.py3-none-any.whl.zip tmp/datarobot_model_metrics-0.5.6-py2.py3-none-any.whl.zip --markdown 20240417/d/datarobot-model-metrics/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-04-17 14:49:43] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-17 14:49:43] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240417/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-04-17 14:49:43] INFO root fetch - processPackages [neptune]: executing diffoscope
+[2024-04-17 14:49:43] INFO root fetch - processPackages [neptune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune-2.0.0a1.tar.gz tmp/neptune-2.0.0a2.tar.gz --markdown 20240417/n/neptune/2.0.0a1-2.0.0a2/README.md --exclude *.pyd
+[2024-04-17 14:49:43] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.8.tar.gz]
+[2024-04-17 14:49:43] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.9.tar.gz]
+[2024-04-17 14:49:43] INFO root fetch - main [MainThread]: End processing [codedepot-git-ai]: success
+[2024-04-17 14:49:43] INFO root fetch - processPackages [PyCXpress]: Remove: archive file [/home/abi/fetcher/tmp/pycxpress-0.0.1.tar.gz]
+[2024-04-17 14:49:43] INFO root fetch - processPackages [PyCXpress]: Remove: archive file [/home/abi/fetcher/tmp/pycxpress-0.0.2.tar.gz]
+[2024-04-17 14:49:43] INFO root fetch - main [MainThread]: End processing [PyCXpress]: success
+[2024-04-17 14:49:43] INFO root fetch - processPackages [DataWeaver]: Remove: archive file [/home/abi/fetcher/tmp/dataweaver-0.3.5.tar.gz]
+[2024-04-17 14:49:43] INFO root fetch - processPackages [DataWeaver]: Remove: archive file [/home/abi/fetcher/tmp/dataweaver-1.0.1.tar.gz]
+[2024-04-17 14:49:43] INFO root fetch - main [MainThread]: End processing [DataWeaver]: success
+[2024-04-17 14:49:43] INFO root fetch - processPackages [FicImageScript]: Remove: archive file [/home/abi/fetcher/tmp/FicImageScript-4.0.0.tar.gz]
+[2024-04-17 14:49:43] INFO root fetch - processPackages [FicImageScript]: Remove: archive file [/home/abi/fetcher/tmp/ficimagescript-4.1.0.tar.gz]
+[2024-04-17 14:49:43] INFO root fetch - main [MainThread]: End processing [FicImageScript]: success
+[2024-04-17 14:49:43] INFO root fetch - processPackages [datarobot-model-metrics]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_model_metrics-0.5.5-py2.py3-none-any.whl.zip]
+[2024-04-17 14:49:43] INFO root fetch - processPackages [datarobot-model-metrics]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_model_metrics-0.5.6-py2.py3-none-any.whl.zip]
+[2024-04-17 14:49:43] INFO root fetch - main [MainThread]: End processing [datarobot-model-metrics]: success
+[2024-04-17 14:49:43] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-17 14:49:43] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-17 14:49:43] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-17 14:49:44] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-2.0.0a1.tar.gz]
+[2024-04-17 14:49:44] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-2.0.0a2.tar.gz]
+[2024-04-17 14:49:44] INFO root fetch - main [MainThread]: End processing [neptune]: success
+[2024-04-17 14:49:44] INFO root fetch - main [MainThread]: Store serial: [22805678]
