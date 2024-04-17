@@ -15671,3 +15671,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:25:15] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1713338397.tar.gz]
 [2024-04-17 10:25:15] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
 [2024-04-17 10:25:15] INFO root fetch - main [MainThread]: Store serial: [22802182]
+[2024-04-17 10:27:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802182]
+[2024-04-17 10:27:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 10:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-tls
+[2024-04-17 10:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-spotinst
+[2024-04-17 10:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: precice-config-visualizer
+[2024-04-17 10:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudnetpy-qc
+[2024-04-17 10:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kurumii
+[2024-04-17 10:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-gcp
+[2024-04-17 10:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PDKMaster
+[2024-04-17 10:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: funcnodes-images
+[2024-04-17 10:27:24] INFO root fetch - processPackages [kurumii]: New version: [1.4.8] Old Version: [1.4.7]
+[2024-04-17 10:27:24] INFO root fetch - processPackages [cloudnetpy-qc]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-17 10:27:24] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-04-17 10:27:24] INFO root fetch - processPackages [precice-config-visualizer]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-17 10:27:24] INFO root fetch - processPackages [PDKMaster]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-17 10:27:24] INFO root fetch - processPackages [funcnodes-images]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-17 10:27:24] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-04-17 10:27:24] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/db/d6/437e8c1503adb9edb4b8221139137dbeb690bf51b3dd792be02a14e4d82f/cloudnetpy_qc-1.9.4.tar.gz
+[2024-04-17 10:27:24] INFO root fetch - processPackages [kurumii]: Downloading https://files.pythonhosted.org/packages/d2/48/1ff759b5e3d96c4e1b2d814b8ce56890ed509d6fdd2adbd60a8b92d2f373/kurumii-1.4.7.tar.gz
+[2024-04-17 10:27:24] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1713339621] Old Version: [5.1.0a1712991411]
+[2024-04-17 10:27:24] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-04-17 10:27:24] INFO root fetch - processPackages [precice-config-visualizer]: Downloading https://files.pythonhosted.org/packages/34/25/32d1baacd57bf234fa56126f7a4152eed112f965afd93e210ea729ba6345/precice-config-visualizer-1.1.1.tar.gz
+[2024-04-17 10:27:24] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-04-17 10:27:24] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/4a/a7/0909fbf21f42e09134d10f08ee3d500e0cf7f9e66df2c9b848228cb010e5/pulumi_tls-5.1.0a1712991411.tar.gz
+[2024-04-17 10:27:24] INFO root fetch - processPackages [PDKMaster]: Downloading https://files.pythonhosted.org/packages/b3/54/7cad1e01a19f7c8804dae120cd6e3f29a553e84767cece999760f8d333e2/PDKMaster-0.9.5.tar.gz
+[2024-04-17 10:27:24] INFO root fetch - processPackages [funcnodes-images]: Downloading https://files.pythonhosted.org/packages/d2/34/63bd540dfc854881840c7bda569e8064fda542f94fa838d3ec5dfc8837b3/funcnodes_images-0.1.0.tar.gz
+[2024-04-17 10:27:24] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/2b/37/8700176a21e67e769e2ce546f74d753adeb243a4497dcb1bd3859a131986/cloudnetpy_qc-1.9.5.tar.gz
+[2024-04-17 10:27:24] INFO root fetch - processPackages [kurumii]: Downloading https://files.pythonhosted.org/packages/8e/a1/6a7d3681d59a4a960aa9454d5c428c2bb0ecca543fc090d9959bfeec4e14/kurumii-1.4.8.tar.gz
+[2024-04-17 10:27:24] INFO root fetch - processPackages [kurumii]: executing diffoscope
+[2024-04-17 10:27:24] INFO root fetch - processPackages [kurumii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kurumii-1.4.7.tar.gz tmp/kurumii-1.4.8.tar.gz --markdown 20240417/k/kurumii/1.4.7-1.4.8/README.md --exclude *.pyd
+[2024-04-17 10:27:24] INFO root fetch - processPackages [cloudnetpy-qc]: executing diffoscope
+[2024-04-17 10:27:24] INFO root fetch - processPackages [cloudnetpy-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudnetpy_qc-1.9.4.tar.gz tmp/cloudnetpy_qc-1.9.5.tar.gz --markdown 20240417/c/cloudnetpy-qc/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-04-17 10:27:25] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-04-17 10:27:25] INFO root fetch - processPackages [precice-config-visualizer]: Downloading https://files.pythonhosted.org/packages/76/47/32f1f9d13990f6180db558b1f884da58a279ff66f4c85b2e4adf8c83c6a9/precice_config_visualizer-1.1.2.tar.gz
+[2024-04-17 10:27:25] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/b5/38/bccd89b95ca7b178c7d09a9cef8b4411fb4889dec2f4b2b894d80bda4ab4/pulumi_tls-5.1.0a1713339621.tar.gz
+[2024-04-17 10:27:25] INFO root fetch - processPackages [funcnodes-images]: Downloading https://files.pythonhosted.org/packages/f9/95/17ad9bb2f4ec781d51d9db4cea5891f93aec892208d201f1276bb21bd28c/funcnodes_images-0.1.1.tar.gz
+[2024-04-17 10:27:25] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-04-17 10:27:25] INFO root fetch - processPackages [precice-config-visualizer]: executing diffoscope
+[2024-04-17 10:27:25] INFO root fetch - processPackages [precice-config-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/precice-config-visualizer-1.1.1.tar.gz tmp/precice_config_visualizer-1.1.2.tar.gz --markdown 20240417/p/precice-config-visualizer/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-17 10:27:25] INFO root fetch - processPackages [funcnodes-images]: executing diffoscope
+[2024-04-17 10:27:25] INFO root fetch - processPackages [funcnodes-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_images-0.1.0.tar.gz tmp/funcnodes_images-0.1.1.tar.gz --markdown 20240417/f/funcnodes-images/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-17 10:27:25] INFO root fetch - processPackages [PDKMaster]: Downloading https://files.pythonhosted.org/packages/c3/73/b02a1cbc99178b294b85cd8de84bbaf8d2e5ab6635280a35ce191d9629c5/PDKMaster-0.9.6.tar.gz
+[2024-04-17 10:27:25] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-04-17 10:27:25] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1712991411.tar.gz tmp/pulumi_tls-5.1.0a1713339621.tar.gz --markdown 20240417/p/pulumi-tls/5.1.0a1712991411-5.1.0a1713339621/README.md --exclude *.pyd
+[2024-04-17 10:27:25] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-04-17 10:27:25] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240417/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-04-17 10:27:25] INFO root fetch - processPackages [PDKMaster]: executing diffoscope
+[2024-04-17 10:27:25] INFO root fetch - processPackages [PDKMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PDKMaster-0.9.5.tar.gz tmp/PDKMaster-0.9.6.tar.gz --markdown 20240417/P/PDKMaster/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-17 10:27:25] INFO root fetch - processPackages [kurumii]: Remove: archive file [/home/abi/fetcher/tmp/kurumii-1.4.7.tar.gz]
+[2024-04-17 10:27:25] INFO root fetch - processPackages [kurumii]: Remove: archive file [/home/abi/fetcher/tmp/kurumii-1.4.8.tar.gz]
+[2024-04-17 10:27:25] INFO root fetch - main [MainThread]: End processing [kurumii]: success
+[2024-04-17 10:27:25] INFO root fetch - processPackages [precice-config-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/precice-config-visualizer-1.1.1.tar.gz]
+[2024-04-17 10:27:25] INFO root fetch - processPackages [precice-config-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/precice_config_visualizer-1.1.2.tar.gz]
+[2024-04-17 10:27:25] INFO root fetch - main [MainThread]: End processing [precice-config-visualizer]: success
+[2024-04-17 10:27:26] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1712991411.tar.gz]
+[2024-04-17 10:27:26] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1713339621.tar.gz]
+[2024-04-17 10:27:26] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-04-17 10:27:26] INFO root fetch - processPackages [funcnodes-images]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_images-0.1.0.tar.gz]
+[2024-04-17 10:27:26] INFO root fetch - processPackages [funcnodes-images]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_images-0.1.1.tar.gz]
+[2024-04-17 10:27:26] INFO root fetch - main [MainThread]: End processing [funcnodes-images]: success
+[2024-04-17 10:27:26] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-04-17 10:27:26] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240417/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-04-17 10:27:26] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-04-17 10:27:26] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-04-17 10:27:26] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-04-17 10:27:26] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.4.tar.gz]
+[2024-04-17 10:27:26] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.5.tar.gz]
+[2024-04-17 10:27:26] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
+[2024-04-17 10:27:26] INFO root fetch - processPackages [PDKMaster]: Remove: archive file [/home/abi/fetcher/tmp/PDKMaster-0.9.5.tar.gz]
+[2024-04-17 10:27:26] INFO root fetch - processPackages [PDKMaster]: Remove: archive file [/home/abi/fetcher/tmp/PDKMaster-0.9.6.tar.gz]
+[2024-04-17 10:27:26] INFO root fetch - main [MainThread]: End processing [PDKMaster]: success
+[2024-04-17 10:27:36] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-04-17 10:27:36] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-04-17 10:27:36] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-04-17 10:27:36] INFO root fetch - main [MainThread]: Store serial: [22802209]
