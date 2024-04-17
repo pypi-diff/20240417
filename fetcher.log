@@ -10387,3 +10387,18 @@
 [2024-04-17 06:44:13] INFO root fetch - processPackages [url-remote]: Remove: archive file [/home/abi/fetcher/tmp/url_remote-0.0.84.tar.gz]
 [2024-04-17 06:44:13] INFO root fetch - main [MainThread]: End processing [url-remote]: success
 [2024-04-17 06:44:13] INFO root fetch - main [MainThread]: Store serial: [22799872]
+[2024-04-17 06:46:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799872]
+[2024-04-17 06:46:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 06:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erroranalysis
+[2024-04-17 06:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mingzi
+[2024-04-17 06:46:22] WARNING root fetch - processPackages [mingzi]: Skipping, unable to determine old version
+[2024-04-17 06:46:22] INFO root fetch - main [MainThread]: End processing [mingzi] error
+[2024-04-17 06:46:22] INFO root fetch - processPackages [erroranalysis]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-17 06:46:22] INFO root fetch - processPackages [erroranalysis]: Downloading https://files.pythonhosted.org/packages/48/08/1f72ad4e832e07a5bd1d240c84d83ecbe9741547ccb74e55cfc89eea9a7e/erroranalysis-0.5.3.tar.gz
+[2024-04-17 06:46:23] INFO root fetch - processPackages [erroranalysis]: Downloading https://files.pythonhosted.org/packages/bc/73/2b61a60e773f769d3dcf139cf40976852dc8bdb6ee044a05fdb3edfafed0/erroranalysis-0.5.4.tar.gz
+[2024-04-17 06:46:23] INFO root fetch - processPackages [erroranalysis]: executing diffoscope
+[2024-04-17 06:46:23] INFO root fetch - processPackages [erroranalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erroranalysis-0.5.3.tar.gz tmp/erroranalysis-0.5.4.tar.gz --markdown 20240417/e/erroranalysis/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-17 06:46:23] INFO root fetch - processPackages [erroranalysis]: Remove: archive file [/home/abi/fetcher/tmp/erroranalysis-0.5.3.tar.gz]
+[2024-04-17 06:46:23] INFO root fetch - processPackages [erroranalysis]: Remove: archive file [/home/abi/fetcher/tmp/erroranalysis-0.5.4.tar.gz]
+[2024-04-17 06:46:23] INFO root fetch - main [MainThread]: End processing [erroranalysis]: success
+[2024-04-17 06:46:23] INFO root fetch - main [MainThread]: Store serial: [22799878]
