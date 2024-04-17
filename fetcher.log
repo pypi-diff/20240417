@@ -7724,3 +7724,66 @@
 [2024-04-17 04:13:50] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.1.2-py3-none-any.whl.zip]
 [2024-04-17 04:13:50] INFO root fetch - main [MainThread]: End processing [dg-face-tracking]: success
 [2024-04-17 04:13:50] INFO root fetch - main [MainThread]: Store serial: [22798796]
+[2024-04-17 04:15:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798796]
+[2024-04-17 04:15:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 04:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stackql-deploy
+[2024-04-17 04:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-postgres
+[2024-04-17 04:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asynctaskpool
+[2024-04-17 04:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TouchPy
+[2024-04-17 04:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Tailbone
+[2024-04-17 04:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rcquant-sdk
+[2024-04-17 04:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agentrun
+[2024-04-17 04:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omop2poll
+[2024-04-17 04:15:59] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 04:15:59] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 04:15:59] INFO root fetch - processPackages [Tailbone]: New version: [0.9.93] Old Version: [0.9.92]
+[2024-04-17 04:15:59] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 04:15:59] WARNING root fetch - processPackages [TouchPy]: Skipping, unable to determine old version
+[2024-04-17 04:15:59] INFO root fetch - main [MainThread]: End processing [TouchPy] error
+[2024-04-17 04:15:59] INFO root fetch - processPackages [omop2poll]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-17 04:15:59] INFO root fetch - processPackages [agentrun]: New version: [0.2.0] Old Version: [0.1a0]
+[2024-04-17 04:15:59] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-04-17 04:15:59] WARNING root fetch - processPackages [asynctaskpool]: Skipping, unable to determine old version
+[2024-04-17 04:15:59] INFO root fetch - main [MainThread]: End processing [asynctaskpool] error
+[2024-04-17 04:15:59] INFO root fetch - processPackages [langchain-postgres]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 04:15:59] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/f8/d3/a23ab2686d1ea668ccde1ac564d55e424c39c9da37182b116f0eaa4e8c10/tailbone-0.9.92.tar.gz
+[2024-04-17 04:15:59] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 04:15:59] INFO root fetch - processPackages [omop2poll]: Downloading https://files.pythonhosted.org/packages/bc/be/23778b0f9d6a71cc696bec30ff9a6bfbe59a102ed8ec458bd520f461c684/omop2poll-0.1.5.tar.gz
+[2024-04-17 04:15:59] INFO root fetch - processPackages [agentrun]: Downloading https://files.pythonhosted.org/packages/41/63/862f24fdc29696f5210e9b4190a12cc8e0516d0e51554e001070f9cce525/agentrun-0.1a0.tar.gz
+[2024-04-17 04:15:59] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 04:15:59] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 04:15:59] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-04-17 04:15:59] INFO root fetch - processPackages [langchain-postgres]: Downloading https://files.pythonhosted.org/packages/d1/00/cb9ed9cefa9d22a9de2ee93f436a5c80fdd4c51578cb37d8f74f930cfee2/langchain_postgres-0.0.2.tar.gz
+[2024-04-17 04:15:59] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-04-17 04:15:59] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240417/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 04:15:59] INFO root fetch - processPackages [omop2poll]: Downloading https://files.pythonhosted.org/packages/12/26/2e8043b0e58c8f0c2face95a440d7ffbe93d4b6fcd6a4d210be0b9153dfa/omop2poll-0.1.6.tar.gz
+[2024-04-17 04:15:59] INFO root fetch - processPackages [agentrun]: Downloading https://files.pythonhosted.org/packages/a3/ee/1b681ccf4bd1365f0277404017d84f544fea6eb16b8cce5e42c6b03b8f4d/agentrun-0.2.0.tar.gz
+[2024-04-17 04:15:59] INFO root fetch - processPackages [langchain-postgres]: Downloading https://files.pythonhosted.org/packages/b1/34/d40ea0861d255fd98dcf6d9a4797bc9a0c2819e4e35a20c861206163f6dd/langchain_postgres-0.0.3.tar.gz
+[2024-04-17 04:15:59] INFO root fetch - processPackages [omop2poll]: executing diffoscope
+[2024-04-17 04:15:59] INFO root fetch - processPackages [omop2poll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omop2poll-0.1.5.tar.gz tmp/omop2poll-0.1.6.tar.gz --markdown 20240417/o/omop2poll/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-17 04:16:00] INFO root fetch - processPackages [langchain-postgres]: executing diffoscope
+[2024-04-17 04:16:00] INFO root fetch - processPackages [langchain-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_postgres-0.0.2.tar.gz tmp/langchain_postgres-0.0.3.tar.gz --markdown 20240417/l/langchain-postgres/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 04:16:00] INFO root fetch - processPackages [agentrun]: executing diffoscope
+[2024-04-17 04:16:00] INFO root fetch - processPackages [agentrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentrun-0.1a0.tar.gz tmp/agentrun-0.2.0.tar.gz --markdown 20240417/a/agentrun/0.1a0-0.2.0/README.md --exclude *.pyd
+[2024-04-17 04:16:00] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 04:16:00] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 04:16:00] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 04:16:00] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/c7/30/f016981a2ecbafd179d468e0e2383f75c69d5743855bf786ddbc8fa0c467/tailbone-0.9.93.tar.gz
+[2024-04-17 04:16:00] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2024-04-17 04:16:00] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailbone-0.9.92.tar.gz tmp/tailbone-0.9.93.tar.gz --markdown 20240417/T/Tailbone/0.9.92-0.9.93/README.md --exclude *.pyd
+[2024-04-17 04:16:00] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-04-17 04:16:00] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-04-17 04:16:00] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-04-17 04:16:00] INFO root fetch - processPackages [omop2poll]: Remove: archive file [/home/abi/fetcher/tmp/omop2poll-0.1.5.tar.gz]
+[2024-04-17 04:16:00] INFO root fetch - processPackages [omop2poll]: Remove: archive file [/home/abi/fetcher/tmp/omop2poll-0.1.6.tar.gz]
+[2024-04-17 04:16:00] INFO root fetch - main [MainThread]: End processing [omop2poll]: success
+[2024-04-17 04:16:00] INFO root fetch - processPackages [agentrun]: Remove: archive file [/home/abi/fetcher/tmp/agentrun-0.1a0.tar.gz]
+[2024-04-17 04:16:00] INFO root fetch - processPackages [agentrun]: Remove: archive file [/home/abi/fetcher/tmp/agentrun-0.2.0.tar.gz]
+[2024-04-17 04:16:00] INFO root fetch - main [MainThread]: End processing [agentrun]: success
+[2024-04-17 04:16:00] INFO root fetch - processPackages [langchain-postgres]: Remove: archive file [/home/abi/fetcher/tmp/langchain_postgres-0.0.2.tar.gz]
+[2024-04-17 04:16:00] INFO root fetch - processPackages [langchain-postgres]: Remove: archive file [/home/abi/fetcher/tmp/langchain_postgres-0.0.3.tar.gz]
+[2024-04-17 04:16:00] INFO root fetch - main [MainThread]: End processing [langchain-postgres]: success
+[2024-04-17 04:16:02] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-0.9.92.tar.gz]
+[2024-04-17 04:16:02] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-0.9.93.tar.gz]
+[2024-04-17 04:16:02] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2024-04-17 04:16:02] INFO root fetch - main [MainThread]: Store serial: [22798824]
