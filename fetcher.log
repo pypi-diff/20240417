@@ -7421,3 +7421,36 @@
 [2024-04-17 03:47:33] INFO root fetch - processPackages [vjepa-encoder]: Remove: archive file [/home/abi/fetcher/tmp/vjepa_encoder-0.0.4.tar.gz]
 [2024-04-17 03:47:33] INFO root fetch - main [MainThread]: End processing [vjepa-encoder]: success
 [2024-04-17 03:47:33] INFO root fetch - main [MainThread]: Store serial: [22798648]
+[2024-04-17 03:49:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798648]
+[2024-04-17 03:49:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 03:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advanced-macro-calculator
+[2024-04-17 03:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: schematic_db
+[2024-04-17 03:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: specklia
+[2024-04-17 03:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seatable-api
+[2024-04-17 03:49:42] WARNING root fetch - processPackages [advanced-macro-calculator]: Skipping, unable to determine old version
+[2024-04-17 03:49:42] INFO root fetch - main [MainThread]: End processing [advanced-macro-calculator] error
+[2024-04-17 03:49:42] INFO root fetch - processPackages [schematic_db]: New version: [0.1.0] Old Version: [0.0.dev33]
+[2024-04-17 03:49:42] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-17 03:49:42] INFO root fetch - processPackages [seatable-api]: New version: [2.7.0] Old Version: [2.6.8]
+[2024-04-17 03:49:42] INFO root fetch - processPackages [schematic_db]: Downloading https://files.pythonhosted.org/packages/35/79/5c28001dd3dc0d2f04acb77ed9134c94af051e09c3c1a876a5f10319af7d/schematic_db-0.0.dev33.tar.gz
+[2024-04-17 03:49:42] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-17 03:49:42] INFO root fetch - processPackages [seatable-api]: Downloading https://files.pythonhosted.org/packages/3d/40/139b50d8a7738d6fb14bf3e506422a0ed214335ba5bab3500852877c3367/seatable-api-2.6.8.tar.gz
+[2024-04-17 03:49:43] INFO root fetch - processPackages [seatable-api]: Downloading https://files.pythonhosted.org/packages/99/1c/2aea4429930f8e157ba86616f6babecc75e2f30bd9b78915566bc1ba52dc/seatable-api-2.7.0.tar.gz
+[2024-04-17 03:49:43] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-17 03:49:43] INFO root fetch - processPackages [schematic_db]: Downloading https://files.pythonhosted.org/packages/23/f6/1376e95b2655cedd7a60f05a5fa5bc15818e444116c4d7a1c419fcb78632/schematic_db-0.1.0.tar.gz
+[2024-04-17 03:49:43] INFO root fetch - processPackages [seatable-api]: executing diffoscope
+[2024-04-17 03:49:43] INFO root fetch - processPackages [seatable-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seatable-api-2.6.8.tar.gz tmp/seatable-api-2.7.0.tar.gz --markdown 20240417/s/seatable-api/2.6.8-2.7.0/README.md --exclude *.pyd
+[2024-04-17 03:49:43] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-17 03:49:43] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240417/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-17 03:49:43] INFO root fetch - processPackages [schematic_db]: executing diffoscope
+[2024-04-17 03:49:43] INFO root fetch - processPackages [schematic_db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schematic_db-0.0.dev33.tar.gz tmp/schematic_db-0.1.0.tar.gz --markdown 20240417/s/schematic_db/0.0.dev33-0.1.0/README.md --exclude *.pyd
+[2024-04-17 03:49:43] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-17 03:49:43] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-17 03:49:43] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-17 03:49:44] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.6.8.tar.gz]
+[2024-04-17 03:49:44] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.7.0.tar.gz]
+[2024-04-17 03:49:44] INFO root fetch - main [MainThread]: End processing [seatable-api]: success
+[2024-04-17 03:49:44] INFO root fetch - processPackages [schematic_db]: Remove: archive file [/home/abi/fetcher/tmp/schematic_db-0.0.dev33.tar.gz]
+[2024-04-17 03:49:44] INFO root fetch - processPackages [schematic_db]: Remove: archive file [/home/abi/fetcher/tmp/schematic_db-0.1.0.tar.gz]
+[2024-04-17 03:49:44] INFO root fetch - main [MainThread]: End processing [schematic_db]: success
+[2024-04-17 03:49:44] INFO root fetch - main [MainThread]: Store serial: [22798660]
