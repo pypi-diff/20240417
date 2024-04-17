@@ -7619,3 +7619,18 @@
 [2024-04-17 04:02:54] INFO root fetch - processPackages [opensourcetest]: Remove: archive file [/home/abi/fetcher/tmp/opensourcetest-0.3.9.tar.gz]
 [2024-04-17 04:02:54] INFO root fetch - main [MainThread]: End processing [opensourcetest]: success
 [2024-04-17 04:02:54] INFO root fetch - main [MainThread]: Store serial: [22798747]
+[2024-04-17 04:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798747]
+[2024-04-17 04:05:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 04:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loe-simp-app-fw
+[2024-04-17 04:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenModelicaCompiler
+[2024-04-17 04:05:03] WARNING root fetch - processPackages [loe-simp-app-fw]: Skipping, unable to determine old version
+[2024-04-17 04:05:03] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw] error
+[2024-04-17 04:05:03] INFO root fetch - processPackages [OpenModelicaCompiler]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-17 04:05:03] INFO root fetch - processPackages [OpenModelicaCompiler]: Downloading https://files.pythonhosted.org/packages/b6/fa/dbd01e25cb578a021760281a5f4019cc77453c553e023a24e2bc5fcb810c/openmodelicacompiler-0.3.2.tar.gz
+[2024-04-17 04:05:04] INFO root fetch - processPackages [OpenModelicaCompiler]: Downloading https://files.pythonhosted.org/packages/3d/50/26bd3060e1751dd11ef21237112e1eeabb3a676275b7afd1cd00623a509b/openmodelicacompiler-0.3.3.tar.gz
+[2024-04-17 04:05:04] INFO root fetch - processPackages [OpenModelicaCompiler]: executing diffoscope
+[2024-04-17 04:05:04] INFO root fetch - processPackages [OpenModelicaCompiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodelicacompiler-0.3.2.tar.gz tmp/openmodelicacompiler-0.3.3.tar.gz --markdown 20240417/O/OpenModelicaCompiler/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-17 04:05:07] INFO root fetch - processPackages [OpenModelicaCompiler]: Remove: archive file [/home/abi/fetcher/tmp/openmodelicacompiler-0.3.2.tar.gz]
+[2024-04-17 04:05:07] INFO root fetch - processPackages [OpenModelicaCompiler]: Remove: archive file [/home/abi/fetcher/tmp/openmodelicacompiler-0.3.3.tar.gz]
+[2024-04-17 04:05:07] INFO root fetch - main [MainThread]: End processing [OpenModelicaCompiler]: success
+[2024-04-17 04:05:07] INFO root fetch - main [MainThread]: Store serial: [22798764]
