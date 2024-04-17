@@ -10648,3 +10648,14 @@
 [2024-04-17 07:05:54] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240417.tar.gz]
 [2024-04-17 07:05:54] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
 [2024-04-17 07:05:54] INFO root fetch - main [MainThread]: Store serial: [22799978]
+[2024-04-17 07:07:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799978]
+[2024-04-17 07:08:02] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-17 07:10:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799978]
+[2024-04-17 07:10:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 07:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authpolicy
+[2024-04-17 07:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: authpolicy-sdk-python
+[2024-04-17 07:10:08] WARNING root fetch - processPackages [authpolicy]: Skipping, unable to determine old version
+[2024-04-17 07:10:08] INFO root fetch - main [MainThread]: End processing [authpolicy] error
+[2024-04-17 07:10:08] WARNING root fetch - processPackages [authpolicy-sdk-python]: Skipping, unable to determine old version
+[2024-04-17 07:10:08] INFO root fetch - main [MainThread]: End processing [authpolicy-sdk-python] error
+[2024-04-17 07:10:08] INFO root fetch - main [MainThread]: Store serial: [22799986]
