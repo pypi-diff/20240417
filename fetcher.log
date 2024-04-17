@@ -16060,3 +16060,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:36:25] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-17 10:36:25] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-17 10:36:25] INFO root fetch - main [MainThread]: Store serial: [22802330]
+[2024-04-17 10:38:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802330]
+[2024-04-17 10:38:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 10:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhijiang
+[2024-04-17 10:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spl-core
+[2024-04-17 10:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yellowdog-python-examples
+[2024-04-17 10:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sodata
+[2024-04-17 10:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccdt
+[2024-04-17 10:38:34] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-17 10:38:34] INFO root fetch - processPackages [sodata]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-17 10:38:34] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-17 10:38:34] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/3a/46/d489c68835ad2a384c21fc9e10b90ee23c695af50c29daf07981723f4609/sodata-0.0.6.tar.gz
+[2024-04-17 10:38:34] INFO root fetch - processPackages [spl-core]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-04-17 10:38:34] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [7.8.5] Old Version: [7.8.4]
+[2024-04-17 10:38:34] INFO root fetch - processPackages [ccdt]: New version: [2.1.96] Old Version: [2.1.95]
+[2024-04-17 10:38:34] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/92/c0/068e9d613eb663c69828e03e1fda0aba24f0776e0b9a6ecd7dc62e8b2430/sodata-0.0.9.tar.gz
+[2024-04-17 10:38:34] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/2e/a8/8800b5cef8d30497ed582b5843733c9a5fb161900be31493dada1a7ba3ae/ccdt-2.1.95.tar.gz
+[2024-04-17 10:38:34] INFO root fetch - processPackages [spl-core]: Downloading https://files.pythonhosted.org/packages/5e/2d/d39264fc9d105e8bdff5f876259a8a5d7836f99a2bc96f3a883cb2b1e439/spl_core-4.1.0.tar.gz
+[2024-04-17 10:38:34] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/2d/41/14de62825f7c2607dfb9f8538ab61f0e4d43eed6e037ced59009a0f8de63/yellowdog-python-examples-7.8.4.tar.gz
+[2024-04-17 10:38:34] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-17 10:38:34] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-17 10:38:34] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.6.tar.gz tmp/sodata-0.0.9.tar.gz --markdown 20240417/s/sodata/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-17 10:38:34] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-17 10:38:34] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240417/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-17 10:38:34] INFO root fetch - processPackages [spl-core]: Downloading https://files.pythonhosted.org/packages/c7/da/7b9a3ea314983a365bebc75bb532052f87e1ceccca4c3c3824d6b5ad7ab5/spl_core-4.1.1.tar.gz
+[2024-04-17 10:38:34] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/ef/81/25cec780e4bfb1bd6fd09d886c68b35421b2e72de5323d3de8dd22a2cb27/yellowdog_python_examples-7.8.5.tar.gz
+[2024-04-17 10:38:34] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/61/c1/61b27c9d40e356cfc75af8eba728e17ae5cbd877806762d2883bdf10bcfd/ccdt-2.1.96.tar.gz
+[2024-04-17 10:38:34] INFO root fetch - processPackages [spl-core]: executing diffoscope
+[2024-04-17 10:38:34] INFO root fetch - processPackages [spl-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spl_core-4.1.0.tar.gz tmp/spl_core-4.1.1.tar.gz --markdown 20240417/s/spl-core/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-04-17 10:38:34] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2024-04-17 10:38:34] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.95.tar.gz tmp/ccdt-2.1.96.tar.gz --markdown 20240417/c/ccdt/2.1.95-2.1.96/README.md --exclude *.pyd
+[2024-04-17 10:38:34] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2024-04-17 10:38:34] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-7.8.4.tar.gz tmp/yellowdog_python_examples-7.8.5.tar.gz --markdown 20240417/y/yellowdog-python-examples/7.8.4-7.8.5/README.md --exclude *.pyd
+[2024-04-17 10:38:35] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.6.tar.gz]
+[2024-04-17 10:38:35] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.9.tar.gz]
+[2024-04-17 10:38:35] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-17 10:38:35] INFO root fetch - processPackages [spl-core]: Remove: archive file [/home/abi/fetcher/tmp/spl_core-4.1.0.tar.gz]
+[2024-04-17 10:38:35] INFO root fetch - processPackages [spl-core]: Remove: archive file [/home/abi/fetcher/tmp/spl_core-4.1.1.tar.gz]
+[2024-04-17 10:38:35] INFO root fetch - main [MainThread]: End processing [spl-core]: success
+[2024-04-17 10:38:35] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.95.tar.gz]
+[2024-04-17 10:38:35] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.96.tar.gz]
+[2024-04-17 10:38:35] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2024-04-17 10:38:35] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-17 10:38:35] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-17 10:38:35] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-17 10:38:35] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-7.8.4.tar.gz]
+[2024-04-17 10:38:35] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_python_examples-7.8.5.tar.gz]
+[2024-04-17 10:38:35] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2024-04-17 10:38:35] INFO root fetch - main [MainThread]: Store serial: [22802344]
