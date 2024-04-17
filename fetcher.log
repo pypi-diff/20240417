@@ -11422,3 +11422,76 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 07:38:40] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
 [2024-04-17 07:38:40] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
 [2024-04-17 07:38:40] INFO root fetch - main [MainThread]: Store serial: [22800215]
+[2024-04-17 07:40:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800215]
+[2024-04-17 07:40:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 07:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ms-swift
+[2024-04-17 07:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-civo
+[2024-04-17 07:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudamqp
+[2024-04-17 07:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antsibull-core
+[2024-04-17 07:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-azuredevops
+[2024-04-17 07:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stackql-deploy
+[2024-04-17 07:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MambuPy
+[2024-04-17 07:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MambuPy
+[2024-04-17 07:40:49] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 07:40:49] INFO root fetch - processPackages [ms-swift]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-17 07:40:49] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 07:40:49] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/73/20/51a5237834c35e8b7f7678f30df890ef21e8b05ee3e6fd166178c0c7525d/ms-swift-2.0.0.tar.gz
+[2024-04-17 07:40:49] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1713331147] Old Version: [2.4.0a1712985677]
+[2024-04-17 07:40:49] INFO root fetch - processPackages [MambuPy]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2024-04-17 07:40:49] INFO root fetch - processPackages [MambuPy]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2024-04-17 07:40:49] INFO root fetch - processPackages [antsibull-core]: New version: [3.0.1] Old Version: [3.0.0a1]
+[2024-04-17 07:40:49] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-17 07:40:49] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.1.0a1713331204] Old Version: [3.1.0a1712985698]
+[2024-04-17 07:40:49] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/79/31/3c20b536be70317849b82cc2c592b5373deb98a31754dc21b9770cf7beb9/pulumi_civo-2.4.0a1712985677.tar.gz
+[2024-04-17 07:40:49] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 07:40:49] INFO root fetch - processPackages [antsibull-core]: Downloading https://files.pythonhosted.org/packages/b6/fc/70e99cf8f213197efb70dd7cbcf0fa6a8533058d076aa8805536c596c307/antsibull_core-3.0.0a1.tar.gz
+[2024-04-17 07:40:49] INFO root fetch - processPackages [MambuPy]: Downloading https://files.pythonhosted.org/packages/10/be/ed83b02c72c57597465b97df6b0c71b1a4b4e52a6ffe963ff0edf1409f0c/MambuPy-2.0.0b8.tar.gz
+[2024-04-17 07:40:49] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2024-04-17 07:40:49] INFO root fetch - processPackages [MambuPy]: Downloading https://files.pythonhosted.org/packages/10/be/ed83b02c72c57597465b97df6b0c71b1a4b4e52a6ffe963ff0edf1409f0c/MambuPy-2.0.0b8.tar.gz
+[2024-04-17 07:40:49] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/c9/96/507e97177be3f22d92fd81df7b1bc1c253b6bca3a20dc74feddb7ca63921/pulumi_azuredevops-3.1.0a1712985698.tar.gz
+[2024-04-17 07:40:49] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/f2/6b/8389105f24464cef4b710045c73ce867545512079c2497f3f91d431f4473/ms-swift-2.0.1.tar.gz
+[2024-04-17 07:40:49] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 07:40:49] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 07:40:49] INFO root fetch - processPackages [ms-swift]: executing diffoscope
+[2024-04-17 07:40:49] INFO root fetch - processPackages [ms-swift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms-swift-2.0.0.tar.gz tmp/ms-swift-2.0.1.tar.gz --markdown 20240417/m/ms-swift/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-17 07:40:49] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/3b/ab/b21cf428dc57d31a2ff626209ec2c765be11727556a56d3936d59a9fe885/pulumi_civo-2.4.0a1713331147.tar.gz
+[2024-04-17 07:40:49] INFO root fetch - processPackages [antsibull-core]: Downloading https://files.pythonhosted.org/packages/29/12/7013e4411faf352788c32c651ae6597fbb7c06748aaf4b1c4831375bc330/antsibull_core-3.0.1.tar.gz
+[2024-04-17 07:40:50] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-04-17 07:40:50] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1712985677.tar.gz tmp/pulumi_civo-2.4.0a1713331147.tar.gz --markdown 20240417/p/pulumi-civo/2.4.0a1712985677-2.4.0a1713331147/README.md --exclude *.pyd
+[2024-04-17 07:40:50] INFO root fetch - processPackages [MambuPy]: Downloading https://files.pythonhosted.org/packages/62/4b/170e3742038b58448c2733e8f206eb6f367edc67d01e8c721086ddb46e3b/MambuPy-2.0.0b9.tar.gz
+[2024-04-17 07:40:50] INFO root fetch - processPackages [MambuPy]: Downloading https://files.pythonhosted.org/packages/62/4b/170e3742038b58448c2733e8f206eb6f367edc67d01e8c721086ddb46e3b/MambuPy-2.0.0b9.tar.gz
+[2024-04-17 07:40:50] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/2d/ce/ff724e834d0cd7d3e02ccf66a29cd00ddbcf468342f7b4247d3c8c0c0695/pulumi_azuredevops-3.1.0a1713331204.tar.gz
+[2024-04-17 07:40:50] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2024-04-17 07:40:50] INFO root fetch - processPackages [antsibull-core]: executing diffoscope
+[2024-04-17 07:40:50] INFO root fetch - processPackages [antsibull-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsibull_core-3.0.0a1.tar.gz tmp/antsibull_core-3.0.1.tar.gz --markdown 20240417/a/antsibull-core/3.0.0a1-3.0.1/README.md --exclude *.pyd
+[2024-04-17 07:40:50] INFO root fetch - processPackages [MambuPy]: executing diffoscope
+[2024-04-17 07:40:50] INFO root fetch - processPackages [MambuPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MambuPy-2.0.0b8.tar.gz tmp/MambuPy-2.0.0b9.tar.gz --markdown 20240417/M/MambuPy/2.0.0b8-2.0.0b9/README.md --exclude *.pyd
+[2024-04-17 07:40:50] INFO root fetch - processPackages [MambuPy]: executing diffoscope
+[2024-04-17 07:40:50] INFO root fetch - processPackages [MambuPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MambuPy-2.0.0b8.tar.gz tmp/MambuPy-2.0.0b9.tar.gz --markdown 20240417/M/MambuPy/2.0.0b8-2.0.0b9/README.md --exclude *.pyd
+[2024-04-17 07:40:50] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2024-04-17 07:40:50] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20240417/p/pulumi-cloudamqp/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-04-17 07:40:50] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-04-17 07:40:50] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.1.0a1712985698.tar.gz tmp/pulumi_azuredevops-3.1.0a1713331204.tar.gz --markdown 20240417/p/pulumi-azuredevops/3.1.0a1712985698-3.1.0a1713331204/README.md --exclude *.pyd
+[2024-04-17 07:40:50] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 07:40:50] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 07:40:50] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 07:40:50] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1712985677.tar.gz]
+[2024-04-17 07:40:50] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1713331147.tar.gz]
+[2024-04-17 07:40:50] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-04-17 07:40:51] INFO root fetch - processPackages [antsibull-core]: Remove: archive file [/home/abi/fetcher/tmp/antsibull_core-3.0.0a1.tar.gz]
+[2024-04-17 07:40:51] INFO root fetch - processPackages [antsibull-core]: Remove: archive file [/home/abi/fetcher/tmp/antsibull_core-3.0.1.tar.gz]
+[2024-04-17 07:40:51] INFO root fetch - main [MainThread]: End processing [antsibull-core]: success
+[2024-04-17 07:40:51] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2024-04-17 07:40:51] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2024-04-17 07:40:51] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2024-04-17 07:40:51] INFO root fetch - processPackages [MambuPy]: Remove: archive file [/home/abi/fetcher/tmp/MambuPy-2.0.0b8.tar.gz]
+[2024-04-17 07:40:51] INFO root fetch - processPackages [MambuPy]: Remove: archive file [/home/abi/fetcher/tmp/MambuPy-2.0.0b9.tar.gz]
+[2024-04-17 07:40:51] INFO root fetch - main [MainThread]: End processing [MambuPy]: success
+[2024-04-17 07:40:51] INFO root fetch - main [MainThread]: End processing [MambuPy]: success
+[2024-04-17 07:40:51] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.0.tar.gz]
+[2024-04-17 07:40:51] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.1.tar.gz]
+[2024-04-17 07:40:51] INFO root fetch - main [MainThread]: End processing [ms-swift]: success
+[2024-04-17 07:40:51] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1712985698.tar.gz]
+[2024-04-17 07:40:51] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1713331204.tar.gz]
+[2024-04-17 07:40:51] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-04-17 07:40:51] INFO root fetch - main [MainThread]: Store serial: [22800239]
