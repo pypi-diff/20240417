@@ -18414,3 +18414,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:51:57] INFO root fetch - processPackages [weather_provider_api]: Remove: archive file [/home/abi/fetcher/tmp/weather_provider_api-2.50.35.tar.gz]
 [2024-04-17 11:51:57] INFO root fetch - main [MainThread]: End processing [weather_provider_api]: success
 [2024-04-17 11:51:57] INFO root fetch - main [MainThread]: Store serial: [22803475]
+[2024-04-17 11:54:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803475]
+[2024-04-17 11:54:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 11:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weather_provider_api
+[2024-04-17 11:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: badbyte
+[2024-04-17 11:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: selfpkg
+[2024-04-17 11:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hao
+[2024-04-17 11:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xtnkk-tools
+[2024-04-17 11:54:07] INFO root fetch - processPackages [weather_provider_api]: New version: [2.50.36] Old Version: [2.50.35]
+[2024-04-17 11:54:07] INFO root fetch - processPackages [xtnkk-tools]: New version: [1.0.0.7] Old Version: [1.0.0.6]
+[2024-04-17 11:54:07] INFO root fetch - processPackages [selfpkg]: New version: [0.0.3a2] Old Version: [0.0.3a1]
+[2024-04-17 11:54:07] INFO root fetch - processPackages [weather_provider_api]: Downloading https://files.pythonhosted.org/packages/72/fb/42eb8cdd3622066934752be3d3fe594b00d2fdfb6a0bf7300818f85da28f/weather_provider_api-2.50.35.tar.gz
+[2024-04-17 11:54:07] INFO root fetch - processPackages [hao]: New version: [3.8.7] Old Version: [3.8.6]
+[2024-04-17 11:54:07] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/3e/d8/0ddd3d67b1fbf21c470f807cdb2a6c2f603a3636ee73c9169063c4e89724/xtnkk-tools-1.0.0.6.tar.gz
+[2024-04-17 11:54:07] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/1f/05/17e600a4bc46542c7a955e5310b4874e90d9a1000811ef4d5c9eff199f19/selfpkg-0.0.3a1.tar.gz
+[2024-04-17 11:54:07] INFO root fetch - processPackages [badbyte]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-17 11:54:07] INFO root fetch - processPackages [hao]: Downloading https://files.pythonhosted.org/packages/5b/09/d76f83280975c0705fe6ea7c2abc66a6d62e32f22c7e878d15855d931c2f/hao-3.8.6.tar.gz
+[2024-04-17 11:54:07] INFO root fetch - processPackages [badbyte]: Downloading https://files.pythonhosted.org/packages/ff/4b/9f9489380e2da09457d6f1ac8f68a7981b562e96f25025357165a1f58e37/badbyte-0.1.4.tar.gz
+[2024-04-17 11:54:08] INFO root fetch - processPackages [weather_provider_api]: Downloading https://files.pythonhosted.org/packages/b5/0a/bbdc2f992372c5477e2133ac6ce35d376cdc9d84cd7433110803492b3e3e/weather_provider_api-2.50.36.tar.gz
+[2024-04-17 11:54:08] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/fd/e0/05285ed7bf96fb57c9c33751438aa90f90fd01c1b85e6bfb1f48374244f4/selfpkg-0.0.3a2.tar.gz
+[2024-04-17 11:54:08] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/96/9e/f081e016d9084a7563b24d37d37bea625a6f821a686c87a7a85050ee9da1/xtnkk-tools-1.0.0.7.tar.gz
+[2024-04-17 11:54:08] INFO root fetch - processPackages [hao]: Downloading https://files.pythonhosted.org/packages/53/d7/83c5eb587a326d71dc319566f12e1e4489bfa2624f7283b783027a022866/hao-3.8.7.tar.gz
+[2024-04-17 11:54:08] INFO root fetch - processPackages [weather_provider_api]: executing diffoscope
+[2024-04-17 11:54:08] INFO root fetch - processPackages [weather_provider_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weather_provider_api-2.50.35.tar.gz tmp/weather_provider_api-2.50.36.tar.gz --markdown 20240417/w/weather_provider_api/2.50.35-2.50.36/README.md --exclude *.pyd
+[2024-04-17 11:54:08] INFO root fetch - processPackages [xtnkk-tools]: executing diffoscope
+[2024-04-17 11:54:08] INFO root fetch - processPackages [xtnkk-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtnkk-tools-1.0.0.6.tar.gz tmp/xtnkk-tools-1.0.0.7.tar.gz --markdown 20240417/x/xtnkk-tools/1.0.0.6-1.0.0.7/README.md --exclude *.pyd
+[2024-04-17 11:54:08] INFO root fetch - processPackages [badbyte]: Downloading https://files.pythonhosted.org/packages/28/e1/ae944a199c38c45dce7a077132669ceb2e75e0578d53d828c3c635efb789/badbyte-0.1.5.tar.gz
+[2024-04-17 11:54:08] INFO root fetch - processPackages [hao]: executing diffoscope
+[2024-04-17 11:54:08] INFO root fetch - processPackages [hao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hao-3.8.6.tar.gz tmp/hao-3.8.7.tar.gz --markdown 20240417/h/hao/3.8.6-3.8.7/README.md --exclude *.pyd
+[2024-04-17 11:54:08] INFO root fetch - processPackages [selfpkg]: executing diffoscope
+[2024-04-17 11:54:08] INFO root fetch - processPackages [selfpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfpkg-0.0.3a1.tar.gz tmp/selfpkg-0.0.3a2.tar.gz --markdown 20240417/s/selfpkg/0.0.3a1-0.0.3a2/README.md --exclude *.pyd
+[2024-04-17 11:54:08] INFO root fetch - processPackages [badbyte]: executing diffoscope
+[2024-04-17 11:54:08] INFO root fetch - processPackages [badbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badbyte-0.1.4.tar.gz tmp/badbyte-0.1.5.tar.gz --markdown 20240417/b/badbyte/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-17 11:54:08] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.0.6.tar.gz]
+[2024-04-17 11:54:08] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.0.7.tar.gz]
+[2024-04-17 11:54:08] INFO root fetch - main [MainThread]: End processing [xtnkk-tools]: success
+[2024-04-17 11:54:09] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.3a1.tar.gz]
+[2024-04-17 11:54:09] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.3a2.tar.gz]
+[2024-04-17 11:54:09] INFO root fetch - main [MainThread]: End processing [selfpkg]: success
+[2024-04-17 11:54:09] INFO root fetch - processPackages [badbyte]: Remove: archive file [/home/abi/fetcher/tmp/badbyte-0.1.4.tar.gz]
+[2024-04-17 11:54:09] INFO root fetch - processPackages [badbyte]: Remove: archive file [/home/abi/fetcher/tmp/badbyte-0.1.5.tar.gz]
+[2024-04-17 11:54:09] INFO root fetch - main [MainThread]: End processing [badbyte]: success
+[2024-04-17 11:54:09] INFO root fetch - processPackages [hao]: Remove: archive file [/home/abi/fetcher/tmp/hao-3.8.6.tar.gz]
+[2024-04-17 11:54:09] INFO root fetch - processPackages [hao]: Remove: archive file [/home/abi/fetcher/tmp/hao-3.8.7.tar.gz]
+[2024-04-17 11:54:09] INFO root fetch - main [MainThread]: End processing [hao]: success
+[2024-04-17 11:54:09] INFO root fetch - processPackages [weather_provider_api]: Remove: archive file [/home/abi/fetcher/tmp/weather_provider_api-2.50.35.tar.gz]
+[2024-04-17 11:54:09] INFO root fetch - processPackages [weather_provider_api]: Remove: archive file [/home/abi/fetcher/tmp/weather_provider_api-2.50.36.tar.gz]
+[2024-04-17 11:54:09] INFO root fetch - main [MainThread]: End processing [weather_provider_api]: success
+[2024-04-17 11:54:09] INFO root fetch - main [MainThread]: Store serial: [22803491]
