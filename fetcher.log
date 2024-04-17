@@ -10244,3 +10244,47 @@
 [2024-04-17 06:31:07] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.4.tar.gz]
 [2024-04-17 06:31:07] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
 [2024-04-17 06:31:07] INFO root fetch - main [MainThread]: Store serial: [22799827]
+[2024-04-17 06:33:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799827]
+[2024-04-17 06:33:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 06:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faye
+[2024-04-17 06:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reboot-resemble
+[2024-04-17 06:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snowflake-sqlalchemy
+[2024-04-17 06:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvflare
+[2024-04-17 06:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: email-address-local
+[2024-04-17 06:33:16] INFO root fetch - processPackages [reboot-resemble]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-17 06:33:16] INFO root fetch - processPackages [email-address-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 06:33:16] INFO root fetch - processPackages [faye]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-17 06:33:16] INFO root fetch - processPackages [snowflake-sqlalchemy]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-04-17 06:33:16] INFO root fetch - processPackages [nvflare]: New version: [2.4.1rc6] Old Version: [2.4.1rc5]
+[2024-04-17 06:33:17] INFO root fetch - processPackages [faye]: Downloading https://files.pythonhosted.org/packages/d0/c6/bb22c5cc1ef4364197086dcccba744971be2cc7b73c32725fc6fe2d29532/faye-0.1.7.tar.gz
+[2024-04-17 06:33:17] INFO root fetch - processPackages [snowflake-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/8b/1c/3d777f46247a00bda4760186f5eac755b42aeba19d74275191cf080e6774/snowflake_sqlalchemy-1.5.2.tar.gz
+[2024-04-17 06:33:17] INFO root fetch - processPackages [reboot-resemble]: Downloading https://files.pythonhosted.org/packages/d5/4a/33bcaf0f8c327b7acb67c6d5265583fdec97cbe08738c2f0e65817347d73/reboot_resemble-0.5.5-cp310-cp310-manylinux_2_35_x86_64.whl
+[2024-04-17 06:33:17] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/a8/f2/75317f90ccacb6655c8fefd773dce9c2359b86e434bf4e98c3aa377dd835/email-address-local-0.0.8.tar.gz
+[2024-04-17 06:33:17] INFO root fetch - processPackages [nvflare]: Downloading https://files.pythonhosted.org/packages/24/9b/2bc680253876ae46c23ff6eeae84a4020f65a0e590210312108ae8cc13a3/nvflare-2.4.1rc5-py3-none-any.whl
+[2024-04-17 06:33:17] WARNING root fetch - processPackages [reboot-resemble]: Skipping package: exceeds size limit 17371608>=10485760
+[2024-04-17 06:33:17] INFO root fetch - main [MainThread]: End processing [reboot-resemble] error
+[2024-04-17 06:33:17] INFO root fetch - processPackages [faye]: Downloading https://files.pythonhosted.org/packages/b7/99/4823f5c7f4e327cf476f7b0f1584b9fa86119e1c90551faf672ad8997a2b/faye-0.1.8.tar.gz
+[2024-04-17 06:33:17] INFO root fetch - processPackages [snowflake-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/2e/4d/b8355faa07ffbcd1d36a0a92764b9ab8c3242ab4047790399ecd2e07b916/snowflake_sqlalchemy-1.5.3.tar.gz
+[2024-04-17 06:33:17] INFO root fetch - processPackages [faye]: executing diffoscope
+[2024-04-17 06:33:17] INFO root fetch - processPackages [faye]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faye-0.1.7.tar.gz tmp/faye-0.1.8.tar.gz --markdown 20240417/f/faye/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-17 06:33:17] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/33/0b/4f49c0e576b54988a9115fa0e8fd17a049b0cfaffdd95e2b721055a03b07/email-address-local-0.0.9.tar.gz
+[2024-04-17 06:33:17] INFO root fetch - processPackages [snowflake-sqlalchemy]: executing diffoscope
+[2024-04-17 06:33:17] INFO root fetch - processPackages [snowflake-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_sqlalchemy-1.5.2.tar.gz tmp/snowflake_sqlalchemy-1.5.3.tar.gz --markdown 20240417/s/snowflake-sqlalchemy/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-04-17 06:33:17] INFO root fetch - processPackages [email-address-local]: executing diffoscope
+[2024-04-17 06:33:17] INFO root fetch - processPackages [email-address-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email-address-local-0.0.8.tar.gz tmp/email-address-local-0.0.9.tar.gz --markdown 20240417/e/email-address-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 06:33:17] INFO root fetch - processPackages [nvflare]: Downloading https://files.pythonhosted.org/packages/c6/0e/427003e520a2fd357b9b5be5058ba3b995fc1b6d21106f470bb25f4eff7a/nvflare-2.4.1rc6-py3-none-any.whl
+[2024-04-17 06:33:18] INFO root fetch - processPackages [faye]: Remove: archive file [/home/abi/fetcher/tmp/faye-0.1.7.tar.gz]
+[2024-04-17 06:33:18] INFO root fetch - processPackages [faye]: Remove: archive file [/home/abi/fetcher/tmp/faye-0.1.8.tar.gz]
+[2024-04-17 06:33:18] INFO root fetch - main [MainThread]: End processing [faye]: success
+[2024-04-17 06:33:18] INFO root fetch - processPackages [snowflake-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_sqlalchemy-1.5.2.tar.gz]
+[2024-04-17 06:33:18] INFO root fetch - processPackages [snowflake-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_sqlalchemy-1.5.3.tar.gz]
+[2024-04-17 06:33:18] INFO root fetch - main [MainThread]: End processing [snowflake-sqlalchemy]: success
+[2024-04-17 06:33:18] INFO root fetch - processPackages [nvflare]: executing diffoscope
+[2024-04-17 06:33:18] INFO root fetch - processPackages [nvflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvflare-2.4.1rc5-py3-none-any.whl.zip tmp/nvflare-2.4.1rc6-py3-none-any.whl.zip --markdown 20240417/n/nvflare/2.4.1rc5-2.4.1rc6/README.md --exclude *.pyd
+[2024-04-17 06:33:18] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.8.tar.gz]
+[2024-04-17 06:33:18] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.9.tar.gz]
+[2024-04-17 06:33:18] INFO root fetch - main [MainThread]: End processing [email-address-local]: success
+[2024-04-17 06:33:20] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.4.1rc5-py3-none-any.whl.zip]
+[2024-04-17 06:33:20] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.4.1rc6-py3-none-any.whl.zip]
+[2024-04-17 06:33:20] INFO root fetch - main [MainThread]: End processing [nvflare]: success
+[2024-04-17 06:33:20] INFO root fetch - main [MainThread]: Store serial: [22799840]
