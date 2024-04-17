@@ -21776,3 +21776,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-17 14:03:32] INFO root fetch - processPackages [sound-scape-explorer]: Remove: archive file [/home/abi/fetcher/tmp/sound_scape_explorer-13.2.0.tar.gz]
 [2024-04-17 14:03:32] INFO root fetch - main [MainThread]: End processing [sound-scape-explorer]: success
 [2024-04-17 14:03:32] INFO root fetch - main [MainThread]: Store serial: [22805000]
+[2024-04-17 14:05:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805000]
+[2024-04-17 14:05:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 14:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: function2widgets
+[2024-04-17 14:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quart-rpc
+[2024-04-17 14:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Manifold-Table-Graph
+[2024-04-17 14:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ibridges
+[2024-04-17 14:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nextmeeting
+[2024-04-17 14:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neosctl
+[2024-04-17 14:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clfutils4r
+[2024-04-17 14:05:41] INFO root fetch - processPackages [neosctl]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-17 14:05:41] INFO root fetch - processPackages [function2widgets]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-17 14:05:41] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/5d/1b/bb37f5637a064c8d5ab4b4235d039cf7857037c9c438d57b7671aef507e3/neosctl-0.9.2.tar.gz
+[2024-04-17 14:05:41] INFO root fetch - processPackages [nextmeeting]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-17 14:05:41] WARNING root fetch - processPackages [quart-rpc]: Skipping, unable to determine old version
+[2024-04-17 14:05:41] INFO root fetch - main [MainThread]: End processing [quart-rpc] error
+[2024-04-17 14:05:41] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/8d/1f/9c80cc0aab57113a16bdbcc707f880482de6978e247d641da138c8c8c73d/function2widgets-0.6.8.tar.gz
+[2024-04-17 14:05:41] INFO root fetch - processPackages [clfutils4r]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-17 14:05:41] WARNING root fetch - processPackages [Manifold-Table-Graph]: Skipping, unable to determine old version
+[2024-04-17 14:05:41] INFO root fetch - main [MainThread]: End processing [Manifold-Table-Graph] error
+[2024-04-17 14:05:41] INFO root fetch - processPackages [ibridges]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-17 14:05:41] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/fb/17/0247bcfe59a8b9582e555bf06a04177a766199fe8b2dca93c086c142891a/neosctl-0.9.3.tar.gz
+[2024-04-17 14:05:41] INFO root fetch - processPackages [nextmeeting]: Downloading https://files.pythonhosted.org/packages/ce/49/e3125120459e10a582d8bf301c8ffa28590a62fb529111415c11dde92ac8/nextmeeting-1.5.1.tar.gz
+[2024-04-17 14:05:41] INFO root fetch - processPackages [ibridges]: Downloading https://files.pythonhosted.org/packages/24/50/a9d84bb1b2d5505028b133c47e175403b938477e92154a7417102bc26ef4/ibridges-0.1.3.tar.gz
+[2024-04-17 14:05:41] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/33/ed/124419d49f595a1f7fda6ac265ce6834078b604e525ad52a5c3168e69ad1/function2widgets-0.6.9.tar.gz
+[2024-04-17 14:05:41] INFO root fetch - processPackages [clfutils4r]: Downloading https://files.pythonhosted.org/packages/ef/10/1326fe8acfe91b15c23782f11bb65db1c1515ac12abcab77187aba0dc96b/clfutils4r-1.0.0.tar.gz
+[2024-04-17 14:05:41] INFO root fetch - processPackages [neosctl]: executing diffoscope
+[2024-04-17 14:05:41] INFO root fetch - processPackages [neosctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosctl-0.9.2.tar.gz tmp/neosctl-0.9.3.tar.gz --markdown 20240417/n/neosctl/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-17 14:05:41] INFO root fetch - processPackages [function2widgets]: executing diffoscope
+[2024-04-17 14:05:41] INFO root fetch - processPackages [function2widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function2widgets-0.6.8.tar.gz tmp/function2widgets-0.6.9.tar.gz --markdown 20240417/f/function2widgets/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-17 14:05:42] INFO root fetch - processPackages [nextmeeting]: Downloading https://files.pythonhosted.org/packages/34/f3/04aae40c03b64b558e1c7d786f1c9de8c49a1a48523a08ed982e557ff841/nextmeeting-1.5.2.tar.gz
+[2024-04-17 14:05:42] INFO root fetch - processPackages [ibridges]: Downloading https://files.pythonhosted.org/packages/99/d7/d9f124db08179d4d5daffc3bb5d0db37df2a6e67aa0ad555ee501e586711/ibridges-0.1.4.tar.gz
+[2024-04-17 14:05:42] INFO root fetch - processPackages [clfutils4r]: Downloading https://files.pythonhosted.org/packages/41/89/769f6e63b6b4d3e13ecefc2e0d21fedd3accc3ee74e3b5a4c90dbca71cc3/clfutils4r-1.0.1.tar.gz
+[2024-04-17 14:05:42] INFO root fetch - processPackages [nextmeeting]: executing diffoscope
+[2024-04-17 14:05:42] INFO root fetch - processPackages [nextmeeting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextmeeting-1.5.1.tar.gz tmp/nextmeeting-1.5.2.tar.gz --markdown 20240417/n/nextmeeting/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-04-17 14:05:42] INFO root fetch - processPackages [ibridges]: executing diffoscope
+[2024-04-17 14:05:42] INFO root fetch - processPackages [ibridges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibridges-0.1.3.tar.gz tmp/ibridges-0.1.4.tar.gz --markdown 20240417/i/ibridges/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-17 14:05:42] INFO root fetch - processPackages [clfutils4r]: executing diffoscope
+[2024-04-17 14:05:42] INFO root fetch - processPackages [clfutils4r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clfutils4r-1.0.0.tar.gz tmp/clfutils4r-1.0.1.tar.gz --markdown 20240417/c/clfutils4r/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-17 14:05:42] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.9.2.tar.gz]
+[2024-04-17 14:05:42] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.9.3.tar.gz]
+[2024-04-17 14:05:42] INFO root fetch - main [MainThread]: End processing [neosctl]: success
+[2024-04-17 14:05:42] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.8.tar.gz]
+[2024-04-17 14:05:42] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.9.tar.gz]
+[2024-04-17 14:05:42] INFO root fetch - main [MainThread]: End processing [function2widgets]: success
+[2024-04-17 14:05:42] INFO root fetch - processPackages [nextmeeting]: Remove: archive file [/home/abi/fetcher/tmp/nextmeeting-1.5.1.tar.gz]
+[2024-04-17 14:05:42] INFO root fetch - processPackages [nextmeeting]: Remove: archive file [/home/abi/fetcher/tmp/nextmeeting-1.5.2.tar.gz]
+[2024-04-17 14:05:42] INFO root fetch - main [MainThread]: End processing [nextmeeting]: success
+[2024-04-17 14:05:43] INFO root fetch - processPackages [clfutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clfutils4r-1.0.0.tar.gz]
+[2024-04-17 14:05:43] INFO root fetch - processPackages [clfutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clfutils4r-1.0.1.tar.gz]
+[2024-04-17 14:05:43] INFO root fetch - main [MainThread]: End processing [clfutils4r]: success
+[2024-04-17 14:05:43] INFO root fetch - processPackages [ibridges]: Remove: archive file [/home/abi/fetcher/tmp/ibridges-0.1.3.tar.gz]
+[2024-04-17 14:05:43] INFO root fetch - processPackages [ibridges]: Remove: archive file [/home/abi/fetcher/tmp/ibridges-0.1.4.tar.gz]
+[2024-04-17 14:05:43] INFO root fetch - main [MainThread]: End processing [ibridges]: success
+[2024-04-17 14:05:43] INFO root fetch - main [MainThread]: Store serial: [22805025]
