@@ -16638,3 +16638,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:56:32] INFO root fetch - processPackages [thug]: Remove: archive file [/home/abi/fetcher/tmp/thug-6.6.tar.gz]
 [2024-04-17 10:56:32] INFO root fetch - main [MainThread]: End processing [thug]: success
 [2024-04-17 10:56:32] INFO root fetch - main [MainThread]: Store serial: [22802632]
+[2024-04-17 10:58:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802632]
+[2024-04-17 10:58:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 10:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audio-toolkit
+[2024-04-17 10:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simfempy
+[2024-04-17 10:58:41] INFO root fetch - processPackages [audio-toolkit]: New version: [0.7.0] Old Version: [0.5.0]
+[2024-04-17 10:58:41] INFO root fetch - processPackages [simfempy]: New version: [2.2.8] Old Version: [2.2.7]
+[2024-04-17 10:58:41] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/01/b0/fe1cd4176c709b5fa7dbfc4c236fc204935f667ade93749ed2e2a28cc30d/audio_toolkit-0.5.0.tar.gz
+[2024-04-17 10:58:41] INFO root fetch - processPackages [simfempy]: Downloading https://files.pythonhosted.org/packages/9b/80/893000269dbb8eb40aa93fbf99ed35a5fb7bc458ba0bddcf947d35b05543/simfempy-2.2.7.tar.gz
+[2024-04-17 10:58:41] INFO root fetch - processPackages [simfempy]: Downloading https://files.pythonhosted.org/packages/55/8a/77bb15ad7af14cf9cb716f18049e43168ed958319a231ec085f518249cf9/simfempy-2.2.8.tar.gz
+[2024-04-17 10:58:41] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/38/ee/ec5142ef4b617f042d32e58138567fd0fabac1c07913e5150bba085161e4/audio_toolkit-0.7.0.tar.gz
+[2024-04-17 10:58:41] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-17 10:58:41] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.5.0.tar.gz tmp/audio_toolkit-0.7.0.tar.gz --markdown 20240417/a/audio-toolkit/0.5.0-0.7.0/README.md --exclude *.pyd
+[2024-04-17 10:58:42] INFO root fetch - processPackages [simfempy]: executing diffoscope
+[2024-04-17 10:58:42] INFO root fetch - processPackages [simfempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simfempy-2.2.7.tar.gz tmp/simfempy-2.2.8.tar.gz --markdown 20240417/s/simfempy/2.2.7-2.2.8/README.md --exclude *.pyd
+[2024-04-17 10:58:42] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.5.0.tar.gz]
+[2024-04-17 10:58:42] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.7.0.tar.gz]
+[2024-04-17 10:58:42] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-17 10:58:42] INFO root fetch - processPackages [simfempy]: Remove: archive file [/home/abi/fetcher/tmp/simfempy-2.2.7.tar.gz]
+[2024-04-17 10:58:42] INFO root fetch - processPackages [simfempy]: Remove: archive file [/home/abi/fetcher/tmp/simfempy-2.2.8.tar.gz]
+[2024-04-17 10:58:42] INFO root fetch - main [MainThread]: End processing [simfempy]: success
+[2024-04-17 10:58:42] INFO root fetch - main [MainThread]: Store serial: [22802636]
