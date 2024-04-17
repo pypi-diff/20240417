@@ -12649,3 +12649,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:35:57] INFO root fetch - processPackages [sswater]: Remove: archive file [/home/abi/fetcher/tmp/sswater-0.0.2.tar.gz]
 [2024-04-17 08:35:57] INFO root fetch - main [MainThread]: End processing [sswater]: success
 [2024-04-17 08:35:57] INFO root fetch - main [MainThread]: Store serial: [22800634]
+[2024-04-17 08:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800634]
+[2024-04-17 08:38:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 08:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sswater
+[2024-04-17 08:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geopic-tag-reader
+[2024-04-17 08:38:05] INFO root fetch - processPackages [sswater]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 08:38:06] INFO root fetch - processPackages [sswater]: Downloading https://files.pythonhosted.org/packages/c4/a2/99e867c22a0521c5ec1cab8720db55b757a941dcce2574d4b6743c574e38/sswater-0.0.1.tar.gz
+[2024-04-17 08:38:06] INFO root fetch - processPackages [geopic-tag-reader]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-04-17 08:38:06] INFO root fetch - processPackages [geopic-tag-reader]: Downloading https://files.pythonhosted.org/packages/c9/fe/a2036fe2df0c3b6a206071276ea05d7bc46fd58d02db492b431b81e1cb71/geopic_tag_reader-1.0.6.tar.gz
+[2024-04-17 08:38:06] INFO root fetch - processPackages [sswater]: Downloading https://files.pythonhosted.org/packages/d1/69/5a3008cc9fbd18640377cdd27905e07d994f2d18af12a9ae1a81f8af20d0/sswater-0.0.2.tar.gz
+[2024-04-17 08:38:06] INFO root fetch - processPackages [sswater]: executing diffoscope
+[2024-04-17 08:38:06] INFO root fetch - processPackages [sswater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sswater-0.0.1.tar.gz tmp/sswater-0.0.2.tar.gz --markdown 20240417/s/sswater/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 08:38:06] INFO root fetch - processPackages [geopic-tag-reader]: Downloading https://files.pythonhosted.org/packages/f5/7b/894dab75864e1e0e5fde6e6a0435d99c9376eb55f9e9431a25a2cb4c082a/geopic_tag_reader-1.1.0.tar.gz
+[2024-04-17 08:38:06] INFO root fetch - processPackages [geopic-tag-reader]: executing diffoscope
+[2024-04-17 08:38:06] INFO root fetch - processPackages [geopic-tag-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopic_tag_reader-1.0.6.tar.gz tmp/geopic_tag_reader-1.1.0.tar.gz --markdown 20240417/g/geopic-tag-reader/1.0.6-1.1.0/README.md --exclude *.pyd
+[2024-04-17 08:38:06] INFO root fetch - processPackages [sswater]: Remove: archive file [/home/abi/fetcher/tmp/sswater-0.0.1.tar.gz]
+[2024-04-17 08:38:06] INFO root fetch - processPackages [sswater]: Remove: archive file [/home/abi/fetcher/tmp/sswater-0.0.2.tar.gz]
+[2024-04-17 08:38:06] INFO root fetch - main [MainThread]: End processing [sswater]: success
+[2024-04-17 08:38:07] INFO root fetch - processPackages [geopic-tag-reader]: Remove: archive file [/home/abi/fetcher/tmp/geopic_tag_reader-1.0.6.tar.gz]
+[2024-04-17 08:38:07] INFO root fetch - processPackages [geopic-tag-reader]: Remove: archive file [/home/abi/fetcher/tmp/geopic_tag_reader-1.1.0.tar.gz]
+[2024-04-17 08:38:07] INFO root fetch - main [MainThread]: End processing [geopic-tag-reader]: success
+[2024-04-17 08:38:07] INFO root fetch - main [MainThread]: Store serial: [22800641]
