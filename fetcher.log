@@ -22283,3 +22283,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-17 14:20:27] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.5.2b2.tar.gz]
 [2024-04-17 14:20:27] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
 [2024-04-17 14:20:27] INFO root fetch - main [MainThread]: Store serial: [22805235]
+[2024-04-17 14:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805235]
+[2024-04-17 14:22:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GSG
+[2024-04-17 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GSG
+[2024-04-17 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiraid
+[2024-04-17 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Simplex
+[2024-04-17 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leximpact-aggregates
+[2024-04-17 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wonder-diffusion-sdk
+[2024-04-17 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ket-lang
+[2024-04-17 14:22:36] INFO root fetch - processPackages [hiraid]: New version: [1.0.48] Old Version: [1.0.47]
+[2024-04-17 14:22:36] INFO root fetch - processPackages [wonder-diffusion-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 14:22:36] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/e7/8b/afcc25e265fc6f05ca86c1c8fde4d8e2558b1ee816da8b479c1c1edb6532/wonder-diffusion-sdk-0.0.2.tar.gz
+[2024-04-17 14:22:36] WARNING root fetch - processPackages [GSG]: Skipping, unable to determine old version
+[2024-04-17 14:22:36] WARNING root fetch - processPackages [GSG]: Skipping, unable to determine old version
+[2024-04-17 14:22:36] INFO root fetch - main [MainThread]: End processing [GSG] error
+[2024-04-17 14:22:36] INFO root fetch - main [MainThread]: End processing [GSG] error
+[2024-04-17 14:22:36] INFO root fetch - processPackages [hiraid]: Downloading https://files.pythonhosted.org/packages/92/18/7a802dd97e7862b53a24a875f899c49203b0022fa365f4ec048a69f1ab7a/hiraid-1.0.47-py3-none-any.whl
+[2024-04-17 14:22:36] INFO root fetch - processPackages [leximpact-aggregates]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 14:22:36] INFO root fetch - processPackages [ket-lang]: New version: [0.7rc1] Old Version: [0.7rc0]
+[2024-04-17 14:22:36] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.7.3rc1] Old Version: [6.7.2rc1]
+[2024-04-17 14:22:36] INFO root fetch - processPackages [leximpact-aggregates]: Downloading https://files.pythonhosted.org/packages/4c/7b/98515da3c9e4789b15e896a4f3622e5617757221c62da08a919ee090c334/leximpact-aggregates-0.0.8.tar.gz
+[2024-04-17 14:22:36] INFO root fetch - processPackages [ket-lang]: Downloading https://files.pythonhosted.org/packages/5f/a3/a2ed1c39b59a8f27dfaea889cad6eff668c8bead551da71e8b8ff2b13181/ket-lang-0.7rc0.tar.gz
+[2024-04-17 14:22:37] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/e1/ae/30cd34fc42d0b13dcd2bc513d81206f42508a243405996a58bbd4150d7a5/wonder-diffusion-sdk-0.0.3.tar.gz
+[2024-04-17 14:22:37] INFO root fetch - processPackages [hiraid]: Downloading https://files.pythonhosted.org/packages/77/c6/54fb3452d5b342fac2fdf3d6a8abdc9a455ab45da3c57b5d22849e30861a/hiraid-1.0.48-py3-none-any.whl
+[2024-04-17 14:22:37] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/12/f7/2b4711c409dac5988ef89f10156983148a2a65e7a58e27944026cd7748b4/Geode_Simplex-6.7.2rc1-cp39-cp39-win_amd64.whl
+[2024-04-17 14:22:37] INFO root fetch - processPackages [wonder-diffusion-sdk]: executing diffoscope
+[2024-04-17 14:22:37] INFO root fetch - processPackages [wonder-diffusion-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-diffusion-sdk-0.0.2.tar.gz tmp/wonder-diffusion-sdk-0.0.3.tar.gz --markdown 20240417/w/wonder-diffusion-sdk/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 14:22:37] INFO root fetch - processPackages [hiraid]: executing diffoscope
+[2024-04-17 14:22:37] INFO root fetch - processPackages [hiraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiraid-1.0.47-py3-none-any.whl.zip tmp/hiraid-1.0.48-py3-none-any.whl.zip --markdown 20240417/h/hiraid/1.0.47-1.0.48/README.md --exclude *.pyd
+[2024-04-17 14:22:37] INFO root fetch - processPackages [ket-lang]: Downloading https://files.pythonhosted.org/packages/fd/3f/ec7c55ab991760fdfb51089e865869a2651901b6bc0db2ea349190d3590f/ket-lang-0.7rc1.tar.gz
+[2024-04-17 14:22:37] INFO root fetch - processPackages [leximpact-aggregates]: Downloading https://files.pythonhosted.org/packages/56/a2/c9898d6a9f5592d3822f3a8e43edc3be4ddc57810ec8e473ef2318c6f5bb/leximpact-aggregates-0.0.9.tar.gz
+[2024-04-17 14:22:37] INFO root fetch - processPackages [ket-lang]: executing diffoscope
+[2024-04-17 14:22:37] INFO root fetch - processPackages [ket-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ket-lang-0.7rc0.tar.gz tmp/ket-lang-0.7rc1.tar.gz --markdown 20240417/k/ket-lang/0.7rc0-0.7rc1/README.md --exclude *.pyd
+[2024-04-17 14:22:37] INFO root fetch - processPackages [leximpact-aggregates]: executing diffoscope
+[2024-04-17 14:22:37] INFO root fetch - processPackages [leximpact-aggregates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leximpact-aggregates-0.0.8.tar.gz tmp/leximpact-aggregates-0.0.9.tar.gz --markdown 20240417/l/leximpact-aggregates/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 14:22:37] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/ca/2f/aa45f3d8763e22073d3fe5256294b98db167f78d20a81734d401709a6422/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl
+[2024-04-17 14:22:37] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.2.tar.gz]
+[2024-04-17 14:22:37] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.3.tar.gz]
+[2024-04-17 14:22:37] INFO root fetch - main [MainThread]: End processing [wonder-diffusion-sdk]: success
+[2024-04-17 14:22:37] INFO root fetch - processPackages [hiraid]: Remove: archive file [/home/abi/fetcher/tmp/hiraid-1.0.47-py3-none-any.whl.zip]
+[2024-04-17 14:22:37] INFO root fetch - processPackages [hiraid]: Remove: archive file [/home/abi/fetcher/tmp/hiraid-1.0.48-py3-none-any.whl.zip]
+[2024-04-17 14:22:37] INFO root fetch - main [MainThread]: End processing [hiraid]: success
+[2024-04-17 14:22:38] INFO root fetch - processPackages [leximpact-aggregates]: Remove: archive file [/home/abi/fetcher/tmp/leximpact-aggregates-0.0.8.tar.gz]
+[2024-04-17 14:22:38] INFO root fetch - processPackages [leximpact-aggregates]: Remove: archive file [/home/abi/fetcher/tmp/leximpact-aggregates-0.0.9.tar.gz]
+[2024-04-17 14:22:38] INFO root fetch - main [MainThread]: End processing [leximpact-aggregates]: success
+[2024-04-17 14:22:38] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-04-17 14:22:38] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.7.2rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240417/G/Geode-Simplex/6.7.2rc1-6.7.3rc1/README.md --exclude *.pyd
+[2024-04-17 14:22:38] INFO root fetch - processPackages [ket-lang]: Remove: archive file [/home/abi/fetcher/tmp/ket-lang-0.7rc0.tar.gz]
+[2024-04-17 14:22:38] INFO root fetch - processPackages [ket-lang]: Remove: archive file [/home/abi/fetcher/tmp/ket-lang-0.7rc1.tar.gz]
+[2024-04-17 14:22:38] INFO root fetch - main [MainThread]: End processing [ket-lang]: success
+[2024-04-17 14:23:05] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 14:23:05] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 14:23:05] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-04-17 14:23:05] INFO root fetch - main [MainThread]: Store serial: [22805265]
