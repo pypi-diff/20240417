@@ -20904,3 +20904,40 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:31:15] INFO root fetch - processPackages [mediascope-api-lib]: Remove: archive file [/home/abi/fetcher/tmp/mediascope_api_lib-1.1.9.tar.gz]
 [2024-04-17 13:31:15] INFO root fetch - main [MainThread]: End processing [mediascope-api-lib]: success
 [2024-04-17 13:31:15] INFO root fetch - main [MainThread]: Store serial: [22804544]
+[2024-04-17 13:33:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804544]
+[2024-04-17 13:33:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aws
+[2024-04-17 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zermelo-for-python
+[2024-04-17 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zermelo-for-python
+[2024-04-17 13:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akshare
+[2024-04-17 13:33:24] INFO root fetch - processPackages [zermelo-for-python]: New version: [2024.4.17.13.26.11] Old Version: [2024.4.17.13.25.58]
+[2024-04-17 13:33:24] INFO root fetch - processPackages [zermelo-for-python]: New version: [2024.4.17.13.26.11] Old Version: [2024.4.17.13.25.58]
+[2024-04-17 13:33:24] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-17 13:33:24] INFO root fetch - processPackages [zermelo-for-python]: Downloading https://files.pythonhosted.org/packages/11/88/8760a7a9287762056e8efc7aff8141a415b5fd9ec3aa7239fdd101a7013e/zermelo_for_python-2024.4.17.13.25.58.tar.gz
+[2024-04-17 13:33:25] INFO root fetch - processPackages [zermelo-for-python]: Downloading https://files.pythonhosted.org/packages/11/88/8760a7a9287762056e8efc7aff8141a415b5fd9ec3aa7239fdd101a7013e/zermelo_for_python-2024.4.17.13.25.58.tar.gz
+[2024-04-17 13:33:25] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-17 13:33:25] INFO root fetch - processPackages [zermelo-for-python]: Downloading https://files.pythonhosted.org/packages/bd/67/dd9070c7d60fcf5ef6563273e57ebe9fa7362e3f312c2c2fc51d1eb66085/zermelo_for_python-2024.4.17.13.26.11-py3-none-any.whl
+[2024-04-17 13:33:25] INFO root fetch - processPackages [zermelo-for-python]: Downloading https://files.pythonhosted.org/packages/bd/67/dd9070c7d60fcf5ef6563273e57ebe9fa7362e3f312c2c2fc51d1eb66085/zermelo_for_python-2024.4.17.13.26.11-py3-none-any.whl
+[2024-04-17 13:33:25] INFO root fetch - processPackages [zermelo-for-python]: executing diffoscope
+[2024-04-17 13:33:25] INFO root fetch - processPackages [zermelo-for-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zermelo_for_python-2024.4.17.13.25.58.tar.gz tmp/zermelo_for_python-2024.4.17.13.26.11-py3-none-any.whl.zip --markdown 20240417/z/zermelo-for-python/2024.4.17.13.25.58-2024.4.17.13.26.11/README.md --exclude *.pyd
+[2024-04-17 13:33:25] INFO root fetch - processPackages [zermelo-for-python]: executing diffoscope
+[2024-04-17 13:33:25] INFO root fetch - processPackages [zermelo-for-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zermelo_for_python-2024.4.17.13.25.58.tar.gz tmp/zermelo_for_python-2024.4.17.13.26.11-py3-none-any.whl.zip --markdown 20240417/z/zermelo-for-python/2024.4.17.13.25.58-2024.4.17.13.26.11/README.md --exclude *.pyd
+[2024-04-17 13:33:25] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-17 13:33:25] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-17 13:33:25] INFO root fetch - processPackages [zermelo-for-python]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_for_python-2024.4.17.13.25.58.tar.gz]
+[2024-04-17 13:33:25] INFO root fetch - processPackages [zermelo-for-python]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_for_python-2024.4.17.13.26.11-py3-none-any.whl.zip]
+[2024-04-17 13:33:25] INFO root fetch - main [MainThread]: End processing [zermelo-for-python]: success
+[2024-04-17 13:33:25] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-17 13:33:25] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240417/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-04-17 13:33:25] INFO root fetch - main [MainThread]: End processing [zermelo-for-python]: success
+[2024-04-17 13:33:25] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-17 13:33:26] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-17 13:33:26] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-17 13:33:26] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240417/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-04-17 13:33:28] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-17 13:33:28] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-17 13:33:28] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-17 13:33:42] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-17 13:33:42] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-17 13:33:42] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-17 13:33:42] INFO root fetch - main [MainThread]: Store serial: [22804575]
