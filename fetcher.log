@@ -14526,3 +14526,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:42:38] INFO root fetch - processPackages [inManage]: Remove: archive file [/home/abi/fetcher/tmp/inManage-1.1.0.tar.gz]
 [2024-04-17 09:42:38] INFO root fetch - main [MainThread]: End processing [inManage]: success
 [2024-04-17 09:42:38] INFO root fetch - main [MainThread]: Store serial: [22801544]
+[2024-04-17 09:44:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801544]
+[2024-04-17 09:44:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nuon
+[2024-04-17 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: distilabel
+[2024-04-17 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsugu
+[2024-04-17 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyquiet
+[2024-04-17 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataforgetoolkit
+[2024-04-17 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atomicshop
+[2024-04-17 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-sale-order-line-variant-description
+[2024-04-17 09:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlx.traceability
+[2024-04-17 09:44:47] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-17 09:44:47] INFO root fetch - processPackages [tsugu]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-17 09:44:47] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-17 09:44:47] INFO root fetch - processPackages [pyquiet]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 09:44:47] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.1.1]
+[2024-04-17 09:44:47] INFO root fetch - processPackages [mlx.traceability]: New version: [9.6.1] Old Version: [9.5.1]
+[2024-04-17 09:44:47] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/7d/75/4eadc76921f4f9fa05d466f1687d6533f5424ef79a200e9a524d6bac6405/tsugu-0.5.2.tar.gz
+[2024-04-17 09:44:47] WARNING root fetch - processPackages [dataforgetoolkit]: Skipping, unable to determine old version
+[2024-04-17 09:44:47] INFO root fetch - processPackages [distilabel]: New version: [1.0.0] Old Version: [0.6.0]
+[2024-04-17 09:44:47] INFO root fetch - main [MainThread]: End processing [dataforgetoolkit] error
+[2024-04-17 09:44:47] INFO root fetch - processPackages [nuon]: New version: [0.19.99] Old Version: [0.19.98]
+[2024-04-17 09:44:47] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/8d/82/73a4a9564f53819f1d2ce0052786b8fbaac8797092a6e5b9ad8368807e5a/nuon-0.19.98.tar.gz
+[2024-04-17 09:44:47] INFO root fetch - processPackages [pyquiet]: Downloading https://files.pythonhosted.org/packages/13/a9/dabe81e0fc7ee3d319f434f80a62de0b1546cd67dd829aa2f6d01fa58364/pyquiet-0.0.2.tar.gz
+[2024-04-17 09:44:48] INFO root fetch - processPackages [distilabel]: Downloading https://files.pythonhosted.org/packages/a4/1a/75dc49b1f55483e07f8d77404584c95ff281f3fa54097e9b7158c295e78e/distilabel-0.6.0.tar.gz
+[2024-04-17 09:44:48] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: Downloading https://files.pythonhosted.org/packages/d8/21/df781b2327386c93b7585e9387ae64452598f6b852c55fef86b59b8e1211/odoo_addon_sale_order_line_variant_description-16.0.1.0.1.1-py3-none-any.whl
+[2024-04-17 09:44:48] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/7e/d2/bde3fa8080b0d35d23ec3f698da8c6e53d8dfa9cfc2e82a74025fd32fab0/tsugu-0.5.3.tar.gz
+[2024-04-17 09:44:48] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/2e/32/73fde17d65f51538c324ffecb418e1d8709cd44e594ad86a351bb39fa67f/nuon-0.19.99.tar.gz
+[2024-04-17 09:44:48] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-17 09:44:48] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.5.2.tar.gz tmp/tsugu-0.5.3.tar.gz --markdown 20240417/t/tsugu/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-17 09:44:48] INFO root fetch - processPackages [mlx.traceability]: Downloading https://files.pythonhosted.org/packages/39/f0/5e0d5dab0d659d1a3fdc7b2048f38e290d10534df949b146990e952122d6/mlx.traceability-9.5.1.tar.gz
+[2024-04-17 09:44:48] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-04-17 09:44:48] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.98.tar.gz tmp/nuon-0.19.99.tar.gz --markdown 20240417/n/nuon/0.19.98-0.19.99/README.md --exclude *.pyd
+[2024-04-17 09:44:48] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: Downloading https://files.pythonhosted.org/packages/81/0e/c42d82ea96fd2821d0b7bdacfa06d1d9e190acde6c3b5acf522042602e69/odoo_addon_sale_order_line_variant_description-16.0.1.1.0-py3-none-any.whl
+[2024-04-17 09:44:48] INFO root fetch - processPackages [pyquiet]: Downloading https://files.pythonhosted.org/packages/ef/14/849151bf8408d7e71ea87d7f63637af405cc969a549299d1721ec2e1090a/pyquiet-0.0.3.tar.gz
+[2024-04-17 09:44:48] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-17 09:44:48] INFO root fetch - processPackages [pyquiet]: executing diffoscope
+[2024-04-17 09:44:48] INFO root fetch - processPackages [pyquiet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquiet-0.0.2.tar.gz tmp/pyquiet-0.0.3.tar.gz --markdown 20240417/p/pyquiet/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 09:44:48] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: executing diffoscope
+[2024-04-17 09:44:48] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_line_variant_description-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_sale_order_line_variant_description-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240417/o/odoo-addon-sale-order-line-variant-description/16.0.1.0.1.1-16.0.1.1.0/README.md --exclude *.pyd
+[2024-04-17 09:44:48] INFO root fetch - processPackages [mlx.traceability]: Downloading https://files.pythonhosted.org/packages/7b/a6/216d2d2a0bdfb9823c5b8d94d0406fd4e98d541420db55a8d61059fb136c/mlx.traceability-9.6.1.tar.gz
+[2024-04-17 09:44:49] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-17 09:44:49] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240417/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-17 09:44:49] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.5.2.tar.gz]
+[2024-04-17 09:44:49] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.5.3.tar.gz]
+[2024-04-17 09:44:49] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-17 09:44:49] INFO root fetch - processPackages [pyquiet]: Remove: archive file [/home/abi/fetcher/tmp/pyquiet-0.0.2.tar.gz]
+[2024-04-17 09:44:49] INFO root fetch - processPackages [pyquiet]: Remove: archive file [/home/abi/fetcher/tmp/pyquiet-0.0.3.tar.gz]
+[2024-04-17 09:44:49] INFO root fetch - main [MainThread]: End processing [pyquiet]: success
+[2024-04-17 09:44:49] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_variant_description-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-17 09:44:49] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_variant_description-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-17 09:44:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-variant-description]: success
+[2024-04-17 09:44:49] INFO root fetch - processPackages [distilabel]: Downloading https://files.pythonhosted.org/packages/97/bd/20de65a2ec1567ed65c308fb4e3daf00253dfa4054004b85452c89dd7651/distilabel-1.0.0.tar.gz
+[2024-04-17 09:44:49] INFO root fetch - processPackages [mlx.traceability]: executing diffoscope
+[2024-04-17 09:44:49] INFO root fetch - processPackages [mlx.traceability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlx.traceability-9.5.1.tar.gz tmp/mlx.traceability-9.6.1.tar.gz --markdown 20240417/m/mlx.traceability/9.5.1-9.6.1/README.md --exclude *.pyd
+[2024-04-17 09:44:50] INFO root fetch - processPackages [distilabel]: executing diffoscope
+[2024-04-17 09:44:50] INFO root fetch - processPackages [distilabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distilabel-0.6.0.tar.gz tmp/distilabel-1.0.0.tar.gz --markdown 20240417/d/distilabel/0.6.0-1.0.0/README.md --exclude *.pyd
+[2024-04-17 09:44:50] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-17 09:44:50] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-17 09:44:50] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-17 09:44:50] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.98.tar.gz]
+[2024-04-17 09:44:50] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
+[2024-04-17 09:44:50] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-04-17 09:44:51] INFO root fetch - processPackages [mlx.traceability]: Remove: archive file [/home/abi/fetcher/tmp/mlx.traceability-9.5.1.tar.gz]
+[2024-04-17 09:44:51] INFO root fetch - processPackages [mlx.traceability]: Remove: archive file [/home/abi/fetcher/tmp/mlx.traceability-9.6.1.tar.gz]
+[2024-04-17 09:44:51] INFO root fetch - main [MainThread]: End processing [mlx.traceability]: success
+[2024-04-17 09:44:51] INFO root fetch - processPackages [distilabel]: Remove: archive file [/home/abi/fetcher/tmp/distilabel-0.6.0.tar.gz]
+[2024-04-17 09:44:51] INFO root fetch - processPackages [distilabel]: Remove: archive file [/home/abi/fetcher/tmp/distilabel-1.0.0.tar.gz]
+[2024-04-17 09:44:51] INFO root fetch - main [MainThread]: End processing [distilabel]: success
+[2024-04-17 09:44:51] INFO root fetch - main [MainThread]: Store serial: [22801570]
