@@ -13295,3 +13295,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:55:40] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.1.5.tar.gz]
 [2024-04-17 08:55:40] INFO root fetch - main [MainThread]: End processing [jageocoder]: success
 [2024-04-17 08:55:40] INFO root fetch - main [MainThread]: Store serial: [22800941]
+[2024-04-17 08:57:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800941]
+[2024-04-17 08:57:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 08:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-esimd
+[2024-04-17 08:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amit-hvac-control
+[2024-04-17 08:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TestPackage-yidas
+[2024-04-17 08:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbacoordinationclient
+[2024-04-17 08:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: broadlink
+[2024-04-17 08:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ewatercycle-DA
+[2024-04-17 08:57:49] INFO root fetch - processPackages [TestPackage-yidas]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 08:57:49] INFO root fetch - processPackages [TestPackage-yidas]: Downloading https://files.pythonhosted.org/packages/8f/b4/ccc2c56ac6f9313b9d7bc310ddd4ae37a8970e58aa9a9884fd59ddab18bc/testpackage_yidas-0.0.2.tar.gz
+[2024-04-17 08:57:49] INFO root fetch - processPackages [dbacoordinationclient]: New version: [0.0.30] Old Version: [0.0.29]
+[2024-04-17 08:57:49] INFO root fetch - processPackages [amit-hvac-control]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-17 08:57:49] INFO root fetch - processPackages [ewatercycle-DA]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-17 08:57:49] INFO root fetch - processPackages [broadlink]: New version: [0.9] Old Version: [0.8]
+[2024-04-17 08:57:49] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240416] Old Version: [2.5.0b20240415]
+[2024-04-17 08:57:50] INFO root fetch - processPackages [dbacoordinationclient]: Downloading https://files.pythonhosted.org/packages/51/64/11a1ce1c7c5750a6b30963820680ec5e6a1b2890e58183a5530f546b7e3b/dbacoordinationclient-0.0.29.tar.gz
+[2024-04-17 08:57:50] INFO root fetch - processPackages [amit-hvac-control]: Downloading https://files.pythonhosted.org/packages/34/a3/28dd998a79a4108ba5e4dc23ddf0252566db9f73c69dd11721865c17b520/amit_hvac_control-0.3.2.tar.gz
+[2024-04-17 08:57:50] INFO root fetch - processPackages [ewatercycle-DA]: Downloading https://files.pythonhosted.org/packages/16/9a/a38b2e971e42d38bcff3c88d7db89d364aa20f1b37792f2ef97bc9ae021d/ewatercycle_da-0.0.3.tar.gz
+[2024-04-17 08:57:50] INFO root fetch - processPackages [broadlink]: Downloading https://files.pythonhosted.org/packages/6e/6c/65d03731297c6e5818c8e16ae6bc0cc6acc04358b99ff58c3c597335ce0d/broadlink-0.8.tar.gz
+[2024-04-17 08:57:50] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/ec/8a/66dcf5ae91c9d08b5b93692d391ab2257211851f0027337345bd8c32302d/bigdl_core_xe_esimd-2.5.0b20240415-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-17 08:57:50] INFO root fetch - processPackages [TestPackage-yidas]: Downloading https://files.pythonhosted.org/packages/42/a6/b1bbcbd07c99d0c159e77ef6c74d84936f698dad33e2be5fda73a707bfa5/testpackage_yidas-0.0.3.tar.gz
+[2024-04-17 08:57:50] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61865771>=10485760
+[2024-04-17 08:57:50] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-04-17 08:57:50] INFO root fetch - processPackages [TestPackage-yidas]: executing diffoscope
+[2024-04-17 08:57:50] INFO root fetch - processPackages [TestPackage-yidas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpackage_yidas-0.0.2.tar.gz tmp/testpackage_yidas-0.0.3.tar.gz --markdown 20240417/T/TestPackage-yidas/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 08:57:50] INFO root fetch - processPackages [dbacoordinationclient]: Downloading https://files.pythonhosted.org/packages/b8/a1/2518131230ba114d34287d7cbd43f6ee4b19c3679fbf4a6ee1894a780b7b/dbacoordinationclient-0.0.30.tar.gz
+[2024-04-17 08:57:50] INFO root fetch - processPackages [amit-hvac-control]: Downloading https://files.pythonhosted.org/packages/37/1c/0ec6c839dfdfac4f7b9b3880f078abd57220316d78fc04b6d7205e2543fb/amit_hvac_control-0.3.3.tar.gz
+[2024-04-17 08:57:50] INFO root fetch - processPackages [broadlink]: Downloading https://files.pythonhosted.org/packages/1e/1d/62599562a5e50e53ac16b8a3f34eae1842dba4d2baef37dc9e09df68bd68/broadlink-0.9.tar.gz
+[2024-04-17 08:57:50] INFO root fetch - processPackages [dbacoordinationclient]: executing diffoscope
+[2024-04-17 08:57:50] INFO root fetch - processPackages [dbacoordinationclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbacoordinationclient-0.0.29.tar.gz tmp/dbacoordinationclient-0.0.30.tar.gz --markdown 20240417/d/dbacoordinationclient/0.0.29-0.0.30/README.md --exclude *.pyd
+[2024-04-17 08:57:50] INFO root fetch - processPackages [amit-hvac-control]: executing diffoscope
+[2024-04-17 08:57:50] INFO root fetch - processPackages [amit-hvac-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amit_hvac_control-0.3.2.tar.gz tmp/amit_hvac_control-0.3.3.tar.gz --markdown 20240417/a/amit-hvac-control/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-17 08:57:50] INFO root fetch - processPackages [broadlink]: executing diffoscope
+[2024-04-17 08:57:50] INFO root fetch - processPackages [broadlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/broadlink-0.8.tar.gz tmp/broadlink-0.9.tar.gz --markdown 20240417/b/broadlink/0.8-0.9/README.md --exclude *.pyd
+[2024-04-17 08:57:50] INFO root fetch - processPackages [ewatercycle-DA]: Downloading https://files.pythonhosted.org/packages/32/f8/6751460c17c10e0298923b2d7f8b6c2b8c187be522fcec4107fb8953e2b5/ewatercycle_da-0.0.4.tar.gz
+[2024-04-17 08:57:51] INFO root fetch - processPackages [TestPackage-yidas]: Remove: archive file [/home/abi/fetcher/tmp/testpackage_yidas-0.0.2.tar.gz]
+[2024-04-17 08:57:51] INFO root fetch - processPackages [TestPackage-yidas]: Remove: archive file [/home/abi/fetcher/tmp/testpackage_yidas-0.0.3.tar.gz]
+[2024-04-17 08:57:51] INFO root fetch - main [MainThread]: End processing [TestPackage-yidas]: success
+[2024-04-17 08:57:51] INFO root fetch - processPackages [dbacoordinationclient]: Remove: archive file [/home/abi/fetcher/tmp/dbacoordinationclient-0.0.29.tar.gz]
+[2024-04-17 08:57:51] INFO root fetch - processPackages [dbacoordinationclient]: Remove: archive file [/home/abi/fetcher/tmp/dbacoordinationclient-0.0.30.tar.gz]
+[2024-04-17 08:57:51] INFO root fetch - main [MainThread]: End processing [dbacoordinationclient]: success
+[2024-04-17 08:57:51] INFO root fetch - processPackages [amit-hvac-control]: Remove: archive file [/home/abi/fetcher/tmp/amit_hvac_control-0.3.2.tar.gz]
+[2024-04-17 08:57:51] INFO root fetch - processPackages [amit-hvac-control]: Remove: archive file [/home/abi/fetcher/tmp/amit_hvac_control-0.3.3.tar.gz]
+[2024-04-17 08:57:51] INFO root fetch - main [MainThread]: End processing [amit-hvac-control]: success
+[2024-04-17 08:57:51] WARNING root fetch - processPackages [ewatercycle-DA]: Skipping package: exceeds size limit 20140655>=10485760
+[2024-04-17 08:57:51] INFO root fetch - main [MainThread]: End processing [ewatercycle-DA] error
+[2024-04-17 08:57:51] INFO root fetch - processPackages [broadlink]: Remove: archive file [/home/abi/fetcher/tmp/broadlink-0.8.tar.gz]
+[2024-04-17 08:57:51] INFO root fetch - processPackages [broadlink]: Remove: archive file [/home/abi/fetcher/tmp/broadlink-0.9.tar.gz]
+[2024-04-17 08:57:51] INFO root fetch - main [MainThread]: End processing [broadlink]: success
+[2024-04-17 08:57:51] INFO root fetch - main [MainThread]: Store serial: [22800960]
