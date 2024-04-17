@@ -9346,3 +9346,42 @@
 [2024-04-17 05:40:42] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.9.2.tar.gz]
 [2024-04-17 05:40:42] INFO root fetch - main [MainThread]: End processing [mlflow-skinny]: success
 [2024-04-17 05:40:42] INFO root fetch - main [MainThread]: Store serial: [22799500]
+[2024-04-17 05:42:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799500]
+[2024-04-17 05:42:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 05:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vegan
+[2024-04-17 05:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ms-swift
+[2024-04-17 05:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jellyash
+[2024-04-17 05:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-amcards
+[2024-04-17 05:42:51] INFO root fetch - processPackages [python-amcards]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-17 05:42:51] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/2d/b6/9b87dbf33b87811a8f9ac6e1bf94aac65dcef8d727a8b65bb105369718b5/python-amcards-1.2.8.tar.gz
+[2024-04-17 05:42:51] INFO root fetch - processPackages [jellyash]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-17 05:42:51] INFO root fetch - processPackages [vegan]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-04-17 05:42:51] INFO root fetch - processPackages [ms-swift]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-17 05:42:51] INFO root fetch - processPackages [vegan]: Downloading https://files.pythonhosted.org/packages/f8/c5/e037164cadd08ea55c3650cf549dc3df35f35cc65a22d6e0d6bc8b805634/VEGAN-0.0.1.tar.gz
+[2024-04-17 05:42:51] INFO root fetch - processPackages [jellyash]: Downloading https://files.pythonhosted.org/packages/6b/d1/2d84944077cbe04e23a78d817c82c51f9aeee405b16836c38d8675f59c42/jellyash-0.5.2.tar.gz
+[2024-04-17 05:42:51] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/8e/77/a7238e5324ac5a2b2e4005f67aa51330133e4c1255c267e828c5dfb45cf1/python-amcards-1.2.9.tar.gz
+[2024-04-17 05:42:52] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/73/20/51a5237834c35e8b7f7678f30df890ef21e8b05ee3e6fd166178c0c7525d/ms-swift-2.0.0.tar.gz
+[2024-04-17 05:42:52] INFO root fetch - processPackages [python-amcards]: executing diffoscope
+[2024-04-17 05:42:52] INFO root fetch - processPackages [python-amcards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-amcards-1.2.8.tar.gz tmp/python-amcards-1.2.9.tar.gz --markdown 20240417/p/python-amcards/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-17 05:42:52] INFO root fetch - processPackages [vegan]: Downloading https://files.pythonhosted.org/packages/7b/98/3ad96ddd99ebf1a4ffed48b820a198956adcd7ac0f8f338141e370e7509a/vegan-1.0.0.tar.gz
+[2024-04-17 05:42:52] INFO root fetch - processPackages [jellyash]: Downloading https://files.pythonhosted.org/packages/49/78/2a63c358ead1f1039a8e31ef46599f50f313950730f47181169f26445b25/jellyash-0.5.3.tar.gz
+[2024-04-17 05:42:52] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/f2/6b/8389105f24464cef4b710045c73ce867545512079c2497f3f91d431f4473/ms-swift-2.0.1.tar.gz
+[2024-04-17 05:42:52] INFO root fetch - processPackages [jellyash]: executing diffoscope
+[2024-04-17 05:42:52] INFO root fetch - processPackages [jellyash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jellyash-0.5.2.tar.gz tmp/jellyash-0.5.3.tar.gz --markdown 20240417/j/jellyash/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-17 05:42:52] INFO root fetch - processPackages [vegan]: executing diffoscope
+[2024-04-17 05:42:52] INFO root fetch - processPackages [vegan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VEGAN-0.0.1.tar.gz tmp/vegan-1.0.0.tar.gz --markdown 20240417/v/vegan/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-04-17 05:42:52] INFO root fetch - processPackages [ms-swift]: executing diffoscope
+[2024-04-17 05:42:52] INFO root fetch - processPackages [ms-swift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms-swift-2.0.0.tar.gz tmp/ms-swift-2.0.1.tar.gz --markdown 20240417/m/ms-swift/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-17 05:42:52] INFO root fetch - processPackages [python-amcards]: Remove: archive file [/home/abi/fetcher/tmp/python-amcards-1.2.8.tar.gz]
+[2024-04-17 05:42:52] INFO root fetch - processPackages [python-amcards]: Remove: archive file [/home/abi/fetcher/tmp/python-amcards-1.2.9.tar.gz]
+[2024-04-17 05:42:52] INFO root fetch - main [MainThread]: End processing [python-amcards]: success
+[2024-04-17 05:42:53] INFO root fetch - processPackages [jellyash]: Remove: archive file [/home/abi/fetcher/tmp/jellyash-0.5.2.tar.gz]
+[2024-04-17 05:42:53] INFO root fetch - processPackages [jellyash]: Remove: archive file [/home/abi/fetcher/tmp/jellyash-0.5.3.tar.gz]
+[2024-04-17 05:42:53] INFO root fetch - main [MainThread]: End processing [jellyash]: success
+[2024-04-17 05:42:53] INFO root fetch - processPackages [vegan]: Remove: archive file [/home/abi/fetcher/tmp/VEGAN-0.0.1.tar.gz]
+[2024-04-17 05:42:53] INFO root fetch - processPackages [vegan]: Remove: archive file [/home/abi/fetcher/tmp/vegan-1.0.0.tar.gz]
+[2024-04-17 05:42:53] INFO root fetch - main [MainThread]: End processing [vegan]: success
+[2024-04-17 05:42:53] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.0.tar.gz]
+[2024-04-17 05:42:53] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.1.tar.gz]
+[2024-04-17 05:42:53] INFO root fetch - main [MainThread]: End processing [ms-swift]: success
+[2024-04-17 05:42:53] INFO root fetch - main [MainThread]: Store serial: [22799513]
