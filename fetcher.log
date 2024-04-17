@@ -10417,3 +10417,24 @@
 [2024-04-17 06:48:33] INFO root fetch - processPackages [simple_performance_timer]: Remove: archive file [/home/abi/fetcher/tmp/simple_performance_timer-0.1.3.tar.gz]
 [2024-04-17 06:48:33] INFO root fetch - main [MainThread]: End processing [simple_performance_timer]: success
 [2024-04-17 06:48:33] INFO root fetch - main [MainThread]: Store serial: [22799884]
+[2024-04-17 06:50:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799884]
+[2024-04-17 06:50:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 06:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragdaemon
+[2024-04-17 06:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystackql
+[2024-04-17 06:50:42] INFO root fetch - processPackages [ragdaemon]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-17 06:50:42] INFO root fetch - processPackages [pystackql]: New version: [3.5.6] Old Version: [3.5.5]
+[2024-04-17 06:50:42] INFO root fetch - processPackages [pystackql]: Downloading https://files.pythonhosted.org/packages/77/80/fbaec081ddc7a2343180fb70bb585c31335c39bd653096e69f3046aac11e/pystackql-3.5.5.tar.gz
+[2024-04-17 06:50:42] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/82/a7/413883460eff1953b595ca7f72b706b071ef1d0a8721acf869ee9a074b3e/ragdaemon-0.1.7.tar.gz
+[2024-04-17 06:50:43] INFO root fetch - processPackages [pystackql]: Downloading https://files.pythonhosted.org/packages/a8/e9/95f39fe511f4089386c89a48c44632cd106ecc1e80669cf7541065a9edb8/pystackql-3.5.6.tar.gz
+[2024-04-17 06:50:43] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/df/4d/2f00e4100e2ac0b01377f4e63b1d315ed3cba49d035e149dba43974dc2e9/ragdaemon-0.1.8.tar.gz
+[2024-04-17 06:50:43] INFO root fetch - processPackages [pystackql]: executing diffoscope
+[2024-04-17 06:50:43] INFO root fetch - processPackages [pystackql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystackql-3.5.5.tar.gz tmp/pystackql-3.5.6.tar.gz --markdown 20240417/p/pystackql/3.5.5-3.5.6/README.md --exclude *.pyd
+[2024-04-17 06:50:43] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-04-17 06:50:43] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.1.7.tar.gz tmp/ragdaemon-0.1.8.tar.gz --markdown 20240417/r/ragdaemon/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-17 06:50:43] INFO root fetch - processPackages [pystackql]: Remove: archive file [/home/abi/fetcher/tmp/pystackql-3.5.5.tar.gz]
+[2024-04-17 06:50:43] INFO root fetch - processPackages [pystackql]: Remove: archive file [/home/abi/fetcher/tmp/pystackql-3.5.6.tar.gz]
+[2024-04-17 06:50:43] INFO root fetch - main [MainThread]: End processing [pystackql]: success
+[2024-04-17 06:50:43] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.1.7.tar.gz]
+[2024-04-17 06:50:43] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.1.8.tar.gz]
+[2024-04-17 06:50:43] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-04-17 06:50:43] INFO root fetch - main [MainThread]: Store serial: [22799889]
