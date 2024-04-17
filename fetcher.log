@@ -21328,3 +21328,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:51:08] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.2rc1-cp311-cp311-manylinux2014_x86_64.whl.zip]
 [2024-04-17 13:51:08] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
 [2024-04-17 13:51:08] INFO root fetch - main [MainThread]: Store serial: [22804747]
+[2024-04-17 13:53:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804747]
+[2024-04-17 13:53:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 13:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenGeode-Geosciences
+[2024-04-17 13:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: berlin
+[2024-04-17 13:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-04-17 13:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-alto-parser
+[2024-04-17 13:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libertem-blobfinder
+[2024-04-17 13:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glyphsets
+[2024-04-17 13:53:17] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-17 13:53:17] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.6.2rc1] Old Version: [7.6.1rc1]
+[2024-04-17 13:53:17] INFO root fetch - processPackages [simple-alto-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 13:53:17] INFO root fetch - processPackages [libertem-blobfinder]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-17 13:53:17] INFO root fetch - processPackages [berlin]: New version: [1.0.0] Old Version: [0.3.9]
+[2024-04-17 13:53:18] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/25/b0/2094741bfa9cf61f1af3bb936cffe7e48a3f73960ee148e362991c92dfdf/OpenGeode_Geosciences-7.6.1rc1-cp39-cp39-win_amd64.whl
+[2024-04-17 13:53:18] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-17 13:53:18] INFO root fetch - processPackages [glyphsets]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-17 13:53:18] INFO root fetch - processPackages [libertem-blobfinder]: Downloading https://files.pythonhosted.org/packages/74/22/d9cf0db403b356075200a226a375bd146680db157b6d9b9f8f63a5597811/libertem-blobfinder-0.5.0.tar.gz
+[2024-04-17 13:53:18] INFO root fetch - processPackages [simple-alto-parser]: Downloading https://files.pythonhosted.org/packages/2d/84/288a775370c3b0a74c9022e38e06d864675ccef260b833fb692b0679afd6/simple-alto-parser-0.0.8.tar.gz
+[2024-04-17 13:53:18] INFO root fetch - processPackages [berlin]: Downloading https://files.pythonhosted.org/packages/6f/69/f5f70726c18fb6e0d5702f0f789edd9279af462905206508853efda27e2f/berlin-0.3.9.tar.gz
+[2024-04-17 13:53:18] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-17 13:53:18] INFO root fetch - processPackages [glyphsets]: Downloading https://files.pythonhosted.org/packages/d4/a3/39609e28e2b35f00f708e39f0609c50f87a848624f9771a4e6f8db95fb69/glyphsets-0.6.8.tar.gz
+[2024-04-17 13:53:18] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/04/94/7a6150101a6db24f847d0f3a1b524afdfbc6f8fb1ebd49f6c772b15c2513/OpenGeode_Geosciences-7.6.2rc1-cp311-cp311-manylinux2014_x86_64.whl
+[2024-04-17 13:53:18] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-17 13:53:18] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240417/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-17 13:53:18] INFO root fetch - processPackages [berlin]: Downloading https://files.pythonhosted.org/packages/03/b6/0ddf3d5871c23c1aa52e9fe53174c78cf47e0448b47a28ddb607653d6eba/berlin-1.0.0.tar.gz
+[2024-04-17 13:53:18] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2024-04-17 13:53:18] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.6.1rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.6.2rc1-cp311-cp311-manylinux2014_x86_64.whl.zip --markdown 20240417/O/OpenGeode-Geosciences/7.6.1rc1-7.6.2rc1/README.md --exclude *.pyd
+[2024-04-17 13:53:18] INFO root fetch - processPackages [simple-alto-parser]: Downloading https://files.pythonhosted.org/packages/54/a6/e5b5a42bc7f1de8a59b665b6ea950928012570d4b7d82695f5bd835dbd99/simple-alto-parser-0.0.9.tar.gz
+[2024-04-17 13:53:18] INFO root fetch - processPackages [libertem-blobfinder]: Downloading https://files.pythonhosted.org/packages/28/f9/155c578a87a4a275f71fabbcbb45d635fb21605ca39d6dd457c6d7117592/libertem_blobfinder-0.6.0.tar.gz
+[2024-04-17 13:53:18] INFO root fetch - processPackages [simple-alto-parser]: executing diffoscope
+[2024-04-17 13:53:18] INFO root fetch - processPackages [simple-alto-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-alto-parser-0.0.8.tar.gz tmp/simple-alto-parser-0.0.9.tar.gz --markdown 20240417/s/simple-alto-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 13:53:18] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-17 13:53:18] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-17 13:53:18] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-17 13:53:18] INFO root fetch - processPackages [berlin]: executing diffoscope
+[2024-04-17 13:53:18] INFO root fetch - processPackages [berlin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berlin-0.3.9.tar.gz tmp/berlin-1.0.0.tar.gz --markdown 20240417/b/berlin/0.3.9-1.0.0/README.md --exclude *.pyd
+[2024-04-17 13:53:19] INFO root fetch - processPackages [libertem-blobfinder]: executing diffoscope
+[2024-04-17 13:53:19] INFO root fetch - processPackages [libertem-blobfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libertem-blobfinder-0.5.0.tar.gz tmp/libertem_blobfinder-0.6.0.tar.gz --markdown 20240417/l/libertem-blobfinder/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-17 13:53:19] INFO root fetch - processPackages [glyphsets]: Downloading https://files.pythonhosted.org/packages/2c/f9/121b1b45ccf2e1bd2aee0f75e6f6718ac1b1369c68ac6b26fd4c12397cdf/glyphsets-0.6.9.tar.gz
+[2024-04-17 13:53:19] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 13:53:19] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.2rc1-cp311-cp311-manylinux2014_x86_64.whl.zip]
+[2024-04-17 13:53:19] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2024-04-17 13:53:19] INFO root fetch - processPackages [simple-alto-parser]: Remove: archive file [/home/abi/fetcher/tmp/simple-alto-parser-0.0.8.tar.gz]
+[2024-04-17 13:53:19] INFO root fetch - processPackages [simple-alto-parser]: Remove: archive file [/home/abi/fetcher/tmp/simple-alto-parser-0.0.9.tar.gz]
+[2024-04-17 13:53:19] INFO root fetch - main [MainThread]: End processing [simple-alto-parser]: success
+[2024-04-17 13:53:19] INFO root fetch - processPackages [berlin]: Remove: archive file [/home/abi/fetcher/tmp/berlin-0.3.9.tar.gz]
+[2024-04-17 13:53:19] INFO root fetch - processPackages [berlin]: Remove: archive file [/home/abi/fetcher/tmp/berlin-1.0.0.tar.gz]
+[2024-04-17 13:53:19] INFO root fetch - main [MainThread]: End processing [berlin]: success
+[2024-04-17 13:53:19] INFO root fetch - processPackages [glyphsets]: executing diffoscope
+[2024-04-17 13:53:19] INFO root fetch - processPackages [glyphsets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glyphsets-0.6.8.tar.gz tmp/glyphsets-0.6.9.tar.gz --markdown 20240417/g/glyphsets/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-17 13:53:19] INFO root fetch - processPackages [libertem-blobfinder]: Remove: archive file [/home/abi/fetcher/tmp/libertem-blobfinder-0.5.0.tar.gz]
+[2024-04-17 13:53:19] INFO root fetch - processPackages [libertem-blobfinder]: Remove: archive file [/home/abi/fetcher/tmp/libertem_blobfinder-0.6.0.tar.gz]
+[2024-04-17 13:53:19] INFO root fetch - main [MainThread]: End processing [libertem-blobfinder]: success
+[2024-04-17 13:53:22] INFO root fetch - processPackages [glyphsets]: Remove: archive file [/home/abi/fetcher/tmp/glyphsets-0.6.8.tar.gz]
+[2024-04-17 13:53:22] INFO root fetch - processPackages [glyphsets]: Remove: archive file [/home/abi/fetcher/tmp/glyphsets-0.6.9.tar.gz]
+[2024-04-17 13:53:22] INFO root fetch - main [MainThread]: End processing [glyphsets]: success
+[2024-04-17 13:53:22] INFO root fetch - main [MainThread]: Store serial: [22804821]
