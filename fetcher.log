@@ -11917,3 +11917,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:07:07] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-2.0.9.tar.gz]
 [2024-04-17 08:07:07] INFO root fetch - main [MainThread]: End processing [qis]: success
 [2024-04-17 08:07:07] INFO root fetch - main [MainThread]: Store serial: [22800377]
+[2024-04-17 08:09:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800377]
+[2024-04-17 08:09:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 08:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dolphindb-tools
+[2024-04-17 08:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nth-api
+[2024-04-17 08:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansar-connect
+[2024-04-17 08:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tool-use
+[2024-04-17 08:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zohocrmsdk6-0
+[2024-04-17 08:09:16] INFO root fetch - processPackages [zohocrmsdk6-0]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-04-17 08:09:16] INFO root fetch - processPackages [dolphindb-tools]: New version: [0.2a1] Old Version: [0.1a1]
+[2024-04-17 08:09:16] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.183] Old Version: [0.1.182]
+[2024-04-17 08:09:16] INFO root fetch - processPackages [dolphindb-tools]: Downloading https://files.pythonhosted.org/packages/e5/16/d698c71cf234d82d12e4aa64ce81ceb4c286a323d5eb974a8a46cc0035de/dolphindb_tools-0.1a1-py3-none-any.whl
+[2024-04-17 08:09:16] INFO root fetch - processPackages [zohocrmsdk6-0]: Downloading https://files.pythonhosted.org/packages/21/25/117b022282ce24688b29694b9f86dc8670dc57d8c71d8713c48eae668b36/zohocrmsdk6_0-3.0.0.tar.gz
+[2024-04-17 08:09:16] INFO root fetch - processPackages [tool-use]: New version: [0.1.1rc6] Old Version: [0.1.1rc5]
+[2024-04-17 08:09:16] INFO root fetch - processPackages [nth-api]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-04-17 08:09:16] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/12/d7/3286a9c0312685e03bd39307f4add282e7593d4733f72f59a2f63a4f295c/ansar_connect-0.1.182.tar.gz
+[2024-04-17 08:09:16] INFO root fetch - processPackages [nth-api]: Downloading https://files.pythonhosted.org/packages/89/cc/848e03eb8f3c19f8f7e32ca16aa11accc7687cc3f1a9eed8546eca53c65b/nth_api-1.3.4.tar.gz
+[2024-04-17 08:09:16] INFO root fetch - processPackages [dolphindb-tools]: Downloading https://files.pythonhosted.org/packages/ab/8c/5a963e84c08e00624cf296348b73bb7554352c7be29368d823529c5419d7/dolphindb_tools-0.2a1-py3-none-any.whl
+[2024-04-17 08:09:16] INFO root fetch - processPackages [tool-use]: Downloading https://files.pythonhosted.org/packages/5d/1d/4fd3a32131553414f27c4ce3fcdc3025d69372a9b107f3de5e06a276065b/tool_use-0.1.1rc5.tar.gz
+[2024-04-17 08:09:16] INFO root fetch - processPackages [dolphindb-tools]: executing diffoscope
+[2024-04-17 08:09:16] INFO root fetch - processPackages [dolphindb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolphindb_tools-0.1a1-py3-none-any.whl.zip tmp/dolphindb_tools-0.2a1-py3-none-any.whl.zip --markdown 20240417/d/dolphindb-tools/0.1a1-0.2a1/README.md --exclude *.pyd
+[2024-04-17 08:09:16] INFO root fetch - processPackages [zohocrmsdk6-0]: Downloading https://files.pythonhosted.org/packages/11/c5/ecefd3b3ef07779184f7ce769acee1c59b4743a87ee5efde83c5836f9d92/zohocrmsdk6_0-4.0.0.tar.gz
+[2024-04-17 08:09:16] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/9b/24/906c69aa408dee9206804d49f07061da56556107cab14b01ca3cdf22c855/ansar_connect-0.1.183.tar.gz
+[2024-04-17 08:09:16] INFO root fetch - processPackages [nth-api]: Downloading https://files.pythonhosted.org/packages/13/25/18c4b65d99afbe29c7c3a1956cc2f5bbdd911728e8fd734b22bae9b95de9/nth_api-1.3.5.tar.gz
+[2024-04-17 08:09:16] INFO root fetch - processPackages [tool-use]: Downloading https://files.pythonhosted.org/packages/1d/ac/ba348b4e1b04bcdc6b250e8e264c27bc06744ee1092d2b95cde0d713dc85/tool_use-0.1.1rc6.tar.gz
+[2024-04-17 08:09:17] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-17 08:09:17] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.182.tar.gz tmp/ansar_connect-0.1.183.tar.gz --markdown 20240417/a/ansar-connect/0.1.182-0.1.183/README.md --exclude *.pyd
+[2024-04-17 08:09:17] INFO root fetch - processPackages [zohocrmsdk6-0]: executing diffoscope
+[2024-04-17 08:09:17] INFO root fetch - processPackages [zohocrmsdk6-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zohocrmsdk6_0-3.0.0.tar.gz tmp/zohocrmsdk6_0-4.0.0.tar.gz --markdown 20240417/z/zohocrmsdk6-0/3.0.0-4.0.0/README.md --exclude *.pyd
+[2024-04-17 08:09:17] INFO root fetch - processPackages [nth-api]: executing diffoscope
+[2024-04-17 08:09:17] INFO root fetch - processPackages [nth-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nth_api-1.3.4.tar.gz tmp/nth_api-1.3.5.tar.gz --markdown 20240417/n/nth-api/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-04-17 08:09:17] INFO root fetch - processPackages [tool-use]: executing diffoscope
+[2024-04-17 08:09:17] INFO root fetch - processPackages [tool-use]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tool_use-0.1.1rc5.tar.gz tmp/tool_use-0.1.1rc6.tar.gz --markdown 20240417/t/tool-use/0.1.1rc5-0.1.1rc6/README.md --exclude *.pyd
+[2024-04-17 08:09:17] INFO root fetch - processPackages [dolphindb-tools]: Remove: archive file [/home/abi/fetcher/tmp/dolphindb_tools-0.1a1-py3-none-any.whl.zip]
+[2024-04-17 08:09:17] INFO root fetch - processPackages [dolphindb-tools]: Remove: archive file [/home/abi/fetcher/tmp/dolphindb_tools-0.2a1-py3-none-any.whl.zip]
+[2024-04-17 08:09:17] INFO root fetch - main [MainThread]: End processing [dolphindb-tools]: success
+[2024-04-17 08:09:17] INFO root fetch - processPackages [nth-api]: Remove: archive file [/home/abi/fetcher/tmp/nth_api-1.3.4.tar.gz]
+[2024-04-17 08:09:17] INFO root fetch - processPackages [nth-api]: Remove: archive file [/home/abi/fetcher/tmp/nth_api-1.3.5.tar.gz]
+[2024-04-17 08:09:17] INFO root fetch - main [MainThread]: End processing [nth-api]: success
+[2024-04-17 08:09:17] INFO root fetch - processPackages [tool-use]: Remove: archive file [/home/abi/fetcher/tmp/tool_use-0.1.1rc5.tar.gz]
+[2024-04-17 08:09:17] INFO root fetch - processPackages [tool-use]: Remove: archive file [/home/abi/fetcher/tmp/tool_use-0.1.1rc6.tar.gz]
+[2024-04-17 08:09:17] INFO root fetch - main [MainThread]: End processing [tool-use]: success
+[2024-04-17 08:09:17] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.182.tar.gz]
+[2024-04-17 08:09:17] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.183.tar.gz]
+[2024-04-17 08:09:17] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-17 08:09:21] INFO root fetch - processPackages [zohocrmsdk6-0]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk6_0-3.0.0.tar.gz]
+[2024-04-17 08:09:21] INFO root fetch - processPackages [zohocrmsdk6-0]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk6_0-4.0.0.tar.gz]
+[2024-04-17 08:09:21] INFO root fetch - main [MainThread]: End processing [zohocrmsdk6-0]: success
+[2024-04-17 08:09:21] INFO root fetch - main [MainThread]: Store serial: [22800395]
