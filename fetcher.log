@@ -10438,3 +10438,33 @@
 [2024-04-17 06:50:43] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.1.8.tar.gz]
 [2024-04-17 06:50:43] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
 [2024-04-17 06:50:43] INFO root fetch - main [MainThread]: Store serial: [22799889]
+[2024-04-17 06:52:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799889]
+[2024-04-17 06:52:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 06:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hexwatershed
+[2024-04-17 06:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickstart-vdk
+[2024-04-17 06:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: droid
+[2024-04-17 06:52:52] INFO root fetch - processPackages [hexwatershed]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 06:52:52] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-17 06:52:52] INFO root fetch - processPackages [droid]: New version: [1.4.22] Old Version: [1.4.21]
+[2024-04-17 06:52:52] INFO root fetch - processPackages [hexwatershed]: Downloading https://files.pythonhosted.org/packages/f1/b9/5aff71a9ce224e5338ab5421e777f488be2c7fd8c1a563adc3baf6b474c2/hexwatershed-0.2.8.tar.gz
+[2024-04-17 06:52:52] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-17 06:52:53] INFO root fetch - processPackages [droid]: Downloading https://files.pythonhosted.org/packages/59/4e/bd376bf2da24a218b3675addfb4f3ac7c508c5d46e858e6a4e6d6cb596a4/droid-1.4.21.tar.gz
+[2024-04-17 06:52:53] INFO root fetch - processPackages [hexwatershed]: Downloading https://files.pythonhosted.org/packages/2f/01/3614f3e8d99dce9c3a3bb0bf3d64f02a76124d5a57315e77ca22eface8f9/hexwatershed-0.2.9.tar.gz
+[2024-04-17 06:52:53] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-17 06:52:53] INFO root fetch - processPackages [hexwatershed]: executing diffoscope
+[2024-04-17 06:52:53] INFO root fetch - processPackages [hexwatershed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexwatershed-0.2.8.tar.gz tmp/hexwatershed-0.2.9.tar.gz --markdown 20240417/h/hexwatershed/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 06:52:53] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-17 06:52:53] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240417/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-17 06:52:53] INFO root fetch - processPackages [droid]: Downloading https://files.pythonhosted.org/packages/67/86/bdbdf0a007ce6eeba9a461afd8256d90130caa893707c123189d6a28e374/droid-1.4.22.tar.gz
+[2024-04-17 06:52:53] INFO root fetch - processPackages [droid]: executing diffoscope
+[2024-04-17 06:52:53] INFO root fetch - processPackages [droid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/droid-1.4.21.tar.gz tmp/droid-1.4.22.tar.gz --markdown 20240417/d/droid/1.4.21-1.4.22/README.md --exclude *.pyd
+[2024-04-17 06:52:53] INFO root fetch - processPackages [droid]: Remove: archive file [/home/abi/fetcher/tmp/droid-1.4.21.tar.gz]
+[2024-04-17 06:52:53] INFO root fetch - processPackages [droid]: Remove: archive file [/home/abi/fetcher/tmp/droid-1.4.22.tar.gz]
+[2024-04-17 06:52:53] INFO root fetch - main [MainThread]: End processing [droid]: success
+[2024-04-17 06:52:54] INFO root fetch - processPackages [hexwatershed]: Remove: archive file [/home/abi/fetcher/tmp/hexwatershed-0.2.8.tar.gz]
+[2024-04-17 06:52:54] INFO root fetch - processPackages [hexwatershed]: Remove: archive file [/home/abi/fetcher/tmp/hexwatershed-0.2.9.tar.gz]
+[2024-04-17 06:52:54] INFO root fetch - main [MainThread]: End processing [hexwatershed]: success
+[2024-04-17 06:52:54] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-17 06:52:54] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-17 06:52:54] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-17 06:52:54] INFO root fetch - main [MainThread]: Store serial: [22799896]
