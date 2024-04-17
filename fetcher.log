@@ -10710,3 +10710,42 @@
 [2024-04-17 07:12:23] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-64.2.1.tar.gz]
 [2024-04-17 07:12:23] INFO root fetch - main [MainThread]: End processing [seeq]: success
 [2024-04-17 07:12:23] INFO root fetch - main [MainThread]: Store serial: [22800004]
+[2024-04-17 07:14:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800004]
+[2024-04-17 07:14:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 07:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalk-harness
+[2024-04-17 07:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-bootstrap4
+[2024-04-17 07:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thepipe-api
+[2024-04-17 07:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mercuryclient
+[2024-04-17 07:14:31] INFO root fetch - processPackages [thepipe-api]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-17 07:14:31] INFO root fetch - processPackages [chalk-harness]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-17 07:14:31] INFO root fetch - processPackages [django-bootstrap4]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-17 07:14:31] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/90/2f/86967f245b46986f3caa023552b37b4bc88994cd4a679cb1c1d460d2f741/thepipe_api-0.2.2.tar.gz
+[2024-04-17 07:14:31] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/04/cf/7b5f46fcb7ff618c41cba126b21c03047ab357635bab1cb1fa76c6c31081/chalk-harness-1.9.8.tar.gz
+[2024-04-17 07:14:31] INFO root fetch - processPackages [django-bootstrap4]: Downloading https://files.pythonhosted.org/packages/f6/c9/a41c2c29f619e10549ceb48fb1da55118f22a35c324a3cc84f35457e5bbc/django-bootstrap4-3.0.0.tar.gz
+[2024-04-17 07:14:31] INFO root fetch - processPackages [mercuryclient]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-17 07:14:31] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/71/ea/d40dc649c4c8238582eeede1c8cfae5807f94913301efa0c34aff4e959f8/chalk-harness-1.9.9.tar.gz
+[2024-04-17 07:14:31] INFO root fetch - processPackages [django-bootstrap4]: Downloading https://files.pythonhosted.org/packages/4b/4f/24d685bc42f2d07a9a08a8be0d813882d20c52a650bc929c1c118780eb3b/django-bootstrap4-3.0.1.tar.gz
+[2024-04-17 07:14:31] INFO root fetch - processPackages [mercuryclient]: Downloading https://files.pythonhosted.org/packages/77/4b/b676103be9e7f6c83049a6dfb9206a5b1f62da6b3c5df7af5a9db98e40ef/mercuryclient-1.8.1.tar.gz
+[2024-04-17 07:14:31] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2024-04-17 07:14:31] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-1.9.8.tar.gz tmp/chalk-harness-1.9.9.tar.gz --markdown 20240417/c/chalk-harness/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-17 07:14:31] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/0e/50/df2502fca8753b73f4b08e07a70a75f6e650e347db99a9c03c29b848e5fe/thepipe_api-0.2.3.tar.gz
+[2024-04-17 07:14:31] INFO root fetch - processPackages [django-bootstrap4]: executing diffoscope
+[2024-04-17 07:14:31] INFO root fetch - processPackages [django-bootstrap4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bootstrap4-3.0.0.tar.gz tmp/django-bootstrap4-3.0.1.tar.gz --markdown 20240417/d/django-bootstrap4/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-04-17 07:14:32] INFO root fetch - processPackages [thepipe-api]: executing diffoscope
+[2024-04-17 07:14:32] INFO root fetch - processPackages [thepipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thepipe_api-0.2.2.tar.gz tmp/thepipe_api-0.2.3.tar.gz --markdown 20240417/t/thepipe-api/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-17 07:14:32] INFO root fetch - processPackages [mercuryclient]: Downloading https://files.pythonhosted.org/packages/a2/73/6aa0418cd86b78fbb7d37d5f4f5ae947a55dfe0134866a805c5361b3354e/mercuryclient-1.9.0.tar.gz
+[2024-04-17 07:14:32] INFO root fetch - processPackages [mercuryclient]: executing diffoscope
+[2024-04-17 07:14:32] INFO root fetch - processPackages [mercuryclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercuryclient-1.8.1.tar.gz tmp/mercuryclient-1.9.0.tar.gz --markdown 20240417/m/mercuryclient/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-17 07:14:32] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.8.tar.gz]
+[2024-04-17 07:14:32] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.9.tar.gz]
+[2024-04-17 07:14:32] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2024-04-17 07:14:32] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.2.2.tar.gz]
+[2024-04-17 07:14:32] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.2.3.tar.gz]
+[2024-04-17 07:14:32] INFO root fetch - main [MainThread]: End processing [thepipe-api]: success
+[2024-04-17 07:14:32] INFO root fetch - processPackages [django-bootstrap4]: Remove: archive file [/home/abi/fetcher/tmp/django-bootstrap4-3.0.0.tar.gz]
+[2024-04-17 07:14:32] INFO root fetch - processPackages [django-bootstrap4]: Remove: archive file [/home/abi/fetcher/tmp/django-bootstrap4-3.0.1.tar.gz]
+[2024-04-17 07:14:32] INFO root fetch - main [MainThread]: End processing [django-bootstrap4]: success
+[2024-04-17 07:14:33] INFO root fetch - processPackages [mercuryclient]: Remove: archive file [/home/abi/fetcher/tmp/mercuryclient-1.8.1.tar.gz]
+[2024-04-17 07:14:33] INFO root fetch - processPackages [mercuryclient]: Remove: archive file [/home/abi/fetcher/tmp/mercuryclient-1.9.0.tar.gz]
+[2024-04-17 07:14:33] INFO root fetch - main [MainThread]: End processing [mercuryclient]: success
+[2024-04-17 07:14:33] INFO root fetch - main [MainThread]: Store serial: [22800016]
