@@ -21588,3 +21588,132 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-17 13:58:35] INFO root fetch - processPackages [MechEyeAPI]: Remove: archive file [/home/abi/fetcher/tmp/MechEyeAPI-2.3.2-cp39-cp39-win_amd64.whl.zip]
 [2024-04-17 13:58:35] INFO root fetch - main [MainThread]: End processing [MechEyeAPI]: success
 [2024-04-17 13:58:35] INFO root fetch - main [MainThread]: Store serial: [22804895]
+[2024-04-17 14:00:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804895]
+[2024-04-17 14:00:52] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-17 14:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: savant-plugin-sample
+[2024-04-17 14:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-br-coa
+[2024-04-17 14:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: binary_wheel_builder
+[2024-04-17 14:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cumo
+[2024-04-17 14:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenGeode-GeosciencesIO
+[2024-04-17 14:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: StellarDS
+[2024-04-17 14:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: minimulti
+[2024-04-17 14:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quickstart-vdk
+[2024-04-17 14:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-databricks
+[2024-04-17 14:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vdk-server
+[2024-04-17 14:00:52] INFO root fetch - processPackages [cumo]: New version: [0.33.3] Old Version: [0.33.2]
+[2024-04-17 14:00:52] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-17 14:00:52] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa]: New version: [14.0.4.1.1.dev1] Old Version: [14.0.4.1.1]
+[2024-04-17 14:00:52] INFO root fetch - processPackages [binary_wheel_builder]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-17 14:00:52] WARNING root fetch - processPackages [StellarDS]: Skipping, unable to determine old version
+[2024-04-17 14:00:52] INFO root fetch - processPackages [StellarDS]: Start processing: secator
+[2024-04-17 14:00:52] INFO root fetch - processPackages [vdk-server]: New version: [0.1.948436673] Old Version: [0.1.927572457]
+[2024-04-17 14:00:52] INFO root fetch - main [MainThread]: End processing [StellarDS] error
+[2024-04-17 14:00:52] INFO root fetch - processPackages [minimulti]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-17 14:00:52] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/d5/65/cd8b932482fcea6a485d58cf70fe206eacf72181c13aedfa8b3796f6c635/cumo-0.33.2.tar.gz
+[2024-04-17 14:00:52] INFO root fetch - processPackages [savant-plugin-sample]: New version: [0.2.24] Old Version: [0.2.22]
+[2024-04-17 14:00:52] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-17 14:00:52] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2024-04-17 14:00:52] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: New version: [4.7.6rc1] Old Version: [4.7.5rc1]
+[2024-04-17 14:00:52] INFO root fetch - processPackages [secator]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-17 14:00:52] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa]: Downloading https://files.pythonhosted.org/packages/6e/c7/53b23a7a41a979b8d77f85bee7df445d00a96967f7e847c9541c75b8492c/odoo14_addon_l10n_br_coa-14.0.4.1.1-py3-none-any.whl
+[2024-04-17 14:00:52] INFO root fetch - processPackages [binary_wheel_builder]: Downloading https://files.pythonhosted.org/packages/4f/d6/8b8256ea716f5591b289f953cdaaf593500eaad4fbeff63bb618b2719936/binary_wheel_builder-3.1.0.tar.gz
+[2024-04-17 14:00:52] INFO root fetch - processPackages [vdk-server]: Downloading https://files.pythonhosted.org/packages/84/63/bd9f4d11c2b78fc7b95d0ad24aa475f72438f7f08fe7063f72e19651f13d/vdk-server-0.1.927572457.tar.gz
+[2024-04-17 14:00:52] INFO root fetch - processPackages [minimulti]: Downloading https://files.pythonhosted.org/packages/6a/b5/5b3d7745980d6c2557b55e826983526026a962d950c67f01b82fcc7c010b/minimulti-0.3.8.tar.gz
+[2024-04-17 14:00:52] INFO root fetch - processPackages [savant-plugin-sample]: Downloading https://files.pythonhosted.org/packages/16/da/ec3ebb1690ccae826c5ab1e01da6e101cd4b069d2c719ee31ce4b71d70de/savant_plugin_sample-0.2.22-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-17 14:00:52] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/45/c3/f494f68d4cb60858692b9cba5bde755195aa4be11c09de6002e4f6f8d2cf/OpenGeode_GeosciencesIO-4.7.5rc1-cp39-cp39-win_amd64.whl
+[2024-04-17 14:00:53] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2024-04-17 14:00:53] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-17 14:00:53] WARNING root fetch - processPackages [savant-plugin-sample]: Skipping package: exceeds size limit 12851343>=10485760
+[2024-04-17 14:00:53] INFO root fetch - processPackages [savant-plugin-sample]: Start processing: savant-rs
+[2024-04-17 14:00:53] INFO root fetch - main [MainThread]: End processing [savant-plugin-sample] error
+[2024-04-17 14:00:53] INFO root fetch - processPackages [secator]: Downloading https://files.pythonhosted.org/packages/28/f6/468c43742ecaa92505200608cafebc31c8cc393981c7f704fd34a67b6804/secator-0.3.4.tar.gz
+[2024-04-17 14:00:53] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/ab/18/33ad05c97c6291f7d909da3d0bdaa3570ab83167668a40451075040238ac/cumo-0.33.3.tar.gz
+[2024-04-17 14:00:53] WARNING root fetch - processPackages [secator]: Skipping package: exceeds size limit 23069921>=10485760
+[2024-04-17 14:00:53] INFO root fetch - processPackages [secator]: Start processing: flask-rpc
+[2024-04-17 14:00:53] INFO root fetch - main [MainThread]: End processing [secator] error
+[2024-04-17 14:00:53] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-17 14:00:53] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240417/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-17 14:00:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa]: Downloading https://files.pythonhosted.org/packages/30/ea/4fc3564bc06df7cc87226389f9a4c90f47bef2d1765bb8906a51132eca04/odoo14_addon_l10n_br_coa-14.0.4.1.1.dev1-py3-none-any.whl
+[2024-04-17 14:00:53] INFO root fetch - processPackages [binary_wheel_builder]: Downloading https://files.pythonhosted.org/packages/75/99/772f2f010c4323041255405f118ccc259f2f18b83e0f56c9acf44e217a61/binary_wheel_builder-3.1.1.tar.gz
+[2024-04-17 14:00:53] INFO root fetch - processPackages [vdk-server]: Downloading https://files.pythonhosted.org/packages/1c/5f/6a3364e0d3ce8da915c0409916e009620a0ddc1fa4d4141a703ea2aa5616/vdk-server-0.1.948436673.tar.gz
+[2024-04-17 14:00:53] INFO root fetch - processPackages [flask-rpc]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-17 14:00:53] INFO root fetch - processPackages [minimulti]: Downloading https://files.pythonhosted.org/packages/29/46/708769e5bec8bbb4915665377ad8a7640313e293f96b99d01bab701eb6e6/minimulti-0.3.9.tar.gz
+[2024-04-17 14:00:53] INFO root fetch - processPackages [cumo]: executing diffoscope
+[2024-04-17 14:00:53] INFO root fetch - processPackages [cumo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumo-0.33.2.tar.gz tmp/cumo-0.33.3.tar.gz --markdown 20240417/c/cumo/0.33.2-0.33.3/README.md --exclude *.pyd
+[2024-04-17 14:00:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa]: executing diffoscope
+[2024-04-17 14:00:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_coa-14.0.4.1.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_coa-14.0.4.1.1.dev1-py3-none-any.whl.zip --markdown 20240417/o/odoo14-addon-l10n-br-coa/14.0.4.1.1-14.0.4.1.1.dev1/README.md --exclude *.pyd
+[2024-04-17 14:00:53] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/1e/cf/b0492eadebcca3c75de963973b279c0ce5ef2badf78d8045293d1755b6b7/OpenGeode_GeosciencesIO-4.7.6rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-17 14:00:53] INFO root fetch - processPackages [binary_wheel_builder]: executing diffoscope
+[2024-04-17 14:00:53] INFO root fetch - processPackages [binary_wheel_builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binary_wheel_builder-3.1.0.tar.gz tmp/binary_wheel_builder-3.1.1.tar.gz --markdown 20240417/b/binary_wheel_builder/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-04-17 14:00:53] INFO root fetch - processPackages [vdk-server]: executing diffoscope
+[2024-04-17 14:00:53] INFO root fetch - processPackages [vdk-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-server-0.1.927572457.tar.gz tmp/vdk-server-0.1.948436673.tar.gz --markdown 20240417/v/vdk-server/0.1.927572457-0.1.948436673/README.md --exclude *.pyd
+[2024-04-17 14:00:53] INFO root fetch - processPackages [minimulti]: executing diffoscope
+[2024-04-17 14:00:53] INFO root fetch - processPackages [minimulti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minimulti-0.3.8.tar.gz tmp/minimulti-0.3.9.tar.gz --markdown 20240417/m/minimulti/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-17 14:00:53] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2024-04-17 14:00:53] INFO root fetch - processPackages [savant-rs]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 14:00:53] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/79/b2/b2790d96b8c935353127015fc6c28d683a06a8b1ea61c12877d11181ca3a/flask_rpc-0.2.2.tar.gz
+[2024-04-17 14:00:53] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: executing diffoscope
+[2024-04-17 14:00:53] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_GeosciencesIO-4.7.5rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_GeosciencesIO-4.7.6rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240417/O/OpenGeode-GeosciencesIO/4.7.5rc1-4.7.6rc1/README.md --exclude *.pyd
+[2024-04-17 14:00:53] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2024-04-17 14:00:53] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20240417/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/README.md --exclude *.pyd
+[2024-04-17 14:00:53] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-17 14:00:53] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-17 14:00:53] INFO root fetch - processPackages [quickstart-vdk]: Start processing: sciveo
+[2024-04-17 14:00:53] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-17 14:00:53] INFO root fetch - processPackages [sciveo]: New version: [0.0.49] Old Version: [0.0.48]
+[2024-04-17 14:00:53] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/aa/34/68863e6783bcde5904eaa797668d703cc2739dfbe6c29adfaf318d505c9e/flask_rpc-0.2.3.tar.gz
+[2024-04-17 14:00:54] INFO root fetch - processPackages [sciveo]: Downloading https://files.pythonhosted.org/packages/f6/56/f323b8ecb6ac3912837e4ffed005560fb74fa564adc5cf6355c64584aff2/sciveo-0.0.48.tar.gz
+[2024-04-17 14:00:54] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/27/7d/692e2bab3a8d72896f5e9f191b48afa977af60164afe8bc141e4dc44d403/savant_rs-0.2.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-17 14:00:54] INFO root fetch - processPackages [flask-rpc]: executing diffoscope
+[2024-04-17 14:00:54] INFO root fetch - processPackages [flask-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_rpc-0.2.2.tar.gz tmp/flask_rpc-0.2.3.tar.gz --markdown 20240417/f/flask-rpc/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-17 14:00:54] INFO root fetch - processPackages [vdk-server]: Remove: archive file [/home/abi/fetcher/tmp/vdk-server-0.1.927572457.tar.gz]
+[2024-04-17 14:00:54] INFO root fetch - processPackages [vdk-server]: Remove: archive file [/home/abi/fetcher/tmp/vdk-server-0.1.948436673.tar.gz]
+[2024-04-17 14:00:54] INFO root fetch - processPackages [vdk-server]: Start processing: PyQtUIkit
+[2024-04-17 14:00:54] INFO root fetch - main [MainThread]: End processing [vdk-server]: success
+[2024-04-17 14:00:54] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-04-17 14:00:54] INFO root fetch - processPackages [binary_wheel_builder]: Remove: archive file [/home/abi/fetcher/tmp/binary_wheel_builder-3.1.0.tar.gz]
+[2024-04-17 14:00:54] INFO root fetch - processPackages [binary_wheel_builder]: Remove: archive file [/home/abi/fetcher/tmp/binary_wheel_builder-3.1.1.tar.gz]
+[2024-04-17 14:00:54] INFO root fetch - processPackages [binary_wheel_builder]: Start processing: discord-user-bot
+[2024-04-17 14:00:54] INFO root fetch - main [MainThread]: End processing [binary_wheel_builder]: success
+[2024-04-17 14:00:54] INFO root fetch - processPackages [discord-user-bot]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 14:00:54] INFO root fetch - processPackages [sciveo]: Downloading https://files.pythonhosted.org/packages/1f/d0/7a18daaea8b211ce2c7a55cce57f0a4ae5783cb06a2e0035d0d0875a1b89/sciveo-0.0.49.tar.gz
+[2024-04-17 14:00:54] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/2f/d7/424fcae7afec6ffbe1b93623a512120c3ee395d732f076f08a03188e45cf/PyQtUIkit-2.7.0.tar.gz
+[2024-04-17 14:00:54] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_coa-14.0.4.1.1-py3-none-any.whl.zip]
+[2024-04-17 14:00:54] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_coa-14.0.4.1.1.dev1-py3-none-any.whl.zip]
+[2024-04-17 14:00:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-coa]: success
+[2024-04-17 14:00:54] INFO root fetch - processPackages [sciveo]: executing diffoscope
+[2024-04-17 14:00:54] INFO root fetch - processPackages [sciveo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciveo-0.0.48.tar.gz tmp/sciveo-0.0.49.tar.gz --markdown 20240417/s/sciveo/0.0.48-0.0.49/README.md --exclude *.pyd
+[2024-04-17 14:00:54] INFO root fetch - processPackages [discord-user-bot]: Downloading https://files.pythonhosted.org/packages/91/ba/f26c6a531ec6aecdbf03b14344c19abb7135225a740e37cdd38bba0d55dd/discord-user-bot-0.0.1.tar.gz
+[2024-04-17 14:00:54] INFO root fetch - processPackages [minimulti]: Remove: archive file [/home/abi/fetcher/tmp/minimulti-0.3.8.tar.gz]
+[2024-04-17 14:00:54] INFO root fetch - processPackages [minimulti]: Remove: archive file [/home/abi/fetcher/tmp/minimulti-0.3.9.tar.gz]
+[2024-04-17 14:00:54] INFO root fetch - main [MainThread]: End processing [minimulti]: success
+[2024-04-17 14:00:54] WARNING root fetch - processPackages [savant-rs]: Skipping package: exceeds size limit 13159013>=10485760
+[2024-04-17 14:00:54] INFO root fetch - main [MainThread]: End processing [savant-rs] error
+[2024-04-17 14:00:54] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.7.5rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 14:00:54] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.7.6rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-17 14:00:54] INFO root fetch - main [MainThread]: End processing [OpenGeode-GeosciencesIO]: success
+[2024-04-17 14:00:54] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-0.2.2.tar.gz]
+[2024-04-17 14:00:54] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-0.2.3.tar.gz]
+[2024-04-17 14:00:54] INFO root fetch - main [MainThread]: End processing [flask-rpc]: success
+[2024-04-17 14:00:54] INFO root fetch - processPackages [discord-user-bot]: Downloading https://files.pythonhosted.org/packages/81/3e/10cf8aed951b40bac000c0caecd034c5e64ad3b9317ccf830d72a8f745c5/discord-user-bot-0.0.2.tar.gz
+[2024-04-17 14:00:55] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/ab/78/7c45885f22b947b8151867fb19fe5a460e259938310292879f765b13c267/PyQtUIkit-2.7.1.tar.gz
+[2024-04-17 14:00:55] INFO root fetch - processPackages [discord-user-bot]: executing diffoscope
+[2024-04-17 14:00:55] INFO root fetch - processPackages [discord-user-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-user-bot-0.0.1.tar.gz tmp/discord-user-bot-0.0.2.tar.gz --markdown 20240417/d/discord-user-bot/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 14:00:55] INFO root fetch - processPackages [sciveo]: Remove: archive file [/home/abi/fetcher/tmp/sciveo-0.0.48.tar.gz]
+[2024-04-17 14:00:55] INFO root fetch - processPackages [sciveo]: Remove: archive file [/home/abi/fetcher/tmp/sciveo-0.0.49.tar.gz]
+[2024-04-17 14:00:55] INFO root fetch - main [MainThread]: End processing [sciveo]: success
+[2024-04-17 14:00:55] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-17 14:00:55] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.7.0.tar.gz tmp/PyQtUIkit-2.7.1.tar.gz --markdown 20240417/P/PyQtUIkit/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-04-17 14:00:55] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2024-04-17 14:00:55] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2024-04-17 14:00:55] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2024-04-17 14:00:55] INFO root fetch - processPackages [discord-user-bot]: Remove: archive file [/home/abi/fetcher/tmp/discord-user-bot-0.0.1.tar.gz]
+[2024-04-17 14:00:55] INFO root fetch - processPackages [discord-user-bot]: Remove: archive file [/home/abi/fetcher/tmp/discord-user-bot-0.0.2.tar.gz]
+[2024-04-17 14:00:55] INFO root fetch - main [MainThread]: End processing [discord-user-bot]: success
+[2024-04-17 14:00:56] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.7.0.tar.gz]
+[2024-04-17 14:00:56] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.7.1.tar.gz]
+[2024-04-17 14:00:56] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-17 14:01:21] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.2.tar.gz]
+[2024-04-17 14:01:21] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.3.tar.gz]
+[2024-04-17 14:01:21] INFO root fetch - main [MainThread]: End processing [cumo]: success
+[2024-04-17 14:01:21] INFO root fetch - main [MainThread]: Store serial: [22804969]
