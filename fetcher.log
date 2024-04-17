@@ -18309,3 +18309,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:49:46] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.3.tar.gz]
 [2024-04-17 11:49:46] INFO root fetch - main [MainThread]: End processing [cumo]: success
 [2024-04-17 11:49:46] INFO root fetch - main [MainThread]: Store serial: [22803436]
+[2024-04-17 11:51:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803436]
+[2024-04-17 11:51:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-17 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eirStru
+[2024-04-17 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: original-metaplex
+[2024-04-17 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-modelrunner
+[2024-04-17 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-fhl
+[2024-04-17 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: epochalyst
+[2024-04-17 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlalchemy-spanner
+[2024-04-17 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-genesiscloud
+[2024-04-17 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dalsa
+[2024-04-17 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaaql-middleware-python
+[2024-04-17 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: babelfont
+[2024-04-17 11:51:55] INFO root fetch - processPackages [dalsa]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-17 11:51:55] INFO root fetch - processPackages [pulumi-genesiscloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 11:51:55] INFO root fetch - processPackages [epochalyst]: New version: [0.3] Old Version: [0.2]
+[2024-04-17 11:51:55] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-17 11:51:55] INFO root fetch - processPackages [original-metaplex]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 11:51:55] INFO root fetch - processPackages [py-modelrunner]: New version: [0.9.1] Old Version: [0.8]
+[2024-04-17 11:51:55] INFO root fetch - processPackages [dalsa]: Downloading https://files.pythonhosted.org/packages/83/bb/8e0867893c70cdbfede81ab8a0a77432e597574210c665d661faaf673a3f/dalsa-0.0.4.tar.gz
+[2024-04-17 11:51:55] WARNING root fetch - processPackages [nonebot-plugin-fhl]: Skipping, unable to determine old version
+[2024-04-17 11:51:55] INFO root fetch - processPackages [nonebot-plugin-fhl]: Start processing: langchain-cohere
+[2024-04-17 11:51:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fhl] error
+[2024-04-17 11:51:55] INFO root fetch - processPackages [babelfont]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-17 11:51:55] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/7b/eb/c1987063b7330a56617c62d967ff70d44c2fde9e6c027effd7bd05f44cfc/pulumi_genesiscloud-0.0.8.tar.gz
+[2024-04-17 11:51:55] INFO root fetch - processPackages [sqlalchemy-spanner]: New version: [1.7.0] Old Version: [1.6.2]
+[2024-04-17 11:51:55] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-17 11:51:55] INFO root fetch - processPackages [epochalyst]: Downloading https://files.pythonhosted.org/packages/be/2c/ac5ac2e6070f213d2163fa56e825b85eec8ec92dc773415fa099ce0f7321/epochalyst-0.2.tar.gz
+[2024-04-17 11:51:55] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-17 11:51:55] INFO root fetch - processPackages [langchain-cohere]: New version: [0.1.3rc1] Old Version: [0.1.3rc0]
+[2024-04-17 11:51:55] INFO root fetch - processPackages [original-metaplex]: Downloading https://files.pythonhosted.org/packages/9e/78/63181e3936ab6655be5bfc73fa27946f6604c414dd41070c65c204ed9d61/original_metaplex-0.0.1.tar.gz
+[2024-04-17 11:51:55] INFO root fetch - processPackages [py-modelrunner]: Downloading https://files.pythonhosted.org/packages/7e/a8/b487bf9b309f16b7ef2729c52814a17d4b86831651de63184862ff5cae7f/py-modelrunner-0.8.tar.gz
+[2024-04-17 11:51:55] INFO root fetch - processPackages [babelfont]: Downloading https://files.pythonhosted.org/packages/74/a0/a5042a9daca0a9a2acc7ec8cb6239617a3a91c7fef313659a8609989dd96/babelfont-3.0.1.tar.gz
+[2024-04-17 11:51:55] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/85/48/c33e3e8789275770f6ecf59b3f8ba30057d291ef8fff95f7d0077bb2638c/pulumi_genesiscloud-0.0.9.tar.gz
+[2024-04-17 11:51:55] INFO root fetch - processPackages [sqlalchemy-spanner]: Downloading https://files.pythonhosted.org/packages/b6/31/93c82ddd74910fdd0834c26876314c96c031ed64f006bdfd59736499513e/sqlalchemy-spanner-1.6.2.tar.gz
+[2024-04-17 11:51:55] INFO root fetch - processPackages [epochalyst]: Downloading https://files.pythonhosted.org/packages/5f/bf/b5f45f422c590f8e2eda514233fa155deabdf6eead3c1880bcb03f5ad9ee/epochalyst-0.3.tar.gz
+[2024-04-17 11:51:55] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2024-04-17 11:51:55] INFO root fetch - processPackages [dalsa]: Downloading https://files.pythonhosted.org/packages/c2/65/887576b3208f1c72f09803b4a59b9f755cb4c5955fd6357ed160d19b03d5/dalsa-0.0.5.tar.gz
+[2024-04-17 11:51:55] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-17 11:51:55] INFO root fetch - processPackages [langchain-cohere]: Downloading https://files.pythonhosted.org/packages/61/2e/b33751de0f256a2da49549802d6ef335ebe882fdc66fb696059ee173afb1/langchain_cohere-0.1.3rc0.tar.gz
+[2024-04-17 11:51:55] INFO root fetch - processPackages [pulumi-genesiscloud]: executing diffoscope
+[2024-04-17 11:51:55] INFO root fetch - processPackages [pulumi-genesiscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_genesiscloud-0.0.8.tar.gz tmp/pulumi_genesiscloud-0.0.9.tar.gz --markdown 20240417/p/pulumi-genesiscloud/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 11:51:55] INFO root fetch - processPackages [epochalyst]: executing diffoscope
+[2024-04-17 11:51:55] INFO root fetch - processPackages [epochalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epochalyst-0.2.tar.gz tmp/epochalyst-0.3.tar.gz --markdown 20240417/e/epochalyst/0.2-0.3/README.md --exclude *.pyd
+[2024-04-17 11:51:55] INFO root fetch - processPackages [dalsa]: executing diffoscope
+[2024-04-17 11:51:55] INFO root fetch - processPackages [dalsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalsa-0.0.4.tar.gz tmp/dalsa-0.0.5.tar.gz --markdown 20240417/d/dalsa/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-17 11:51:55] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-17 11:51:55] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240417/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-17 11:51:55] INFO root fetch - processPackages [babelfont]: Downloading https://files.pythonhosted.org/packages/33/c9/df977cf5b20192f3bcd48cc6f042f132b3ef0dcb09b17c8ba9f88cf9ea55/babelfont-3.0.2.tar.gz
+[2024-04-17 11:51:56] INFO root fetch - processPackages [py-modelrunner]: Downloading https://files.pythonhosted.org/packages/f9/f9/00daa9ae5507a3d3cedcd5ed2867fea755eda4eae52df31c3c5d2950fb80/py-modelrunner-0.9.1.tar.gz
+[2024-04-17 11:51:56] INFO root fetch - processPackages [original-metaplex]: Downloading https://files.pythonhosted.org/packages/a2/d2/438ec77a17d7328615a1d0c0b39b22e994fae19f8841c7abb17bc409f64a/original_metaplex-0.0.2.tar.gz
+[2024-04-17 11:51:56] INFO root fetch - processPackages [sqlalchemy-spanner]: Downloading https://files.pythonhosted.org/packages/d4/8a/2eba58495905701280670e3a405992413bdd7a7372d80bdccacf66188c74/sqlalchemy_spanner-1.7.0.tar.gz
+[2024-04-17 11:51:56] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2024-04-17 11:51:56] INFO root fetch - processPackages [langchain-cohere]: Downloading https://files.pythonhosted.org/packages/24/e8/987b2b77e8046736c1073c30fb2cce0ba3658fb10369753497cf3da6fac8/langchain_cohere-0.1.3rc1.tar.gz
+[2024-04-17 11:51:56] INFO root fetch - processPackages [py-modelrunner]: executing diffoscope
+[2024-04-17 11:51:56] INFO root fetch - processPackages [py-modelrunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-modelrunner-0.8.tar.gz tmp/py-modelrunner-0.9.1.tar.gz --markdown 20240417/p/py-modelrunner/0.8-0.9.1/README.md --exclude *.pyd
+[2024-04-17 11:51:56] INFO root fetch - processPackages [original-metaplex]: executing diffoscope
+[2024-04-17 11:51:56] INFO root fetch - processPackages [original-metaplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/original_metaplex-0.0.1.tar.gz tmp/original_metaplex-0.0.2.tar.gz --markdown 20240417/o/original-metaplex/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 11:51:56] INFO root fetch - processPackages [sqlalchemy-spanner]: executing diffoscope
+[2024-04-17 11:51:56] INFO root fetch - processPackages [sqlalchemy-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-spanner-1.6.2.tar.gz tmp/sqlalchemy_spanner-1.7.0.tar.gz --markdown 20240417/s/sqlalchemy-spanner/1.6.2-1.7.0/README.md --exclude *.pyd
+[2024-04-17 11:51:56] INFO root fetch - processPackages [babelfont]: executing diffoscope
+[2024-04-17 11:51:56] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2024-04-17 11:51:56] INFO root fetch - processPackages [babelfont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babelfont-3.0.1.tar.gz tmp/babelfont-3.0.2.tar.gz --markdown 20240417/b/babelfont/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-17 11:51:56] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20240417/j/jaaql-middleware-python/4.9.0-4.9.1/README.md --exclude *.pyd
+[2024-04-17 11:51:56] INFO root fetch - processPackages [langchain-cohere]: executing diffoscope
+[2024-04-17 11:51:56] INFO root fetch - processPackages [langchain-cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_cohere-0.1.3rc0.tar.gz tmp/langchain_cohere-0.1.3rc1.tar.gz --markdown 20240417/l/langchain-cohere/0.1.3rc0-0.1.3rc1/README.md --exclude *.pyd
+[2024-04-17 11:51:56] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-17 11:51:56] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-17 11:51:56] INFO root fetch - processPackages [eirStru]: Start processing: weather_provider_api
+[2024-04-17 11:51:56] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-17 11:51:56] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.8.tar.gz]
+[2024-04-17 11:51:56] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.9.tar.gz]
+[2024-04-17 11:51:56] INFO root fetch - main [MainThread]: End processing [pulumi-genesiscloud]: success
+[2024-04-17 11:51:56] INFO root fetch - processPackages [weather_provider_api]: New version: [2.50.35] Old Version: [2.49.34]
+[2024-04-17 11:51:56] INFO root fetch - processPackages [epochalyst]: Remove: archive file [/home/abi/fetcher/tmp/epochalyst-0.2.tar.gz]
+[2024-04-17 11:51:56] INFO root fetch - processPackages [epochalyst]: Remove: archive file [/home/abi/fetcher/tmp/epochalyst-0.3.tar.gz]
+[2024-04-17 11:51:56] INFO root fetch - main [MainThread]: End processing [epochalyst]: success
+[2024-04-17 11:51:56] INFO root fetch - processPackages [weather_provider_api]: Downloading https://files.pythonhosted.org/packages/ed/a6/b91e4792335af0a5f1ea28f623246fb8e99c720eaa31ba2ac10c9fc17fd6/weather_provider_api-2.49.34.tar.gz
+[2024-04-17 11:51:56] INFO root fetch - processPackages [dalsa]: Remove: archive file [/home/abi/fetcher/tmp/dalsa-0.0.4.tar.gz]
+[2024-04-17 11:51:56] INFO root fetch - processPackages [dalsa]: Remove: archive file [/home/abi/fetcher/tmp/dalsa-0.0.5.tar.gz]
+[2024-04-17 11:51:56] INFO root fetch - main [MainThread]: End processing [dalsa]: success
+[2024-04-17 11:51:57] INFO root fetch - processPackages [py-modelrunner]: Remove: archive file [/home/abi/fetcher/tmp/py-modelrunner-0.8.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - processPackages [py-modelrunner]: Remove: archive file [/home/abi/fetcher/tmp/py-modelrunner-0.9.1.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - main [MainThread]: End processing [py-modelrunner]: success
+[2024-04-17 11:51:57] INFO root fetch - processPackages [weather_provider_api]: Downloading https://files.pythonhosted.org/packages/72/fb/42eb8cdd3622066934752be3d3fe594b00d2fdfb6a0bf7300818f85da28f/weather_provider_api-2.50.35.tar.gz
+[2024-04-17 11:51:57] INFO root fetch - processPackages [original-metaplex]: Remove: archive file [/home/abi/fetcher/tmp/original_metaplex-0.0.1.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - processPackages [original-metaplex]: Remove: archive file [/home/abi/fetcher/tmp/original_metaplex-0.0.2.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - main [MainThread]: End processing [original-metaplex]: success
+[2024-04-17 11:51:57] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2024-04-17 11:51:57] INFO root fetch - processPackages [weather_provider_api]: executing diffoscope
+[2024-04-17 11:51:57] INFO root fetch - processPackages [weather_provider_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weather_provider_api-2.49.34.tar.gz tmp/weather_provider_api-2.50.35.tar.gz --markdown 20240417/w/weather_provider_api/2.49.34-2.50.35/README.md --exclude *.pyd
+[2024-04-17 11:51:57] INFO root fetch - processPackages [langchain-cohere]: Remove: archive file [/home/abi/fetcher/tmp/langchain_cohere-0.1.3rc0.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - processPackages [langchain-cohere]: Remove: archive file [/home/abi/fetcher/tmp/langchain_cohere-0.1.3rc1.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - main [MainThread]: End processing [langchain-cohere]: success
+[2024-04-17 11:51:57] INFO root fetch - processPackages [sqlalchemy-spanner]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-spanner-1.6.2.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - processPackages [sqlalchemy-spanner]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_spanner-1.7.0.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - main [MainThread]: End processing [sqlalchemy-spanner]: success
+[2024-04-17 11:51:57] INFO root fetch - processPackages [babelfont]: Remove: archive file [/home/abi/fetcher/tmp/babelfont-3.0.1.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - processPackages [babelfont]: Remove: archive file [/home/abi/fetcher/tmp/babelfont-3.0.2.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - main [MainThread]: End processing [babelfont]: success
+[2024-04-17 11:51:57] INFO root fetch - processPackages [weather_provider_api]: Remove: archive file [/home/abi/fetcher/tmp/weather_provider_api-2.49.34.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - processPackages [weather_provider_api]: Remove: archive file [/home/abi/fetcher/tmp/weather_provider_api-2.50.35.tar.gz]
+[2024-04-17 11:51:57] INFO root fetch - main [MainThread]: End processing [weather_provider_api]: success
+[2024-04-17 11:51:57] INFO root fetch - main [MainThread]: Store serial: [22803475]
