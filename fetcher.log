@@ -11641,3 +11641,38 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 07:51:49] INFO root fetch - processPackages [multiqc-sgr]: Remove: archive file [/home/abi/fetcher/tmp/multiqc_sgr-1.22.post0.tar.gz]
 [2024-04-17 07:51:49] INFO root fetch - main [MainThread]: End processing [multiqc-sgr]: success
 [2024-04-17 07:51:49] INFO root fetch - main [MainThread]: Store serial: [22800281]
+[2024-04-17 07:53:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800281]
+[2024-04-17 07:53:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apmtools
+[2024-04-17 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seacrowd
+[2024-04-17 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: topologicpy
+[2024-04-17 07:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pomcorn
+[2024-04-17 07:53:58] INFO root fetch - processPackages [apmtools]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-17 07:53:58] INFO root fetch - processPackages [pomcorn]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-17 07:53:58] INFO root fetch - processPackages [seacrowd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 07:53:58] INFO root fetch - processPackages [topologicpy]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-17 07:53:59] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/41/c9/bc65a154df7fedcc5d189ae971d66f472ffe1055baf4c3f7fdf471f3352c/apmtools-0.0.5.tar.gz
+[2024-04-17 07:53:59] INFO root fetch - processPackages [pomcorn]: Downloading https://files.pythonhosted.org/packages/00/00/7cad1c2c9981c5f4c2e1ae2d9120e35de585ebbbbcc04cc8bc8a9c2da8e9/pomcorn-0.5.0.tar.gz
+[2024-04-17 07:53:59] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/1f/ba/346de6683a7e18210cd836f5cfbcd169e5daa3d6a3cd013d360925353530/seacrowd-0.0.8.tar.gz
+[2024-04-17 07:53:59] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/70/1c/c92ad910ddf2a73834d7177b9490ac3b2ec12979e2b1279ebb646e96ae0e/topologicpy-0.5.5.tar.gz
+[2024-04-17 07:53:59] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 50612202>=10485760
+[2024-04-17 07:53:59] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2024-04-17 07:53:59] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/12/28/7e4b8b8d21a76d6b239836a11d8190e48513218e0df9ccd647ae44c61776/apmtools-0.0.6.tar.gz
+[2024-04-17 07:53:59] INFO root fetch - processPackages [pomcorn]: Downloading https://files.pythonhosted.org/packages/c9/83/64bcfb9027425f5ce1edd93ae9353c2ebdf2a0041a6513bae1e74ab63391/pomcorn-0.6.0.tar.gz
+[2024-04-17 07:53:59] INFO root fetch - processPackages [apmtools]: executing diffoscope
+[2024-04-17 07:53:59] INFO root fetch - processPackages [apmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apmtools-0.0.5.tar.gz tmp/apmtools-0.0.6.tar.gz --markdown 20240417/a/apmtools/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-17 07:53:59] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/db/e5/e823c1dd15f44fad1df7f17a4bc789afab1d6f35bdcec84ae1dcd8010936/seacrowd-0.0.9.tar.gz
+[2024-04-17 07:53:59] INFO root fetch - processPackages [pomcorn]: executing diffoscope
+[2024-04-17 07:53:59] INFO root fetch - processPackages [pomcorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pomcorn-0.5.0.tar.gz tmp/pomcorn-0.6.0.tar.gz --markdown 20240417/p/pomcorn/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-17 07:53:59] INFO root fetch - processPackages [seacrowd]: executing diffoscope
+[2024-04-17 07:53:59] INFO root fetch - processPackages [seacrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seacrowd-0.0.8.tar.gz tmp/seacrowd-0.0.9.tar.gz --markdown 20240417/s/seacrowd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 07:53:59] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.5.tar.gz]
+[2024-04-17 07:53:59] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.6.tar.gz]
+[2024-04-17 07:53:59] INFO root fetch - main [MainThread]: End processing [apmtools]: success
+[2024-04-17 07:54:00] INFO root fetch - processPackages [pomcorn]: Remove: archive file [/home/abi/fetcher/tmp/pomcorn-0.5.0.tar.gz]
+[2024-04-17 07:54:00] INFO root fetch - processPackages [pomcorn]: Remove: archive file [/home/abi/fetcher/tmp/pomcorn-0.6.0.tar.gz]
+[2024-04-17 07:54:00] INFO root fetch - main [MainThread]: End processing [pomcorn]: success
+[2024-04-17 07:54:01] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.8.tar.gz]
+[2024-04-17 07:54:01] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.9.tar.gz]
+[2024-04-17 07:54:01] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
+[2024-04-17 07:54:01] INFO root fetch - main [MainThread]: Store serial: [22800292]
