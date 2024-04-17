@@ -21001,3 +21001,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:35:52] INFO root fetch - processPackages [POTHEAD]: Remove: archive file [/home/abi/fetcher/tmp/POTHEAD-0.9.0.tar.gz]
 [2024-04-17 13:35:52] INFO root fetch - main [MainThread]: End processing [POTHEAD]: success
 [2024-04-17 13:35:52] INFO root fetch - main [MainThread]: Store serial: [22804610]
+[2024-04-17 13:37:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804610]
+[2024-04-17 13:38:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utf12
+[2024-04-17 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchserve-nightly
+[2024-04-17 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-model-archiver-nightly
+[2024-04-17 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-workflow-archiver-nightly
+[2024-04-17 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: camel-ai
+[2024-04-17 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nimbusagent
+[2024-04-17 13:38:01] INFO root fetch - processPackages [nimbusagent]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-17 13:38:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-17 13:38:01] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-17 13:38:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-17 13:38:02] INFO root fetch - processPackages [camel-ai]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 13:38:02] WARNING root fetch - processPackages [utf12]: Skipping, unable to determine old version
+[2024-04-17 13:38:02] INFO root fetch - main [MainThread]: End processing [utf12] error
+[2024-04-17 13:38:02] INFO root fetch - processPackages [nimbusagent]: Downloading https://files.pythonhosted.org/packages/30/f3/8743f825aaf7dec656fba2d4cc65d814baeea23a0e9a63a86cf27eb64a11/nimbusagent-0.5.0.tar.gz
+[2024-04-17 13:38:02] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/45/5e/4f1364a73e0ee415abfe197b77d791f9294a79e4d8f7a3e886e5eec8d664/torchserve_nightly-2024.4.7-py3-none-any.whl
+[2024-04-17 13:38:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/18/8d/5c32ddd637a0599b7a839f802a7243a55780adba3d383c90ef75166e05a8/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl
+[2024-04-17 13:38:02] INFO root fetch - processPackages [camel-ai]: Downloading https://files.pythonhosted.org/packages/9d/4b/6fcee03c9e7a346ebaf404e3dc6b3bbe82ce7c95aa4431e1592f15bb1325/camel_ai-0.1.1.tar.gz
+[2024-04-17 13:38:02] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24332257>=10485760
+[2024-04-17 13:38:02] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-04-17 13:38:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/19/d4/48ed170e79102607db9758662c34c1e9a7d2cca453a976226f2d8dd11967/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl
+[2024-04-17 13:38:02] INFO root fetch - processPackages [nimbusagent]: Downloading https://files.pythonhosted.org/packages/b5/e7/1b8bd4899534d640f7c3d0476eb549f1ef9389e185c4d91fabe8f1f6651a/nimbusagent-0.5.1.tar.gz
+[2024-04-17 13:38:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/46/e6/cfb9b8e2b84779c413931c88816ff46e987f3bf841f1fb714e6b662e8296/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-04-17 13:38:02] INFO root fetch - processPackages [nimbusagent]: executing diffoscope
+[2024-04-17 13:38:02] INFO root fetch - processPackages [nimbusagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nimbusagent-0.5.0.tar.gz tmp/nimbusagent-0.5.1.tar.gz --markdown 20240417/n/nimbusagent/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-17 13:38:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-04-17 13:38:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip --markdown 20240417/t/torch-model-archiver-nightly/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-17 13:38:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/d5/55/6c71d544e2fef7c773e7b994940d2019c84fd5eaa8f6db64fa9983595110/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-04-17 13:38:02] INFO root fetch - processPackages [camel-ai]: Downloading https://files.pythonhosted.org/packages/33/17/c5ea5887f6dd8c1728fab96cfaa7062c566f22d1a5d23e4bc5b4396c8e2d/camel_ai-0.1.2.tar.gz
+[2024-04-17 13:38:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-04-17 13:38:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip --markdown 20240417/t/torch-workflow-archiver-nightly/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-17 13:38:02] INFO root fetch - processPackages [camel-ai]: executing diffoscope
+[2024-04-17 13:38:02] INFO root fetch - processPackages [camel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camel_ai-0.1.1.tar.gz tmp/camel_ai-0.1.2.tar.gz --markdown 20240417/c/camel-ai/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 13:38:03] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl.zip]
+[2024-04-17 13:38:03] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-04-17 13:38:03] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-04-17 13:38:03] INFO root fetch - processPackages [nimbusagent]: Remove: archive file [/home/abi/fetcher/tmp/nimbusagent-0.5.0.tar.gz]
+[2024-04-17 13:38:03] INFO root fetch - processPackages [nimbusagent]: Remove: archive file [/home/abi/fetcher/tmp/nimbusagent-0.5.1.tar.gz]
+[2024-04-17 13:38:03] INFO root fetch - main [MainThread]: End processing [nimbusagent]: success
+[2024-04-17 13:38:03] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl.zip]
+[2024-04-17 13:38:03] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-04-17 13:38:03] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-04-17 13:38:03] INFO root fetch - processPackages [camel-ai]: Remove: archive file [/home/abi/fetcher/tmp/camel_ai-0.1.1.tar.gz]
+[2024-04-17 13:38:03] INFO root fetch - processPackages [camel-ai]: Remove: archive file [/home/abi/fetcher/tmp/camel_ai-0.1.2.tar.gz]
+[2024-04-17 13:38:03] INFO root fetch - main [MainThread]: End processing [camel-ai]: success
+[2024-04-17 13:38:03] INFO root fetch - main [MainThread]: Store serial: [22804636]
