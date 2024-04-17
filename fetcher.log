@@ -18231,3 +18231,15 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:44:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.1.1.tar.gz]
 [2024-04-17 11:44:56] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-17 11:44:56] INFO root fetch - main [MainThread]: Store serial: [22803406]
+[2024-04-17 11:47:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803406]
+[2024-04-17 11:47:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 11:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snet.contracts
+[2024-04-17 11:47:06] INFO root fetch - processPackages [snet.contracts]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-17 11:47:06] INFO root fetch - processPackages [snet.contracts]: Downloading https://files.pythonhosted.org/packages/2e/a3/81abf0be9f59c38f21d0595f4b94e178b86a2d0e7816e45206309431410a/snet.contracts-0.0.9.tar.gz
+[2024-04-17 11:47:07] INFO root fetch - processPackages [snet.contracts]: Downloading https://files.pythonhosted.org/packages/16/14/df1d4b652f5ca5f94d41ace64c4e112ec6804fa2027a91f8ad9a890ab7c4/snet_contracts-0.1.0.tar.gz
+[2024-04-17 11:47:07] INFO root fetch - processPackages [snet.contracts]: executing diffoscope
+[2024-04-17 11:47:07] INFO root fetch - processPackages [snet.contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snet.contracts-0.0.9.tar.gz tmp/snet_contracts-0.1.0.tar.gz --markdown 20240417/s/snet.contracts/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-17 11:47:07] INFO root fetch - processPackages [snet.contracts]: Remove: archive file [/home/abi/fetcher/tmp/snet.contracts-0.0.9.tar.gz]
+[2024-04-17 11:47:07] INFO root fetch - processPackages [snet.contracts]: Remove: archive file [/home/abi/fetcher/tmp/snet_contracts-0.1.0.tar.gz]
+[2024-04-17 11:47:07] INFO root fetch - main [MainThread]: End processing [snet.contracts]: success
+[2024-04-17 11:47:07] INFO root fetch - main [MainThread]: Store serial: [22803410]
