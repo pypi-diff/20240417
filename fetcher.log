@@ -18243,3 +18243,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:47:07] INFO root fetch - processPackages [snet.contracts]: Remove: archive file [/home/abi/fetcher/tmp/snet_contracts-0.1.0.tar.gz]
 [2024-04-17 11:47:07] INFO root fetch - main [MainThread]: End processing [snet.contracts]: success
 [2024-04-17 11:47:07] INFO root fetch - main [MainThread]: Store serial: [22803410]
+[2024-04-17 11:49:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803410]
+[2024-04-17 11:49:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aiven
+[2024-04-17 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecmv
+[2024-04-17 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ant-fin-agent-framework
+[2024-04-17 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: repo-man
+[2024-04-17 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clickzetta-connector
+[2024-04-17 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cumo
+[2024-04-17 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-postgresql
+[2024-04-17 11:49:16] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-04-17 11:49:16] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-04-17 11:49:17] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-17 11:49:17] INFO root fetch - processPackages [repo-man]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 11:49:17] INFO root fetch - processPackages [ant-fin-agent-framework]: New version: [0.0.2b1] Old Version: [0.0.1]
+[2024-04-17 11:49:17] INFO root fetch - processPackages [ecmv]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 11:49:17] INFO root fetch - processPackages [cumo]: New version: [0.33.3] Old Version: [0.33.2]
+[2024-04-17 11:49:17] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-04-17 11:49:17] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-04-17 11:49:17] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2024-04-17 11:49:17] INFO root fetch - processPackages [ant-fin-agent-framework]: Downloading https://files.pythonhosted.org/packages/93/a6/d996ee9e7f9021c9063856c72325f277e9a83bf31c81f65605dbad806dc9/ant-fin-agent-framework-0.0.1.tar.gz
+[2024-04-17 11:49:17] INFO root fetch - processPackages [repo-man]: Downloading https://files.pythonhosted.org/packages/b3/75/7909ee7b1ed9380dd33eceed1efcf278da335f01e48d5ba9554d5f8610de/repo-man-0.0.8.tar.gz
+[2024-04-17 11:49:17] INFO root fetch - processPackages [ecmv]: Downloading https://files.pythonhosted.org/packages/ee/29/f74005dbac732c0d139e48c37358d03d787bbfb74269288e2c42a4ad22ce/ecmv-0.2.8.tar.gz
+[2024-04-17 11:49:17] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/d5/65/cd8b932482fcea6a485d58cf70fe206eacf72181c13aedfa8b3796f6c635/cumo-0.33.2.tar.gz
+[2024-04-17 11:49:17] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-04-17 11:49:17] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-04-17 11:49:17] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-04-17 11:49:17] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240417/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-04-17 11:49:17] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-04-17 11:49:17] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240417/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-04-17 11:49:17] INFO root fetch - processPackages [repo-man]: Downloading https://files.pythonhosted.org/packages/5b/a3/94cd0941a38dd64d31dc5eb36e89e81fff1e2fb31baf86b3cebc4b24297d/repo_man-0.0.9.tar.gz
+[2024-04-17 11:49:17] INFO root fetch - processPackages [ant-fin-agent-framework]: Downloading https://files.pythonhosted.org/packages/f3/51/9beece22f205b9fef6d58043d5c5e29eb913a821a645608708b9be601334/ant_fin_agent_framework-0.0.2b1.tar.gz
+[2024-04-17 11:49:17] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2024-04-17 11:49:17] INFO root fetch - processPackages [repo-man]: executing diffoscope
+[2024-04-17 11:49:17] INFO root fetch - processPackages [repo-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo-man-0.0.8.tar.gz tmp/repo_man-0.0.9.tar.gz --markdown 20240417/r/repo-man/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 11:49:17] INFO root fetch - processPackages [ant-fin-agent-framework]: executing diffoscope
+[2024-04-17 11:49:17] INFO root fetch - processPackages [ant-fin-agent-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant-fin-agent-framework-0.0.1.tar.gz tmp/ant_fin_agent_framework-0.0.2b1.tar.gz --markdown 20240417/a/ant-fin-agent-framework/0.0.1-0.0.2b1/README.md --exclude *.pyd
+[2024-04-17 11:49:17] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/ab/18/33ad05c97c6291f7d909da3d0bdaa3570ab83167668a40451075040238ac/cumo-0.33.3.tar.gz
+[2024-04-17 11:49:17] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2024-04-17 11:49:17] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20240417/c/clickzetta-connector/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-17 11:49:17] INFO root fetch - processPackages [ecmv]: Downloading https://files.pythonhosted.org/packages/14/c5/c35086f9378899afcae9751ecb3f427c380461b428fd23ae982cfc642f71/ecmv-0.2.9.tar.gz
+[2024-04-17 11:49:18] INFO root fetch - processPackages [ecmv]: executing diffoscope
+[2024-04-17 11:49:18] INFO root fetch - processPackages [ecmv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecmv-0.2.8.tar.gz tmp/ecmv-0.2.9.tar.gz --markdown 20240417/e/ecmv/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 11:49:18] INFO root fetch - processPackages [cumo]: executing diffoscope
+[2024-04-17 11:49:18] INFO root fetch - processPackages [cumo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumo-0.33.2.tar.gz tmp/cumo-0.33.3.tar.gz --markdown 20240417/c/cumo/0.33.2-0.33.3/README.md --exclude *.pyd
+[2024-04-17 11:49:18] INFO root fetch - processPackages [repo-man]: Remove: archive file [/home/abi/fetcher/tmp/repo-man-0.0.8.tar.gz]
+[2024-04-17 11:49:18] INFO root fetch - processPackages [repo-man]: Remove: archive file [/home/abi/fetcher/tmp/repo_man-0.0.9.tar.gz]
+[2024-04-17 11:49:18] INFO root fetch - main [MainThread]: End processing [repo-man]: success
+[2024-04-17 11:49:18] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-04-17 11:49:18] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-04-17 11:49:18] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-04-17 11:49:19] INFO root fetch - processPackages [ant-fin-agent-framework]: Remove: archive file [/home/abi/fetcher/tmp/ant-fin-agent-framework-0.0.1.tar.gz]
+[2024-04-17 11:49:19] INFO root fetch - processPackages [ant-fin-agent-framework]: Remove: archive file [/home/abi/fetcher/tmp/ant_fin_agent_framework-0.0.2b1.tar.gz]
+[2024-04-17 11:49:19] INFO root fetch - main [MainThread]: End processing [ant-fin-agent-framework]: success
+[2024-04-17 11:49:19] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2024-04-17 11:49:19] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2024-04-17 11:49:19] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2024-04-17 11:49:19] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-04-17 11:49:19] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-04-17 11:49:19] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-04-17 11:49:19] INFO root fetch - processPackages [ecmv]: Remove: archive file [/home/abi/fetcher/tmp/ecmv-0.2.8.tar.gz]
+[2024-04-17 11:49:19] INFO root fetch - processPackages [ecmv]: Remove: archive file [/home/abi/fetcher/tmp/ecmv-0.2.9.tar.gz]
+[2024-04-17 11:49:19] INFO root fetch - main [MainThread]: End processing [ecmv]: success
+[2024-04-17 11:49:46] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.2.tar.gz]
+[2024-04-17 11:49:46] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.3.tar.gz]
+[2024-04-17 11:49:46] INFO root fetch - main [MainThread]: End processing [cumo]: success
+[2024-04-17 11:49:46] INFO root fetch - main [MainThread]: Store serial: [22803436]
