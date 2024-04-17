@@ -7787,3 +7787,141 @@
 [2024-04-17 04:16:02] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-0.9.93.tar.gz]
 [2024-04-17 04:16:02] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
 [2024-04-17 04:16:02] INFO root fetch - main [MainThread]: Store serial: [22798824]
+[2024-04-17 04:18:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798824]
+[2024-04-17 04:18:12] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-17 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-pytz
+[2024-04-17 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-python-crontab
+[2024-04-17 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-protobuf
+[2024-04-17 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amadeus
+[2024-04-17 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-tqdm
+[2024-04-17 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esphome
+[2024-04-17 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-pycurl
+[2024-04-17 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-psycopg2
+[2024-04-17 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tej-tool-api
+[2024-04-17 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: types-pyinstaller
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-tqdm]: New version: [4.66.0.5] Old Version: [4.66.0.4]
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-protobuf]: New version: [4.25.0.20240410] Old Version: [4.24.0.4]
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-pytz]: New version: [2024.1.0.20240417] Old Version: [2024.1.0.20240203]
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-python-crontab]: New version: [3.0.0.20240417] Old Version: [3.0.0.20240106]
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-tqdm]: Downloading https://files.pythonhosted.org/packages/1e/5f/f5eeee37c6b86ea50fb22b448f9d7a6211aefd9cb09825d3b4c94eaaa0d1/types-tqdm-4.66.0.4.tar.gz
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-psycopg2]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-pyinstaller]: New version: [6.6.0.20240417] Old Version: [6.6.0.20240415]
+[2024-04-17 04:18:12] INFO root fetch - processPackages [tej-tool-api]: New version: [1.1.2rc0] Old Version: [1.1.2]
+[2024-04-17 04:18:12] INFO root fetch - processPackages [amadeus]: New version: [9.0.0] Old Version: [8.1.0]
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-pycurl]: New version: [7.45.2.5] Old Version: [7.45.2.4]
+[2024-04-17 04:18:12] INFO root fetch - processPackages [esphome]: New version: [2024.4.0b3] Old Version: [2024.4.0b2]
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-protobuf]: Downloading https://files.pythonhosted.org/packages/99/a4/ab97dff4a76e30d33ccb42cb37912bf5ba63121466f579f5c7146a5e8eb0/types-protobuf-4.24.0.4.tar.gz
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-pytz]: Downloading https://files.pythonhosted.org/packages/d1/80/0a2ef56b9977898789b7a0ab8d8ec32e19159e8c5d5aef203fccf4bbc4ed/types-pytz-2024.1.0.20240203.tar.gz
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-python-crontab]: Downloading https://files.pythonhosted.org/packages/5b/f3/fb60dc35832d2c72434a21bbbbc56aa1c83a332d9f550601572b0b5ec079/types-python-crontab-3.0.0.20240106.tar.gz
+[2024-04-17 04:18:12] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/84/b8/745ef3ee1fba3251106ecd3f80ab56a6fdbaa2ba631004893f8b05a1afa5/tej_tool_api-1.1.2.tar.gz
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-psycopg2]: Downloading https://files.pythonhosted.org/packages/5c/e6/4586fc0a909bc797f26ddfc245c18c9a6e6319f95ea971a8d3ce8fe3749e/types-psycopg2-2.9.8.tar.gz
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-pyinstaller]: Downloading https://files.pythonhosted.org/packages/0b/14/a403a68735158a2e2ec2eeb8b7ad5498281726568df86f131468982bf70d/types-pyinstaller-6.6.0.20240415.tar.gz
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-pycurl]: Downloading https://files.pythonhosted.org/packages/3b/1a/a4580408c28c7a5f4f955ec9cdb1fe914fb9a19c005ca06c54a8402c232a/types-pycurl-7.45.2.4.tar.gz
+[2024-04-17 04:18:12] INFO root fetch - processPackages [amadeus]: Downloading https://files.pythonhosted.org/packages/55/0d/161000764db8d1c2dbfaab771a5f27f7f36f1b20fc119d5c08492ab7007d/amadeus-8.1.0.tar.gz
+[2024-04-17 04:18:12] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/14/51/7a20890ca1fe2453add6f1c59699dcaeab51c581329d063a0ae3e15e1653/esphome-2024.4.0b2.tar.gz
+[2024-04-17 04:18:12] INFO root fetch - processPackages [types-tqdm]: Downloading https://files.pythonhosted.org/packages/c2/f3/f6d3da69ffee5b0707a82a079b31ba6c584269a6a9fad06ce51699ee30f2/types-tqdm-4.66.0.5.tar.gz
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-tqdm]: executing diffoscope
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-tqdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tqdm-4.66.0.4.tar.gz tmp/types-tqdm-4.66.0.5.tar.gz --markdown 20240417/t/types-tqdm/4.66.0.4-4.66.0.5/README.md --exclude *.pyd
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-pytz]: Downloading https://files.pythonhosted.org/packages/9b/b0/079f6f340c0051fbe03ac3a6d9fce323c9797b85380d455e1566eaf2716b/types-pytz-2024.1.0.20240417.tar.gz
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-python-crontab]: Downloading https://files.pythonhosted.org/packages/9f/5d/8a139cc16e6061f92514a26ce4c55a12fce777900adb9ac0b319a94d0636/types-python-crontab-3.0.0.20240417.tar.gz
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-protobuf]: Downloading https://files.pythonhosted.org/packages/be/1e/cc6472a3b4e74764db5152a7b38fcb7d8a3c24c868f37fad711ee23341e5/types-protobuf-4.25.0.20240410.tar.gz
+[2024-04-17 04:18:13] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/52/79/cc1730b3765e987cada88296323b586af58551be1304fd65096962878d24/tej_tool_api-1.1.2rc0.tar.gz
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-pyinstaller]: Downloading https://files.pythonhosted.org/packages/0b/0b/53b9018db7071fe5038d2f2cb8c8579dc2fe983f98ec73fd796ad4ed5112/types-pyinstaller-6.6.0.20240417.tar.gz
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-psycopg2]: Downloading https://files.pythonhosted.org/packages/82/cc/73c4880716866b239054839bf72b23c51c4d43ffe56c9ccbe4948e7a57b6/types-psycopg2-2.9.9.tar.gz
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-pytz]: executing diffoscope
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-pytz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pytz-2024.1.0.20240203.tar.gz tmp/types-pytz-2024.1.0.20240417.tar.gz --markdown 20240417/t/types-pytz/2024.1.0.20240203-2024.1.0.20240417/README.md --exclude *.pyd
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-pycurl]: Downloading https://files.pythonhosted.org/packages/eb/a8/62cb3b8c6abd38f8b86a7ab90c0835b99a18c68d32d43df5e22b43c6a779/types-pycurl-7.45.2.5.tar.gz
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-python-crontab]: executing diffoscope
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-python-crontab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-python-crontab-3.0.0.20240106.tar.gz tmp/types-python-crontab-3.0.0.20240417.tar.gz --markdown 20240417/t/types-python-crontab/3.0.0.20240106-3.0.0.20240417/README.md --exclude *.pyd
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-protobuf]: executing diffoscope
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-protobuf-4.24.0.4.tar.gz tmp/types-protobuf-4.25.0.20240410.tar.gz --markdown 20240417/t/types-protobuf/4.24.0.4-4.25.0.20240410/README.md --exclude *.pyd
+[2024-04-17 04:18:13] INFO root fetch - processPackages [amadeus]: Downloading https://files.pythonhosted.org/packages/4b/7f/f19ca69d13842776b2d409a7981545301307ab74cd1ec70b736284984900/amadeus-9.0.0.tar.gz
+[2024-04-17 04:18:13] INFO root fetch - processPackages [tej-tool-api]: executing diffoscope
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-pyinstaller]: executing diffoscope
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-pyinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyinstaller-6.6.0.20240415.tar.gz tmp/types-pyinstaller-6.6.0.20240417.tar.gz --markdown 20240417/t/types-pyinstaller/6.6.0.20240415-6.6.0.20240417/README.md --exclude *.pyd
+[2024-04-17 04:18:13] INFO root fetch - processPackages [tej-tool-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tej_tool_api-1.1.2.tar.gz tmp/tej_tool_api-1.1.2rc0.tar.gz --markdown 20240417/t/tej-tool-api/1.1.2-1.1.2rc0/README.md --exclude *.pyd
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-psycopg2]: executing diffoscope
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-psycopg2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-psycopg2-2.9.8.tar.gz tmp/types-psycopg2-2.9.9.tar.gz --markdown 20240417/t/types-psycopg2/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-pycurl]: executing diffoscope
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-pycurl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pycurl-7.45.2.4.tar.gz tmp/types-pycurl-7.45.2.5.tar.gz --markdown 20240417/t/types-pycurl/7.45.2.4-7.45.2.5/README.md --exclude *.pyd
+[2024-04-17 04:18:13] INFO root fetch - processPackages [amadeus]: executing diffoscope
+[2024-04-17 04:18:13] INFO root fetch - processPackages [amadeus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amadeus-8.1.0.tar.gz tmp/amadeus-9.0.0.tar.gz --markdown 20240417/a/amadeus/8.1.0-9.0.0/README.md --exclude *.pyd
+[2024-04-17 04:18:13] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/22/37/7b0b35884ed4711eca08df63bc6c3819990500b24ebaaee98b02351ce1a5/esphome-2024.4.0b3.tar.gz
+[2024-04-17 04:18:13] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-04-17 04:18:13] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.4.0b2.tar.gz tmp/esphome-2024.4.0b3.tar.gz --markdown 20240417/e/esphome/2024.4.0b2-2024.4.0b3/README.md --exclude *.pyd
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-tqdm]: Remove: archive file [/home/abi/fetcher/tmp/types-tqdm-4.66.0.4.tar.gz]
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-tqdm]: Remove: archive file [/home/abi/fetcher/tmp/types-tqdm-4.66.0.5.tar.gz]
+[2024-04-17 04:18:13] INFO root fetch - processPackages [types-tqdm]: Start processing: types-seaborn
+[2024-04-17 04:18:13] INFO root fetch - main [MainThread]: End processing [types-tqdm]: success
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-seaborn]: New version: [0.13.2.20240417] Old Version: [0.13.2.20240311]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-pytz]: Remove: archive file [/home/abi/fetcher/tmp/types-pytz-2024.1.0.20240203.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-pytz]: Remove: archive file [/home/abi/fetcher/tmp/types-pytz-2024.1.0.20240417.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-pytz]: Start processing: types-pyOpenSSL
+[2024-04-17 04:18:14] INFO root fetch - main [MainThread]: End processing [types-pytz]: success
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-python-crontab]: Remove: archive file [/home/abi/fetcher/tmp/types-python-crontab-3.0.0.20240106.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-python-crontab]: Remove: archive file [/home/abi/fetcher/tmp/types-python-crontab-3.0.0.20240417.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-python-crontab]: Start processing: types-tensorflow
+[2024-04-17 04:18:14] INFO root fetch - main [MainThread]: End processing [types-python-crontab]: success
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-pyOpenSSL]: New version: [24.0.0.20240417] Old Version: [24.0.0.20240311]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-pycurl]: Remove: archive file [/home/abi/fetcher/tmp/types-pycurl-7.45.2.4.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-seaborn]: Downloading https://files.pythonhosted.org/packages/76/d1/2a8740e3a2657e460b73d7e9bcc00d32c01b5101cee7835dda980a3404bf/types-seaborn-0.13.2.20240311.tar.gz
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-pycurl]: Remove: archive file [/home/abi/fetcher/tmp/types-pycurl-7.45.2.5.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-pycurl]: Start processing: types-requests-oauthlib
+[2024-04-17 04:18:14] INFO root fetch - main [MainThread]: End processing [types-pycurl]: success
+[2024-04-17 04:18:14] INFO root fetch - processPackages [tej-tool-api]: Remove: archive file [/home/abi/fetcher/tmp/tej_tool_api-1.1.2.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [tej-tool-api]: Remove: archive file [/home/abi/fetcher/tmp/tej_tool_api-1.1.2rc0.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [tej-tool-api]: Start processing: types-redis
+[2024-04-17 04:18:14] INFO root fetch - main [MainThread]: End processing [tej-tool-api]: success
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-tensorflow]: New version: [2.15.0.20240417] Old Version: [2.15.0.20240412]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/types-pyinstaller-6.6.0.20240415.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/types-pyinstaller-6.6.0.20240417.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - main [MainThread]: End processing [types-pyinstaller]: success
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-redis]: New version: [4.6.0.9] Old Version: [4.6.0.8]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/types-protobuf-4.24.0.4.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/types-protobuf-4.25.0.20240410.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - main [MainThread]: End processing [types-protobuf]: success
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-psycopg2]: Remove: archive file [/home/abi/fetcher/tmp/types-psycopg2-2.9.8.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-psycopg2]: Remove: archive file [/home/abi/fetcher/tmp/types-psycopg2-2.9.9.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - main [MainThread]: End processing [types-psycopg2]: success
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-requests-oauthlib]: New version: [2.0.0.20240417] Old Version: [2.0.0.20240324]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-pyOpenSSL]: Downloading https://files.pythonhosted.org/packages/0b/27/4112745fb4f44d89c3260fc683fae69b2bb2c724e1e1994c3e24f21d24e8/types-pyOpenSSL-24.0.0.20240311.tar.gz
+[2024-04-17 04:18:14] INFO root fetch - processPackages [amadeus]: Remove: archive file [/home/abi/fetcher/tmp/amadeus-8.1.0.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - processPackages [amadeus]: Remove: archive file [/home/abi/fetcher/tmp/amadeus-9.0.0.tar.gz]
+[2024-04-17 04:18:14] INFO root fetch - main [MainThread]: End processing [amadeus]: success
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/2b/7e/b81e8f19d8a0dd5f8e990a158094e469a0301c47b9fc2935b5b76d7ba4b1/types-tensorflow-2.15.0.20240412.tar.gz
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-redis]: Downloading https://files.pythonhosted.org/packages/f7/d1/d47e3e455098dc949a0f15430a6318a00eb1a08293878b067471e34284ae/types-redis-4.6.0.8.tar.gz
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-seaborn]: Downloading https://files.pythonhosted.org/packages/d8/78/bcb48a612f287ffad3d6a15cb96746c785f9c5b1ed2d0d6a094c9c1c4011/types-seaborn-0.13.2.20240417.tar.gz
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-requests-oauthlib]: Downloading https://files.pythonhosted.org/packages/c5/fd/1246f912f225fe6ea7408951f5b060fa7fc4ff09abe7e0ef2289d430e315/types-requests-oauthlib-2.0.0.20240324.tar.gz
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-seaborn]: executing diffoscope
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-seaborn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-seaborn-0.13.2.20240311.tar.gz tmp/types-seaborn-0.13.2.20240417.tar.gz --markdown 20240417/t/types-seaborn/0.13.2.20240311-0.13.2.20240417/README.md --exclude *.pyd
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-pyOpenSSL]: Downloading https://files.pythonhosted.org/packages/d8/38/011e2a9916e7afca2cc9c14fff1df42285d697ee0dd9903e4292cd1f5bf6/types-pyOpenSSL-24.0.0.20240417.tar.gz
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-pyOpenSSL]: executing diffoscope
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-pyOpenSSL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyOpenSSL-24.0.0.20240311.tar.gz tmp/types-pyOpenSSL-24.0.0.20240417.tar.gz --markdown 20240417/t/types-pyOpenSSL/24.0.0.20240311-24.0.0.20240417/README.md --exclude *.pyd
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-redis]: Downloading https://files.pythonhosted.org/packages/4b/2f/9b1eed7650da20192ca15426ca7ac9f54a1249bd48fdb310a4755c076921/types-redis-4.6.0.9.tar.gz
+[2024-04-17 04:18:14] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/37/2d/d058ebda474ec6a50501280e7ebd2113f15065af9233263a19c17fe59c62/types-tensorflow-2.15.0.20240417.tar.gz
+[2024-04-17 04:18:15] INFO root fetch - processPackages [types-requests-oauthlib]: Downloading https://files.pythonhosted.org/packages/f3/e1/f502a651d5bab3391f97d7a155cbd226d31ac79265469e74f2c70eaee3d1/types-requests-oauthlib-2.0.0.20240417.tar.gz
+[2024-04-17 04:18:15] INFO root fetch - processPackages [types-redis]: executing diffoscope
+[2024-04-17 04:18:15] INFO root fetch - processPackages [types-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-redis-4.6.0.8.tar.gz tmp/types-redis-4.6.0.9.tar.gz --markdown 20240417/t/types-redis/4.6.0.8-4.6.0.9/README.md --exclude *.pyd
+[2024-04-17 04:18:15] INFO root fetch - processPackages [types-tensorflow]: executing diffoscope
+[2024-04-17 04:18:15] INFO root fetch - processPackages [types-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tensorflow-2.15.0.20240412.tar.gz tmp/types-tensorflow-2.15.0.20240417.tar.gz --markdown 20240417/t/types-tensorflow/2.15.0.20240412-2.15.0.20240417/README.md --exclude *.pyd
+[2024-04-17 04:18:15] INFO root fetch - processPackages [types-requests-oauthlib]: executing diffoscope
+[2024-04-17 04:18:15] INFO root fetch - processPackages [types-requests-oauthlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-requests-oauthlib-2.0.0.20240324.tar.gz tmp/types-requests-oauthlib-2.0.0.20240417.tar.gz --markdown 20240417/t/types-requests-oauthlib/2.0.0.20240324-2.0.0.20240417/README.md --exclude *.pyd
+[2024-04-17 04:18:15] INFO root fetch - processPackages [types-seaborn]: Remove: archive file [/home/abi/fetcher/tmp/types-seaborn-0.13.2.20240311.tar.gz]
+[2024-04-17 04:18:15] INFO root fetch - processPackages [types-seaborn]: Remove: archive file [/home/abi/fetcher/tmp/types-seaborn-0.13.2.20240417.tar.gz]
+[2024-04-17 04:18:15] INFO root fetch - main [MainThread]: End processing [types-seaborn]: success
+[2024-04-17 04:18:15] INFO root fetch - processPackages [types-pyOpenSSL]: Remove: archive file [/home/abi/fetcher/tmp/types-pyOpenSSL-24.0.0.20240311.tar.gz]
+[2024-04-17 04:18:15] INFO root fetch - processPackages [types-pyOpenSSL]: Remove: archive file [/home/abi/fetcher/tmp/types-pyOpenSSL-24.0.0.20240417.tar.gz]
+[2024-04-17 04:18:15] INFO root fetch - main [MainThread]: End processing [types-pyOpenSSL]: success
+[2024-04-17 04:18:15] INFO root fetch - processPackages [types-requests-oauthlib]: Remove: archive file [/home/abi/fetcher/tmp/types-requests-oauthlib-2.0.0.20240324.tar.gz]
+[2024-04-17 04:18:15] INFO root fetch - processPackages [types-requests-oauthlib]: Remove: archive file [/home/abi/fetcher/tmp/types-requests-oauthlib-2.0.0.20240417.tar.gz]
+[2024-04-17 04:18:15] INFO root fetch - main [MainThread]: End processing [types-requests-oauthlib]: success
+[2024-04-17 04:18:16] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.8.tar.gz]
+[2024-04-17 04:18:16] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.9.tar.gz]
+[2024-04-17 04:18:16] INFO root fetch - main [MainThread]: End processing [types-redis]: success
+[2024-04-17 04:18:16] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.15.0.20240412.tar.gz]
+[2024-04-17 04:18:16] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.15.0.20240417.tar.gz]
+[2024-04-17 04:18:16] INFO root fetch - main [MainThread]: End processing [types-tensorflow]: success
+[2024-04-17 04:18:26] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.0b2.tar.gz]
+[2024-04-17 04:18:26] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.0b3.tar.gz]
+[2024-04-17 04:18:26] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-04-17 04:18:26] INFO root fetch - main [MainThread]: Store serial: [22798869]
