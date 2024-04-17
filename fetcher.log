@@ -17889,3 +17889,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:33:48] INFO root fetch - processPackages [csoundengine]: Remove: archive file [/home/abi/fetcher/tmp/csoundengine-2.8.2.tar.gz]
 [2024-04-17 11:33:48] INFO root fetch - main [MainThread]: End processing [csoundengine]: success
 [2024-04-17 11:33:48] INFO root fetch - main [MainThread]: Store serial: [22803282]
+[2024-04-17 11:35:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803282]
+[2024-04-17 11:35:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fibo-crypt
+[2024-04-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdnsbackup
+[2024-04-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: indexify-text-splitter
+[2024-04-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyidi
+[2024-04-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: image-go-nord
+[2024-04-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: publicaddr
+[2024-04-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu121
+[2024-04-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fgutils
+[2024-04-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvfuser-cu118
+[2024-04-17 11:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airflow-tools
+[2024-04-17 11:35:58] INFO root fetch - processPackages [image-go-nord]: New version: [1.0.1] Old Version: [0.1.7]
+[2024-04-17 11:35:59] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.1.dev20240416] Old Version: [0.2.1.dev20240415]
+[2024-04-17 11:35:59] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.1.dev20240416] Old Version: [0.2.1.dev20240415]
+[2024-04-17 11:35:59] INFO root fetch - processPackages [pdnsbackup]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-17 11:35:59] WARNING root fetch - processPackages [fibo-crypt]: Skipping, unable to determine old version
+[2024-04-17 11:35:59] INFO root fetch - main [MainThread]: End processing [fibo-crypt] error
+[2024-04-17 11:35:59] WARNING root fetch - processPackages [indexify-text-splitter]: Skipping, unable to determine old version
+[2024-04-17 11:35:59] INFO root fetch - main [MainThread]: End processing [indexify-text-splitter] error
+[2024-04-17 11:35:59] INFO root fetch - processPackages [image-go-nord]: Downloading https://files.pythonhosted.org/packages/88/65/f9ba47b20fdf1dd26bd87d9997075f02e08238b877f81be047bbde490c44/image-go-nord-0.1.7.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [pyidi]: New version: [0.30.0] Old Version: [0.27]
+[2024-04-17 11:35:59] INFO root fetch - processPackages [fgutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 11:35:59] INFO root fetch - processPackages [publicaddr]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-17 11:35:59] INFO root fetch - processPackages [airflow-tools]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-17 11:35:59] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/ed/9d/2bc40f10147f3e36dfba07121ccdb5434fe6b4114b922874f34826ee796a/nvfuser_cu121-0.2.1.dev20240415.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/80/18/26339678181e627e22509518537c67d0c0d10a3c6840dd8a434b091ea0c0/fgutils-0.0.8.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/ef/d8/a52aa668a2f7d36f8025e14dc6eedcf4bd305f62a2f0c0bc3828bd59f228/nvfuser_cu118-0.2.1.dev20240415.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [pdnsbackup]: Downloading https://files.pythonhosted.org/packages/64/ef/5b0ec03fdc9232ae252cc1344703720cf6e9b02eefad537fbc749e08b20e/pdnsbackup-0.8.0.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [pyidi]: Downloading https://files.pythonhosted.org/packages/68/b5/6f8c6a96e247a88be5448f29d5679c8d97468c0a86c57b83c887f0462051/pyidi-0.27.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [image-go-nord]: Downloading https://files.pythonhosted.org/packages/3c/02/b7fba0c65d278fab40338a9da73982a90ef48e982be07c0ce79552cba1a3/image-go-nord-1.0.1.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [airflow-tools]: Downloading https://files.pythonhosted.org/packages/a9/04/704373eced68e15937bc368ed9950ab3ac7625c6264b0eb8e3691b3ace74/airflow_tools-0.8.4.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [publicaddr]: Downloading https://files.pythonhosted.org/packages/d5/65/1ee9fcad10d748deb79d0258880ea3adee3c06168ea5ce452b75817dea7c/publicaddr-0.8.0.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/b2/9e/61ac35415068272bad61fd205b44dd743d9c6e617901b23d6ed576442141/fgutils-0.0.9.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/64/0e/e52f6a174b82baf8db6c57017124b7b0444c2a65d3988ec51c475f5dc5d5/nvfuser_cu121-0.2.1.dev20240416.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [image-go-nord]: executing diffoscope
+[2024-04-17 11:35:59] INFO root fetch - processPackages [image-go-nord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image-go-nord-0.1.7.tar.gz tmp/image-go-nord-1.0.1.tar.gz --markdown 20240417/i/image-go-nord/0.1.7-1.0.1/README.md --exclude *.pyd
+[2024-04-17 11:35:59] INFO root fetch - processPackages [fgutils]: executing diffoscope
+[2024-04-17 11:35:59] INFO root fetch - processPackages [fgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgutils-0.0.8.tar.gz tmp/fgutils-0.0.9.tar.gz --markdown 20240417/f/fgutils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 11:35:59] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-04-17 11:35:59] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.1.dev20240415.tar.gz tmp/nvfuser_cu121-0.2.1.dev20240416.tar.gz --markdown 20240417/n/nvfuser-cu121/0.2.1.dev20240415-0.2.1.dev20240416/README.md --exclude *.pyd
+[2024-04-17 11:35:59] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b9/50/dbe1e6cef0021601e570c2b22d86008153050b7dc5d29982cdee2dedc036/nvfuser_cu118-0.2.1.dev20240416.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [pdnsbackup]: Downloading https://files.pythonhosted.org/packages/cf/b9/2e17f6d418e0caaed3a4cdd3315b7f9a522462be41b643e1f6fd5a5964ce/pdnsbackup-0.9.0.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [airflow-tools]: Downloading https://files.pythonhosted.org/packages/c0/4f/e060fae91c4e32a9302c7dce7779011b073668653ac5646bd04340a35fe6/airflow_tools-0.8.5.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [pyidi]: Downloading https://files.pythonhosted.org/packages/3d/1d/68b26e376913774b124a68c77b76c3caeddf7586c794846677c9c8dc4bb2/pyidi-0.30.0.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [publicaddr]: Downloading https://files.pythonhosted.org/packages/c5/97/056bb3f8bd480c284f4362e3b2793b30ce4a070a7df03832faa45b9ca96e/publicaddr-0.9.0.tar.gz
+[2024-04-17 11:35:59] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-04-17 11:35:59] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.1.dev20240415.tar.gz tmp/nvfuser_cu118-0.2.1.dev20240416.tar.gz --markdown 20240417/n/nvfuser-cu118/0.2.1.dev20240415-0.2.1.dev20240416/README.md --exclude *.pyd
+[2024-04-17 11:35:59] WARNING root fetch - processPackages [pyidi]: Skipping package: exceeds size limit 58725771>=10485760
+[2024-04-17 11:35:59] INFO root fetch - main [MainThread]: End processing [pyidi] error
+[2024-04-17 11:35:59] INFO root fetch - processPackages [pdnsbackup]: executing diffoscope
+[2024-04-17 11:35:59] INFO root fetch - processPackages [pdnsbackup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdnsbackup-0.8.0.tar.gz tmp/pdnsbackup-0.9.0.tar.gz --markdown 20240417/p/pdnsbackup/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-17 11:35:59] INFO root fetch - processPackages [airflow-tools]: executing diffoscope
+[2024-04-17 11:35:59] INFO root fetch - processPackages [airflow-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_tools-0.8.4.tar.gz tmp/airflow_tools-0.8.5.tar.gz --markdown 20240417/a/airflow-tools/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-04-17 11:35:59] INFO root fetch - processPackages [publicaddr]: executing diffoscope
+[2024-04-17 11:35:59] INFO root fetch - processPackages [publicaddr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publicaddr-0.8.0.tar.gz tmp/publicaddr-0.9.0.tar.gz --markdown 20240417/p/publicaddr/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-17 11:36:00] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.1.dev20240415.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.1.dev20240416.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-04-17 11:36:00] INFO root fetch - processPackages [image-go-nord]: Remove: archive file [/home/abi/fetcher/tmp/image-go-nord-0.1.7.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - processPackages [image-go-nord]: Remove: archive file [/home/abi/fetcher/tmp/image-go-nord-1.0.1.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - main [MainThread]: End processing [image-go-nord]: success
+[2024-04-17 11:36:00] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.1.dev20240415.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.1.dev20240416.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-04-17 11:36:00] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.8.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.9.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - main [MainThread]: End processing [fgutils]: success
+[2024-04-17 11:36:00] INFO root fetch - processPackages [pdnsbackup]: Remove: archive file [/home/abi/fetcher/tmp/pdnsbackup-0.8.0.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - processPackages [pdnsbackup]: Remove: archive file [/home/abi/fetcher/tmp/pdnsbackup-0.9.0.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - main [MainThread]: End processing [pdnsbackup]: success
+[2024-04-17 11:36:00] INFO root fetch - processPackages [publicaddr]: Remove: archive file [/home/abi/fetcher/tmp/publicaddr-0.8.0.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - processPackages [publicaddr]: Remove: archive file [/home/abi/fetcher/tmp/publicaddr-0.9.0.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - main [MainThread]: End processing [publicaddr]: success
+[2024-04-17 11:36:00] INFO root fetch - processPackages [airflow-tools]: Remove: archive file [/home/abi/fetcher/tmp/airflow_tools-0.8.4.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - processPackages [airflow-tools]: Remove: archive file [/home/abi/fetcher/tmp/airflow_tools-0.8.5.tar.gz]
+[2024-04-17 11:36:00] INFO root fetch - main [MainThread]: End processing [airflow-tools]: success
+[2024-04-17 11:36:00] INFO root fetch - main [MainThread]: Store serial: [22803319]
