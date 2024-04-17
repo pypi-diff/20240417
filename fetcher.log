@@ -7234,3 +7234,36 @@
 [2024-04-17 03:38:43] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-04-17 03:38:43] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-04-17 03:38:43] INFO root fetch - main [MainThread]: Store serial: [22798570]
+[2024-04-17 03:40:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798570]
+[2024-04-17 03:40:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 03:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmaudit
+[2024-04-17 03:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Sphinx
+[2024-04-17 03:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shipyard-motherduck
+[2024-04-17 03:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OZI
+[2024-04-17 03:40:51] WARNING root fetch - processPackages [shipyard-motherduck]: Skipping, unable to determine old version
+[2024-04-17 03:40:51] INFO root fetch - main [MainThread]: End processing [shipyard-motherduck] error
+[2024-04-17 03:40:51] INFO root fetch - processPackages [llmaudit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 03:40:51] INFO root fetch - processPackages [Sphinx]: New version: [7.3.3] Old Version: [7.3.2]
+[2024-04-17 03:40:51] INFO root fetch - processPackages [OZI]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-17 03:40:51] INFO root fetch - processPackages [llmaudit]: Downloading https://files.pythonhosted.org/packages/e4/68/bfca56c531f4eb300d4b50dc1e4f71e744f124a613ebd39786d253759f9d/llmaudit-0.0.8.tar.gz
+[2024-04-17 03:40:51] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/9e/8a/c0798d89b1493a7e0ecdb0286f68077feae1d11c233bbed4de5628c61ad8/sphinx-7.3.2.tar.gz
+[2024-04-17 03:40:51] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/38/2b/d8f8ce2f774ca66b1e32e65068783b15ac56715cbfa1ab1faef6d2c91a13/OZI-0.0.98-py39-none-any.whl
+[2024-04-17 03:40:52] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/4c/bb/b5eaa9984b59532639030a4989b508e0252f662844d9a3e3f9a3d9aeef2c/OZI-0.0.99-py39-none-any.whl
+[2024-04-17 03:40:52] INFO root fetch - processPackages [llmaudit]: Downloading https://files.pythonhosted.org/packages/88/0f/11973c1133b5993cc21c15e8706bb9dbba02fd2ddc14be369c760bf13582/llmaudit-0.0.9.tar.gz
+[2024-04-17 03:40:52] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-04-17 03:40:52] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-0.0.98-py39-none-any.whl.zip tmp/OZI-0.0.99-py39-none-any.whl.zip --markdown 20240417/O/OZI/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-17 03:40:52] INFO root fetch - processPackages [llmaudit]: executing diffoscope
+[2024-04-17 03:40:52] INFO root fetch - processPackages [llmaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmaudit-0.0.8.tar.gz tmp/llmaudit-0.0.9.tar.gz --markdown 20240417/l/llmaudit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 03:40:52] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/94/b6/d4dd8704882fc05aca7b87adbce237ca63e38d1ecd48088d76029e35e41a/sphinx-7.3.3.tar.gz
+[2024-04-17 03:40:52] INFO root fetch - processPackages [llmaudit]: Remove: archive file [/home/abi/fetcher/tmp/llmaudit-0.0.8.tar.gz]
+[2024-04-17 03:40:52] INFO root fetch - processPackages [llmaudit]: Remove: archive file [/home/abi/fetcher/tmp/llmaudit-0.0.9.tar.gz]
+[2024-04-17 03:40:52] INFO root fetch - main [MainThread]: End processing [llmaudit]: success
+[2024-04-17 03:40:52] INFO root fetch - processPackages [Sphinx]: executing diffoscope
+[2024-04-17 03:40:52] INFO root fetch - processPackages [Sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-7.3.2.tar.gz tmp/sphinx-7.3.3.tar.gz --markdown 20240417/S/Sphinx/7.3.2-7.3.3/README.md --exclude *.pyd
+[2024-04-17 03:40:53] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.98-py39-none-any.whl.zip]
+[2024-04-17 03:40:53] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.99-py39-none-any.whl.zip]
+[2024-04-17 03:40:53] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-04-17 03:40:58] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.2.tar.gz]
+[2024-04-17 03:40:58] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.3.tar.gz]
+[2024-04-17 03:40:58] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
+[2024-04-17 03:40:58] INFO root fetch - main [MainThread]: Store serial: [22798593]
