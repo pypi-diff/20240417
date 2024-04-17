@@ -23047,3 +23047,39 @@ EOFError: EOF read where object expected
 [2024-04-17 14:45:22] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2024-04-17 14:45:22] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2024-04-17 14:45:22] INFO root fetch - main [MainThread]: Store serial: [22805626]
+[2024-04-17 14:47:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805626]
+[2024-04-17 14:47:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 14:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bps-fbi-sp-ecoli
+[2024-04-17 14:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickstart-vdk
+[2024-04-17 14:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astromartini
+[2024-04-17 14:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scimba
+[2024-04-17 14:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brynq-sdk-successfactors
+[2024-04-17 14:47:31] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-17 14:47:31] WARNING root fetch - processPackages [brynq-sdk-successfactors]: Skipping, unable to determine old version
+[2024-04-17 14:47:31] INFO root fetch - main [MainThread]: End processing [brynq-sdk-successfactors] error
+[2024-04-17 14:47:31] INFO root fetch - processPackages [astromartini]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-17 14:47:31] INFO root fetch - processPackages [bps-fbi-sp-ecoli]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 14:47:31] WARNING root fetch - processPackages [scimba]: Skipping, unable to determine old version
+[2024-04-17 14:47:31] INFO root fetch - main [MainThread]: End processing [scimba] error
+[2024-04-17 14:47:31] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-17 14:47:31] INFO root fetch - processPackages [astromartini]: Downloading https://files.pythonhosted.org/packages/1f/b0/27b693d35ff4952d92b25512384bd07170bf9d7a2d385bd7ac3032d06162/astromartini-2.0.8.tar.gz
+[2024-04-17 14:47:31] INFO root fetch - processPackages [bps-fbi-sp-ecoli]: Downloading https://files.pythonhosted.org/packages/33/e3/8b42757b8b552827419cacaf52373b62bdf8f949983c5ad99576e394692a/bps_fbi_sp_ecoli-0.0.1.tar.gz
+[2024-04-17 14:47:31] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-17 14:47:32] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-17 14:47:32] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240417/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-17 14:47:32] INFO root fetch - processPackages [bps-fbi-sp-ecoli]: Downloading https://files.pythonhosted.org/packages/e0/dc/027b178d47649e45937087c59a1f15ef31f0c4b149109ca09b87f4fd53f4/bps_fbi_sp_ecoli-0.0.2.tar.gz
+[2024-04-17 14:47:32] INFO root fetch - processPackages [astromartini]: Downloading https://files.pythonhosted.org/packages/08/24/9c84ee57ad90649d08dac1c3223480699dbd1b9778a90843a9ea118db943/astromartini-2.0.9.tar.gz
+[2024-04-17 14:47:32] INFO root fetch - processPackages [astromartini]: executing diffoscope
+[2024-04-17 14:47:32] INFO root fetch - processPackages [astromartini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astromartini-2.0.8.tar.gz tmp/astromartini-2.0.9.tar.gz --markdown 20240417/a/astromartini/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-17 14:47:32] INFO root fetch - processPackages [bps-fbi-sp-ecoli]: executing diffoscope
+[2024-04-17 14:47:32] INFO root fetch - processPackages [bps-fbi-sp-ecoli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bps_fbi_sp_ecoli-0.0.1.tar.gz tmp/bps_fbi_sp_ecoli-0.0.2.tar.gz --markdown 20240417/b/bps-fbi-sp-ecoli/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 14:47:32] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-17 14:47:32] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-17 14:47:32] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-17 14:47:32] INFO root fetch - processPackages [bps-fbi-sp-ecoli]: Remove: archive file [/home/abi/fetcher/tmp/bps_fbi_sp_ecoli-0.0.1.tar.gz]
+[2024-04-17 14:47:32] INFO root fetch - processPackages [bps-fbi-sp-ecoli]: Remove: archive file [/home/abi/fetcher/tmp/bps_fbi_sp_ecoli-0.0.2.tar.gz]
+[2024-04-17 14:47:32] INFO root fetch - main [MainThread]: End processing [bps-fbi-sp-ecoli]: success
+[2024-04-17 14:47:32] INFO root fetch - processPackages [astromartini]: Remove: archive file [/home/abi/fetcher/tmp/astromartini-2.0.8.tar.gz]
+[2024-04-17 14:47:32] INFO root fetch - processPackages [astromartini]: Remove: archive file [/home/abi/fetcher/tmp/astromartini-2.0.9.tar.gz]
+[2024-04-17 14:47:32] INFO root fetch - main [MainThread]: End processing [astromartini]: success
+[2024-04-17 14:47:32] INFO root fetch - main [MainThread]: Store serial: [22805647]
