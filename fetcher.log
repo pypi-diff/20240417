@@ -16894,3 +16894,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:06:39] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.0b20240416.tar.gz]
 [2024-04-17 11:06:39] INFO root fetch - main [MainThread]: End processing [autogluon]: success
 [2024-04-17 11:06:39] INFO root fetch - main [MainThread]: Store serial: [22802738]
+[2024-04-17 11:08:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802738]
+[2024-04-17 11:08:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scandir-rs
+[2024-04-17 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deep-tts
+[2024-04-17 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: salure-helpers-datev
+[2024-04-17 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: selfpkg
+[2024-04-17 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mail-activity-team
+[2024-04-17 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logMessage.0.2
+[2024-04-17 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: disco-tif
+[2024-04-17 11:08:49] INFO root fetch - processPackages [selfpkg]: New version: [0.0.1b4] Old Version: [0.0.1b3]
+[2024-04-17 11:08:49] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/b5/c5/0e95a9201aa394d71a19d46c2ef5caba41307d84b5e8623d72417da5a3e9/selfpkg-0.0.1b3.tar.gz
+[2024-04-17 11:08:49] INFO root fetch - processPackages [deep-tts]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 11:08:49] INFO root fetch - processPackages [salure-helpers-datev]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-17 11:08:49] WARNING root fetch - processPackages [disco-tif]: Skipping, unable to determine old version
+[2024-04-17 11:08:49] INFO root fetch - main [MainThread]: End processing [disco-tif] error
+[2024-04-17 11:08:49] WARNING root fetch - processPackages [logMessage.0.2]: Skipping, unable to determine old version
+[2024-04-17 11:08:49] INFO root fetch - main [MainThread]: End processing [logMessage.0.2] error
+[2024-04-17 11:08:49] INFO root fetch - processPackages [scandir-rs]: New version: [2.7.0] Old Version: [2.4.0]
+[2024-04-17 11:08:49] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: New version: [17.0.1.0.0.1] Old Version: [16.0.1.0.1]
+[2024-04-17 11:08:49] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/40/5a/de69d030efba4ce7d11961cdf24974a909003cf096b2e5d94b374b3e0c69/odoo_addon_mail_activity_team-16.0.1.0.1-py3-none-any.whl
+[2024-04-17 11:08:49] INFO root fetch - processPackages [deep-tts]: Downloading https://files.pythonhosted.org/packages/28/a4/dd43f8bc8c698a38adf915d2042367d2f612a281e1f5688f6af706e5c084/deep_tts-0.1.8.tar.gz
+[2024-04-17 11:08:49] INFO root fetch - processPackages [salure-helpers-datev]: Downloading https://files.pythonhosted.org/packages/33/90/987615aa190e59bae81a6e16fc064b0494c48354bef673a0604ffd00df2c/salure_helpers_datev-1.0.7.tar.gz
+[2024-04-17 11:08:49] INFO root fetch - processPackages [scandir-rs]: Downloading https://files.pythonhosted.org/packages/e4/e7/bb4605f0e355f6c7a9c930d6f5792cc7a622dfaaa13b8ce2f2a82e093642/scandir_rs-2.4.0-cp39-cp39-manylinux_2_34_x86_64.whl
+[2024-04-17 11:08:49] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/6a/10/17f481c967a0bbb1d78138df116e6555c8309523909487cc6475b1c09411/selfpkg-0.0.1b4.tar.gz
+[2024-04-17 11:08:50] INFO root fetch - processPackages [selfpkg]: executing diffoscope
+[2024-04-17 11:08:50] INFO root fetch - processPackages [selfpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfpkg-0.0.1b3.tar.gz tmp/selfpkg-0.0.1b4.tar.gz --markdown 20240417/s/selfpkg/0.0.1b3-0.0.1b4/README.md --exclude *.pyd
+[2024-04-17 11:08:50] INFO root fetch - processPackages [salure-helpers-datev]: Downloading https://files.pythonhosted.org/packages/2e/0a/6c639f06143c3c0f3d081e92ef79e46ad763b9cb44a4e7787ba71da9ecfe/salure_helpers_datev-1.0.9.tar.gz
+[2024-04-17 11:08:50] INFO root fetch - processPackages [scandir-rs]: Downloading https://files.pythonhosted.org/packages/b7/68/e8a97d41c1c827f794e72b563c8337e7ae1cf5b3a87c6ad70fc4dbb49e29/scandir_rs-2.7.0.tar.gz
+[2024-04-17 11:08:50] INFO root fetch - processPackages [deep-tts]: Downloading https://files.pythonhosted.org/packages/4f/d8/d985574081fe1cc08e5d20d71b03d2528b301fb729ece2cb0558ca028e52/deep_tts-0.1.9.tar.gz
+[2024-04-17 11:08:50] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/44/b2/aa92d1d854d25579b772cf0833f7e10e382b642672fe1c598ff61cb2ff14/odoo_addon_mail_activity_team-17.0.1.0.0.1-py3-none-any.whl
+[2024-04-17 11:08:50] INFO root fetch - processPackages [salure-helpers-datev]: executing diffoscope
+[2024-04-17 11:08:50] INFO root fetch - processPackages [salure-helpers-datev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_datev-1.0.7.tar.gz tmp/salure_helpers_datev-1.0.9.tar.gz --markdown 20240417/s/salure-helpers-datev/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-17 11:08:50] INFO root fetch - processPackages [scandir-rs]: executing diffoscope
+[2024-04-17 11:08:50] INFO root fetch - processPackages [scandir-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scandir_rs-2.4.0-cp39-cp39-manylinux_2_34_x86_64.whl.zip tmp/scandir_rs-2.7.0.tar.gz --markdown 20240417/s/scandir-rs/2.4.0-2.7.0/README.md --exclude *.pyd
+[2024-04-17 11:08:50] INFO root fetch - processPackages [deep-tts]: executing diffoscope
+[2024-04-17 11:08:50] INFO root fetch - processPackages [deep-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_tts-0.1.8.tar.gz tmp/deep_tts-0.1.9.tar.gz --markdown 20240417/d/deep-tts/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 11:08:50] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: executing diffoscope
+[2024-04-17 11:08:50] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_activity_team-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_mail_activity_team-17.0.1.0.0.1-py3-none-any.whl.zip --markdown 20240417/o/odoo-addon-mail-activity-team/16.0.1.0.1-17.0.1.0.0.1/README.md --exclude *.pyd
+[2024-04-17 11:08:50] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.1b3.tar.gz]
+[2024-04-17 11:08:50] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.1b4.tar.gz]
+[2024-04-17 11:08:50] INFO root fetch - main [MainThread]: End processing [selfpkg]: success
+[2024-04-17 11:08:51] INFO root fetch - processPackages [salure-helpers-datev]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_datev-1.0.7.tar.gz]
+[2024-04-17 11:08:51] INFO root fetch - processPackages [salure-helpers-datev]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_datev-1.0.9.tar.gz]
+[2024-04-17 11:08:51] INFO root fetch - main [MainThread]: End processing [salure-helpers-datev]: success
+[2024-04-17 11:08:51] INFO root fetch - processPackages [deep-tts]: Remove: archive file [/home/abi/fetcher/tmp/deep_tts-0.1.8.tar.gz]
+[2024-04-17 11:08:51] INFO root fetch - processPackages [deep-tts]: Remove: archive file [/home/abi/fetcher/tmp/deep_tts-0.1.9.tar.gz]
+[2024-04-17 11:08:51] INFO root fetch - main [MainThread]: End processing [deep-tts]: success
+[2024-04-17 11:08:51] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_team-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-17 11:08:51] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_team-17.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-17 11:08:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-activity-team]: success
+[2024-04-17 11:08:51] INFO root fetch - processPackages [scandir-rs]: Remove: archive file [/home/abi/fetcher/tmp/scandir_rs-2.4.0-cp39-cp39-manylinux_2_34_x86_64.whl.zip]
+[2024-04-17 11:08:51] INFO root fetch - processPackages [scandir-rs]: Remove: archive file [/home/abi/fetcher/tmp/scandir_rs-2.7.0.tar.gz]
+[2024-04-17 11:08:51] INFO root fetch - main [MainThread]: End processing [scandir-rs]: success
+[2024-04-17 11:08:51] INFO root fetch - main [MainThread]: Store serial: [22802765]
