@@ -1,0 +1,1897 @@
+# Comparing `tmp/tickterial-1.0.3.tar.gz` & `tmp/tickterial-1.1.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "tickterial-1.0.3.tar", last modified: Wed Oct 11 13:13:32 2023, max compression
++gzip compressed data, was "tickterial-1.1.0.tar", last modified: Wed Apr 17 18:12:28 2024, max compression
+```
+
+## Comparing `tickterial-1.0.3.tar` & `tickterial-1.1.0.tar`
+
+### file list
+
+```diff
+@@ -1,19 +1,17 @@
+-drwxrwxr-x   0 druid     (1001) druid     (1001)        0 2023-10-11 13:13:32.389623 tickterial-1.0.3/
+--rw-rw-r--   0 druid     (1001) druid     (1001)     1064 2023-07-09 10:06:58.000000 tickterial-1.0.3/LICENSE
+--rw-r--r--   0 druid     (1001) druid     (1001)     4440 2023-10-11 13:13:32.389623 tickterial-1.0.3/PKG-INFO
+--rw-rw-r--   0 druid     (1001) druid     (1001)     2408 2023-07-19 18:19:22.000000 tickterial-1.0.3/README.md
+--rw-rw-r--   0 druid     (1001) druid     (1001)      921 2023-10-11 13:12:45.000000 tickterial-1.0.3/pyproject.toml
+--rw-rw-r--   0 druid     (1001) druid     (1001)       38 2023-10-11 13:13:32.389623 tickterial-1.0.3/setup.cfg
+-drwxrwxr-x   0 druid     (1001) druid     (1001)        0 2023-10-11 13:13:32.381626 tickterial-1.0.3/tickterial/
+--rw-rw-r--   0 druid     (1001) druid     (1001)      466 2023-08-12 08:50:13.000000 tickterial-1.0.3/tickterial/__init__.py
+--rw-rw-r--   0 druid     (1001) druid     (1001)      152 2023-07-30 14:01:19.000000 tickterial-1.0.3/tickterial/main.py
+--rw-rw-r--   0 druid     (1001) druid     (1001)      165 2023-08-12 08:39:05.000000 tickterial-1.0.3/tickterial/models.py
+--rw-rw-r--   0 druid     (1001) druid     (1001)      493 2023-08-12 08:39:40.000000 tickterial-1.0.3/tickterial/routes.py
+--rw-rw-r--   0 druid     (1001) druid     (1001)     4811 2023-08-12 16:42:15.000000 tickterial-1.0.3/tickterial/tickloader.py
+-drwxrwxr-x   0 druid     (1001) druid     (1001)        0 2023-10-11 13:13:32.385625 tickterial-1.0.3/tickterial.egg-info/
+--rw-r--r--   0 druid     (1001) druid     (1001)     4440 2023-10-11 13:13:32.000000 tickterial-1.0.3/tickterial.egg-info/PKG-INFO
+--rw-rw-r--   0 druid     (1001) druid     (1001)      347 2023-10-11 13:13:32.000000 tickterial-1.0.3/tickterial.egg-info/SOURCES.txt
+--rw-rw-r--   0 druid     (1001) druid     (1001)        1 2023-10-11 13:13:32.000000 tickterial-1.0.3/tickterial.egg-info/dependency_links.txt
+--rw-rw-r--   0 druid     (1001) druid     (1001)       43 2023-10-11 13:13:32.000000 tickterial-1.0.3/tickterial.egg-info/entry_points.txt
+--rw-rw-r--   0 druid     (1001) druid     (1001)      100 2023-10-11 13:13:32.000000 tickterial-1.0.3/tickterial.egg-info/requires.txt
+--rw-rw-r--   0 druid     (1001) druid     (1001)       11 2023-10-11 13:13:32.000000 tickterial-1.0.3/tickterial.egg-info/top_level.txt
++drwxrwxrwx   0        0        0        0 2024-04-17 18:12:28.742663 tickterial-1.1.0/
++-rw-rw-rw-   0        0        0     1083 2024-04-17 18:05:37.000000 tickterial-1.1.0/LICENSE
++-rw-rw-rw-   0        0        0     4238 2024-04-17 18:12:28.730508 tickterial-1.1.0/PKG-INFO
++-rw-rw-rw-   0        0        0     2237 2024-04-17 18:04:38.000000 tickterial-1.1.0/README.md
++-rw-rw-rw-   0        0        0      913 2024-04-17 18:06:53.000000 tickterial-1.1.0/pyproject.toml
++-rw-rw-rw-   0        0        0       42 2024-04-17 18:12:28.743663 tickterial-1.1.0/setup.cfg
++drwxrwxrwx   0        0        0        0 2024-04-17 18:12:28.312129 tickterial-1.1.0/tickterial/
++-rw-rw-rw-   0        0        0       46 2024-04-17 17:52:24.000000 tickterial-1.1.0/tickterial/__init__.py
++-rw-rw-rw-   0        0        0      396 2024-04-17 17:51:52.000000 tickterial-1.1.0/tickterial/main.py
++-rw-rw-rw-   0        0        0     4996 2024-04-17 17:54:31.000000 tickterial-1.1.0/tickterial/tickloader.py
++drwxrwxrwx   0        0        0        0 2024-04-17 18:12:28.724514 tickterial-1.1.0/tickterial.egg-info/
++-rw-rw-rw-   0        0        0     4238 2024-04-17 18:12:25.000000 tickterial-1.1.0/tickterial.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0      305 2024-04-17 18:12:26.000000 tickterial-1.1.0/tickterial.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2024-04-17 18:12:25.000000 tickterial-1.1.0/tickterial.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0       52 2024-04-17 18:12:25.000000 tickterial-1.1.0/tickterial.egg-info/entry_points.txt
++-rw-rw-rw-   0        0        0       63 2024-04-17 18:12:25.000000 tickterial-1.1.0/tickterial.egg-info/requires.txt
++-rw-rw-rw-   0        0        0       11 2024-04-17 18:12:25.000000 tickterial-1.1.0/tickterial.egg-info/top_level.txt
+```
+
+### Comparing `tickterial-1.0.3/LICENSE` & `tickterial-1.1.0/LICENSE`
+
+ * *Files 22% similar despite different names*
+
+```diff
+@@ -1,21 +1,21 @@
+-MIT License
+-
+-Copyright (c) 2022 sp3rtah
+-
+-Permission is hereby granted, free of charge, to any person obtaining a copy
+-of this software and associated documentation files (the "Software"), to deal
+-in the Software without restriction, including without limitation the rights
+-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+-copies of the Software, and to permit persons to whom the Software is
+-furnished to do so, subject to the following conditions:
+-
+-The above copyright notice and this permission notice shall be included in all
+-copies or substantial portions of the Software.
+-
+-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+-SOFTWARE.
++MIT License
++
++Copyright (c) 2024 drui9
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+```
+
+### Comparing `tickterial-1.0.3/PKG-INFO` & `tickterial-1.1.0/PKG-INFO`
+
+ * *Files 15% similar despite different names*
+
+```diff
+@@ -1,278 +1,265 @@
+ 00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+-00000010: 3a20 322e 310a 4e61 6d65 3a20 7469 636b  : 2.1.Name: tick
+-00000020: 7465 7269 616c 0a56 6572 7369 6f6e 3a20  terial.Version: 
+-00000030: 312e 302e 330a 5375 6d6d 6172 793a 2044  1.0.3.Summary: D
+-00000040: 6f77 6e6c 6f61 6420 7469 636b 2064 6174  ownload tick dat
+-00000050: 6120 6672 6f6d 2044 756b 6173 636f 7079  a from Dukascopy
+-00000060: 2042 616e 6b20 5341 2074 6f20 6c6f 6361   Bank SA to loca
+-00000070: 6c20 6361 6368 6520 7769 7468 2063 7573  l cache with cus
+-00000080: 746f 6d20 7369 6d75 6c61 7465 6420 7072  tom simulated pr
+-00000090: 6963 6520 7374 7265 616d 7321 0a41 7574  ice streams!.Aut
+-000000a0: 686f 722d 656d 6169 6c3a 2073 7033 7274  hor-email: sp3rt
+-000000b0: 6168 203c 6e67 6169 7261 3134 6e65 6c73  ah <ngaira14nels
+-000000c0: 6f6e 4067 6d61 696c 2e63 6f6d 3e0a 4c69  on@gmail.com>.Li
+-000000d0: 6365 6e73 653a 204d 4954 204c 6963 656e  cense: MIT Licen
+-000000e0: 7365 0a20 2020 2020 2020 200a 2020 2020  se.        .    
+-000000f0: 2020 2020 436f 7079 7269 6768 7420 2863      Copyright (c
+-00000100: 2920 3230 3232 2073 7033 7274 6168 0a20  ) 2022 sp3rtah. 
+-00000110: 2020 2020 2020 200a 2020 2020 2020 2020         .        
+-00000120: 5065 726d 6973 7369 6f6e 2069 7320 6865  Permission is he
+-00000130: 7265 6279 2067 7261 6e74 6564 2c20 6672  reby granted, fr
+-00000140: 6565 206f 6620 6368 6172 6765 2c20 746f  ee of charge, to
+-00000150: 2061 6e79 2070 6572 736f 6e20 6f62 7461   any person obta
+-00000160: 696e 696e 6720 6120 636f 7079 0a20 2020  ining a copy.   
+-00000170: 2020 2020 206f 6620 7468 6973 2073 6f66       of this sof
+-00000180: 7477 6172 6520 616e 6420 6173 736f 6369  tware and associ
+-00000190: 6174 6564 2064 6f63 756d 656e 7461 7469  ated documentati
+-000001a0: 6f6e 2066 696c 6573 2028 7468 6520 2253  on files (the "S
+-000001b0: 6f66 7477 6172 6522 292c 2074 6f20 6465  oftware"), to de
+-000001c0: 616c 0a20 2020 2020 2020 2069 6e20 7468  al.        in th
+-000001d0: 6520 536f 6674 7761 7265 2077 6974 686f  e Software witho
+-000001e0: 7574 2072 6573 7472 6963 7469 6f6e 2c20  ut restriction, 
+-000001f0: 696e 636c 7564 696e 6720 7769 7468 6f75  including withou
+-00000200: 7420 6c69 6d69 7461 7469 6f6e 2074 6865  t limitation the
+-00000210: 2072 6967 6874 730a 2020 2020 2020 2020   rights.        
+-00000220: 746f 2075 7365 2c20 636f 7079 2c20 6d6f  to use, copy, mo
+-00000230: 6469 6679 2c20 6d65 7267 652c 2070 7562  dify, merge, pub
+-00000240: 6c69 7368 2c20 6469 7374 7269 6275 7465  lish, distribute
+-00000250: 2c20 7375 626c 6963 656e 7365 2c20 616e  , sublicense, an
+-00000260: 642f 6f72 2073 656c 6c0a 2020 2020 2020  d/or sell.      
+-00000270: 2020 636f 7069 6573 206f 6620 7468 6520    copies of the 
+-00000280: 536f 6674 7761 7265 2c20 616e 6420 746f  Software, and to
+-00000290: 2070 6572 6d69 7420 7065 7273 6f6e 7320   permit persons 
+-000002a0: 746f 2077 686f 6d20 7468 6520 536f 6674  to whom the Soft
+-000002b0: 7761 7265 2069 730a 2020 2020 2020 2020  ware is.        
+-000002c0: 6675 726e 6973 6865 6420 746f 2064 6f20  furnished to do 
+-000002d0: 736f 2c20 7375 626a 6563 7420 746f 2074  so, subject to t
+-000002e0: 6865 2066 6f6c 6c6f 7769 6e67 2063 6f6e  he following con
+-000002f0: 6469 7469 6f6e 733a 0a20 2020 2020 2020  ditions:.       
+-00000300: 200a 2020 2020 2020 2020 5468 6520 6162   .        The ab
+-00000310: 6f76 6520 636f 7079 7269 6768 7420 6e6f  ove copyright no
+-00000320: 7469 6365 2061 6e64 2074 6869 7320 7065  tice and this pe
+-00000330: 726d 6973 7369 6f6e 206e 6f74 6963 6520  rmission notice 
+-00000340: 7368 616c 6c20 6265 2069 6e63 6c75 6465  shall be include
+-00000350: 6420 696e 2061 6c6c 0a20 2020 2020 2020  d in all.       
+-00000360: 2063 6f70 6965 7320 6f72 2073 7562 7374   copies or subst
+-00000370: 616e 7469 616c 2070 6f72 7469 6f6e 7320  antial portions 
+-00000380: 6f66 2074 6865 2053 6f66 7477 6172 652e  of the Software.
+-00000390: 0a20 2020 2020 2020 200a 2020 2020 2020  .        .      
+-000003a0: 2020 5448 4520 534f 4654 5741 5245 2049    THE SOFTWARE I
+-000003b0: 5320 5052 4f56 4944 4544 2022 4153 2049  S PROVIDED "AS I
+-000003c0: 5322 2c20 5749 5448 4f55 5420 5741 5252  S", WITHOUT WARR
+-000003d0: 414e 5459 204f 4620 414e 5920 4b49 4e44  ANTY OF ANY KIND
+-000003e0: 2c20 4558 5052 4553 5320 4f52 0a20 2020  , EXPRESS OR.   
+-000003f0: 2020 2020 2049 4d50 4c49 4544 2c20 494e       IMPLIED, IN
+-00000400: 434c 5544 494e 4720 4255 5420 4e4f 5420  CLUDING BUT NOT 
+-00000410: 4c49 4d49 5445 4420 544f 2054 4845 2057  LIMITED TO THE W
+-00000420: 4152 5241 4e54 4945 5320 4f46 204d 4552  ARRANTIES OF MER
+-00000430: 4348 414e 5441 4249 4c49 5459 2c0a 2020  CHANTABILITY,.  
+-00000440: 2020 2020 2020 4649 544e 4553 5320 464f        FITNESS FO
+-00000450: 5220 4120 5041 5254 4943 554c 4152 2050  R A PARTICULAR P
+-00000460: 5552 504f 5345 2041 4e44 204e 4f4e 494e  URPOSE AND NONIN
+-00000470: 4652 494e 4745 4d45 4e54 2e20 494e 204e  FRINGEMENT. IN N
+-00000480: 4f20 4556 454e 5420 5348 414c 4c20 5448  O EVENT SHALL TH
+-00000490: 450a 2020 2020 2020 2020 4155 5448 4f52  E.        AUTHOR
+-000004a0: 5320 4f52 2043 4f50 5952 4947 4854 2048  S OR COPYRIGHT H
+-000004b0: 4f4c 4445 5253 2042 4520 4c49 4142 4c45  OLDERS BE LIABLE
+-000004c0: 2046 4f52 2041 4e59 2043 4c41 494d 2c20   FOR ANY CLAIM, 
+-000004d0: 4441 4d41 4745 5320 4f52 204f 5448 4552  DAMAGES OR OTHER
+-000004e0: 0a20 2020 2020 2020 204c 4941 4249 4c49  .        LIABILI
+-000004f0: 5459 2c20 5748 4554 4845 5220 494e 2041  TY, WHETHER IN A
+-00000500: 4e20 4143 5449 4f4e 204f 4620 434f 4e54  N ACTION OF CONT
+-00000510: 5241 4354 2c20 544f 5254 204f 5220 4f54  RACT, TORT OR OT
+-00000520: 4845 5257 4953 452c 2041 5249 5349 4e47  HERWISE, ARISING
+-00000530: 2046 524f 4d2c 0a20 2020 2020 2020 204f   FROM,.        O
+-00000540: 5554 204f 4620 4f52 2049 4e20 434f 4e4e  UT OF OR IN CONN
+-00000550: 4543 5449 4f4e 2057 4954 4820 5448 4520  ECTION WITH THE 
+-00000560: 534f 4654 5741 5245 204f 5220 5448 4520  SOFTWARE OR THE 
+-00000570: 5553 4520 4f52 204f 5448 4552 2044 4541  USE OR OTHER DEA
+-00000580: 4c49 4e47 5320 494e 2054 4845 0a20 2020  LINGS IN THE.   
+-00000590: 2020 2020 2053 4f46 5457 4152 452e 0a20       SOFTWARE.. 
+-000005a0: 2020 2020 2020 200a 5072 6f6a 6563 742d         .Project-
+-000005b0: 5552 4c3a 2048 6f6d 6570 6167 652c 2068  URL: Homepage, h
+-000005c0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-000005d0: 6d2f 7370 3372 7461 682f 7469 636b 7465  m/sp3rtah/tickte
+-000005e0: 7269 616c 0a4b 6579 776f 7264 733a 2066  rial.Keywords: f
+-000005f0: 6f72 6578 2c66 6f72 6578 2d64 6174 612c  orex,forex-data,
+-00000600: 7374 7265 616d 696e 672c 666f 7265 7820  streaming,forex 
+-00000610: 0a43 6c61 7373 6966 6965 723a 204c 6963  .Classifier: Lic
+-00000620: 656e 7365 203a 3a20 4f53 4920 4170 7072  ense :: OSI Appr
+-00000630: 6f76 6564 203a 3a20 4d49 5420 4c69 6365  oved :: MIT Lice
+-00000640: 6e73 650a 436c 6173 7369 6669 6572 3a20  nse.Classifier: 
+-00000650: 5072 6f67 7261 6d6d 696e 6720 4c61 6e67  Programming Lang
+-00000660: 7561 6765 203a 3a20 5079 7468 6f6e 0a43  uage :: Python.C
+-00000670: 6c61 7373 6966 6965 723a 2050 726f 6772  lassifier: Progr
+-00000680: 616d 6d69 6e67 204c 616e 6775 6167 6520  amming Language 
+-00000690: 3a3a 2050 7974 686f 6e20 3a3a 2033 0a52  :: Python :: 3.R
+-000006a0: 6571 7569 7265 732d 5079 7468 6f6e 3a20  equires-Python: 
+-000006b0: 3e3d 332e 3130 0a44 6573 6372 6970 7469  >=3.10.Descripti
+-000006c0: 6f6e 2d43 6f6e 7465 6e74 2d54 7970 653a  on-Content-Type:
+-000006d0: 2074 6578 742f 6d61 726b 646f 776e 0a4c   text/markdown.L
+-000006e0: 6963 656e 7365 2d46 696c 653a 204c 4943  icense-File: LIC
+-000006f0: 454e 5345 0a52 6571 7569 7265 732d 4469  ENSE.Requires-Di
+-00000700: 7374 3a20 466c 6173 6b3d 3d32 2e33 2e32  st: Flask==2.3.2
+-00000710: 0a52 6571 7569 7265 732d 4469 7374 3a20  .Requires-Dist: 
+-00000720: 466c 6173 6b2d 5351 4c41 6c63 6865 6d79  Flask-SQLAlchemy
+-00000730: 3d3d 332e 302e 350a 5265 7175 6972 6573  ==3.0.5.Requires
+-00000740: 2d44 6973 743a 206c 6f67 7572 753d 3d30  -Dist: loguru==0
+-00000750: 2e36 2e30 0a52 6571 7569 7265 732d 4469  .6.0.Requires-Di
+-00000760: 7374 3a20 7079 747a 3d3d 3230 3232 2e37  st: pytz==2022.7
+-00000770: 0a52 6571 7569 7265 732d 4469 7374 3a20  .Requires-Dist: 
+-00000780: 7265 7175 6573 7473 3d3d 322e 3331 2e30  requests==2.31.0
+-00000790: 0a50 726f 7669 6465 732d 4578 7472 613a  .Provides-Extra:
+-000007a0: 2064 6576 0a52 6571 7569 7265 732d 4469   dev.Requires-Di
+-000007b0: 7374 3a20 6275 696c 643b 2065 7874 7261  st: build; extra
+-000007c0: 203d 3d20 2264 6576 220a 5265 7175 6972   == "dev".Requir
+-000007d0: 6573 2d44 6973 743a 2074 7769 6e65 3b20  es-Dist: twine; 
+-000007e0: 6578 7472 6120 3d3d 2022 6465 7622 0a0a  extra == "dev"..
+-000007f0: 3c70 2073 7479 6c65 3d22 7465 7874 2d61  <p style="text-a
+-00000800: 6c69 676e 3a20 6365 6e74 6572 3b22 3e0a  lign: center;">.
+-00000810: 093c 696d 6720 7372 633d 2268 7474 7073  .<img src="https
+-00000820: 3a2f 2f72 6177 2e67 6974 6875 6275 7365  ://raw.githubuse
+-00000830: 7263 6f6e 7465 6e74 2e63 6f6d 2f73 7033  rcontent.com/sp3
+-00000840: 7274 6168 2f74 6963 6b74 6572 6961 6c2f  rtah/tickterial/
+-00000850: 6d61 7374 6572 2f74 6963 6b74 6572 6961  master/tickteria
+-00000860: 6c2e 706e 6722 2061 6c74 3d22 636f 7665  l.png" alt="cove
+-00000870: 7222 2074 6974 6c65 3d22 7469 636b 7465  r" title="tickte
+-00000880: 7269 616c 206c 6f67 6f22 2f3e 0a3c 703e  rial logo"/>.<p>
+-00000890: 0a0a 2323 2044 6f77 6e6c 6f61 6420 616e  ..## Download an
+-000008a0: 6420 6361 6368 6520 7469 636b 2064 6174  d cache tick dat
+-000008b0: 6128 6d61 7465 7269 616c 2920 6672 6f6d  a(material) from
+-000008c0: 2044 756b 6173 636f 7079 2042 616e 6b20   Dukascopy Bank 
+-000008d0: 5341 0a54 6869 7320 6973 2061 206c 6f63  SA.This is a loc
+-000008e0: 616c 2041 5049 2073 6572 7665 7220 7468  al API server th
+-000008f0: 6174 2064 6f77 6e6c 6f61 6473 2074 6963  at downloads tic
+-00000900: 6b20 6461 7461 206f 6e20 7265 7175 6573  k data on reques
+-00000910: 7420 616e 6420 6361 6368 6573 2072 6573  t and caches res
+-00000920: 756c 7473 2066 6f72 2073 7562 7365 7175  ults for subsequ
+-00000930: 656e 7420 6361 6c6c 732e 2046 696e 616c  ent calls. Final
+-00000940: 6c79 2c20 6120 6672 6565 2068 6973 746f  ly, a free histo
+-00000950: 7269 6361 6c20 6461 7461 2063 6f6c 6c65  rical data colle
+-00000960: 6374 696f 6e20 666f 7220 6261 636b 7465  ction for backte
+-00000970: 7374 696e 6720 796f 7572 2066 6f72 6578  sting your forex
+-00000980: 2074 7261 6469 6e67 2061 6c67 6f72 6974   trading algorit
+-00000990: 686d 7321 0a41 6c6c 2069 6e73 7472 756d  hms!.All instrum
+-000009a0: 656e 7473 206f 6e20 5b74 6869 7320 7061  ents on [this pa
+-000009b0: 6765 5d28 6874 7470 733a 2f2f 7777 772e  ge](https://www.
+-000009c0: 6475 6b61 7363 6f70 792e 636f 6d2f 7377  dukascopy.com/sw
+-000009d0: 6973 732f 656e 676c 6973 682f 6d61 726b  iss/english/mark
+-000009e0: 6574 7761 7463 682f 6869 7374 6f72 6963  etwatch/historic
+-000009f0: 616c 2f29 2061 7265 2073 7570 706f 7274  al/) are support
+-00000a00: 6564 2120 2842 7574 206f 6e6c 7920 6063  ed! (But only `c
+-00000a10: 7572 7265 6e63 7920 7061 6972 7360 2061  urrency pairs` a
+-00000a20: 7265 2074 6573 7465 6420 6261 7365 6420  re tested based 
+-00000a30: 6f6e 206d 7920 7573 6520 6361 7365 2e29  on my use case.)
+-00000a40: 2e20 203c 6120 6872 6566 3d22 6d61 696c  .  <a href="mail
+-00000a50: 746f 3a6e 6761 6972 6131 346e 656c 736f  to:ngaira14nelso
+-00000a60: 6e40 676d 6169 6c2e 636f 6d22 3e45 6d61  n@gmail.com">Ema
+-00000a70: 696c 206d 653c 2f61 3e20 666f 7220 7370  il me</a> for sp
+-00000a80: 6563 6961 6c20 7265 7175 6573 7473 2e0a  ecial requests..
+-00000a90: 0a23 2320 496e 7374 616c 6c61 7469 6f6e  .## Installation
+-00000aa0: 203a 3a50 7974 686f 6e33 0a60 6060 7069   ::Python3.```pi
+-00000ab0: 7020 696e 7374 616c 6c20 7469 636b 7465  p install tickte
+-00000ac0: 7269 616c 6060 600a 0a23 2320 5573 6167  rial```..## Usag
+-00000ad0: 650a 5468 6973 206d 6f64 756c 6520 6361  e.This module ca
+-00000ae0: 6e20 6265 2075 7365 6420 696e 2074 776f  n be used in two
+-00000af0: 206d 6f64 6573 2e20 4173 2061 6e20 4150   modes. As an AP
+-00000b00: 4920 7365 7276 6572 2075 7369 6e67 2061  I server using a
+-00000b10: 2060 666c 6173 6b60 2062 6163 6b65 6e64   `flask` backend
+-00000b20: 2c20 616e 6420 6173 2061 206d 6f64 756c  , and as a modul
+-00000b30: 652e 0a0a 2323 2060 4d6f 6475 6c65 2075  e...## `Module u
+-00000b40: 7361 6765 600a 6060 6070 7974 686f 6e0a  sage`.```python.
+-00000b50: 6672 6f6d 2064 6174 6574 696d 6520 696d  from datetime im
+-00000b60: 706f 7274 2064 6174 6574 696d 652c 2074  port datetime, t
+-00000b70: 696d 6564 656c 7461 0a66 726f 6d20 7469  imedelta.from ti
+-00000b80: 636b 7465 7269 616c 2069 6d70 6f72 7420  ckterial import 
+-00000b90: 7469 636b 6c6f 6164 6572 0a0a 6465 6620  tickloader..def 
+-00000ba0: 646f 776e 6c6f 6164 2829 3a0a 0970 6572  download():..per
+-00000bb0: 696f 6420 3d20 6461 7465 7469 6d65 2e6e  iod = datetime.n
+-00000bc0: 6f77 2829 202d 2074 696d 6564 656c 7461  ow() - timedelta
+-00000bd0: 286d 696e 7574 6573 3d36 3029 2023 2070  (minutes=60) # p
+-00000be0: 7265 7669 6f75 7320 686f 7572 0a09 6461  revious hour..da
+-00000bf0: 7461 203d 2074 6963 6b6c 6f61 6465 722e  ta = tickloader.
+-00000c00: 646f 776e 6c6f 6164 2827 4742 5055 5344  download('GBPUSD
+-00000c10: 272c 2070 6572 696f 6429 0a09 230a 0963  ', period)..#..c
+-00000c20: 6f75 6e74 203d 2034 0a09 666f 7220 696e  ount = 4..for in
+-00000c30: 6465 782c 2074 6963 6b20 696e 2065 6e75  dex, tick in enu
+-00000c40: 6d65 7261 7465 2864 6174 6129 3a0a 0909  merate(data):...
+-00000c50: 7072 696e 7428 7469 636b 290a 0909 230a  print(tick)...#.
+-00000c60: 0909 636f 756e 7420 2d3d 2031 0a09 0969  ..count -= 1...i
+-00000c70: 6620 6e6f 7420 636f 756e 743a 0a09 0909  f not count:....
+-00000c80: 7072 696e 7428 6627 2d2d 7368 6f77 696e  print(f'--showin
+-00000c90: 6720 6669 7273 7420 7b69 6e64 6578 202b  g first {index +
+-00000ca0: 2031 7d20 7469 636b 732d 2d27 290a 0909   1} ticks--')...
+-00000cb0: 0962 7265 616b 0a0a 646f 776e 6c6f 6164  .break..download
+-00000cc0: 2829 0a70 7269 6e74 2827 2d2d 656e 642d  ().print('--end-
+-00000cd0: 2d27 290a 6060 600a 0a23 2320 6053 616d  -').```..## `Sam
+-00000ce0: 706c 6520 6f75 7470 7574 2066 726f 6d20  ple output from 
+-00000cf0: 4742 5055 5344 600a 607b 2774 696d 6573  GBPUSD`.`{'times
+-00000d00: 7461 6d70 273a 2031 3638 3936 3331 3139  tamp': 168963119
+-00000d10: 362e 3837 352c 2027 6173 6b27 3a20 312e  6.875, 'ask': 1.
+-00000d20: 3330 3738 382c 2027 6269 6427 3a20 312e  30788, 'bid': 1.
+-00000d30: 3330 3737 382c 2027 6173 6b2d 766f 6c27  30778, 'ask-vol'
+-00000d40: 3a20 3930 3030 3030 2c20 2762 6964 2d76  : 900000, 'bid-v
+-00000d50: 6f6c 273a 2039 3030 3030 307d 600a 0a0a  ol': 900000}`...
+-00000d60: 2323 2060 4150 492d 6d6f 6465 2075 7361  ## `API-mode usa
+-00000d70: 6765 600a 6043 6f6d 696e 6720 736f 6f6e  ge`.`Coming soon
+-00000d80: 2e2e 2e60 0a0a 2323 2054 4f44 4f0a 2d20  ...`..## TODO.- 
+-00000d90: 496e 7465 726e 616c 6c79 2063 6f6e 7665  Internally conve
+-00000da0: 7274 2070 7269 6365 7320 746f 2066 6c6f  rt prices to flo
+-00000db0: 6174 2009 0909 0909 0909 0909 0909 0909  at .............
+-00000dc0: 0909 0909 2d20 444f 4e45 0a2d 2041 6464  ....- DONE.- Add
+-00000dd0: 2064 6174 6162 6173 6520 6361 6368 696e   database cachin
+-00000de0: 6720 666f 7220 6c61 7267 6520 6f66 666c  g for large offl
+-00000df0: 696e 6520 6869 7374 6f72 6965 730a 2d20  ine histories.- 
+-00000e00: 4164 6420 4150 4920 6675 6e63 7469 6f6e  Add API function
+-00000e10: 616c 6974 7920 666f 7220 7573 6520 6173  ality for use as
+-00000e20: 2061 206c 6f63 616c 2074 6370 2073 7472   a local tcp str
+-00000e30: 6561 6d69 6e67 2073 6572 7669 6365 0a2d  eaming service.-
+-00000e40: 2043 6f6e 7461 696e 6572 697a 6520 7468   Containerize th
+-00000e50: 6520 4150 4920 7468 726f 7567 6820 646f  e API through do
+-00000e60: 636b 6572 2066 6f72 2065 6173 6520 6f66  cker for ease of
+-00000e70: 2075 7365 0a2d 2053 7469 636b 2061 726f   use.- Stick aro
+-00000e80: 756e 642e 2054 6865 7265 2773 206d 6f72  und. There's mor
+-00000e90: 6520 636f 6d69 6e67 210a 0a23 2320 4e6f  e coming!..## No
+-00000ea0: 7465 730a 2d20 4361 6368 6520 6973 2073  tes.- Cache is s
+-00000eb0: 746f 7265 2069 6e20 5554 432e 2050 6173  tore in UTC. Pas
+-00000ec0: 7320 796f 7572 2055 5443 2074 696d 6520  s your UTC time 
+-00000ed0: 6469 6666 6572 656e 6365 2061 7320 6c61  difference as la
+-00000ee0: 7374 2070 6172 616d 6574 6572 2074 6f20  st parameter to 
+-00000ef0: 6074 6963 6b6c 6f61 6465 722e 646f 776e  `tickloader.down
+-00000f00: 6c6f 6164 6020 746f 2066 6978 206c 6f63  load` to fix loc
+-00000f10: 616c 2074 696d 6520 6f66 6673 6574 2e0a  al time offset..
+-00000f20: 2d20 5469 636b 2064 6174 6120 6361 6e20  - Tick data can 
+-00000f30: 6f6e 6c79 2062 6520 6665 7463 6820 746f  only be fetch to
+-00000f40: 2074 6865 2070 7265 7669 6f75 7320 686f   the previous ho
+-00000f50: 7572 2e20 4375 7272 656e 7420 686f 7572  ur. Current hour
+-00000f60: 2072 6574 7572 6e73 2034 3034 2e20 5468   returns 404. Th
+-00000f70: 6973 2069 7320 6861 6e64 6c65 6420 696e  is is handled in
+-00000f80: 7465 726e 616c 6c79 2074 686f 7567 680a  ternally though.
+-00000f90: 2d20 4361 6368 6520 6973 2073 746f 7265  - Cache is store
+-00000fa0: 6420 696e 2063 7572 7265 6e74 2077 6f72  d in current wor
+-00000fb0: 6b69 6e67 2064 6972 6563 746f 7279 2c20  king directory, 
+-00000fc0: 7061 7468 203d 2060 2e74 6963 6b2d 6461  path = `.tick-da
+-00000fd0: 7461 602e 204d 6f76 6520 7468 6973 2064  ta`. Move this d
+-00000fe0: 6972 6563 746f 7279 2077 6865 6e20 6d69  irectory when mi
+-00000ff0: 6772 6174 696e 6720 796f 7572 2073 6572  grating your ser
+-00001000: 7665 7220 746f 2073 6176 6520 6261 6e64  ver to save band
+-00001010: 7769 6474 6820 616e 6420 6b65 6570 2079  width and keep y
+-00001020: 6f75 7220 6361 6368 6564 2064 6174 612c  our cached data,
+-00001030: 206f 7220 6d6f 756e 7420 6120 6c6f 6361   or mount a loca
+-00001040: 6c20 6469 7265 6374 6f72 7920 7768 656e  l directory when
+-00001050: 2075 7369 6e67 2064 6f63 6b65 7220 766f   using docker vo
+-00001060: 6c75 6d65 732e 0a0a 2323 2060 506c 6561  lumes...## `Plea
+-00001070: 7365 2064 6f6e 6174 6520 746f 206b 6565  se donate to kee
+-00001080: 7020 6465 7665 6c6f 706d 656e 7420 676f  p development go
+-00001090: 696e 6760 0a2d 204d 7920 5075 626c 6963  ing`.- My Public
+-000010a0: 2041 6464 7265 7373 2074 6f20 5265 6365   Address to Rece
+-000010b0: 6976 6520 4254 433a 2060 6263 3171 6738  ive BTC: `bc1qg8
+-000010c0: 7471 6130 617a 6c37 656c 3338 7774 6466  tqa0azl7el38wtdf
+-000010d0: 6177 786e 6a32 7466 7a34 3661 6a74 6a6e  awxnj2tfz46ajtjn
+-000010e0: 7636 3835 600a 2d20 5669 6120 5b54 7275  v685`.- Via [Tru
+-000010f0: 7374 2057 616c 6c65 745d 2868 7474 7073  st Wallet](https
+-00001100: 3a2f 2f6c 696e 6b2e 7472 7573 7477 616c  ://link.trustwal
+-00001110: 6c65 742e 636f 6d2f 7365 6e64 3f63 6f69  let.com/send?coi
+-00001120: 6e3d 3026 6164 6472 6573 733d 6263 3171  n=0&address=bc1q
+-00001130: 6738 7471 6130 617a 6c37 656c 3338 7774  g8tqa0azl7el38wt
+-00001140: 6466 6177 786e 6a32 7466 7a34 3661 6a74  dfawxnj2tfz46ajt
+-00001150: 6a6e 7636 3835 290a                      jnv685).
++00000010: 3a20 322e 310d 0a4e 616d 653a 2074 6963  : 2.1..Name: tic
++00000020: 6b74 6572 6961 6c0d 0a56 6572 7369 6f6e  kterial..Version
++00000030: 3a20 312e 312e 300d 0a53 756d 6d61 7279  : 1.1.0..Summary
++00000040: 3a20 446f 776e 6c6f 6164 2074 6963 6b20  : Download tick 
++00000050: 6461 7461 2066 726f 6d20 4475 6b61 7363  data from Dukasc
++00000060: 6f70 7920 4261 6e6b 2053 4120 746f 206c  opy Bank SA to l
++00000070: 6f63 616c 2063 6163 6865 2077 6974 6820  ocal cache with 
++00000080: 6375 7374 6f6d 2073 696d 756c 6174 6564  custom simulated
++00000090: 2070 7269 6365 2073 7472 6561 6d73 210d   price streams!.
++000000a0: 0a41 7574 686f 722d 656d 6169 6c3a 2064  .Author-email: d
++000000b0: 7275 6939 203c 6e67 6169 7261 3134 6e65  rui9 <ngaira14ne
++000000c0: 6c73 6f6e 4067 6d61 696c 2e63 6f6d 3e0d  lson@gmail.com>.
++000000d0: 0a4c 6963 656e 7365 3a20 4d49 5420 4c69  .License: MIT Li
++000000e0: 6365 6e73 650d 0a20 2020 2020 2020 200d  cense..        .
++000000f0: 0a20 2020 2020 2020 2043 6f70 7972 6967  .        Copyrig
++00000100: 6874 2028 6329 2032 3032 3420 6472 7569  ht (c) 2024 drui
++00000110: 390d 0a20 2020 2020 2020 200d 0a20 2020  9..        ..   
++00000120: 2020 2020 2050 6572 6d69 7373 696f 6e20       Permission 
++00000130: 6973 2068 6572 6562 7920 6772 616e 7465  is hereby grante
++00000140: 642c 2066 7265 6520 6f66 2063 6861 7267  d, free of charg
++00000150: 652c 2074 6f20 616e 7920 7065 7273 6f6e  e, to any person
++00000160: 206f 6274 6169 6e69 6e67 2061 2063 6f70   obtaining a cop
++00000170: 790d 0a20 2020 2020 2020 206f 6620 7468  y..        of th
++00000180: 6973 2073 6f66 7477 6172 6520 616e 6420  is software and 
++00000190: 6173 736f 6369 6174 6564 2064 6f63 756d  associated docum
++000001a0: 656e 7461 7469 6f6e 2066 696c 6573 2028  entation files (
++000001b0: 7468 6520 2253 6f66 7477 6172 6522 292c  the "Software"),
++000001c0: 2074 6f20 6465 616c 0d0a 2020 2020 2020   to deal..      
++000001d0: 2020 696e 2074 6865 2053 6f66 7477 6172    in the Softwar
++000001e0: 6520 7769 7468 6f75 7420 7265 7374 7269  e without restri
++000001f0: 6374 696f 6e2c 2069 6e63 6c75 6469 6e67  ction, including
++00000200: 2077 6974 686f 7574 206c 696d 6974 6174   without limitat
++00000210: 696f 6e20 7468 6520 7269 6768 7473 0d0a  ion the rights..
++00000220: 2020 2020 2020 2020 746f 2075 7365 2c20          to use, 
++00000230: 636f 7079 2c20 6d6f 6469 6679 2c20 6d65  copy, modify, me
++00000240: 7267 652c 2070 7562 6c69 7368 2c20 6469  rge, publish, di
++00000250: 7374 7269 6275 7465 2c20 7375 626c 6963  stribute, sublic
++00000260: 656e 7365 2c20 616e 642f 6f72 2073 656c  ense, and/or sel
++00000270: 6c0d 0a20 2020 2020 2020 2063 6f70 6965  l..        copie
++00000280: 7320 6f66 2074 6865 2053 6f66 7477 6172  s of the Softwar
++00000290: 652c 2061 6e64 2074 6f20 7065 726d 6974  e, and to permit
++000002a0: 2070 6572 736f 6e73 2074 6f20 7768 6f6d   persons to whom
++000002b0: 2074 6865 2053 6f66 7477 6172 6520 6973   the Software is
++000002c0: 0d0a 2020 2020 2020 2020 6675 726e 6973  ..        furnis
++000002d0: 6865 6420 746f 2064 6f20 736f 2c20 7375  hed to do so, su
++000002e0: 626a 6563 7420 746f 2074 6865 2066 6f6c  bject to the fol
++000002f0: 6c6f 7769 6e67 2063 6f6e 6469 7469 6f6e  lowing condition
++00000300: 733a 0d0a 2020 2020 2020 2020 0d0a 2020  s:..        ..  
++00000310: 2020 2020 2020 5468 6520 6162 6f76 6520        The above 
++00000320: 636f 7079 7269 6768 7420 6e6f 7469 6365  copyright notice
++00000330: 2061 6e64 2074 6869 7320 7065 726d 6973   and this permis
++00000340: 7369 6f6e 206e 6f74 6963 6520 7368 616c  sion notice shal
++00000350: 6c20 6265 2069 6e63 6c75 6465 6420 696e  l be included in
++00000360: 2061 6c6c 0d0a 2020 2020 2020 2020 636f   all..        co
++00000370: 7069 6573 206f 7220 7375 6273 7461 6e74  pies or substant
++00000380: 6961 6c20 706f 7274 696f 6e73 206f 6620  ial portions of 
++00000390: 7468 6520 536f 6674 7761 7265 2e0d 0a20  the Software... 
++000003a0: 2020 2020 2020 200d 0a20 2020 2020 2020         ..       
++000003b0: 2054 4845 2053 4f46 5457 4152 4520 4953   THE SOFTWARE IS
++000003c0: 2050 524f 5649 4445 4420 2241 5320 4953   PROVIDED "AS IS
++000003d0: 222c 2057 4954 484f 5554 2057 4152 5241  ", WITHOUT WARRA
++000003e0: 4e54 5920 4f46 2041 4e59 204b 494e 442c  NTY OF ANY KIND,
++000003f0: 2045 5850 5245 5353 204f 520d 0a20 2020   EXPRESS OR..   
++00000400: 2020 2020 2049 4d50 4c49 4544 2c20 494e       IMPLIED, IN
++00000410: 434c 5544 494e 4720 4255 5420 4e4f 5420  CLUDING BUT NOT 
++00000420: 4c49 4d49 5445 4420 544f 2054 4845 2057  LIMITED TO THE W
++00000430: 4152 5241 4e54 4945 5320 4f46 204d 4552  ARRANTIES OF MER
++00000440: 4348 414e 5441 4249 4c49 5459 2c0d 0a20  CHANTABILITY,.. 
++00000450: 2020 2020 2020 2046 4954 4e45 5353 2046         FITNESS F
++00000460: 4f52 2041 2050 4152 5449 4355 4c41 5220  OR A PARTICULAR 
++00000470: 5055 5250 4f53 4520 414e 4420 4e4f 4e49  PURPOSE AND NONI
++00000480: 4e46 5249 4e47 454d 454e 542e 2049 4e20  NFRINGEMENT. IN 
++00000490: 4e4f 2045 5645 4e54 2053 4841 4c4c 2054  NO EVENT SHALL T
++000004a0: 4845 0d0a 2020 2020 2020 2020 4155 5448  HE..        AUTH
++000004b0: 4f52 5320 4f52 2043 4f50 5952 4947 4854  ORS OR COPYRIGHT
++000004c0: 2048 4f4c 4445 5253 2042 4520 4c49 4142   HOLDERS BE LIAB
++000004d0: 4c45 2046 4f52 2041 4e59 2043 4c41 494d  LE FOR ANY CLAIM
++000004e0: 2c20 4441 4d41 4745 5320 4f52 204f 5448  , DAMAGES OR OTH
++000004f0: 4552 0d0a 2020 2020 2020 2020 4c49 4142  ER..        LIAB
++00000500: 494c 4954 592c 2057 4845 5448 4552 2049  ILITY, WHETHER I
++00000510: 4e20 414e 2041 4354 494f 4e20 4f46 2043  N AN ACTION OF C
++00000520: 4f4e 5452 4143 542c 2054 4f52 5420 4f52  ONTRACT, TORT OR
++00000530: 204f 5448 4552 5749 5345 2c20 4152 4953   OTHERWISE, ARIS
++00000540: 494e 4720 4652 4f4d 2c0d 0a20 2020 2020  ING FROM,..     
++00000550: 2020 204f 5554 204f 4620 4f52 2049 4e20     OUT OF OR IN 
++00000560: 434f 4e4e 4543 5449 4f4e 2057 4954 4820  CONNECTION WITH 
++00000570: 5448 4520 534f 4654 5741 5245 204f 5220  THE SOFTWARE OR 
++00000580: 5448 4520 5553 4520 4f52 204f 5448 4552  THE USE OR OTHER
++00000590: 2044 4541 4c49 4e47 5320 494e 2054 4845   DEALINGS IN THE
++000005a0: 0d0a 2020 2020 2020 2020 534f 4654 5741  ..        SOFTWA
++000005b0: 5245 2e0d 0a20 2020 2020 2020 200d 0a50  RE...        ..P
++000005c0: 726f 6a65 6374 2d55 524c 3a20 486f 6d65  roject-URL: Home
++000005d0: 7061 6765 2c20 6874 7470 733a 2f2f 6769  page, https://gi
++000005e0: 7468 7562 2e63 6f6d 2f64 7275 6939 2f74  thub.com/drui9/t
++000005f0: 6963 6b74 6572 6961 6c0d 0a4b 6579 776f  ickterial..Keywo
++00000600: 7264 733a 2066 6f72 6578 2c66 6f72 6578  rds: forex,forex
++00000610: 2d64 6174 612c 7374 7265 616d 696e 672c  -data,streaming,
++00000620: 666f 7265 7820 0d0a 436c 6173 7369 6669  forex ..Classifi
++00000630: 6572 3a20 4c69 6365 6e73 6520 3a3a 204f  er: License :: O
++00000640: 5349 2041 7070 726f 7665 6420 3a3a 204d  SI Approved :: M
++00000650: 4954 204c 6963 656e 7365 0d0a 436c 6173  IT License..Clas
++00000660: 7369 6669 6572 3a20 5072 6f67 7261 6d6d  sifier: Programm
++00000670: 696e 6720 4c61 6e67 7561 6765 203a 3a20  ing Language :: 
++00000680: 5079 7468 6f6e 0d0a 436c 6173 7369 6669  Python..Classifi
++00000690: 6572 3a20 5072 6f67 7261 6d6d 696e 6720  er: Programming 
++000006a0: 4c61 6e67 7561 6765 203a 3a20 5079 7468  Language :: Pyth
++000006b0: 6f6e 203a 3a20 330d 0a52 6571 7569 7265  on :: 3..Require
++000006c0: 732d 5079 7468 6f6e 3a20 3e3d 332e 3130  s-Python: >=3.10
++000006d0: 0d0a 4465 7363 7269 7074 696f 6e2d 436f  ..Description-Co
++000006e0: 6e74 656e 742d 5479 7065 3a20 7465 7874  ntent-Type: text
++000006f0: 2f6d 6172 6b64 6f77 6e0d 0a4c 6963 656e  /markdown..Licen
++00000700: 7365 2d46 696c 653a 204c 4943 454e 5345  se-File: LICENSE
++00000710: 0d0a 5265 7175 6972 6573 2d44 6973 743a  ..Requires-Dist:
++00000720: 206c 6f67 7572 753d 3d30 2e36 2e30 0d0a   loguru==0.6.0..
++00000730: 5265 7175 6972 6573 2d44 6973 743a 2070  Requires-Dist: p
++00000740: 7974 7a3d 3d32 3032 322e 370d 0a52 6571  ytz==2022.7..Req
++00000750: 7569 7265 732d 4469 7374 3a20 7265 7175  uires-Dist: requ
++00000760: 6573 7473 3d3d 322e 3331 2e30 0d0a 5072  ests==2.31.0..Pr
++00000770: 6f76 6964 6573 2d45 7874 7261 3a20 6465  ovides-Extra: de
++00000780: 760d 0a52 6571 7569 7265 732d 4469 7374  v..Requires-Dist
++00000790: 3a20 6275 696c 643b 2065 7874 7261 203d  : build; extra =
++000007a0: 3d20 2264 6576 220d 0a52 6571 7569 7265  = "dev"..Require
++000007b0: 732d 4469 7374 3a20 7477 696e 653b 2065  s-Dist: twine; e
++000007c0: 7874 7261 203d 3d20 2264 6576 220d 0a0d  xtra == "dev"...
++000007d0: 0a3c 7020 7374 796c 653d 2274 6578 742d  .<p style="text-
++000007e0: 616c 6967 6e3a 2063 656e 7465 723b 223e  align: center;">
++000007f0: 0d0a 093c 696d 6720 7372 633d 2268 7474  ...<img src="htt
++00000800: 7073 3a2f 2f72 6177 2e67 6974 6875 6275  ps://raw.githubu
++00000810: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f73  sercontent.com/s
++00000820: 7033 7274 6168 2f74 6963 6b74 6572 6961  p3rtah/tickteria
++00000830: 6c2f 6d61 7374 6572 2f74 6963 6b74 6572  l/master/tickter
++00000840: 6961 6c2e 706e 6722 2061 6c74 3d22 636f  ial.png" alt="co
++00000850: 7665 7222 2074 6974 6c65 3d22 7469 636b  ver" title="tick
++00000860: 7465 7269 616c 206c 6f67 6f22 2f3e 0d0a  terial logo"/>..
++00000870: 3c70 3e0d 0a0d 0a23 2320 446f 776e 6c6f  <p>....## Downlo
++00000880: 6164 2061 6e64 2063 6163 6865 2074 6963  ad and cache tic
++00000890: 6b20 6461 7461 286d 6174 6572 6961 6c29  k data(material)
++000008a0: 2066 726f 6d20 4475 6b61 7363 6f70 7920   from Dukascopy 
++000008b0: 4261 6e6b 2053 410d 0a54 6869 7320 6973  Bank SA..This is
++000008c0: 2061 206c 6f63 616c 2041 5049 2073 6572   a local API ser
++000008d0: 7665 7220 7468 6174 2064 6f77 6e6c 6f61  ver that downloa
++000008e0: 6473 2074 6963 6b20 6461 7461 206f 6e20  ds tick data on 
++000008f0: 7265 7175 6573 7420 616e 6420 6361 6368  request and cach
++00000900: 6573 2072 6573 756c 7473 2066 6f72 2073  es results for s
++00000910: 7562 7365 7175 656e 7420 6361 6c6c 732e  ubsequent calls.
++00000920: 2046 696e 616c 6c79 2c20 6120 6672 6565   Finally, a free
++00000930: 2068 6973 746f 7269 6361 6c20 6461 7461   historical data
++00000940: 2063 6f6c 6c65 6374 696f 6e20 666f 7220   collection for 
++00000950: 6261 636b 7465 7374 696e 6720 796f 7572  backtesting your
++00000960: 2066 6f72 6578 2074 7261 6469 6e67 2061   forex trading a
++00000970: 6c67 6f72 6974 686d 7321 0d0a 416c 6c20  lgorithms!..All 
++00000980: 696e 7374 7275 6d65 6e74 7320 6f6e 205b  instruments on [
++00000990: 7468 6973 2070 6167 655d 2868 7474 7073  this page](https
++000009a0: 3a2f 2f77 7777 2e64 756b 6173 636f 7079  ://www.dukascopy
++000009b0: 2e63 6f6d 2f73 7769 7373 2f65 6e67 6c69  .com/swiss/engli
++000009c0: 7368 2f6d 6172 6b65 7477 6174 6368 2f68  sh/marketwatch/h
++000009d0: 6973 746f 7269 6361 6c2f 2920 6172 6520  istorical/) are 
++000009e0: 7375 7070 6f72 7465 6421 2028 4275 7420  supported! (But 
++000009f0: 6f6e 6c79 2060 6375 7272 656e 6379 2070  only `currency p
++00000a00: 6169 7273 6020 6172 6520 7465 7374 6564  airs` are tested
++00000a10: 2062 6173 6564 206f 6e20 6d79 2075 7365   based on my use
++00000a20: 2063 6173 652e 292e 2020 3c61 2068 7265   case.).  <a hre
++00000a30: 663d 226d 6169 6c74 6f3a 6e67 6169 7261  f="mailto:ngaira
++00000a40: 3134 6e65 6c73 6f6e 4067 6d61 696c 2e63  14nelson@gmail.c
++00000a50: 6f6d 223e 456d 6169 6c20 6d65 3c2f 613e  om">Email me</a>
++00000a60: 2066 6f72 2073 7065 6369 616c 2072 6571   for special req
++00000a70: 7565 7374 732e 0d0a 0d0a 2323 2049 6e73  uests.....## Ins
++00000a80: 7461 6c6c 6174 696f 6e20 3a3a 5079 7468  tallation ::Pyth
++00000a90: 6f6e 330d 0a60 6060 7069 7020 696e 7374  on3..```pip inst
++00000aa0: 616c 6c20 7469 636b 7465 7269 616c 6060  all tickterial``
++00000ab0: 600d 0a0d 0a23 2320 5573 6167 650d 0a54  `....## Usage..T
++00000ac0: 6869 7320 6d6f 6475 6c65 2063 616e 2062  his module can b
++00000ad0: 6520 7573 6564 2069 6e20 7477 6f20 6d6f  e used in two mo
++00000ae0: 6465 732e 2041 7320 616e 2041 5049 2073  des. As an API s
++00000af0: 6572 7665 7220 7573 696e 6720 6120 6066  erver using a `f
++00000b00: 6c61 736b 6020 6261 636b 656e 642c 2061  lask` backend, a
++00000b10: 6e64 2061 7320 6120 6d6f 6475 6c65 2e0d  nd as a module..
++00000b20: 0a0d 0a23 2320 604d 6f64 756c 6520 7573  ...## `Module us
++00000b30: 6167 6560 0d0a 6060 6070 7974 686f 6e0d  age`..```python.
++00000b40: 0a66 726f 6d20 6461 7465 7469 6d65 2069  .from datetime i
++00000b50: 6d70 6f72 7420 6461 7465 7469 6d65 2c20  mport datetime, 
++00000b60: 7469 6d65 6465 6c74 610d 0a66 726f 6d20  timedelta..from 
++00000b70: 7469 636b 7465 7269 616c 2069 6d70 6f72  tickterial impor
++00000b80: 7420 7469 636b 6c6f 6164 6572 0d0a 0d0a  t tickloader....
++00000b90: 6465 6620 646f 776e 6c6f 6164 2829 3a0d  def download():.
++00000ba0: 0a09 7065 7269 6f64 203d 2064 6174 6574  ..period = datet
++00000bb0: 696d 652e 6e6f 7728 2920 2d20 7469 6d65  ime.now() - time
++00000bc0: 6465 6c74 6128 6d69 6e75 7465 733d 3630  delta(minutes=60
++00000bd0: 2920 2320 7072 6576 696f 7573 2068 6f75  ) # previous hou
++00000be0: 720d 0a09 6461 7461 203d 2074 6963 6b6c  r...data = tickl
++00000bf0: 6f61 6465 722e 646f 776e 6c6f 6164 2827  oader.download('
++00000c00: 4742 5055 5344 272c 2070 6572 696f 6429  GBPUSD', period)
++00000c10: 0d0a 0923 0d0a 0963 6f75 6e74 203d 2034  ...#...count = 4
++00000c20: 0d0a 0966 6f72 2069 6e64 6578 2c20 7469  ...for index, ti
++00000c30: 636b 2069 6e20 656e 756d 6572 6174 6528  ck in enumerate(
++00000c40: 6461 7461 293a 0d0a 0909 7072 696e 7428  data):....print(
++00000c50: 7469 636b 290d 0a09 0923 0d0a 0909 636f  tick)....#....co
++00000c60: 756e 7420 2d3d 2031 0d0a 0909 6966 206e  unt -= 1....if n
++00000c70: 6f74 2063 6f75 6e74 3a0d 0a09 0909 7072  ot count:.....pr
++00000c80: 696e 7428 6627 2d2d 7368 6f77 696e 6720  int(f'--showing 
++00000c90: 6669 7273 7420 7b69 6e64 6578 202b 2031  first {index + 1
++00000ca0: 7d20 7469 636b 732d 2d27 290d 0a09 0909  } ticks--').....
++00000cb0: 6272 6561 6b0d 0a0d 0a64 6f77 6e6c 6f61  break....downloa
++00000cc0: 6428 290d 0a70 7269 6e74 2827 2d2d 656e  d()..print('--en
++00000cd0: 642d 2d27 290d 0a60 6060 0d0a 0d0a 2323  d--')..```....##
++00000ce0: 2060 5361 6d70 6c65 206f 7574 7075 7420   `Sample output 
++00000cf0: 6672 6f6d 2047 4250 5553 4460 0d0a 607b  from GBPUSD`..`{
++00000d00: 2774 696d 6573 7461 6d70 273a 2031 3638  'timestamp': 168
++00000d10: 3936 3331 3139 362e 3837 352c 2027 6173  9631196.875, 'as
++00000d20: 6b27 3a20 312e 3330 3738 382c 2027 6269  k': 1.30788, 'bi
++00000d30: 6427 3a20 312e 3330 3737 382c 2027 6173  d': 1.30778, 'as
++00000d40: 6b2d 766f 6c27 3a20 3930 3030 3030 2c20  k-vol': 900000, 
++00000d50: 2762 6964 2d76 6f6c 273a 2039 3030 3030  'bid-vol': 90000
++00000d60: 307d 600d 0a0d 0a0d 0a23 2320 6041 5049  0}`......## `API
++00000d70: 2d6d 6f64 6520 7573 6167 6560 0d0a 6043  -mode usage`..`C
++00000d80: 6f6d 696e 6720 736f 6f6e 2e2e 2e60 0d0a  oming soon...`..
++00000d90: 0d0a 2323 2054 4f44 4f0d 0a2d 2049 6e74  ..## TODO..- Int
++00000da0: 6572 6e61 6c6c 7920 636f 6e76 6572 7420  ernally convert 
++00000db0: 7072 6963 6573 2074 6f20 666c 6f61 7409  prices to float.
++00000dc0: 2d20 444f 4e45 0d0a 2d20 4164 6420 6461  - DONE..- Add da
++00000dd0: 7461 6261 7365 2063 6163 6869 6e67 2066  tabase caching f
++00000de0: 6f72 206c 6172 6765 206f 6666 6c69 6e65  or large offline
++00000df0: 2068 6973 746f 7269 6573 202d 2044 4550   histories - DEP
++00000e00: 5245 4341 5445 440d 0a2d 2041 6464 2041  RECATED..- Add A
++00000e10: 5049 2066 756e 6374 696f 6e61 6c69 7479  PI functionality
++00000e20: 2066 6f72 2075 7365 2061 7320 6120 6c6f   for use as a lo
++00000e30: 6361 6c20 7463 7020 7374 7265 616d 696e  cal tcp streamin
++00000e40: 6720 7365 7276 6963 6520 2d20 4849 4748  g service - HIGH
++00000e50: 4552 204c 4556 454c 2046 4541 5455 5245  ER LEVEL FEATURE
++00000e60: 0d0a 2d20 4164 6420 636f 6e73 6f6c 6520  ..- Add console 
++00000e70: 6675 6e63 7469 6f6e 616c 6974 792c 2073  functionality, s
++00000e80: 6176 696e 6720 6869 7374 6f72 7920 6669  aving history fi
++00000e90: 6c65 7320 696e 206d 756c 7469 706c 6520  les in multiple 
++00000ea0: 666f 726d 6174 7320 696e 636c 7564 696e  formats includin
++00000eb0: 6720 6a73 6f6e 2061 6e64 2063 7376 2e0d  g json and csv..
++00000ec0: 0a0d 0a23 2320 4e6f 7465 730d 0a2d 2043  ...## Notes..- C
++00000ed0: 6163 6865 2069 7320 7374 6f72 6520 696e  ache is store in
++00000ee0: 2055 5443 2e20 5061 7373 2079 6f75 7220   UTC. Pass your 
++00000ef0: 5554 4320 7469 6d65 2064 6966 6665 7265  UTC time differe
++00000f00: 6e63 6520 6173 206c 6173 7420 7061 7261  nce as last para
++00000f10: 6d65 7465 7220 746f 2060 7469 636b 6c6f  meter to `ticklo
++00000f20: 6164 6572 2e64 6f77 6e6c 6f61 6460 2074  ader.download` t
++00000f30: 6f20 6669 7820 6c6f 6361 6c20 7469 6d65  o fix local time
++00000f40: 206f 6666 7365 742e 0d0a 2d20 5469 636b   offset...- Tick
++00000f50: 2064 6174 6120 6361 6e20 6f6e 6c79 2062   data can only b
++00000f60: 6520 6665 7463 6865 6420 746f 2074 6865  e fetched to the
++00000f70: 2070 7265 7669 6f75 7320 686f 7572 2e20   previous hour. 
++00000f80: 4375 7272 656e 7420 686f 7572 2072 6574  Current hour ret
++00000f90: 7572 6e73 2034 3034 2e20 5468 6973 2069  urns 404. This i
++00000fa0: 7320 6861 6e64 6c65 6420 696e 7465 726e  s handled intern
++00000fb0: 616c 6c79 0d0a 2d20 4361 6368 6520 6973  ally..- Cache is
++00000fc0: 2073 746f 7265 6420 696e 2063 7572 7265   stored in curre
++00000fd0: 6e74 2077 6f72 6b69 6e67 2064 6972 6563  nt working direc
++00000fe0: 746f 7279 2c20 7061 7468 203d 2060 2e74  tory, path = `.t
++00000ff0: 6963 6b2d 6461 7461 602e 204d 6f76 6520  ick-data`. Move 
++00001000: 7468 6973 2064 6972 6563 746f 7279 2077  this directory w
++00001010: 6865 6e20 6d69 6772 6174 696e 6720 796f  hen migrating yo
++00001020: 7572 2073 6572 7665 7220 746f 2073 6176  ur server to sav
++00001030: 6520 6261 6e64 7769 6474 6820 616e 6420  e bandwidth and 
++00001040: 6b65 6570 2079 6f75 7220 6361 6368 6564  keep your cached
++00001050: 2064 6174 612c 206f 7220 6d6f 756e 7420   data, or mount 
++00001060: 6120 6c6f 6361 6c20 6469 7265 6374 6f72  a local director
++00001070: 7920 7768 656e 2075 7369 6e67 2064 6f63  y when using doc
++00001080: 6b65 7220 766f 6c75 6d65 732e 0d0a       ker volumes...
+```
+
+### Comparing `tickterial-1.0.3/README.md` & `tickterial-1.1.0/README.md`
+
+ * *Files 22% similar despite different names*
+
+```diff
+@@ -1,151 +1,140 @@
+ 00000000: 3c70 2073 7479 6c65 3d22 7465 7874 2d61  <p style="text-a
+-00000010: 6c69 676e 3a20 6365 6e74 6572 3b22 3e0a  lign: center;">.
+-00000020: 093c 696d 6720 7372 633d 2268 7474 7073  .<img src="https
+-00000030: 3a2f 2f72 6177 2e67 6974 6875 6275 7365  ://raw.githubuse
+-00000040: 7263 6f6e 7465 6e74 2e63 6f6d 2f73 7033  rcontent.com/sp3
+-00000050: 7274 6168 2f74 6963 6b74 6572 6961 6c2f  rtah/tickterial/
+-00000060: 6d61 7374 6572 2f74 6963 6b74 6572 6961  master/tickteria
+-00000070: 6c2e 706e 6722 2061 6c74 3d22 636f 7665  l.png" alt="cove
+-00000080: 7222 2074 6974 6c65 3d22 7469 636b 7465  r" title="tickte
+-00000090: 7269 616c 206c 6f67 6f22 2f3e 0a3c 703e  rial logo"/>.<p>
+-000000a0: 0a0a 2323 2044 6f77 6e6c 6f61 6420 616e  ..## Download an
+-000000b0: 6420 6361 6368 6520 7469 636b 2064 6174  d cache tick dat
+-000000c0: 6128 6d61 7465 7269 616c 2920 6672 6f6d  a(material) from
+-000000d0: 2044 756b 6173 636f 7079 2042 616e 6b20   Dukascopy Bank 
+-000000e0: 5341 0a54 6869 7320 6973 2061 206c 6f63  SA.This is a loc
+-000000f0: 616c 2041 5049 2073 6572 7665 7220 7468  al API server th
+-00000100: 6174 2064 6f77 6e6c 6f61 6473 2074 6963  at downloads tic
+-00000110: 6b20 6461 7461 206f 6e20 7265 7175 6573  k data on reques
+-00000120: 7420 616e 6420 6361 6368 6573 2072 6573  t and caches res
+-00000130: 756c 7473 2066 6f72 2073 7562 7365 7175  ults for subsequ
+-00000140: 656e 7420 6361 6c6c 732e 2046 696e 616c  ent calls. Final
+-00000150: 6c79 2c20 6120 6672 6565 2068 6973 746f  ly, a free histo
+-00000160: 7269 6361 6c20 6461 7461 2063 6f6c 6c65  rical data colle
+-00000170: 6374 696f 6e20 666f 7220 6261 636b 7465  ction for backte
+-00000180: 7374 696e 6720 796f 7572 2066 6f72 6578  sting your forex
+-00000190: 2074 7261 6469 6e67 2061 6c67 6f72 6974   trading algorit
+-000001a0: 686d 7321 0a41 6c6c 2069 6e73 7472 756d  hms!.All instrum
+-000001b0: 656e 7473 206f 6e20 5b74 6869 7320 7061  ents on [this pa
+-000001c0: 6765 5d28 6874 7470 733a 2f2f 7777 772e  ge](https://www.
+-000001d0: 6475 6b61 7363 6f70 792e 636f 6d2f 7377  dukascopy.com/sw
+-000001e0: 6973 732f 656e 676c 6973 682f 6d61 726b  iss/english/mark
+-000001f0: 6574 7761 7463 682f 6869 7374 6f72 6963  etwatch/historic
+-00000200: 616c 2f29 2061 7265 2073 7570 706f 7274  al/) are support
+-00000210: 6564 2120 2842 7574 206f 6e6c 7920 6063  ed! (But only `c
+-00000220: 7572 7265 6e63 7920 7061 6972 7360 2061  urrency pairs` a
+-00000230: 7265 2074 6573 7465 6420 6261 7365 6420  re tested based 
+-00000240: 6f6e 206d 7920 7573 6520 6361 7365 2e29  on my use case.)
+-00000250: 2e20 203c 6120 6872 6566 3d22 6d61 696c  .  <a href="mail
+-00000260: 746f 3a6e 6761 6972 6131 346e 656c 736f  to:ngaira14nelso
+-00000270: 6e40 676d 6169 6c2e 636f 6d22 3e45 6d61  n@gmail.com">Ema
+-00000280: 696c 206d 653c 2f61 3e20 666f 7220 7370  il me</a> for sp
+-00000290: 6563 6961 6c20 7265 7175 6573 7473 2e0a  ecial requests..
+-000002a0: 0a23 2320 496e 7374 616c 6c61 7469 6f6e  .## Installation
+-000002b0: 203a 3a50 7974 686f 6e33 0a60 6060 7069   ::Python3.```pi
+-000002c0: 7020 696e 7374 616c 6c20 7469 636b 7465  p install tickte
+-000002d0: 7269 616c 6060 600a 0a23 2320 5573 6167  rial```..## Usag
+-000002e0: 650a 5468 6973 206d 6f64 756c 6520 6361  e.This module ca
+-000002f0: 6e20 6265 2075 7365 6420 696e 2074 776f  n be used in two
+-00000300: 206d 6f64 6573 2e20 4173 2061 6e20 4150   modes. As an AP
+-00000310: 4920 7365 7276 6572 2075 7369 6e67 2061  I server using a
+-00000320: 2060 666c 6173 6b60 2062 6163 6b65 6e64   `flask` backend
+-00000330: 2c20 616e 6420 6173 2061 206d 6f64 756c  , and as a modul
+-00000340: 652e 0a0a 2323 2060 4d6f 6475 6c65 2075  e...## `Module u
+-00000350: 7361 6765 600a 6060 6070 7974 686f 6e0a  sage`.```python.
+-00000360: 6672 6f6d 2064 6174 6574 696d 6520 696d  from datetime im
+-00000370: 706f 7274 2064 6174 6574 696d 652c 2074  port datetime, t
+-00000380: 696d 6564 656c 7461 0a66 726f 6d20 7469  imedelta.from ti
+-00000390: 636b 7465 7269 616c 2069 6d70 6f72 7420  ckterial import 
+-000003a0: 7469 636b 6c6f 6164 6572 0a0a 6465 6620  tickloader..def 
+-000003b0: 646f 776e 6c6f 6164 2829 3a0a 0970 6572  download():..per
+-000003c0: 696f 6420 3d20 6461 7465 7469 6d65 2e6e  iod = datetime.n
+-000003d0: 6f77 2829 202d 2074 696d 6564 656c 7461  ow() - timedelta
+-000003e0: 286d 696e 7574 6573 3d36 3029 2023 2070  (minutes=60) # p
+-000003f0: 7265 7669 6f75 7320 686f 7572 0a09 6461  revious hour..da
+-00000400: 7461 203d 2074 6963 6b6c 6f61 6465 722e  ta = tickloader.
+-00000410: 646f 776e 6c6f 6164 2827 4742 5055 5344  download('GBPUSD
+-00000420: 272c 2070 6572 696f 6429 0a09 230a 0963  ', period)..#..c
+-00000430: 6f75 6e74 203d 2034 0a09 666f 7220 696e  ount = 4..for in
+-00000440: 6465 782c 2074 6963 6b20 696e 2065 6e75  dex, tick in enu
+-00000450: 6d65 7261 7465 2864 6174 6129 3a0a 0909  merate(data):...
+-00000460: 7072 696e 7428 7469 636b 290a 0909 230a  print(tick)...#.
+-00000470: 0909 636f 756e 7420 2d3d 2031 0a09 0969  ..count -= 1...i
+-00000480: 6620 6e6f 7420 636f 756e 743a 0a09 0909  f not count:....
+-00000490: 7072 696e 7428 6627 2d2d 7368 6f77 696e  print(f'--showin
+-000004a0: 6720 6669 7273 7420 7b69 6e64 6578 202b  g first {index +
+-000004b0: 2031 7d20 7469 636b 732d 2d27 290a 0909   1} ticks--')...
+-000004c0: 0962 7265 616b 0a0a 646f 776e 6c6f 6164  .break..download
+-000004d0: 2829 0a70 7269 6e74 2827 2d2d 656e 642d  ().print('--end-
+-000004e0: 2d27 290a 6060 600a 0a23 2320 6053 616d  -').```..## `Sam
+-000004f0: 706c 6520 6f75 7470 7574 2066 726f 6d20  ple output from 
+-00000500: 4742 5055 5344 600a 607b 2774 696d 6573  GBPUSD`.`{'times
+-00000510: 7461 6d70 273a 2031 3638 3936 3331 3139  tamp': 168963119
+-00000520: 362e 3837 352c 2027 6173 6b27 3a20 312e  6.875, 'ask': 1.
+-00000530: 3330 3738 382c 2027 6269 6427 3a20 312e  30788, 'bid': 1.
+-00000540: 3330 3737 382c 2027 6173 6b2d 766f 6c27  30778, 'ask-vol'
+-00000550: 3a20 3930 3030 3030 2c20 2762 6964 2d76  : 900000, 'bid-v
+-00000560: 6f6c 273a 2039 3030 3030 307d 600a 0a0a  ol': 900000}`...
+-00000570: 2323 2060 4150 492d 6d6f 6465 2075 7361  ## `API-mode usa
+-00000580: 6765 600a 6043 6f6d 696e 6720 736f 6f6e  ge`.`Coming soon
+-00000590: 2e2e 2e60 0a0a 2323 2054 4f44 4f0a 2d20  ...`..## TODO.- 
+-000005a0: 496e 7465 726e 616c 6c79 2063 6f6e 7665  Internally conve
+-000005b0: 7274 2070 7269 6365 7320 746f 2066 6c6f  rt prices to flo
+-000005c0: 6174 2009 0909 0909 0909 0909 0909 0909  at .............
+-000005d0: 0909 0909 2d20 444f 4e45 0a2d 2041 6464  ....- DONE.- Add
+-000005e0: 2064 6174 6162 6173 6520 6361 6368 696e   database cachin
+-000005f0: 6720 666f 7220 6c61 7267 6520 6f66 666c  g for large offl
+-00000600: 696e 6520 6869 7374 6f72 6965 730a 2d20  ine histories.- 
+-00000610: 4164 6420 4150 4920 6675 6e63 7469 6f6e  Add API function
+-00000620: 616c 6974 7920 666f 7220 7573 6520 6173  ality for use as
+-00000630: 2061 206c 6f63 616c 2074 6370 2073 7472   a local tcp str
+-00000640: 6561 6d69 6e67 2073 6572 7669 6365 0a2d  eaming service.-
+-00000650: 2043 6f6e 7461 696e 6572 697a 6520 7468   Containerize th
+-00000660: 6520 4150 4920 7468 726f 7567 6820 646f  e API through do
+-00000670: 636b 6572 2066 6f72 2065 6173 6520 6f66  cker for ease of
+-00000680: 2075 7365 0a2d 2053 7469 636b 2061 726f   use.- Stick aro
+-00000690: 756e 642e 2054 6865 7265 2773 206d 6f72  und. There's mor
+-000006a0: 6520 636f 6d69 6e67 210a 0a23 2320 4e6f  e coming!..## No
+-000006b0: 7465 730a 2d20 4361 6368 6520 6973 2073  tes.- Cache is s
+-000006c0: 746f 7265 2069 6e20 5554 432e 2050 6173  tore in UTC. Pas
+-000006d0: 7320 796f 7572 2055 5443 2074 696d 6520  s your UTC time 
+-000006e0: 6469 6666 6572 656e 6365 2061 7320 6c61  difference as la
+-000006f0: 7374 2070 6172 616d 6574 6572 2074 6f20  st parameter to 
+-00000700: 6074 6963 6b6c 6f61 6465 722e 646f 776e  `tickloader.down
+-00000710: 6c6f 6164 6020 746f 2066 6978 206c 6f63  load` to fix loc
+-00000720: 616c 2074 696d 6520 6f66 6673 6574 2e0a  al time offset..
+-00000730: 2d20 5469 636b 2064 6174 6120 6361 6e20  - Tick data can 
+-00000740: 6f6e 6c79 2062 6520 6665 7463 6820 746f  only be fetch to
+-00000750: 2074 6865 2070 7265 7669 6f75 7320 686f   the previous ho
+-00000760: 7572 2e20 4375 7272 656e 7420 686f 7572  ur. Current hour
+-00000770: 2072 6574 7572 6e73 2034 3034 2e20 5468   returns 404. Th
+-00000780: 6973 2069 7320 6861 6e64 6c65 6420 696e  is is handled in
+-00000790: 7465 726e 616c 6c79 2074 686f 7567 680a  ternally though.
+-000007a0: 2d20 4361 6368 6520 6973 2073 746f 7265  - Cache is store
+-000007b0: 6420 696e 2063 7572 7265 6e74 2077 6f72  d in current wor
+-000007c0: 6b69 6e67 2064 6972 6563 746f 7279 2c20  king directory, 
+-000007d0: 7061 7468 203d 2060 2e74 6963 6b2d 6461  path = `.tick-da
+-000007e0: 7461 602e 204d 6f76 6520 7468 6973 2064  ta`. Move this d
+-000007f0: 6972 6563 746f 7279 2077 6865 6e20 6d69  irectory when mi
+-00000800: 6772 6174 696e 6720 796f 7572 2073 6572  grating your ser
+-00000810: 7665 7220 746f 2073 6176 6520 6261 6e64  ver to save band
+-00000820: 7769 6474 6820 616e 6420 6b65 6570 2079  width and keep y
+-00000830: 6f75 7220 6361 6368 6564 2064 6174 612c  our cached data,
+-00000840: 206f 7220 6d6f 756e 7420 6120 6c6f 6361   or mount a loca
+-00000850: 6c20 6469 7265 6374 6f72 7920 7768 656e  l directory when
+-00000860: 2075 7369 6e67 2064 6f63 6b65 7220 766f   using docker vo
+-00000870: 6c75 6d65 732e 0a0a 2323 2060 506c 6561  lumes...## `Plea
+-00000880: 7365 2064 6f6e 6174 6520 746f 206b 6565  se donate to kee
+-00000890: 7020 6465 7665 6c6f 706d 656e 7420 676f  p development go
+-000008a0: 696e 6760 0a2d 204d 7920 5075 626c 6963  ing`.- My Public
+-000008b0: 2041 6464 7265 7373 2074 6f20 5265 6365   Address to Rece
+-000008c0: 6976 6520 4254 433a 2060 6263 3171 6738  ive BTC: `bc1qg8
+-000008d0: 7471 6130 617a 6c37 656c 3338 7774 6466  tqa0azl7el38wtdf
+-000008e0: 6177 786e 6a32 7466 7a34 3661 6a74 6a6e  awxnj2tfz46ajtjn
+-000008f0: 7636 3835 600a 2d20 5669 6120 5b54 7275  v685`.- Via [Tru
+-00000900: 7374 2057 616c 6c65 745d 2868 7474 7073  st Wallet](https
+-00000910: 3a2f 2f6c 696e 6b2e 7472 7573 7477 616c  ://link.trustwal
+-00000920: 6c65 742e 636f 6d2f 7365 6e64 3f63 6f69  let.com/send?coi
+-00000930: 6e3d 3026 6164 6472 6573 733d 6263 3171  n=0&address=bc1q
+-00000940: 6738 7471 6130 617a 6c37 656c 3338 7774  g8tqa0azl7el38wt
+-00000950: 6466 6177 786e 6a32 7466 7a34 3661 6a74  dfawxnj2tfz46ajt
+-00000960: 6a6e 7636 3835 290a                      jnv685).
++00000010: 6c69 676e 3a20 6365 6e74 6572 3b22 3e0d  lign: center;">.
++00000020: 0a09 3c69 6d67 2073 7263 3d22 6874 7470  ..<img src="http
++00000030: 733a 2f2f 7261 772e 6769 7468 7562 7573  s://raw.githubus
++00000040: 6572 636f 6e74 656e 742e 636f 6d2f 7370  ercontent.com/sp
++00000050: 3372 7461 682f 7469 636b 7465 7269 616c  3rtah/tickterial
++00000060: 2f6d 6173 7465 722f 7469 636b 7465 7269  /master/tickteri
++00000070: 616c 2e70 6e67 2220 616c 743d 2263 6f76  al.png" alt="cov
++00000080: 6572 2220 7469 746c 653d 2274 6963 6b74  er" title="tickt
++00000090: 6572 6961 6c20 6c6f 676f 222f 3e0d 0a3c  erial logo"/>..<
++000000a0: 703e 0d0a 0d0a 2323 2044 6f77 6e6c 6f61  p>....## Downloa
++000000b0: 6420 616e 6420 6361 6368 6520 7469 636b  d and cache tick
++000000c0: 2064 6174 6128 6d61 7465 7269 616c 2920   data(material) 
++000000d0: 6672 6f6d 2044 756b 6173 636f 7079 2042  from Dukascopy B
++000000e0: 616e 6b20 5341 0d0a 5468 6973 2069 7320  ank SA..This is 
++000000f0: 6120 6c6f 6361 6c20 4150 4920 7365 7276  a local API serv
++00000100: 6572 2074 6861 7420 646f 776e 6c6f 6164  er that download
++00000110: 7320 7469 636b 2064 6174 6120 6f6e 2072  s tick data on r
++00000120: 6571 7565 7374 2061 6e64 2063 6163 6865  equest and cache
++00000130: 7320 7265 7375 6c74 7320 666f 7220 7375  s results for su
++00000140: 6273 6571 7565 6e74 2063 616c 6c73 2e20  bsequent calls. 
++00000150: 4669 6e61 6c6c 792c 2061 2066 7265 6520  Finally, a free 
++00000160: 6869 7374 6f72 6963 616c 2064 6174 6120  historical data 
++00000170: 636f 6c6c 6563 7469 6f6e 2066 6f72 2062  collection for b
++00000180: 6163 6b74 6573 7469 6e67 2079 6f75 7220  acktesting your 
++00000190: 666f 7265 7820 7472 6164 696e 6720 616c  forex trading al
++000001a0: 676f 7269 7468 6d73 210d 0a41 6c6c 2069  gorithms!..All i
++000001b0: 6e73 7472 756d 656e 7473 206f 6e20 5b74  nstruments on [t
++000001c0: 6869 7320 7061 6765 5d28 6874 7470 733a  his page](https:
++000001d0: 2f2f 7777 772e 6475 6b61 7363 6f70 792e  //www.dukascopy.
++000001e0: 636f 6d2f 7377 6973 732f 656e 676c 6973  com/swiss/englis
++000001f0: 682f 6d61 726b 6574 7761 7463 682f 6869  h/marketwatch/hi
++00000200: 7374 6f72 6963 616c 2f29 2061 7265 2073  storical/) are s
++00000210: 7570 706f 7274 6564 2120 2842 7574 206f  upported! (But o
++00000220: 6e6c 7920 6063 7572 7265 6e63 7920 7061  nly `currency pa
++00000230: 6972 7360 2061 7265 2074 6573 7465 6420  irs` are tested 
++00000240: 6261 7365 6420 6f6e 206d 7920 7573 6520  based on my use 
++00000250: 6361 7365 2e29 2e20 203c 6120 6872 6566  case.).  <a href
++00000260: 3d22 6d61 696c 746f 3a6e 6761 6972 6131  ="mailto:ngaira1
++00000270: 346e 656c 736f 6e40 676d 6169 6c2e 636f  4nelson@gmail.co
++00000280: 6d22 3e45 6d61 696c 206d 653c 2f61 3e20  m">Email me</a> 
++00000290: 666f 7220 7370 6563 6961 6c20 7265 7175  for special requ
++000002a0: 6573 7473 2e0d 0a0d 0a23 2320 496e 7374  ests.....## Inst
++000002b0: 616c 6c61 7469 6f6e 203a 3a50 7974 686f  allation ::Pytho
++000002c0: 6e33 0d0a 6060 6070 6970 2069 6e73 7461  n3..```pip insta
++000002d0: 6c6c 2074 6963 6b74 6572 6961 6c60 6060  ll tickterial```
++000002e0: 0d0a 0d0a 2323 2055 7361 6765 0d0a 5468  ....## Usage..Th
++000002f0: 6973 206d 6f64 756c 6520 6361 6e20 6265  is module can be
++00000300: 2075 7365 6420 696e 2074 776f 206d 6f64   used in two mod
++00000310: 6573 2e20 4173 2061 6e20 4150 4920 7365  es. As an API se
++00000320: 7276 6572 2075 7369 6e67 2061 2060 666c  rver using a `fl
++00000330: 6173 6b60 2062 6163 6b65 6e64 2c20 616e  ask` backend, an
++00000340: 6420 6173 2061 206d 6f64 756c 652e 0d0a  d as a module...
++00000350: 0d0a 2323 2060 4d6f 6475 6c65 2075 7361  ..## `Module usa
++00000360: 6765 600d 0a60 6060 7079 7468 6f6e 0d0a  ge`..```python..
++00000370: 6672 6f6d 2064 6174 6574 696d 6520 696d  from datetime im
++00000380: 706f 7274 2064 6174 6574 696d 652c 2074  port datetime, t
++00000390: 696d 6564 656c 7461 0d0a 6672 6f6d 2074  imedelta..from t
++000003a0: 6963 6b74 6572 6961 6c20 696d 706f 7274  ickterial import
++000003b0: 2074 6963 6b6c 6f61 6465 720d 0a0d 0a64   tickloader....d
++000003c0: 6566 2064 6f77 6e6c 6f61 6428 293a 0d0a  ef download():..
++000003d0: 0970 6572 696f 6420 3d20 6461 7465 7469  .period = dateti
++000003e0: 6d65 2e6e 6f77 2829 202d 2074 696d 6564  me.now() - timed
++000003f0: 656c 7461 286d 696e 7574 6573 3d36 3029  elta(minutes=60)
++00000400: 2023 2070 7265 7669 6f75 7320 686f 7572   # previous hour
++00000410: 0d0a 0964 6174 6120 3d20 7469 636b 6c6f  ...data = ticklo
++00000420: 6164 6572 2e64 6f77 6e6c 6f61 6428 2747  ader.download('G
++00000430: 4250 5553 4427 2c20 7065 7269 6f64 290d  BPUSD', period).
++00000440: 0a09 230d 0a09 636f 756e 7420 3d20 340d  ..#...count = 4.
++00000450: 0a09 666f 7220 696e 6465 782c 2074 6963  ..for index, tic
++00000460: 6b20 696e 2065 6e75 6d65 7261 7465 2864  k in enumerate(d
++00000470: 6174 6129 3a0d 0a09 0970 7269 6e74 2874  ata):....print(t
++00000480: 6963 6b29 0d0a 0909 230d 0a09 0963 6f75  ick)....#....cou
++00000490: 6e74 202d 3d20 310d 0a09 0969 6620 6e6f  nt -= 1....if no
++000004a0: 7420 636f 756e 743a 0d0a 0909 0970 7269  t count:.....pri
++000004b0: 6e74 2866 272d 2d73 686f 7769 6e67 2066  nt(f'--showing f
++000004c0: 6972 7374 207b 696e 6465 7820 2b20 317d  irst {index + 1}
++000004d0: 2074 6963 6b73 2d2d 2729 0d0a 0909 0962   ticks--').....b
++000004e0: 7265 616b 0d0a 0d0a 646f 776e 6c6f 6164  reak....download
++000004f0: 2829 0d0a 7072 696e 7428 272d 2d65 6e64  ()..print('--end
++00000500: 2d2d 2729 0d0a 6060 600d 0a0d 0a23 2320  --')..```....## 
++00000510: 6053 616d 706c 6520 6f75 7470 7574 2066  `Sample output f
++00000520: 726f 6d20 4742 5055 5344 600d 0a60 7b27  rom GBPUSD`..`{'
++00000530: 7469 6d65 7374 616d 7027 3a20 3136 3839  timestamp': 1689
++00000540: 3633 3131 3936 2e38 3735 2c20 2761 736b  631196.875, 'ask
++00000550: 273a 2031 2e33 3037 3838 2c20 2762 6964  ': 1.30788, 'bid
++00000560: 273a 2031 2e33 3037 3738 2c20 2761 736b  ': 1.30778, 'ask
++00000570: 2d76 6f6c 273a 2039 3030 3030 302c 2027  -vol': 900000, '
++00000580: 6269 642d 766f 6c27 3a20 3930 3030 3030  bid-vol': 900000
++00000590: 7d60 0d0a 0d0a 0d0a 2323 2060 4150 492d  }`......## `API-
++000005a0: 6d6f 6465 2075 7361 6765 600d 0a60 436f  mode usage`..`Co
++000005b0: 6d69 6e67 2073 6f6f 6e2e 2e2e 600d 0a0d  ming soon...`...
++000005c0: 0a23 2320 544f 444f 0d0a 2d20 496e 7465  .## TODO..- Inte
++000005d0: 726e 616c 6c79 2063 6f6e 7665 7274 2070  rnally convert p
++000005e0: 7269 6365 7320 746f 2066 6c6f 6174 092d  rices to float.-
++000005f0: 2044 4f4e 450d 0a2d 2041 6464 2064 6174   DONE..- Add dat
++00000600: 6162 6173 6520 6361 6368 696e 6720 666f  abase caching fo
++00000610: 7220 6c61 7267 6520 6f66 666c 696e 6520  r large offline 
++00000620: 6869 7374 6f72 6965 7320 2d20 4445 5052  histories - DEPR
++00000630: 4543 4154 4544 0d0a 2d20 4164 6420 4150  ECATED..- Add AP
++00000640: 4920 6675 6e63 7469 6f6e 616c 6974 7920  I functionality 
++00000650: 666f 7220 7573 6520 6173 2061 206c 6f63  for use as a loc
++00000660: 616c 2074 6370 2073 7472 6561 6d69 6e67  al tcp streaming
++00000670: 2073 6572 7669 6365 202d 2048 4947 4845   service - HIGHE
++00000680: 5220 4c45 5645 4c20 4645 4154 5552 450d  R LEVEL FEATURE.
++00000690: 0a2d 2041 6464 2063 6f6e 736f 6c65 2066  .- Add console f
++000006a0: 756e 6374 696f 6e61 6c69 7479 2c20 7361  unctionality, sa
++000006b0: 7669 6e67 2068 6973 746f 7279 2066 696c  ving history fil
++000006c0: 6573 2069 6e20 6d75 6c74 6970 6c65 2066  es in multiple f
++000006d0: 6f72 6d61 7473 2069 6e63 6c75 6469 6e67  ormats including
++000006e0: 206a 736f 6e20 616e 6420 6373 762e 0d0a   json and csv...
++000006f0: 0d0a 2323 204e 6f74 6573 0d0a 2d20 4361  ..## Notes..- Ca
++00000700: 6368 6520 6973 2073 746f 7265 2069 6e20  che is store in 
++00000710: 5554 432e 2050 6173 7320 796f 7572 2055  UTC. Pass your U
++00000720: 5443 2074 696d 6520 6469 6666 6572 656e  TC time differen
++00000730: 6365 2061 7320 6c61 7374 2070 6172 616d  ce as last param
++00000740: 6574 6572 2074 6f20 6074 6963 6b6c 6f61  eter to `tickloa
++00000750: 6465 722e 646f 776e 6c6f 6164 6020 746f  der.download` to
++00000760: 2066 6978 206c 6f63 616c 2074 696d 6520   fix local time 
++00000770: 6f66 6673 6574 2e0d 0a2d 2054 6963 6b20  offset...- Tick 
++00000780: 6461 7461 2063 616e 206f 6e6c 7920 6265  data can only be
++00000790: 2066 6574 6368 6564 2074 6f20 7468 6520   fetched to the 
++000007a0: 7072 6576 696f 7573 2068 6f75 722e 2043  previous hour. C
++000007b0: 7572 7265 6e74 2068 6f75 7220 7265 7475  urrent hour retu
++000007c0: 726e 7320 3430 342e 2054 6869 7320 6973  rns 404. This is
++000007d0: 2068 616e 646c 6564 2069 6e74 6572 6e61   handled interna
++000007e0: 6c6c 790d 0a2d 2043 6163 6865 2069 7320  lly..- Cache is 
++000007f0: 7374 6f72 6564 2069 6e20 6375 7272 656e  stored in curren
++00000800: 7420 776f 726b 696e 6720 6469 7265 6374  t working direct
++00000810: 6f72 792c 2070 6174 6820 3d20 602e 7469  ory, path = `.ti
++00000820: 636b 2d64 6174 6160 2e20 4d6f 7665 2074  ck-data`. Move t
++00000830: 6869 7320 6469 7265 6374 6f72 7920 7768  his directory wh
++00000840: 656e 206d 6967 7261 7469 6e67 2079 6f75  en migrating you
++00000850: 7220 7365 7276 6572 2074 6f20 7361 7665  r server to save
++00000860: 2062 616e 6477 6964 7468 2061 6e64 206b   bandwidth and k
++00000870: 6565 7020 796f 7572 2063 6163 6865 6420  eep your cached 
++00000880: 6461 7461 2c20 6f72 206d 6f75 6e74 2061  data, or mount a
++00000890: 206c 6f63 616c 2064 6972 6563 746f 7279   local directory
++000008a0: 2077 6865 6e20 7573 696e 6720 646f 636b   when using dock
++000008b0: 6572 2076 6f6c 756d 6573 2e0d 0a         er volumes...
+```
+
+### Comparing `tickterial-1.0.3/pyproject.toml` & `tickterial-1.1.0/pyproject.toml`
+
+ * *Files 24% similar despite different names*
+
+```diff
+@@ -1,36 +1,34 @@
+-# pyproject.toml
+-
+-[build-system]
+-requires      = ["setuptools>=61.0.0", "wheel"]
+-build-backend = "setuptools.build_meta"
+-
+-[project]
+-name = "tickterial"
+-version = "1.0.3"
+-description = "Download tick data from Dukascopy Bank SA to local cache with custom simulated price streams!"
+-readme = "README.md"
+-authors = [{ name = "sp3rtah", email = "ngaira14nelson@gmail.com" }]
+-license = { file = "LICENSE" }
+-classifiers = [
+-    "License :: OSI Approved :: MIT License",
+-    "Programming Language :: Python",
+-    "Programming Language :: Python :: 3",
+-]
+-keywords = ["forex", "forex-data", "streaming", "forex "]
+-dependencies = [
+-	'Flask==2.3.2',
+-	'Flask-SQLAlchemy==3.0.5',
+-	'loguru==0.6.0',
+-	'pytz==2022.7',
+-	'requests==2.31.0'
+-]
+-requires-python = ">=3.10"
+-
+-[project.optional-dependencies]
+-dev = ["build", "twine"]
+-
+-[project.urls]
+-Homepage = "https://github.com/sp3rtah/tickterial"
+-
+-[project.scripts]
+-ticker = "tickterial:main"
++# pyproject.toml
++
++[build-system]
++requires      = ["setuptools>=61.0.0", "wheel"]
++build-backend = "setuptools.build_meta"
++
++[project]
++name = "tickterial"
++version = "1.1.0"
++description = "Download tick data from Dukascopy Bank SA to local cache with custom simulated price streams!"
++readme = "README.md"
++authors = [{ name = "drui9", email = "ngaira14nelson@gmail.com" }]
++license = { file = "LICENSE" }
++classifiers = [
++    "License :: OSI Approved :: MIT License",
++    "Programming Language :: Python",
++    "Programming Language :: Python :: 3",
++]
++keywords = ["forex", "forex-data", "streaming", "forex "]
++dependencies = [
++	'loguru==0.6.0',
++	'pytz==2022.7',
++	'requests==2.31.0'
++]
++requires-python = ">=3.10"
++
++[project.optional-dependencies]
++dev = ["build", "twine"]
++
++[project.urls]
++Homepage = "https://github.com/drui9/tickterial"
++
++[project.scripts]
++tickterial = "tickterial.main:main"
+```
+
+### Comparing `tickterial-1.0.3/tickterial/tickloader.py` & `tickterial-1.1.0/tickterial/tickloader.py`
+
+ * *Files 12% similar despite different names*
+
+```diff
+@@ -1,155 +1,154 @@
+-import os
+-import pytz
+-import struct
+-import loguru
+-import requests
+-from typing import Tuple, List
+-from datetime import datetime, timedelta
+-from lzma import LZMADecompressor, LZMAError, FORMAT_AUTO # noqa: F401
+-
+-
+-class Tickloader():
+-	endpoint = "https://datafeed.dukascopy.com/datafeed/{currency}/{year}/{month:02d}/{day:02d}/{hour:02d}h_ticks.bi5"
+-	headers = {
+-		'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like\
+-		Gecko) Chrome/102.0.5005.61 Safari/537.36'
+-	}
+-
+-	def __init__(self, db):
+-		self.logger = loguru.logger
+-		self.db = db
+-		self.cache = '.tick-data' # todo: relocate cache
+-		self.data_format = '!3i2f'
+-		# init requests' Session()
+-		self.requests = requests.Session()
+-		self.requests.headers.update(self.headers)
+-		#
+-		if not os.path.exists(self.cache):
+-			os.mkdir(self.cache)
+-		return
+-
+-	def get_from_cache(self, path :str) -> bytes:
+-		if not os.path.isfile(path):
+-			return b''
+-		with open(path, 'rb') as infile:
+-			_data_out = infile.read()
+-		return _data_out
+-
+-	def get_cache_path(self, props :Tuple[str, datetime]) -> str:
+-		symbol , hour = props
+-		_cache_path = f'{self.cache}/{symbol}'
+-		if not os.path.exists(_cache_path):
+-			os.mkdir(_cache_path)
+-		timestr = hour.strftime("%Y-%m-%d %H")
+-		return f'{_cache_path}/{symbol}_{str(timestr).replace(" ","_")}'
+-
+-	def decmp_lzma(self, bdata):
+-		"""Decompress binary compressed file"""
+-		# todo
+-		dcmp = LZMADecompressor(FORMAT_AUTO)
+-		return dcmp.decompress(bdata)
+-
+-	def format_time_range(self, timerange: Tuple[datetime, datetime]) -> List[datetime]:
+-		out = list()
+-		# validate types
+-		for tm in timerange:
+-			if type(tm) is not datetime:
+-				raise TypeError(f'Time range MUST of type: {type(datetime)}')
+-		#
+-		_start, _end = min(timerange), max(timerange)
+-		#
+-		if _start == _end:
+-			out.append(_start)
+-			return out
+-		# increment hours with time steps
+-		_step = timedelta(hours=1)
+-		while _start < _end:
+-			out.append(_start)
+-			_start += _step
+-		return out
+-
+-	def download(self, symbol :str, hour :datetime, utcoffset = 3):
+-		"""Downloads ticks for <hour>. utcoffset = utc - local (default= 3hours)"""
+-		timestamp = self.to_gmt(hour, utcoffset)
+-		if not self.is_valid_time(timestamp):
+-			self.logger.info(f'Invalid time {symbol}[{hour.ctime()}, utc:{timestamp.ctime()}]')  # noqa: E501
+-			return
+-		# check if cached
+-		self.logger.info(f'Preparing data: {symbol}[{hour.ctime()}]')
+-		_path = self.get_cache_path((symbol, timestamp))
+-		if not (_data := self.get_from_cache(_path)):
+-			self.logger.info(f'Fetch {symbol}[{hour.ctime()} as {timestamp.ctime()}]')
+-			params = {
+-				'currency': symbol,
+-				'year': timestamp.year,
+-				'month': timestamp.month - 1,
+-				'day': timestamp.day,
+-				'hour': timestamp.hour
+-			}
+-			try:
+-				url = self.endpoint.format(**params)
+-				res = self.requests.get(url, timeout=13, allow_redirects=False)
+-				if not res.ok:
+-					err = f'httpErrCode[{res.status_code}]'
+-					self.logger.critical(f'Download {symbol}:{hour.ctime} failed! {err}')  # noqa: E501
+-				elif not (_data := res.content):
+-					return
+-				# save to cache
+-				self.to_cache(_path, _data)
+-				self.logger.info(f'{hour} data downloaded.')
+-			except requests.exceptions.ConnectionError:
+-				self.logger.critical(f'Connection Error! {hour.ctime()}')
+-			except Exception as e:
+-				e.add_note(f'{hour.ctime()}: ticks download failed!')
+-				self.logger.exception(e)
+-				return
+-		#
+-		bdata = self.decmp_lzma(_data)
+-		return self.format_data(bdata, symbol, hour)
+-
+-	def format_data(self, data, symbol, day):
+-		point = 1e5
+-		if symbol.lower() in ['usdrub', 'xagusd', 'xauusd']:
+-			point = 1e3
+-		#
+-		for data in struct.iter_unpack(self.data_format, data):
+-			tm, askp, bidp, askv, bidv = data
+-			daystamp = datetime(day.year, day.month, day.day, day.hour)
+-			yield {
+-				'timestamp': (daystamp + timedelta(milliseconds=tm)),
+-				'ask': askp / point,
+-				'bid': bidp / point,
+-				'ask-vol': round(askv * 1e6),
+-				'bid-vol': round(bidv * 1e6)
+-			}
+-
+-	def to_cache(self, path :str, data :bytes) -> int:
+-		with open(path,'wb') as out:
+-			return out.write(data)
+-
+-	def to_gmt(self, time :datetime, utcoffset :int=0) -> datetime:
+-		"""Converts local time to GMT with respect to utc hour offset"""
+-		"""Assumes gmt==utc"""
+-		if not utcoffset:
+-			return time
+-		return time - timedelta(hours=utcoffset)
+-
+-	def is_dst(self, time: datetime) -> bool:
+-		locale = pytz.timezone('Etc/GMT')
+-		return locale.localize(time).dst() != timedelta(0)
+-
+-	def is_valid_time(self, time: datetime) -> bool:
+-		"""Checks GMT time for forex session validity"""
+-		_session_start = 21
+-		if self.is_dst(time):
+-			_session_start = 22
+-		# filter weekends
+-		if time.weekday() <= 3:
+-			return True
+-		elif time.weekday() == 4:
+-			if time.hour <= _session_start:
+-				return True
+-		elif time.weekday() == 6:
+-			if time.hour >= _session_start:
+-				return True
+-		return False
++import os
++import pytz
++import struct
++import loguru
++import requests
++from typing import Tuple, List
++from datetime import datetime, timedelta
++from lzma import LZMADecompressor, LZMAError, FORMAT_AUTO # noqa: F401
++
++
++class Tickloader():
++	endpoint = "https://datafeed.dukascopy.com/datafeed/{currency}/{year}/{month:02d}/{day:02d}/{hour:02d}h_ticks.bi5"
++	headers = {
++		'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like\
++		Gecko) Chrome/102.0.5005.61 Safari/537.36'
++	}
++
++	def __init__(self):
++		self.logger = loguru.logger
++		self.cache = '.tick-data' # todo: relocate cache
++		self.data_format = '!3i2f'
++		# initialize requests' session
++		self.requests = requests.Session()
++		self.requests.headers.update(self.headers)
++		#
++		if not os.path.exists(self.cache):
++			os.mkdir(self.cache)
++		return
++
++	def get_from_cache(self, path :str) -> bytes:
++		if not os.path.isfile(path):
++			return b''
++		with open(path, 'rb') as infile:
++			_data_out = infile.read()
++		return _data_out
++
++	def get_cache_path(self, props :Tuple[str, datetime]) -> str:
++		symbol , hour = props
++		_cache_path = f'{self.cache}/{symbol}'
++		if not os.path.exists(_cache_path):
++			os.mkdir(_cache_path)
++		timestr = hour.strftime("%Y-%m-%d %H")
++		return f'{_cache_path}/{symbol}_{str(timestr).replace(" ","_")}'
++
++	def decmp_lzma(self, bdata):
++		"""Decompress binary compressed file"""
++		# todo
++		dcmp = LZMADecompressor(FORMAT_AUTO)
++		return dcmp.decompress(bdata)
++
++	def format_time_range(self, timerange: Tuple[datetime, datetime]) -> List[datetime]:
++		out = list()
++		# validate types
++		for tm in timerange:
++			if type(tm) is not datetime:
++				raise TypeError(f'Time range MUST of type: {type(datetime)}')
++		#
++		_start, _end = min(timerange), max(timerange)
++		#
++		if _start == _end:
++			out.append(_start)
++			return out
++		# increment hours with time steps
++		_step = timedelta(hours=1)
++		while _start < _end:
++			out.append(_start)
++			_start += _step
++		return out
++
++	def download(self, symbol :str, hour :datetime, utcoffset = 3):
++		"""Downloads ticks for <hour>. utcoffset = utc - local (default= 3hours)"""
++		timestamp = self.to_gmt(hour, utcoffset)
++		if not self.is_valid_time(timestamp):
++			self.logger.info(f'Invalid time {symbol}[{hour.strftime("%a")}: {hour.ctime()}, utc:{timestamp.ctime()}]')  # noqa: E501
++			return
++		# check if cached
++		self.logger.info(f'Preparing data: {symbol}[{hour.ctime()}]')
++		_path = self.get_cache_path((symbol, timestamp))
++		if not (_data := self.get_from_cache(_path)):
++			self.logger.info(f'Fetch {symbol}[{hour.strftime("%a")}: {hour.ctime()} as {timestamp.ctime()}]')
++			params = {
++				'currency': symbol,
++				'year': timestamp.year,
++				'month': timestamp.month - 1,
++				'day': timestamp.day,
++				'hour': timestamp.hour
++			}
++			try:
++				url = self.endpoint.format(**params)
++				res = self.requests.get(url, timeout=13, allow_redirects=False)
++				if not res.ok:
++					err = f'httpErrCode[{res.status_code}]'
++					self.logger.critical(f'Download {symbol}:{hour.ctime} failed! {err}')  # noqa: E501
++				elif not (_data := res.content):
++					return
++				# save to cache
++				self.to_cache(_path, _data)
++				self.logger.info(f'{hour} data downloaded.')
++			except requests.exceptions.ConnectionError:
++				self.logger.critical(f'Connection Error! {hour.ctime()}')
++			except Exception as e:
++				e.add_note(f'{hour.ctime()}: ticks download failed!')
++				self.logger.exception(e)
++				return
++		#
++		bdata = self.decmp_lzma(_data)
++		return self.format_data(bdata, symbol, hour)
++
++	def format_data(self, data, symbol, day):
++		point = 1e5
++		if symbol.lower() in ['usdrub', 'xagusd', 'xauusd']:
++			point = 1e3
++		#
++		for data in struct.iter_unpack(self.data_format, data):
++			tm, askp, bidp, askv, bidv = data
++			daystamp = datetime(day.year, day.month, day.day, day.hour)
++			yield {
++				'timestamp': (daystamp + timedelta(milliseconds=tm)),
++				'ask': askp / point,
++				'bid': bidp / point,
++				'ask-vol': round(askv * 1e6),
++				'bid-vol': round(bidv * 1e6)
++			}
++
++	def to_cache(self, path :str, data :bytes) -> int:
++		with open(path,'wb') as out:
++			return out.write(data)
++
++	def to_gmt(self, time :datetime, utcoffset :int=0) -> datetime:
++		"""Converts local time to GMT with respect to utc hour offset"""
++		"""Assumes gmt==utc"""
++		if not utcoffset:
++			return time
++		return time - timedelta(hours=utcoffset)
++
++	def is_dst(self, time: datetime) -> bool:
++		locale = pytz.timezone('Etc/GMT')
++		return locale.localize(time).dst() != timedelta(0)
++
++	def is_valid_time(self, time: datetime) -> bool:
++		"""Checks GMT time for forex session validity"""
++		_session_start = 21
++		if self.is_dst(time):
++			_session_start = 22
++		# filter weekends
++		if time.weekday() <= 3:
++			return True
++		elif time.weekday() == 4:
++			if time.hour <= _session_start:
++				return True
++		elif time.weekday() == 6:
++			if time.hour >= _session_start:
++				return True
++		return False
+```
+
+### Comparing `tickterial-1.0.3/tickterial.egg-info/PKG-INFO` & `tickterial-1.1.0/tickterial.egg-info/PKG-INFO`
+
+ * *Files 15% similar despite different names*
+
+```diff
+@@ -1,278 +1,265 @@
+ 00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+-00000010: 3a20 322e 310a 4e61 6d65 3a20 7469 636b  : 2.1.Name: tick
+-00000020: 7465 7269 616c 0a56 6572 7369 6f6e 3a20  terial.Version: 
+-00000030: 312e 302e 330a 5375 6d6d 6172 793a 2044  1.0.3.Summary: D
+-00000040: 6f77 6e6c 6f61 6420 7469 636b 2064 6174  ownload tick dat
+-00000050: 6120 6672 6f6d 2044 756b 6173 636f 7079  a from Dukascopy
+-00000060: 2042 616e 6b20 5341 2074 6f20 6c6f 6361   Bank SA to loca
+-00000070: 6c20 6361 6368 6520 7769 7468 2063 7573  l cache with cus
+-00000080: 746f 6d20 7369 6d75 6c61 7465 6420 7072  tom simulated pr
+-00000090: 6963 6520 7374 7265 616d 7321 0a41 7574  ice streams!.Aut
+-000000a0: 686f 722d 656d 6169 6c3a 2073 7033 7274  hor-email: sp3rt
+-000000b0: 6168 203c 6e67 6169 7261 3134 6e65 6c73  ah <ngaira14nels
+-000000c0: 6f6e 4067 6d61 696c 2e63 6f6d 3e0a 4c69  on@gmail.com>.Li
+-000000d0: 6365 6e73 653a 204d 4954 204c 6963 656e  cense: MIT Licen
+-000000e0: 7365 0a20 2020 2020 2020 200a 2020 2020  se.        .    
+-000000f0: 2020 2020 436f 7079 7269 6768 7420 2863      Copyright (c
+-00000100: 2920 3230 3232 2073 7033 7274 6168 0a20  ) 2022 sp3rtah. 
+-00000110: 2020 2020 2020 200a 2020 2020 2020 2020         .        
+-00000120: 5065 726d 6973 7369 6f6e 2069 7320 6865  Permission is he
+-00000130: 7265 6279 2067 7261 6e74 6564 2c20 6672  reby granted, fr
+-00000140: 6565 206f 6620 6368 6172 6765 2c20 746f  ee of charge, to
+-00000150: 2061 6e79 2070 6572 736f 6e20 6f62 7461   any person obta
+-00000160: 696e 696e 6720 6120 636f 7079 0a20 2020  ining a copy.   
+-00000170: 2020 2020 206f 6620 7468 6973 2073 6f66       of this sof
+-00000180: 7477 6172 6520 616e 6420 6173 736f 6369  tware and associ
+-00000190: 6174 6564 2064 6f63 756d 656e 7461 7469  ated documentati
+-000001a0: 6f6e 2066 696c 6573 2028 7468 6520 2253  on files (the "S
+-000001b0: 6f66 7477 6172 6522 292c 2074 6f20 6465  oftware"), to de
+-000001c0: 616c 0a20 2020 2020 2020 2069 6e20 7468  al.        in th
+-000001d0: 6520 536f 6674 7761 7265 2077 6974 686f  e Software witho
+-000001e0: 7574 2072 6573 7472 6963 7469 6f6e 2c20  ut restriction, 
+-000001f0: 696e 636c 7564 696e 6720 7769 7468 6f75  including withou
+-00000200: 7420 6c69 6d69 7461 7469 6f6e 2074 6865  t limitation the
+-00000210: 2072 6967 6874 730a 2020 2020 2020 2020   rights.        
+-00000220: 746f 2075 7365 2c20 636f 7079 2c20 6d6f  to use, copy, mo
+-00000230: 6469 6679 2c20 6d65 7267 652c 2070 7562  dify, merge, pub
+-00000240: 6c69 7368 2c20 6469 7374 7269 6275 7465  lish, distribute
+-00000250: 2c20 7375 626c 6963 656e 7365 2c20 616e  , sublicense, an
+-00000260: 642f 6f72 2073 656c 6c0a 2020 2020 2020  d/or sell.      
+-00000270: 2020 636f 7069 6573 206f 6620 7468 6520    copies of the 
+-00000280: 536f 6674 7761 7265 2c20 616e 6420 746f  Software, and to
+-00000290: 2070 6572 6d69 7420 7065 7273 6f6e 7320   permit persons 
+-000002a0: 746f 2077 686f 6d20 7468 6520 536f 6674  to whom the Soft
+-000002b0: 7761 7265 2069 730a 2020 2020 2020 2020  ware is.        
+-000002c0: 6675 726e 6973 6865 6420 746f 2064 6f20  furnished to do 
+-000002d0: 736f 2c20 7375 626a 6563 7420 746f 2074  so, subject to t
+-000002e0: 6865 2066 6f6c 6c6f 7769 6e67 2063 6f6e  he following con
+-000002f0: 6469 7469 6f6e 733a 0a20 2020 2020 2020  ditions:.       
+-00000300: 200a 2020 2020 2020 2020 5468 6520 6162   .        The ab
+-00000310: 6f76 6520 636f 7079 7269 6768 7420 6e6f  ove copyright no
+-00000320: 7469 6365 2061 6e64 2074 6869 7320 7065  tice and this pe
+-00000330: 726d 6973 7369 6f6e 206e 6f74 6963 6520  rmission notice 
+-00000340: 7368 616c 6c20 6265 2069 6e63 6c75 6465  shall be include
+-00000350: 6420 696e 2061 6c6c 0a20 2020 2020 2020  d in all.       
+-00000360: 2063 6f70 6965 7320 6f72 2073 7562 7374   copies or subst
+-00000370: 616e 7469 616c 2070 6f72 7469 6f6e 7320  antial portions 
+-00000380: 6f66 2074 6865 2053 6f66 7477 6172 652e  of the Software.
+-00000390: 0a20 2020 2020 2020 200a 2020 2020 2020  .        .      
+-000003a0: 2020 5448 4520 534f 4654 5741 5245 2049    THE SOFTWARE I
+-000003b0: 5320 5052 4f56 4944 4544 2022 4153 2049  S PROVIDED "AS I
+-000003c0: 5322 2c20 5749 5448 4f55 5420 5741 5252  S", WITHOUT WARR
+-000003d0: 414e 5459 204f 4620 414e 5920 4b49 4e44  ANTY OF ANY KIND
+-000003e0: 2c20 4558 5052 4553 5320 4f52 0a20 2020  , EXPRESS OR.   
+-000003f0: 2020 2020 2049 4d50 4c49 4544 2c20 494e       IMPLIED, IN
+-00000400: 434c 5544 494e 4720 4255 5420 4e4f 5420  CLUDING BUT NOT 
+-00000410: 4c49 4d49 5445 4420 544f 2054 4845 2057  LIMITED TO THE W
+-00000420: 4152 5241 4e54 4945 5320 4f46 204d 4552  ARRANTIES OF MER
+-00000430: 4348 414e 5441 4249 4c49 5459 2c0a 2020  CHANTABILITY,.  
+-00000440: 2020 2020 2020 4649 544e 4553 5320 464f        FITNESS FO
+-00000450: 5220 4120 5041 5254 4943 554c 4152 2050  R A PARTICULAR P
+-00000460: 5552 504f 5345 2041 4e44 204e 4f4e 494e  URPOSE AND NONIN
+-00000470: 4652 494e 4745 4d45 4e54 2e20 494e 204e  FRINGEMENT. IN N
+-00000480: 4f20 4556 454e 5420 5348 414c 4c20 5448  O EVENT SHALL TH
+-00000490: 450a 2020 2020 2020 2020 4155 5448 4f52  E.        AUTHOR
+-000004a0: 5320 4f52 2043 4f50 5952 4947 4854 2048  S OR COPYRIGHT H
+-000004b0: 4f4c 4445 5253 2042 4520 4c49 4142 4c45  OLDERS BE LIABLE
+-000004c0: 2046 4f52 2041 4e59 2043 4c41 494d 2c20   FOR ANY CLAIM, 
+-000004d0: 4441 4d41 4745 5320 4f52 204f 5448 4552  DAMAGES OR OTHER
+-000004e0: 0a20 2020 2020 2020 204c 4941 4249 4c49  .        LIABILI
+-000004f0: 5459 2c20 5748 4554 4845 5220 494e 2041  TY, WHETHER IN A
+-00000500: 4e20 4143 5449 4f4e 204f 4620 434f 4e54  N ACTION OF CONT
+-00000510: 5241 4354 2c20 544f 5254 204f 5220 4f54  RACT, TORT OR OT
+-00000520: 4845 5257 4953 452c 2041 5249 5349 4e47  HERWISE, ARISING
+-00000530: 2046 524f 4d2c 0a20 2020 2020 2020 204f   FROM,.        O
+-00000540: 5554 204f 4620 4f52 2049 4e20 434f 4e4e  UT OF OR IN CONN
+-00000550: 4543 5449 4f4e 2057 4954 4820 5448 4520  ECTION WITH THE 
+-00000560: 534f 4654 5741 5245 204f 5220 5448 4520  SOFTWARE OR THE 
+-00000570: 5553 4520 4f52 204f 5448 4552 2044 4541  USE OR OTHER DEA
+-00000580: 4c49 4e47 5320 494e 2054 4845 0a20 2020  LINGS IN THE.   
+-00000590: 2020 2020 2053 4f46 5457 4152 452e 0a20       SOFTWARE.. 
+-000005a0: 2020 2020 2020 200a 5072 6f6a 6563 742d         .Project-
+-000005b0: 5552 4c3a 2048 6f6d 6570 6167 652c 2068  URL: Homepage, h
+-000005c0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-000005d0: 6d2f 7370 3372 7461 682f 7469 636b 7465  m/sp3rtah/tickte
+-000005e0: 7269 616c 0a4b 6579 776f 7264 733a 2066  rial.Keywords: f
+-000005f0: 6f72 6578 2c66 6f72 6578 2d64 6174 612c  orex,forex-data,
+-00000600: 7374 7265 616d 696e 672c 666f 7265 7820  streaming,forex 
+-00000610: 0a43 6c61 7373 6966 6965 723a 204c 6963  .Classifier: Lic
+-00000620: 656e 7365 203a 3a20 4f53 4920 4170 7072  ense :: OSI Appr
+-00000630: 6f76 6564 203a 3a20 4d49 5420 4c69 6365  oved :: MIT Lice
+-00000640: 6e73 650a 436c 6173 7369 6669 6572 3a20  nse.Classifier: 
+-00000650: 5072 6f67 7261 6d6d 696e 6720 4c61 6e67  Programming Lang
+-00000660: 7561 6765 203a 3a20 5079 7468 6f6e 0a43  uage :: Python.C
+-00000670: 6c61 7373 6966 6965 723a 2050 726f 6772  lassifier: Progr
+-00000680: 616d 6d69 6e67 204c 616e 6775 6167 6520  amming Language 
+-00000690: 3a3a 2050 7974 686f 6e20 3a3a 2033 0a52  :: Python :: 3.R
+-000006a0: 6571 7569 7265 732d 5079 7468 6f6e 3a20  equires-Python: 
+-000006b0: 3e3d 332e 3130 0a44 6573 6372 6970 7469  >=3.10.Descripti
+-000006c0: 6f6e 2d43 6f6e 7465 6e74 2d54 7970 653a  on-Content-Type:
+-000006d0: 2074 6578 742f 6d61 726b 646f 776e 0a4c   text/markdown.L
+-000006e0: 6963 656e 7365 2d46 696c 653a 204c 4943  icense-File: LIC
+-000006f0: 454e 5345 0a52 6571 7569 7265 732d 4469  ENSE.Requires-Di
+-00000700: 7374 3a20 466c 6173 6b3d 3d32 2e33 2e32  st: Flask==2.3.2
+-00000710: 0a52 6571 7569 7265 732d 4469 7374 3a20  .Requires-Dist: 
+-00000720: 466c 6173 6b2d 5351 4c41 6c63 6865 6d79  Flask-SQLAlchemy
+-00000730: 3d3d 332e 302e 350a 5265 7175 6972 6573  ==3.0.5.Requires
+-00000740: 2d44 6973 743a 206c 6f67 7572 753d 3d30  -Dist: loguru==0
+-00000750: 2e36 2e30 0a52 6571 7569 7265 732d 4469  .6.0.Requires-Di
+-00000760: 7374 3a20 7079 747a 3d3d 3230 3232 2e37  st: pytz==2022.7
+-00000770: 0a52 6571 7569 7265 732d 4469 7374 3a20  .Requires-Dist: 
+-00000780: 7265 7175 6573 7473 3d3d 322e 3331 2e30  requests==2.31.0
+-00000790: 0a50 726f 7669 6465 732d 4578 7472 613a  .Provides-Extra:
+-000007a0: 2064 6576 0a52 6571 7569 7265 732d 4469   dev.Requires-Di
+-000007b0: 7374 3a20 6275 696c 643b 2065 7874 7261  st: build; extra
+-000007c0: 203d 3d20 2264 6576 220a 5265 7175 6972   == "dev".Requir
+-000007d0: 6573 2d44 6973 743a 2074 7769 6e65 3b20  es-Dist: twine; 
+-000007e0: 6578 7472 6120 3d3d 2022 6465 7622 0a0a  extra == "dev"..
+-000007f0: 3c70 2073 7479 6c65 3d22 7465 7874 2d61  <p style="text-a
+-00000800: 6c69 676e 3a20 6365 6e74 6572 3b22 3e0a  lign: center;">.
+-00000810: 093c 696d 6720 7372 633d 2268 7474 7073  .<img src="https
+-00000820: 3a2f 2f72 6177 2e67 6974 6875 6275 7365  ://raw.githubuse
+-00000830: 7263 6f6e 7465 6e74 2e63 6f6d 2f73 7033  rcontent.com/sp3
+-00000840: 7274 6168 2f74 6963 6b74 6572 6961 6c2f  rtah/tickterial/
+-00000850: 6d61 7374 6572 2f74 6963 6b74 6572 6961  master/tickteria
+-00000860: 6c2e 706e 6722 2061 6c74 3d22 636f 7665  l.png" alt="cove
+-00000870: 7222 2074 6974 6c65 3d22 7469 636b 7465  r" title="tickte
+-00000880: 7269 616c 206c 6f67 6f22 2f3e 0a3c 703e  rial logo"/>.<p>
+-00000890: 0a0a 2323 2044 6f77 6e6c 6f61 6420 616e  ..## Download an
+-000008a0: 6420 6361 6368 6520 7469 636b 2064 6174  d cache tick dat
+-000008b0: 6128 6d61 7465 7269 616c 2920 6672 6f6d  a(material) from
+-000008c0: 2044 756b 6173 636f 7079 2042 616e 6b20   Dukascopy Bank 
+-000008d0: 5341 0a54 6869 7320 6973 2061 206c 6f63  SA.This is a loc
+-000008e0: 616c 2041 5049 2073 6572 7665 7220 7468  al API server th
+-000008f0: 6174 2064 6f77 6e6c 6f61 6473 2074 6963  at downloads tic
+-00000900: 6b20 6461 7461 206f 6e20 7265 7175 6573  k data on reques
+-00000910: 7420 616e 6420 6361 6368 6573 2072 6573  t and caches res
+-00000920: 756c 7473 2066 6f72 2073 7562 7365 7175  ults for subsequ
+-00000930: 656e 7420 6361 6c6c 732e 2046 696e 616c  ent calls. Final
+-00000940: 6c79 2c20 6120 6672 6565 2068 6973 746f  ly, a free histo
+-00000950: 7269 6361 6c20 6461 7461 2063 6f6c 6c65  rical data colle
+-00000960: 6374 696f 6e20 666f 7220 6261 636b 7465  ction for backte
+-00000970: 7374 696e 6720 796f 7572 2066 6f72 6578  sting your forex
+-00000980: 2074 7261 6469 6e67 2061 6c67 6f72 6974   trading algorit
+-00000990: 686d 7321 0a41 6c6c 2069 6e73 7472 756d  hms!.All instrum
+-000009a0: 656e 7473 206f 6e20 5b74 6869 7320 7061  ents on [this pa
+-000009b0: 6765 5d28 6874 7470 733a 2f2f 7777 772e  ge](https://www.
+-000009c0: 6475 6b61 7363 6f70 792e 636f 6d2f 7377  dukascopy.com/sw
+-000009d0: 6973 732f 656e 676c 6973 682f 6d61 726b  iss/english/mark
+-000009e0: 6574 7761 7463 682f 6869 7374 6f72 6963  etwatch/historic
+-000009f0: 616c 2f29 2061 7265 2073 7570 706f 7274  al/) are support
+-00000a00: 6564 2120 2842 7574 206f 6e6c 7920 6063  ed! (But only `c
+-00000a10: 7572 7265 6e63 7920 7061 6972 7360 2061  urrency pairs` a
+-00000a20: 7265 2074 6573 7465 6420 6261 7365 6420  re tested based 
+-00000a30: 6f6e 206d 7920 7573 6520 6361 7365 2e29  on my use case.)
+-00000a40: 2e20 203c 6120 6872 6566 3d22 6d61 696c  .  <a href="mail
+-00000a50: 746f 3a6e 6761 6972 6131 346e 656c 736f  to:ngaira14nelso
+-00000a60: 6e40 676d 6169 6c2e 636f 6d22 3e45 6d61  n@gmail.com">Ema
+-00000a70: 696c 206d 653c 2f61 3e20 666f 7220 7370  il me</a> for sp
+-00000a80: 6563 6961 6c20 7265 7175 6573 7473 2e0a  ecial requests..
+-00000a90: 0a23 2320 496e 7374 616c 6c61 7469 6f6e  .## Installation
+-00000aa0: 203a 3a50 7974 686f 6e33 0a60 6060 7069   ::Python3.```pi
+-00000ab0: 7020 696e 7374 616c 6c20 7469 636b 7465  p install tickte
+-00000ac0: 7269 616c 6060 600a 0a23 2320 5573 6167  rial```..## Usag
+-00000ad0: 650a 5468 6973 206d 6f64 756c 6520 6361  e.This module ca
+-00000ae0: 6e20 6265 2075 7365 6420 696e 2074 776f  n be used in two
+-00000af0: 206d 6f64 6573 2e20 4173 2061 6e20 4150   modes. As an AP
+-00000b00: 4920 7365 7276 6572 2075 7369 6e67 2061  I server using a
+-00000b10: 2060 666c 6173 6b60 2062 6163 6b65 6e64   `flask` backend
+-00000b20: 2c20 616e 6420 6173 2061 206d 6f64 756c  , and as a modul
+-00000b30: 652e 0a0a 2323 2060 4d6f 6475 6c65 2075  e...## `Module u
+-00000b40: 7361 6765 600a 6060 6070 7974 686f 6e0a  sage`.```python.
+-00000b50: 6672 6f6d 2064 6174 6574 696d 6520 696d  from datetime im
+-00000b60: 706f 7274 2064 6174 6574 696d 652c 2074  port datetime, t
+-00000b70: 696d 6564 656c 7461 0a66 726f 6d20 7469  imedelta.from ti
+-00000b80: 636b 7465 7269 616c 2069 6d70 6f72 7420  ckterial import 
+-00000b90: 7469 636b 6c6f 6164 6572 0a0a 6465 6620  tickloader..def 
+-00000ba0: 646f 776e 6c6f 6164 2829 3a0a 0970 6572  download():..per
+-00000bb0: 696f 6420 3d20 6461 7465 7469 6d65 2e6e  iod = datetime.n
+-00000bc0: 6f77 2829 202d 2074 696d 6564 656c 7461  ow() - timedelta
+-00000bd0: 286d 696e 7574 6573 3d36 3029 2023 2070  (minutes=60) # p
+-00000be0: 7265 7669 6f75 7320 686f 7572 0a09 6461  revious hour..da
+-00000bf0: 7461 203d 2074 6963 6b6c 6f61 6465 722e  ta = tickloader.
+-00000c00: 646f 776e 6c6f 6164 2827 4742 5055 5344  download('GBPUSD
+-00000c10: 272c 2070 6572 696f 6429 0a09 230a 0963  ', period)..#..c
+-00000c20: 6f75 6e74 203d 2034 0a09 666f 7220 696e  ount = 4..for in
+-00000c30: 6465 782c 2074 6963 6b20 696e 2065 6e75  dex, tick in enu
+-00000c40: 6d65 7261 7465 2864 6174 6129 3a0a 0909  merate(data):...
+-00000c50: 7072 696e 7428 7469 636b 290a 0909 230a  print(tick)...#.
+-00000c60: 0909 636f 756e 7420 2d3d 2031 0a09 0969  ..count -= 1...i
+-00000c70: 6620 6e6f 7420 636f 756e 743a 0a09 0909  f not count:....
+-00000c80: 7072 696e 7428 6627 2d2d 7368 6f77 696e  print(f'--showin
+-00000c90: 6720 6669 7273 7420 7b69 6e64 6578 202b  g first {index +
+-00000ca0: 2031 7d20 7469 636b 732d 2d27 290a 0909   1} ticks--')...
+-00000cb0: 0962 7265 616b 0a0a 646f 776e 6c6f 6164  .break..download
+-00000cc0: 2829 0a70 7269 6e74 2827 2d2d 656e 642d  ().print('--end-
+-00000cd0: 2d27 290a 6060 600a 0a23 2320 6053 616d  -').```..## `Sam
+-00000ce0: 706c 6520 6f75 7470 7574 2066 726f 6d20  ple output from 
+-00000cf0: 4742 5055 5344 600a 607b 2774 696d 6573  GBPUSD`.`{'times
+-00000d00: 7461 6d70 273a 2031 3638 3936 3331 3139  tamp': 168963119
+-00000d10: 362e 3837 352c 2027 6173 6b27 3a20 312e  6.875, 'ask': 1.
+-00000d20: 3330 3738 382c 2027 6269 6427 3a20 312e  30788, 'bid': 1.
+-00000d30: 3330 3737 382c 2027 6173 6b2d 766f 6c27  30778, 'ask-vol'
+-00000d40: 3a20 3930 3030 3030 2c20 2762 6964 2d76  : 900000, 'bid-v
+-00000d50: 6f6c 273a 2039 3030 3030 307d 600a 0a0a  ol': 900000}`...
+-00000d60: 2323 2060 4150 492d 6d6f 6465 2075 7361  ## `API-mode usa
+-00000d70: 6765 600a 6043 6f6d 696e 6720 736f 6f6e  ge`.`Coming soon
+-00000d80: 2e2e 2e60 0a0a 2323 2054 4f44 4f0a 2d20  ...`..## TODO.- 
+-00000d90: 496e 7465 726e 616c 6c79 2063 6f6e 7665  Internally conve
+-00000da0: 7274 2070 7269 6365 7320 746f 2066 6c6f  rt prices to flo
+-00000db0: 6174 2009 0909 0909 0909 0909 0909 0909  at .............
+-00000dc0: 0909 0909 2d20 444f 4e45 0a2d 2041 6464  ....- DONE.- Add
+-00000dd0: 2064 6174 6162 6173 6520 6361 6368 696e   database cachin
+-00000de0: 6720 666f 7220 6c61 7267 6520 6f66 666c  g for large offl
+-00000df0: 696e 6520 6869 7374 6f72 6965 730a 2d20  ine histories.- 
+-00000e00: 4164 6420 4150 4920 6675 6e63 7469 6f6e  Add API function
+-00000e10: 616c 6974 7920 666f 7220 7573 6520 6173  ality for use as
+-00000e20: 2061 206c 6f63 616c 2074 6370 2073 7472   a local tcp str
+-00000e30: 6561 6d69 6e67 2073 6572 7669 6365 0a2d  eaming service.-
+-00000e40: 2043 6f6e 7461 696e 6572 697a 6520 7468   Containerize th
+-00000e50: 6520 4150 4920 7468 726f 7567 6820 646f  e API through do
+-00000e60: 636b 6572 2066 6f72 2065 6173 6520 6f66  cker for ease of
+-00000e70: 2075 7365 0a2d 2053 7469 636b 2061 726f   use.- Stick aro
+-00000e80: 756e 642e 2054 6865 7265 2773 206d 6f72  und. There's mor
+-00000e90: 6520 636f 6d69 6e67 210a 0a23 2320 4e6f  e coming!..## No
+-00000ea0: 7465 730a 2d20 4361 6368 6520 6973 2073  tes.- Cache is s
+-00000eb0: 746f 7265 2069 6e20 5554 432e 2050 6173  tore in UTC. Pas
+-00000ec0: 7320 796f 7572 2055 5443 2074 696d 6520  s your UTC time 
+-00000ed0: 6469 6666 6572 656e 6365 2061 7320 6c61  difference as la
+-00000ee0: 7374 2070 6172 616d 6574 6572 2074 6f20  st parameter to 
+-00000ef0: 6074 6963 6b6c 6f61 6465 722e 646f 776e  `tickloader.down
+-00000f00: 6c6f 6164 6020 746f 2066 6978 206c 6f63  load` to fix loc
+-00000f10: 616c 2074 696d 6520 6f66 6673 6574 2e0a  al time offset..
+-00000f20: 2d20 5469 636b 2064 6174 6120 6361 6e20  - Tick data can 
+-00000f30: 6f6e 6c79 2062 6520 6665 7463 6820 746f  only be fetch to
+-00000f40: 2074 6865 2070 7265 7669 6f75 7320 686f   the previous ho
+-00000f50: 7572 2e20 4375 7272 656e 7420 686f 7572  ur. Current hour
+-00000f60: 2072 6574 7572 6e73 2034 3034 2e20 5468   returns 404. Th
+-00000f70: 6973 2069 7320 6861 6e64 6c65 6420 696e  is is handled in
+-00000f80: 7465 726e 616c 6c79 2074 686f 7567 680a  ternally though.
+-00000f90: 2d20 4361 6368 6520 6973 2073 746f 7265  - Cache is store
+-00000fa0: 6420 696e 2063 7572 7265 6e74 2077 6f72  d in current wor
+-00000fb0: 6b69 6e67 2064 6972 6563 746f 7279 2c20  king directory, 
+-00000fc0: 7061 7468 203d 2060 2e74 6963 6b2d 6461  path = `.tick-da
+-00000fd0: 7461 602e 204d 6f76 6520 7468 6973 2064  ta`. Move this d
+-00000fe0: 6972 6563 746f 7279 2077 6865 6e20 6d69  irectory when mi
+-00000ff0: 6772 6174 696e 6720 796f 7572 2073 6572  grating your ser
+-00001000: 7665 7220 746f 2073 6176 6520 6261 6e64  ver to save band
+-00001010: 7769 6474 6820 616e 6420 6b65 6570 2079  width and keep y
+-00001020: 6f75 7220 6361 6368 6564 2064 6174 612c  our cached data,
+-00001030: 206f 7220 6d6f 756e 7420 6120 6c6f 6361   or mount a loca
+-00001040: 6c20 6469 7265 6374 6f72 7920 7768 656e  l directory when
+-00001050: 2075 7369 6e67 2064 6f63 6b65 7220 766f   using docker vo
+-00001060: 6c75 6d65 732e 0a0a 2323 2060 506c 6561  lumes...## `Plea
+-00001070: 7365 2064 6f6e 6174 6520 746f 206b 6565  se donate to kee
+-00001080: 7020 6465 7665 6c6f 706d 656e 7420 676f  p development go
+-00001090: 696e 6760 0a2d 204d 7920 5075 626c 6963  ing`.- My Public
+-000010a0: 2041 6464 7265 7373 2074 6f20 5265 6365   Address to Rece
+-000010b0: 6976 6520 4254 433a 2060 6263 3171 6738  ive BTC: `bc1qg8
+-000010c0: 7471 6130 617a 6c37 656c 3338 7774 6466  tqa0azl7el38wtdf
+-000010d0: 6177 786e 6a32 7466 7a34 3661 6a74 6a6e  awxnj2tfz46ajtjn
+-000010e0: 7636 3835 600a 2d20 5669 6120 5b54 7275  v685`.- Via [Tru
+-000010f0: 7374 2057 616c 6c65 745d 2868 7474 7073  st Wallet](https
+-00001100: 3a2f 2f6c 696e 6b2e 7472 7573 7477 616c  ://link.trustwal
+-00001110: 6c65 742e 636f 6d2f 7365 6e64 3f63 6f69  let.com/send?coi
+-00001120: 6e3d 3026 6164 6472 6573 733d 6263 3171  n=0&address=bc1q
+-00001130: 6738 7471 6130 617a 6c37 656c 3338 7774  g8tqa0azl7el38wt
+-00001140: 6466 6177 786e 6a32 7466 7a34 3661 6a74  dfawxnj2tfz46ajt
+-00001150: 6a6e 7636 3835 290a                      jnv685).
++00000010: 3a20 322e 310d 0a4e 616d 653a 2074 6963  : 2.1..Name: tic
++00000020: 6b74 6572 6961 6c0d 0a56 6572 7369 6f6e  kterial..Version
++00000030: 3a20 312e 312e 300d 0a53 756d 6d61 7279  : 1.1.0..Summary
++00000040: 3a20 446f 776e 6c6f 6164 2074 6963 6b20  : Download tick 
++00000050: 6461 7461 2066 726f 6d20 4475 6b61 7363  data from Dukasc
++00000060: 6f70 7920 4261 6e6b 2053 4120 746f 206c  opy Bank SA to l
++00000070: 6f63 616c 2063 6163 6865 2077 6974 6820  ocal cache with 
++00000080: 6375 7374 6f6d 2073 696d 756c 6174 6564  custom simulated
++00000090: 2070 7269 6365 2073 7472 6561 6d73 210d   price streams!.
++000000a0: 0a41 7574 686f 722d 656d 6169 6c3a 2064  .Author-email: d
++000000b0: 7275 6939 203c 6e67 6169 7261 3134 6e65  rui9 <ngaira14ne
++000000c0: 6c73 6f6e 4067 6d61 696c 2e63 6f6d 3e0d  lson@gmail.com>.
++000000d0: 0a4c 6963 656e 7365 3a20 4d49 5420 4c69  .License: MIT Li
++000000e0: 6365 6e73 650d 0a20 2020 2020 2020 200d  cense..        .
++000000f0: 0a20 2020 2020 2020 2043 6f70 7972 6967  .        Copyrig
++00000100: 6874 2028 6329 2032 3032 3420 6472 7569  ht (c) 2024 drui
++00000110: 390d 0a20 2020 2020 2020 200d 0a20 2020  9..        ..   
++00000120: 2020 2020 2050 6572 6d69 7373 696f 6e20       Permission 
++00000130: 6973 2068 6572 6562 7920 6772 616e 7465  is hereby grante
++00000140: 642c 2066 7265 6520 6f66 2063 6861 7267  d, free of charg
++00000150: 652c 2074 6f20 616e 7920 7065 7273 6f6e  e, to any person
++00000160: 206f 6274 6169 6e69 6e67 2061 2063 6f70   obtaining a cop
++00000170: 790d 0a20 2020 2020 2020 206f 6620 7468  y..        of th
++00000180: 6973 2073 6f66 7477 6172 6520 616e 6420  is software and 
++00000190: 6173 736f 6369 6174 6564 2064 6f63 756d  associated docum
++000001a0: 656e 7461 7469 6f6e 2066 696c 6573 2028  entation files (
++000001b0: 7468 6520 2253 6f66 7477 6172 6522 292c  the "Software"),
++000001c0: 2074 6f20 6465 616c 0d0a 2020 2020 2020   to deal..      
++000001d0: 2020 696e 2074 6865 2053 6f66 7477 6172    in the Softwar
++000001e0: 6520 7769 7468 6f75 7420 7265 7374 7269  e without restri
++000001f0: 6374 696f 6e2c 2069 6e63 6c75 6469 6e67  ction, including
++00000200: 2077 6974 686f 7574 206c 696d 6974 6174   without limitat
++00000210: 696f 6e20 7468 6520 7269 6768 7473 0d0a  ion the rights..
++00000220: 2020 2020 2020 2020 746f 2075 7365 2c20          to use, 
++00000230: 636f 7079 2c20 6d6f 6469 6679 2c20 6d65  copy, modify, me
++00000240: 7267 652c 2070 7562 6c69 7368 2c20 6469  rge, publish, di
++00000250: 7374 7269 6275 7465 2c20 7375 626c 6963  stribute, sublic
++00000260: 656e 7365 2c20 616e 642f 6f72 2073 656c  ense, and/or sel
++00000270: 6c0d 0a20 2020 2020 2020 2063 6f70 6965  l..        copie
++00000280: 7320 6f66 2074 6865 2053 6f66 7477 6172  s of the Softwar
++00000290: 652c 2061 6e64 2074 6f20 7065 726d 6974  e, and to permit
++000002a0: 2070 6572 736f 6e73 2074 6f20 7768 6f6d   persons to whom
++000002b0: 2074 6865 2053 6f66 7477 6172 6520 6973   the Software is
++000002c0: 0d0a 2020 2020 2020 2020 6675 726e 6973  ..        furnis
++000002d0: 6865 6420 746f 2064 6f20 736f 2c20 7375  hed to do so, su
++000002e0: 626a 6563 7420 746f 2074 6865 2066 6f6c  bject to the fol
++000002f0: 6c6f 7769 6e67 2063 6f6e 6469 7469 6f6e  lowing condition
++00000300: 733a 0d0a 2020 2020 2020 2020 0d0a 2020  s:..        ..  
++00000310: 2020 2020 2020 5468 6520 6162 6f76 6520        The above 
++00000320: 636f 7079 7269 6768 7420 6e6f 7469 6365  copyright notice
++00000330: 2061 6e64 2074 6869 7320 7065 726d 6973   and this permis
++00000340: 7369 6f6e 206e 6f74 6963 6520 7368 616c  sion notice shal
++00000350: 6c20 6265 2069 6e63 6c75 6465 6420 696e  l be included in
++00000360: 2061 6c6c 0d0a 2020 2020 2020 2020 636f   all..        co
++00000370: 7069 6573 206f 7220 7375 6273 7461 6e74  pies or substant
++00000380: 6961 6c20 706f 7274 696f 6e73 206f 6620  ial portions of 
++00000390: 7468 6520 536f 6674 7761 7265 2e0d 0a20  the Software... 
++000003a0: 2020 2020 2020 200d 0a20 2020 2020 2020         ..       
++000003b0: 2054 4845 2053 4f46 5457 4152 4520 4953   THE SOFTWARE IS
++000003c0: 2050 524f 5649 4445 4420 2241 5320 4953   PROVIDED "AS IS
++000003d0: 222c 2057 4954 484f 5554 2057 4152 5241  ", WITHOUT WARRA
++000003e0: 4e54 5920 4f46 2041 4e59 204b 494e 442c  NTY OF ANY KIND,
++000003f0: 2045 5850 5245 5353 204f 520d 0a20 2020   EXPRESS OR..   
++00000400: 2020 2020 2049 4d50 4c49 4544 2c20 494e       IMPLIED, IN
++00000410: 434c 5544 494e 4720 4255 5420 4e4f 5420  CLUDING BUT NOT 
++00000420: 4c49 4d49 5445 4420 544f 2054 4845 2057  LIMITED TO THE W
++00000430: 4152 5241 4e54 4945 5320 4f46 204d 4552  ARRANTIES OF MER
++00000440: 4348 414e 5441 4249 4c49 5459 2c0d 0a20  CHANTABILITY,.. 
++00000450: 2020 2020 2020 2046 4954 4e45 5353 2046         FITNESS F
++00000460: 4f52 2041 2050 4152 5449 4355 4c41 5220  OR A PARTICULAR 
++00000470: 5055 5250 4f53 4520 414e 4420 4e4f 4e49  PURPOSE AND NONI
++00000480: 4e46 5249 4e47 454d 454e 542e 2049 4e20  NFRINGEMENT. IN 
++00000490: 4e4f 2045 5645 4e54 2053 4841 4c4c 2054  NO EVENT SHALL T
++000004a0: 4845 0d0a 2020 2020 2020 2020 4155 5448  HE..        AUTH
++000004b0: 4f52 5320 4f52 2043 4f50 5952 4947 4854  ORS OR COPYRIGHT
++000004c0: 2048 4f4c 4445 5253 2042 4520 4c49 4142   HOLDERS BE LIAB
++000004d0: 4c45 2046 4f52 2041 4e59 2043 4c41 494d  LE FOR ANY CLAIM
++000004e0: 2c20 4441 4d41 4745 5320 4f52 204f 5448  , DAMAGES OR OTH
++000004f0: 4552 0d0a 2020 2020 2020 2020 4c49 4142  ER..        LIAB
++00000500: 494c 4954 592c 2057 4845 5448 4552 2049  ILITY, WHETHER I
++00000510: 4e20 414e 2041 4354 494f 4e20 4f46 2043  N AN ACTION OF C
++00000520: 4f4e 5452 4143 542c 2054 4f52 5420 4f52  ONTRACT, TORT OR
++00000530: 204f 5448 4552 5749 5345 2c20 4152 4953   OTHERWISE, ARIS
++00000540: 494e 4720 4652 4f4d 2c0d 0a20 2020 2020  ING FROM,..     
++00000550: 2020 204f 5554 204f 4620 4f52 2049 4e20     OUT OF OR IN 
++00000560: 434f 4e4e 4543 5449 4f4e 2057 4954 4820  CONNECTION WITH 
++00000570: 5448 4520 534f 4654 5741 5245 204f 5220  THE SOFTWARE OR 
++00000580: 5448 4520 5553 4520 4f52 204f 5448 4552  THE USE OR OTHER
++00000590: 2044 4541 4c49 4e47 5320 494e 2054 4845   DEALINGS IN THE
++000005a0: 0d0a 2020 2020 2020 2020 534f 4654 5741  ..        SOFTWA
++000005b0: 5245 2e0d 0a20 2020 2020 2020 200d 0a50  RE...        ..P
++000005c0: 726f 6a65 6374 2d55 524c 3a20 486f 6d65  roject-URL: Home
++000005d0: 7061 6765 2c20 6874 7470 733a 2f2f 6769  page, https://gi
++000005e0: 7468 7562 2e63 6f6d 2f64 7275 6939 2f74  thub.com/drui9/t
++000005f0: 6963 6b74 6572 6961 6c0d 0a4b 6579 776f  ickterial..Keywo
++00000600: 7264 733a 2066 6f72 6578 2c66 6f72 6578  rds: forex,forex
++00000610: 2d64 6174 612c 7374 7265 616d 696e 672c  -data,streaming,
++00000620: 666f 7265 7820 0d0a 436c 6173 7369 6669  forex ..Classifi
++00000630: 6572 3a20 4c69 6365 6e73 6520 3a3a 204f  er: License :: O
++00000640: 5349 2041 7070 726f 7665 6420 3a3a 204d  SI Approved :: M
++00000650: 4954 204c 6963 656e 7365 0d0a 436c 6173  IT License..Clas
++00000660: 7369 6669 6572 3a20 5072 6f67 7261 6d6d  sifier: Programm
++00000670: 696e 6720 4c61 6e67 7561 6765 203a 3a20  ing Language :: 
++00000680: 5079 7468 6f6e 0d0a 436c 6173 7369 6669  Python..Classifi
++00000690: 6572 3a20 5072 6f67 7261 6d6d 696e 6720  er: Programming 
++000006a0: 4c61 6e67 7561 6765 203a 3a20 5079 7468  Language :: Pyth
++000006b0: 6f6e 203a 3a20 330d 0a52 6571 7569 7265  on :: 3..Require
++000006c0: 732d 5079 7468 6f6e 3a20 3e3d 332e 3130  s-Python: >=3.10
++000006d0: 0d0a 4465 7363 7269 7074 696f 6e2d 436f  ..Description-Co
++000006e0: 6e74 656e 742d 5479 7065 3a20 7465 7874  ntent-Type: text
++000006f0: 2f6d 6172 6b64 6f77 6e0d 0a4c 6963 656e  /markdown..Licen
++00000700: 7365 2d46 696c 653a 204c 4943 454e 5345  se-File: LICENSE
++00000710: 0d0a 5265 7175 6972 6573 2d44 6973 743a  ..Requires-Dist:
++00000720: 206c 6f67 7572 753d 3d30 2e36 2e30 0d0a   loguru==0.6.0..
++00000730: 5265 7175 6972 6573 2d44 6973 743a 2070  Requires-Dist: p
++00000740: 7974 7a3d 3d32 3032 322e 370d 0a52 6571  ytz==2022.7..Req
++00000750: 7569 7265 732d 4469 7374 3a20 7265 7175  uires-Dist: requ
++00000760: 6573 7473 3d3d 322e 3331 2e30 0d0a 5072  ests==2.31.0..Pr
++00000770: 6f76 6964 6573 2d45 7874 7261 3a20 6465  ovides-Extra: de
++00000780: 760d 0a52 6571 7569 7265 732d 4469 7374  v..Requires-Dist
++00000790: 3a20 6275 696c 643b 2065 7874 7261 203d  : build; extra =
++000007a0: 3d20 2264 6576 220d 0a52 6571 7569 7265  = "dev"..Require
++000007b0: 732d 4469 7374 3a20 7477 696e 653b 2065  s-Dist: twine; e
++000007c0: 7874 7261 203d 3d20 2264 6576 220d 0a0d  xtra == "dev"...
++000007d0: 0a3c 7020 7374 796c 653d 2274 6578 742d  .<p style="text-
++000007e0: 616c 6967 6e3a 2063 656e 7465 723b 223e  align: center;">
++000007f0: 0d0a 093c 696d 6720 7372 633d 2268 7474  ...<img src="htt
++00000800: 7073 3a2f 2f72 6177 2e67 6974 6875 6275  ps://raw.githubu
++00000810: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f73  sercontent.com/s
++00000820: 7033 7274 6168 2f74 6963 6b74 6572 6961  p3rtah/tickteria
++00000830: 6c2f 6d61 7374 6572 2f74 6963 6b74 6572  l/master/tickter
++00000840: 6961 6c2e 706e 6722 2061 6c74 3d22 636f  ial.png" alt="co
++00000850: 7665 7222 2074 6974 6c65 3d22 7469 636b  ver" title="tick
++00000860: 7465 7269 616c 206c 6f67 6f22 2f3e 0d0a  terial logo"/>..
++00000870: 3c70 3e0d 0a0d 0a23 2320 446f 776e 6c6f  <p>....## Downlo
++00000880: 6164 2061 6e64 2063 6163 6865 2074 6963  ad and cache tic
++00000890: 6b20 6461 7461 286d 6174 6572 6961 6c29  k data(material)
++000008a0: 2066 726f 6d20 4475 6b61 7363 6f70 7920   from Dukascopy 
++000008b0: 4261 6e6b 2053 410d 0a54 6869 7320 6973  Bank SA..This is
++000008c0: 2061 206c 6f63 616c 2041 5049 2073 6572   a local API ser
++000008d0: 7665 7220 7468 6174 2064 6f77 6e6c 6f61  ver that downloa
++000008e0: 6473 2074 6963 6b20 6461 7461 206f 6e20  ds tick data on 
++000008f0: 7265 7175 6573 7420 616e 6420 6361 6368  request and cach
++00000900: 6573 2072 6573 756c 7473 2066 6f72 2073  es results for s
++00000910: 7562 7365 7175 656e 7420 6361 6c6c 732e  ubsequent calls.
++00000920: 2046 696e 616c 6c79 2c20 6120 6672 6565   Finally, a free
++00000930: 2068 6973 746f 7269 6361 6c20 6461 7461   historical data
++00000940: 2063 6f6c 6c65 6374 696f 6e20 666f 7220   collection for 
++00000950: 6261 636b 7465 7374 696e 6720 796f 7572  backtesting your
++00000960: 2066 6f72 6578 2074 7261 6469 6e67 2061   forex trading a
++00000970: 6c67 6f72 6974 686d 7321 0d0a 416c 6c20  lgorithms!..All 
++00000980: 696e 7374 7275 6d65 6e74 7320 6f6e 205b  instruments on [
++00000990: 7468 6973 2070 6167 655d 2868 7474 7073  this page](https
++000009a0: 3a2f 2f77 7777 2e64 756b 6173 636f 7079  ://www.dukascopy
++000009b0: 2e63 6f6d 2f73 7769 7373 2f65 6e67 6c69  .com/swiss/engli
++000009c0: 7368 2f6d 6172 6b65 7477 6174 6368 2f68  sh/marketwatch/h
++000009d0: 6973 746f 7269 6361 6c2f 2920 6172 6520  istorical/) are 
++000009e0: 7375 7070 6f72 7465 6421 2028 4275 7420  supported! (But 
++000009f0: 6f6e 6c79 2060 6375 7272 656e 6379 2070  only `currency p
++00000a00: 6169 7273 6020 6172 6520 7465 7374 6564  airs` are tested
++00000a10: 2062 6173 6564 206f 6e20 6d79 2075 7365   based on my use
++00000a20: 2063 6173 652e 292e 2020 3c61 2068 7265   case.).  <a hre
++00000a30: 663d 226d 6169 6c74 6f3a 6e67 6169 7261  f="mailto:ngaira
++00000a40: 3134 6e65 6c73 6f6e 4067 6d61 696c 2e63  14nelson@gmail.c
++00000a50: 6f6d 223e 456d 6169 6c20 6d65 3c2f 613e  om">Email me</a>
++00000a60: 2066 6f72 2073 7065 6369 616c 2072 6571   for special req
++00000a70: 7565 7374 732e 0d0a 0d0a 2323 2049 6e73  uests.....## Ins
++00000a80: 7461 6c6c 6174 696f 6e20 3a3a 5079 7468  tallation ::Pyth
++00000a90: 6f6e 330d 0a60 6060 7069 7020 696e 7374  on3..```pip inst
++00000aa0: 616c 6c20 7469 636b 7465 7269 616c 6060  all tickterial``
++00000ab0: 600d 0a0d 0a23 2320 5573 6167 650d 0a54  `....## Usage..T
++00000ac0: 6869 7320 6d6f 6475 6c65 2063 616e 2062  his module can b
++00000ad0: 6520 7573 6564 2069 6e20 7477 6f20 6d6f  e used in two mo
++00000ae0: 6465 732e 2041 7320 616e 2041 5049 2073  des. As an API s
++00000af0: 6572 7665 7220 7573 696e 6720 6120 6066  erver using a `f
++00000b00: 6c61 736b 6020 6261 636b 656e 642c 2061  lask` backend, a
++00000b10: 6e64 2061 7320 6120 6d6f 6475 6c65 2e0d  nd as a module..
++00000b20: 0a0d 0a23 2320 604d 6f64 756c 6520 7573  ...## `Module us
++00000b30: 6167 6560 0d0a 6060 6070 7974 686f 6e0d  age`..```python.
++00000b40: 0a66 726f 6d20 6461 7465 7469 6d65 2069  .from datetime i
++00000b50: 6d70 6f72 7420 6461 7465 7469 6d65 2c20  mport datetime, 
++00000b60: 7469 6d65 6465 6c74 610d 0a66 726f 6d20  timedelta..from 
++00000b70: 7469 636b 7465 7269 616c 2069 6d70 6f72  tickterial impor
++00000b80: 7420 7469 636b 6c6f 6164 6572 0d0a 0d0a  t tickloader....
++00000b90: 6465 6620 646f 776e 6c6f 6164 2829 3a0d  def download():.
++00000ba0: 0a09 7065 7269 6f64 203d 2064 6174 6574  ..period = datet
++00000bb0: 696d 652e 6e6f 7728 2920 2d20 7469 6d65  ime.now() - time
++00000bc0: 6465 6c74 6128 6d69 6e75 7465 733d 3630  delta(minutes=60
++00000bd0: 2920 2320 7072 6576 696f 7573 2068 6f75  ) # previous hou
++00000be0: 720d 0a09 6461 7461 203d 2074 6963 6b6c  r...data = tickl
++00000bf0: 6f61 6465 722e 646f 776e 6c6f 6164 2827  oader.download('
++00000c00: 4742 5055 5344 272c 2070 6572 696f 6429  GBPUSD', period)
++00000c10: 0d0a 0923 0d0a 0963 6f75 6e74 203d 2034  ...#...count = 4
++00000c20: 0d0a 0966 6f72 2069 6e64 6578 2c20 7469  ...for index, ti
++00000c30: 636b 2069 6e20 656e 756d 6572 6174 6528  ck in enumerate(
++00000c40: 6461 7461 293a 0d0a 0909 7072 696e 7428  data):....print(
++00000c50: 7469 636b 290d 0a09 0923 0d0a 0909 636f  tick)....#....co
++00000c60: 756e 7420 2d3d 2031 0d0a 0909 6966 206e  unt -= 1....if n
++00000c70: 6f74 2063 6f75 6e74 3a0d 0a09 0909 7072  ot count:.....pr
++00000c80: 696e 7428 6627 2d2d 7368 6f77 696e 6720  int(f'--showing 
++00000c90: 6669 7273 7420 7b69 6e64 6578 202b 2031  first {index + 1
++00000ca0: 7d20 7469 636b 732d 2d27 290d 0a09 0909  } ticks--').....
++00000cb0: 6272 6561 6b0d 0a0d 0a64 6f77 6e6c 6f61  break....downloa
++00000cc0: 6428 290d 0a70 7269 6e74 2827 2d2d 656e  d()..print('--en
++00000cd0: 642d 2d27 290d 0a60 6060 0d0a 0d0a 2323  d--')..```....##
++00000ce0: 2060 5361 6d70 6c65 206f 7574 7075 7420   `Sample output 
++00000cf0: 6672 6f6d 2047 4250 5553 4460 0d0a 607b  from GBPUSD`..`{
++00000d00: 2774 696d 6573 7461 6d70 273a 2031 3638  'timestamp': 168
++00000d10: 3936 3331 3139 362e 3837 352c 2027 6173  9631196.875, 'as
++00000d20: 6b27 3a20 312e 3330 3738 382c 2027 6269  k': 1.30788, 'bi
++00000d30: 6427 3a20 312e 3330 3737 382c 2027 6173  d': 1.30778, 'as
++00000d40: 6b2d 766f 6c27 3a20 3930 3030 3030 2c20  k-vol': 900000, 
++00000d50: 2762 6964 2d76 6f6c 273a 2039 3030 3030  'bid-vol': 90000
++00000d60: 307d 600d 0a0d 0a0d 0a23 2320 6041 5049  0}`......## `API
++00000d70: 2d6d 6f64 6520 7573 6167 6560 0d0a 6043  -mode usage`..`C
++00000d80: 6f6d 696e 6720 736f 6f6e 2e2e 2e60 0d0a  oming soon...`..
++00000d90: 0d0a 2323 2054 4f44 4f0d 0a2d 2049 6e74  ..## TODO..- Int
++00000da0: 6572 6e61 6c6c 7920 636f 6e76 6572 7420  ernally convert 
++00000db0: 7072 6963 6573 2074 6f20 666c 6f61 7409  prices to float.
++00000dc0: 2d20 444f 4e45 0d0a 2d20 4164 6420 6461  - DONE..- Add da
++00000dd0: 7461 6261 7365 2063 6163 6869 6e67 2066  tabase caching f
++00000de0: 6f72 206c 6172 6765 206f 6666 6c69 6e65  or large offline
++00000df0: 2068 6973 746f 7269 6573 202d 2044 4550   histories - DEP
++00000e00: 5245 4341 5445 440d 0a2d 2041 6464 2041  RECATED..- Add A
++00000e10: 5049 2066 756e 6374 696f 6e61 6c69 7479  PI functionality
++00000e20: 2066 6f72 2075 7365 2061 7320 6120 6c6f   for use as a lo
++00000e30: 6361 6c20 7463 7020 7374 7265 616d 696e  cal tcp streamin
++00000e40: 6720 7365 7276 6963 6520 2d20 4849 4748  g service - HIGH
++00000e50: 4552 204c 4556 454c 2046 4541 5455 5245  ER LEVEL FEATURE
++00000e60: 0d0a 2d20 4164 6420 636f 6e73 6f6c 6520  ..- Add console 
++00000e70: 6675 6e63 7469 6f6e 616c 6974 792c 2073  functionality, s
++00000e80: 6176 696e 6720 6869 7374 6f72 7920 6669  aving history fi
++00000e90: 6c65 7320 696e 206d 756c 7469 706c 6520  les in multiple 
++00000ea0: 666f 726d 6174 7320 696e 636c 7564 696e  formats includin
++00000eb0: 6720 6a73 6f6e 2061 6e64 2063 7376 2e0d  g json and csv..
++00000ec0: 0a0d 0a23 2320 4e6f 7465 730d 0a2d 2043  ...## Notes..- C
++00000ed0: 6163 6865 2069 7320 7374 6f72 6520 696e  ache is store in
++00000ee0: 2055 5443 2e20 5061 7373 2079 6f75 7220   UTC. Pass your 
++00000ef0: 5554 4320 7469 6d65 2064 6966 6665 7265  UTC time differe
++00000f00: 6e63 6520 6173 206c 6173 7420 7061 7261  nce as last para
++00000f10: 6d65 7465 7220 746f 2060 7469 636b 6c6f  meter to `ticklo
++00000f20: 6164 6572 2e64 6f77 6e6c 6f61 6460 2074  ader.download` t
++00000f30: 6f20 6669 7820 6c6f 6361 6c20 7469 6d65  o fix local time
++00000f40: 206f 6666 7365 742e 0d0a 2d20 5469 636b   offset...- Tick
++00000f50: 2064 6174 6120 6361 6e20 6f6e 6c79 2062   data can only b
++00000f60: 6520 6665 7463 6865 6420 746f 2074 6865  e fetched to the
++00000f70: 2070 7265 7669 6f75 7320 686f 7572 2e20   previous hour. 
++00000f80: 4375 7272 656e 7420 686f 7572 2072 6574  Current hour ret
++00000f90: 7572 6e73 2034 3034 2e20 5468 6973 2069  urns 404. This i
++00000fa0: 7320 6861 6e64 6c65 6420 696e 7465 726e  s handled intern
++00000fb0: 616c 6c79 0d0a 2d20 4361 6368 6520 6973  ally..- Cache is
++00000fc0: 2073 746f 7265 6420 696e 2063 7572 7265   stored in curre
++00000fd0: 6e74 2077 6f72 6b69 6e67 2064 6972 6563  nt working direc
++00000fe0: 746f 7279 2c20 7061 7468 203d 2060 2e74  tory, path = `.t
++00000ff0: 6963 6b2d 6461 7461 602e 204d 6f76 6520  ick-data`. Move 
++00001000: 7468 6973 2064 6972 6563 746f 7279 2077  this directory w
++00001010: 6865 6e20 6d69 6772 6174 696e 6720 796f  hen migrating yo
++00001020: 7572 2073 6572 7665 7220 746f 2073 6176  ur server to sav
++00001030: 6520 6261 6e64 7769 6474 6820 616e 6420  e bandwidth and 
++00001040: 6b65 6570 2079 6f75 7220 6361 6368 6564  keep your cached
++00001050: 2064 6174 612c 206f 7220 6d6f 756e 7420   data, or mount 
++00001060: 6120 6c6f 6361 6c20 6469 7265 6374 6f72  a local director
++00001070: 7920 7768 656e 2075 7369 6e67 2064 6f63  y when using doc
++00001080: 6b65 7220 766f 6c75 6d65 732e 0d0a       ker volumes...
+```
+
