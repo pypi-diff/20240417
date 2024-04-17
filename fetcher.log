@@ -8023,3 +8023,24 @@
 [2024-04-17 04:25:16] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
 [2024-04-17 04:25:16] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
 [2024-04-17 04:25:16] INFO root fetch - main [MainThread]: Store serial: [22798902]
+[2024-04-17 04:27:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798902]
+[2024-04-17 04:27:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 04:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcitemlib
+[2024-04-17 04:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fancy-dataclass
+[2024-04-17 04:27:25] INFO root fetch - processPackages [mcitemlib]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-17 04:27:25] INFO root fetch - processPackages [mcitemlib]: Downloading https://files.pythonhosted.org/packages/ae/a2/8539c3ba9376168c44462f271c114015299ac83154d0f9e7a9a9090a3e50/mcitemlib-0.2.0.tar.gz
+[2024-04-17 04:27:25] INFO root fetch - processPackages [fancy-dataclass]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-17 04:27:25] INFO root fetch - processPackages [fancy-dataclass]: Downloading https://files.pythonhosted.org/packages/76/39/4b57b2d64d89d9cb9f557d2641a5ce051e267edaa3a19af960d0ebdc777b/fancy_dataclass-0.3.0.tar.gz
+[2024-04-17 04:27:25] INFO root fetch - processPackages [mcitemlib]: Downloading https://files.pythonhosted.org/packages/08/bb/6885f79c5b7aa46e014062c928d60d69920051b02cc6b862cdc9cdc3e314/mcitemlib-0.2.1.tar.gz
+[2024-04-17 04:27:25] INFO root fetch - processPackages [mcitemlib]: executing diffoscope
+[2024-04-17 04:27:25] INFO root fetch - processPackages [mcitemlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcitemlib-0.2.0.tar.gz tmp/mcitemlib-0.2.1.tar.gz --markdown 20240417/m/mcitemlib/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-17 04:27:25] INFO root fetch - processPackages [fancy-dataclass]: Downloading https://files.pythonhosted.org/packages/b1/3b/d3e019f145b7e38d00fc44a50c9d6689e294462911272f6afef90ef28fa6/fancy_dataclass-0.3.1.tar.gz
+[2024-04-17 04:27:26] INFO root fetch - processPackages [fancy-dataclass]: executing diffoscope
+[2024-04-17 04:27:26] INFO root fetch - processPackages [fancy-dataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancy_dataclass-0.3.0.tar.gz tmp/fancy_dataclass-0.3.1.tar.gz --markdown 20240417/f/fancy-dataclass/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-17 04:27:26] INFO root fetch - processPackages [mcitemlib]: Remove: archive file [/home/abi/fetcher/tmp/mcitemlib-0.2.0.tar.gz]
+[2024-04-17 04:27:26] INFO root fetch - processPackages [mcitemlib]: Remove: archive file [/home/abi/fetcher/tmp/mcitemlib-0.2.1.tar.gz]
+[2024-04-17 04:27:26] INFO root fetch - main [MainThread]: End processing [mcitemlib]: success
+[2024-04-17 04:27:28] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.3.0.tar.gz]
+[2024-04-17 04:27:28] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.3.1.tar.gz]
+[2024-04-17 04:27:28] INFO root fetch - main [MainThread]: End processing [fancy-dataclass]: success
+[2024-04-17 04:27:28] INFO root fetch - main [MainThread]: Store serial: [22798908]
