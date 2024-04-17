@@ -10552,3 +10552,21 @@
 [2024-04-17 06:57:13] INFO root fetch - processPackages [vllm-nccl-cu11]: Remove: archive file [/home/abi/fetcher/tmp/vllm_nccl_cu11-2.18.1.0.3.0.tar.gz]
 [2024-04-17 06:57:13] INFO root fetch - main [MainThread]: End processing [vllm-nccl-cu11]: success
 [2024-04-17 06:57:13] INFO root fetch - main [MainThread]: Store serial: [22799927]
+[2024-04-17 06:59:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799927]
+[2024-04-17 06:59:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 06:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtnkk-tools
+[2024-04-17 06:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai2-wmd
+[2024-04-17 06:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mockaroo-python
+[2024-04-17 06:59:21] WARNING root fetch - processPackages [xtnkk-tools]: Skipping, unable to determine old version
+[2024-04-17 06:59:21] INFO root fetch - main [MainThread]: End processing [xtnkk-tools] error
+[2024-04-17 06:59:21] INFO root fetch - processPackages [mockaroo-python]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-04-17 06:59:22] WARNING root fetch - processPackages [ai2-wmd]: Skipping, unable to determine old version
+[2024-04-17 06:59:22] INFO root fetch - main [MainThread]: End processing [ai2-wmd] error
+[2024-04-17 06:59:22] INFO root fetch - processPackages [mockaroo-python]: Downloading https://files.pythonhosted.org/packages/ab/79/a7ec98d999effe5ca8d8c5721649231034e0e90614f20893a68b89cbaeeb/mockaroo_python-2.0.0.tar.gz
+[2024-04-17 06:59:22] INFO root fetch - processPackages [mockaroo-python]: Downloading https://files.pythonhosted.org/packages/9e/f7/f29ba81daf3c479b17a708d2bf1c7cffe849cd0f0605a6ae6da9f36febef/mockaroo_python-3.0.0.tar.gz
+[2024-04-17 06:59:22] INFO root fetch - processPackages [mockaroo-python]: executing diffoscope
+[2024-04-17 06:59:22] INFO root fetch - processPackages [mockaroo-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mockaroo_python-2.0.0.tar.gz tmp/mockaroo_python-3.0.0.tar.gz --markdown 20240417/m/mockaroo-python/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-04-17 06:59:23] INFO root fetch - processPackages [mockaroo-python]: Remove: archive file [/home/abi/fetcher/tmp/mockaroo_python-2.0.0.tar.gz]
+[2024-04-17 06:59:23] INFO root fetch - processPackages [mockaroo-python]: Remove: archive file [/home/abi/fetcher/tmp/mockaroo_python-3.0.0.tar.gz]
+[2024-04-17 06:59:23] INFO root fetch - main [MainThread]: End processing [mockaroo-python]: success
+[2024-04-17 06:59:23] INFO root fetch - main [MainThread]: Store serial: [22799938]
