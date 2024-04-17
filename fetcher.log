@@ -23488,3 +23488,47 @@ EOFError: EOF read where object expected
 [2024-04-17 15:03:42] INFO root fetch - processPackages [rustfrecord]: Remove: archive file [/home/abi/fetcher/tmp/rustfrecord-0.1.5.tar.gz]
 [2024-04-17 15:03:42] INFO root fetch - main [MainThread]: End processing [rustfrecord]: success
 [2024-04-17 15:03:42] INFO root fetch - main [MainThread]: Store serial: [22805849]
+[2024-04-17 15:05:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805849]
+[2024-04-17 15:05:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 15:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RsCmwLteMeas
+[2024-04-17 15:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovito
+[2024-04-17 15:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codedepot-git-ai
+[2024-04-17 15:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phenomApis
+[2024-04-17 15:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dol
+[2024-04-17 15:05:52] INFO root fetch - processPackages [codedepot-git-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 15:05:52] INFO root fetch - processPackages [dol]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-17 15:05:52] INFO root fetch - processPackages [RsCmwLteMeas]: New version: [4.0.110] Old Version: [3.7.62.23]
+[2024-04-17 15:05:52] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 15:05:52] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/75/a0/d0e8b138cccd8f61da86fd40d4a8266353af6b5bfed4b3be48a89b58d840/codedepot_git_ai-0.0.8.tar.gz
+[2024-04-17 15:05:52] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/6f/c5/f8a89851ec9b6dd7de8b9fa052a348669681083d710557cbc207275200c6/dol-0.2.9.tar.gz
+[2024-04-17 15:05:52] INFO root fetch - processPackages [ovito]: New version: [3.9.4] Old Version: [3.9.3]
+[2024-04-17 15:05:52] INFO root fetch - processPackages [RsCmwLteMeas]: Downloading https://files.pythonhosted.org/packages/9c/e0/22c3ffab5918e4123106b455ccef7f0f53fd344d144d8ce1e0610bbd3aa1/RsCmwLteMeas-3.7.62.23.tar.gz
+[2024-04-17 15:05:52] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-04-17 15:05:52] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/1f/fb/3fcdaf99d6434aada4ea578dd2a3d046376dcc888a968c197445c5dd195b/codedepot_git_ai-0.0.9.tar.gz
+[2024-04-17 15:05:52] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/54/9b/84ff7b37c9e8a531f64432c812ef371ae4074c27398d60140e842e70443f/dol-0.3.0.tar.gz
+[2024-04-17 15:05:52] INFO root fetch - processPackages [ovito]: Downloading https://files.pythonhosted.org/packages/e9/fc/ac67b3f2827f7c37fbd7a66cf9834f75f4167fc873583c1fa5db45237e8c/ovito-3.9.3-cp39-cp39-win_amd64.whl
+[2024-04-17 15:05:52] INFO root fetch - processPackages [codedepot-git-ai]: executing diffoscope
+[2024-04-17 15:05:52] INFO root fetch - processPackages [codedepot-git-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_git_ai-0.0.8.tar.gz tmp/codedepot_git_ai-0.0.9.tar.gz --markdown 20240417/c/codedepot-git-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 15:05:52] WARNING root fetch - processPackages [ovito]: Skipping package: exceeds size limit 74307634>=10485760
+[2024-04-17 15:05:52] INFO root fetch - main [MainThread]: End processing [ovito] error
+[2024-04-17 15:05:52] INFO root fetch - processPackages [dol]: executing diffoscope
+[2024-04-17 15:05:52] INFO root fetch - processPackages [dol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dol-0.2.9.tar.gz tmp/dol-0.3.0.tar.gz --markdown 20240417/d/dol/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-17 15:05:52] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-04-17 15:05:52] INFO root fetch - processPackages [RsCmwLteMeas]: Downloading https://files.pythonhosted.org/packages/80/1b/c4ab7bc7b49ff7dbc42edb1fdf6d640bed7cc82b80754a66068763690aee/RsCmwLteMeas-4.0.110.tar.gz
+[2024-04-17 15:05:52] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-04-17 15:05:52] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240417/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 15:05:52] INFO root fetch - processPackages [RsCmwLteMeas]: executing diffoscope
+[2024-04-17 15:05:52] INFO root fetch - processPackages [RsCmwLteMeas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCmwLteMeas-3.7.62.23.tar.gz tmp/RsCmwLteMeas-4.0.110.tar.gz --markdown 20240417/R/RsCmwLteMeas/3.7.62.23-4.0.110/README.md --exclude *.pyd
+[2024-04-17 15:05:53] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.8.tar.gz]
+[2024-04-17 15:05:53] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.9.tar.gz]
+[2024-04-17 15:05:53] INFO root fetch - main [MainThread]: End processing [codedepot-git-ai]: success
+[2024-04-17 15:05:53] INFO root fetch - processPackages [dol]: Remove: archive file [/home/abi/fetcher/tmp/dol-0.2.9.tar.gz]
+[2024-04-17 15:05:53] INFO root fetch - processPackages [dol]: Remove: archive file [/home/abi/fetcher/tmp/dol-0.3.0.tar.gz]
+[2024-04-17 15:05:53] INFO root fetch - main [MainThread]: End processing [dol]: success
+[2024-04-17 15:05:53] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-04-17 15:05:53] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-04-17 15:05:53] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-04-17 15:05:57] INFO root fetch - processPackages [RsCmwLteMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwLteMeas-3.7.62.23.tar.gz]
+[2024-04-17 15:05:57] INFO root fetch - processPackages [RsCmwLteMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwLteMeas-4.0.110.tar.gz]
+[2024-04-17 15:05:57] INFO root fetch - main [MainThread]: End processing [RsCmwLteMeas]: success
+[2024-04-17 15:05:57] INFO root fetch - main [MainThread]: Store serial: [22805868]
