@@ -19978,3 +19978,58 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:45:49] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.8.tar.gz]
 [2024-04-17 12:45:49] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2024-04-17 12:45:49] INFO root fetch - main [MainThread]: Store serial: [22804083]
+[2024-04-17 12:47:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804083]
+[2024-04-17 12:47:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond-account-invoice
+[2024-04-17 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zbx-wxwork-assistant
+[2024-04-17 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-account
+[2024-04-17 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-account
+[2024-04-17 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duy-train-package
+[2024-04-17 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: radix-engine-toolkit
+[2024-04-17 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-account
+[2024-04-17 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightning-cloud
+[2024-04-17 12:47:57] INFO root fetch - processPackages [trytond-account-invoice]: New version: [7.0.4] Old Version: [7.0.3]
+[2024-04-17 12:47:58] WARNING root fetch - processPackages [zbx-wxwork-assistant]: Skipping, unable to determine old version
+[2024-04-17 12:47:58] INFO root fetch - main [MainThread]: End processing [zbx-wxwork-assistant] error
+[2024-04-17 12:47:58] WARNING root fetch - processPackages [duy-train-package]: Skipping, unable to determine old version
+[2024-04-17 12:47:58] INFO root fetch - main [MainThread]: End processing [duy-train-package] error
+[2024-04-17 12:47:58] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/78/d4/5360e5c32c2a8c75774ed22f47bd29927a48d94e19cb28eae8b11c6160d5/trytond_account_invoice-7.0.3.tar.gz
+[2024-04-17 12:47:58] INFO root fetch - processPackages [radix-engine-toolkit]: New version: [2.0.0] Old Version: [1.0.9]
+[2024-04-17 12:47:58] INFO root fetch - processPackages [lightning-cloud]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-17 12:47:58] INFO root fetch - processPackages [trytond-account]: New version: [7.0.6] Old Version: [7.0.5]
+[2024-04-17 12:47:58] INFO root fetch - processPackages [trytond-account]: New version: [7.0.6] Old Version: [7.0.5]
+[2024-04-17 12:47:58] INFO root fetch - processPackages [trytond-account]: New version: [7.0.6] Old Version: [7.0.5]
+[2024-04-17 12:47:58] INFO root fetch - processPackages [radix-engine-toolkit]: Downloading https://files.pythonhosted.org/packages/36/cb/cc9b25ebc63d43a59e2037c13c439177e0e2111a4e29c9d18188a9d57ce7/radix_engine_toolkit-1.0.9-py3-none-any.whl
+[2024-04-17 12:47:58] INFO root fetch - processPackages [lightning-cloud]: Downloading https://files.pythonhosted.org/packages/cc/b2/6cf07379228de7dd2a95d71aa5ffeb852881582c3e3afab5a34c0608edb2/lightning_cloud-0.5.8.tar.gz
+[2024-04-17 12:47:58] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/a4/3c/d35ede5fa27758149f51beb0adea9e5009146d3a1812ee19a63356af501a/trytond_account_invoice-7.0.4-py3-none-any.whl
+[2024-04-17 12:47:58] INFO root fetch - processPackages [trytond-account]: Downloading https://files.pythonhosted.org/packages/70/ac/35382191a650d42d6f65da0ee1e3b8b6007eb98b6031ee6e044644f716ac/trytond_account-7.0.5.tar.gz
+[2024-04-17 12:47:58] INFO root fetch - processPackages [trytond-account]: Downloading https://files.pythonhosted.org/packages/70/ac/35382191a650d42d6f65da0ee1e3b8b6007eb98b6031ee6e044644f716ac/trytond_account-7.0.5.tar.gz
+[2024-04-17 12:47:58] INFO root fetch - processPackages [trytond-account]: Downloading https://files.pythonhosted.org/packages/70/ac/35382191a650d42d6f65da0ee1e3b8b6007eb98b6031ee6e044644f716ac/trytond_account-7.0.5.tar.gz
+[2024-04-17 12:47:58] INFO root fetch - processPackages [trytond-account-invoice]: executing diffoscope
+[2024-04-17 12:47:58] INFO root fetch - processPackages [trytond-account-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice-7.0.3.tar.gz tmp/trytond_account_invoice-7.0.4-py3-none-any.whl.zip --markdown 20240417/t/trytond-account-invoice/7.0.3-7.0.4/README.md --exclude *.pyd
+[2024-04-17 12:47:58] WARNING root fetch - processPackages [radix-engine-toolkit]: Skipping package: exceeds size limit 28102963>=10485760
+[2024-04-17 12:47:58] INFO root fetch - main [MainThread]: End processing [radix-engine-toolkit] error
+[2024-04-17 12:47:58] INFO root fetch - processPackages [trytond-account]: Downloading https://files.pythonhosted.org/packages/87/0c/d7ea25a7d771621e68ec04426c7b3b386bef3124edd52efb68b4119df06f/trytond_account-7.0.6.tar.gz
+[2024-04-17 12:47:58] INFO root fetch - processPackages [trytond-account]: Downloading https://files.pythonhosted.org/packages/87/0c/d7ea25a7d771621e68ec04426c7b3b386bef3124edd52efb68b4119df06f/trytond_account-7.0.6.tar.gz
+[2024-04-17 12:47:58] INFO root fetch - processPackages [trytond-account]: Downloading https://files.pythonhosted.org/packages/87/0c/d7ea25a7d771621e68ec04426c7b3b386bef3124edd52efb68b4119df06f/trytond_account-7.0.6.tar.gz
+[2024-04-17 12:47:58] INFO root fetch - processPackages [lightning-cloud]: Downloading https://files.pythonhosted.org/packages/94/51/94fe26b6f4d8fb15a8f81782e5eff9a59c23e6ed1d39892a4bf696d4001f/lightning_cloud-0.5.9.tar.gz
+[2024-04-17 12:47:58] INFO root fetch - processPackages [lightning-cloud]: executing diffoscope
+[2024-04-17 12:47:58] INFO root fetch - processPackages [lightning-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_cloud-0.5.8.tar.gz tmp/lightning_cloud-0.5.9.tar.gz --markdown 20240417/l/lightning-cloud/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-17 12:47:59] INFO root fetch - processPackages [trytond-account]: executing diffoscope
+[2024-04-17 12:47:59] INFO root fetch - processPackages [trytond-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account-7.0.5.tar.gz tmp/trytond_account-7.0.6.tar.gz --markdown 20240417/t/trytond-account/7.0.5-7.0.6/README.md --exclude *.pyd
+[2024-04-17 12:47:59] INFO root fetch - processPackages [trytond-account]: executing diffoscope
+[2024-04-17 12:47:59] INFO root fetch - processPackages [trytond-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account-7.0.5.tar.gz tmp/trytond_account-7.0.6.tar.gz --markdown 20240417/t/trytond-account/7.0.5-7.0.6/README.md --exclude *.pyd
+[2024-04-17 12:47:59] INFO root fetch - processPackages [trytond-account]: executing diffoscope
+[2024-04-17 12:47:59] INFO root fetch - processPackages [trytond-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account-7.0.5.tar.gz tmp/trytond_account-7.0.6.tar.gz --markdown 20240417/t/trytond-account/7.0.5-7.0.6/README.md --exclude *.pyd
+[2024-04-17 12:47:59] INFO root fetch - processPackages [trytond-account-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_invoice-7.0.3.tar.gz]
+[2024-04-17 12:47:59] INFO root fetch - processPackages [trytond-account-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_invoice-7.0.4-py3-none-any.whl.zip]
+[2024-04-17 12:47:59] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
+[2024-04-17 12:48:00] INFO root fetch - processPackages [lightning-cloud]: Remove: archive file [/home/abi/fetcher/tmp/lightning_cloud-0.5.8.tar.gz]
+[2024-04-17 12:48:00] INFO root fetch - processPackages [lightning-cloud]: Remove: archive file [/home/abi/fetcher/tmp/lightning_cloud-0.5.9.tar.gz]
+[2024-04-17 12:48:00] INFO root fetch - main [MainThread]: End processing [lightning-cloud]: success
+[2024-04-17 12:48:00] INFO root fetch - processPackages [trytond-account]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account-7.0.5.tar.gz]
+[2024-04-17 12:48:00] INFO root fetch - processPackages [trytond-account]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account-7.0.6.tar.gz]
+[2024-04-17 12:48:00] INFO root fetch - main [MainThread]: End processing [trytond-account]: success
+[2024-04-17 12:48:00] INFO root fetch - main [MainThread]: End processing [trytond-account]: success
+[2024-04-17 12:48:00] INFO root fetch - main [MainThread]: End processing [trytond-account]: success
+[2024-04-17 12:48:00] INFO root fetch - main [MainThread]: Store serial: [22804107]
