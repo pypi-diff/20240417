@@ -11751,3 +11751,83 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:00:31] INFO root fetch - processPackages [odoo-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2024-04-17 08:00:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-vault]: success
 [2024-04-17 08:00:31] INFO root fetch - main [MainThread]: Store serial: [22800315]
+[2024-04-17 08:02:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800315]
+[2024-04-17 08:02:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 08:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tursopy
+[2024-04-17 08:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-dnsimple
+[2024-04-17 08:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: THISDLChatBot
+[2024-04-17 08:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: donetools
+[2024-04-17 08:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: THISDLChatBot
+[2024-04-17 08:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-external
+[2024-04-17 08:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: donetools
+[2024-04-17 08:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pih-plb
+[2024-04-17 08:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-duckdb
+[2024-04-17 08:02:40] INFO root fetch - processPackages [donetools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 08:02:40] INFO root fetch - processPackages [donetools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 08:02:40] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/e7/16ef7ef33b09a9634459bb56e910fc56d348769263fd89f5074d35a6aa31/donetools-0.0.8.tar.gz
+[2024-04-17 08:02:40] INFO root fetch - processPackages [THISDLChatBot]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-17 08:02:40] INFO root fetch - processPackages [THISDLChatBot]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-17 08:02:40] INFO root fetch - processPackages [tursopy]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 08:02:40] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/e7/16ef7ef33b09a9634459bb56e910fc56d348769263fd89f5074d35a6aa31/donetools-0.0.8.tar.gz
+[2024-04-17 08:02:40] INFO root fetch - processPackages [pih-plb]: New version: [0.16] Old Version: [0.15]
+[2024-04-17 08:02:40] INFO root fetch - processPackages [dbt-duckdb]: New version: [1.7.4] Old Version: [1.7.3]
+[2024-04-17 08:02:40] INFO root fetch - processPackages [pulumi-external]: New version: [0.0.4a1713331974] Old Version: [0.0.4a1712986406]
+[2024-04-17 08:02:40] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1713331874] Old Version: [3.5.0a1712986309]
+[2024-04-17 08:02:40] INFO root fetch - processPackages [THISDLChatBot]: Downloading https://files.pythonhosted.org/packages/5d/3e/3f37baaaf8ea0640bca5bca8aa7962a801c9e1b1e5eef2951129494ca2fe/THISDLChatBot-2.0.8.tar.gz
+[2024-04-17 08:02:40] INFO root fetch - processPackages [THISDLChatBot]: Downloading https://files.pythonhosted.org/packages/5d/3e/3f37baaaf8ea0640bca5bca8aa7962a801c9e1b1e5eef2951129494ca2fe/THISDLChatBot-2.0.8.tar.gz
+[2024-04-17 08:02:40] INFO root fetch - processPackages [tursopy]: Downloading https://files.pythonhosted.org/packages/e2/8e/cfe3c45544259cd2959a9a16f0590289bc7a03792dcce3cc1127e27bda9b/tursopy-0.0.2.tar.gz
+[2024-04-17 08:02:40] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/bc/28/cc26a1e320fe8c7340f7a8a47ad56f46fe697a88680abb956588b9650e76/donetools-0.0.9.tar.gz
+[2024-04-17 08:02:40] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/15/df/92d2f393fe2e28595cca93dbf620ca22146b89149de6dcf961a1f43e5a32/pulumi_external-0.0.4a1712986406.tar.gz
+[2024-04-17 08:02:40] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/bc/28/cc26a1e320fe8c7340f7a8a47ad56f46fe697a88680abb956588b9650e76/donetools-0.0.9.tar.gz
+[2024-04-17 08:02:40] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/ba/93/6651dae365393eaf453f05ee40d9ccf1eddc726df15202d43fe41b04137d/pulumi_dnsimple-3.5.0a1712986309.tar.gz
+[2024-04-17 08:02:40] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/bf/86/ef3fb5df9e3bab5521dc4b00fd5a61a28fbdae16965648e24d4478273721/pih-plb-0.15.tar.gz
+[2024-04-17 08:02:40] INFO root fetch - processPackages [dbt-duckdb]: Downloading https://files.pythonhosted.org/packages/62/f4/93efd10464902607f030e5c99e389a264cdfd3c62b35394707a772045099/dbt-duckdb-1.7.3.tar.gz
+[2024-04-17 08:02:40] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-17 08:02:40] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.8.tar.gz tmp/donetools-0.0.9.tar.gz --markdown 20240417/d/donetools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 08:02:40] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-17 08:02:40] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.8.tar.gz tmp/donetools-0.0.9.tar.gz --markdown 20240417/d/donetools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 08:02:41] INFO root fetch - processPackages [THISDLChatBot]: Downloading https://files.pythonhosted.org/packages/d2/4a/47b05b37f5944d8b09447b51423e05dfafd5fe85bf647c83f8da37f5ee3c/THISDLChatBot-2.0.9.tar.gz
+[2024-04-17 08:02:41] INFO root fetch - processPackages [THISDLChatBot]: Downloading https://files.pythonhosted.org/packages/d2/4a/47b05b37f5944d8b09447b51423e05dfafd5fe85bf647c83f8da37f5ee3c/THISDLChatBot-2.0.9.tar.gz
+[2024-04-17 08:02:41] INFO root fetch - processPackages [tursopy]: Downloading https://files.pythonhosted.org/packages/93/78/9b2b48e0f9130f7482a94e63e829e5a1399840ee012e1291ac5bfd2b2c63/tursopy-0.0.3.tar.gz
+[2024-04-17 08:02:41] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/69/f5/8dc83a9f3b2b866f6b7d79d285a29fab547babf04f59252db54fe4a050e4/pulumi_dnsimple-3.5.0a1713331874.tar.gz
+[2024-04-17 08:02:41] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/63/ee/81791fe54ad3c9ddaa7a12513ce3fe25ec217323799badef1ad15f147ba7/pulumi_external-0.0.4a1713331974.tar.gz
+[2024-04-17 08:02:41] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/ee/09/446d9d062a0e145ac804af287f6d2ae96e139bdb98a1b2a64233fffbefbf/pih-plb-0.16.tar.gz
+[2024-04-17 08:02:41] INFO root fetch - processPackages [dbt-duckdb]: Downloading https://files.pythonhosted.org/packages/4e/2e/2c6212db3b6b97552e7b3a6b41178a8f5c9d2ce4f4ffffca11dde56cab86/dbt_duckdb-1.7.4.tar.gz
+[2024-04-17 08:02:41] INFO root fetch - processPackages [THISDLChatBot]: executing diffoscope
+[2024-04-17 08:02:41] INFO root fetch - processPackages [THISDLChatBot]: executing diffoscope
+[2024-04-17 08:02:41] INFO root fetch - processPackages [THISDLChatBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/THISDLChatBot-2.0.8.tar.gz tmp/THISDLChatBot-2.0.9.tar.gz --markdown 20240417/T/THISDLChatBot/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-17 08:02:41] INFO root fetch - processPackages [THISDLChatBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/THISDLChatBot-2.0.8.tar.gz tmp/THISDLChatBot-2.0.9.tar.gz --markdown 20240417/T/THISDLChatBot/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-17 08:02:41] INFO root fetch - processPackages [tursopy]: executing diffoscope
+[2024-04-17 08:02:41] INFO root fetch - processPackages [tursopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tursopy-0.0.2.tar.gz tmp/tursopy-0.0.3.tar.gz --markdown 20240417/t/tursopy/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 08:02:41] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2024-04-17 08:02:41] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1712986309.tar.gz tmp/pulumi_dnsimple-3.5.0a1713331874.tar.gz --markdown 20240417/p/pulumi-dnsimple/3.5.0a1712986309-3.5.0a1713331874/README.md --exclude *.pyd
+[2024-04-17 08:02:41] INFO root fetch - processPackages [pulumi-external]: executing diffoscope
+[2024-04-17 08:02:41] INFO root fetch - processPackages [pulumi-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_external-0.0.4a1712986406.tar.gz tmp/pulumi_external-0.0.4a1713331974.tar.gz --markdown 20240417/p/pulumi-external/0.0.4a1712986406-0.0.4a1713331974/README.md --exclude *.pyd
+[2024-04-17 08:02:41] INFO root fetch - processPackages [pih-plb]: executing diffoscope
+[2024-04-17 08:02:41] INFO root fetch - processPackages [pih-plb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb-0.15.tar.gz tmp/pih-plb-0.16.tar.gz --markdown 20240417/p/pih-plb/0.15-0.16/README.md --exclude *.pyd
+[2024-04-17 08:02:41] INFO root fetch - processPackages [dbt-duckdb]: executing diffoscope
+[2024-04-17 08:02:41] INFO root fetch - processPackages [dbt-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-duckdb-1.7.3.tar.gz tmp/dbt_duckdb-1.7.4.tar.gz --markdown 20240417/d/dbt-duckdb/1.7.3-1.7.4/README.md --exclude *.pyd
+[2024-04-17 08:02:41] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.8.tar.gz]
+[2024-04-17 08:02:41] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
+[2024-04-17 08:02:41] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-17 08:02:41] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-17 08:02:42] INFO root fetch - processPackages [THISDLChatBot]: Remove: archive file [/home/abi/fetcher/tmp/THISDLChatBot-2.0.8.tar.gz]
+[2024-04-17 08:02:42] INFO root fetch - processPackages [THISDLChatBot]: Remove: archive file [/home/abi/fetcher/tmp/THISDLChatBot-2.0.9.tar.gz]
+[2024-04-17 08:02:42] INFO root fetch - main [MainThread]: End processing [THISDLChatBot]: success
+[2024-04-17 08:02:42] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.15.tar.gz]
+[2024-04-17 08:02:42] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.16.tar.gz]
+[2024-04-17 08:02:42] INFO root fetch - main [MainThread]: End processing [pih-plb]: success
+[2024-04-17 08:02:42] INFO root fetch - processPackages [tursopy]: Remove: archive file [/home/abi/fetcher/tmp/tursopy-0.0.2.tar.gz]
+[2024-04-17 08:02:42] INFO root fetch - processPackages [tursopy]: Remove: archive file [/home/abi/fetcher/tmp/tursopy-0.0.3.tar.gz]
+[2024-04-17 08:02:42] INFO root fetch - main [MainThread]: End processing [tursopy]: success
+[2024-04-17 08:02:42] INFO root fetch - main [MainThread]: End processing [THISDLChatBot]: success
+[2024-04-17 08:02:42] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1712986309.tar.gz]
+[2024-04-17 08:02:42] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1713331874.tar.gz]
+[2024-04-17 08:02:42] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2024-04-17 08:02:42] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.0.4a1712986406.tar.gz]
+[2024-04-17 08:02:42] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.0.4a1713331974.tar.gz]
+[2024-04-17 08:02:42] INFO root fetch - main [MainThread]: End processing [pulumi-external]: success
+[2024-04-17 08:02:42] INFO root fetch - processPackages [dbt-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/dbt-duckdb-1.7.3.tar.gz]
+[2024-04-17 08:02:42] INFO root fetch - processPackages [dbt-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/dbt_duckdb-1.7.4.tar.gz]
+[2024-04-17 08:02:42] INFO root fetch - main [MainThread]: End processing [dbt-duckdb]: success
+[2024-04-17 08:02:42] INFO root fetch - main [MainThread]: Store serial: [22800341]
