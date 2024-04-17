@@ -7694,3 +7694,33 @@
 [2024-04-17 04:11:40] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b9.tar.gz]
 [2024-04-17 04:11:40] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
 [2024-04-17 04:11:40] INFO root fetch - main [MainThread]: Store serial: [22798790]
+[2024-04-17 04:13:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798790]
+[2024-04-17 04:13:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 04:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wuji
+[2024-04-17 04:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dg-face-tracking
+[2024-04-17 04:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stackql-deploy
+[2024-04-17 04:13:49] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 04:13:49] INFO root fetch - processPackages [dg-face-tracking]: New version: [0.1.2] Old Version: [0.0.9]
+[2024-04-17 04:13:49] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 04:13:49] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/79/cd/f31021b923a85c65086f8f5e6fb2fe050b0d48d5ee2576c02a1040f0cc64/dg_face_tracking-0.0.9-py3-none-any.whl
+[2024-04-17 04:13:49] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 04:13:49] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-04-17 04:13:49] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/00/bc/c047c1ec5e389ec2816c2e673b5c6477e9b4dbd673021982a3b3cdc97b03/dg_face_tracking-0.1.2-py3-none-any.whl
+[2024-04-17 04:13:49] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 04:13:49] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-04-17 04:13:49] INFO root fetch - processPackages [dg-face-tracking]: executing diffoscope
+[2024-04-17 04:13:49] INFO root fetch - processPackages [dg-face-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg_face_tracking-0.0.9-py3-none-any.whl.zip tmp/dg_face_tracking-0.1.2-py3-none-any.whl.zip --markdown 20240417/d/dg-face-tracking/0.0.9-0.1.2/README.md --exclude *.pyd
+[2024-04-17 04:13:49] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 04:13:49] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 04:13:49] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-04-17 04:13:49] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240417/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 04:13:50] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 04:13:50] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 04:13:50] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 04:13:50] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-04-17 04:13:50] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-04-17 04:13:50] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-04-17 04:13:50] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.0.9-py3-none-any.whl.zip]
+[2024-04-17 04:13:50] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.1.2-py3-none-any.whl.zip]
+[2024-04-17 04:13:50] INFO root fetch - main [MainThread]: End processing [dg-face-tracking]: success
+[2024-04-17 04:13:50] INFO root fetch - main [MainThread]: Store serial: [22798796]
