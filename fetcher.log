@@ -15203,3 +15203,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:09:32] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240416.tar.gz]
 [2024-04-17 10:09:32] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2024-04-17 10:09:32] INFO root fetch - main [MainThread]: Store serial: [22801962]
+[2024-04-17 10:11:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801962]
+[2024-04-17 10:11:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 10:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-id
+[2024-04-17 10:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liveramp-automation
+[2024-04-17 10:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rna
+[2024-04-17 10:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xtnkk-tools
+[2024-04-17 10:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DLMS-SPODES
+[2024-04-17 10:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logging-extended-handlers
+[2024-04-17 10:11:41] INFO root fetch - processPackages [liveramp-automation]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-17 10:11:41] INFO root fetch - processPackages [xtnkk-tools]: New version: [1.0.0.4] Old Version: [1.0.0.3]
+[2024-04-17 10:11:41] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/c9/b9/18666e9f0d4ae1d52d01d1f2e97ceead17615cbfed62f47cb4bafd87a1f1/liveramp_automation-1.3.1.tar.gz
+[2024-04-17 10:11:41] INFO root fetch - processPackages [rna]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-17 10:11:41] WARNING root fetch - processPackages [logging-extended-handlers]: Skipping, unable to determine old version
+[2024-04-17 10:11:41] INFO root fetch - main [MainThread]: End processing [logging-extended-handlers] error
+[2024-04-17 10:11:41] WARNING root fetch - processPackages [easy-id]: Skipping, unable to determine old version
+[2024-04-17 10:11:41] INFO root fetch - main [MainThread]: End processing [easy-id] error
+[2024-04-17 10:11:41] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-17 10:11:41] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/3a/5b/2f94b8e79fa168eb61e60f4c188d729201bcf34f0e686f8c5de2f221e206/xtnkk-tools-1.0.0.3.tar.gz
+[2024-04-17 10:11:41] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/c8/3b/ff673a542e0d40aa48d835d3aacd19d3c42908aee2cb418b74ff4425f97d/liveramp_automation-1.3.2.tar.gz
+[2024-04-17 10:11:41] INFO root fetch - processPackages [rna]: Downloading https://files.pythonhosted.org/packages/e7/5c/abf0cb118cab4f4d6b024917ba57ae16ddc9071b942730f1c385bcea19ac/rna-0.8.0-py3-none-any.whl
+[2024-04-17 10:11:41] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-04-17 10:11:41] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2024-04-17 10:11:41] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-1.3.1.tar.gz tmp/liveramp_automation-1.3.2.tar.gz --markdown 20240417/l/liveramp-automation/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-17 10:11:41] INFO root fetch - processPackages [xtnkk-tools]: Downloading https://files.pythonhosted.org/packages/1e/d7/02f1147a0397039521e985c2c57c3557900ae4618993cdf9c4af978d596f/xtnkk-tools-1.0.0.4.tar.gz
+[2024-04-17 10:11:41] INFO root fetch - processPackages [xtnkk-tools]: executing diffoscope
+[2024-04-17 10:11:41] INFO root fetch - processPackages [xtnkk-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtnkk-tools-1.0.0.3.tar.gz tmp/xtnkk-tools-1.0.0.4.tar.gz --markdown 20240417/x/xtnkk-tools/1.0.0.3-1.0.0.4/README.md --exclude *.pyd
+[2024-04-17 10:11:41] INFO root fetch - processPackages [rna]: Downloading https://files.pythonhosted.org/packages/60/c4/324af9e9b8f8f0030190aaf26904bbe66285bf7305b9bf4a4b15874815e0/rna-0.9.0-py3-none-any.whl
+[2024-04-17 10:11:42] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-04-17 10:11:42] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-04-17 10:11:42] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240417/D/DLMS-SPODES/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-17 10:11:42] INFO root fetch - processPackages [rna]: executing diffoscope
+[2024-04-17 10:11:42] INFO root fetch - processPackages [rna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rna-0.8.0-py3-none-any.whl.zip tmp/rna-0.9.0-py3-none-any.whl.zip --markdown 20240417/r/rna/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-17 10:11:42] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.0.3.tar.gz]
+[2024-04-17 10:11:42] INFO root fetch - processPackages [xtnkk-tools]: Remove: archive file [/home/abi/fetcher/tmp/xtnkk-tools-1.0.0.4.tar.gz]
+[2024-04-17 10:11:42] INFO root fetch - main [MainThread]: End processing [xtnkk-tools]: success
+[2024-04-17 10:11:42] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.3.1.tar.gz]
+[2024-04-17 10:11:42] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.3.2.tar.gz]
+[2024-04-17 10:11:42] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2024-04-17 10:11:42] INFO root fetch - processPackages [rna]: Remove: archive file [/home/abi/fetcher/tmp/rna-0.8.0-py3-none-any.whl.zip]
+[2024-04-17 10:11:42] INFO root fetch - processPackages [rna]: Remove: archive file [/home/abi/fetcher/tmp/rna-0.9.0-py3-none-any.whl.zip]
+[2024-04-17 10:11:42] INFO root fetch - main [MainThread]: End processing [rna]: success
+[2024-04-17 10:11:42] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-04-17 10:11:42] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-04-17 10:11:42] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-04-17 10:11:42] INFO root fetch - main [MainThread]: Store serial: [22801981]
