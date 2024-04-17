@@ -16212,3 +16212,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:43:08] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-04-17 10:43:08] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-04-17 10:43:08] INFO root fetch - main [MainThread]: Store serial: [22802408]
+[2024-04-17 10:45:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802408]
+[2024-04-17 10:45:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 10:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlmodel-react-admin
+[2024-04-17 10:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2024-04-17 10:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: g4f
+[2024-04-17 10:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: precice-config-visualizer
+[2024-04-17 10:45:18] INFO root fetch - processPackages [precice-config-visualizer]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-17 10:45:18] INFO root fetch - processPackages [sqlmodel-react-admin]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 10:45:18] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-04-17 10:45:18] INFO root fetch - processPackages [precice-config-visualizer]: Downloading https://files.pythonhosted.org/packages/34/25/32d1baacd57bf234fa56126f7a4152eed112f965afd93e210ea729ba6345/precice-config-visualizer-1.1.1.tar.gz
+[2024-04-17 10:45:18] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-04-17 10:45:18] INFO root fetch - processPackages [g4f]: New version: [0.2.9.9] Old Version: [0.2.9.8]
+[2024-04-17 10:45:18] INFO root fetch - processPackages [precice-config-visualizer]: Downloading https://files.pythonhosted.org/packages/76/47/32f1f9d13990f6180db558b1f884da58a279ff66f4c85b2e4adf8c83c6a9/precice_config_visualizer-1.1.2.tar.gz
+[2024-04-17 10:45:18] INFO root fetch - processPackages [sqlmodel-react-admin]: Downloading https://files.pythonhosted.org/packages/d1/61/2424efac26e7a91dc0b0199c0e0b87741c9a729d3d4b3c5e5c73fd89c7d7/sqlmodel_react_admin-0.0.1.tar.gz
+[2024-04-17 10:45:18] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/b3/55/996d75dc7b0685c901f1aee8787d015cdc39f08b9f6d01076b2fa9626267/g4f-0.2.9.8.tar.gz
+[2024-04-17 10:45:19] INFO root fetch - processPackages [precice-config-visualizer]: executing diffoscope
+[2024-04-17 10:45:19] INFO root fetch - processPackages [precice-config-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/precice-config-visualizer-1.1.1.tar.gz tmp/precice_config_visualizer-1.1.2.tar.gz --markdown 20240417/p/precice-config-visualizer/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-17 10:45:19] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-04-17 10:45:19] INFO root fetch - processPackages [sqlmodel-react-admin]: Downloading https://files.pythonhosted.org/packages/5c/02/df69d70ec7ac3de5609cb778848ea19c18cf3c7bc25001c199032e1956f8/sqlmodel_react_admin-0.0.2.tar.gz
+[2024-04-17 10:45:19] INFO root fetch - processPackages [sqlmodel-react-admin]: executing diffoscope
+[2024-04-17 10:45:19] INFO root fetch - processPackages [sqlmodel-react-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmodel_react_admin-0.0.1.tar.gz tmp/sqlmodel_react_admin-0.0.2.tar.gz --markdown 20240417/s/sqlmodel-react-admin/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 10:45:19] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/d9/a3/4729c911ae111904f94836fc7f6bd4e9b7bf974c1037297866d36723519c/g4f-0.2.9.9.tar.gz
+[2024-04-17 10:45:19] INFO root fetch - processPackages [g4f]: executing diffoscope
+[2024-04-17 10:45:19] INFO root fetch - processPackages [g4f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g4f-0.2.9.8.tar.gz tmp/g4f-0.2.9.9.tar.gz --markdown 20240417/g/g4f/0.2.9.8-0.2.9.9/README.md --exclude *.pyd
+[2024-04-17 10:45:19] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-04-17 10:45:19] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240417/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-04-17 10:45:19] INFO root fetch - processPackages [precice-config-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/precice-config-visualizer-1.1.1.tar.gz]
+[2024-04-17 10:45:19] INFO root fetch - processPackages [precice-config-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/precice_config_visualizer-1.1.2.tar.gz]
+[2024-04-17 10:45:19] INFO root fetch - main [MainThread]: End processing [precice-config-visualizer]: success
+[2024-04-17 10:45:19] INFO root fetch - processPackages [sqlmodel-react-admin]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel_react_admin-0.0.1.tar.gz]
+[2024-04-17 10:45:19] INFO root fetch - processPackages [sqlmodel-react-admin]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel_react_admin-0.0.2.tar.gz]
+[2024-04-17 10:45:19] INFO root fetch - main [MainThread]: End processing [sqlmodel-react-admin]: success
+[2024-04-17 10:45:21] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.2.9.8.tar.gz]
+[2024-04-17 10:45:21] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.2.9.9.tar.gz]
+[2024-04-17 10:45:21] INFO root fetch - main [MainThread]: End processing [g4f]: success
+[2024-04-17 10:45:23] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-04-17 10:45:23] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-04-17 10:45:23] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-04-17 10:45:23] INFO root fetch - main [MainThread]: Store serial: [22802428]
