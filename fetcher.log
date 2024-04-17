@@ -23727,3 +23727,39 @@ EOFError: EOF read where object expected
 [2024-04-17 15:12:32] INFO root fetch - processPackages [edc-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/edc_test_utils-0.3.9-py3-none-any.whl.zip]
 [2024-04-17 15:12:32] INFO root fetch - main [MainThread]: End processing [edc-test-utils]: success
 [2024-04-17 15:12:32] INFO root fetch - main [MainThread]: Store serial: [22805955]
+[2024-04-17 15:14:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805955]
+[2024-04-17 15:14:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NEWNEWS
+[2024-04-17 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-04-17 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-alto-parser
+[2024-04-17 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vizibridge
+[2024-04-17 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: darwin-moea
+[2024-04-17 15:14:41] WARNING root fetch - processPackages [NEWNEWS]: Skipping, unable to determine old version
+[2024-04-17 15:14:41] INFO root fetch - main [MainThread]: End processing [NEWNEWS] error
+[2024-04-17 15:14:41] INFO root fetch - processPackages [simple-alto-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 15:14:41] INFO root fetch - processPackages [vizibridge]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-17 15:14:41] WARNING root fetch - processPackages [darwin-moea]: Skipping, unable to determine old version
+[2024-04-17 15:14:41] INFO root fetch - main [MainThread]: End processing [darwin-moea] error
+[2024-04-17 15:14:41] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.4.17] Old Version: [2024.4.16]
+[2024-04-17 15:14:41] INFO root fetch - processPackages [vizibridge]: Downloading https://files.pythonhosted.org/packages/54/6d/26f57f40565282440ae38d580008a32efea71d946a2f96546fabd0640e38/vizibridge-0.2.1.tar.gz
+[2024-04-17 15:14:41] INFO root fetch - processPackages [simple-alto-parser]: Downloading https://files.pythonhosted.org/packages/2d/84/288a775370c3b0a74c9022e38e06d864675ccef260b833fb692b0679afd6/simple-alto-parser-0.0.8.tar.gz
+[2024-04-17 15:14:41] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/e5/80/0a6777a0fff262b7707d878056e29c7d09493575d4a5c4ce756dd7c1c08d/fbgemm_gpu_nightly_cpu-2024.4.16-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-17 15:14:41] INFO root fetch - processPackages [simple-alto-parser]: Downloading https://files.pythonhosted.org/packages/54/a6/e5b5a42bc7f1de8a59b665b6ea950928012570d4b7d82695f5bd835dbd99/simple-alto-parser-0.0.9.tar.gz
+[2024-04-17 15:14:41] INFO root fetch - processPackages [vizibridge]: Downloading https://files.pythonhosted.org/packages/d4/df/6070b38c51ff2ee3b47b64ba5806b850e974a8e999d43f977fea9ff5b6e4/vizibridge-0.2.2.tar.gz
+[2024-04-17 15:14:41] INFO root fetch - processPackages [simple-alto-parser]: executing diffoscope
+[2024-04-17 15:14:41] INFO root fetch - processPackages [simple-alto-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-alto-parser-0.0.8.tar.gz tmp/simple-alto-parser-0.0.9.tar.gz --markdown 20240417/s/simple-alto-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 15:14:42] INFO root fetch - processPackages [vizibridge]: executing diffoscope
+[2024-04-17 15:14:42] INFO root fetch - processPackages [vizibridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizibridge-0.2.1.tar.gz tmp/vizibridge-0.2.2.tar.gz --markdown 20240417/v/vizibridge/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-17 15:14:42] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/44/40/908e9707d85e918c68f936bf1971228b30e9c0fa129b1415c54ffeeaf75c/fbgemm_gpu_nightly_cpu-2024.4.17-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-17 15:14:42] INFO root fetch - processPackages [simple-alto-parser]: Remove: archive file [/home/abi/fetcher/tmp/simple-alto-parser-0.0.8.tar.gz]
+[2024-04-17 15:14:42] INFO root fetch - processPackages [simple-alto-parser]: Remove: archive file [/home/abi/fetcher/tmp/simple-alto-parser-0.0.9.tar.gz]
+[2024-04-17 15:14:42] INFO root fetch - main [MainThread]: End processing [simple-alto-parser]: success
+[2024-04-17 15:14:42] INFO root fetch - processPackages [vizibridge]: Remove: archive file [/home/abi/fetcher/tmp/vizibridge-0.2.1.tar.gz]
+[2024-04-17 15:14:42] INFO root fetch - processPackages [vizibridge]: Remove: archive file [/home/abi/fetcher/tmp/vizibridge-0.2.2.tar.gz]
+[2024-04-17 15:14:42] INFO root fetch - main [MainThread]: End processing [vizibridge]: success
+[2024-04-17 15:14:42] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-04-17 15:14:42] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.4.16-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.4.17-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240417/f/fbgemm-gpu-nightly-cpu/2024.4.16-2024.4.17/README.md --exclude *.pyd
+[2024-04-17 15:14:43] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.16-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-17 15:14:43] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.17-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-17 15:14:43] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-04-17 15:14:43] INFO root fetch - main [MainThread]: Store serial: [22805978]
