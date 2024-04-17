@@ -7679,3 +7679,18 @@
 [2024-04-17 04:09:30] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
 [2024-04-17 04:09:30] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2024-04-17 04:09:30] INFO root fetch - main [MainThread]: Store serial: [22798783]
+[2024-04-17 04:11:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798783]
+[2024-04-17 04:11:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 04:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dongkyu
+[2024-04-17 04:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicutils
+[2024-04-17 04:11:39] INFO root fetch - processPackages [dcicutils]: New version: [8.8.3.1b9] Old Version: [8.8.3.1b8]
+[2024-04-17 04:11:39] WARNING root fetch - processPackages [dongkyu]: Skipping, unable to determine old version
+[2024-04-17 04:11:39] INFO root fetch - main [MainThread]: End processing [dongkyu] error
+[2024-04-17 04:11:39] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/55/29/62f5a247f04b2bf0f9da53bf75c80ebc4731638e110560a1b0c2b690b9e1/dcicutils-8.8.3.1b8.tar.gz
+[2024-04-17 04:11:39] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/b0/95/6db1d9193aaea7ab397457bf7e746f08cfefd565b4982b943b44ba844a74/dcicutils-8.8.3.1b9.tar.gz
+[2024-04-17 04:11:39] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-17 04:11:39] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.3.1b8.tar.gz tmp/dcicutils-8.8.3.1b9.tar.gz --markdown 20240417/d/dcicutils/8.8.3.1b8-8.8.3.1b9/README.md --exclude *.pyd
+[2024-04-17 04:11:40] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b8.tar.gz]
+[2024-04-17 04:11:40] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b9.tar.gz]
+[2024-04-17 04:11:40] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-17 04:11:40] INFO root fetch - main [MainThread]: Store serial: [22798790]
