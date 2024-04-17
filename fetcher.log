@@ -21088,3 +21088,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:40:14] INFO root fetch - processPackages [asgikit]: Remove: archive file [/home/abi/fetcher/tmp/asgikit-0.7.1.tar.gz]
 [2024-04-17 13:40:14] INFO root fetch - main [MainThread]: End processing [asgikit]: success
 [2024-04-17 13:40:14] INFO root fetch - main [MainThread]: Store serial: [22804662]
+[2024-04-17 13:42:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804662]
+[2024-04-17 13:42:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 13:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mitmproxy
+[2024-04-17 13:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: efriser
+[2024-04-17 13:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chefshatgym
+[2024-04-17 13:42:23] INFO root fetch - processPackages [mitmproxy]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-04-17 13:42:23] INFO root fetch - processPackages [chefshatgym]: New version: [2.1.0] Old Version: [2.0.9]
+[2024-04-17 13:42:23] INFO root fetch - processPackages [efriser]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 13:42:23] INFO root fetch - processPackages [mitmproxy]: Downloading https://files.pythonhosted.org/packages/5e/fd/a1a7b57e120db2623ba9ce470867b52eb1e9d56dd9bb74100aee0f0a5b6c/mitmproxy-9.0.0-py3-none-any.whl
+[2024-04-17 13:42:23] INFO root fetch - processPackages [chefshatgym]: Downloading https://files.pythonhosted.org/packages/29/a0/9515051d56fd3ece10f59fd9b0911e2167f294d4fcec266f0176718ceb6a/chefshatgym-2.0.9-py3-none-any.whl
+[2024-04-17 13:42:23] INFO root fetch - processPackages [efriser]: Downloading https://files.pythonhosted.org/packages/9e/3b/097d705f5f5d66fa3e19e6b2dd1a15ab8dea7b35023c69bc1647d54f3866/efriser-0.1.8.tar.gz
+[2024-04-17 13:42:23] INFO root fetch - processPackages [mitmproxy]: Downloading https://files.pythonhosted.org/packages/19/a2/e557f9583373977ee239e516b29af5a9fd12dbf665cfef8a78d9ab92fb5c/mitmproxy-9.0.1-py3-none-any.whl
+[2024-04-17 13:42:24] INFO root fetch - processPackages [efriser]: Downloading https://files.pythonhosted.org/packages/5c/97/b9aa21656f36608a9a25922f2af2b34732c66f391a98da6bdcce72892663/efriser-0.1.9.tar.gz
+[2024-04-17 13:42:24] INFO root fetch - processPackages [chefshatgym]: Downloading https://files.pythonhosted.org/packages/ae/6e/99349ff1ea8439c3287d5fc6bfde9fb7c73e7c35f4f9ccf43f0c24658d35/chefshatgym-2.1.0-py3-none-any.whl
+[2024-04-17 13:42:24] INFO root fetch - processPackages [mitmproxy]: executing diffoscope
+[2024-04-17 13:42:24] INFO root fetch - processPackages [mitmproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitmproxy-9.0.0-py3-none-any.whl.zip tmp/mitmproxy-9.0.1-py3-none-any.whl.zip --markdown 20240417/m/mitmproxy/9.0.0-9.0.1/README.md --exclude *.pyd
+[2024-04-17 13:42:24] INFO root fetch - processPackages [chefshatgym]: executing diffoscope
+[2024-04-17 13:42:24] INFO root fetch - processPackages [chefshatgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chefshatgym-2.0.9-py3-none-any.whl.zip tmp/chefshatgym-2.1.0-py3-none-any.whl.zip --markdown 20240417/c/chefshatgym/2.0.9-2.1.0/README.md --exclude *.pyd
+[2024-04-17 13:42:24] INFO root fetch - processPackages [efriser]: executing diffoscope
+[2024-04-17 13:42:24] INFO root fetch - processPackages [efriser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efriser-0.1.8.tar.gz tmp/efriser-0.1.9.tar.gz --markdown 20240417/e/efriser/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 13:42:24] INFO root fetch - processPackages [chefshatgym]: Remove: archive file [/home/abi/fetcher/tmp/chefshatgym-2.0.9-py3-none-any.whl.zip]
+[2024-04-17 13:42:24] INFO root fetch - processPackages [chefshatgym]: Remove: archive file [/home/abi/fetcher/tmp/chefshatgym-2.1.0-py3-none-any.whl.zip]
+[2024-04-17 13:42:24] INFO root fetch - main [MainThread]: End processing [chefshatgym]: success
+[2024-04-17 13:42:24] INFO root fetch - processPackages [efriser]: Remove: archive file [/home/abi/fetcher/tmp/efriser-0.1.8.tar.gz]
+[2024-04-17 13:42:24] INFO root fetch - processPackages [efriser]: Remove: archive file [/home/abi/fetcher/tmp/efriser-0.1.9.tar.gz]
+[2024-04-17 13:42:24] INFO root fetch - main [MainThread]: End processing [efriser]: success
+[2024-04-17 13:42:25] INFO root fetch - processPackages [mitmproxy]: Remove: archive file [/home/abi/fetcher/tmp/mitmproxy-9.0.0-py3-none-any.whl.zip]
+[2024-04-17 13:42:25] INFO root fetch - processPackages [mitmproxy]: Remove: archive file [/home/abi/fetcher/tmp/mitmproxy-9.0.1-py3-none-any.whl.zip]
+[2024-04-17 13:42:25] INFO root fetch - main [MainThread]: End processing [mitmproxy]: success
+[2024-04-17 13:42:25] INFO root fetch - main [MainThread]: Store serial: [22804674]
