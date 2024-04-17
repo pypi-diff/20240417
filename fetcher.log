@@ -2914,3 +2914,51 @@
 [2024-04-17 02:53:12] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-04-17 02:53:12] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-04-17 02:53:12] INFO root fetch - main [MainThread]: Store serial: [22796948]
+[2024-04-17 02:55:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796948]
+[2024-04-17 02:55:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 02:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jy_lib
+[2024-04-17 02:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepgram-sdk
+[2024-04-17 02:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2024-04-17 02:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rhdzmota-extension-streamlit-webapps
+[2024-04-17 02:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudforet-console-api-v2
+[2024-04-17 02:55:21] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-17 02:55:21] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/b1/83/382d576c7baaf1076b4ba63610379bfef3bb2bd2d564ad1843394c61f1a8/cloudforet-console-api-v2-2.0.dev98.tar.gz
+[2024-04-17 02:55:21] INFO root fetch - processPackages [jy_lib]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-17 02:55:21] INFO root fetch - processPackages [deepgram-sdk]: New version: [3.2.6] Old Version: [3.2.5]
+[2024-04-17 02:55:21] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-04-17 02:55:21] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-17 02:55:21] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/c0/51/920161b1d03c65ae853f7cf53e2be41cafedb10558e0eb47a35dabfac246/jy_lib-0.6.0.tar.gz
+[2024-04-17 02:55:21] INFO root fetch - processPackages [deepgram-sdk]: Downloading https://files.pythonhosted.org/packages/81/d6/cea641f9ed8c481cb73fabd9186f34b18c2d2c1df529d5c29636ed7a4692/deepgram-sdk-3.2.5.tar.gz
+[2024-04-17 02:55:21] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/cc/3a/2cab122ef371d628e0e339e8a0b5233e79840b362512069527bd9fce8f78/cloudforet-console-api-v2-2.0.dev99.tar.gz
+[2024-04-17 02:55:21] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: Downloading https://files.pythonhosted.org/packages/5f/4e/ba4b09341958202de71527ac8c335d262d0d19846aa627449dd652c65990/rhdzmota_extension_streamlit_webapps-0.5.2.tar.gz
+[2024-04-17 02:55:21] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-04-17 02:55:22] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2024-04-17 02:55:22] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz --markdown 20240417/c/cloudforet-console-api-v2/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-17 02:55:22] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/62/c9/ab07314bd853288c27c60a59f95361f8f87f6bc555889da3a34d668d99e7/jy_lib-0.6.1.tar.gz
+[2024-04-17 02:55:22] INFO root fetch - processPackages [deepgram-sdk]: Downloading https://files.pythonhosted.org/packages/6a/7b/9e41063ba0bf2cbd72b07dbbb3acfcefb1f700cd98f3d843973475675b79/deepgram_sdk-3.2.6.tar.gz
+[2024-04-17 02:55:22] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-04-17 02:55:22] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.6.0.tar.gz tmp/jy_lib-0.6.1.tar.gz --markdown 20240417/j/jy_lib/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-17 02:55:22] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: Downloading https://files.pythonhosted.org/packages/5b/d9/8977b19313769e9a0f692d43032aa9e934e7f2b9bf0cd97fd2187032d480/rhdzmota_extension_streamlit_webapps-0.6.0.tar.gz
+[2024-04-17 02:55:22] INFO root fetch - processPackages [deepgram-sdk]: executing diffoscope
+[2024-04-17 02:55:22] INFO root fetch - processPackages [deepgram-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepgram-sdk-3.2.5.tar.gz tmp/deepgram_sdk-3.2.6.tar.gz --markdown 20240417/d/deepgram-sdk/3.2.5-3.2.6/README.md --exclude *.pyd
+[2024-04-17 02:55:22] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-04-17 02:55:22] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: executing diffoscope
+[2024-04-17 02:55:22] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhdzmota_extension_streamlit_webapps-0.5.2.tar.gz tmp/rhdzmota_extension_streamlit_webapps-0.6.0.tar.gz --markdown 20240417/r/rhdzmota-extension-streamlit-webapps/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-04-17 02:55:22] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz]
+[2024-04-17 02:55:22] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz]
+[2024-04-17 02:55:22] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2024-04-17 02:55:22] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-04-17 02:55:22] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240417/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-17 02:55:22] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.0.tar.gz]
+[2024-04-17 02:55:22] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.1.tar.gz]
+[2024-04-17 02:55:22] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-04-17 02:55:23] INFO root fetch - processPackages [deepgram-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepgram-sdk-3.2.5.tar.gz]
+[2024-04-17 02:55:23] INFO root fetch - processPackages [deepgram-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepgram_sdk-3.2.6.tar.gz]
+[2024-04-17 02:55:23] INFO root fetch - main [MainThread]: End processing [deepgram-sdk]: success
+[2024-04-17 02:55:23] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: Remove: archive file [/home/abi/fetcher/tmp/rhdzmota_extension_streamlit_webapps-0.5.2.tar.gz]
+[2024-04-17 02:55:23] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: Remove: archive file [/home/abi/fetcher/tmp/rhdzmota_extension_streamlit_webapps-0.6.0.tar.gz]
+[2024-04-17 02:55:23] INFO root fetch - main [MainThread]: End processing [rhdzmota-extension-streamlit-webapps]: success
+[2024-04-17 02:55:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-04-17 02:55:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-04-17 02:55:23] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-04-17 02:55:23] INFO root fetch - main [MainThread]: Store serial: [22796966]
