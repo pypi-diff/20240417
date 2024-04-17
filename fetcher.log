@@ -23005,3 +23005,45 @@ EOFError: EOF read where object expected
 [2024-04-17 14:43:04] INFO root fetch - processPackages [allopy]: Remove: archive file [/home/abi/fetcher/tmp/allopy-0.1.5-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip]
 [2024-04-17 14:43:04] INFO root fetch - main [MainThread]: End processing [allopy]: success
 [2024-04-17 14:43:04] INFO root fetch - main [MainThread]: Store serial: [22805592]
+[2024-04-17 14:45:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805592]
+[2024-04-17 14:45:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 14:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-alicloud
+[2024-04-17 14:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumiverse-grafana
+[2024-04-17 14:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CalPleX
+[2024-04-17 14:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vbr-devkit
+[2024-04-17 14:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sense-dmm
+[2024-04-17 14:45:13] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-04-17 14:45:14] WARNING root fetch - processPackages [CalPleX]: Skipping, unable to determine old version
+[2024-04-17 14:45:14] INFO root fetch - main [MainThread]: End processing [CalPleX] error
+[2024-04-17 14:45:14] INFO root fetch - processPackages [sense-dmm]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-17 14:45:14] INFO root fetch - processPackages [vbr-devkit]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 14:45:14] INFO root fetch - processPackages [pulumiverse-grafana]: New version: [0.4.3a1713356688] Old Version: [0.4.3a1713202534]
+[2024-04-17 14:45:14] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-04-17 14:45:14] INFO root fetch - processPackages [vbr-devkit]: Downloading https://files.pythonhosted.org/packages/46/3b/41eebbce2f486d8128668cb5aac7e2ff8d8725149ed3ba34bf340a84561e/vbr_devkit-0.0.2.tar.gz
+[2024-04-17 14:45:14] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/1a/a3/ff0a115b7d3d3d8cab108012a43753e584807cc965886281d65445fbd0f1/pulumiverse_grafana-0.4.3a1713202534.tar.gz
+[2024-04-17 14:45:14] INFO root fetch - processPackages [sense-dmm]: Downloading https://files.pythonhosted.org/packages/1a/b1/ba92c5492052e89c28bafaf3466224d722625a4c12f896a47b5f61ad2199/sense-dmm-0.2.4.tar.gz
+[2024-04-17 14:45:14] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-04-17 14:45:14] INFO root fetch - processPackages [vbr-devkit]: Downloading https://files.pythonhosted.org/packages/af/85/a1d9fa1d5ed968f700b8b76cb92bdf6a0d67fedffc851119d91d2815c14c/vbr_devkit-0.0.3.tar.gz
+[2024-04-17 14:45:14] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/f9/94/4fc071e30d79a4385c41ed6606389ea0e74124d8b2d5d60b4e32ccb8e5f8/pulumiverse_grafana-0.4.3a1713356688.tar.gz
+[2024-04-17 14:45:14] INFO root fetch - processPackages [sense-dmm]: Downloading https://files.pythonhosted.org/packages/28/ab/255a31bc6beeaaf3ab45f224c4441927764da8ffa0c2ebb642651070f09b/sense_dmm-0.2.5.tar.gz
+[2024-04-17 14:45:14] INFO root fetch - processPackages [vbr-devkit]: executing diffoscope
+[2024-04-17 14:45:14] INFO root fetch - processPackages [vbr-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbr_devkit-0.0.2.tar.gz tmp/vbr_devkit-0.0.3.tar.gz --markdown 20240417/v/vbr-devkit/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 14:45:14] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-04-17 14:45:14] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240417/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-04-17 14:45:14] INFO root fetch - processPackages [sense-dmm]: executing diffoscope
+[2024-04-17 14:45:14] INFO root fetch - processPackages [sense-dmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sense-dmm-0.2.4.tar.gz tmp/sense_dmm-0.2.5.tar.gz --markdown 20240417/s/sense-dmm/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-17 14:45:14] INFO root fetch - processPackages [pulumiverse-grafana]: executing diffoscope
+[2024-04-17 14:45:14] INFO root fetch - processPackages [pulumiverse-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_grafana-0.4.3a1713202534.tar.gz tmp/pulumiverse_grafana-0.4.3a1713356688.tar.gz --markdown 20240417/p/pulumiverse-grafana/0.4.3a1713202534-0.4.3a1713356688/README.md --exclude *.pyd
+[2024-04-17 14:45:15] INFO root fetch - processPackages [vbr-devkit]: Remove: archive file [/home/abi/fetcher/tmp/vbr_devkit-0.0.2.tar.gz]
+[2024-04-17 14:45:15] INFO root fetch - processPackages [vbr-devkit]: Remove: archive file [/home/abi/fetcher/tmp/vbr_devkit-0.0.3.tar.gz]
+[2024-04-17 14:45:15] INFO root fetch - main [MainThread]: End processing [vbr-devkit]: success
+[2024-04-17 14:45:15] INFO root fetch - processPackages [sense-dmm]: Remove: archive file [/home/abi/fetcher/tmp/sense-dmm-0.2.4.tar.gz]
+[2024-04-17 14:45:15] INFO root fetch - processPackages [sense-dmm]: Remove: archive file [/home/abi/fetcher/tmp/sense_dmm-0.2.5.tar.gz]
+[2024-04-17 14:45:15] INFO root fetch - main [MainThread]: End processing [sense-dmm]: success
+[2024-04-17 14:45:15] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.3a1713202534.tar.gz]
+[2024-04-17 14:45:15] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.3a1713356688.tar.gz]
+[2024-04-17 14:45:15] INFO root fetch - main [MainThread]: End processing [pulumiverse-grafana]: success
+[2024-04-17 14:45:22] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-04-17 14:45:22] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-04-17 14:45:22] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-04-17 14:45:22] INFO root fetch - main [MainThread]: Store serial: [22805626]
