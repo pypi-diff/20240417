@@ -20688,3 +20688,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:23:57] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-17 13:23:57] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
 [2024-04-17 13:23:57] INFO root fetch - main [MainThread]: Store serial: [22804438]
+[2024-04-17 13:26:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804438]
+[2024-04-17 13:26:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: socktalk
+[2024-04-17 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: draive
+[2024-04-17 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plover-retro-untranslator
+[2024-04-17 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-fhl
+[2024-04-17 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lark-oapi
+[2024-04-17 13:26:08] INFO root fetch - processPackages [socktalk]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-17 13:26:08] INFO root fetch - processPackages [nonebot-plugin-fhl]: New version: [0.1.8] Old Version: [0.1.6]
+[2024-04-17 13:26:08] INFO root fetch - processPackages [plover-retro-untranslator]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-17 13:26:08] INFO root fetch - processPackages [draive]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-17 13:26:08] INFO root fetch - processPackages [lark-oapi]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-04-17 13:26:08] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/93/6e/631ce8ae388c0b9d964b970a13063841c429c8e1cf580012561018b73a65/socktalk-0.2.0.tar.gz
+[2024-04-17 13:26:08] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/e6/33/132c67f52d5bec99f15c51eabc1c67d16c9b136cf337295e70a3409aacbf/nonebot_plugin_fhl-0.1.6.tar.gz
+[2024-04-17 13:26:09] INFO root fetch - processPackages [plover-retro-untranslator]: Downloading https://files.pythonhosted.org/packages/c0/67/5b9b13c4de56dbbf61c517b515b0dd036e1a88c6122fcda4d8efd0de3a72/plover_retro_untranslator-0.3.0.tar.gz
+[2024-04-17 13:26:09] INFO root fetch - processPackages [draive]: Downloading https://files.pythonhosted.org/packages/e8/45/5d05ebc7a4d108588289df8cb46fb9e63092e23bc2eaa8cd7f2a1659bdf6/draive-0.9.2.tar.gz
+[2024-04-17 13:26:09] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/da/b7/99713b11241a76e575ebcd8f1927cc4a07ce2bc18ea7c59d2cc292a67d45/lark-oapi-1.2.4.tar.gz
+[2024-04-17 13:26:09] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/02/3c/832051b0a60389f6d2c7be7437350bd940eb2ac1bbd3f476929d90545a5d/nonebot_plugin_fhl-0.1.8.tar.gz
+[2024-04-17 13:26:09] INFO root fetch - processPackages [nonebot-plugin-fhl]: executing diffoscope
+[2024-04-17 13:26:09] INFO root fetch - processPackages [nonebot-plugin-fhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_fhl-0.1.6.tar.gz tmp/nonebot_plugin_fhl-0.1.8.tar.gz --markdown 20240417/n/nonebot-plugin-fhl/0.1.6-0.1.8/README.md --exclude *.pyd
+[2024-04-17 13:26:09] INFO root fetch - processPackages [socktalk]: Downloading https://files.pythonhosted.org/packages/13/fe/40d3db697b7f80defe82c560292a436d4a3d1f66a0fe53243ddc2485309d/socktalk-0.2.1.tar.gz
+[2024-04-17 13:26:09] INFO root fetch - processPackages [plover-retro-untranslator]: Downloading https://files.pythonhosted.org/packages/88/00/c26d22d153d1725fd45315376329f05fcc44d9f930ae9bf561d164c7f7e8/plover_retro_untranslator-0.4.0.tar.gz
+[2024-04-17 13:26:09] INFO root fetch - processPackages [draive]: Downloading https://files.pythonhosted.org/packages/12/45/bf12032c508f54274e377278b0c3dd9bd4818418afe99095199daf6ae9cc/draive-0.9.3.tar.gz
+[2024-04-17 13:26:09] INFO root fetch - processPackages [socktalk]: executing diffoscope
+[2024-04-17 13:26:09] INFO root fetch - processPackages [socktalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socktalk-0.2.0.tar.gz tmp/socktalk-0.2.1.tar.gz --markdown 20240417/s/socktalk/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-17 13:26:09] INFO root fetch - processPackages [plover-retro-untranslator]: executing diffoscope
+[2024-04-17 13:26:09] INFO root fetch - processPackages [plover-retro-untranslator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plover_retro_untranslator-0.3.0.tar.gz tmp/plover_retro_untranslator-0.4.0.tar.gz --markdown 20240417/p/plover-retro-untranslator/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-17 13:26:09] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/88/07/70c70fc48a14a55dae9892581a579c678f4012098759ea5c1e74c9d59ce0/lark-oapi-1.2.5.tar.gz
+[2024-04-17 13:26:09] INFO root fetch - processPackages [draive]: executing diffoscope
+[2024-04-17 13:26:09] INFO root fetch - processPackages [draive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draive-0.9.2.tar.gz tmp/draive-0.9.3.tar.gz --markdown 20240417/d/draive/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-17 13:26:09] INFO root fetch - processPackages [lark-oapi]: executing diffoscope
+[2024-04-17 13:26:09] INFO root fetch - processPackages [lark-oapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark-oapi-1.2.4.tar.gz tmp/lark-oapi-1.2.5.tar.gz --markdown 20240417/l/lark-oapi/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-04-17 13:26:10] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.2.0.tar.gz]
+[2024-04-17 13:26:10] INFO root fetch - processPackages [socktalk]: Remove: archive file [/home/abi/fetcher/tmp/socktalk-0.2.1.tar.gz]
+[2024-04-17 13:26:10] INFO root fetch - main [MainThread]: End processing [socktalk]: success
+[2024-04-17 13:26:10] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.6.tar.gz]
+[2024-04-17 13:26:10] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.8.tar.gz]
+[2024-04-17 13:26:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fhl]: success
+[2024-04-17 13:26:10] INFO root fetch - processPackages [plover-retro-untranslator]: Remove: archive file [/home/abi/fetcher/tmp/plover_retro_untranslator-0.3.0.tar.gz]
+[2024-04-17 13:26:10] INFO root fetch - processPackages [plover-retro-untranslator]: Remove: archive file [/home/abi/fetcher/tmp/plover_retro_untranslator-0.4.0.tar.gz]
+[2024-04-17 13:26:10] INFO root fetch - main [MainThread]: End processing [plover-retro-untranslator]: success
+[2024-04-17 13:26:10] INFO root fetch - processPackages [draive]: Remove: archive file [/home/abi/fetcher/tmp/draive-0.9.2.tar.gz]
+[2024-04-17 13:26:10] INFO root fetch - processPackages [draive]: Remove: archive file [/home/abi/fetcher/tmp/draive-0.9.3.tar.gz]
+[2024-04-17 13:26:10] INFO root fetch - main [MainThread]: End processing [draive]: success
+[2024-04-17 13:26:49] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.2.4.tar.gz]
+[2024-04-17 13:26:49] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.2.5.tar.gz]
+[2024-04-17 13:26:49] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
+[2024-04-17 13:26:49] INFO root fetch - main [MainThread]: Store serial: [22804482]
