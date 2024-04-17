@@ -23455,3 +23455,36 @@ EOFError: EOF read where object expected
 [2024-04-17 15:01:32] INFO root fetch - processPackages [dol]: Remove: archive file [/home/abi/fetcher/tmp/dol-0.3.0.tar.gz]
 [2024-04-17 15:01:32] INFO root fetch - main [MainThread]: End processing [dol]: success
 [2024-04-17 15:01:32] INFO root fetch - main [MainThread]: Store serial: [22805832]
+[2024-04-17 15:03:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805832]
+[2024-04-17 15:03:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 15:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rustfrecord
+[2024-04-17 15:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysharek
+[2024-04-17 15:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grbl2image
+[2024-04-17 15:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qaoa
+[2024-04-17 15:03:41] INFO root fetch - processPackages [grbl2image]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-17 15:03:41] INFO root fetch - processPackages [qaoa]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-17 15:03:41] INFO root fetch - processPackages [grbl2image]: Downloading https://files.pythonhosted.org/packages/52/e2/852fbc33c54b35b78ff675bb3f6c0f5ab1ff93af2a019eef8f6b02ff71e3/grbl2image-1.1.1.tar.gz
+[2024-04-17 15:03:41] INFO root fetch - processPackages [rustfrecord]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-17 15:03:41] INFO root fetch - processPackages [qaoa]: Downloading https://files.pythonhosted.org/packages/df/13/5f3892cee9bcf613141762bb989d30266497ddbacd13c663672b823ad80f/qaoa-1.0.2.tar.gz
+[2024-04-17 15:03:41] WARNING root fetch - processPackages [pysharek]: Skipping, unable to determine old version
+[2024-04-17 15:03:41] INFO root fetch - main [MainThread]: End processing [pysharek] error
+[2024-04-17 15:03:41] INFO root fetch - processPackages [rustfrecord]: Downloading https://files.pythonhosted.org/packages/58/93/6e2a198792f1408e53845e004c1e7b2b9180b317f40baa2b5233a8419745/rustfrecord-0.1.4.tar.gz
+[2024-04-17 15:03:41] INFO root fetch - processPackages [qaoa]: Downloading https://files.pythonhosted.org/packages/dc/04/34bc4812ec99eb1b3b14866a69d322fd7939cd80882608090f205545a6b0/qaoa-1.0.3.tar.gz
+[2024-04-17 15:03:41] INFO root fetch - processPackages [grbl2image]: Downloading https://files.pythonhosted.org/packages/e1/e4/59132fbd72d249f0adefa1f8f637c24285c4222aaa14e7cadca573b1094e/grbl2image-1.2.0.tar.gz
+[2024-04-17 15:03:42] INFO root fetch - processPackages [qaoa]: executing diffoscope
+[2024-04-17 15:03:42] INFO root fetch - processPackages [qaoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qaoa-1.0.2.tar.gz tmp/qaoa-1.0.3.tar.gz --markdown 20240417/q/qaoa/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-17 15:03:42] INFO root fetch - processPackages [grbl2image]: executing diffoscope
+[2024-04-17 15:03:42] INFO root fetch - processPackages [grbl2image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grbl2image-1.1.1.tar.gz tmp/grbl2image-1.2.0.tar.gz --markdown 20240417/g/grbl2image/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-17 15:03:42] INFO root fetch - processPackages [rustfrecord]: Downloading https://files.pythonhosted.org/packages/41/54/cb6c2cecfa623af3dfd18ecc7dbdd08c37b7d3c1c24f238df53beb1dd9df/rustfrecord-0.1.5.tar.gz
+[2024-04-17 15:03:42] INFO root fetch - processPackages [rustfrecord]: executing diffoscope
+[2024-04-17 15:03:42] INFO root fetch - processPackages [rustfrecord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustfrecord-0.1.4.tar.gz tmp/rustfrecord-0.1.5.tar.gz --markdown 20240417/r/rustfrecord/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-17 15:03:42] INFO root fetch - processPackages [grbl2image]: Remove: archive file [/home/abi/fetcher/tmp/grbl2image-1.1.1.tar.gz]
+[2024-04-17 15:03:42] INFO root fetch - processPackages [grbl2image]: Remove: archive file [/home/abi/fetcher/tmp/grbl2image-1.2.0.tar.gz]
+[2024-04-17 15:03:42] INFO root fetch - main [MainThread]: End processing [grbl2image]: success
+[2024-04-17 15:03:42] INFO root fetch - processPackages [qaoa]: Remove: archive file [/home/abi/fetcher/tmp/qaoa-1.0.2.tar.gz]
+[2024-04-17 15:03:42] INFO root fetch - processPackages [qaoa]: Remove: archive file [/home/abi/fetcher/tmp/qaoa-1.0.3.tar.gz]
+[2024-04-17 15:03:42] INFO root fetch - main [MainThread]: End processing [qaoa]: success
+[2024-04-17 15:03:42] INFO root fetch - processPackages [rustfrecord]: Remove: archive file [/home/abi/fetcher/tmp/rustfrecord-0.1.4.tar.gz]
+[2024-04-17 15:03:42] INFO root fetch - processPackages [rustfrecord]: Remove: archive file [/home/abi/fetcher/tmp/rustfrecord-0.1.5.tar.gz]
+[2024-04-17 15:03:42] INFO root fetch - main [MainThread]: End processing [rustfrecord]: success
+[2024-04-17 15:03:42] INFO root fetch - main [MainThread]: Store serial: [22805849]
