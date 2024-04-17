@@ -20388,3 +20388,44 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:03:45] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
 [2024-04-17 13:03:45] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-04-17 13:03:45] INFO root fetch - main [MainThread]: Store serial: [22804281]
+[2024-04-17 13:05:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804281]
+[2024-04-17 13:05:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pcgym
+[2024-04-17 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyscreeps-arena
+[2024-04-17 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pasqal-cloud
+[2024-04-17 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotic
+[2024-04-17 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuzu
+[2024-04-17 13:05:54] INFO root fetch - processPackages [pasqal-cloud]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-17 13:05:54] INFO root fetch - processPackages [pcgym]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 13:05:54] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev37] Old Version: [0.3.3.dev36]
+[2024-04-17 13:05:54] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/d0/23/3985d86912c61deedee6c46806072b5f273997819bdb35f43bad397c1699/pasqal-cloud-0.7.0.tar.gz
+[2024-04-17 13:05:54] INFO root fetch - processPackages [pcgym]: Downloading https://files.pythonhosted.org/packages/0a/65/c4ee85684736964767bee3778a36d5c9188ac806fc25629c3179bd1a7ccd/pcgym-0.1.1.tar.gz
+[2024-04-17 13:05:54] INFO root fetch - processPackages [robotic]: New version: [0.1.9b0] Old Version: [0.1.9a0]
+[2024-04-17 13:05:54] INFO root fetch - processPackages [pyscreeps-arena]: New version: [0.2a0] Old Version: [0.2.2]
+[2024-04-17 13:05:54] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/86/d7/084411e6f2ab2008ec984ae45065f7d1f5054a7d1ed1f1fa525b9874131f/kuzu-0.3.3.dev36.tar.gz
+[2024-04-17 13:05:54] INFO root fetch - processPackages [robotic]: Downloading https://files.pythonhosted.org/packages/75/5c/ce3d961e96c26e47d81c619e2875372c42e3f09091218bf0d77b443be701/robotic-0.1.9a0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-17 13:05:54] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/da/78/a3318ca23a6b7a9ec63a09c5af0f9b47399aa438ad233b2c988f29b900f9/pyscreeps_arena-0.2.2.tar.gz
+[2024-04-17 13:05:54] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/11/d6/275d306e22ae68a0d90abe5fbfc1fc1604a1d9a4708c3a40ec8402256039/pasqal_cloud-0.7.1.tar.gz
+[2024-04-17 13:05:54] INFO root fetch - processPackages [pcgym]: Downloading https://files.pythonhosted.org/packages/ff/e0/21273bf3d99639947f53a357880fc9b3bb83405611cb13c896c20ff5177c/pcgym-0.1.2.tar.gz
+[2024-04-17 13:05:54] WARNING root fetch - processPackages [robotic]: Skipping package: exceeds size limit 16798966>=10485760
+[2024-04-17 13:05:54] INFO root fetch - main [MainThread]: End processing [robotic] error
+[2024-04-17 13:05:54] INFO root fetch - processPackages [pasqal-cloud]: executing diffoscope
+[2024-04-17 13:05:54] INFO root fetch - processPackages [pasqal-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasqal-cloud-0.7.0.tar.gz tmp/pasqal_cloud-0.7.1.tar.gz --markdown 20240417/p/pasqal-cloud/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-17 13:05:54] INFO root fetch - processPackages [pcgym]: executing diffoscope
+[2024-04-17 13:05:54] INFO root fetch - processPackages [pcgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcgym-0.1.1.tar.gz tmp/pcgym-0.1.2.tar.gz --markdown 20240417/p/pcgym/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 13:05:54] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/80/84/69e9bbf846e3c0a3bb061e31083d42af0c32aa7163374d8c86d2bee934a5/pyscreeps_arena-0.2a0.tar.gz
+[2024-04-17 13:05:55] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/62/a3/5616230ee93a14fe1672cf97032aca486f86ca3220de2e47d72d4c13bf01/kuzu-0.3.3.dev37.tar.gz
+[2024-04-17 13:05:55] INFO root fetch - processPackages [pyscreeps-arena]: executing diffoscope
+[2024-04-17 13:05:55] INFO root fetch - processPackages [pyscreeps-arena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscreeps_arena-0.2.2.tar.gz tmp/pyscreeps_arena-0.2a0.tar.gz --markdown 20240417/p/pyscreeps-arena/0.2.2-0.2a0/README.md --exclude *.pyd
+[2024-04-17 13:05:55] WARNING root fetch - processPackages [kuzu]: Skipping package: exceeds size limit 15422298>=10485760
+[2024-04-17 13:05:55] INFO root fetch - main [MainThread]: End processing [kuzu] error
+[2024-04-17 13:05:55] INFO root fetch - processPackages [pcgym]: Remove: archive file [/home/abi/fetcher/tmp/pcgym-0.1.1.tar.gz]
+[2024-04-17 13:05:55] INFO root fetch - processPackages [pcgym]: Remove: archive file [/home/abi/fetcher/tmp/pcgym-0.1.2.tar.gz]
+[2024-04-17 13:05:55] INFO root fetch - main [MainThread]: End processing [pcgym]: success
+[2024-04-17 13:05:55] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal-cloud-0.7.0.tar.gz]
+[2024-04-17 13:05:55] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal_cloud-0.7.1.tar.gz]
+[2024-04-17 13:05:55] INFO root fetch - main [MainThread]: End processing [pasqal-cloud]: success
+[2024-04-17 13:05:55] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps_arena-0.2.2.tar.gz]
+[2024-04-17 13:05:55] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps_arena-0.2a0.tar.gz]
+[2024-04-17 13:05:55] INFO root fetch - main [MainThread]: End processing [pyscreeps-arena]: success
+[2024-04-17 13:05:55] INFO root fetch - main [MainThread]: Store serial: [22804310]
