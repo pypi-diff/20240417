@@ -14804,3 +14804,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:55:49] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.184.tar.gz]
 [2024-04-17 09:55:49] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
 [2024-04-17 09:55:49] INFO root fetch - main [MainThread]: Store serial: [22801703]
+[2024-04-17 09:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801703]
+[2024-04-17 09:57:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 09:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dalsa
+[2024-04-17 09:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudnetpy-qc
+[2024-04-17 09:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MovieChat
+[2024-04-17 09:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DemoRolloutHelper
+[2024-04-17 09:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BioUtensils
+[2024-04-17 09:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlmodel-react-admin
+[2024-04-17 09:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TissUUmaps
+[2024-04-17 09:57:58] WARNING root fetch - processPackages [BioUtensils]: Skipping, unable to determine old version
+[2024-04-17 09:57:58] INFO root fetch - main [MainThread]: End processing [BioUtensils] error
+[2024-04-17 09:57:58] INFO root fetch - processPackages [TissUUmaps]: New version: [3.2rc3] Old Version: [3.2rc2]
+[2024-04-17 09:57:58] WARNING root fetch - processPackages [dalsa]: Skipping, unable to determine old version
+[2024-04-17 09:57:58] INFO root fetch - main [MainThread]: End processing [dalsa] error
+[2024-04-17 09:57:58] WARNING root fetch - processPackages [MovieChat]: Skipping, unable to determine old version
+[2024-04-17 09:57:58] INFO root fetch - main [MainThread]: End processing [MovieChat] error
+[2024-04-17 09:57:58] WARNING root fetch - processPackages [sqlmodel-react-admin]: Skipping, unable to determine old version
+[2024-04-17 09:57:58] INFO root fetch - main [MainThread]: End processing [sqlmodel-react-admin] error
+[2024-04-17 09:57:58] WARNING root fetch - processPackages [DemoRolloutHelper]: Skipping, unable to determine old version
+[2024-04-17 09:57:58] INFO root fetch - main [MainThread]: End processing [DemoRolloutHelper] error
+[2024-04-17 09:57:58] INFO root fetch - processPackages [cloudnetpy-qc]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-17 09:57:58] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/db/d6/437e8c1503adb9edb4b8221139137dbeb690bf51b3dd792be02a14e4d82f/cloudnetpy_qc-1.9.4.tar.gz
+[2024-04-17 09:57:58] INFO root fetch - processPackages [TissUUmaps]: Downloading https://files.pythonhosted.org/packages/bf/78/9caf6bee5293b06ef62eb3faf7b512199cd632f472d8a1cf8f214911ea37/TissUUmaps-3.2rc2.tar.gz
+[2024-04-17 09:57:58] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/2b/37/8700176a21e67e769e2ce546f74d753adeb243a4497dcb1bd3859a131986/cloudnetpy_qc-1.9.5.tar.gz
+[2024-04-17 09:57:59] INFO root fetch - processPackages [cloudnetpy-qc]: executing diffoscope
+[2024-04-17 09:57:59] INFO root fetch - processPackages [cloudnetpy-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudnetpy_qc-1.9.4.tar.gz tmp/cloudnetpy_qc-1.9.5.tar.gz --markdown 20240417/c/cloudnetpy-qc/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-04-17 09:57:59] INFO root fetch - processPackages [TissUUmaps]: Downloading https://files.pythonhosted.org/packages/4f/5b/9eee2596a1a03a1394519124013e8a3dbf611af541beae662c47c6c4ca95/TissUUmaps-3.2rc3.tar.gz
+[2024-04-17 09:57:59] INFO root fetch - processPackages [TissUUmaps]: executing diffoscope
+[2024-04-17 09:57:59] INFO root fetch - processPackages [TissUUmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TissUUmaps-3.2rc2.tar.gz tmp/TissUUmaps-3.2rc3.tar.gz --markdown 20240417/T/TissUUmaps/3.2rc2-3.2rc3/README.md --exclude *.pyd
+[2024-04-17 09:58:00] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.4.tar.gz]
+[2024-04-17 09:58:00] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.5.tar.gz]
+[2024-04-17 09:58:00] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
+[2024-04-17 09:58:15] INFO root fetch - processPackages [TissUUmaps]: Remove: archive file [/home/abi/fetcher/tmp/TissUUmaps-3.2rc2.tar.gz]
+[2024-04-17 09:58:15] INFO root fetch - processPackages [TissUUmaps]: Remove: archive file [/home/abi/fetcher/tmp/TissUUmaps-3.2rc3.tar.gz]
+[2024-04-17 09:58:15] INFO root fetch - main [MainThread]: End processing [TissUUmaps]: success
+[2024-04-17 09:58:15] INFO root fetch - main [MainThread]: Store serial: [22801733]
