@@ -20033,3 +20033,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:48:00] INFO root fetch - main [MainThread]: End processing [trytond-account]: success
 [2024-04-17 12:48:00] INFO root fetch - main [MainThread]: End processing [trytond-account]: success
 [2024-04-17 12:48:00] INFO root fetch - main [MainThread]: Store serial: [22804107]
+[2024-04-17 12:50:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804107]
+[2024-04-17 12:50:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 12:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrummd
+[2024-04-17 12:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grateful-logging
+[2024-04-17 12:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bytehouse-driver
+[2024-04-17 12:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wisecube
+[2024-04-17 12:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rocc
+[2024-04-17 12:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: g4f
+[2024-04-17 12:50:10] WARNING root fetch - processPackages [wisecube]: Skipping, unable to determine old version
+[2024-04-17 12:50:10] INFO root fetch - main [MainThread]: End processing [wisecube] error
+[2024-04-17 12:50:10] INFO root fetch - processPackages [g4f]: New version: [0.2.9.9] Old Version: [0.2.9.8]
+[2024-04-17 12:50:10] INFO root fetch - processPackages [scrummd]: New version: [0.1.0] Old Version: [0.0.8]
+[2024-04-17 12:50:10] INFO root fetch - processPackages [grateful-logging]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 12:50:10] INFO root fetch - processPackages [rocc]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-17 12:50:10] INFO root fetch - processPackages [bytehouse-driver]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-17 12:50:10] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/b3/55/996d75dc7b0685c901f1aee8787d015cdc39f08b9f6d01076b2fa9626267/g4f-0.2.9.8.tar.gz
+[2024-04-17 12:50:10] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/09/31/525e3806b5e500dbe99583c1cbe287c1de17c9c4ed7617f25cff69d57f1e/grateful_logging-0.0.8.tar.gz
+[2024-04-17 12:50:10] INFO root fetch - processPackages [scrummd]: Downloading https://files.pythonhosted.org/packages/ab/bc/ad646c14af8c5a1a51459edb6cd29af47c96b89061172252a3bd63c22b8a/scrummd-0.0.8.tar.gz
+[2024-04-17 12:50:10] INFO root fetch - processPackages [bytehouse-driver]: Downloading https://files.pythonhosted.org/packages/1a/7f/63c40f45fccb8b8a3443b6a1f422f2f3922308a6c05d5808123ac1485649/bytehouse-driver-1.0.3.tar.gz
+[2024-04-17 12:50:10] INFO root fetch - processPackages [rocc]: Downloading https://files.pythonhosted.org/packages/c5/80/370386e6ab0c460508b7e7f411a9d859870aa441e9078da9071ef2c3b041/rocc-3.0.1.tar.gz
+[2024-04-17 12:50:10] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/ec/73/e3c663b38805bc4579afeac51c396d49b34468f983ca03d4fb24a77e12c8/grateful_logging-0.0.9.tar.gz
+[2024-04-17 12:50:10] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/d9/a3/4729c911ae111904f94836fc7f6bd4e9b7bf974c1037297866d36723519c/g4f-0.2.9.9.tar.gz
+[2024-04-17 12:50:10] INFO root fetch - processPackages [grateful-logging]: executing diffoscope
+[2024-04-17 12:50:10] INFO root fetch - processPackages [grateful-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grateful_logging-0.0.8.tar.gz tmp/grateful_logging-0.0.9.tar.gz --markdown 20240417/g/grateful-logging/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 12:50:10] INFO root fetch - processPackages [scrummd]: Downloading https://files.pythonhosted.org/packages/47/05/2e7ee43bc6323407d5ab2bf7465825a33b949d9aa9ac0bdc5b73e89498b9/scrummd-0.1.0.tar.gz
+[2024-04-17 12:50:10] INFO root fetch - processPackages [g4f]: executing diffoscope
+[2024-04-17 12:50:10] INFO root fetch - processPackages [g4f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g4f-0.2.9.8.tar.gz tmp/g4f-0.2.9.9.tar.gz --markdown 20240417/g/g4f/0.2.9.8-0.2.9.9/README.md --exclude *.pyd
+[2024-04-17 12:50:10] INFO root fetch - processPackages [bytehouse-driver]: Downloading https://files.pythonhosted.org/packages/c5/bc/f5f090ed1a088ac8f6fbaa4066282230c6239ee181328bb421d34cfbc2de/bytehouse_driver-1.0.4.tar.gz
+[2024-04-17 12:50:10] INFO root fetch - processPackages [rocc]: Downloading https://files.pythonhosted.org/packages/a6/7c/1bdf3ec3fb9fa2711802ccbca4dcfab8967fa959d74de7ec3c3287a3102b/rocc-3.0.2.tar.gz
+[2024-04-17 12:50:10] INFO root fetch - processPackages [scrummd]: executing diffoscope
+[2024-04-17 12:50:10] INFO root fetch - processPackages [scrummd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrummd-0.0.8.tar.gz tmp/scrummd-0.1.0.tar.gz --markdown 20240417/s/scrummd/0.0.8-0.1.0/README.md --exclude *.pyd
+[2024-04-17 12:50:10] INFO root fetch - processPackages [bytehouse-driver]: executing diffoscope
+[2024-04-17 12:50:10] INFO root fetch - processPackages [bytehouse-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytehouse-driver-1.0.3.tar.gz tmp/bytehouse_driver-1.0.4.tar.gz --markdown 20240417/b/bytehouse-driver/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-17 12:50:10] INFO root fetch - processPackages [rocc]: executing diffoscope
+[2024-04-17 12:50:10] INFO root fetch - processPackages [rocc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocc-3.0.1.tar.gz tmp/rocc-3.0.2.tar.gz --markdown 20240417/r/rocc/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-17 12:50:11] INFO root fetch - processPackages [grateful-logging]: Remove: archive file [/home/abi/fetcher/tmp/grateful_logging-0.0.8.tar.gz]
+[2024-04-17 12:50:11] INFO root fetch - processPackages [grateful-logging]: Remove: archive file [/home/abi/fetcher/tmp/grateful_logging-0.0.9.tar.gz]
+[2024-04-17 12:50:11] INFO root fetch - main [MainThread]: End processing [grateful-logging]: success
+[2024-04-17 12:50:11] INFO root fetch - processPackages [rocc]: Remove: archive file [/home/abi/fetcher/tmp/rocc-3.0.1.tar.gz]
+[2024-04-17 12:50:11] INFO root fetch - processPackages [rocc]: Remove: archive file [/home/abi/fetcher/tmp/rocc-3.0.2.tar.gz]
+[2024-04-17 12:50:11] INFO root fetch - main [MainThread]: End processing [rocc]: success
+[2024-04-17 12:50:11] INFO root fetch - processPackages [scrummd]: Remove: archive file [/home/abi/fetcher/tmp/scrummd-0.0.8.tar.gz]
+[2024-04-17 12:50:11] INFO root fetch - processPackages [scrummd]: Remove: archive file [/home/abi/fetcher/tmp/scrummd-0.1.0.tar.gz]
+[2024-04-17 12:50:11] INFO root fetch - main [MainThread]: End processing [scrummd]: success
+[2024-04-17 12:50:12] INFO root fetch - processPackages [bytehouse-driver]: Remove: archive file [/home/abi/fetcher/tmp/bytehouse-driver-1.0.3.tar.gz]
+[2024-04-17 12:50:12] INFO root fetch - processPackages [bytehouse-driver]: Remove: archive file [/home/abi/fetcher/tmp/bytehouse_driver-1.0.4.tar.gz]
+[2024-04-17 12:50:12] INFO root fetch - main [MainThread]: End processing [bytehouse-driver]: success
+[2024-04-17 12:50:12] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.2.9.8.tar.gz]
+[2024-04-17 12:50:12] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.2.9.9.tar.gz]
+[2024-04-17 12:50:12] INFO root fetch - main [MainThread]: End processing [g4f]: success
+[2024-04-17 12:50:12] INFO root fetch - main [MainThread]: Store serial: [22804124]
