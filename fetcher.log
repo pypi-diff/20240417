@@ -19666,3 +19666,124 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:36:47] INFO root fetch - processPackages [scPANTHEON]: Remove: archive file [/home/abi/fetcher/tmp/scPANTHEON-0.5.5.2.tar.gz]
 [2024-04-17 12:36:47] INFO root fetch - main [MainThread]: End processing [scPANTHEON]: success
 [2024-04-17 12:36:47] INFO root fetch - main [MainThread]: Store serial: [22803956]
+[2024-04-17 12:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803956]
+[2024-04-17 12:38:56] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-17 12:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond-sale-extra
+[2024-04-17 12:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BrickBundles
+[2024-04-17 12:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BrickAgx
+[2024-04-17 12:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-sale-extra
+[2024-04-17 12:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testcontainers
+[2024-04-17 12:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-fhl
+[2024-04-17 12:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snakemake-interface-storage-plugins
+[2024-04-17 12:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyuptech
+[2024-04-17 12:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trytond-sale-advance-payment
+[2024-04-17 12:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: botasaurus2
+[2024-04-17 12:38:56] INFO root fetch - processPackages [nonebot-plugin-fhl]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-17 12:38:56] INFO root fetch - processPackages [botasaurus2]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-17 12:38:56] INFO root fetch - processPackages [BrickBundles]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-17 12:38:56] INFO root fetch - processPackages [BrickAgx]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-17 12:38:56] WARNING root fetch - processPackages [pyuptech]: Skipping, unable to determine old version
+[2024-04-17 12:38:56] INFO root fetch - processPackages [pyuptech]: Start processing: mlpro
+[2024-04-17 12:38:56] INFO root fetch - main [MainThread]: End processing [pyuptech] error
+[2024-04-17 12:38:56] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/f3/8e/e5661e71515c04ddd3ba086fe487756ff08d6a04f4b41e558cdd4e9edb9b/brickagx-0.6.0-cp39-cp39-win_amd64.whl
+[2024-04-17 12:38:56] INFO root fetch - processPackages [testcontainers]: New version: [4.4.0] Old Version: [4.3.3]
+[2024-04-17 12:38:56] INFO root fetch - processPackages [trytond-sale-extra]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-04-17 12:38:56] INFO root fetch - processPackages [trytond-sale-extra]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-04-17 12:38:56] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: New version: [3.2.2] Old Version: [3.2.1]
+[2024-04-17 12:38:56] INFO root fetch - processPackages [trytond-sale-advance-payment]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-17 12:38:56] INFO root fetch - processPackages [botasaurus2]: Downloading https://files.pythonhosted.org/packages/97/f3/77a565ba089be8c18c08df9123755dc3aa7b9ed1195de4a8ced165b809fe/botasaurus2-1.4.3.tar.gz
+[2024-04-17 12:38:56] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/57/28/5bd580fa6ee62ce3cb9d6bfe4c4f14d81bd4999be3a367f2aeca96bf5419/brickbundles-0.6.0-py3-none-any.whl
+[2024-04-17 12:38:56] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/cf/e8/fef10a913995e5e775a5e3f8c77413b6ac56cc4fd7fc54753ff06035d13c/nonebot_plugin_fhl-0.1.3.tar.gz
+[2024-04-17 12:38:56] INFO root fetch - processPackages [mlpro]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-17 12:38:57] INFO root fetch - processPackages [testcontainers]: Downloading https://files.pythonhosted.org/packages/46/b0/44112f37dbab9664a39c5ac934db13c1f2145208d203f15a29592d0c4e76/testcontainers-4.3.3.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [trytond-sale-extra]: Downloading https://files.pythonhosted.org/packages/48/f8/0bbce422ab07b8dfe00d24742c62a33f4537d01b66c2757f716925e318af/trytond_sale_extra-7.0.0.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [trytond-sale-extra]: Downloading https://files.pythonhosted.org/packages/48/f8/0bbce422ab07b8dfe00d24742c62a33f4537d01b66c2757f716925e318af/trytond_sale_extra-7.0.0.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: Downloading https://files.pythonhosted.org/packages/13/34/ed15f74806fbb1cc65b88eb722f3918db99688ed2b52c4e2ed194781bd75/snakemake_interface_storage_plugins-3.2.1.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [trytond-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/fa/92/48591b2fb909e7072669d3d14aea2fb0dafe13310843495f870c1c78b683/trytond_sale_advance_payment-7.0.1.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [mlpro]: Downloading https://files.pythonhosted.org/packages/bf/72/eb128abaffed90b431c93fc5f64ad989d7fdd7aa750b6ef47b8a4c4c234f/mlpro-1.3.1.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/00/2d/33f85a04fc4bb5598e994c3f42795219b822b14625fcdbfe220c944d7c97/brickbundles-0.6.1-py3-none-any.whl
+[2024-04-17 12:38:57] INFO root fetch - processPackages [botasaurus2]: Downloading https://files.pythonhosted.org/packages/38/20/07de2fca061ec7c84b94b50df62c53ee575e11c221e07c1e312d9968f150/botasaurus2-1.4.4.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [nonebot-plugin-fhl]: Downloading https://files.pythonhosted.org/packages/4e/85/cf9fe943513240adde744bca45b5d7b302f08289d092d41faee8f2f0c439/nonebot_plugin_fhl-0.1.4.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [BrickBundles]: executing diffoscope
+[2024-04-17 12:38:57] INFO root fetch - processPackages [BrickBundles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickbundles-0.6.0-py3-none-any.whl.zip tmp/brickbundles-0.6.1-py3-none-any.whl.zip --markdown 20240417/B/BrickBundles/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-17 12:38:57] INFO root fetch - processPackages [botasaurus2]: executing diffoscope
+[2024-04-17 12:38:57] INFO root fetch - processPackages [botasaurus2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus2-1.4.3.tar.gz tmp/botasaurus2-1.4.4.tar.gz --markdown 20240417/b/botasaurus2/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-04-17 12:38:57] INFO root fetch - processPackages [testcontainers]: Downloading https://files.pythonhosted.org/packages/96/3f/0ece1a2d55835771777d5899b3a51c301703f0e4ea2003dd4ebe7714e313/testcontainers-4.4.0.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [nonebot-plugin-fhl]: executing diffoscope
+[2024-04-17 12:38:57] INFO root fetch - processPackages [nonebot-plugin-fhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_fhl-0.1.3.tar.gz tmp/nonebot_plugin_fhl-0.1.4.tar.gz --markdown 20240417/n/nonebot-plugin-fhl/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-17 12:38:57] INFO root fetch - processPackages [trytond-sale-extra]: Downloading https://files.pythonhosted.org/packages/00/c9/8d0b3562ff26630ae7ca48182ada48ecb74b24e3b77aa3b7bb2c077a4107/trytond_sale_extra-7.0.1.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [trytond-sale-extra]: Downloading https://files.pythonhosted.org/packages/00/c9/8d0b3562ff26630ae7ca48182ada48ecb74b24e3b77aa3b7bb2c077a4107/trytond_sale_extra-7.0.1.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [trytond-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/d9/08/1b2668a72db9dd0ffc708a64fda4672effc8f964caa75bf056ed19866437/trytond_sale_advance_payment-7.0.2.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: Downloading https://files.pythonhosted.org/packages/ee/aa/a0e11b3e17668268ab3a0286b5e838296770d9cb09c32432f51681f9b73f/snakemake_interface_storage_plugins-3.2.2.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [testcontainers]: executing diffoscope
+[2024-04-17 12:38:57] INFO root fetch - processPackages [testcontainers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testcontainers-4.3.3.tar.gz tmp/testcontainers-4.4.0.tar.gz --markdown 20240417/t/testcontainers/4.3.3-4.4.0/README.md --exclude *.pyd
+[2024-04-17 12:38:57] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/1c/7f/b1d61f95e2a20dbfc4bf27e49d57ba38c735dfb40252f67b360562facca1/brickagx-0.6.1-cp39-cp39-win_amd64.whl
+[2024-04-17 12:38:57] INFO root fetch - processPackages [trytond-sale-extra]: executing diffoscope
+[2024-04-17 12:38:57] INFO root fetch - processPackages [trytond-sale-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_extra-7.0.0.tar.gz tmp/trytond_sale_extra-7.0.1.tar.gz --markdown 20240417/t/trytond-sale-extra/7.0.0-7.0.1/README.md --exclude *.pyd
+[2024-04-17 12:38:57] INFO root fetch - processPackages [mlpro]: Downloading https://files.pythonhosted.org/packages/64/cc/50304c1e32c4571d032c1776689994efc67ccd08dfede25f15ed89377a13/mlpro-1.4.0.tar.gz
+[2024-04-17 12:38:57] INFO root fetch - processPackages [trytond-sale-extra]: executing diffoscope
+[2024-04-17 12:38:57] INFO root fetch - processPackages [trytond-sale-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_extra-7.0.0.tar.gz tmp/trytond_sale_extra-7.0.1.tar.gz --markdown 20240417/t/trytond-sale-extra/7.0.0-7.0.1/README.md --exclude *.pyd
+[2024-04-17 12:38:57] INFO root fetch - processPackages [trytond-sale-advance-payment]: executing diffoscope
+[2024-04-17 12:38:57] INFO root fetch - processPackages [trytond-sale-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_advance_payment-7.0.1.tar.gz tmp/trytond_sale_advance_payment-7.0.2.tar.gz --markdown 20240417/t/trytond-sale-advance-payment/7.0.1-7.0.2/README.md --exclude *.pyd
+[2024-04-17 12:38:57] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: executing diffoscope
+[2024-04-17 12:38:57] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_interface_storage_plugins-3.2.1.tar.gz tmp/snakemake_interface_storage_plugins-3.2.2.tar.gz --markdown 20240417/s/snakemake-interface-storage-plugins/3.2.1-3.2.2/README.md --exclude *.pyd
+[2024-04-17 12:38:57] INFO root fetch - processPackages [mlpro]: executing diffoscope
+[2024-04-17 12:38:57] INFO root fetch - processPackages [mlpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpro-1.3.1.tar.gz tmp/mlpro-1.4.0.tar.gz --markdown 20240417/m/mlpro/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-17 12:38:58] INFO root fetch - processPackages [BrickAgx]: executing diffoscope
+[2024-04-17 12:38:58] INFO root fetch - processPackages [BrickAgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickagx-0.6.0-cp39-cp39-win_amd64.whl.zip tmp/brickagx-0.6.1-cp39-cp39-win_amd64.whl.zip --markdown 20240417/B/BrickAgx/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-17 12:38:58] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.3.tar.gz]
+[2024-04-17 12:38:58] INFO root fetch - processPackages [nonebot-plugin-fhl]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_fhl-0.1.4.tar.gz]
+[2024-04-17 12:38:58] INFO root fetch - processPackages [nonebot-plugin-fhl]: Start processing: trytond-sale-advance-payment
+[2024-04-17 12:38:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fhl]: success
+[2024-04-17 12:38:58] INFO root fetch - processPackages [trytond-sale-advance-payment]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-17 12:38:58] INFO root fetch - processPackages [trytond-sale-advance-payment]: executing diffoscope
+[2024-04-17 12:38:58] INFO root fetch - processPackages [trytond-sale-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_advance_payment-7.0.1.tar.gz tmp/trytond_sale_advance_payment-7.0.2.tar.gz --markdown 20240417/t/trytond-sale-advance-payment/7.0.1-7.0.2/README.md --exclude *.pyd
+[2024-04-17 12:38:58] INFO root fetch - processPackages [testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/testcontainers-4.3.3.tar.gz]
+[2024-04-17 12:38:58] INFO root fetch - processPackages [testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/testcontainers-4.4.0.tar.gz]
+[2024-04-17 12:38:58] INFO root fetch - processPackages [testcontainers]: Start processing: sembansurga
+[2024-04-17 12:38:58] INFO root fetch - main [MainThread]: End processing [testcontainers]: success
+[2024-04-17 12:38:58] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_interface_storage_plugins-3.2.1.tar.gz]
+[2024-04-17 12:38:58] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_interface_storage_plugins-3.2.2.tar.gz]
+[2024-04-17 12:38:58] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: Start processing: skypilot-nightly
+[2024-04-17 12:38:58] INFO root fetch - main [MainThread]: End processing [snakemake-interface-storage-plugins]: success
+[2024-04-17 12:38:58] INFO root fetch - processPackages [sembansurga]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-17 12:38:58] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240416] Old Version: [1.0.0.dev20240415]
+[2024-04-17 12:38:58] INFO root fetch - processPackages [botasaurus2]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus2-1.4.3.tar.gz]
+[2024-04-17 12:38:58] INFO root fetch - processPackages [botasaurus2]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus2-1.4.4.tar.gz]
+[2024-04-17 12:38:58] INFO root fetch - main [MainThread]: End processing [botasaurus2]: success
+[2024-04-17 12:38:58] INFO root fetch - processPackages [trytond-sale-extra]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_extra-7.0.0.tar.gz]
+[2024-04-17 12:38:58] INFO root fetch - processPackages [trytond-sale-extra]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_extra-7.0.1.tar.gz]
+[2024-04-17 12:38:58] INFO root fetch - main [MainThread]: End processing [trytond-sale-extra]: success
+[2024-04-17 12:38:58] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/80/a8/48811f953ce5598b1641b6596f37076d57b175c4607cb7d5c3edfe35a409/skypilot_nightly-1.0.0.dev20240415.tar.gz
+[2024-04-17 12:38:58] INFO root fetch - processPackages [trytond-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_advance_payment-7.0.1.tar.gz]
+[2024-04-17 12:38:58] INFO root fetch - processPackages [trytond-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_advance_payment-7.0.2.tar.gz]
+[2024-04-17 12:38:58] INFO root fetch - main [MainThread]: End processing [trytond-sale-advance-payment]: success
+[2024-04-17 12:38:59] INFO root fetch - main [MainThread]: End processing [trytond-sale-extra]: success
+[2024-04-17 12:38:59] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/fb/56/f0b924b8914e23165dccd3592cd2f3f32cb83895741fb0a971ce0863b3e1/sembansurga-1.1.0.tar.gz
+[2024-04-17 12:38:59] ERROR root fetch - processPackages [trytond-sale-advance-payment]: Diffoscope failed: time="2024-04-17T12:38:58+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/trytond_sale_advance_payment-7.0.1.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/trytond_sale_advance_payment-7.0.2.tar.gz: No such file or directory
+
+[2024-04-17 12:38:59] INFO root fetch - main [MainThread]: End processing [trytond-sale-advance-payment] error
+[2024-04-17 12:38:59] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.6.0-py3-none-any.whl.zip]
+[2024-04-17 12:38:59] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.6.1-py3-none-any.whl.zip]
+[2024-04-17 12:38:59] INFO root fetch - main [MainThread]: End processing [BrickBundles]: success
+[2024-04-17 12:38:59] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/52/92/47d847fdf3c5c3e958cf005d0f73dd2f62a99a1e4df8560b1cf8636271e2/sembansurga-1.1.1.tar.gz
+[2024-04-17 12:38:59] INFO root fetch - processPackages [mlpro]: Remove: archive file [/home/abi/fetcher/tmp/mlpro-1.3.1.tar.gz]
+[2024-04-17 12:38:59] INFO root fetch - processPackages [mlpro]: Remove: archive file [/home/abi/fetcher/tmp/mlpro-1.4.0.tar.gz]
+[2024-04-17 12:38:59] INFO root fetch - main [MainThread]: End processing [mlpro]: success
+[2024-04-17 12:38:59] INFO root fetch - processPackages [sembansurga]: executing diffoscope
+[2024-04-17 12:38:59] INFO root fetch - processPackages [sembansurga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sembansurga-1.1.0.tar.gz tmp/sembansurga-1.1.1.tar.gz --markdown 20240417/s/sembansurga/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-17 12:38:59] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/7e/46/0e09c73ff5e07f24699ec47f88912a56b9c6ccb4d7eb7c57364b081b8c8a/skypilot_nightly-1.0.0.dev20240416.tar.gz
+[2024-04-17 12:39:00] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-17 12:39:00] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240415.tar.gz tmp/skypilot_nightly-1.0.0.dev20240416.tar.gz --markdown 20240417/s/skypilot-nightly/1.0.0.dev20240415-1.0.0.dev20240416/README.md --exclude *.pyd
+[2024-04-17 12:39:00] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.6.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 12:39:00] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.6.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 12:39:00] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
+[2024-04-17 12:39:00] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.1.0.tar.gz]
+[2024-04-17 12:39:00] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.1.1.tar.gz]
+[2024-04-17 12:39:00] INFO root fetch - main [MainThread]: End processing [sembansurga]: success
+[2024-04-17 12:39:01] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240415.tar.gz]
+[2024-04-17 12:39:01] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240416.tar.gz]
+[2024-04-17 12:39:01] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-17 12:39:01] INFO root fetch - main [MainThread]: Store serial: [22804005]
