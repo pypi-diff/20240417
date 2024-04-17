@@ -19384,3 +19384,106 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:27:32] INFO root fetch - processPackages [rapidae]: Remove: archive file [/home/abi/fetcher/tmp/rapidae-0.0.4.tar.gz]
 [2024-04-17 12:27:32] INFO root fetch - main [MainThread]: End processing [rapidae]: success
 [2024-04-17 12:27:32] INFO root fetch - main [MainThread]: Store serial: [22803847]
+[2024-04-17 12:29:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803847]
+[2024-04-17 12:29:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-17 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond
+[2024-04-17 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asleep
+[2024-04-17 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond
+[2024-04-17 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ofnodes
+[2024-04-17 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pairef
+[2024-04-17 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flowdapt
+[2024-04-17 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond
+[2024-04-17 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelisation
+[2024-04-17 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simply-log
+[2024-04-17 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tarentula
+[2024-04-17 12:29:41] INFO root fetch - processPackages [asleep]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-17 12:29:41] INFO root fetch - processPackages [simply-log]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-17 12:29:41] INFO root fetch - processPackages [flowdapt]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 12:29:41] INFO root fetch - processPackages [asleep]: Downloading https://files.pythonhosted.org/packages/d5/6c/eb478eab66a918ed76b3fe436aac46ed3766b82d96d0cca1ef6852943bc7/asleep-0.4.8.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [pairef]: New version: [1.4.0] Old Version: [1.3.9]
+[2024-04-17 12:29:42] INFO root fetch - processPackages [simply-log]: Downloading https://files.pythonhosted.org/packages/81/de/c96ae37b2f2598459ed9db2a4e307e2e6afbebae88e78b0c8f9c267d1bdf/simply-log-0.2.4.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [modelisation]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-17 12:29:42] INFO root fetch - processPackages [ofnodes]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-17 12:29:42] INFO root fetch - processPackages [tarentula]: New version: [4.4.0] Old Version: [4.3.4]
+[2024-04-17 12:29:42] WARNING root fetch - processPackages [asleep]: Skipping package: exceeds size limit 41162047>=10485760
+[2024-04-17 12:29:42] INFO root fetch - processPackages [asleep]: Start processing: drex
+[2024-04-17 12:29:42] INFO root fetch - main [MainThread]: End processing [asleep] error
+[2024-04-17 12:29:42] INFO root fetch - processPackages [drex]: New version: [0.0.2432] Old Version: [0.0.2431]
+[2024-04-17 12:29:42] INFO root fetch - processPackages [trytond]: New version: [7.0.9] Old Version: [7.0.8]
+[2024-04-17 12:29:42] INFO root fetch - processPackages [trytond]: New version: [7.0.9] Old Version: [7.0.8]
+[2024-04-17 12:29:42] INFO root fetch - processPackages [trytond]: New version: [7.0.9] Old Version: [7.0.8]
+[2024-04-17 12:29:42] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/88/7e/610519eecaeb4faccc58fea9ad543f4857947b418b9dcb59bc0fe9560e69/drex-0.0.2431.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [flowdapt]: Downloading https://files.pythonhosted.org/packages/49/3d/d83e7ab254c36843a6878f8f46f488c7b3a5f24f7acc2b4f7eeeb8ed76b4/flowdapt-0.1.8-py3-none-any.whl
+[2024-04-17 12:29:42] INFO root fetch - processPackages [ofnodes]: Downloading https://files.pythonhosted.org/packages/be/bc/5a596d09a94401437eb133b08d2c5be56eeb34462b54ad45e7f902452605/ofnodes-1.3.0.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [pairef]: Downloading https://files.pythonhosted.org/packages/0e/bf/e451a3fe236d22cda96dd8e070c9cec1b40cfc2e3164027a31ff4d25aa7e/pairef-1.3.9.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [tarentula]: Downloading https://files.pythonhosted.org/packages/72/c0/69ae9d244b55d6a1f7da1221936ca778f6f7a5a1bae73a1bbb147419de23/tarentula-4.3.4.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [modelisation]: Downloading https://files.pythonhosted.org/packages/f8/95/840a208a8f505711d9b2c677e8efaebdcddc2c96c13989adb16c59ac2de3/modelisation-0.0.7-py3-none-any.whl
+[2024-04-17 12:29:42] INFO root fetch - processPackages [simply-log]: Downloading https://files.pythonhosted.org/packages/6b/a6/79a9415a014852ef0fab18354e3de07ba296c573d7a32a8324c5dff14667/simply-log-0.2.5.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/f6/f2/8ae0ef3b284f99db2838ce64b80c145ef9b8084b20b46c54e5c9ad35a7b1/trytond-7.0.8.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/f6/f2/8ae0ef3b284f99db2838ce64b80c145ef9b8084b20b46c54e5c9ad35a7b1/trytond-7.0.8.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/f6/f2/8ae0ef3b284f99db2838ce64b80c145ef9b8084b20b46c54e5c9ad35a7b1/trytond-7.0.8.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [simply-log]: executing diffoscope
+[2024-04-17 12:29:42] INFO root fetch - processPackages [simply-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simply-log-0.2.4.tar.gz tmp/simply-log-0.2.5.tar.gz --markdown 20240417/s/simply-log/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-17 12:29:42] INFO root fetch - processPackages [ofnodes]: Downloading https://files.pythonhosted.org/packages/06/a3/8c1c3c39b9298686dca562df33fb924f5c897ac333b87f5c60f9fb2f2711/ofnodes-1.4.0.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/1f/3e/31699972283aa565f15280f8c66a429f234ef3e39b96dbd7743701eb6939/drex-0.0.2432.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [flowdapt]: Downloading https://files.pythonhosted.org/packages/e8/ea/7dfd051b487b854da27505c424b9748cccee3b75f8ca76f67202eb54fea9/flowdapt-0.1.9-py3-none-any.whl
+[2024-04-17 12:29:42] INFO root fetch - processPackages [modelisation]: Downloading https://files.pythonhosted.org/packages/05/04/293634bd4166138efe24554a87cb169e3b0adff97e79e71ecfb7059b81d7/modelisation-0.0.8-py3-none-any.whl
+[2024-04-17 12:29:42] INFO root fetch - processPackages [tarentula]: Downloading https://files.pythonhosted.org/packages/d0/b9/d66b4b4bb239d4ca0d8cca43a52130143bf601d0904d51e42da02af4e5f0/tarentula-4.4.0.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [ofnodes]: executing diffoscope
+[2024-04-17 12:29:42] INFO root fetch - processPackages [ofnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofnodes-1.3.0.tar.gz tmp/ofnodes-1.4.0.tar.gz --markdown 20240417/o/ofnodes/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-17 12:29:42] INFO root fetch - processPackages [drex]: executing diffoscope
+[2024-04-17 12:29:42] INFO root fetch - processPackages [drex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drex-0.0.2431.tar.gz tmp/drex-0.0.2432.tar.gz --markdown 20240417/d/drex/0.0.2431-0.0.2432/README.md --exclude *.pyd
+[2024-04-17 12:29:42] INFO root fetch - processPackages [modelisation]: executing diffoscope
+[2024-04-17 12:29:42] INFO root fetch - processPackages [modelisation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelisation-0.0.7-py3-none-any.whl.zip tmp/modelisation-0.0.8-py3-none-any.whl.zip --markdown 20240417/m/modelisation/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-17 12:29:42] INFO root fetch - processPackages [flowdapt]: executing diffoscope
+[2024-04-17 12:29:42] INFO root fetch - processPackages [flowdapt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowdapt-0.1.8-py3-none-any.whl.zip tmp/flowdapt-0.1.9-py3-none-any.whl.zip --markdown 20240417/f/flowdapt/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 12:29:42] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/16/6e/2edd926c48e095a750e93f910fdeeb314934cde198d2700814ab0c91dd6e/trytond-7.0.9.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/16/6e/2edd926c48e095a750e93f910fdeeb314934cde198d2700814ab0c91dd6e/trytond-7.0.9.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/16/6e/2edd926c48e095a750e93f910fdeeb314934cde198d2700814ab0c91dd6e/trytond-7.0.9.tar.gz
+[2024-04-17 12:29:42] INFO root fetch - processPackages [tarentula]: executing diffoscope
+[2024-04-17 12:29:42] INFO root fetch - processPackages [tarentula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarentula-4.3.4.tar.gz tmp/tarentula-4.4.0.tar.gz --markdown 20240417/t/tarentula/4.3.4-4.4.0/README.md --exclude *.pyd
+[2024-04-17 12:29:43] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2024-04-17 12:29:43] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-7.0.8.tar.gz tmp/trytond-7.0.9.tar.gz --markdown 20240417/t/trytond/7.0.8-7.0.9/README.md --exclude *.pyd
+[2024-04-17 12:29:43] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2024-04-17 12:29:43] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-7.0.8.tar.gz tmp/trytond-7.0.9.tar.gz --markdown 20240417/t/trytond/7.0.8-7.0.9/README.md --exclude *.pyd
+[2024-04-17 12:29:43] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2024-04-17 12:29:43] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-7.0.8.tar.gz tmp/trytond-7.0.9.tar.gz --markdown 20240417/t/trytond/7.0.8-7.0.9/README.md --exclude *.pyd
+[2024-04-17 12:29:43] INFO root fetch - processPackages [pairef]: Downloading https://files.pythonhosted.org/packages/6d/22/71c1e7486a2bd9cfed887a8e07c71b237bf987a3c82f89a9c1feb24e092c/pairef-1.4.0.tar.gz
+[2024-04-17 12:29:43] INFO root fetch - processPackages [simply-log]: Remove: archive file [/home/abi/fetcher/tmp/simply-log-0.2.4.tar.gz]
+[2024-04-17 12:29:43] INFO root fetch - processPackages [simply-log]: Remove: archive file [/home/abi/fetcher/tmp/simply-log-0.2.5.tar.gz]
+[2024-04-17 12:29:43] INFO root fetch - processPackages [simply-log]: Start processing: tryton
+[2024-04-17 12:29:43] INFO root fetch - main [MainThread]: End processing [simply-log]: success
+[2024-04-17 12:29:43] INFO root fetch - processPackages [pairef]: executing diffoscope
+[2024-04-17 12:29:43] INFO root fetch - processPackages [pairef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pairef-1.3.9.tar.gz tmp/pairef-1.4.0.tar.gz --markdown 20240417/p/pairef/1.3.9-1.4.0/README.md --exclude *.pyd
+[2024-04-17 12:29:43] INFO root fetch - processPackages [ofnodes]: Remove: archive file [/home/abi/fetcher/tmp/ofnodes-1.3.0.tar.gz]
+[2024-04-17 12:29:43] INFO root fetch - processPackages [ofnodes]: Remove: archive file [/home/abi/fetcher/tmp/ofnodes-1.4.0.tar.gz]
+[2024-04-17 12:29:43] INFO root fetch - main [MainThread]: End processing [ofnodes]: success
+[2024-04-17 12:29:43] INFO root fetch - processPackages [tryton]: New version: [7.0.9] Old Version: [7.0.8]
+[2024-04-17 12:29:43] INFO root fetch - processPackages [modelisation]: Remove: archive file [/home/abi/fetcher/tmp/modelisation-0.0.7-py3-none-any.whl.zip]
+[2024-04-17 12:29:43] INFO root fetch - processPackages [modelisation]: Remove: archive file [/home/abi/fetcher/tmp/modelisation-0.0.8-py3-none-any.whl.zip]
+[2024-04-17 12:29:43] INFO root fetch - main [MainThread]: End processing [modelisation]: success
+[2024-04-17 12:29:43] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.2431.tar.gz]
+[2024-04-17 12:29:43] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.2432.tar.gz]
+[2024-04-17 12:29:43] INFO root fetch - main [MainThread]: End processing [drex]: success
+[2024-04-17 12:29:43] INFO root fetch - processPackages [tarentula]: Remove: archive file [/home/abi/fetcher/tmp/tarentula-4.3.4.tar.gz]
+[2024-04-17 12:29:43] INFO root fetch - processPackages [tarentula]: Remove: archive file [/home/abi/fetcher/tmp/tarentula-4.4.0.tar.gz]
+[2024-04-17 12:29:43] INFO root fetch - main [MainThread]: End processing [tarentula]: success
+[2024-04-17 12:29:44] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/93/de/3be5fd478d55d5fc5641d977fa23d33eb666d65887e1134663a47baa89ce/tryton-7.0.8.tar.gz
+[2024-04-17 12:29:44] INFO root fetch - processPackages [flowdapt]: Remove: archive file [/home/abi/fetcher/tmp/flowdapt-0.1.8-py3-none-any.whl.zip]
+[2024-04-17 12:29:44] INFO root fetch - processPackages [flowdapt]: Remove: archive file [/home/abi/fetcher/tmp/flowdapt-0.1.9-py3-none-any.whl.zip]
+[2024-04-17 12:29:44] INFO root fetch - main [MainThread]: End processing [flowdapt]: success
+[2024-04-17 12:29:44] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/02/dd/f4e4da2a9415c9afa1a30e8c8ea1544602f290844958881dd060377e164d/tryton-7.0.9.tar.gz
+[2024-04-17 12:29:44] INFO root fetch - processPackages [pairef]: Remove: archive file [/home/abi/fetcher/tmp/pairef-1.3.9.tar.gz]
+[2024-04-17 12:29:44] INFO root fetch - processPackages [pairef]: Remove: archive file [/home/abi/fetcher/tmp/pairef-1.4.0.tar.gz]
+[2024-04-17 12:29:44] INFO root fetch - main [MainThread]: End processing [pairef]: success
+[2024-04-17 12:29:45] INFO root fetch - processPackages [tryton]: executing diffoscope
+[2024-04-17 12:29:45] INFO root fetch - processPackages [tryton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryton-7.0.8.tar.gz tmp/tryton-7.0.9.tar.gz --markdown 20240417/t/tryton/7.0.8-7.0.9/README.md --exclude *.pyd
+[2024-04-17 12:29:46] INFO root fetch - processPackages [trytond]: Remove: archive file [/home/abi/fetcher/tmp/trytond-7.0.8.tar.gz]
+[2024-04-17 12:29:46] INFO root fetch - processPackages [trytond]: Remove: archive file [/home/abi/fetcher/tmp/trytond-7.0.9.tar.gz]
+[2024-04-17 12:29:46] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2024-04-17 12:29:46] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2024-04-17 12:29:46] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2024-04-17 12:29:47] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.0.8.tar.gz]
+[2024-04-17 12:29:47] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.0.9.tar.gz]
+[2024-04-17 12:29:47] INFO root fetch - main [MainThread]: End processing [tryton]: success
+[2024-04-17 12:29:47] INFO root fetch - main [MainThread]: Store serial: [22803880]
