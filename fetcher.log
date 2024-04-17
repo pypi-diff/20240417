@@ -21178,3 +21178,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:44:36] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
 [2024-04-17 13:44:36] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-17 13:44:36] INFO root fetch - main [MainThread]: Store serial: [22804700]
+[2024-04-17 13:46:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804700]
+[2024-04-17 13:46:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 13:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaast
+[2024-04-17 13:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roslibpy
+[2024-04-17 13:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fgutils
+[2024-04-17 13:46:45] INFO root fetch - processPackages [fgutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 13:46:45] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/80/18/26339678181e627e22509518537c67d0c0d10a3c6840dd8a434b091ea0c0/fgutils-0.0.8.tar.gz
+[2024-04-17 13:46:45] INFO root fetch - processPackages [yaast]: New version: [0.1.5] Old Version: [0.0.4]
+[2024-04-17 13:46:45] INFO root fetch - processPackages [roslibpy]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-17 13:46:45] INFO root fetch - processPackages [yaast]: Downloading https://files.pythonhosted.org/packages/5d/a8/d9e5add72e3a53d7b592b031c39488bb863d79116bf1a0bcdb623cc59d82/yaast-0.0.4.tar.gz
+[2024-04-17 13:46:45] INFO root fetch - processPackages [roslibpy]: Downloading https://files.pythonhosted.org/packages/6e/e7/517f6be13fc202469b00015e4f9bbeb712a284af1a8a09f391d7d9dd88a3/roslibpy-1.6.0.tar.gz
+[2024-04-17 13:46:45] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/b2/9e/61ac35415068272bad61fd205b44dd743d9c6e617901b23d6ed576442141/fgutils-0.0.9.tar.gz
+[2024-04-17 13:46:45] INFO root fetch - processPackages [fgutils]: executing diffoscope
+[2024-04-17 13:46:45] INFO root fetch - processPackages [fgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgutils-0.0.8.tar.gz tmp/fgutils-0.0.9.tar.gz --markdown 20240417/f/fgutils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 13:46:45] INFO root fetch - processPackages [yaast]: Downloading https://files.pythonhosted.org/packages/dc/64/ad3edd231adf45e183c19091a93cfb1bd3a4e6832505b20fc807227079e2/yaast-0.1.5.tar.gz
+[2024-04-17 13:46:45] INFO root fetch - processPackages [roslibpy]: Downloading https://files.pythonhosted.org/packages/7b/8c/a07f7ec19020237866d4329bcf6fd52b6df457ff99a584a74e005501ac53/roslibpy-1.7.0.tar.gz
+[2024-04-17 13:46:45] INFO root fetch - processPackages [yaast]: executing diffoscope
+[2024-04-17 13:46:45] INFO root fetch - processPackages [yaast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaast-0.0.4.tar.gz tmp/yaast-0.1.5.tar.gz --markdown 20240417/y/yaast/0.0.4-0.1.5/README.md --exclude *.pyd
+[2024-04-17 13:46:46] INFO root fetch - processPackages [roslibpy]: executing diffoscope
+[2024-04-17 13:46:46] INFO root fetch - processPackages [roslibpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roslibpy-1.6.0.tar.gz tmp/roslibpy-1.7.0.tar.gz --markdown 20240417/r/roslibpy/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-17 13:46:46] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.8.tar.gz]
+[2024-04-17 13:46:46] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.9.tar.gz]
+[2024-04-17 13:46:46] INFO root fetch - main [MainThread]: End processing [fgutils]: success
+[2024-04-17 13:46:46] INFO root fetch - processPackages [yaast]: Remove: archive file [/home/abi/fetcher/tmp/yaast-0.0.4.tar.gz]
+[2024-04-17 13:46:46] INFO root fetch - processPackages [yaast]: Remove: archive file [/home/abi/fetcher/tmp/yaast-0.1.5.tar.gz]
+[2024-04-17 13:46:46] INFO root fetch - main [MainThread]: End processing [yaast]: success
+[2024-04-17 13:46:46] INFO root fetch - processPackages [roslibpy]: Remove: archive file [/home/abi/fetcher/tmp/roslibpy-1.6.0.tar.gz]
+[2024-04-17 13:46:46] INFO root fetch - processPackages [roslibpy]: Remove: archive file [/home/abi/fetcher/tmp/roslibpy-1.7.0.tar.gz]
+[2024-04-17 13:46:46] INFO root fetch - main [MainThread]: End processing [roslibpy]: success
+[2024-04-17 13:46:46] INFO root fetch - main [MainThread]: Store serial: [22804709]
