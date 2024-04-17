@@ -15823,3 +15823,41 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 10:29:49] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1156.tar.gz]
 [2024-04-17 10:29:49] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2024-04-17 10:29:49] INFO root fetch - main [MainThread]: Store serial: [22802257]
+[2024-04-17 10:31:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22802257]
+[2024-04-17 10:31:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 10:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gutta
+[2024-04-17 10:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: symbl-rest
+[2024-04-17 10:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qlv-client
+[2024-04-17 10:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ema-workbench
+[2024-04-17 10:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelwhaleutils
+[2024-04-17 10:31:58] WARNING root fetch - processPackages [qlv-client]: Skipping, unable to determine old version
+[2024-04-17 10:31:58] INFO root fetch - main [MainThread]: End processing [qlv-client] error
+[2024-04-17 10:31:58] INFO root fetch - processPackages [symbl-rest]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 10:31:58] INFO root fetch - processPackages [modelwhaleutils]: New version: [0.5.2.6] Old Version: [0.5.2.5]
+[2024-04-17 10:31:58] INFO root fetch - processPackages [gutta]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-17 10:31:58] INFO root fetch - processPackages [ema-workbench]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-04-17 10:31:58] INFO root fetch - processPackages [symbl-rest]: Downloading https://files.pythonhosted.org/packages/44/2c/3c3565c082ff495c366cd3754f93d1fce4eb560bc6881ff9072445a4fbe3/symbl-rest-1.0.8.tar.gz
+[2024-04-17 10:31:58] INFO root fetch - processPackages [gutta]: Downloading https://files.pythonhosted.org/packages/a6/c2/fb6930cc385d157f6889dff1ef9bedf907c5620f5e2a72e9e9837e172439/gutta-0.1.7-py3-none-any.whl
+[2024-04-17 10:31:58] INFO root fetch - processPackages [modelwhaleutils]: Downloading https://files.pythonhosted.org/packages/31/5d/0bd78ece157c561238f8c42816730a9da15ff908d16fbb069d7ea2ddbf90/modelwhaleutils-0.5.2.5.tar.gz
+[2024-04-17 10:31:58] INFO root fetch - processPackages [ema-workbench]: Downloading https://files.pythonhosted.org/packages/9b/7f/c9c30cc01955a6821ab51500866c22ab1061334ced37633a161c35fc342d/ema_workbench-2.5.0.tar.gz
+[2024-04-17 10:31:58] WARNING root fetch - processPackages [ema-workbench]: Skipping package: exceeds size limit 28534125>=10485760
+[2024-04-17 10:31:58] INFO root fetch - main [MainThread]: End processing [ema-workbench] error
+[2024-04-17 10:31:58] INFO root fetch - processPackages [symbl-rest]: Downloading https://files.pythonhosted.org/packages/6f/77/e4b08151740b6293aef1bad911d1672764143d350662a51698fc287c51fc/symbl-rest-1.0.9.tar.gz
+[2024-04-17 10:31:58] INFO root fetch - processPackages [modelwhaleutils]: Downloading https://files.pythonhosted.org/packages/83/57/51d5bb21a6c7a9a2c6c089cdcf50f2864969417f55d0b0cabcd190dfb716/modelwhaleutils-0.5.2.6.tar.gz
+[2024-04-17 10:31:58] INFO root fetch - processPackages [gutta]: Downloading https://files.pythonhosted.org/packages/27/f5/54ef86894fd691ec740621406d5aa3bb99910f1e1e7c80b5211d59d1f42a/gutta-0.1.8-py3-none-any.whl
+[2024-04-17 10:31:59] INFO root fetch - processPackages [symbl-rest]: executing diffoscope
+[2024-04-17 10:31:59] INFO root fetch - processPackages [symbl-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbl-rest-1.0.8.tar.gz tmp/symbl-rest-1.0.9.tar.gz --markdown 20240417/s/symbl-rest/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 10:31:59] INFO root fetch - processPackages [gutta]: executing diffoscope
+[2024-04-17 10:31:59] INFO root fetch - processPackages [gutta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gutta-0.1.7-py3-none-any.whl.zip tmp/gutta-0.1.8-py3-none-any.whl.zip --markdown 20240417/g/gutta/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-17 10:31:59] INFO root fetch - processPackages [modelwhaleutils]: executing diffoscope
+[2024-04-17 10:31:59] INFO root fetch - processPackages [modelwhaleutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelwhaleutils-0.5.2.5.tar.gz tmp/modelwhaleutils-0.5.2.6.tar.gz --markdown 20240417/m/modelwhaleutils/0.5.2.5-0.5.2.6/README.md --exclude *.pyd
+[2024-04-17 10:31:59] INFO root fetch - processPackages [modelwhaleutils]: Remove: archive file [/home/abi/fetcher/tmp/modelwhaleutils-0.5.2.5.tar.gz]
+[2024-04-17 10:31:59] INFO root fetch - processPackages [modelwhaleutils]: Remove: archive file [/home/abi/fetcher/tmp/modelwhaleutils-0.5.2.6.tar.gz]
+[2024-04-17 10:31:59] INFO root fetch - main [MainThread]: End processing [modelwhaleutils]: success
+[2024-04-17 10:31:59] INFO root fetch - processPackages [gutta]: Remove: archive file [/home/abi/fetcher/tmp/gutta-0.1.7-py3-none-any.whl.zip]
+[2024-04-17 10:31:59] INFO root fetch - processPackages [gutta]: Remove: archive file [/home/abi/fetcher/tmp/gutta-0.1.8-py3-none-any.whl.zip]
+[2024-04-17 10:31:59] INFO root fetch - main [MainThread]: End processing [gutta]: success
+[2024-04-17 10:32:00] INFO root fetch - processPackages [symbl-rest]: Remove: archive file [/home/abi/fetcher/tmp/symbl-rest-1.0.8.tar.gz]
+[2024-04-17 10:32:00] INFO root fetch - processPackages [symbl-rest]: Remove: archive file [/home/abi/fetcher/tmp/symbl-rest-1.0.9.tar.gz]
+[2024-04-17 10:32:00] INFO root fetch - main [MainThread]: End processing [symbl-rest]: success
+[2024-04-17 10:32:00] INFO root fetch - main [MainThread]: Store serial: [22802270]
