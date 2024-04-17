@@ -6818,3 +6818,27 @@
 [2024-04-17 03:20:10] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.97.tar.gz]
 [2024-04-17 03:20:10] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2024-04-17 03:20:10] INFO root fetch - main [MainThread]: Store serial: [22797893]
+[2024-04-17 03:22:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22797893]
+[2024-04-17 03:22:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 03:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: servicing
+[2024-04-17 03:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NEMO-reports
+[2024-04-17 03:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lvc
+[2024-04-17 03:22:24] WARNING root fetch - processPackages [lvc]: Skipping, unable to determine old version
+[2024-04-17 03:22:24] INFO root fetch - main [MainThread]: End processing [lvc] error
+[2024-04-17 03:22:24] INFO root fetch - processPackages [servicing]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-17 03:22:24] INFO root fetch - processPackages [NEMO-reports]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-04-17 03:22:24] INFO root fetch - processPackages [NEMO-reports]: Downloading https://files.pythonhosted.org/packages/d2/d1/d43d58f52750b2ad759fec9a05faf640d014141b53eed351e4d93d37d1d9/NEMO_reports-1.7.1-py3-none-any.whl
+[2024-04-17 03:22:24] INFO root fetch - processPackages [servicing]: Downloading https://files.pythonhosted.org/packages/d1/b9/349aa95e27a93006b09961b8abb7fd28577c6f350bfce5b56c92c819b8b6/servicing-0.0.5.tar.gz
+[2024-04-17 03:22:24] INFO root fetch - processPackages [servicing]: Downloading https://files.pythonhosted.org/packages/f5/a2/2cb62da3a226876bade7e49009dba81fc0d03e49519aabc1bdec9e47fec3/servicing-0.0.6.tar.gz
+[2024-04-17 03:22:24] INFO root fetch - processPackages [NEMO-reports]: Downloading https://files.pythonhosted.org/packages/9d/19/dde584db5821b4ffd6c6cb6496a4336aa4d069f2a2663b886f799e267e3c/NEMO_reports-1.7.2-py3-none-any.whl
+[2024-04-17 03:22:25] INFO root fetch - processPackages [servicing]: executing diffoscope
+[2024-04-17 03:22:25] INFO root fetch - processPackages [servicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicing-0.0.5.tar.gz tmp/servicing-0.0.6.tar.gz --markdown 20240417/s/servicing/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-17 03:22:25] INFO root fetch - processPackages [NEMO-reports]: executing diffoscope
+[2024-04-17 03:22:25] INFO root fetch - processPackages [NEMO-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_reports-1.7.1-py3-none-any.whl.zip tmp/NEMO_reports-1.7.2-py3-none-any.whl.zip --markdown 20240417/N/NEMO-reports/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-04-17 03:22:25] INFO root fetch - processPackages [servicing]: Remove: archive file [/home/abi/fetcher/tmp/servicing-0.0.5.tar.gz]
+[2024-04-17 03:22:25] INFO root fetch - processPackages [servicing]: Remove: archive file [/home/abi/fetcher/tmp/servicing-0.0.6.tar.gz]
+[2024-04-17 03:22:25] INFO root fetch - main [MainThread]: End processing [servicing]: success
+[2024-04-17 03:22:25] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.7.1-py3-none-any.whl.zip]
+[2024-04-17 03:22:25] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.7.2-py3-none-any.whl.zip]
+[2024-04-17 03:22:25] INFO root fetch - main [MainThread]: End processing [NEMO-reports]: success
+[2024-04-17 03:22:25] INFO root fetch - main [MainThread]: Store serial: [22798014]
