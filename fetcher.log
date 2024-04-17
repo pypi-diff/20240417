@@ -2623,3 +2623,24 @@
 [2024-04-17 02:39:40] INFO root fetch - processPackages [twitter-openapi-python-generated]: Remove: archive file [/home/abi/fetcher/tmp/twitter_openapi_python_generated-0.0.9.tar.gz]
 [2024-04-17 02:39:40] INFO root fetch - main [MainThread]: End processing [twitter-openapi-python-generated]: success
 [2024-04-17 02:39:40] INFO root fetch - main [MainThread]: Store serial: [22796821]
+[2024-04-17 02:41:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796821]
+[2024-04-17 02:41:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 02:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: js-code
+[2024-04-17 02:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PerplexiPy
+[2024-04-17 02:41:50] INFO root fetch - processPackages [PerplexiPy]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-17 02:41:50] INFO root fetch - processPackages [PerplexiPy]: Downloading https://files.pythonhosted.org/packages/fe/47/3f44cd2addbfb6cec15bafc3a34d28ba624d738f87e113647730c6dfd83b/PerplexiPy-0.3.0-py3-none-any.whl
+[2024-04-17 02:41:50] INFO root fetch - processPackages [js-code]: New version: [1.2.0] Old Version: [1.0.0]
+[2024-04-17 02:41:50] INFO root fetch - processPackages [js-code]: Downloading https://files.pythonhosted.org/packages/2b/da/cd144fdba479774e0a8629d8898c02147d0bfc25c1c5c26ff0c3c4e52743/js-code-1.0.0.tar.gz
+[2024-04-17 02:41:50] INFO root fetch - processPackages [PerplexiPy]: Downloading https://files.pythonhosted.org/packages/2e/03/da01db797ed77b54ee6939712dc2a521e8cd78461246971054e7ef6a941e/PerplexiPy-0.4.0-py3-none-any.whl
+[2024-04-17 02:41:50] INFO root fetch - processPackages [PerplexiPy]: executing diffoscope
+[2024-04-17 02:41:50] INFO root fetch - processPackages [PerplexiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PerplexiPy-0.3.0-py3-none-any.whl.zip tmp/PerplexiPy-0.4.0-py3-none-any.whl.zip --markdown 20240417/P/PerplexiPy/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-17 02:41:50] INFO root fetch - processPackages [js-code]: Downloading https://files.pythonhosted.org/packages/85/dd/1d24f1cd9882d6d9c2abe7fab22e3afeea25509710a6ed61d837a7e9a933/js_code-1.2.0.tar.gz
+[2024-04-17 02:41:50] INFO root fetch - processPackages [js-code]: executing diffoscope
+[2024-04-17 02:41:50] INFO root fetch - processPackages [js-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/js-code-1.0.0.tar.gz tmp/js_code-1.2.0.tar.gz --markdown 20240417/j/js-code/1.0.0-1.2.0/README.md --exclude *.pyd
+[2024-04-17 02:41:51] INFO root fetch - processPackages [PerplexiPy]: Remove: archive file [/home/abi/fetcher/tmp/PerplexiPy-0.3.0-py3-none-any.whl.zip]
+[2024-04-17 02:41:51] INFO root fetch - processPackages [PerplexiPy]: Remove: archive file [/home/abi/fetcher/tmp/PerplexiPy-0.4.0-py3-none-any.whl.zip]
+[2024-04-17 02:41:51] INFO root fetch - main [MainThread]: End processing [PerplexiPy]: success
+[2024-04-17 02:41:51] INFO root fetch - processPackages [js-code]: Remove: archive file [/home/abi/fetcher/tmp/js-code-1.0.0.tar.gz]
+[2024-04-17 02:41:51] INFO root fetch - processPackages [js-code]: Remove: archive file [/home/abi/fetcher/tmp/js_code-1.2.0.tar.gz]
+[2024-04-17 02:41:51] INFO root fetch - main [MainThread]: End processing [js-code]: success
+[2024-04-17 02:41:51] INFO root fetch - main [MainThread]: Store serial: [22796834]
