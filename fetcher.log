@@ -20527,3 +20527,47 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 13:12:29] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.2.tar.gz]
 [2024-04-17 13:12:29] INFO root fetch - main [MainThread]: End processing [langfuse]: success
 [2024-04-17 13:12:29] INFO root fetch - main [MainThread]: Store serial: [22804363]
+[2024-04-17 13:14:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804363]
+[2024-04-17 13:14:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 13:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tb-nightly
+[2024-04-17 13:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-cpp
+[2024-04-17 13:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bisheng-langchain
+[2024-04-17 13:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WebAppDIRAC
+[2024-04-17 13:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-17 13:14:38] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240416] Old Version: [2.5.0b20240415]
+[2024-04-17 13:14:38] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-04-17 13:14:38] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240416] Old Version: [2.5.0b20240415]
+[2024-04-17 13:14:38] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/bc/40/0497a66db52c929f7889f8fea02511b805da52a3820b851a97e1629870d8/bigdl_core_xe_esimd_21-2.5.0b20240415-cp39-cp39-win_amd64.whl
+[2024-04-17 13:14:38] INFO root fetch - processPackages [WebAppDIRAC]: New version: [6.0.0a7] Old Version: [6.0.0a6]
+[2024-04-17 13:14:38] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-04-17 13:14:38] INFO root fetch - processPackages [bisheng-langchain]: New version: [0.3.0rc1] Old Version: [0.3.0rc0]
+[2024-04-17 13:14:38] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/ec/1d/4d90135e8e37891429af343eefb7e334268eb7153b40ce43a4f276fa5281/bigdl_core_cpp-2.5.0b20240415-py3-none-win_amd64.whl
+[2024-04-17 13:14:38] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 54466818>=10485760
+[2024-04-17 13:14:38] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-17 13:14:38] INFO root fetch - processPackages [WebAppDIRAC]: Downloading https://files.pythonhosted.org/packages/cf/47/58d15e45501c2da3384e74cb48fd7b541a2b121de4562e569b8318d432ba/WebAppDIRAC-6.0.0a6.tar.gz
+[2024-04-17 13:14:38] INFO root fetch - processPackages [bisheng-langchain]: Downloading https://files.pythonhosted.org/packages/3d/8b/795014ed0ca53faf1784671ab5b2c6bc18bff997ec9076dfdb650391afd6/bisheng_langchain-0.3.0rc0-py3-none-any.whl
+[2024-04-17 13:14:38] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/46/94/c1fdba5bbd06f6dabd6e16e9ba63745d338d8275486059a0ab7f1b21f68c/bigdl_core_xe_esimd_21-2.5.0b20240416-cp39-cp39-win_amd64.whl
+[2024-04-17 13:14:38] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-04-17 13:14:38] INFO root fetch - processPackages [bisheng-langchain]: Downloading https://files.pythonhosted.org/packages/78/fb/c8082a51950d85c56810aa93c20bf232281c53d8dfcfb7f5191ed9384158/bisheng_langchain-0.3.0rc1-py3-none-any.whl
+[2024-04-17 13:14:38] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-04-17 13:14:38] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240415-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240416-cp39-cp39-win_amd64.whl.zip --markdown 20240417/b/bigdl-core-xe-esimd-21/2.5.0b20240415-2.5.0b20240416/README.md --exclude *.pyd
+[2024-04-17 13:14:39] INFO root fetch - processPackages [bisheng-langchain]: executing diffoscope
+[2024-04-17 13:14:39] INFO root fetch - processPackages [bisheng-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bisheng_langchain-0.3.0rc0-py3-none-any.whl.zip tmp/bisheng_langchain-0.3.0rc1-py3-none-any.whl.zip --markdown 20240417/b/bisheng-langchain/0.3.0rc0-0.3.0rc1/README.md --exclude *.pyd
+[2024-04-17 13:14:39] INFO root fetch - processPackages [WebAppDIRAC]: Downloading https://files.pythonhosted.org/packages/3a/db/35407c7bdd284c867331661b139d6e8341d841cd16d5a4872aa17e3f37d3/webappdirac-6.0.0a7.tar.gz
+[2024-04-17 13:14:39] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-04-17 13:14:39] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240417/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-04-17 13:14:39] INFO root fetch - processPackages [WebAppDIRAC]: executing diffoscope
+[2024-04-17 13:14:39] INFO root fetch - processPackages [WebAppDIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebAppDIRAC-6.0.0a6.tar.gz tmp/webappdirac-6.0.0a7.tar.gz --markdown 20240417/W/WebAppDIRAC/6.0.0a6-6.0.0a7/README.md --exclude *.pyd
+[2024-04-17 13:14:39] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240415-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 13:14:39] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240416-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 13:14:39] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21]: success
+[2024-04-17 13:14:40] INFO root fetch - processPackages [bisheng-langchain]: Remove: archive file [/home/abi/fetcher/tmp/bisheng_langchain-0.3.0rc0-py3-none-any.whl.zip]
+[2024-04-17 13:14:40] INFO root fetch - processPackages [bisheng-langchain]: Remove: archive file [/home/abi/fetcher/tmp/bisheng_langchain-0.3.0rc1-py3-none-any.whl.zip]
+[2024-04-17 13:14:40] INFO root fetch - main [MainThread]: End processing [bisheng-langchain]: success
+[2024-04-17 13:14:40] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-04-17 13:14:40] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-04-17 13:14:40] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-04-17 13:14:41] INFO root fetch - processPackages [WebAppDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/WebAppDIRAC-6.0.0a6.tar.gz]
+[2024-04-17 13:14:41] INFO root fetch - processPackages [WebAppDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/webappdirac-6.0.0a7.tar.gz]
+[2024-04-17 13:14:41] INFO root fetch - main [MainThread]: End processing [WebAppDIRAC]: success
+[2024-04-17 13:14:41] INFO root fetch - main [MainThread]: Store serial: [22804374]
