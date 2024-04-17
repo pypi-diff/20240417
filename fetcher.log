@@ -9454,3 +9454,15 @@
 [2024-04-17 05:47:14] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.4.0.tar.gz]
 [2024-04-17 05:47:14] INFO root fetch - main [MainThread]: End processing [vanna]: success
 [2024-04-17 05:47:14] INFO root fetch - main [MainThread]: Store serial: [22799547]
+[2024-04-17 05:49:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799547]
+[2024-04-17 05:49:23] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 05:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sodata
+[2024-04-17 05:49:23] INFO root fetch - processPackages [sodata]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-17 05:49:23] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/3a/46/d489c68835ad2a384c21fc9e10b90ee23c695af50c29daf07981723f4609/sodata-0.0.6.tar.gz
+[2024-04-17 05:49:23] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/92/c0/068e9d613eb663c69828e03e1fda0aba24f0776e0b9a6ecd7dc62e8b2430/sodata-0.0.9.tar.gz
+[2024-04-17 05:49:23] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-17 05:49:23] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.6.tar.gz tmp/sodata-0.0.9.tar.gz --markdown 20240417/s/sodata/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-17 05:49:24] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.6.tar.gz]
+[2024-04-17 05:49:24] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.9.tar.gz]
+[2024-04-17 05:49:24] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-17 05:49:24] INFO root fetch - main [MainThread]: Store serial: [22799549]
