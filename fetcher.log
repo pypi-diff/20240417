@@ -19318,3 +19318,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:25:20] INFO root fetch - processPackages [rapidae]: Remove: archive file [/home/abi/fetcher/tmp/rapidae-0.0.4.tar.gz]
 [2024-04-17 12:25:20] INFO root fetch - main [MainThread]: End processing [rapidae]: success
 [2024-04-17 12:25:20] INFO root fetch - main [MainThread]: Store serial: [22803825]
+[2024-04-17 12:27:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803825]
+[2024-04-17 12:27:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 12:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grateful-logging
+[2024-04-17 12:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidae
+[2024-04-17 12:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cornflow
+[2024-04-17 12:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-xlibrary
+[2024-04-17 12:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ToolsStr
+[2024-04-17 12:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-juvix-plugin
+[2024-04-17 12:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: enviroplus
+[2024-04-17 12:27:30] INFO root fetch - processPackages [grateful-logging]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 12:27:30] INFO root fetch - processPackages [mkdocs-juvix-plugin]: New version: [0.2.1] Old Version: [0.1.4]
+[2024-04-17 12:27:30] INFO root fetch - processPackages [cornflow]: New version: [1.0.9] Old Version: [1.0.8a3]
+[2024-04-17 12:27:30] INFO root fetch - processPackages [rapidae]: New version: [0.0.4] Old Version: [0.0.1]
+[2024-04-17 12:27:30] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [11.0.1] Old Version: [11.0.0]
+[2024-04-17 12:27:30] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Downloading https://files.pythonhosted.org/packages/5f/21/3488201eb76e122310d164f4bf4fc9adb94b34ecf35c0c853b48c1040a7f/mkdocs-juvix-plugin-0.1.4.tar.gz
+[2024-04-17 12:27:30] INFO root fetch - processPackages [enviroplus]: New version: [1.0.1] Old Version: [0.0.6]
+[2024-04-17 12:27:30] INFO root fetch - processPackages [cornflow]: Downloading https://files.pythonhosted.org/packages/c0/5e/9ee10ba99b32c0b2643c2ade9ce60f7eace38c3e2d537059f1e4e8fc08fa/cornflow-1.0.8a3.tar.gz
+[2024-04-17 12:27:30] INFO root fetch - processPackages [ToolsStr]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-17 12:27:30] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/09/31/525e3806b5e500dbe99583c1cbe287c1de17c9c4ed7617f25cff69d57f1e/grateful_logging-0.0.8.tar.gz
+[2024-04-17 12:27:30] INFO root fetch - processPackages [rapidae]: Downloading https://files.pythonhosted.org/packages/73/f5/96ce49f279a4d7de574d2d2e040e4f7ac9c2a3c0cec876dc9cc022e9422b/rapidae-0.0.1.tar.gz
+[2024-04-17 12:27:31] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/28/ff/f68249634a7c624b9622b74be784426180654a4da697d332d1f4a9e40f6c/robotframework-xlibrary-11.0.0.tar.gz
+[2024-04-17 12:27:31] INFO root fetch - processPackages [ToolsStr]: Downloading https://files.pythonhosted.org/packages/45/48/b34dd36f111eb7f55007fbd19fcfc0a7053a344070c04f78c0cef6659226/ToolsStr-1.1.1.tar.gz
+[2024-04-17 12:27:31] INFO root fetch - processPackages [enviroplus]: Downloading https://files.pythonhosted.org/packages/ff/d2/f5d40a6ff29cb7484f8ff67b1bdea3fb259394a7b8356c65b2b5bf98614a/enviroplus-0.0.6.tar.gz
+[2024-04-17 12:27:31] INFO root fetch - processPackages [cornflow]: Downloading https://files.pythonhosted.org/packages/2a/b9/7640258564c4ce8170ef07e43bfa17f62ba8236fbfbacbb54d2d957c226c/cornflow-1.0.9.tar.gz
+[2024-04-17 12:27:31] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/ec/73/e3c663b38805bc4579afeac51c396d49b34468f983ca03d4fb24a77e12c8/grateful_logging-0.0.9.tar.gz
+[2024-04-17 12:27:31] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Downloading https://files.pythonhosted.org/packages/13/3f/5a53e948e059973d9435614d1a4cc5b52ae3f2a2e02c3097933061d756a5/mkdocs-juvix-plugin-0.2.1.tar.gz
+[2024-04-17 12:27:31] INFO root fetch - processPackages [rapidae]: Downloading https://files.pythonhosted.org/packages/55/c6/360a400e6f0b28f616022ea0176a8f9fe813499e2e9a7fb22a143f383122/rapidae-0.0.4.tar.gz
+[2024-04-17 12:27:31] INFO root fetch - processPackages [grateful-logging]: executing diffoscope
+[2024-04-17 12:27:31] INFO root fetch - processPackages [grateful-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grateful_logging-0.0.8.tar.gz tmp/grateful_logging-0.0.9.tar.gz --markdown 20240417/g/grateful-logging/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 12:27:31] INFO root fetch - processPackages [cornflow]: executing diffoscope
+[2024-04-17 12:27:31] INFO root fetch - processPackages [cornflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflow-1.0.8a3.tar.gz tmp/cornflow-1.0.9.tar.gz --markdown 20240417/c/cornflow/1.0.8a3-1.0.9/README.md --exclude *.pyd
+[2024-04-17 12:27:31] INFO root fetch - processPackages [mkdocs-juvix-plugin]: executing diffoscope
+[2024-04-17 12:27:31] INFO root fetch - processPackages [mkdocs-juvix-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-juvix-plugin-0.1.4.tar.gz tmp/mkdocs-juvix-plugin-0.2.1.tar.gz --markdown 20240417/m/mkdocs-juvix-plugin/0.1.4-0.2.1/README.md --exclude *.pyd
+[2024-04-17 12:27:31] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/20/58/d419f46e7cdf4b9d3aa34151df7232c2c23c95fbd7fdaef255b16236fb13/robotframework-xlibrary-11.0.1.tar.gz
+[2024-04-17 12:27:31] INFO root fetch - processPackages [ToolsStr]: Downloading https://files.pythonhosted.org/packages/c1/dc/23d9dadebc0719eaf03fba4be63738b4c4d98a836de31692fccb83cfae9e/toolsstr-1.1.2.tar.gz
+[2024-04-17 12:27:31] INFO root fetch - processPackages [enviroplus]: Downloading https://files.pythonhosted.org/packages/19/d6/970c8eb41f900e775600c15a7fc42a4e9445f7cedaba33dc5110d6bdeecb/enviroplus-1.0.1.tar.gz
+[2024-04-17 12:27:31] INFO root fetch - processPackages [rapidae]: executing diffoscope
+[2024-04-17 12:27:31] INFO root fetch - processPackages [rapidae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidae-0.0.1.tar.gz tmp/rapidae-0.0.4.tar.gz --markdown 20240417/r/rapidae/0.0.1-0.0.4/README.md --exclude *.pyd
+[2024-04-17 12:27:31] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-04-17 12:27:31] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-11.0.0.tar.gz tmp/robotframework-xlibrary-11.0.1.tar.gz --markdown 20240417/r/robotframework-xlibrary/11.0.0-11.0.1/README.md --exclude *.pyd
+[2024-04-17 12:27:31] INFO root fetch - processPackages [ToolsStr]: executing diffoscope
+[2024-04-17 12:27:31] INFO root fetch - processPackages [ToolsStr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ToolsStr-1.1.1.tar.gz tmp/toolsstr-1.1.2.tar.gz --markdown 20240417/T/ToolsStr/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-17 12:27:31] INFO root fetch - processPackages [enviroplus]: executing diffoscope
+[2024-04-17 12:27:31] INFO root fetch - processPackages [enviroplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enviroplus-0.0.6.tar.gz tmp/enviroplus-1.0.1.tar.gz --markdown 20240417/e/enviroplus/0.0.6-1.0.1/README.md --exclude *.pyd
+[2024-04-17 12:27:32] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-juvix-plugin-0.1.4.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-juvix-plugin-0.2.1.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - main [MainThread]: End processing [mkdocs-juvix-plugin]: success
+[2024-04-17 12:27:32] INFO root fetch - processPackages [grateful-logging]: Remove: archive file [/home/abi/fetcher/tmp/grateful_logging-0.0.8.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - processPackages [grateful-logging]: Remove: archive file [/home/abi/fetcher/tmp/grateful_logging-0.0.9.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - main [MainThread]: End processing [grateful-logging]: success
+[2024-04-17 12:27:32] INFO root fetch - processPackages [ToolsStr]: Remove: archive file [/home/abi/fetcher/tmp/ToolsStr-1.1.1.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - processPackages [ToolsStr]: Remove: archive file [/home/abi/fetcher/tmp/toolsstr-1.1.2.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - main [MainThread]: End processing [ToolsStr]: success
+[2024-04-17 12:27:32] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.0.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.1.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-04-17 12:27:32] INFO root fetch - processPackages [enviroplus]: Remove: archive file [/home/abi/fetcher/tmp/enviroplus-0.0.6.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - processPackages [enviroplus]: Remove: archive file [/home/abi/fetcher/tmp/enviroplus-1.0.1.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - main [MainThread]: End processing [enviroplus]: success
+[2024-04-17 12:27:32] INFO root fetch - processPackages [cornflow]: Remove: archive file [/home/abi/fetcher/tmp/cornflow-1.0.8a3.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - processPackages [cornflow]: Remove: archive file [/home/abi/fetcher/tmp/cornflow-1.0.9.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - main [MainThread]: End processing [cornflow]: success
+[2024-04-17 12:27:32] INFO root fetch - processPackages [rapidae]: Remove: archive file [/home/abi/fetcher/tmp/rapidae-0.0.1.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - processPackages [rapidae]: Remove: archive file [/home/abi/fetcher/tmp/rapidae-0.0.4.tar.gz]
+[2024-04-17 12:27:32] INFO root fetch - main [MainThread]: End processing [rapidae]: success
+[2024-04-17 12:27:32] INFO root fetch - main [MainThread]: Store serial: [22803847]
