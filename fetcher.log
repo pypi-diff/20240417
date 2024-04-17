@@ -18853,3 +18853,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:07:44] INFO root fetch - processPackages [ilastik-napari]: Remove: archive file [/home/abi/fetcher/tmp/ilastik_napari-0.2.4.tar.gz]
 [2024-04-17 12:07:44] INFO root fetch - main [MainThread]: End processing [ilastik-napari]: success
 [2024-04-17 12:07:44] INFO root fetch - main [MainThread]: Store serial: [22803641]
+[2024-04-17 12:09:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803641]
+[2024-04-17 12:09:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 12:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydiverse-pipedag
+[2024-04-17 12:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: epochalyst
+[2024-04-17 12:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grafana-foundation-sdk
+[2024-04-17 12:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simply-log
+[2024-04-17 12:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foxesscloud
+[2024-04-17 12:09:53] INFO root fetch - processPackages [simply-log]: New version: [0.2.1] Old Version: [0.2]
+[2024-04-17 12:09:53] INFO root fetch - processPackages [epochalyst]: New version: [0.3.1] Old Version: [0.3]
+[2024-04-17 12:09:53] INFO root fetch - processPackages [simply-log]: Downloading https://files.pythonhosted.org/packages/aa/1d/346eb4e14dc71b9ace2d71cafc4e7b90e93a4b4400ec714a237ea8713b1e/simply-log-0.2.tar.gz
+[2024-04-17 12:09:53] INFO root fetch - processPackages [epochalyst]: Downloading https://files.pythonhosted.org/packages/5f/bf/b5f45f422c590f8e2eda514233fa155deabdf6eead3c1880bcb03f5ad9ee/epochalyst-0.3.tar.gz
+[2024-04-17 12:09:53] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1713348357!10.1.0] Old Version: [1712659373!10.4.0]
+[2024-04-17 12:09:53] INFO root fetch - processPackages [pydiverse-pipedag]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-17 12:09:53] INFO root fetch - processPackages [foxesscloud]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-04-17 12:09:53] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/a0/bd/6ce6fad640b77fd3768ebe0e1d7f8ef2ab78c58f71069e1f83f37cdf090f/pydiverse_pipedag-0.8.0.tar.gz
+[2024-04-17 12:09:53] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/df/3f/18ca9ebd12bbc5bbc20c3b02681dfa91ef82c543f2e0b6cdc1fb2fa824fc/grafana_foundation_sdk-1712659373!10.4.0.tar.gz
+[2024-04-17 12:09:53] INFO root fetch - processPackages [foxesscloud]: Downloading https://files.pythonhosted.org/packages/9e/b4/06a98382b80351170fd80d265f62d8c7d215c56d2008f96ef9f249f10604/foxesscloud-2.2.3.tar.gz
+[2024-04-17 12:09:53] INFO root fetch - processPackages [simply-log]: Downloading https://files.pythonhosted.org/packages/cf/e3/ea76b559874dcc4e7da3e36ca7e9ff2fe8b621028e319e52baa6b53d7752/simply-log-0.2.1.tar.gz
+[2024-04-17 12:09:53] INFO root fetch - processPackages [epochalyst]: Downloading https://files.pythonhosted.org/packages/2b/68/cb2474b65b10f6fcdbb3d6ed636cc3704cee171b4b1da383f320151b960f/epochalyst-0.3.1.tar.gz
+[2024-04-17 12:09:53] INFO root fetch - processPackages [simply-log]: executing diffoscope
+[2024-04-17 12:09:53] INFO root fetch - processPackages [simply-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simply-log-0.2.tar.gz tmp/simply-log-0.2.1.tar.gz --markdown 20240417/s/simply-log/0.2-0.2.1/README.md --exclude *.pyd
+[2024-04-17 12:09:54] INFO root fetch - processPackages [epochalyst]: executing diffoscope
+[2024-04-17 12:09:54] INFO root fetch - processPackages [epochalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epochalyst-0.3.tar.gz tmp/epochalyst-0.3.1.tar.gz --markdown 20240417/e/epochalyst/0.3-0.3.1/README.md --exclude *.pyd
+[2024-04-17 12:09:54] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/cc/fb/521a6b7e3638892328d62875c98fac925e1ab8a4f772fb3b6027153fa674/pydiverse_pipedag-0.9.0.tar.gz
+[2024-04-17 12:09:54] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/62/78/14f38eb3aa95c4aa0aa277ba47bfbdbe9cfbe2ea0d0dd77339e3e3dd3939/grafana_foundation_sdk-1713348357!10.1.0.tar.gz
+[2024-04-17 12:09:54] INFO root fetch - processPackages [foxesscloud]: Downloading https://files.pythonhosted.org/packages/54/68/bbb1c4f330866311783e12a813420b5f49e08bad609a8c7a8e6de6ea6d1c/foxesscloud-2.2.4.tar.gz
+[2024-04-17 12:09:54] INFO root fetch - processPackages [pydiverse-pipedag]: executing diffoscope
+[2024-04-17 12:09:54] INFO root fetch - processPackages [pydiverse-pipedag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiverse_pipedag-0.8.0.tar.gz tmp/pydiverse_pipedag-0.9.0.tar.gz --markdown 20240417/p/pydiverse-pipedag/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-17 12:09:54] INFO root fetch - processPackages [foxesscloud]: executing diffoscope
+[2024-04-17 12:09:54] INFO root fetch - processPackages [foxesscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxesscloud-2.2.3.tar.gz tmp/foxesscloud-2.2.4.tar.gz --markdown 20240417/f/foxesscloud/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-04-17 12:09:54] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-04-17 12:09:54] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1712659373!10.4.0.tar.gz tmp/grafana_foundation_sdk-1713348357!10.1.0.tar.gz --markdown 20240417/g/grafana-foundation-sdk/1712659373!10.4.0-1713348357!10.1.0/README.md --exclude *.pyd
+[2024-04-17 12:09:54] INFO root fetch - processPackages [simply-log]: Remove: archive file [/home/abi/fetcher/tmp/simply-log-0.2.tar.gz]
+[2024-04-17 12:09:54] INFO root fetch - processPackages [simply-log]: Remove: archive file [/home/abi/fetcher/tmp/simply-log-0.2.1.tar.gz]
+[2024-04-17 12:09:54] INFO root fetch - main [MainThread]: End processing [simply-log]: success
+[2024-04-17 12:09:54] INFO root fetch - processPackages [epochalyst]: Remove: archive file [/home/abi/fetcher/tmp/epochalyst-0.3.tar.gz]
+[2024-04-17 12:09:54] INFO root fetch - processPackages [epochalyst]: Remove: archive file [/home/abi/fetcher/tmp/epochalyst-0.3.1.tar.gz]
+[2024-04-17 12:09:54] INFO root fetch - main [MainThread]: End processing [epochalyst]: success
+[2024-04-17 12:09:55] INFO root fetch - processPackages [foxesscloud]: Remove: archive file [/home/abi/fetcher/tmp/foxesscloud-2.2.3.tar.gz]
+[2024-04-17 12:09:55] INFO root fetch - processPackages [foxesscloud]: Remove: archive file [/home/abi/fetcher/tmp/foxesscloud-2.2.4.tar.gz]
+[2024-04-17 12:09:55] INFO root fetch - main [MainThread]: End processing [foxesscloud]: success
+[2024-04-17 12:09:55] INFO root fetch - processPackages [pydiverse-pipedag]: Remove: archive file [/home/abi/fetcher/tmp/pydiverse_pipedag-0.8.0.tar.gz]
+[2024-04-17 12:09:55] INFO root fetch - processPackages [pydiverse-pipedag]: Remove: archive file [/home/abi/fetcher/tmp/pydiverse_pipedag-0.9.0.tar.gz]
+[2024-04-17 12:09:55] INFO root fetch - main [MainThread]: End processing [pydiverse-pipedag]: success
+[2024-04-17 12:09:55] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1712659373!10.4.0.tar.gz]
+[2024-04-17 12:09:55] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713348357!10.1.0.tar.gz]
+[2024-04-17 12:09:55] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-04-17 12:09:55] INFO root fetch - main [MainThread]: Store serial: [22803656]
