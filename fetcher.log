@@ -11700,3 +11700,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 07:56:11] INFO root fetch - processPackages [synctl]: Remove: archive file [/home/abi/fetcher/tmp/synctl-1.1.8.tar.gz]
 [2024-04-17 07:56:11] INFO root fetch - main [MainThread]: End processing [synctl]: success
 [2024-04-17 07:56:11] INFO root fetch - main [MainThread]: Store serial: [22800304]
+[2024-04-17 07:58:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800304]
+[2024-04-17 07:58:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-17 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: database-common-tools
+[2024-04-17 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linktest
+[2024-04-17 07:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-force-invoiced
+[2024-04-17 07:58:20] INFO root fetch - processPackages [database-common-tools]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-17 07:58:20] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: New version: [17.0.1.0.0.2] Old Version: [16.0.2.1.0]
+[2024-04-17 07:58:20] INFO root fetch - processPackages [linktest]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-04-17 07:58:20] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/c2/e8/c4101f2ee2fb5b3b5a0bcf3da1b6f2808a06b8fbe0d8e90c75fb50f6274d/database-common-tools-1.1.0.tar.gz
+[2024-04-17 07:58:20] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/06/10/8661217c1747a0fd5732c52f63e91b696e4039a57446711dbe84ba686e0b/linktest-2.5.2.tar.gz
+[2024-04-17 07:58:20] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/f1/c6/0c37435eb8c442bdb8747f4253b3e5d114d3de4464fb99f665cd345f3fee/odoo_addon_sale_force_invoiced-16.0.2.1.0-py3-none-any.whl
+[2024-04-17 07:58:20] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/95/2f/6e909b8fd08501a237638f79132ca1a7be018a57cb91deab6c9d79b917a5/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-17 07:58:20] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/a1/08/d1a544e5a0cff43065110b5305d02b0acbea2253d1e2af990d30a52f7215/database-common-tools-1.1.1.tar.gz
+[2024-04-17 07:58:20] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/3a/05/6c84aaea1b61835a7031b93ff2d0742855d0a76123407a65daee82bbb253/linktest-2.5.3.tar.gz
+[2024-04-17 07:58:20] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: executing diffoscope
+[2024-04-17 07:58:20] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_force_invoiced-16.0.2.1.0-py3-none-any.whl.zip tmp/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240417/o/odoo-addon-sale-force-invoiced/16.0.2.1.0-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-17 07:58:20] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-17 07:58:20] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.1.0.tar.gz tmp/database-common-tools-1.1.1.tar.gz --markdown 20240417/d/database-common-tools/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-17 07:58:20] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-17 07:58:20] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.5.2.tar.gz tmp/linktest-2.5.3.tar.gz --markdown 20240417/l/linktest/2.5.2-2.5.3/README.md --exclude *.pyd
+[2024-04-17 07:58:21] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.5.2.tar.gz]
+[2024-04-17 07:58:21] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.5.3.tar.gz]
+[2024-04-17 07:58:21] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-17 07:58:21] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.0.tar.gz]
+[2024-04-17 07:58:21] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.1.tar.gz]
+[2024-04-17 07:58:21] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-17 07:58:21] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-16.0.2.1.0-py3-none-any.whl.zip]
+[2024-04-17 07:58:21] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-17 07:58:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-force-invoiced]: success
+[2024-04-17 07:58:21] INFO root fetch - main [MainThread]: Store serial: [22800310]
