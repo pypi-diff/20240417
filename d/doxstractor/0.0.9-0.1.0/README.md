@@ -1,4 +1,4 @@
-# Comparing `tmp/doxstractor-0.0.9-py3-none-any.whl.zip` & `tmp/doxstractor-0.1.0-py3-none-any.whl.zip`
+# Comparing `tmp/doxstractor-0.0.9.tar.gz` & `tmp/doxstractor-0.1.0.tar.gz`
 
 ## zipinfo {}
 
@@ -42,7 +42,7 @@
 +19 files, 48287 bytes uncompressed, 17193 bytes compressed:  64.4%
 ```
 
-## zipnote {}
+## zipnote «TEMP»/diffoscope_ev6wfip3_/tmpuqaplbow_.zip
 
 ```diff
 @@ -36,23 +36,23 @@
