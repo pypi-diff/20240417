@@ -14329,3 +14329,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:35:46] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
 [2024-04-17 09:35:46] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
 [2024-04-17 09:35:46] INFO root fetch - main [MainThread]: Store serial: [22801373]
+[2024-04-17 09:37:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801373]
+[2024-04-17 09:37:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 09:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-packages
+[2024-04-17 09:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pcffont
+[2024-04-17 09:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotframework-xlibrary
+[2024-04-17 09:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2024-04-17 09:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydase
+[2024-04-17 09:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: outlines
+[2024-04-17 09:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: semantic-router
+[2024-04-17 09:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: suql
+[2024-04-17 09:37:55] INFO root fetch - processPackages [suql]: New version: [1.1.4a0] Old Version: [1.1.3]
+[2024-04-17 09:37:55] INFO root fetch - processPackages [pcffont]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-17 09:37:55] INFO root fetch - processPackages [pydase]: New version: [0.8.0] Old Version: [0.7.4]
+[2024-04-17 09:37:55] INFO root fetch - processPackages [cg]: New version: [60.0.0] Old Version: [59.9.1]
+[2024-04-17 09:37:55] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/26/a4/af48d18e577cc41416e8e1fd290f2fe1b84026d46578fcaa2f452121cb70/suql-1.1.3.tar.gz
+[2024-04-17 09:37:55] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [11.0.0] Old Version: [10.0.1]
+[2024-04-17 09:37:55] INFO root fetch - processPackages [outlines]: New version: [0.1.dev0] Old Version: [0.0.9]
+[2024-04-17 09:37:55] INFO root fetch - processPackages [semantic-router]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 09:37:55] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/47/8c/f9a9b5e0377db09235c1e4a967509019912f490e88211a645cc136555835/pcffont-0.0.4.tar.gz
+[2024-04-17 09:37:55] INFO root fetch - processPackages [pydase]: Downloading https://files.pythonhosted.org/packages/1f/e5/f3869502344744fd000b32924e7cf7a8d520d4dd2948dc2c22495f7ec6f7/pydase-0.7.4.tar.gz
+[2024-04-17 09:37:55] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-17 09:37:55] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/1c/9b/b516d5e8b2ac38a448318c695b448ad70694970583365d1ef1d99122dfb7/robotframework-xlibrary-10.0.1.tar.gz
+[2024-04-17 09:37:56] INFO root fetch - processPackages [outlines]: Downloading https://files.pythonhosted.org/packages/bf/04/a3ed21e2c7a24284e1662709a8e5a01e749a20d6295f9acb93cc601ca064/outlines-0.0.9.tar.gz
+[2024-04-17 09:37:56] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/8a/5b/96461906eebdb98bc92dd5b0e90d9fce841f2db864121cb6fb6d34c6f14b/suql-1.1.4a0.tar.gz
+[2024-04-17 09:37:56] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/69/f5/24f7ed2376beeca68004c749ee072334bcdbcd70becd7e5549ea5773efae/semantic_router-0.0.8.tar.gz
+[2024-04-17 09:37:56] INFO root fetch - processPackages [pydase]: Downloading https://files.pythonhosted.org/packages/db/1f/33f06150b9634eed4250a182d04aa1fd96ea267b662c1740b57ad1e19530/pydase-0.8.0.tar.gz
+[2024-04-17 09:37:56] INFO root fetch - processPackages [suql]: executing diffoscope
+[2024-04-17 09:37:56] INFO root fetch - processPackages [suql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suql-1.1.3.tar.gz tmp/suql-1.1.4a0.tar.gz --markdown 20240417/s/suql/1.1.3-1.1.4a0/README.md --exclude *.pyd
+[2024-04-17 09:37:56] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/28/ff/f68249634a7c624b9622b74be784426180654a4da697d332d1f4a9e40f6c/robotframework-xlibrary-11.0.0.tar.gz
+[2024-04-17 09:37:56] INFO root fetch - processPackages [pydase]: executing diffoscope
+[2024-04-17 09:37:56] INFO root fetch - processPackages [pydase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydase-0.7.4.tar.gz tmp/pydase-0.8.0.tar.gz --markdown 20240417/p/pydase/0.7.4-0.8.0/README.md --exclude *.pyd
+[2024-04-17 09:37:56] INFO root fetch - processPackages [aws-packages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 09:37:56] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/11/95/77d59e45b2a33d7d8ed446d54e0616641f19dc43bb8545ee84f8522684cc/pcffont-0.0.5.tar.gz
+[2024-04-17 09:37:56] INFO root fetch - processPackages [outlines]: Downloading https://files.pythonhosted.org/packages/3d/3e/193c40a8341100112fa91f6252f05e70b1cb0946ccad9863e64b17831234/outlines-0.1.dev0.tar.gz
+[2024-04-17 09:37:56] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-04-17 09:37:56] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/1e/ed/656111589de857184bce5c5d64f0e6342c9da8b6c35987170806dfe913bc/cg-60.0.0.tar.gz
+[2024-04-17 09:37:56] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-10.0.1.tar.gz tmp/robotframework-xlibrary-11.0.0.tar.gz --markdown 20240417/r/robotframework-xlibrary/10.0.1-11.0.0/README.md --exclude *.pyd
+[2024-04-17 09:37:56] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/c6/e8/868f59ad8c7643feea9a25db402d4e84236189e1a9d89a4c840838be947f/semantic_router-0.0.9.tar.gz
+[2024-04-17 09:37:56] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-17 09:37:56] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.1.tar.gz tmp/cg-60.0.0.tar.gz --markdown 20240417/c/cg/59.9.1-60.0.0/README.md --exclude *.pyd
+[2024-04-17 09:37:56] INFO root fetch - processPackages [outlines]: executing diffoscope
+[2024-04-17 09:37:56] INFO root fetch - processPackages [outlines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outlines-0.0.9.tar.gz tmp/outlines-0.1.dev0.tar.gz --markdown 20240417/o/outlines/0.0.9-0.1.dev0/README.md --exclude *.pyd
+[2024-04-17 09:37:56] INFO root fetch - processPackages [pcffont]: executing diffoscope
+[2024-04-17 09:37:56] INFO root fetch - processPackages [pcffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcffont-0.0.4.tar.gz tmp/pcffont-0.0.5.tar.gz --markdown 20240417/p/pcffont/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-17 09:37:56] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/df/79/dc9dd4f48288c36fa85b903a442b0590b5f087cf3de6feac6a2c7361bd03/aws_packages-0.0.8.tar.gz
+[2024-04-17 09:37:56] INFO root fetch - processPackages [semantic-router]: executing diffoscope
+[2024-04-17 09:37:56] INFO root fetch - processPackages [semantic-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_router-0.0.8.tar.gz tmp/semantic_router-0.0.9.tar.gz --markdown 20240417/s/semantic-router/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 09:37:57] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.3.tar.gz]
+[2024-04-17 09:37:57] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.4a0.tar.gz]
+[2024-04-17 09:37:57] INFO root fetch - main [MainThread]: End processing [suql]: success
+[2024-04-17 09:37:57] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/f9/70/6dad25f5681631041b67fc5bad90c0828becfec9e1569cd148b0c104a41d/aws_packages-0.0.9.tar.gz
+[2024-04-17 09:37:57] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-10.0.1.tar.gz]
+[2024-04-17 09:37:57] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.0.tar.gz]
+[2024-04-17 09:37:57] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-04-17 09:37:57] INFO root fetch - processPackages [aws-packages]: executing diffoscope
+[2024-04-17 09:37:57] INFO root fetch - processPackages [aws-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_packages-0.0.8.tar.gz tmp/aws_packages-0.0.9.tar.gz --markdown 20240417/a/aws-packages/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 09:37:57] INFO root fetch - processPackages [outlines]: Remove: archive file [/home/abi/fetcher/tmp/outlines-0.0.9.tar.gz]
+[2024-04-17 09:37:57] INFO root fetch - processPackages [outlines]: Remove: archive file [/home/abi/fetcher/tmp/outlines-0.1.dev0.tar.gz]
+[2024-04-17 09:37:57] INFO root fetch - main [MainThread]: End processing [outlines]: success
+[2024-04-17 09:37:57] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.8.tar.gz]
+[2024-04-17 09:37:57] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.9.tar.gz]
+[2024-04-17 09:37:57] INFO root fetch - main [MainThread]: End processing [semantic-router]: success
+[2024-04-17 09:37:58] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.4.tar.gz]
+[2024-04-17 09:37:58] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.5.tar.gz]
+[2024-04-17 09:37:58] INFO root fetch - main [MainThread]: End processing [pcffont]: success
+[2024-04-17 09:37:58] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.8.tar.gz]
+[2024-04-17 09:37:58] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.9.tar.gz]
+[2024-04-17 09:37:58] INFO root fetch - main [MainThread]: End processing [aws-packages]: success
+[2024-04-17 09:38:02] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-17 09:38:02] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.0.0.tar.gz]
+[2024-04-17 09:38:02] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-17 09:38:15] INFO root fetch - processPackages [pydase]: Remove: archive file [/home/abi/fetcher/tmp/pydase-0.7.4.tar.gz]
+[2024-04-17 09:38:15] INFO root fetch - processPackages [pydase]: Remove: archive file [/home/abi/fetcher/tmp/pydase-0.8.0.tar.gz]
+[2024-04-17 09:38:15] INFO root fetch - main [MainThread]: End processing [pydase]: success
+[2024-04-17 09:38:15] INFO root fetch - main [MainThread]: Store serial: [22801452]
