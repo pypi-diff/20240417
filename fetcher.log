@@ -18802,3 +18802,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:05:34] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip]
 [2024-04-17 12:05:34] INFO root fetch - main [MainThread]: End processing [databend-driver]: success
 [2024-04-17 12:05:34] INFO root fetch - main [MainThread]: Store serial: [22803620]
+[2024-04-17 12:07:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803620]
+[2024-04-17 12:07:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 12:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commonutility
+[2024-04-17 12:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dexus-vault
+[2024-04-17 12:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ilastik-napari
+[2024-04-17 12:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sql-mock
+[2024-04-17 12:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tetos
+[2024-04-17 12:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: internet-domain-local
+[2024-04-17 12:07:42] INFO root fetch - processPackages [commonutility]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-17 12:07:43] WARNING root fetch - processPackages [tetos]: Skipping, unable to determine old version
+[2024-04-17 12:07:43] INFO root fetch - main [MainThread]: End processing [tetos] error
+[2024-04-17 12:07:43] INFO root fetch - processPackages [ilastik-napari]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-17 12:07:43] INFO root fetch - processPackages [commonutility]: Downloading https://files.pythonhosted.org/packages/6d/1f/39f2b7434d28541a724f39f37b6225ac993e60c60edaef80f4b745632784/commonutility-0.0.5-py3-none-any.whl
+[2024-04-17 12:07:43] INFO root fetch - processPackages [dexus-vault]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-17 12:07:43] INFO root fetch - processPackages [sql-mock]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-17 12:07:43] INFO root fetch - processPackages [internet-domain-local]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-17 12:07:43] INFO root fetch - processPackages [ilastik-napari]: Downloading https://files.pythonhosted.org/packages/5f/10/4862fc4f81e9edfe9b97681ee5445996946fb6df97a6544b56429073e22f/ilastik-napari-0.2.3.tar.gz
+[2024-04-17 12:07:43] INFO root fetch - processPackages [dexus-vault]: Downloading https://files.pythonhosted.org/packages/b1/30/1e6cc71bc8e6f5b26673000e498ddbe4bb9254f1378beb99da7720662bfd/dexus_vault-0.2.1.tar.gz
+[2024-04-17 12:07:43] INFO root fetch - processPackages [sql-mock]: Downloading https://files.pythonhosted.org/packages/7b/34/c6e5bd8e26098f684954b35056404cd5dea1819cda94c61256b7c595a9a1/sql_mock-0.6.1.tar.gz
+[2024-04-17 12:07:43] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/d1/e8/b18f1876e6653495f1e96c97b5b1379f4a355a22f73d8e565d3642f8815b/internet_domain_local-0.0.4.tar.gz
+[2024-04-17 12:07:43] INFO root fetch - processPackages [commonutility]: Downloading https://files.pythonhosted.org/packages/72/b8/b6de52936b4c739b8c4bd05ff8815cd4962718e64b09d64890c680130bc9/commonutility-0.0.6-py3-none-any.whl
+[2024-04-17 12:07:43] INFO root fetch - processPackages [commonutility]: executing diffoscope
+[2024-04-17 12:07:43] INFO root fetch - processPackages [commonutility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonutility-0.0.5-py3-none-any.whl.zip tmp/commonutility-0.0.6-py3-none-any.whl.zip --markdown 20240417/c/commonutility/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-17 12:07:43] INFO root fetch - processPackages [dexus-vault]: Downloading https://files.pythonhosted.org/packages/60/fa/81debb602c42bd2a6a04bc6ab6860dd315c2b79c7b1470a826e8246edb77/dexus_vault-0.2.2.tar.gz
+[2024-04-17 12:07:43] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/38/3b/0f87cad73fcb8e4a0bb8610847bfc216d79c6717f77422b94173d7d39324/internet_domain_local-0.0.5.tar.gz
+[2024-04-17 12:07:43] INFO root fetch - processPackages [ilastik-napari]: Downloading https://files.pythonhosted.org/packages/7e/37/1608c6015ea1efddd0118ace814fb7bfd5d339f159aed39044603386a617/ilastik_napari-0.2.4.tar.gz
+[2024-04-17 12:07:43] INFO root fetch - processPackages [dexus-vault]: executing diffoscope
+[2024-04-17 12:07:43] INFO root fetch - processPackages [dexus-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexus_vault-0.2.1.tar.gz tmp/dexus_vault-0.2.2.tar.gz --markdown 20240417/d/dexus-vault/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-17 12:07:43] INFO root fetch - processPackages [sql-mock]: Downloading https://files.pythonhosted.org/packages/a7/e6/823ef0b38928fdde167f49f75aeee987c8c926827f67ad18c68ac162aad4/sql_mock-0.6.2.tar.gz
+[2024-04-17 12:07:43] INFO root fetch - processPackages [internet-domain-local]: executing diffoscope
+[2024-04-17 12:07:43] INFO root fetch - processPackages [internet-domain-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internet_domain_local-0.0.4.tar.gz tmp/internet_domain_local-0.0.5.tar.gz --markdown 20240417/i/internet-domain-local/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-17 12:07:43] INFO root fetch - processPackages [ilastik-napari]: executing diffoscope
+[2024-04-17 12:07:43] INFO root fetch - processPackages [ilastik-napari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilastik-napari-0.2.3.tar.gz tmp/ilastik_napari-0.2.4.tar.gz --markdown 20240417/i/ilastik-napari/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-17 12:07:44] INFO root fetch - processPackages [sql-mock]: executing diffoscope
+[2024-04-17 12:07:44] INFO root fetch - processPackages [sql-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_mock-0.6.1.tar.gz tmp/sql_mock-0.6.2.tar.gz --markdown 20240417/s/sql-mock/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-17 12:07:44] INFO root fetch - processPackages [commonutility]: Remove: archive file [/home/abi/fetcher/tmp/commonutility-0.0.5-py3-none-any.whl.zip]
+[2024-04-17 12:07:44] INFO root fetch - processPackages [commonutility]: Remove: archive file [/home/abi/fetcher/tmp/commonutility-0.0.6-py3-none-any.whl.zip]
+[2024-04-17 12:07:44] INFO root fetch - main [MainThread]: End processing [commonutility]: success
+[2024-04-17 12:07:44] INFO root fetch - processPackages [dexus-vault]: Remove: archive file [/home/abi/fetcher/tmp/dexus_vault-0.2.1.tar.gz]
+[2024-04-17 12:07:44] INFO root fetch - processPackages [dexus-vault]: Remove: archive file [/home/abi/fetcher/tmp/dexus_vault-0.2.2.tar.gz]
+[2024-04-17 12:07:44] INFO root fetch - main [MainThread]: End processing [dexus-vault]: success
+[2024-04-17 12:07:44] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.4.tar.gz]
+[2024-04-17 12:07:44] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.5.tar.gz]
+[2024-04-17 12:07:44] INFO root fetch - main [MainThread]: End processing [internet-domain-local]: success
+[2024-04-17 12:07:44] INFO root fetch - processPackages [sql-mock]: Remove: archive file [/home/abi/fetcher/tmp/sql_mock-0.6.1.tar.gz]
+[2024-04-17 12:07:44] INFO root fetch - processPackages [sql-mock]: Remove: archive file [/home/abi/fetcher/tmp/sql_mock-0.6.2.tar.gz]
+[2024-04-17 12:07:44] INFO root fetch - main [MainThread]: End processing [sql-mock]: success
+[2024-04-17 12:07:44] INFO root fetch - processPackages [ilastik-napari]: Remove: archive file [/home/abi/fetcher/tmp/ilastik-napari-0.2.3.tar.gz]
+[2024-04-17 12:07:44] INFO root fetch - processPackages [ilastik-napari]: Remove: archive file [/home/abi/fetcher/tmp/ilastik_napari-0.2.4.tar.gz]
+[2024-04-17 12:07:44] INFO root fetch - main [MainThread]: End processing [ilastik-napari]: success
+[2024-04-17 12:07:44] INFO root fetch - main [MainThread]: Store serial: [22803641]
