@@ -7300,3 +7300,94 @@
 [2024-04-17 03:43:11] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
 [2024-04-17 03:43:11] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
 [2024-04-17 03:43:11] INFO root fetch - main [MainThread]: Store serial: [22798611]
+[2024-04-17 03:45:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798611]
+[2024-04-17 03:45:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-17 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiftyone-pipeline-cloudrequestengine
+[2024-04-17 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fiftyone-pipeline-core
+[2024-04-17 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fiftyone-pipeline-engines-fiftyone
+[2024-04-17 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiftyone-pipeline-engines
+[2024-04-17 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: project-utils-django
+[2024-04-17 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kettlebells
+[2024-04-17 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raydar
+[2024-04-17 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: project-utils-django
+[2024-04-17 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RM-Tools
+[2024-04-17 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langbank
+[2024-04-17 03:45:20] INFO root fetch - processPackages [project-utils-django]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-17 03:45:20] INFO root fetch - processPackages [project-utils-django]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-17 03:45:20] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2024-04-17 03:45:20] INFO root fetch - processPackages [project-utils-django]: Downloading https://files.pythonhosted.org/packages/08/b9/7acc93d2d43c1c7714fe0f003deb6a9e8020a8a8d71dac4af14ce53b8865/project-utils-django-1.0.4.tar.gz
+[2024-04-17 03:45:20] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2024-04-17 03:45:20] INFO root fetch - processPackages [fiftyone-pipeline-core]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2024-04-17 03:45:20] INFO root fetch - processPackages [fiftyone-pipeline-engines]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2024-04-17 03:45:20] INFO root fetch - processPackages [RM-Tools]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-17 03:45:20] INFO root fetch - processPackages [raydar]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-17 03:45:20] INFO root fetch - processPackages [kettlebells]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 03:45:20] INFO root fetch - processPackages [langbank]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-04-17 03:45:20] INFO root fetch - processPackages [project-utils-django]: Downloading https://files.pythonhosted.org/packages/08/b9/7acc93d2d43c1c7714fe0f003deb6a9e8020a8a8d71dac4af14ce53b8865/project-utils-django-1.0.4.tar.gz
+[2024-04-17 03:45:20] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Downloading https://files.pythonhosted.org/packages/6b/95/db65322b6bc7c0e4e2cb94c839191565def3d46ed1ee559f0ca6d588e227/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz
+[2024-04-17 03:45:20] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Downloading https://files.pythonhosted.org/packages/57/0b/5043a75732cdb4f3894eee095bccca4eca3f291f2e64ebee5fcb716b24f2/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz
+[2024-04-17 03:45:20] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Downloading https://files.pythonhosted.org/packages/4e/a3/500d24c2165afbd2f3f48b2636467d8441bc9649a45121c4b1313d6721f2/fiftyone_pipeline_engines-4.4.8.0.tar.gz
+[2024-04-17 03:45:20] INFO root fetch - processPackages [fiftyone-pipeline-core]: Downloading https://files.pythonhosted.org/packages/76/d6/b34fc7d1d074a71df816c77ccb53905048f4ae560a2a70978ca29e3134f7/fiftyone_pipeline_core-4.4.8.0.tar.gz
+[2024-04-17 03:45:20] INFO root fetch - processPackages [RM-Tools]: Downloading https://files.pythonhosted.org/packages/24/77/4d69174e6baef4240eafc2fa8b3648972698ae7172377c87a375a8a84dcd/RM-Tools-1.4.2.tar.gz
+[2024-04-17 03:45:20] INFO root fetch - processPackages [langbank]: Downloading https://files.pythonhosted.org/packages/c2/5a/f78d3e02a540a8a549015b1db6ab2170ccbf0cd7019c1af49412c73b7b13/langbank-0.1.5.tar.gz
+[2024-04-17 03:45:20] INFO root fetch - processPackages [kettlebells]: Downloading https://files.pythonhosted.org/packages/2e/0b/855a6e2fe96ace996185db1556da22b26474fd8b3978c8d90903df762887/kettlebells-0.2.8.tar.gz
+[2024-04-17 03:45:20] INFO root fetch - processPackages [raydar]: Downloading https://files.pythonhosted.org/packages/db/0f/bfc3b902f0329534faa368a8c8804ac4bcccc1119089ba4cc83454b6af8f/raydar-0.2.0.tar.gz
+[2024-04-17 03:45:20] INFO root fetch - processPackages [project-utils-django]: Downloading https://files.pythonhosted.org/packages/6f/8f/d5ae5885ed46552f21df4c7c13672f86b7a45dd882d1285d91609fcb06d5/project-utils-django-1.0.5.tar.gz
+[2024-04-17 03:45:20] INFO root fetch - processPackages [project-utils-django]: Downloading https://files.pythonhosted.org/packages/6f/8f/d5ae5885ed46552f21df4c7c13672f86b7a45dd882d1285d91609fcb06d5/project-utils-django-1.0.5.tar.gz
+[2024-04-17 03:45:20] INFO root fetch - processPackages [project-utils-django]: executing diffoscope
+[2024-04-17 03:45:20] INFO root fetch - processPackages [project-utils-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project-utils-django-1.0.4.tar.gz tmp/project-utils-django-1.0.5.tar.gz --markdown 20240417/p/project-utils-django/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-17 03:45:20] INFO root fetch - processPackages [project-utils-django]: executing diffoscope
+[2024-04-17 03:45:20] INFO root fetch - processPackages [project-utils-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project-utils-django-1.0.4.tar.gz tmp/project-utils-django-1.0.5.tar.gz --markdown 20240417/p/project-utils-django/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-17 03:45:20] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Downloading https://files.pythonhosted.org/packages/5c/0e/bb656280fc3dfa6b4b69e17ab2e2d2e256d4300cdb60e8cb5e81a4fcf331/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz
+[2024-04-17 03:45:20] INFO root fetch - processPackages [langbank]: Downloading https://files.pythonhosted.org/packages/bb/79/e722bced2cc515e17ed6446a42a190bda86a6d5c7320b32c229a9d3d7f08/langbank-0.2.0.tar.gz
+[2024-04-17 03:45:21] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Downloading https://files.pythonhosted.org/packages/8f/08/ccc77f7100f8f3db59fa2f751fe41a249e04249113f00c5e1ff61774197e/fiftyone_pipeline_engines-4.4.9.0.tar.gz
+[2024-04-17 03:45:21] INFO root fetch - processPackages [fiftyone-pipeline-core]: Downloading https://files.pythonhosted.org/packages/01/0e/99e6212222e48ed13b12487df5c23221264e2d9ccf67adcb8902624547fc/fiftyone_pipeline_core-4.4.9.0.tar.gz
+[2024-04-17 03:45:21] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Downloading https://files.pythonhosted.org/packages/23/7a/370305d5cf4106a6fed8cfa73f299a087c38edf5aea1e577829f23d4a332/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz
+[2024-04-17 03:45:21] INFO root fetch - processPackages [RM-Tools]: Downloading https://files.pythonhosted.org/packages/0d/a0/8637f4dc025fafb7e7828ec177f4730ba458b7d47538bb273106679f18c0/rm_tools-1.4.3.tar.gz
+[2024-04-17 03:45:21] INFO root fetch - processPackages [kettlebells]: Downloading https://files.pythonhosted.org/packages/d2/06/df21177400d049867b62cb5aa985289651f914594fdf646e3fa4526e8494/kettlebells-0.2.9.tar.gz
+[2024-04-17 03:45:21] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: executing diffoscope
+[2024-04-17 03:45:21] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz tmp/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz --markdown 20240417/f/fiftyone-pipeline-engines-fiftyone/4.4.8.0-4.4.9.0/README.md --exclude *.pyd
+[2024-04-17 03:45:21] INFO root fetch - processPackages [langbank]: executing diffoscope
+[2024-04-17 03:45:21] INFO root fetch - processPackages [langbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langbank-0.1.5.tar.gz tmp/langbank-0.2.0.tar.gz --markdown 20240417/l/langbank/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-04-17 03:45:21] INFO root fetch - processPackages [raydar]: Downloading https://files.pythonhosted.org/packages/7a/8d/2f7bb6b77e0be39e5e61dd2ea1dbc08d916f437bb66ff190b8589a18d9ac/raydar-0.2.1.tar.gz
+[2024-04-17 03:45:21] INFO root fetch - processPackages [fiftyone-pipeline-core]: executing diffoscope
+[2024-04-17 03:45:21] INFO root fetch - processPackages [fiftyone-pipeline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_core-4.4.8.0.tar.gz tmp/fiftyone_pipeline_core-4.4.9.0.tar.gz --markdown 20240417/f/fiftyone-pipeline-core/4.4.8.0-4.4.9.0/README.md --exclude *.pyd
+[2024-04-17 03:45:21] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: executing diffoscope
+[2024-04-17 03:45:21] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz tmp/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz --markdown 20240417/f/fiftyone-pipeline-cloudrequestengine/4.4.8.0-4.4.9.0/README.md --exclude *.pyd
+[2024-04-17 03:45:21] INFO root fetch - processPackages [kettlebells]: executing diffoscope
+[2024-04-17 03:45:21] INFO root fetch - processPackages [kettlebells]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kettlebells-0.2.8.tar.gz tmp/kettlebells-0.2.9.tar.gz --markdown 20240417/k/kettlebells/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 03:45:21] INFO root fetch - processPackages [RM-Tools]: executing diffoscope
+[2024-04-17 03:45:21] INFO root fetch - processPackages [RM-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RM-Tools-1.4.2.tar.gz tmp/rm_tools-1.4.3.tar.gz --markdown 20240417/R/RM-Tools/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-04-17 03:45:21] INFO root fetch - processPackages [project-utils-django]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-django-1.0.4.tar.gz]
+[2024-04-17 03:45:21] INFO root fetch - processPackages [project-utils-django]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-django-1.0.5.tar.gz]
+[2024-04-17 03:45:21] INFO root fetch - main [MainThread]: End processing [project-utils-django]: success
+[2024-04-17 03:45:21] INFO root fetch - main [MainThread]: End processing [project-utils-django]: success
+[2024-04-17 03:45:21] INFO root fetch - processPackages [raydar]: executing diffoscope
+[2024-04-17 03:45:21] INFO root fetch - processPackages [raydar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydar-0.2.0.tar.gz tmp/raydar-0.2.1.tar.gz --markdown 20240417/r/raydar/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-17 03:45:21] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz]
+[2024-04-17 03:45:21] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz]
+[2024-04-17 03:45:21] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-engines-fiftyone]: success
+[2024-04-17 03:45:21] INFO root fetch - processPackages [fiftyone-pipeline-engines]: executing diffoscope
+[2024-04-17 03:45:21] INFO root fetch - processPackages [fiftyone-pipeline-engines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_engines-4.4.8.0.tar.gz tmp/fiftyone_pipeline_engines-4.4.9.0.tar.gz --markdown 20240417/f/fiftyone-pipeline-engines/4.4.8.0-4.4.9.0/README.md --exclude *.pyd
+[2024-04-17 03:45:22] INFO root fetch - processPackages [fiftyone-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_core-4.4.8.0.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - processPackages [fiftyone-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_core-4.4.9.0.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-core]: success
+[2024-04-17 03:45:22] INFO root fetch - processPackages [langbank]: Remove: archive file [/home/abi/fetcher/tmp/langbank-0.1.5.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - processPackages [langbank]: Remove: archive file [/home/abi/fetcher/tmp/langbank-0.2.0.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - main [MainThread]: End processing [langbank]: success
+[2024-04-17 03:45:22] INFO root fetch - processPackages [kettlebells]: Remove: archive file [/home/abi/fetcher/tmp/kettlebells-0.2.8.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - processPackages [kettlebells]: Remove: archive file [/home/abi/fetcher/tmp/kettlebells-0.2.9.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - main [MainThread]: End processing [kettlebells]: success
+[2024-04-17 03:45:22] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-cloudrequestengine]: success
+[2024-04-17 03:45:22] INFO root fetch - processPackages [RM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/RM-Tools-1.4.2.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - processPackages [RM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/rm_tools-1.4.3.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - main [MainThread]: End processing [RM-Tools]: success
+[2024-04-17 03:45:22] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines-4.4.8.0.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines-4.4.9.0.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-engines]: success
+[2024-04-17 03:45:22] INFO root fetch - processPackages [raydar]: Remove: archive file [/home/abi/fetcher/tmp/raydar-0.2.0.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - processPackages [raydar]: Remove: archive file [/home/abi/fetcher/tmp/raydar-0.2.1.tar.gz]
+[2024-04-17 03:45:22] INFO root fetch - main [MainThread]: End processing [raydar]: success
+[2024-04-17 03:45:22] INFO root fetch - main [MainThread]: Store serial: [22798640]
