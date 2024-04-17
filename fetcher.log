@@ -23324,3 +23324,68 @@ EOFError: EOF read where object expected
 [2024-04-17 14:57:07] INFO root fetch - processPackages [kedro-viz]: Remove: archive file [/home/abi/fetcher/tmp/kedro-viz-9.0.0.tar.gz]
 [2024-04-17 14:57:07] INFO root fetch - main [MainThread]: End processing [kedro-viz]: success
 [2024-04-17 14:57:07] INFO root fetch - main [MainThread]: Store serial: [22805745]
+[2024-04-17 14:59:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805745]
+[2024-04-17 14:59:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 14:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itk
+[2024-04-17 14:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assisted-service-client
+[2024-04-17 14:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sciveo
+[2024-04-17 14:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itk-core
+[2024-04-17 14:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opp-env
+[2024-04-17 14:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: track2p
+[2024-04-17 14:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyKCS11
+[2024-04-17 14:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tricky
+[2024-04-17 14:59:19] INFO root fetch - processPackages [itk]: New version: [5.4rc3] Old Version: [5.4rc2]
+[2024-04-17 14:59:19] INFO root fetch - processPackages [track2p]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-17 14:59:19] INFO root fetch - processPackages [sciveo]: New version: [0.0.50] Old Version: [0.0.49]
+[2024-04-17 14:59:19] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-04-17 14:59:19] INFO root fetch - processPackages [track2p]: Downloading https://files.pythonhosted.org/packages/5d/f1/a6ef7681f12bf8705bde10ceb53ef13315b68c020fae1b29e6043c8887ad/track2p-0.5.0.tar.gz
+[2024-04-17 14:59:19] INFO root fetch - processPackages [tricky]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 14:59:19] INFO root fetch - processPackages [PyKCS11]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-17 14:59:19] WARNING root fetch - processPackages [opp-env]: Skipping, unable to determine old version
+[2024-04-17 14:59:19] INFO root fetch - main [MainThread]: End processing [opp-env] error
+[2024-04-17 14:59:19] INFO root fetch - processPackages [sciveo]: Downloading https://files.pythonhosted.org/packages/1f/d0/7a18daaea8b211ce2c7a55cce57f0a4ae5783cb06a2e0035d0d0875a1b89/sciveo-0.0.49.tar.gz
+[2024-04-17 14:59:19] INFO root fetch - processPackages [itk-core]: New version: [5.4rc4] Old Version: [5.4rc3]
+[2024-04-17 14:59:19] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-04-17 14:59:19] INFO root fetch - processPackages [itk]: Downloading https://files.pythonhosted.org/packages/56/8b/800112db0968a6334dd6c213adf5171175a1f5d7a08627bbdcdbdaf0f30a/itk-5.4rc2-cp39-cp39-win_amd64.whl
+[2024-04-17 14:59:19] INFO root fetch - processPackages [track2p]: Downloading https://files.pythonhosted.org/packages/9b/17/b819c42021ebf27d44ca091b71b1ff4180745038461fa6bdf4c5c56b5b6e/track2p-0.5.1.tar.gz
+[2024-04-17 14:59:19] INFO root fetch - processPackages [itk-core]: Downloading https://files.pythonhosted.org/packages/04/5f/55a2daf38f18b5068b90ca79bf9fa9a0a33b4e010fa7aee834f88fee2f2c/itk_core-5.4rc3-cp39-cp39-win_amd64.whl
+[2024-04-17 14:59:19] INFO root fetch - processPackages [PyKCS11]: Downloading https://files.pythonhosted.org/packages/ad/48/bd767317ed53ea9b831105320480bcd31fb94b9f1645e7ae3ebe4dddedcc/PyKCS11-1.5.8.tar.gz
+[2024-04-17 14:59:19] INFO root fetch - processPackages [tricky]: Downloading https://files.pythonhosted.org/packages/2f/2a/44c79deec2f32f6e529c5ad9e72e6cb060867455cac6ce8a7c65a1f7eb37/tricky-0.0.8.tar.gz
+[2024-04-17 14:59:19] WARNING root fetch - processPackages [itk-core]: Skipping package: exceeds size limit 37052035>=10485760
+[2024-04-17 14:59:19] INFO root fetch - main [MainThread]: End processing [itk-core] error
+[2024-04-17 14:59:19] INFO root fetch - processPackages [sciveo]: Downloading https://files.pythonhosted.org/packages/b5/23/e10f099c3aa514dad932e1db83b293f54df1e041bd555cd76279a95c6ef9/sciveo-0.0.50.tar.gz
+[2024-04-17 14:59:19] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-04-17 14:59:19] INFO root fetch - processPackages [track2p]: executing diffoscope
+[2024-04-17 14:59:19] INFO root fetch - processPackages [track2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/track2p-0.5.0.tar.gz tmp/track2p-0.5.1.tar.gz --markdown 20240417/t/track2p/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-17 14:59:19] INFO root fetch - processPackages [itk]: Downloading https://files.pythonhosted.org/packages/be/bc/48b3b5bc6c7118b57b39c75a3d719bf20f2ed13af608abad73589687b25a/itk-5.4rc3-cp39-cp39-win_amd64.whl
+[2024-04-17 14:59:19] INFO root fetch - processPackages [sciveo]: executing diffoscope
+[2024-04-17 14:59:19] INFO root fetch - processPackages [sciveo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciveo-0.0.49.tar.gz tmp/sciveo-0.0.50.tar.gz --markdown 20240417/s/sciveo/0.0.49-0.0.50/README.md --exclude *.pyd
+[2024-04-17 14:59:19] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-04-17 14:59:19] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240417/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-04-17 14:59:19] INFO root fetch - processPackages [itk]: executing diffoscope
+[2024-04-17 14:59:19] INFO root fetch - processPackages [itk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk-5.4rc2-cp39-cp39-win_amd64.whl.zip tmp/itk-5.4rc3-cp39-cp39-win_amd64.whl.zip --markdown 20240417/i/itk/5.4rc2-5.4rc3/README.md --exclude *.pyd
+[2024-04-17 14:59:20] INFO root fetch - processPackages [tricky]: Downloading https://files.pythonhosted.org/packages/1f/1f/69387711c8a77318f5bda8e316739b1e7e6d167ec044721b37c81944715a/tricky-0.0.9.tar.gz
+[2024-04-17 14:59:20] INFO root fetch - processPackages [PyKCS11]: Downloading https://files.pythonhosted.org/packages/63/22/2bb796b09e4733eae6bde363e9824d60e017f1537cda83195ee17477b4d2/PyKCS11-1.5.9.tar.gz
+[2024-04-17 14:59:20] INFO root fetch - processPackages [tricky]: executing diffoscope
+[2024-04-17 14:59:20] INFO root fetch - processPackages [tricky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tricky-0.0.8.tar.gz tmp/tricky-0.0.9.tar.gz --markdown 20240417/t/tricky/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 14:59:20] INFO root fetch - processPackages [PyKCS11]: executing diffoscope
+[2024-04-17 14:59:20] INFO root fetch - processPackages [PyKCS11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyKCS11-1.5.8.tar.gz tmp/PyKCS11-1.5.9.tar.gz --markdown 20240417/P/PyKCS11/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-17 14:59:20] INFO root fetch - processPackages [itk]: Remove: archive file [/home/abi/fetcher/tmp/itk-5.4rc2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 14:59:20] INFO root fetch - processPackages [itk]: Remove: archive file [/home/abi/fetcher/tmp/itk-5.4rc3-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 14:59:20] INFO root fetch - main [MainThread]: End processing [itk]: success
+[2024-04-17 14:59:20] INFO root fetch - processPackages [sciveo]: Remove: archive file [/home/abi/fetcher/tmp/sciveo-0.0.49.tar.gz]
+[2024-04-17 14:59:20] INFO root fetch - processPackages [sciveo]: Remove: archive file [/home/abi/fetcher/tmp/sciveo-0.0.50.tar.gz]
+[2024-04-17 14:59:20] INFO root fetch - main [MainThread]: End processing [sciveo]: success
+[2024-04-17 14:59:20] INFO root fetch - processPackages [track2p]: Remove: archive file [/home/abi/fetcher/tmp/track2p-0.5.0.tar.gz]
+[2024-04-17 14:59:20] INFO root fetch - processPackages [track2p]: Remove: archive file [/home/abi/fetcher/tmp/track2p-0.5.1.tar.gz]
+[2024-04-17 14:59:20] INFO root fetch - main [MainThread]: End processing [track2p]: success
+[2024-04-17 14:59:20] INFO root fetch - processPackages [tricky]: Remove: archive file [/home/abi/fetcher/tmp/tricky-0.0.8.tar.gz]
+[2024-04-17 14:59:20] INFO root fetch - processPackages [tricky]: Remove: archive file [/home/abi/fetcher/tmp/tricky-0.0.9.tar.gz]
+[2024-04-17 14:59:20] INFO root fetch - main [MainThread]: End processing [tricky]: success
+[2024-04-17 14:59:21] INFO root fetch - processPackages [PyKCS11]: Remove: archive file [/home/abi/fetcher/tmp/PyKCS11-1.5.8.tar.gz]
+[2024-04-17 14:59:21] INFO root fetch - processPackages [PyKCS11]: Remove: archive file [/home/abi/fetcher/tmp/PyKCS11-1.5.9.tar.gz]
+[2024-04-17 14:59:21] INFO root fetch - main [MainThread]: End processing [PyKCS11]: success
+[2024-04-17 14:59:21] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-04-17 14:59:21] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-04-17 14:59:21] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-04-17 14:59:21] INFO root fetch - main [MainThread]: Store serial: [22805794]
