@@ -13181,3 +13181,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 08:51:19] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-17 08:51:19] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-17 08:51:19] INFO root fetch - main [MainThread]: Store serial: [22800889]
+[2024-04-17 08:53:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22800889]
+[2024-04-17 08:53:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 08:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-facebook-marketing
+[2024-04-17 08:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-plb
+[2024-04-17 08:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miniscons
+[2024-04-17 08:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-nomad
+[2024-04-17 08:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: osESD
+[2024-04-17 08:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: insight-git
+[2024-04-17 08:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: database-common-tools
+[2024-04-17 08:53:28] INFO root fetch - processPackages [pih-plb]: New version: [0.17] Old Version: [0.16]
+[2024-04-17 08:53:28] INFO root fetch - processPackages [database-common-tools]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-17 08:53:28] WARNING root fetch - processPackages [miniscons]: Skipping, unable to determine old version
+[2024-04-17 08:53:28] INFO root fetch - main [MainThread]: End processing [miniscons] error
+[2024-04-17 08:53:28] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/ee/09/446d9d062a0e145ac804af287f6d2ae96e139bdb98a1b2a64233fffbefbf/pih-plb-0.16.tar.gz
+[2024-04-17 08:53:28] WARNING root fetch - processPackages [osESD]: Skipping, unable to determine old version
+[2024-04-17 08:53:28] INFO root fetch - main [MainThread]: End processing [osESD] error
+[2024-04-17 08:53:28] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: New version: [3.0.0.dev202404041423] Old Version: [3.0.0.dev202404010923]
+[2024-04-17 08:53:28] INFO root fetch - processPackages [insight-git]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-17 08:53:28] INFO root fetch - processPackages [pulumi-nomad]: New version: [2.3.0a1713333813] Old Version: [2.3.0a1712987992]
+[2024-04-17 08:53:28] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/a1/08/d1a544e5a0cff43065110b5305d02b0acbea2253d1e2af990d30a52f7215/database-common-tools-1.1.1.tar.gz
+[2024-04-17 08:53:28] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Downloading https://files.pythonhosted.org/packages/81/2e/c912b4ac72f342f15584882c7288ea5bdc074a4bfd44f7d37f480da773f3/airbyte_source_facebook_marketing-3.0.0.dev202404010923.tar.gz
+[2024-04-17 08:53:28] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/55/34/5a8a430f7dbe65c54f2244eceec33eb886011fd73c7d6cf6b74be8b037ab/pulumi_nomad-2.3.0a1712987992.tar.gz
+[2024-04-17 08:53:28] INFO root fetch - processPackages [insight-git]: Downloading https://files.pythonhosted.org/packages/a6/99/f56707134c87bb190c1d6dfe8cffc181ccb6601b2fed05463da545410c6a/insight-git-0.1.1.tar.gz
+[2024-04-17 08:53:28] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/96/8c/5c20debc3b9cc28c27d6131470f8577a9f302ad0a20dc296d396176629bf/pih-plb-0.17.tar.gz
+[2024-04-17 08:53:28] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Downloading https://files.pythonhosted.org/packages/3f/72/cd78f383b92dd9c221ce42e243c1fd60965eebee94be2829807af86dab8b/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz
+[2024-04-17 08:53:28] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/b7/59/fa7ff641e13d0dd92269fa39be32fddc346fcad9f4b4eb0a6ce9f871d8a7/database-common-tools-1.1.2.tar.gz
+[2024-04-17 08:53:28] INFO root fetch - processPackages [pih-plb]: executing diffoscope
+[2024-04-17 08:53:28] INFO root fetch - processPackages [pih-plb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb-0.16.tar.gz tmp/pih-plb-0.17.tar.gz --markdown 20240417/p/pih-plb/0.16-0.17/README.md --exclude *.pyd
+[2024-04-17 08:53:29] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: executing diffoscope
+[2024-04-17 08:53:29] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_facebook_marketing-3.0.0.dev202404010923.tar.gz tmp/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz --markdown 20240417/a/airbyte-source-facebook-marketing/3.0.0.dev202404010923-3.0.0.dev202404041423/README.md --exclude *.pyd
+[2024-04-17 08:53:29] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-17 08:53:29] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.1.1.tar.gz tmp/database-common-tools-1.1.2.tar.gz --markdown 20240417/d/database-common-tools/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-17 08:53:29] INFO root fetch - processPackages [insight-git]: Downloading https://files.pythonhosted.org/packages/7a/9d/152863cf8056a39bf687c00bd707978b173ad49a15016157e18f2d1fe5fc/insight_git-0.1.2.tar.gz
+[2024-04-17 08:53:29] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/1a/4a/9c44906072beb963825d62b204818303847074dfdf4f087db8497558d631/pulumi_nomad-2.3.0a1713333813.tar.gz
+[2024-04-17 08:53:29] INFO root fetch - processPackages [insight-git]: executing diffoscope
+[2024-04-17 08:53:29] INFO root fetch - processPackages [insight-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insight-git-0.1.1.tar.gz tmp/insight_git-0.1.2.tar.gz --markdown 20240417/i/insight-git/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-17 08:53:29] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2024-04-17 08:53:29] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-2.3.0a1712987992.tar.gz tmp/pulumi_nomad-2.3.0a1713333813.tar.gz --markdown 20240417/p/pulumi-nomad/2.3.0a1712987992-2.3.0a1713333813/README.md --exclude *.pyd
+[2024-04-17 08:53:29] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.16.tar.gz]
+[2024-04-17 08:53:29] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.17.tar.gz]
+[2024-04-17 08:53:29] INFO root fetch - main [MainThread]: End processing [pih-plb]: success
+[2024-04-17 08:53:29] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_facebook_marketing-3.0.0.dev202404010923.tar.gz]
+[2024-04-17 08:53:29] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz]
+[2024-04-17 08:53:29] INFO root fetch - main [MainThread]: End processing [airbyte-source-facebook-marketing]: success
+[2024-04-17 08:53:29] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.1.tar.gz]
+[2024-04-17 08:53:29] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.2.tar.gz]
+[2024-04-17 08:53:29] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-17 08:53:30] INFO root fetch - processPackages [insight-git]: Remove: archive file [/home/abi/fetcher/tmp/insight-git-0.1.1.tar.gz]
+[2024-04-17 08:53:30] INFO root fetch - processPackages [insight-git]: Remove: archive file [/home/abi/fetcher/tmp/insight_git-0.1.2.tar.gz]
+[2024-04-17 08:53:30] INFO root fetch - main [MainThread]: End processing [insight-git]: success
+[2024-04-17 08:53:30] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1712987992.tar.gz]
+[2024-04-17 08:53:30] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1713333813.tar.gz]
+[2024-04-17 08:53:30] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2024-04-17 08:53:30] INFO root fetch - main [MainThread]: Store serial: [22800918]
