@@ -22118,3 +22118,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-17 14:15:54] INFO root fetch - processPackages [pynrfjprog]: Remove: archive file [/home/abi/fetcher/tmp/pynrfjprog-9.8.1.zip]
 [2024-04-17 14:15:54] INFO root fetch - main [MainThread]: End processing [pynrfjprog]: success
 [2024-04-17 14:15:54] INFO root fetch - main [MainThread]: Store serial: [22805150]
+[2024-04-17 14:18:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805150]
+[2024-04-17 14:18:07] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-17 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windmill-api
+[2024-04-17 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-pagerduty
+[2024-04-17 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CIBPacket
+[2024-04-17 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wmill
+[2024-04-17 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: capellambse
+[2024-04-17 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wmill-pg
+[2024-04-17 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-cloudflare
+[2024-04-17 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2024-04-17 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: discord-users-bot
+[2024-04-17 14:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eodc-faas-openeo
+[2024-04-17 14:18:07] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-17 14:18:07] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-17 14:18:07] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-17 14:18:07] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-04-17 14:18:07] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-04-17 14:18:07] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-04-17 14:18:07] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-17 14:18:07] WARNING root fetch - processPackages [CIBPacket]: Skipping, unable to determine old version
+[2024-04-17 14:18:07] INFO root fetch - processPackages [CIBPacket]: Start processing: uttt-engine
+[2024-04-17 14:18:07] INFO root fetch - main [MainThread]: End processing [CIBPacket] error
+[2024-04-17 14:18:07] WARNING root fetch - processPackages [discord-users-bot]: Skipping, unable to determine old version
+[2024-04-17 14:18:07] INFO root fetch - processPackages [discord-users-bot]: Start processing: reward-pkg-23246642
+[2024-04-17 14:18:07] INFO root fetch - main [MainThread]: End processing [discord-users-bot] error
+[2024-04-17 14:18:07] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-17 14:18:07] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-04-17 14:18:07] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-17 14:18:07] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-04-17 14:18:07] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-17 14:18:07] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-04-17 14:18:07] WARNING root fetch - processPackages [uttt-engine]: Skipping, unable to determine old version
+[2024-04-17 14:18:07] INFO root fetch - processPackages [uttt-engine]: Start processing: ghga-service-commons
+[2024-04-17 14:18:07] INFO root fetch - main [MainThread]: End processing [uttt-engine] error
+[2024-04-17 14:18:07] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-17 14:18:07] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-04-17 14:18:07] WARNING root fetch - processPackages [reward-pkg-23246642]: Skipping, unable to determine old version
+[2024-04-17 14:18:07] INFO root fetch - processPackages [reward-pkg-23246642]: Start processing: lvm-read-comma
+[2024-04-17 14:18:07] INFO root fetch - main [MainThread]: End processing [reward-pkg-23246642] error
+[2024-04-17 14:18:07] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/95/0d/3bbe76bf2dc16ab52e2891e0a5befbe87f597cd15fe4d4853644e5bfefc0/eodc_faas_openeo-2024.4.8.tar.gz
+[2024-04-17 14:18:07] INFO root fetch - processPackages [ghga-service-commons]: New version: [3.1.3] Old Version: [3.1.2]
+[2024-04-17 14:18:07] WARNING root fetch - processPackages [lvm-read-comma]: Skipping, unable to determine old version
+[2024-04-17 14:18:07] INFO root fetch - processPackages [lvm-read-comma]: Start processing: libertem-blobfinder
+[2024-04-17 14:18:07] INFO root fetch - main [MainThread]: End processing [lvm-read-comma] error
+[2024-04-17 14:18:07] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-04-17 14:18:07] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-04-17 14:18:08] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-17 14:18:08] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-04-17 14:18:08] INFO root fetch - processPackages [libertem-blobfinder]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-17 14:18:08] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-17 14:18:08] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-04-17 14:18:08] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240417/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-17 14:18:08] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-17 14:18:08] INFO root fetch - processPackages [ghga-service-commons]: Downloading https://files.pythonhosted.org/packages/14/ed/e8c13e26198626e6edd56e02be342d31c562417eb1a756ca7f768522ed80/ghga_service_commons-3.1.2.tar.gz
+[2024-04-17 14:18:08] INFO root fetch - processPackages [libertem-blobfinder]: Downloading https://files.pythonhosted.org/packages/74/22/d9cf0db403b356075200a226a375bd146680db157b6d9b9f8f63a5597811/libertem-blobfinder-0.5.0.tar.gz
+[2024-04-17 14:18:08] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-04-17 14:18:08] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240417/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-04-17 14:18:08] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-17 14:18:08] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240417/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-17 14:18:08] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-04-17 14:18:08] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240417/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-04-17 14:18:08] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-17 14:18:08] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240417/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-17 14:18:08] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/5e/60/0df26077da816d4440ca6002beb2eb117e5fc28afecbc0fc984839e59b0e/eodc_faas_openeo-2024.4.9.tar.gz
+[2024-04-17 14:18:08] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-17 14:18:08] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240417/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-17 14:18:08] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-04-17 14:18:08] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.4.8.tar.gz tmp/eodc_faas_openeo-2024.4.9.tar.gz --markdown 20240417/e/eodc-faas-openeo/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-17 14:18:08] INFO root fetch - processPackages [libertem-blobfinder]: Downloading https://files.pythonhosted.org/packages/28/f9/155c578a87a4a275f71fabbcbb45d635fb21605ca39d6dd457c6d7117592/libertem_blobfinder-0.6.0.tar.gz
+[2024-04-17 14:18:08] INFO root fetch - processPackages [ghga-service-commons]: Downloading https://files.pythonhosted.org/packages/1b/4d/39e65c9b4950ba62919d6573ac864ba915488fd32ea9291dc97fc1fe3f19/ghga_service_commons-3.1.3.tar.gz
+[2024-04-17 14:18:08] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-04-17 14:18:08] INFO root fetch - processPackages [ghga-service-commons]: executing diffoscope
+[2024-04-17 14:18:08] INFO root fetch - processPackages [ghga-service-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_service_commons-3.1.2.tar.gz tmp/ghga_service_commons-3.1.3.tar.gz --markdown 20240417/g/ghga-service-commons/3.1.2-3.1.3/README.md --exclude *.pyd
+[2024-04-17 14:18:08] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-04-17 14:18:08] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-04-17 14:18:08] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-04-17 14:18:08] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-04-17 14:18:08] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240417/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-04-17 14:18:08] INFO root fetch - processPackages [libertem-blobfinder]: executing diffoscope
+[2024-04-17 14:18:08] INFO root fetch - processPackages [libertem-blobfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libertem-blobfinder-0.5.0.tar.gz tmp/libertem_blobfinder-0.6.0.tar.gz --markdown 20240417/l/libertem-blobfinder/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-17 14:18:09] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-17 14:18:09] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-17 14:18:09] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-17 14:18:09] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.8.tar.gz]
+[2024-04-17 14:18:09] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.9.tar.gz]
+[2024-04-17 14:18:09] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-04-17 14:18:09] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-04-17 14:18:09] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-04-17 14:18:09] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-04-17 14:18:09] INFO root fetch - processPackages [ghga-service-commons]: Remove: archive file [/home/abi/fetcher/tmp/ghga_service_commons-3.1.2.tar.gz]
+[2024-04-17 14:18:09] INFO root fetch - processPackages [ghga-service-commons]: Remove: archive file [/home/abi/fetcher/tmp/ghga_service_commons-3.1.3.tar.gz]
+[2024-04-17 14:18:09] INFO root fetch - main [MainThread]: End processing [ghga-service-commons]: success
+[2024-04-17 14:18:09] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-04-17 14:18:09] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-04-17 14:18:09] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-04-17 14:18:10] INFO root fetch - processPackages [libertem-blobfinder]: Remove: archive file [/home/abi/fetcher/tmp/libertem-blobfinder-0.5.0.tar.gz]
+[2024-04-17 14:18:10] INFO root fetch - processPackages [libertem-blobfinder]: Remove: archive file [/home/abi/fetcher/tmp/libertem_blobfinder-0.6.0.tar.gz]
+[2024-04-17 14:18:10] INFO root fetch - main [MainThread]: End processing [libertem-blobfinder]: success
+[2024-04-17 14:18:10] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-17 14:18:10] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-17 14:18:10] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-17 14:18:12] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-17 14:18:12] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-17 14:18:12] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-17 14:18:14] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-04-17 14:18:14] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-04-17 14:18:14] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-04-17 14:18:14] INFO root fetch - main [MainThread]: Store serial: [22805207]
