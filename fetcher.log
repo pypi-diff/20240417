@@ -14404,3 +14404,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:38:15] INFO root fetch - processPackages [pydase]: Remove: archive file [/home/abi/fetcher/tmp/pydase-0.8.0.tar.gz]
 [2024-04-17 09:38:15] INFO root fetch - main [MainThread]: End processing [pydase]: success
 [2024-04-17 09:38:15] INFO root fetch - main [MainThread]: Store serial: [22801452]
+[2024-04-17 09:40:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801452]
+[2024-04-17 09:40:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-17 09:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deltalake2db
+[2024-04-17 09:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2024-04-17 09:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-changedetect
+[2024-04-17 09:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alloniaconfigs
+[2024-04-17 09:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: isimip-qc
+[2024-04-17 09:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mcrit
+[2024-04-17 09:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsk-monster
+[2024-04-17 09:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: synch2jira
+[2024-04-17 09:40:24] INFO root fetch - processPackages [deltalake2db]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-17 09:40:24] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-17 09:40:24] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 09:40:24] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-17 09:40:24] WARNING root fetch - processPackages [alloniaconfigs]: Skipping, unable to determine old version
+[2024-04-17 09:40:24] INFO root fetch - main [MainThread]: End processing [alloniaconfigs] error
+[2024-04-17 09:40:24] INFO root fetch - processPackages [deltalake2db]: Downloading https://files.pythonhosted.org/packages/81/00/26270a92feb6a6af0144ad04a96e513f0d4b2fc91dcda7f5d7ec9b9c4782/deltalake2db-0.3.0.tar.gz
+[2024-04-17 09:40:24] INFO root fetch - processPackages [pydantic-changedetect]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-04-17 09:40:24] INFO root fetch - processPackages [isimip-qc]: New version: [3.4.6] Old Version: [3.4.5]
+[2024-04-17 09:40:24] INFO root fetch - processPackages [mcrit]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-17 09:40:24] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-17 09:40:24] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-17 09:40:24] INFO root fetch - processPackages [pydantic-changedetect]: Downloading https://files.pythonhosted.org/packages/a0/fc/1db193e68d69d318c561efbd1912f49860b2298a2a0c30075ee7e6f2e141/pydantic_changedetect-0.6.6.tar.gz
+[2024-04-17 09:40:24] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-17 09:40:24] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-17 09:40:24] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-17 09:40:24] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-17 09:40:24] INFO root fetch - processPackages [isimip-qc]: Downloading https://files.pythonhosted.org/packages/d2/80/e9991186610410ca5ceb5775d22b68a2f1aa05ca731cb1863e0ce9eebe32/isimip-qc-3.4.5.tar.gz
+[2024-04-17 09:40:24] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-17 09:40:24] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/5e/6e/aed070f7bae9871a7d5ab8d4c0bd361cf816c0745b515c8352ca058a1123/mcrit-1.3.8.tar.gz
+[2024-04-17 09:40:24] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-17 09:40:24] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240417/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 09:40:24] INFO root fetch - processPackages [deltalake2db]: Downloading https://files.pythonhosted.org/packages/10/fc/22be54da417762866540d6339e83e9e489f7f8aa1b4fc2fa151aa31e3af4/deltalake2db-0.3.1.tar.gz
+[2024-04-17 09:40:24] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-17 09:40:24] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240417/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-17 09:40:24] INFO root fetch - processPackages [pydantic-changedetect]: Downloading https://files.pythonhosted.org/packages/d9/89/bb4e599f32ffd5d077bf2368191bace013d16f440fa94dda43c88b8ffddb/pydantic_changedetect-0.6.7.tar.gz
+[2024-04-17 09:40:24] INFO root fetch - processPackages [deltalake2db]: executing diffoscope
+[2024-04-17 09:40:24] INFO root fetch - processPackages [deltalake2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltalake2db-0.3.0.tar.gz tmp/deltalake2db-0.3.1.tar.gz --markdown 20240417/d/deltalake2db/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-17 09:40:25] INFO root fetch - processPackages [isimip-qc]: Downloading https://files.pythonhosted.org/packages/62/f4/cc3183616d4d6bbbc0cdf8f8f990865d8bc71d8b656e3bbe41be9f7827ec/isimip_qc-3.4.6.tar.gz
+[2024-04-17 09:40:25] INFO root fetch - processPackages [pydantic-changedetect]: executing diffoscope
+[2024-04-17 09:40:25] INFO root fetch - processPackages [pydantic-changedetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_changedetect-0.6.6.tar.gz tmp/pydantic_changedetect-0.6.7.tar.gz --markdown 20240417/p/pydantic-changedetect/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-04-17 09:40:25] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/02/03/20b47104a9e0a23e5d4351194bca51dd9cf8fcd050253c4a5860cd615db7/mcrit-1.3.9.tar.gz
+[2024-04-17 09:40:25] INFO root fetch - processPackages [isimip-qc]: executing diffoscope
+[2024-04-17 09:40:25] INFO root fetch - processPackages [isimip-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isimip-qc-3.4.5.tar.gz tmp/isimip_qc-3.4.6.tar.gz --markdown 20240417/i/isimip-qc/3.4.5-3.4.6/README.md --exclude *.pyd
+[2024-04-17 09:40:25] INFO root fetch - processPackages [mcrit]: executing diffoscope
+[2024-04-17 09:40:25] INFO root fetch - processPackages [mcrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcrit-1.3.8.tar.gz tmp/mcrit-1.3.9.tar.gz --markdown 20240417/m/mcrit/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-17 09:40:25] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-17 09:40:25] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-17 09:40:25] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-17 09:40:25] INFO root fetch - processPackages [deltalake2db]: Remove: archive file [/home/abi/fetcher/tmp/deltalake2db-0.3.0.tar.gz]
+[2024-04-17 09:40:25] INFO root fetch - processPackages [deltalake2db]: Remove: archive file [/home/abi/fetcher/tmp/deltalake2db-0.3.1.tar.gz]
+[2024-04-17 09:40:25] INFO root fetch - main [MainThread]: End processing [deltalake2db]: success
+[2024-04-17 09:40:25] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-17 09:40:25] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-17 09:40:25] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-17 09:40:25] INFO root fetch - processPackages [pydantic-changedetect]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_changedetect-0.6.6.tar.gz]
+[2024-04-17 09:40:25] INFO root fetch - processPackages [pydantic-changedetect]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_changedetect-0.6.7.tar.gz]
+[2024-04-17 09:40:25] INFO root fetch - main [MainThread]: End processing [pydantic-changedetect]: success
+[2024-04-17 09:40:26] INFO root fetch - processPackages [isimip-qc]: Remove: archive file [/home/abi/fetcher/tmp/isimip-qc-3.4.5.tar.gz]
+[2024-04-17 09:40:26] INFO root fetch - processPackages [isimip-qc]: Remove: archive file [/home/abi/fetcher/tmp/isimip_qc-3.4.6.tar.gz]
+[2024-04-17 09:40:26] INFO root fetch - main [MainThread]: End processing [isimip-qc]: success
+[2024-04-17 09:40:26] INFO root fetch - processPackages [mcrit]: Remove: archive file [/home/abi/fetcher/tmp/mcrit-1.3.8.tar.gz]
+[2024-04-17 09:40:26] INFO root fetch - processPackages [mcrit]: Remove: archive file [/home/abi/fetcher/tmp/mcrit-1.3.9.tar.gz]
+[2024-04-17 09:40:26] INFO root fetch - main [MainThread]: End processing [mcrit]: success
+[2024-04-17 09:40:26] INFO root fetch - main [MainThread]: Store serial: [22801516]
