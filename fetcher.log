@@ -2110,3 +2110,87 @@
 [2024-04-17 02:17:46] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.9.2.tar.gz]
 [2024-04-17 02:17:46] INFO root fetch - main [MainThread]: End processing [mlflow-skinny]: success
 [2024-04-17 02:17:46] INFO root fetch - main [MainThread]: Store serial: [22796615]
+[2024-04-17 02:19:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22796615]
+[2024-04-17 02:19:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 02:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-17 02:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-gitlab-runner
+[2024-04-17 02:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smithed
+[2024-04-17 02:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: guniflask
+[2024-04-17 02:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovp-docker-utils
+[2024-04-17 02:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-budibase
+[2024-04-17 02:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchao-nightly
+[2024-04-17 02:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdklabs.appsync-utils
+[2024-04-17 02:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ramps_galactic
+[2024-04-17 02:19:54] INFO root fetch - processPackages [ramps_galactic]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-17 02:19:54] INFO root fetch - processPackages [smithed]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-17 02:19:54] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-17 02:19:54] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-17 02:19:55] INFO root fetch - processPackages [ovp-docker-utils]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-17 02:19:55] INFO root fetch - processPackages [guniflask]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-17 02:19:55] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/5f/75/fa2f35d39cfd048a42fe784f2a57da5743e7983bb669c3e4d8eb5aa83710/torchao-nightly-2024.4.8.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [ramps_galactic]: Downloading https://files.pythonhosted.org/packages/ec/07/9509d1278d133f4ae0b229632332c5710f4594fb1a5cd8206c500744c29d/ramps_galactic-1.1.0.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [smithed]: Downloading https://files.pythonhosted.org/packages/e9/7d/1a5f54cab8468dba20c207ef284467d79177898cba00a36609728dc2f024/smithed-0.9.2.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [ovp-docker-utils]: Downloading https://files.pythonhosted.org/packages/71/0b/9cfb9eeee54f620af3dd1072db9baa8616c51a1052a31e92ea90b2b13b8c/ovp_docker_utils-1.0.5.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [guniflask]: Downloading https://files.pythonhosted.org/packages/19/c1/c50a2fd6807a0870609e65502a1ad0af39bd31410b096749f28ec8d966d3/guniflask-0.9.1.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [smithed]: Downloading https://files.pythonhosted.org/packages/6f/e9/2700ac0fe0f36e9a17f9ab5f811bc42783bf3cd588037c2d032e49402455/smithed-0.9.3.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d5/e0ae6447ebc2fc27b71391c55653c89c441bbe6a6a8a7b37aa28dc13014e/torchao-nightly-2024.4.9.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [ramps_galactic]: Downloading https://files.pythonhosted.org/packages/c3/8f/30029ec9460da23917d76c64a607549ac0706ed0c5fb927902275a2a5cae/ramps_galactic-1.1.1.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [smithed]: executing diffoscope
+[2024-04-17 02:19:55] INFO root fetch - processPackages [smithed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smithed-0.9.2.tar.gz tmp/smithed-0.9.3.tar.gz --markdown 20240417/s/smithed/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240417/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-17 02:19:55] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-17 02:19:55] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.8.tar.gz tmp/torchao-nightly-2024.4.9.tar.gz --markdown 20240417/t/torchao-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-17 02:19:55] INFO root fetch - processPackages [ramps_galactic]: executing diffoscope
+[2024-04-17 02:19:55] INFO root fetch - processPackages [ramps_galactic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramps_galactic-1.1.0.tar.gz tmp/ramps_galactic-1.1.1.tar.gz --markdown 20240417/r/ramps_galactic/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240417/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240417/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-17 02:19:55] INFO root fetch - processPackages [ovp-docker-utils]: Downloading https://files.pythonhosted.org/packages/f9/46/d1e47f9c41c658420f219e258cc27b070af5892c8d573d80a30487315260/ovp_docker_utils-1.0.6.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [guniflask]: Downloading https://files.pythonhosted.org/packages/e1/a2/305a8fe0382bd5c1d88e59971add9af5fddfc3afba3057b602f8382facb2/guniflask-0.9.2.tar.gz
+[2024-04-17 02:19:55] INFO root fetch - processPackages [ovp-docker-utils]: executing diffoscope
+[2024-04-17 02:19:55] INFO root fetch - processPackages [ovp-docker-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovp_docker_utils-1.0.5.tar.gz tmp/ovp_docker_utils-1.0.6.tar.gz --markdown 20240417/o/ovp-docker-utils/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-17 02:19:56] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-04-17 02:19:56] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240417/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-17 02:19:56] INFO root fetch - processPackages [guniflask]: executing diffoscope
+[2024-04-17 02:19:56] INFO root fetch - processPackages [guniflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guniflask-0.9.1.tar.gz tmp/guniflask-0.9.2.tar.gz --markdown 20240417/g/guniflask/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-17 02:19:56] INFO root fetch - processPackages [ramps_galactic]: Remove: archive file [/home/abi/fetcher/tmp/ramps_galactic-1.1.0.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - processPackages [ramps_galactic]: Remove: archive file [/home/abi/fetcher/tmp/ramps_galactic-1.1.1.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - main [MainThread]: End processing [ramps_galactic]: success
+[2024-04-17 02:19:56] INFO root fetch - processPackages [smithed]: Remove: archive file [/home/abi/fetcher/tmp/smithed-0.9.2.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - processPackages [smithed]: Remove: archive file [/home/abi/fetcher/tmp/smithed-0.9.3.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - main [MainThread]: End processing [smithed]: success
+[2024-04-17 02:19:56] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-04-17 02:19:56] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.8.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.9.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-17 02:19:56] INFO root fetch - processPackages [ovp-docker-utils]: Remove: archive file [/home/abi/fetcher/tmp/ovp_docker_utils-1.0.5.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - processPackages [ovp-docker-utils]: Remove: archive file [/home/abi/fetcher/tmp/ovp_docker_utils-1.0.6.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - main [MainThread]: End processing [ovp-docker-utils]: success
+[2024-04-17 02:19:56] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-17 02:19:56] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-17 02:19:56] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-04-17 02:19:56] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-04-17 02:19:57] INFO root fetch - processPackages [guniflask]: Remove: archive file [/home/abi/fetcher/tmp/guniflask-0.9.1.tar.gz]
+[2024-04-17 02:19:57] INFO root fetch - processPackages [guniflask]: Remove: archive file [/home/abi/fetcher/tmp/guniflask-0.9.2.tar.gz]
+[2024-04-17 02:19:57] INFO root fetch - main [MainThread]: End processing [guniflask]: success
+[2024-04-17 02:19:57] INFO root fetch - main [MainThread]: Store serial: [22796641]
