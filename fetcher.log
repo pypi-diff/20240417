@@ -8131,3 +8131,55 @@
 [2024-04-17 04:31:54] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_oidc_auth-1.2.0.tar.gz]
 [2024-04-17 04:31:54] INFO root fetch - main [MainThread]: End processing [mlflow-oidc-auth]: success
 [2024-04-17 04:31:54] INFO root fetch - main [MainThread]: Store serial: [22798943]
+[2024-04-17 04:33:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798943]
+[2024-04-17 04:34:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 04:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fabric-message-bus
+[2024-04-17 04:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-ess20220222-py2
+[2024-04-17 04:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jeltz
+[2024-04-17 04:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-ess20220222
+[2024-04-17 04:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ptcr
+[2024-04-17 04:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ptcr
+[2024-04-17 04:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cool-magic-admin
+[2024-04-17 04:34:02] WARNING root fetch - processPackages [cool-magic-admin]: Skipping, unable to determine old version
+[2024-04-17 04:34:02] INFO root fetch - main [MainThread]: End processing [cool-magic-admin] error
+[2024-04-17 04:34:03] INFO root fetch - processPackages [ptcr]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-17 04:34:03] INFO root fetch - processPackages [alibabacloud-ess20220222]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-17 04:34:03] INFO root fetch - processPackages [ptcr]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-17 04:34:03] WARNING root fetch - processPackages [jeltz]: Skipping, unable to determine old version
+[2024-04-17 04:34:03] INFO root fetch - main [MainThread]: End processing [jeltz] error
+[2024-04-17 04:34:03] INFO root fetch - processPackages [alibabacloud-ess20220222-py2]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-17 04:34:03] INFO root fetch - processPackages [fabric-message-bus]: New version: [1.7.0b1] Old Version: [1.6.2b0]
+[2024-04-17 04:34:03] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/09/50/8dcc51a10e04fa9da1acbcb8ab161b373bc15e1c2c354cbc9b59de5eba54/ptcr-0.0.1.tar.gz
+[2024-04-17 04:34:03] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/09/50/8dcc51a10e04fa9da1acbcb8ab161b373bc15e1c2c354cbc9b59de5eba54/ptcr-0.0.1.tar.gz
+[2024-04-17 04:34:03] INFO root fetch - processPackages [alibabacloud-ess20220222]: Downloading https://files.pythonhosted.org/packages/15/3b/7ab3a5dd35c9150798ee9d277a86d8a7d503336ceb2cd78c37dc8acae0eb/alibabacloud_ess20220222-1.5.0.tar.gz
+[2024-04-17 04:34:03] INFO root fetch - processPackages [fabric-message-bus]: Downloading https://files.pythonhosted.org/packages/66/67/15c61850e47a1198128735c63a1f27cbfa286b265e4c5e0adc562a3abe88/fabric-message-bus-1.6.2b0.tar.gz
+[2024-04-17 04:34:03] INFO root fetch - processPackages [alibabacloud-ess20220222-py2]: Downloading https://files.pythonhosted.org/packages/40/f7/89ffe5feea70d0e56730d8655fc0c3d63d35b149e172b3f7e48b901ac961/alibabacloud_ess20220222_py2-1.0.1.tar.gz
+[2024-04-17 04:34:03] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/1a/64/407d6ee8493d7b8226346cddfe4d00f401b2342c8bf11c592959d2d2d16d/ptcr-0.1.0.tar.gz
+[2024-04-17 04:34:03] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/1a/64/407d6ee8493d7b8226346cddfe4d00f401b2342c8bf11c592959d2d2d16d/ptcr-0.1.0.tar.gz
+[2024-04-17 04:34:03] INFO root fetch - processPackages [alibabacloud-ess20220222]: Downloading https://files.pythonhosted.org/packages/0a/d3/c6c04f9c527b5e3d4ea34b46eadb1a6a8cf9cff5495c64aa3cd1742c8e55/alibabacloud_ess20220222-1.5.1.tar.gz
+[2024-04-17 04:34:03] INFO root fetch - processPackages [alibabacloud-ess20220222-py2]: Downloading https://files.pythonhosted.org/packages/17/29/3b2044413182d4c63299136d03c7951b1293b7dd3862d2d894024b0f80e4/alibabacloud_ess20220222_py2-1.0.2.tar.gz
+[2024-04-17 04:34:03] INFO root fetch - processPackages [fabric-message-bus]: Downloading https://files.pythonhosted.org/packages/67/54/b39d4c6271cda55835349e3f9c555dbe70a043aa49d13eef8fd9e96fa11d/fabric-message-bus-1.7.0b1.tar.gz
+[2024-04-17 04:34:03] INFO root fetch - processPackages [alibabacloud-ess20220222]: executing diffoscope
+[2024-04-17 04:34:03] INFO root fetch - processPackages [alibabacloud-ess20220222]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ess20220222-1.5.0.tar.gz tmp/alibabacloud_ess20220222-1.5.1.tar.gz --markdown 20240417/a/alibabacloud-ess20220222/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-17 04:34:03] INFO root fetch - processPackages [ptcr]: executing diffoscope
+[2024-04-17 04:34:03] INFO root fetch - processPackages [ptcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptcr-0.0.1.tar.gz tmp/ptcr-0.1.0.tar.gz --markdown 20240417/p/ptcr/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-17 04:34:03] INFO root fetch - processPackages [ptcr]: executing diffoscope
+[2024-04-17 04:34:03] INFO root fetch - processPackages [ptcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptcr-0.0.1.tar.gz tmp/ptcr-0.1.0.tar.gz --markdown 20240417/p/ptcr/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-17 04:34:03] INFO root fetch - processPackages [alibabacloud-ess20220222-py2]: executing diffoscope
+[2024-04-17 04:34:03] INFO root fetch - processPackages [alibabacloud-ess20220222-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ess20220222_py2-1.0.1.tar.gz tmp/alibabacloud_ess20220222_py2-1.0.2.tar.gz --markdown 20240417/a/alibabacloud-ess20220222-py2/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-17 04:34:03] INFO root fetch - processPackages [fabric-message-bus]: executing diffoscope
+[2024-04-17 04:34:03] INFO root fetch - processPackages [fabric-message-bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-message-bus-1.6.2b0.tar.gz tmp/fabric-message-bus-1.7.0b1.tar.gz --markdown 20240417/f/fabric-message-bus/1.6.2b0-1.7.0b1/README.md --exclude *.pyd
+[2024-04-17 04:34:04] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.0.1.tar.gz]
+[2024-04-17 04:34:04] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.1.0.tar.gz]
+[2024-04-17 04:34:04] INFO root fetch - main [MainThread]: End processing [ptcr]: success
+[2024-04-17 04:34:04] INFO root fetch - main [MainThread]: End processing [ptcr]: success
+[2024-04-17 04:34:05] INFO root fetch - processPackages [alibabacloud-ess20220222-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ess20220222_py2-1.0.1.tar.gz]
+[2024-04-17 04:34:05] INFO root fetch - processPackages [alibabacloud-ess20220222-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ess20220222_py2-1.0.2.tar.gz]
+[2024-04-17 04:34:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-ess20220222-py2]: success
+[2024-04-17 04:34:05] INFO root fetch - processPackages [alibabacloud-ess20220222]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ess20220222-1.5.0.tar.gz]
+[2024-04-17 04:34:05] INFO root fetch - processPackages [alibabacloud-ess20220222]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ess20220222-1.5.1.tar.gz]
+[2024-04-17 04:34:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-ess20220222]: success
+[2024-04-17 04:34:05] INFO root fetch - processPackages [fabric-message-bus]: Remove: archive file [/home/abi/fetcher/tmp/fabric-message-bus-1.6.2b0.tar.gz]
+[2024-04-17 04:34:05] INFO root fetch - processPackages [fabric-message-bus]: Remove: archive file [/home/abi/fetcher/tmp/fabric-message-bus-1.7.0b1.tar.gz]
+[2024-04-17 04:34:05] INFO root fetch - main [MainThread]: End processing [fabric-message-bus]: success
+[2024-04-17 04:34:05] INFO root fetch - main [MainThread]: Store serial: [22798966]
