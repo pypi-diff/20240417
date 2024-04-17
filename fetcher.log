@@ -23224,3 +23224,61 @@ EOFError: EOF read where object expected
 [2024-04-17 14:51:58] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.1.2.tar.gz]
 [2024-04-17 14:51:58] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-17 14:51:58] INFO root fetch - main [MainThread]: Store serial: [22805700]
+[2024-04-17 14:54:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22805700]
+[2024-04-17 14:54:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 14:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qolmat
+[2024-04-17 14:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pykwl
+[2024-04-17 14:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2cciutils
+[2024-04-17 14:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dve-lumipy-testing
+[2024-04-17 14:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tetos
+[2024-04-17 14:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SOMcreator
+[2024-04-17 14:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygamd
+[2024-04-17 14:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kernel-quantile-regression
+[2024-04-17 14:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbluemind5
+[2024-04-17 14:54:08] WARNING root fetch - processPackages [tetos]: Skipping, unable to determine old version
+[2024-04-17 14:54:08] INFO root fetch - main [MainThread]: End processing [tetos] error
+[2024-04-17 14:54:08] WARNING root fetch - processPackages [pykwl]: Skipping, unable to determine old version
+[2024-04-17 14:54:08] INFO root fetch - main [MainThread]: End processing [pykwl] error
+[2024-04-17 14:54:08] INFO root fetch - processPackages [netbluemind5]: New version: [5.0.7187] Old Version: [5.0.7152]
+[2024-04-17 14:54:08] INFO root fetch - processPackages [pygamd]: New version: [1.4.6] Old Version: [1.4.4]
+[2024-04-17 14:54:08] INFO root fetch - processPackages [qolmat]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-17 14:54:08] WARNING root fetch - processPackages [kernel-quantile-regression]: Skipping, unable to determine old version
+[2024-04-17 14:54:08] INFO root fetch - main [MainThread]: End processing [kernel-quantile-regression] error
+[2024-04-17 14:54:08] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-17 14:54:08] INFO root fetch - processPackages [SOMcreator]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-17 14:54:08] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-17 14:54:08] INFO root fetch - processPackages [qolmat]: Downloading https://files.pythonhosted.org/packages/99/cb/6a7ca7a07c92d49644894f8cdab0b3196d8b1c89e022cc48a6ada97571ab/qolmat-0.1.4.tar.gz
+[2024-04-17 14:54:08] INFO root fetch - processPackages [netbluemind5]: Downloading https://files.pythonhosted.org/packages/e8/9c/07e92d92aaa603cd8425d2e62ad393233622c9c6a560ece63bc7abbd19dd/netbluemind5-5.0.7152.tar.gz
+[2024-04-17 14:54:08] INFO root fetch - processPackages [pygamd]: Downloading https://files.pythonhosted.org/packages/80/f9/c7df6da29adfc2ade474416b8196dee405905b58c855a965201013d97cab/pygamd-1.4.4.tar.gz
+[2024-04-17 14:54:08] WARNING root fetch - processPackages [qolmat]: Skipping package: exceeds size limit 16051033>=10485760
+[2024-04-17 14:54:08] INFO root fetch - main [MainThread]: End processing [qolmat] error
+[2024-04-17 14:54:08] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/4a/c4/15da184529d541065896d6fc08baeb0cf0cd8306dc7f581261291ee49d80/dve_lumipy_testing-0.1.998-py3-none-any.whl
+[2024-04-17 14:54:08] INFO root fetch - processPackages [SOMcreator]: Downloading https://files.pythonhosted.org/packages/dd/93/d21a107448086ced44d93ee00eefb81925774352a628bed5a2e9912f3047/SOMcreator-1.6.8.tar.gz
+[2024-04-17 14:54:08] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-17 14:54:09] WARNING root fetch - processPackages [pygamd]: Skipping package: exceeds size limit 48345368>=10485760
+[2024-04-17 14:54:09] INFO root fetch - main [MainThread]: End processing [pygamd] error
+[2024-04-17 14:54:09] INFO root fetch - processPackages [netbluemind5]: Downloading https://files.pythonhosted.org/packages/af/c5/0a521437e121d241a71cdaf7f825e2b169a550a88a68f8aabccf36bf7bbc/netbluemind5-5.0.7187.tar.gz
+[2024-04-17 14:54:09] INFO root fetch - processPackages [SOMcreator]: Downloading https://files.pythonhosted.org/packages/3c/c5/4c4ea9687f9d1921d6fac103da871d21e919c2fc298e10cc3e6a4f4b5786/SOMcreator-1.6.9.tar.gz
+[2024-04-17 14:54:09] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-17 14:54:09] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/c4/37/ad6b4a98b1693f15c493b39fe5b70f5aa0561579d7d5b2d4c4eee74ad89a/dve_lumipy_testing-0.1.999-py3-none-any.whl
+[2024-04-17 14:54:09] INFO root fetch - processPackages [SOMcreator]: executing diffoscope
+[2024-04-17 14:54:09] INFO root fetch - processPackages [SOMcreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SOMcreator-1.6.8.tar.gz tmp/SOMcreator-1.6.9.tar.gz --markdown 20240417/S/SOMcreator/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-17 14:54:09] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-17 14:54:09] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240417/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-04-17 14:54:09] INFO root fetch - processPackages [netbluemind5]: executing diffoscope
+[2024-04-17 14:54:09] INFO root fetch - processPackages [netbluemind5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbluemind5-5.0.7152.tar.gz tmp/netbluemind5-5.0.7187.tar.gz --markdown 20240417/n/netbluemind5/5.0.7152-5.0.7187/README.md --exclude *.pyd
+[2024-04-17 14:54:09] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-17 14:54:09] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip --markdown 20240417/d/dve-lumipy-testing/0.1.998-0.1.999/README.md --exclude *.pyd
+[2024-04-17 14:54:10] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-17 14:54:10] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-17 14:54:10] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-17 14:54:10] INFO root fetch - processPackages [SOMcreator]: Remove: archive file [/home/abi/fetcher/tmp/SOMcreator-1.6.8.tar.gz]
+[2024-04-17 14:54:10] INFO root fetch - processPackages [SOMcreator]: Remove: archive file [/home/abi/fetcher/tmp/SOMcreator-1.6.9.tar.gz]
+[2024-04-17 14:54:10] INFO root fetch - main [MainThread]: End processing [SOMcreator]: success
+[2024-04-17 14:54:10] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip]
+[2024-04-17 14:54:10] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
+[2024-04-17 14:54:10] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-17 14:54:11] INFO root fetch - processPackages [netbluemind5]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind5-5.0.7152.tar.gz]
+[2024-04-17 14:54:11] INFO root fetch - processPackages [netbluemind5]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind5-5.0.7187.tar.gz]
+[2024-04-17 14:54:11] INFO root fetch - main [MainThread]: End processing [netbluemind5]: success
+[2024-04-17 14:54:11] INFO root fetch - main [MainThread]: Store serial: [22805729]
