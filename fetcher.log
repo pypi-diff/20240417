@@ -13862,3 +13862,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:16:01] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.72.3.tar.gz]
 [2024-04-17 09:16:01] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-04-17 09:16:01] INFO root fetch - main [MainThread]: Store serial: [22801182]
+[2024-04-17 09:18:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801182]
+[2024-04-17 09:18:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 09:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tehzor
+[2024-04-17 09:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BioSAK
+[2024-04-17 09:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acetone-nnet
+[2024-04-17 09:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: promptflow-python-bundle
+[2024-04-17 09:18:10] ERROR root fetch - processPackages [promptflow-python-bundle]: Unable to get metadata: No such project 'promptflow-python-bundle'
+[2024-04-17 09:18:10] INFO root fetch - main [MainThread]: End processing [promptflow-python-bundle] error
+[2024-04-17 09:18:10] INFO root fetch - processPackages [tehzor]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-17 09:18:10] INFO root fetch - processPackages [acetone-nnet]: New version: [0.1.dev3] Old Version: [0.1.dev2]
+[2024-04-17 09:18:10] INFO root fetch - processPackages [BioSAK]: New version: [1.85.0] Old Version: [1.84.2]
+[2024-04-17 09:18:10] INFO root fetch - processPackages [tehzor]: Downloading https://files.pythonhosted.org/packages/06/91/6c9b7fc0217f397df87b2e590e72d95c09e480bea5d516c77a8f86b05752/tehzor-0.0.2.tar.gz
+[2024-04-17 09:18:10] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/d7/f0/485f1e870bbdefc4adfd793ed0250292c0d6186c95f0372074dbef9d31ca/acetone_nnet-0.1.dev2.tar.gz
+[2024-04-17 09:18:10] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/34/bf/7e19616cd22df12a585cdd6eadf559c7348035d8b936dfa9b9b9f892c2ec/BioSAK-1.84.2.tar.gz
+[2024-04-17 09:18:10] INFO root fetch - processPackages [tehzor]: Downloading https://files.pythonhosted.org/packages/ff/7e/8c2462c2983800a6e3a493bacec8a465b044ea53abab2b91b5f4077fed01/tehzor-0.0.3.tar.gz
+[2024-04-17 09:18:11] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/91/6a/1a055c3ff5d9143d572833b833f8741722e947419fc5d4c7a1f7a1bdbb19/acetone_nnet-0.1.dev3.tar.gz
+[2024-04-17 09:18:11] INFO root fetch - processPackages [tehzor]: executing diffoscope
+[2024-04-17 09:18:11] INFO root fetch - processPackages [tehzor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tehzor-0.0.2.tar.gz tmp/tehzor-0.0.3.tar.gz --markdown 20240417/t/tehzor/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-17 09:18:11] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-04-17 09:18:11] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.1.dev2.tar.gz tmp/acetone_nnet-0.1.dev3.tar.gz --markdown 20240417/a/acetone-nnet/0.1.dev2-0.1.dev3/README.md --exclude *.pyd
+[2024-04-17 09:18:11] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/08/d0/d27415251cc3347a2d3681919b3e476f4fc050735201d448589d5282c3a9/BioSAK-1.85.0.tar.gz
+[2024-04-17 09:18:11] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-04-17 09:18:11] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.84.2.tar.gz tmp/BioSAK-1.85.0.tar.gz --markdown 20240417/B/BioSAK/1.84.2-1.85.0/README.md --exclude *.pyd
+[2024-04-17 09:18:11] INFO root fetch - processPackages [tehzor]: Remove: archive file [/home/abi/fetcher/tmp/tehzor-0.0.2.tar.gz]
+[2024-04-17 09:18:11] INFO root fetch - processPackages [tehzor]: Remove: archive file [/home/abi/fetcher/tmp/tehzor-0.0.3.tar.gz]
+[2024-04-17 09:18:11] INFO root fetch - main [MainThread]: End processing [tehzor]: success
+[2024-04-17 09:18:12] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.1.dev2.tar.gz]
+[2024-04-17 09:18:12] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.1.dev3.tar.gz]
+[2024-04-17 09:18:12] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-04-17 09:18:13] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.84.2.tar.gz]
+[2024-04-17 09:18:13] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.85.0.tar.gz]
+[2024-04-17 09:18:13] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-04-17 09:18:13] INFO root fetch - main [MainThread]: Store serial: [22801197]
