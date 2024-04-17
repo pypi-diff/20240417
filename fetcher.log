@@ -19273,3 +19273,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:23:09] INFO root fetch - processPackages [zohocrmsdk5-0]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk5_0-2.0.0.tar.gz]
 [2024-04-17 12:23:09] INFO root fetch - main [MainThread]: End processing [zohocrmsdk5-0]: success
 [2024-04-17 12:23:09] INFO root fetch - main [MainThread]: Store serial: [22803803]
+[2024-04-17 12:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803803]
+[2024-04-17 12:25:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 12:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: okdata-aws
+[2024-04-17 12:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: train-image-package
+[2024-04-17 12:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raga-llm-eval
+[2024-04-17 12:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapidae
+[2024-04-17 12:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grateful-logging
+[2024-04-17 12:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: http-xen
+[2024-04-17 12:25:18] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.0b9] Old Version: [2.1.0b8]
+[2024-04-17 12:25:18] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/97/4d/2b4ed95a3741b305ca16e9450b6fe38a6e576eb00d86526833e15216f29a/raga_llm_eval-2.1.0b8.tar.gz
+[2024-04-17 12:25:18] INFO root fetch - processPackages [grateful-logging]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 12:25:18] INFO root fetch - processPackages [okdata-aws]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-17 12:25:18] WARNING root fetch - processPackages [http-xen]: Skipping, unable to determine old version
+[2024-04-17 12:25:18] INFO root fetch - main [MainThread]: End processing [http-xen] error
+[2024-04-17 12:25:18] WARNING root fetch - processPackages [train-image-package]: Skipping, unable to determine old version
+[2024-04-17 12:25:18] INFO root fetch - main [MainThread]: End processing [train-image-package] error
+[2024-04-17 12:25:18] INFO root fetch - processPackages [rapidae]: New version: [0.0.4] Old Version: [0.0.1]
+[2024-04-17 12:25:18] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/09/31/525e3806b5e500dbe99583c1cbe287c1de17c9c4ed7617f25cff69d57f1e/grateful_logging-0.0.8.tar.gz
+[2024-04-17 12:25:18] INFO root fetch - processPackages [okdata-aws]: Downloading https://files.pythonhosted.org/packages/bd/55/cdd95fa8938abbc6838d3d4223de77551c57f98045f91cdd9ba6576185b2/okdata-aws-4.0.0.tar.gz
+[2024-04-17 12:25:19] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/f3/66/ebaca2cb771c21e70689b9f6b9e46d65ac93a1d837edf9277c498cf607e0/raga_llm_eval-2.1.0b9.tar.gz
+[2024-04-17 12:25:19] INFO root fetch - processPackages [rapidae]: Downloading https://files.pythonhosted.org/packages/73/f5/96ce49f279a4d7de574d2d2e040e4f7ac9c2a3c0cec876dc9cc022e9422b/rapidae-0.0.1.tar.gz
+[2024-04-17 12:25:19] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-04-17 12:25:19] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_eval-2.1.0b8.tar.gz tmp/raga_llm_eval-2.1.0b9.tar.gz --markdown 20240417/r/raga-llm-eval/2.1.0b8-2.1.0b9/README.md --exclude *.pyd
+[2024-04-17 12:25:19] INFO root fetch - processPackages [grateful-logging]: Downloading https://files.pythonhosted.org/packages/ec/73/e3c663b38805bc4579afeac51c396d49b34468f983ca03d4fb24a77e12c8/grateful_logging-0.0.9.tar.gz
+[2024-04-17 12:25:19] INFO root fetch - processPackages [okdata-aws]: Downloading https://files.pythonhosted.org/packages/2f/f0/f22853d5499f13ec983dc59e17c77063c97f8089ec5e27ba3980946f6afe/okdata_aws-4.1.0.tar.gz
+[2024-04-17 12:25:19] INFO root fetch - processPackages [grateful-logging]: executing diffoscope
+[2024-04-17 12:25:19] INFO root fetch - processPackages [grateful-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grateful_logging-0.0.8.tar.gz tmp/grateful_logging-0.0.9.tar.gz --markdown 20240417/g/grateful-logging/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 12:25:19] INFO root fetch - processPackages [okdata-aws]: executing diffoscope
+[2024-04-17 12:25:19] INFO root fetch - processPackages [okdata-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okdata-aws-4.0.0.tar.gz tmp/okdata_aws-4.1.0.tar.gz --markdown 20240417/o/okdata-aws/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-04-17 12:25:19] INFO root fetch - processPackages [rapidae]: Downloading https://files.pythonhosted.org/packages/55/c6/360a400e6f0b28f616022ea0176a8f9fe813499e2e9a7fb22a143f383122/rapidae-0.0.4.tar.gz
+[2024-04-17 12:25:19] INFO root fetch - processPackages [rapidae]: executing diffoscope
+[2024-04-17 12:25:19] INFO root fetch - processPackages [rapidae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidae-0.0.1.tar.gz tmp/rapidae-0.0.4.tar.gz --markdown 20240417/r/rapidae/0.0.1-0.0.4/README.md --exclude *.pyd
+[2024-04-17 12:25:19] INFO root fetch - processPackages [okdata-aws]: Remove: archive file [/home/abi/fetcher/tmp/okdata-aws-4.0.0.tar.gz]
+[2024-04-17 12:25:19] INFO root fetch - processPackages [okdata-aws]: Remove: archive file [/home/abi/fetcher/tmp/okdata_aws-4.1.0.tar.gz]
+[2024-04-17 12:25:20] INFO root fetch - main [MainThread]: End processing [okdata-aws]: success
+[2024-04-17 12:25:20] INFO root fetch - processPackages [grateful-logging]: Remove: archive file [/home/abi/fetcher/tmp/grateful_logging-0.0.8.tar.gz]
+[2024-04-17 12:25:20] INFO root fetch - processPackages [grateful-logging]: Remove: archive file [/home/abi/fetcher/tmp/grateful_logging-0.0.9.tar.gz]
+[2024-04-17 12:25:20] INFO root fetch - main [MainThread]: End processing [grateful-logging]: success
+[2024-04-17 12:25:20] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b8.tar.gz]
+[2024-04-17 12:25:20] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b9.tar.gz]
+[2024-04-17 12:25:20] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-04-17 12:25:20] INFO root fetch - processPackages [rapidae]: Remove: archive file [/home/abi/fetcher/tmp/rapidae-0.0.1.tar.gz]
+[2024-04-17 12:25:20] INFO root fetch - processPackages [rapidae]: Remove: archive file [/home/abi/fetcher/tmp/rapidae-0.0.4.tar.gz]
+[2024-04-17 12:25:20] INFO root fetch - main [MainThread]: End processing [rapidae]: success
+[2024-04-17 12:25:20] INFO root fetch - main [MainThread]: Store serial: [22803825]
