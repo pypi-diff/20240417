@@ -10659,3 +10659,54 @@
 [2024-04-17 07:10:08] WARNING root fetch - processPackages [authpolicy-sdk-python]: Skipping, unable to determine old version
 [2024-04-17 07:10:08] INFO root fetch - main [MainThread]: End processing [authpolicy-sdk-python] error
 [2024-04-17 07:10:08] INFO root fetch - main [MainThread]: Store serial: [22799986]
+[2024-04-17 07:12:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799986]
+[2024-04-17 07:12:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 07:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foliobutler
+[2024-04-17 07:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seeq
+[2024-04-17 07:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stackql-deploy
+[2024-04-17 07:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iac-init
+[2024-04-17 07:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: authpolicy
+[2024-04-17 07:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wttch-train-helper
+[2024-04-17 07:12:16] WARNING root fetch - processPackages [authpolicy]: Skipping, unable to determine old version
+[2024-04-17 07:12:16] INFO root fetch - main [MainThread]: End processing [authpolicy] error
+[2024-04-17 07:12:16] INFO root fetch - processPackages [stackql-deploy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-17 07:12:16] INFO root fetch - processPackages [iac-init]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-17 07:12:16] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/74/d6/af9de2a9838fc08d773f847602f9c6146a544c80249dd6b43887bf36cd85/stackql_deploy-1.0.8.tar.gz
+[2024-04-17 07:12:16] INFO root fetch - processPackages [wttch-train-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 07:12:16] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/1d/91/86f95c0b7e6248a1ff3cd97dfc5e6c79c553b0426986b395038a60c9914c/iac_init-0.3.4.tar.gz
+[2024-04-17 07:12:16] INFO root fetch - processPackages [foliobutler]: New version: [0.44] Old Version: [0.42]
+[2024-04-17 07:12:16] INFO root fetch - processPackages [seeq]: New version: [64.2.1] Old Version: [64.2.0]
+[2024-04-17 07:12:17] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/ad/e5/7dc177fb255ab2597c541f700f56d54950e0ebe6688589849e9edc8e41cd/seeq-64.2.0.tar.gz
+[2024-04-17 07:12:17] INFO root fetch - processPackages [stackql-deploy]: Downloading https://files.pythonhosted.org/packages/08/48/f501cff73daf2962c63ea3d77ac41683652723d9a793278301df7e2f123f/stackql_deploy-1.0.9.tar.gz
+[2024-04-17 07:12:17] INFO root fetch - processPackages [foliobutler]: Downloading https://files.pythonhosted.org/packages/76/22/2f5f75b1f0d3b3ea6c606b8a36f637452b32dde29bdb4ad1bc4be1cd844f/foliobutler-0.42.tar.gz
+[2024-04-17 07:12:17] INFO root fetch - processPackages [wttch-train-helper]: Downloading https://files.pythonhosted.org/packages/3b/39/20b37adf77ac5d3a1c29fac307c5b35603437a19b4e9ccfdf3da730c7734/wttch-train-helper-0.0.8.tar.gz
+[2024-04-17 07:12:17] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/d6/62/363e25910bec3d54ce70c760e5fa8e137694bcfedb155e703437977014a7/iac_init-0.3.5.tar.gz
+[2024-04-17 07:12:17] INFO root fetch - processPackages [stackql-deploy]: executing diffoscope
+[2024-04-17 07:12:17] INFO root fetch - processPackages [stackql-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackql_deploy-1.0.8.tar.gz tmp/stackql_deploy-1.0.9.tar.gz --markdown 20240417/s/stackql-deploy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-17 07:12:17] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-04-17 07:12:17] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.3.4.tar.gz tmp/iac_init-0.3.5.tar.gz --markdown 20240417/i/iac-init/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-17 07:12:17] INFO root fetch - processPackages [foliobutler]: Downloading https://files.pythonhosted.org/packages/ce/1e/2c785cee42dc9a7ba1f15ad4fa9a3d65e613687340448af02f6348bde990/foliobutler-0.44.tar.gz
+[2024-04-17 07:12:17] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/3f/27/c63a8f3d86ac6d3f7eebcaaa0054c1e2c3d8de8032cdebfbf5428da7712d/seeq-64.2.1.tar.gz
+[2024-04-17 07:12:17] INFO root fetch - processPackages [wttch-train-helper]: Downloading https://files.pythonhosted.org/packages/06/f1/4c3862ff8dfa72e0261e6a5f5e8fb8722a335c9adec2134db760cf92c16a/wttch-train-helper-0.0.9.tar.gz
+[2024-04-17 07:12:17] INFO root fetch - processPackages [foliobutler]: executing diffoscope
+[2024-04-17 07:12:17] INFO root fetch - processPackages [foliobutler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foliobutler-0.42.tar.gz tmp/foliobutler-0.44.tar.gz --markdown 20240417/f/foliobutler/0.42-0.44/README.md --exclude *.pyd
+[2024-04-17 07:12:17] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2024-04-17 07:12:17] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-64.2.0.tar.gz tmp/seeq-64.2.1.tar.gz --markdown 20240417/s/seeq/64.2.0-64.2.1/README.md --exclude *.pyd
+[2024-04-17 07:12:17] INFO root fetch - processPackages [wttch-train-helper]: executing diffoscope
+[2024-04-17 07:12:17] INFO root fetch - processPackages [wttch-train-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wttch-train-helper-0.0.8.tar.gz tmp/wttch-train-helper-0.0.9.tar.gz --markdown 20240417/w/wttch-train-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 07:12:18] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.8.tar.gz]
+[2024-04-17 07:12:18] INFO root fetch - processPackages [stackql-deploy]: Remove: archive file [/home/abi/fetcher/tmp/stackql_deploy-1.0.9.tar.gz]
+[2024-04-17 07:12:18] INFO root fetch - main [MainThread]: End processing [stackql-deploy]: success
+[2024-04-17 07:12:18] INFO root fetch - processPackages [foliobutler]: Remove: archive file [/home/abi/fetcher/tmp/foliobutler-0.42.tar.gz]
+[2024-04-17 07:12:18] INFO root fetch - processPackages [foliobutler]: Remove: archive file [/home/abi/fetcher/tmp/foliobutler-0.44.tar.gz]
+[2024-04-17 07:12:18] INFO root fetch - main [MainThread]: End processing [foliobutler]: success
+[2024-04-17 07:12:18] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.3.4.tar.gz]
+[2024-04-17 07:12:18] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.3.5.tar.gz]
+[2024-04-17 07:12:18] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-04-17 07:12:18] INFO root fetch - processPackages [wttch-train-helper]: Remove: archive file [/home/abi/fetcher/tmp/wttch-train-helper-0.0.8.tar.gz]
+[2024-04-17 07:12:18] INFO root fetch - processPackages [wttch-train-helper]: Remove: archive file [/home/abi/fetcher/tmp/wttch-train-helper-0.0.9.tar.gz]
+[2024-04-17 07:12:18] INFO root fetch - main [MainThread]: End processing [wttch-train-helper]: success
+[2024-04-17 07:12:23] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-64.2.0.tar.gz]
+[2024-04-17 07:12:23] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-64.2.1.tar.gz]
+[2024-04-17 07:12:23] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2024-04-17 07:12:23] INFO root fetch - main [MainThread]: Store serial: [22800004]
