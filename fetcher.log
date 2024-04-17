@@ -14595,3 +14595,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 09:44:51] INFO root fetch - processPackages [distilabel]: Remove: archive file [/home/abi/fetcher/tmp/distilabel-1.0.0.tar.gz]
 [2024-04-17 09:44:51] INFO root fetch - main [MainThread]: End processing [distilabel]: success
 [2024-04-17 09:44:51] INFO root fetch - main [MainThread]: Store serial: [22801570]
+[2024-04-17 09:46:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22801570]
+[2024-04-17 09:47:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-17 09:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: byzerllm
+[2024-04-17 09:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pgserviceparser
+[2024-04-17 09:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unidata-blocks
+[2024-04-17 09:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-coder
+[2024-04-17 09:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smda
+[2024-04-17 09:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jx3api
+[2024-04-17 09:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xdat
+[2024-04-17 09:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RsCmwWlanMeas
+[2024-04-17 09:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flowmatic
+[2024-04-17 09:47:00] WARNING root fetch - processPackages [jx3api]: Skipping, unable to determine old version
+[2024-04-17 09:47:00] INFO root fetch - main [MainThread]: End processing [jx3api] error
+[2024-04-17 09:47:00] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 09:47:00] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-17 09:47:00] INFO root fetch - processPackages [unidata-blocks]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-17 09:47:00] INFO root fetch - processPackages [flowmatic]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-17 09:47:00] INFO root fetch - processPackages [pgserviceparser]: New version: [2.0.0] Old Version: [1.1.0]
+[2024-04-17 09:47:00] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-17 09:47:00] INFO root fetch - processPackages [RsCmwWlanMeas]: New version: [4.0.140] Old Version: [3.8.20.57]
+[2024-04-17 09:47:00] INFO root fetch - processPackages [smda]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-17 09:47:00] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-17 09:47:00] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-17 09:47:00] INFO root fetch - processPackages [unidata-blocks]: Downloading https://files.pythonhosted.org/packages/4e/f7/9d174281a45b18a59fa0de4b786374d6c2a45ff1afb63b7d386ae2db1e8d/unidata_blocks-0.0.8.tar.gz
+[2024-04-17 09:47:00] INFO root fetch - processPackages [pgserviceparser]: Downloading https://files.pythonhosted.org/packages/12/53/50ac8ca2630355cbdc78579563cfdd21a3dcd41207924ca491cae63db91a/pgserviceparser-1.1.0.tar.gz
+[2024-04-17 09:47:00] INFO root fetch - processPackages [RsCmwWlanMeas]: Downloading https://files.pythonhosted.org/packages/21/a7/663929036a987de17daf219c3869f2bd0ccb09b3e14ee96ec1d0be562bb1/RsCmwWlanMeas-3.8.20.57.tar.gz
+[2024-04-17 09:47:00] INFO root fetch - processPackages [flowmatic]: Downloading https://files.pythonhosted.org/packages/82/4a/e60f577acacbcb33272d98aaed10dcc5d27b64b1099da3b646582d859ba2/flowmatic-0.1.5.tar.gz
+[2024-04-17 09:47:00] INFO root fetch - processPackages [smda]: Downloading https://files.pythonhosted.org/packages/0a/02/7144cdaabb7ced1428c53348f4608286160dcc6e4923a4ca258254a0a60a/smda-1.9.8.tar.gz
+[2024-04-17 09:47:00] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-17 09:47:00] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2024-04-17 09:47:00] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-17 09:47:00] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-17 09:47:00] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240417/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 09:47:01] INFO root fetch - processPackages [unidata-blocks]: Downloading https://files.pythonhosted.org/packages/ad/2b/11a2eb91d48c97b2a3f638018a4405e329d822248370a0c09a2f3d37af1f/unidata_blocks-0.0.9.tar.gz
+[2024-04-17 09:47:01] INFO root fetch - processPackages [pgserviceparser]: Downloading https://files.pythonhosted.org/packages/88/c5/dafd615e7d4d43d4b5eb20d058675e31ab5e73c437dce882a2d4b60988e0/pgserviceparser-2.0.0.tar.gz
+[2024-04-17 09:47:01] INFO root fetch - processPackages [unidata-blocks]: executing diffoscope
+[2024-04-17 09:47:01] INFO root fetch - processPackages [unidata-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unidata_blocks-0.0.8.tar.gz tmp/unidata_blocks-0.0.9.tar.gz --markdown 20240417/u/unidata-blocks/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-17 09:47:01] INFO root fetch - processPackages [flowmatic]: Downloading https://files.pythonhosted.org/packages/23/7c/4bc3ef86b3f201b21fec2168c14cda114484941fb39e915d1d07637836d4/flowmatic-0.1.6.tar.gz
+[2024-04-17 09:47:01] INFO root fetch - processPackages [pgserviceparser]: executing diffoscope
+[2024-04-17 09:47:01] INFO root fetch - processPackages [pgserviceparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgserviceparser-1.1.0.tar.gz tmp/pgserviceparser-2.0.0.tar.gz --markdown 20240417/p/pgserviceparser/1.1.0-2.0.0/README.md --exclude *.pyd
+[2024-04-17 09:47:01] INFO root fetch - processPackages [smda]: Downloading https://files.pythonhosted.org/packages/a4/5e/2ae3bfbc6c8969a963dd284b8e76c6d20a82197a9845e73e7e7be85080f8/smda-1.9.9.tar.gz
+[2024-04-17 09:47:01] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-17 09:47:01] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240417/b/byzerllm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-17 09:47:01] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2024-04-17 09:47:01] INFO root fetch - processPackages [flowmatic]: executing diffoscope
+[2024-04-17 09:47:01] INFO root fetch - processPackages [flowmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmatic-0.1.5.tar.gz tmp/flowmatic-0.1.6.tar.gz --markdown 20240417/f/flowmatic/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-17 09:47:01] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2024-04-17 09:47:01] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20240417/x/xdat/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-17 09:47:01] INFO root fetch - processPackages [RsCmwWlanMeas]: Downloading https://files.pythonhosted.org/packages/d6/6f/850afba9c832fd1f759294bcffd64a1c865eafbc723170d1717e8709020c/RsCmwWlanMeas-4.0.140.tar.gz
+[2024-04-17 09:47:01] INFO root fetch - processPackages [smda]: executing diffoscope
+[2024-04-17 09:47:01] INFO root fetch - processPackages [smda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smda-1.9.8.tar.gz tmp/smda-1.9.9.tar.gz --markdown 20240417/s/smda/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-17 09:47:01] INFO root fetch - processPackages [RsCmwWlanMeas]: executing diffoscope
+[2024-04-17 09:47:01] INFO root fetch - processPackages [RsCmwWlanMeas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCmwWlanMeas-3.8.20.57.tar.gz tmp/RsCmwWlanMeas-4.0.140.tar.gz --markdown 20240417/R/RsCmwWlanMeas/3.8.20.57-4.0.140/README.md --exclude *.pyd
+[2024-04-17 09:47:01] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-17 09:47:01] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-17 09:47:01] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-17 09:47:02] INFO root fetch - processPackages [pgserviceparser]: Remove: archive file [/home/abi/fetcher/tmp/pgserviceparser-1.1.0.tar.gz]
+[2024-04-17 09:47:02] INFO root fetch - processPackages [pgserviceparser]: Remove: archive file [/home/abi/fetcher/tmp/pgserviceparser-2.0.0.tar.gz]
+[2024-04-17 09:47:02] INFO root fetch - main [MainThread]: End processing [pgserviceparser]: success
+[2024-04-17 09:47:02] INFO root fetch - processPackages [unidata-blocks]: Remove: archive file [/home/abi/fetcher/tmp/unidata_blocks-0.0.8.tar.gz]
+[2024-04-17 09:47:02] INFO root fetch - processPackages [unidata-blocks]: Remove: archive file [/home/abi/fetcher/tmp/unidata_blocks-0.0.9.tar.gz]
+[2024-04-17 09:47:02] INFO root fetch - main [MainThread]: End processing [unidata-blocks]: success
+[2024-04-17 09:47:02] INFO root fetch - processPackages [flowmatic]: Remove: archive file [/home/abi/fetcher/tmp/flowmatic-0.1.5.tar.gz]
+[2024-04-17 09:47:02] INFO root fetch - processPackages [flowmatic]: Remove: archive file [/home/abi/fetcher/tmp/flowmatic-0.1.6.tar.gz]
+[2024-04-17 09:47:02] INFO root fetch - main [MainThread]: End processing [flowmatic]: success
+[2024-04-17 09:47:02] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.98.tar.gz]
+[2024-04-17 09:47:02] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.99.tar.gz]
+[2024-04-17 09:47:02] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2024-04-17 09:47:02] INFO root fetch - processPackages [smda]: Remove: archive file [/home/abi/fetcher/tmp/smda-1.9.8.tar.gz]
+[2024-04-17 09:47:02] INFO root fetch - processPackages [smda]: Remove: archive file [/home/abi/fetcher/tmp/smda-1.9.9.tar.gz]
+[2024-04-17 09:47:02] INFO root fetch - main [MainThread]: End processing [smda]: success
+[2024-04-17 09:47:03] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-17 09:47:03] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-17 09:47:03] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-17 09:47:08] INFO root fetch - processPackages [RsCmwWlanMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwWlanMeas-3.8.20.57.tar.gz]
+[2024-04-17 09:47:08] INFO root fetch - processPackages [RsCmwWlanMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwWlanMeas-4.0.140.tar.gz]
+[2024-04-17 09:47:08] INFO root fetch - main [MainThread]: End processing [RsCmwWlanMeas]: success
+[2024-04-17 09:47:08] INFO root fetch - main [MainThread]: Store serial: [22801599]
