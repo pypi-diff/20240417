@@ -18558,3 +18558,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 11:56:45] INFO root fetch - processPackages [promptflow-devkit]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_devkit-1.9.0-py3-none-any.whl.zip]
 [2024-04-17 11:56:45] INFO root fetch - main [MainThread]: End processing [promptflow-devkit]: success
 [2024-04-17 11:56:45] INFO root fetch - main [MainThread]: Store serial: [22803523]
+[2024-04-17 11:58:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22803523]
+[2024-04-17 11:58:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-17 11:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raga-llm-eval
+[2024-04-17 11:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synch2jira
+[2024-04-17 11:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaaql-middleware-python
+[2024-04-17 11:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: badbyte
+[2024-04-17 11:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-loose-fk
+[2024-04-17 11:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-juvix-plugin
+[2024-04-17 11:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simply-log
+[2024-04-17 11:58:58] INFO root fetch - processPackages [badbyte]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-17 11:58:58] WARNING root fetch - processPackages [simply-log]: Skipping, unable to determine old version
+[2024-04-17 11:58:58] INFO root fetch - main [MainThread]: End processing [simply-log] error
+[2024-04-17 11:58:58] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-17 11:58:58] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-17 11:58:58] INFO root fetch - processPackages [badbyte]: Downloading https://files.pythonhosted.org/packages/ff/4b/9f9489380e2da09457d6f1ac8f68a7981b562e96f25025357165a1f58e37/badbyte-0.1.4.tar.gz
+[2024-04-17 11:58:58] INFO root fetch - processPackages [django-loose-fk]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-04-17 11:58:58] INFO root fetch - processPackages [mkdocs-juvix-plugin]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-04-17 11:58:58] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-17 11:58:58] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.0b9] Old Version: [2.1.0b8]
+[2024-04-17 11:58:58] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2024-04-17 11:58:58] INFO root fetch - processPackages [badbyte]: Downloading https://files.pythonhosted.org/packages/28/e1/ae944a199c38c45dce7a077132669ceb2e75e0578d53d828c3c635efb789/badbyte-0.1.5.tar.gz
+[2024-04-17 11:58:58] INFO root fetch - processPackages [django-loose-fk]: Downloading https://files.pythonhosted.org/packages/bb/22/d884fee3639dc55561d66fb55a5c87cb854ec0b993d60f6f4bbba664dbea/django-loose-fk-1.0.4.tar.gz
+[2024-04-17 11:58:58] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/97/4d/2b4ed95a3741b305ca16e9450b6fe38a6e576eb00d86526833e15216f29a/raga_llm_eval-2.1.0b8.tar.gz
+[2024-04-17 11:58:58] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-17 11:58:58] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Downloading https://files.pythonhosted.org/packages/5f/21/3488201eb76e122310d164f4bf4fc9adb94b34ecf35c0c853b48c1040a7f/mkdocs-juvix-plugin-0.1.4.tar.gz
+[2024-04-17 11:58:59] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2024-04-17 11:58:59] INFO root fetch - processPackages [badbyte]: executing diffoscope
+[2024-04-17 11:58:59] INFO root fetch - processPackages [badbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badbyte-0.1.4.tar.gz tmp/badbyte-0.1.5.tar.gz --markdown 20240417/b/badbyte/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-17 11:58:59] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-17 11:58:59] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240417/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-17 11:58:59] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2024-04-17 11:58:59] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20240417/j/jaaql-middleware-python/4.9.0-4.9.1/README.md --exclude *.pyd
+[2024-04-17 11:58:59] INFO root fetch - processPackages [django-loose-fk]: Downloading https://files.pythonhosted.org/packages/51/3b/f018ab3db4cab4ed7dd58e5e8cf3ae747ef4bc3a62948a2d00cf6f088756/django_loose_fk-1.1.0.tar.gz
+[2024-04-17 11:58:59] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Downloading https://files.pythonhosted.org/packages/ff/03/7bb47283261d6c8658f49b3d30dbdd59f165d0320a9f6daa9bd12082e306/mkdocs-juvix-plugin-0.2.0.tar.gz
+[2024-04-17 11:58:59] INFO root fetch - processPackages [django-loose-fk]: executing diffoscope
+[2024-04-17 11:58:59] INFO root fetch - processPackages [django-loose-fk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-loose-fk-1.0.4.tar.gz tmp/django_loose_fk-1.1.0.tar.gz --markdown 20240417/d/django-loose-fk/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-04-17 11:58:59] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/f3/66/ebaca2cb771c21e70689b9f6b9e46d65ac93a1d837edf9277c498cf607e0/raga_llm_eval-2.1.0b9.tar.gz
+[2024-04-17 11:58:59] INFO root fetch - processPackages [mkdocs-juvix-plugin]: executing diffoscope
+[2024-04-17 11:58:59] INFO root fetch - processPackages [mkdocs-juvix-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-juvix-plugin-0.1.4.tar.gz tmp/mkdocs-juvix-plugin-0.2.0.tar.gz --markdown 20240417/m/mkdocs-juvix-plugin/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-04-17 11:58:59] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-04-17 11:58:59] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_eval-2.1.0b8.tar.gz tmp/raga_llm_eval-2.1.0b9.tar.gz --markdown 20240417/r/raga-llm-eval/2.1.0b8-2.1.0b9/README.md --exclude *.pyd
+[2024-04-17 11:59:00] INFO root fetch - processPackages [badbyte]: Remove: archive file [/home/abi/fetcher/tmp/badbyte-0.1.4.tar.gz]
+[2024-04-17 11:59:00] INFO root fetch - processPackages [badbyte]: Remove: archive file [/home/abi/fetcher/tmp/badbyte-0.1.5.tar.gz]
+[2024-04-17 11:59:00] INFO root fetch - main [MainThread]: End processing [badbyte]: success
+[2024-04-17 11:59:00] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-17 11:59:00] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-17 11:59:00] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-17 11:59:00] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-juvix-plugin-0.1.4.tar.gz]
+[2024-04-17 11:59:00] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-juvix-plugin-0.2.0.tar.gz]
+[2024-04-17 11:59:00] INFO root fetch - main [MainThread]: End processing [mkdocs-juvix-plugin]: success
+[2024-04-17 11:59:00] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2024-04-17 11:59:00] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2024-04-17 11:59:00] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2024-04-17 11:59:00] INFO root fetch - processPackages [django-loose-fk]: Remove: archive file [/home/abi/fetcher/tmp/django-loose-fk-1.0.4.tar.gz]
+[2024-04-17 11:59:00] INFO root fetch - processPackages [django-loose-fk]: Remove: archive file [/home/abi/fetcher/tmp/django_loose_fk-1.1.0.tar.gz]
+[2024-04-17 11:59:00] INFO root fetch - main [MainThread]: End processing [django-loose-fk]: success
+[2024-04-17 11:59:01] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b8.tar.gz]
+[2024-04-17 11:59:01] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b9.tar.gz]
+[2024-04-17 11:59:01] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-04-17 11:59:01] INFO root fetch - main [MainThread]: Store serial: [22803548]
