@@ -20159,3 +20159,18 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-17 12:52:40] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-04-17 12:52:40] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-04-17 12:52:40] INFO root fetch - main [MainThread]: Store serial: [22804156]
+[2024-04-17 12:54:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804156]
+[2024-04-17 12:54:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-17 12:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fortimanager-template-sync
+[2024-04-17 12:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: markmlib
+[2024-04-17 12:54:50] INFO root fetch - processPackages [fortimanager-template-sync]: New version: [0.0.1.post1] Old Version: [0.0.1]
+[2024-04-17 12:54:50] WARNING root fetch - processPackages [markmlib]: Skipping, unable to determine old version
+[2024-04-17 12:54:50] INFO root fetch - main [MainThread]: End processing [markmlib] error
+[2024-04-17 12:54:50] INFO root fetch - processPackages [fortimanager-template-sync]: Downloading https://files.pythonhosted.org/packages/33/e3/f074d3e64c62bbe44d87bb95f2655430f75a300e0f9f07e9ff7b78a4be4a/fortimanager_template_sync-0.0.1.tar.gz
+[2024-04-17 12:54:50] INFO root fetch - processPackages [fortimanager-template-sync]: Downloading https://files.pythonhosted.org/packages/74/1a/6f565f014974c8227f380bfaaf06f0874edff003cd588564bda2f671d1f1/fortimanager_template_sync-0.0.1.post1.tar.gz
+[2024-04-17 12:54:50] INFO root fetch - processPackages [fortimanager-template-sync]: executing diffoscope
+[2024-04-17 12:54:50] INFO root fetch - processPackages [fortimanager-template-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortimanager_template_sync-0.0.1.tar.gz tmp/fortimanager_template_sync-0.0.1.post1.tar.gz --markdown 20240417/f/fortimanager-template-sync/0.0.1-0.0.1.post1/README.md --exclude *.pyd
+[2024-04-17 12:54:51] INFO root fetch - processPackages [fortimanager-template-sync]: Remove: archive file [/home/abi/fetcher/tmp/fortimanager_template_sync-0.0.1.tar.gz]
+[2024-04-17 12:54:51] INFO root fetch - processPackages [fortimanager-template-sync]: Remove: archive file [/home/abi/fetcher/tmp/fortimanager_template_sync-0.0.1.post1.tar.gz]
+[2024-04-17 12:54:51] INFO root fetch - main [MainThread]: End processing [fortimanager-template-sync]: success
+[2024-04-17 12:54:51] INFO root fetch - main [MainThread]: Store serial: [22804165]
