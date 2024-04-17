@@ -9598,3 +9598,15 @@
 [2024-04-17 05:58:06] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.4.2.tar.gz]
 [2024-04-17 05:58:06] INFO root fetch - main [MainThread]: End processing [dsplus]: success
 [2024-04-17 05:58:06] INFO root fetch - main [MainThread]: Store serial: [22799582]
+[2024-04-17 06:00:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799582]
+[2024-04-17 06:00:14] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-17 06:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libs-zip
+[2024-04-17 06:00:14] INFO root fetch - processPackages [libs-zip]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-17 06:00:15] INFO root fetch - processPackages [libs-zip]: Downloading https://files.pythonhosted.org/packages/8f/16/07551e61d382f7ce8231641188d5e5ffb0ad0c8b13b1ed8fa97040732492/libs_zip-0.0.1-py3-none-any.whl
+[2024-04-17 06:00:15] INFO root fetch - processPackages [libs-zip]: Downloading https://files.pythonhosted.org/packages/9a/fd/094e545c9d1a92d8446ae01b0ef1a66dacfc2555e6f9a244d67ad5caa98c/libs_zip-0.0.2-py3-none-any.whl
+[2024-04-17 06:00:15] INFO root fetch - processPackages [libs-zip]: executing diffoscope
+[2024-04-17 06:00:15] INFO root fetch - processPackages [libs-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libs_zip-0.0.1-py3-none-any.whl.zip tmp/libs_zip-0.0.2-py3-none-any.whl.zip --markdown 20240417/l/libs-zip/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-17 06:00:15] INFO root fetch - processPackages [libs-zip]: Remove: archive file [/home/abi/fetcher/tmp/libs_zip-0.0.1-py3-none-any.whl.zip]
+[2024-04-17 06:00:15] INFO root fetch - processPackages [libs-zip]: Remove: archive file [/home/abi/fetcher/tmp/libs_zip-0.0.2-py3-none-any.whl.zip]
+[2024-04-17 06:00:15] INFO root fetch - main [MainThread]: End processing [libs-zip]: success
+[2024-04-17 06:00:15] INFO root fetch - main [MainThread]: Store serial: [22799584]
