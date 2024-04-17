@@ -21549,3 +21549,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-17 13:55:36] INFO root fetch - processPackages [glyphsets]: Remove: archive file [/home/abi/fetcher/tmp/glyphsets-0.6.9.tar.gz]
 [2024-04-17 13:55:36] INFO root fetch - main [MainThread]: End processing [glyphsets]: success
 [2024-04-17 13:55:36] INFO root fetch - main [MainThread]: Store serial: [22804867]
+[2024-04-17 13:57:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22804867]
+[2024-04-17 13:57:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-17 13:57:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autocron
+[2024-04-17 13:57:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MechEyeAPI
+[2024-04-17 13:57:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlalchemy-iris
+[2024-04-17 13:57:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml2json
+[2024-04-17 13:57:45] INFO root fetch - processPackages [autocron]: New version: [1.0rc1] Old Version: [1.0]
+[2024-04-17 13:57:45] INFO root fetch - processPackages [ml2json]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-17 13:57:45] INFO root fetch - processPackages [MechEyeAPI]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-17 13:57:45] INFO root fetch - processPackages [sqlalchemy-iris]: New version: [0.9.0] Old Version: [0.8.1b1]
+[2024-04-17 13:57:45] INFO root fetch - processPackages [autocron]: Downloading https://files.pythonhosted.org/packages/aa/83/ee06b9e8992082775615ea95ff2de26c62413693bbb7fde890ae5274f2cc/autocron-1.0.tar.gz
+[2024-04-17 13:57:45] INFO root fetch - processPackages [MechEyeAPI]: Downloading https://files.pythonhosted.org/packages/8c/c9/60cfba52a8049f13bad1b3fe40c42a7c6e536eab6499800d30fcb4cfc155/MechEyeAPI-2.3.1-cp39-cp39-win_amd64.whl
+[2024-04-17 13:57:46] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/15/8d/b384ea6bb812705d0902f3fdc7b587788309bbac2105d41e1fce25c7b7a8/sqlalchemy-iris-0.8.1b1.tar.gz
+[2024-04-17 13:57:46] INFO root fetch - processPackages [ml2json]: Downloading https://files.pythonhosted.org/packages/c5/83/76df376a833ae766520f5576af7f5f11f4baba02987207c5a542af822aab/ml2json-0.3.1.tar.gz
+[2024-04-17 13:57:46] INFO root fetch - processPackages [autocron]: Downloading https://files.pythonhosted.org/packages/ec/31/f96f6200889246e4ba976efb27d60d5586b1fd06d06d43fc85c3321cec6a/autocron-1.0rc1.tar.gz
+[2024-04-17 13:57:46] INFO root fetch - processPackages [ml2json]: Downloading https://files.pythonhosted.org/packages/b8/11/8e5bff950eedb7f2a6d0986f6132ff27fcd1c555be73770d2504663d6cd2/ml2json-0.3.2.tar.gz
+[2024-04-17 13:57:46] INFO root fetch - processPackages [autocron]: executing diffoscope
+[2024-04-17 13:57:46] INFO root fetch - processPackages [autocron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocron-1.0.tar.gz tmp/autocron-1.0rc1.tar.gz --markdown 20240417/a/autocron/1.0-1.0rc1/README.md --exclude *.pyd
+[2024-04-17 13:57:46] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/6d/9b/a8d3294808ea8adf3ed7da5d7d8827d629329b0f250208c0c765f13df6cc/sqlalchemy-iris-0.9.0.tar.gz
+[2024-04-17 13:57:46] INFO root fetch - processPackages [MechEyeAPI]: Downloading https://files.pythonhosted.org/packages/f7/19/7cb4ab581636d0764bfc004df34656461442c415708ab533bd246baab9d5/MechEyeAPI-2.3.2-cp39-cp39-win_amd64.whl
+[2024-04-17 13:57:46] INFO root fetch - processPackages [ml2json]: executing diffoscope
+[2024-04-17 13:57:46] INFO root fetch - processPackages [ml2json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml2json-0.3.1.tar.gz tmp/ml2json-0.3.2.tar.gz --markdown 20240417/m/ml2json/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-17 13:57:47] INFO root fetch - processPackages [autocron]: Remove: archive file [/home/abi/fetcher/tmp/autocron-1.0.tar.gz]
+[2024-04-17 13:57:47] INFO root fetch - processPackages [autocron]: Remove: archive file [/home/abi/fetcher/tmp/autocron-1.0rc1.tar.gz]
+[2024-04-17 13:57:47] INFO root fetch - main [MainThread]: End processing [autocron]: success
+[2024-04-17 13:57:47] INFO root fetch - processPackages [sqlalchemy-iris]: executing diffoscope
+[2024-04-17 13:57:47] INFO root fetch - processPackages [sqlalchemy-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-iris-0.8.1b1.tar.gz tmp/sqlalchemy-iris-0.9.0.tar.gz --markdown 20240417/s/sqlalchemy-iris/0.8.1b1-0.9.0/README.md --exclude *.pyd
+[2024-04-17 13:57:47] INFO root fetch - processPackages [ml2json]: Remove: archive file [/home/abi/fetcher/tmp/ml2json-0.3.1.tar.gz]
+[2024-04-17 13:57:47] INFO root fetch - processPackages [ml2json]: Remove: archive file [/home/abi/fetcher/tmp/ml2json-0.3.2.tar.gz]
+[2024-04-17 13:57:47] INFO root fetch - main [MainThread]: End processing [ml2json]: success
+[2024-04-17 13:57:47] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.8.1b1.tar.gz]
+[2024-04-17 13:57:47] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.9.0.tar.gz]
+[2024-04-17 13:57:47] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
+[2024-04-17 13:57:48] INFO root fetch - processPackages [MechEyeAPI]: executing diffoscope
+[2024-04-17 13:57:48] INFO root fetch - processPackages [MechEyeAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MechEyeAPI-2.3.1-cp39-cp39-win_amd64.whl.zip tmp/MechEyeAPI-2.3.2-cp39-cp39-win_amd64.whl.zip --markdown 20240417/M/MechEyeAPI/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-04-17 13:58:35] INFO root fetch - processPackages [MechEyeAPI]: Remove: archive file [/home/abi/fetcher/tmp/MechEyeAPI-2.3.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 13:58:35] INFO root fetch - processPackages [MechEyeAPI]: Remove: archive file [/home/abi/fetcher/tmp/MechEyeAPI-2.3.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-17 13:58:35] INFO root fetch - main [MainThread]: End processing [MechEyeAPI]: success
+[2024-04-17 13:58:35] INFO root fetch - main [MainThread]: Store serial: [22804895]
