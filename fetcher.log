@@ -8483,3 +8483,43 @@
 [2024-04-17 04:47:30] INFO root fetch - processPackages [searchspotify]: Remove: archive file [/home/abi/fetcher/tmp/searchspotify-0.0.9.tar.gz]
 [2024-04-17 04:47:30] INFO root fetch - main [MainThread]: End processing [searchspotify]: success
 [2024-04-17 04:47:30] INFO root fetch - main [MainThread]: Store serial: [22799084]
+[2024-04-17 04:49:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22799084]
+[2024-04-17 04:49:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-17 04:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git2prompt
+[2024-04-17 04:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mavsdk
+[2024-04-17 04:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ptcr
+[2024-04-17 04:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sodata
+[2024-04-17 04:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sodata
+[2024-04-17 04:49:38] INFO root fetch - processPackages [ptcr]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-17 04:49:38] INFO root fetch - processPackages [mavsdk]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-17 04:49:38] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/bf/19/20b9c3905675fb560598540fc552a0bbc4b5c4babc2f4454bdef6f7dbbc0/ptcr-0.1.2.tar.gz
+[2024-04-17 04:49:38] INFO root fetch - processPackages [sodata]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-17 04:49:38] INFO root fetch - processPackages [sodata]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-17 04:49:38] WARNING root fetch - processPackages [git2prompt]: Skipping, unable to determine old version
+[2024-04-17 04:49:38] INFO root fetch - main [MainThread]: End processing [git2prompt] error
+[2024-04-17 04:49:39] INFO root fetch - processPackages [mavsdk]: Downloading https://files.pythonhosted.org/packages/0e/6b/3b4f8414109ee9f3dca2ee1b16b7d26a848b2426b3b87d2830742f7eec85/mavsdk-2.4.0-py3-none-win_amd64.whl
+[2024-04-17 04:49:39] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/3a/46/d489c68835ad2a384c21fc9e10b90ee23c695af50c29daf07981723f4609/sodata-0.0.6.tar.gz
+[2024-04-17 04:49:39] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/3a/46/d489c68835ad2a384c21fc9e10b90ee23c695af50c29daf07981723f4609/sodata-0.0.6.tar.gz
+[2024-04-17 04:49:39] INFO root fetch - processPackages [ptcr]: Downloading https://files.pythonhosted.org/packages/a7/f3/8a6aa3b5a031cb7badbca3a96520ac225de739794addcb2b0a4b40686518/ptcr-0.1.3.tar.gz
+[2024-04-17 04:49:39] INFO root fetch - processPackages [mavsdk]: Downloading https://files.pythonhosted.org/packages/3e/a7/ff8fd1fae23713a005252d353c6993f72e471cd51b5313830d3c91677b0d/mavsdk-2.4.1-py3-none-win_amd64.whl
+[2024-04-17 04:49:39] INFO root fetch - processPackages [ptcr]: executing diffoscope
+[2024-04-17 04:49:39] INFO root fetch - processPackages [ptcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptcr-0.1.2.tar.gz tmp/ptcr-0.1.3.tar.gz --markdown 20240417/p/ptcr/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-17 04:49:39] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/92/c0/068e9d613eb663c69828e03e1fda0aba24f0776e0b9a6ecd7dc62e8b2430/sodata-0.0.9.tar.gz
+[2024-04-17 04:49:39] INFO root fetch - processPackages [sodata]: Downloading https://files.pythonhosted.org/packages/92/c0/068e9d613eb663c69828e03e1fda0aba24f0776e0b9a6ecd7dc62e8b2430/sodata-0.0.9.tar.gz
+[2024-04-17 04:49:39] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-17 04:49:39] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.6.tar.gz tmp/sodata-0.0.9.tar.gz --markdown 20240417/s/sodata/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-17 04:49:39] INFO root fetch - processPackages [sodata]: executing diffoscope
+[2024-04-17 04:49:39] INFO root fetch - processPackages [sodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sodata-0.0.6.tar.gz tmp/sodata-0.0.9.tar.gz --markdown 20240417/s/sodata/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-17 04:49:39] INFO root fetch - processPackages [mavsdk]: executing diffoscope
+[2024-04-17 04:49:39] INFO root fetch - processPackages [mavsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mavsdk-2.4.0-py3-none-win_amd64.whl.zip tmp/mavsdk-2.4.1-py3-none-win_amd64.whl.zip --markdown 20240417/m/mavsdk/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-04-17 04:49:39] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.1.2.tar.gz]
+[2024-04-17 04:49:39] INFO root fetch - processPackages [ptcr]: Remove: archive file [/home/abi/fetcher/tmp/ptcr-0.1.3.tar.gz]
+[2024-04-17 04:49:39] INFO root fetch - main [MainThread]: End processing [ptcr]: success
+[2024-04-17 04:49:40] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.6.tar.gz]
+[2024-04-17 04:49:40] INFO root fetch - processPackages [sodata]: Remove: archive file [/home/abi/fetcher/tmp/sodata-0.0.9.tar.gz]
+[2024-04-17 04:49:40] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-17 04:49:40] INFO root fetch - main [MainThread]: End processing [sodata]: success
+[2024-04-17 04:49:40] INFO root fetch - processPackages [mavsdk]: Remove: archive file [/home/abi/fetcher/tmp/mavsdk-2.4.0-py3-none-win_amd64.whl.zip]
+[2024-04-17 04:49:40] INFO root fetch - processPackages [mavsdk]: Remove: archive file [/home/abi/fetcher/tmp/mavsdk-2.4.1-py3-none-win_amd64.whl.zip]
+[2024-04-17 04:49:40] INFO root fetch - main [MainThread]: End processing [mavsdk]: success
+[2024-04-17 04:49:40] INFO root fetch - main [MainThread]: Store serial: [22799103]
