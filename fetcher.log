@@ -7091,3 +7091,54 @@
 [2024-04-17 03:29:53] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
 [2024-04-17 03:29:53] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-04-17 03:29:53] INFO root fetch - main [MainThread]: Store serial: [22798399]
+[2024-04-17 03:31:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22798399]
+[2024-04-17 03:32:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-17 03:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panos-upgrade-assurance
+[2024-04-17 03:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: project-utils-django
+[2024-04-17 03:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lennoxs30api
+[2024-04-17 03:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moval
+[2024-04-17 03:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mirascope-cli
+[2024-04-17 03:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reviutils
+[2024-04-17 03:32:02] WARNING root fetch - processPackages [mirascope-cli]: Skipping, unable to determine old version
+[2024-04-17 03:32:02] INFO root fetch - main [MainThread]: End processing [mirascope-cli] error
+[2024-04-17 03:32:02] INFO root fetch - processPackages [project-utils-django]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-17 03:32:02] INFO root fetch - processPackages [reviutils]: New version: [1.4.0a5] Old Version: [1.4.0a4]
+[2024-04-17 03:32:02] INFO root fetch - processPackages [moval]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 03:32:02] INFO root fetch - processPackages [panos-upgrade-assurance]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-17 03:32:02] INFO root fetch - processPackages [lennoxs30api]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-17 03:32:02] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/24/86/620756ea0ce4250459735a38101b4b761f44fb7184bd72553a0b4ea4cbdd/reviutils-1.4.0a4.tar.gz
+[2024-04-17 03:32:02] INFO root fetch - processPackages [project-utils-django]: Downloading https://files.pythonhosted.org/packages/ec/9c/dd03f86c6365d0418583a709796b100e17ffdd468b0ba119edcb20951f0f/project-utils-django-1.0.2.tar.gz
+[2024-04-17 03:32:02] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/2f/2a/fce64bfb12450128441844587623d883ace479e64f62685d578d0994f441/moval-0.2.8.tar.gz
+[2024-04-17 03:32:02] INFO root fetch - processPackages [panos-upgrade-assurance]: Downloading https://files.pythonhosted.org/packages/59/74/add51757615e34b6a39c53a8444dc82427c88297080fb68055962aec2f4b/panos_upgrade_assurance-0.3.5.tar.gz
+[2024-04-17 03:32:02] INFO root fetch - processPackages [lennoxs30api]: Downloading https://files.pythonhosted.org/packages/7d/0e/b7a6cc3782efa8e73dc1916ad2d495059414eed6b24693dd8c2f31c31897/lennoxs30api-0.2.8.tar.gz
+[2024-04-17 03:32:02] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/ad/4e/1ade376222c4151a24bb8a4462afedaa311f1595b592028fb7632f57e1ae/moval-0.2.9.tar.gz
+[2024-04-17 03:32:02] INFO root fetch - processPackages [project-utils-django]: Downloading https://files.pythonhosted.org/packages/b9/b5/53d919494b2bb8b4265b431973c1d299b1810e77334c628f4f5a1f4180e3/project-utils-django-1.0.3.tar.gz
+[2024-04-17 03:32:02] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/4b/b0/f4d0baa866075cda7b1fd29bab6a8752544774c3b9227405967e08896031/reviutils-1.4.0a5.tar.gz
+[2024-04-17 03:32:02] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-04-17 03:32:02] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.2.8.tar.gz tmp/moval-0.2.9.tar.gz --markdown 20240417/m/moval/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 03:32:02] INFO root fetch - processPackages [project-utils-django]: executing diffoscope
+[2024-04-17 03:32:02] INFO root fetch - processPackages [project-utils-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project-utils-django-1.0.2.tar.gz tmp/project-utils-django-1.0.3.tar.gz --markdown 20240417/p/project-utils-django/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-17 03:32:02] INFO root fetch - processPackages [panos-upgrade-assurance]: Downloading https://files.pythonhosted.org/packages/e6/0e/33a8b42121824b82096a5e86258d5e8b165a2575bb5942b64222e07ce1e1/panos_upgrade_assurance-0.3.6.tar.gz
+[2024-04-17 03:32:02] INFO root fetch - processPackages [reviutils]: executing diffoscope
+[2024-04-17 03:32:02] INFO root fetch - processPackages [reviutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviutils-1.4.0a4.tar.gz tmp/reviutils-1.4.0a5.tar.gz --markdown 20240417/r/reviutils/1.4.0a4-1.4.0a5/README.md --exclude *.pyd
+[2024-04-17 03:32:02] INFO root fetch - processPackages [panos-upgrade-assurance]: executing diffoscope
+[2024-04-17 03:32:02] INFO root fetch - processPackages [panos-upgrade-assurance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panos_upgrade_assurance-0.3.5.tar.gz tmp/panos_upgrade_assurance-0.3.6.tar.gz --markdown 20240417/p/panos-upgrade-assurance/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-17 03:32:03] INFO root fetch - processPackages [lennoxs30api]: Downloading https://files.pythonhosted.org/packages/f4/7f/978a49795c350f06e17e5d5ee37402277c3b161e4bfbf39f1291f7ce0350/lennoxs30api-0.2.9.tar.gz
+[2024-04-17 03:32:03] INFO root fetch - processPackages [lennoxs30api]: executing diffoscope
+[2024-04-17 03:32:03] INFO root fetch - processPackages [lennoxs30api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240417:/home/abi/fetcher/20240417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lennoxs30api-0.2.8.tar.gz tmp/lennoxs30api-0.2.9.tar.gz --markdown 20240417/l/lennoxs30api/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-17 03:32:03] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.8.tar.gz]
+[2024-04-17 03:32:03] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.9.tar.gz]
+[2024-04-17 03:32:03] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-04-17 03:32:03] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0a4.tar.gz]
+[2024-04-17 03:32:03] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0a5.tar.gz]
+[2024-04-17 03:32:03] INFO root fetch - main [MainThread]: End processing [reviutils]: success
+[2024-04-17 03:32:03] INFO root fetch - processPackages [project-utils-django]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-django-1.0.2.tar.gz]
+[2024-04-17 03:32:03] INFO root fetch - processPackages [project-utils-django]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-django-1.0.3.tar.gz]
+[2024-04-17 03:32:03] INFO root fetch - main [MainThread]: End processing [project-utils-django]: success
+[2024-04-17 03:32:03] INFO root fetch - processPackages [panos-upgrade-assurance]: Remove: archive file [/home/abi/fetcher/tmp/panos_upgrade_assurance-0.3.5.tar.gz]
+[2024-04-17 03:32:03] INFO root fetch - processPackages [panos-upgrade-assurance]: Remove: archive file [/home/abi/fetcher/tmp/panos_upgrade_assurance-0.3.6.tar.gz]
+[2024-04-17 03:32:03] INFO root fetch - main [MainThread]: End processing [panos-upgrade-assurance]: success
+[2024-04-17 03:32:04] INFO root fetch - processPackages [lennoxs30api]: Remove: archive file [/home/abi/fetcher/tmp/lennoxs30api-0.2.8.tar.gz]
+[2024-04-17 03:32:04] INFO root fetch - processPackages [lennoxs30api]: Remove: archive file [/home/abi/fetcher/tmp/lennoxs30api-0.2.9.tar.gz]
+[2024-04-17 03:32:04] INFO root fetch - main [MainThread]: End processing [lennoxs30api]: success
+[2024-04-17 03:32:04] INFO root fetch - main [MainThread]: Store serial: [22798479]
